@@ -1,5 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Image</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .container img {
+    max-height: 33.33%; /* Limits the image to a third of the viewport height */
+    max-width: 100%; /* Ensures the image does not exceed the width of the viewport */
+  }
+</style>
+</head>
 <body>
-<h1>It Works!</h1>
-</bdoy>
+
+<div class="container">
+  <img src="logo.png" alt="Logo">
+</div>
+
+</body>
 </html>
