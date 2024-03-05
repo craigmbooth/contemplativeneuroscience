@@ -3,15 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
 <title>Contemplative Neuroscience</title>
 <style>
   body, html {
     height: 100%;
     margin: 0;
     background-color: white;
+    font-family: 'Lora', serif;
   }
   .container {
     display: flex;
+    flex-direction: column; /* Align children vertically */
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -20,12 +26,24 @@
     max-height: 66%; /* Limits the image to a third of the viewport height */
     max-width: 100%; /* Ensures the image does not exceed the width of the viewport */
   }
+  .title {
+    text-align: center;
+    font-size: 64px; /* Title size, adjust as needed */
+    margin-top: 20px; /* Space between the image and the text */
+  }
+  .coming-soon {
+    font-size: 32px; /* Smaller font size for the secondary text */
+    color: grey; /* Grey color for the text */
+    margin-top: 10px; /* Space between the title and the secondary text */
+  }
 </style>
 </head>
 <body>
 
 <div class="container">
   <img src="logo.png" alt="Logo">
+  <div class="title">Contemplative Neuroscience</div>
+  <div class="coming-soon">Coming Soon!</div>
 </div>
 
 </body>
