@@ -11,7 +11,7 @@ snippet: "This study presents the first fMRI and EEG evidence of the neural effe
 
 Jhana meditation, a practice rooted in Theravada Buddhism, involves entering deeply focused, absorptive states of meditation. It's characterized by the progressive quieting of the mind, leading to intense states of concentration and bliss. Practitioners move through different levels or "jhanas," each marked by specific mental qualities such as sustained attention, rapture, joy, and equanimity. This practice emphasizes letting go of sensory input and mental activities to reach states of profound stillness and clarity.
 
-This study, the first to compare brain states between different jhana states,  uses both fMRI scans and EEG recordings to investigate the neural effects of jhana meditation. The researchers hypothesized that jhana meditation would lead to decreased activity in brain regions associated with external awareness, verbalization, and orientation, as well as increased activity in regions related to attention and pleasure. The results supported each of these hypotheses.
+This study, the first to compare brain states between different jhana states,  uses both {% include definition.html term="fmri" %} scans and {% include definition.html term="eeg" %} recordings to investigate the neural effects of jhana meditation. The researchers hypothesized that jhana meditation would lead to decreased activity in brain regions associated with external awareness, verbalization, and orientation, as well as increased activity in regions related to attention and pleasure. The results supported each of these hypotheses.
 
 ## What They Did
 

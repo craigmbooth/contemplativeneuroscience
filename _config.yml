@@ -1,5 +1,4 @@
-# Build settings
-gems:
+plugins:
   - jemoji
   - jekyll-paginate
 
@@ -31,11 +30,9 @@ menu_items:
 
 url: "https://contemplativeneuroscience.com" # the base hostname & protocol for your site
 baseurl: ""
+
 #used to display twitter cards
 twitter_handle: '@cmb'
-
-#fill in disqus shortname to use disqus
-#disqus: disqus-shortname
 
 #google_analytics: UA-XXXXX-X
 
@@ -50,23 +47,10 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
-  # - icon:	github
-  #   url:	https://github.com/dirkfabisch
-  #   desc:	Fork me on github
-  #   share_url:
-  #   share_title:
-  #   share_link:
-
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+definitions:
+  - term: eeg
+    title: EEG
+    def: This is an electro thingy
+  - term: fmri
+    title: fMRI
+    def: A functional MRI

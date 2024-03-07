@@ -1,0 +1,12 @@
+
+
+{%- for definition in site.data.definitions -%}
+{% if definition.term == include.term %}
+<span class="tooltip">{{definition.title}}
+    <span class="tooltiptext">
+        {{definition.def}}
+    </span>
+</span>
+{% endif %}
+{%- endfor -%}
+

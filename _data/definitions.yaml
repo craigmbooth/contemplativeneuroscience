@@ -1,0 +1,6 @@
+- term: eeg
+  title: EEG
+  def: An electroencephalogram (EEG) is a recording of brain activity. During this painless test, small sensors are attached to the scalp to pick up the electrical signals produced by the brain.
+- term: fmri
+  title: fMRI
+  def: An fMRI (functional Magnetic Resonance Imaging) measures changes in blood flow related to neural activity in the brain, offering insights into brain function and activity patterns.
