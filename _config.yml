@@ -9,9 +9,7 @@ description: >
    Reviewing Papers on Meditative States and Their Neurological Signatures
 
 
-email: a-mail@mail.mail
-#blog logo
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo_sm.png"
 float_logo: false # Adds a floating little logo to the top left of the screen.
 
 # blog cover
