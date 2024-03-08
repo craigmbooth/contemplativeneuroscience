@@ -1,20 +1,21 @@
 <!-- header start -->
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XV8N5DDQYP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XV8N5DDQYP');
+</script>
+
 <div class="teaserimage">
   <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
     <div class="blog-title">{{ site.title }}</div>
     <div class="blog-subtitle">{{site.description}}</div>
 
     <div class="custom-links">
-<!--      {% for social in site.social %}
-        {% if social.url %}
-            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
-        {% endif %}
-      {% endfor %} -->
-
       {% for menu_item in site.menu_items %}
         <a href="{{ menu_item.url | prepend: site.baseurl }}">{{ menu_item.title }}</a>
       {% endfor %}
