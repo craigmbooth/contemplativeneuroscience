@@ -3,6 +3,8 @@
 
 // To be in shared
 $site-highlight-color: #f62681
+$content-max-width: 1024px
+$tool-tip-width: 200px
 
 @import 'syntax-highlighting'
 
@@ -80,7 +82,7 @@ body
     color: white
   .blog-title
     font-size: 70px
-    @media (max-width: 900px)
+    @media (max-width: 768px)
       font-size: 50px
     text-align: center
     font-weight: 700
@@ -102,9 +104,10 @@ body
       &:hover
         color: $site-highlight-color
       margin-right: 20px
+
 .blog-header
   width: 100%
-  max-width: 640px
+  max-width: $content-max-width
   margin: 0 auto
   position: relative
   padding: 0
@@ -130,7 +133,18 @@ body
 
 .content
   width: 100%
-  max-width: 1024px
+
+  // The maximum width of the content box is 1024px
+  //If we get to where a tooltip could exit the container, then start shrinking to
+  //80% of the width so that tooltips do not overlap the edge
+  //and when we get all the way to 768px, go back to 100% because
+  //we have flipped to mobile-safe tooltips.
+  max-width: $content-max-width
+  @media (max-width: $content-max-width+$tool-tip-width)
+    max-width: 80%
+  @media (max-width: 768px)
+    max-width: $content-max-width
+
   margin: 0 auto
   margin-top: 100px
   @include box-sizing(border-box)

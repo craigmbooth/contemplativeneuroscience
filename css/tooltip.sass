@@ -3,22 +3,18 @@
 
 // To be in shared
 $site-highlight-color: #f62681
-
-// https://www.w3schools.com/css/css_tooltip.asp
+$tool-tip-width: 200px
+$content-max-width: 1024px
 
 .tooltip
-
-
   position: relative
-
-
   display: inline-block
   border-bottom: 1px dashed $site-highlight-color
   color: $site-highlight-color
 
   .tooltiptext
     visibility: hidden
-    width: 240px
+    width: $tool-tip-width
     background-color: #353d5a
     color: #fff
     text-align: center
@@ -31,11 +27,12 @@ $site-highlight-color: #f62681
     transition: opacity 0.3s
     left: 50%
     bottom: 100%
-    margin-left: -120px // half the width
+    margin-left: -$tool-tip-width/2
+
     @media (max-width: 768px)
         position: fixed
         bottom: auto
-        top: 40%
+        top: 50%
         left: 50%
 
   &:hover .tooltiptext
