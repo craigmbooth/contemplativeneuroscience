@@ -33,7 +33,7 @@ Before running this experiment, the authors had developed a set of hypotheses ab
 
 Each of the hypotheses were borne out.  This table, containing one row for each hypothesis shows the hypothesis in the left column, whether the expectation is that jhana meditation would increase (+) or decrease (-) activity in that brain area, and then on the right the results.
 
-![Table of Hypotheses and Results. THe left-most column contains the hypothesis, next is the location on the head at which brain waves were measured, followed by the hypothesis prediction for whether brain activity in that area should increase (+) or decrease.  The right-most table contains the difference in activity between the restful state and the jhanas.  In every case, the direction of the effect matches the hypothesis prediction.](/assets/article_images/ecstatic-meditation-reward-system/jhana_table.png)
+![Table of Hypotheses and Results. The left-most column contains the hypothesis, next is the location on the head at which brain waves were measured, followed by the hypothesis prediction for whether brain activity in that area should increase (+) or decrease.  The right-most table contains the difference in activity between the restful state and the jhanas.  In every case, the direction of the effect matches the hypothesis prediction.](/assets/article_images/ecstatic-meditation-reward-system/jhana_table.png)
 
 In each of the 11 brain areas, the results matched the predictions of each hypothesis.  In the words of the authors:
 
@@ -67,4 +67,4 @@ The authors note their results are incompatible with others performed on meditat
 
 ## Citation
 
-Hagerty, M. R., Isaacs, J., Brasington, L., Shupe, L., Fetz, E. E., & Cramer, S. C. (2013). Case Study of Ecstatic Meditation: fMRI and EEG Evidence of Self-Stimulating a Reward System. In Neural Plasticity (Vol. 2013, pp. 1–12). Hindawi Limited. [https://doi.org/10.1155/2013/653572](https://doi.org/10.1155/2013/653572)
+Hagerty, M. R., Isaacs, J., Brasington, L., Shupe, L., Fetz, E. E., & Cramer, S. C. (2013). Case Study of Ecstatic Meditation: fMRI and EEG Evidence of Self-Stimulating a Reward System. In Neural Plasticity (Vol. 2013, pp. 1–12). Hindawi Limited. [10.1155/2013/653572](https://doi.org/10.1155/2013/653572)

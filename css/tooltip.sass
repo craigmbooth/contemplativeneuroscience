@@ -7,7 +7,11 @@ $site-highlight-color: #f62681
 // https://www.w3schools.com/css/css_tooltip.asp
 
 .tooltip
+
+
   position: relative
+
+
   display: inline-block
   border-bottom: 1px dashed $site-highlight-color
   color: $site-highlight-color
@@ -28,17 +32,23 @@ $site-highlight-color: #f62681
     left: 50%
     bottom: 100%
     margin-left: -120px // half the width
+    @media (max-width: 768px)
+        position: fixed
+        bottom: auto
+        top: 40%
+        left: 50%
 
   &:hover .tooltiptext
     visibility: visible
     opacity: 1
 
   .tooltiptext::after
-    content: " "
-    position: absolute
-    top: 100%
-    left: 50%
-    margin-left: -5px
-    border-width: 5px
-    border-style: solid
-    border-color: #353d5a transparent transparent transparent
+    @media (min-width: 768px)
+        content: " "
+        position: absolute
+        top: 100%
+        left: 50%
+        margin-left: -5px
+        border-width: 5px
+        border-style: solid
+        border-color: #353d5a transparent transparent transparent
