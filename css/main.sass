@@ -4,7 +4,7 @@
 // To be in shared
 $site-highlight-color: #f62681
 $content-max-width: 1024px
-$tool-tip-width: 200px
+$tool-tip-width: 300px
 
 @import 'syntax-highlighting'
 
@@ -140,7 +140,7 @@ body
   //and when we get all the way to 768px, go back to 100% because
   //we have flipped to mobile-safe tooltips.
   max-width: $content-max-width
-  @media (max-width: $content-max-width+$tool-tip-width)
+  @media (max-width: $content-max-width+2*$tool-tip-width)
     max-width: 80%
   @media (max-width: 768px)
     max-width: $content-max-width

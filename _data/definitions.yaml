@@ -1,6 +1,16 @@
+- term: brahmaviharas
+  title: Brahmavihārās
+  def: "Brahma Vihara meditation, also known as the Four Immeasurables, involves cultivating four qualities: loving-kindness (metta), compassion (karuna), empathetic joy (mudita), and equanimity (upekkha). It aims to develop a state of unconditional love, compassion towards suffering, joy in the happiness of others, and a balanced mind in all situations."
+  wiki: Brahmavihara
 - term: eeg
   title: EEG
   def: An electroencephalogram (EEG) is a recording of brain activity. During this painless test, small sensors are attached to the scalp to pick up the electrical signals produced by the brain.
+  wiki: Electroencephalography
 - term: fmri
   title: fMRI
   def: An fMRI (functional Magnetic Resonance Imaging) measures changes in blood flow related to neural activity in the brain, offering insights into brain function and activity patterns.
+  wiki: Functional_magnetic_resonance_imaging
+- term: gamma
+  title: Gamma
+  def: "Gamma brain waves are a type of brainwave pattern that oscillate at approximately 25 to 100 Hz. Gamma waves are associated with states of heightened perception, problem-solving, and consciousness. Gamma waves play a crucial role in cognitive functioning, including memory, and information processing, and are thought to integrate thoughts and information from different parts of the brain."
+  wiki: Gamma_wave

@@ -3,7 +3,7 @@
 
 // To be in shared
 $site-highlight-color: #f62681
-$tool-tip-width: 200px
+$tool-tip-width: 320px
 $content-max-width: 1024px
 
 .tooltip
@@ -15,6 +15,10 @@ $content-max-width: 1024px
   .tooltiptext
     visibility: hidden
     width: $tool-tip-width
+    @media (max-width: $content-max-width+2*$tool-tip-width)
+        width: 240px
+    @media (max-width: 768px)
+        width: 320px
     background-color: #353d5a
     color: #fff
     text-align: center
@@ -34,6 +38,12 @@ $content-max-width: 1024px
         bottom: auto
         top: 50%
         left: 50%
+
+    a
+        color: #fff
+        text-decoration: none
+        &:hover
+        text-decoration: underline
 
   &:hover .tooltiptext
     visibility: visible

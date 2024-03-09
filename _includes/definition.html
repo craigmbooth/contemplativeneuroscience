@@ -1,12 +1,10 @@
-
-
 {%- for definition in site.data.definitions -%}
 {% if definition.term == include.term %}
 <span class="tooltip">{{definition.title}}
-    <span class="tooltiptext">
-        {{definition.def}}
-    </span>
+<span class="tooltiptext">
+{{definition.def}}
+{%- if definition.wiki != empty -%}<br><br><a href="https://en.wikipedia.org/wiki/{{ definition.wiki }}" target="_blank">Read More</a>{%- endif -%}
+</span>
 </span>
 {% endif %}
 {%- endfor -%}
-
