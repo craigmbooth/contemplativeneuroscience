@@ -5,6 +5,7 @@ date:   2024-03-05
 categories: jhana eeg fmri
 doi: 10.1155/2013/653572
 snippet: "This study presents the first fMRI and EEG evidence of the neural effects of jhana meditation. The results show that jhana meditation quiets the brain, while simultaneously increasing activity in the brain's pleasure centers and areas associated with attention and self-control."
+citation: "Hagerty, M. R., Isaacs, J., Brasington, L., Shupe, L., Fetz, E. E., & Cramer, S. C. (2013). Case Study of Ecstatic Meditation: fMRI and EEG Evidence of Self-Stimulating a Reward System. In Neural Plasticity (Vol. 2013, pp. 1–12). Hindawi Limited. [10.1155/2013/653572](https://doi.org/10.1155/2013/653572)"
 ---
 
 ## Background Information
@@ -64,7 +65,3 @@ I find it hard to reconcile this language -- which equates jhana meditation with
 ### Different Meditation Techniques Have Different Effects
 
 The authors note their results are incompatible with others performed on meditators performing Metta meditation, a practice of loving-kindness, and also from the effects of transcendental meditation.  This is a reminder that different meditation practices have different effects on the brain, and it is likely that the there are a large number of altered mental states achievable using meditative techniques.
-
-## Citation
-
-Hagerty, M. R., Isaacs, J., Brasington, L., Shupe, L., Fetz, E. E., & Cramer, S. C. (2013). Case Study of Ecstatic Meditation: fMRI and EEG Evidence of Self-Stimulating a Reward System. In Neural Plasticity (Vol. 2013, pp. 1–12). Hindawi Limited. [10.1155/2013/653572](https://doi.org/10.1155/2013/653572)

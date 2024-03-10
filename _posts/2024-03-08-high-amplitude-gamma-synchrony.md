@@ -5,6 +5,7 @@ date:   2024-03-08
 categories: metta eeg gamma
 doi: 10.1073/pnas.0407401101
 snippet: "This study compares the brain wave activity of a group of seasoned meditators to that of meditation novices, both at rest and during meditation. It finds that experienced meditators generate extremely high amounts of gamma brain waves, associated with enhanced perception, consciouness, attention and memory.  These gamma waves are elevated both in- and out- side of meditation. More meditation experience is correlated with stronger gamma waves."
+citation: "Lutz, A., Greischar, L. L., Rawlings, N. B., Ricard, M., & Davidson, R. J. (2004). Long-term meditators self-induce high-amplitude gamma synchrony during mental practice. In Proceedings of the National Academy of Sciences (Vol. 101, Issue 46, pp. 16369–16373). Proceedings of the National Academy of Sciences. [10.1073/pnas.0407401101](https://www.doi.org/10.1073/pnas.0407401101)"
 ---
 
 ## Background Information
@@ -71,7 +72,3 @@ The authors note that the results of this study are completely incompatible with
 > These concentration techniques can be seen as a particular form of top-down control that may exhibit an important slow oscillatory component. First-person descriptions of objectless meditations, however, differ radically from those of concentration meditation. Objectless meditation does not directly attend to a specific object but rather cultivates a state of being
 
 This particular result indicates that there are likely a large variety of altered states achievable through meditation, and that different techniques will have different effects on the brain.
-
-## Citation
-
-Lutz, A., Greischar, L. L., Rawlings, N. B., Ricard, M., & Davidson, R. J. (2004). Long-term meditators self-induce high-amplitude gamma synchrony during mental practice. In Proceedings of the National Academy of Sciences (Vol. 101, Issue 46, pp. 16369–16373). Proceedings of the National Academy of Sciences. 10.1073/pnas.0407401101

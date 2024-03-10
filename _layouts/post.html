@@ -38,6 +38,10 @@
         {% endif %}
         <section class="post-content">
           {{content}}
+          {%- if page.citation != null -%}
+            <h3>Citation</h3>
+            {{page.citation|markdownify | replace: '<p>', '<p class="citation">'}}
+          {%- endif -%}
         </section>
         <footer class="post-footer">
           <section class="share">
@@ -62,7 +66,6 @@
               <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
             </section>
           </div>
-          {{/post}}
           <div class="isRight">
             <h5 class="index-headline featured"><span>RSS</span></h5>
             <footer class="site-footer">
