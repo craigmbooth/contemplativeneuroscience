@@ -38,6 +38,7 @@
         {% endif %}
         <section class="post-content">
           {{content}}
+          {% include subscribe.html %}
           {%- if page.citation != null -%}
             <h3>Citation</h3>
             {{page.citation|markdownify | replace: '<p>', '<p class="citation">'}}
