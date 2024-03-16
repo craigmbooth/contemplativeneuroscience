@@ -14,6 +14,7 @@ $content-max-width: 1024px
 
   .tooltiptext
     visibility: hidden
+    pointer-events: none
     width: $tool-tip-width
     @media (max-width: $content-max-width+2*$tool-tip-width)
         width: 240px
@@ -36,17 +37,15 @@ $content-max-width: 1024px
     @media (max-width: 768px)
         position: fixed
         bottom: auto
-        top: 50%
+        top: 30%
         left: 50%
 
     a
-        color: #fff
-        text-decoration: none
-        &:hover
-        text-decoration: underline
+      color: #fff
 
   &:hover .tooltiptext
     visibility: visible
+    pointer-events: auto
     opacity: 1
 
   .tooltiptext::after
