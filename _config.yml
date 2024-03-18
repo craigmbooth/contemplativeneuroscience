@@ -1,6 +1,7 @@
 plugins:
   - jemoji
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Site settings
 title: "Contemplative Neuroscience"

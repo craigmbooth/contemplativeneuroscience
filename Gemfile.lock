@@ -270,6 +270,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   github-pages
+  jekyll-sitemap
   jemoji
   webrick (~> 1.8)
 
