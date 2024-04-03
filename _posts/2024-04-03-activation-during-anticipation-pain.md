@@ -2,7 +2,7 @@
 layout: post
 title:  "Altered anterior insula activation during anticipation and experience of painful stimuli in expert meditators"
 date:   2024-04-03
-categories: pain fmri
+categories: pain fmri mbsr
 doi: 10.1016/j.neuroimage.2012.09.030
 snippet: "Expert meditators experience less unpleasantness from pain than novices, despite similar intensity ratings. This difference is linked to enhanced activity in the brain's salience network during pain, suggesting that meditation can modify the emotional response to pain and facilitate quicker habituation to repeated pain stimuli."
 citation: "Lutz, A., McFarlin, D. R., Perlman, D. M., Salomons, T. V., & Davidson, R. J. (2013). Altered anterior insula activation during anticipation and experience of painful stimuli in expert meditators. In NeuroImage (Vol. 64, pp. 538–546). Elsevier BV. [10.1016/j.neuroimage.2012.09.030](https://doi.org/10.1016/j.neuroimage.2012.09.030)"
@@ -14,13 +14,13 @@ It is well known that the mind regulates our perceptions of pain.  There are man
 
 Further research indicates that meditation can also reduce the perception of pain through acceptance and mindfulness.  Instead of striving to distract, ignore or reframe, meditation instead cultivates states of open acceptance and non-judgmental awareness of the present moment.  This is thought to reduce the perception of pain by reducing the emotional reaction to it.
 
-Techniques such as Mindfulness Based Stress Reduction ({% include definition.html term="MBSR" %}) and Acceptance Commitment Therapy (ACT) have been shown to decrease pain unpleasantness and lead to a reduction of symptoms in chronic pain patients.
+Techniques such as Mindfulness Based Stress Reduction ({% include definition.html term="mbsr" %}) and Acceptance Commitment Therapy (ACT) have been shown to decrease pain unpleasantness and lead to a reduction of symptoms in chronic pain patients.
 
 This study aimed to investigate the neural mechanisms underlying the effects of open awareness meditation on pain perception, focusing on the amygdala and the so-called "salience network", a set of regions in the brain thought to be responsible for detection and integration of emotional and sensory stimuli, as well as in modulating the switch between the internally directed cognition of the default mode network ({% include definition.html term="DMN" %}) and externally directed cognition.
 
 ## What They Did
 
-The researchers compared the neural mechanisms of pain perception between expert meditators and novice participants using functional magnetic resonance imaging (fMRI). The study group consisted of 14 long-term Buddhist practitioners, each with over 10,000 hours of meditation experience, and 14 control subjects who had no prior experience with meditation. The central focus was on the effects of Open Presence (OP) meditation, a practice aimed at cultivating a state of acceptance and openness, on the participants' experience of pain. Participants were exposed to both painful and non-painful thermal stimuli while undergoing fMRI scans, allowing the researchers to observe the brain's response to pain and meditation in real time.
+The researchers compared the neural mechanisms of pain perception between expert meditators and novice participants using functional magnetic resonance imaging (fMRI). The study group consisted of 14 long-term Buddhist practitioners, each with over 10,000 hours of meditation experience, and 14 control subjects who had no prior experience with meditation. The central focus was on the effects of Open Presence (OP) meditation, a practice aimed at cultivating a state of acceptance and openness, on the participants' experience of pain. Participants were exposed to both painful and non-painful thermal stimuli while undergoing {% include definition.html term="fmri" %} scans, allowing the researchers to observe the brain's response to pain and meditation in real time.
 
 ![The timeline for each trial.  The meditators were given 45 seconds to warm up, at 0 seconds, the pain causing device would begin to warm.  12 seconds later, the device would become painfully hot for a period of ten seconds before being switched off.  At 32 and 37 seconds, the subjects were asked to rate the intensity and unpleasantness of the experience.](/assets/article_images/activation-during-anticipation-pain/trial.png)
 
