@@ -6,7 +6,7 @@ categories: mind-wandering
 doi: 10.3758/PBR.16.5.857
 snippet: "This paper measures the propensity for people to mind wander in both laboratory settings and every day life.  The authors find that  the propensity to mind wander is a stable cognitive characteristic, representing an individual dif-
 ference that is reliable across time, activities, and contexts, consistent with the idea that mind wandering represents a failure of executive control."
-citation: "McVay, J. C., Kane, M. J., & Kwapil, T. R. (2009). Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts. In Psychonomic Bulletin &amp; Review (Vol. 16, Issue 5, pp. 857–863). Springer Science and Business Media LLC. [10.3758/pbr.16.5.857](https://doi.org/10.3758/pbr.16.5.857)"
+citation: "McVay, J. C., Kane, M. J., & Kwapil, T. R. (2009). Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts. In *Psychonomic Bulletin &amp; Review* (Vol. 16, Issue 5, pp. 857–863). Springer Science and Business Media LLC. [10.3758/pbr.16.5.857](https://doi.org/10.3758/pbr.16.5.857)"
 ---
 
 ## Background Information

@@ -26,3 +26,7 @@
   title: MBSR
   def: "Mindfulness-Based Stress Reduction (MBSR) is a program designed to help individuals cope with stress, pain, and illness. Developed by Jon Kabat-Zinn in the 1970s, it combines meditation and yoga to promote awareness and stress management. The eight-week program teaches participants to focus on the present moment non-judgmentally, enhancing their ability to manage difficulties."
   wiki: Mindfulness-based_stress_reduction
+- term: telomeres
+  title: Telomeres
+  def: "Telomeres are protective caps at the end of chromosomes that shorten with each cell division. Telomere length is associated with aging and health, with longer telomeres linked to better health and longevity. Stress and lifestyle factors can affect telomere length, making them a potential marker of health and aging."
+  wiki: Telomere

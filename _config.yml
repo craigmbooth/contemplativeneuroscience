@@ -19,7 +19,7 @@ name: 'Craig Booth'
 author: 'Craig Booth'
 author_image: "/assets/images/logo_sm.png"
 
-paginate:	5
+paginate:	10
 
 menu_items:
   - title: Home
