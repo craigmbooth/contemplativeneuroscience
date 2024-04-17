@@ -11,7 +11,7 @@ citation: Jacobs, T. L., Epel, E. S., Lin, J., Blackburn, E. H., Wolkowitz, O. M
 
 ## Background Information
 
-Telomerase is the enzyme responsible for maintenance of the length of {% include definition.html term="telomeres" %}. Recent findings have suggested that telomere length may be regulated by psychological factors, including stress, perception of stress, and well-being.
+Telomerase is the enzyme responsible for maintenance of the length of {% include definition.html term="telomeres" %}. Telomeres are structures made from DNA sequences and proteins found at the ends of chromosomes. They cap and protect the end of a chromosome like the end of a shoelace. Recent findings have suggested that telomere length may be regulated by psychological factors, including stress, perception of stress, and well-being.
 
 > Telomere length has recently been proposed as a useful ‘psychobiomarker’ linking stress and disease. Shortened telomere length and reduced telomerase predict a host of health risks and diseases
 
