@@ -1,0 +1,11 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://contemplativeneuroscience.com/sitemap.xml
+
+# Optional: Block some known bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
