@@ -10,6 +10,10 @@
   title: EEG
   def: An electroencephalogram (EEG) is a recording of brain activity. During this painless test, small sensors are attached to the scalp to pick up the electrical signals produced by the brain.
   wiki: Electroencephalography
+- term: flanker_test
+  title: Flanker Test
+  def: "The flanker test is a cognitive task used to measure interference control—the ability to focus attention on relevant stimuli while suppressing responses to irrelevant distractions. Participants respond to a central target stimulus surrounded by distracting 'flanker' stimuli. Performance on this task reflects the efficiency of controlled and automatic attentional processes."
+  wiki: Eriksen_flanker_task
 - term: fmri
   title: fMRI
   def: An fMRI (functional Magnetic Resonance Imaging) measures changes in blood flow related to neural activity in the brain, offering insights into brain function and activity patterns.
@@ -18,6 +22,10 @@
   title: Gamma
   def: "Gamma brain waves are a type of brainwave pattern that oscillate at approximately 25 to 100 Hz. Gamma waves are associated with states of heightened perception, problem-solving, and consciousness. Gamma waves play a crucial role in cognitive functioning, including memory, and information processing, and are thought to integrate thoughts and information from different parts of the brain."
   wiki: Gamma_wave
+- term: inflammation
+  title: Inflammation
+  def: "Inflammation is a biological response of the immune system to injury, infection, or stress, characterized by the release of signaling molecules called cytokines. Chronic inflammation is linked to impaired cognitive function, increased risk of disease, and accelerated aging."
+  wiki: Inflammation
 - term: jhana
   title: Jhana
   def: "Jhana refers to states of deep concentration or meditative absorption in Buddhist practice, achieved through intense focus and mindfulness. These states represent progressive levels of mental and emotional calm, clarity, and bliss, cultivated through the practice of meditation, leading to profound insight and enlightenment."
@@ -26,6 +34,10 @@
   title: MBSR
   def: "Mindfulness-Based Stress Reduction (MBSR) is a program designed to help individuals cope with stress, pain, and illness. Developed by Jon Kabat-Zinn in the 1970s, it combines meditation and yoga to promote awareness and stress management. The eight-week program teaches participants to focus on the present moment non-judgmentally, enhancing their ability to manage difficulties."
   wiki: Mindfulness-based_stress_reduction
+- term: randomized_controlled_trial
+  title: Randomized Controlled Trial
+  def: A Randomized Controlled Trial is a scientific study design that randomly assigns participants to either an experimental group receiving an intervention or a control group, allowing researchers to measure the true effect of the intervention while minimizing bias.
+  wiki: Randomized_controlled_trial
 - term: telomeres
   title: Telomeres
   def: "Telomeres are protective caps at the end of chromosomes that shorten with each cell division. Telomere length is associated with aging and health, with longer telomeres linked to better health and longevity. Stress and lifestyle factors can affect telomere length, making them a potential marker of health and aging."

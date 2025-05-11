@@ -1,10 +1,25 @@
+{%- assign term_found = false -%}
 {%- for definition in site.data.definitions -%}
-{%- if definition.term == include.term -%}
-<span class="tooltip">{{definition.title}}
-<span class="tooltiptext">
-{{definition.def}}
-{%- if definition.wiki != empty -%}<br><br><a href="https://en.wikipedia.org/wiki/{{ definition.wiki }}" target="_blank">Read More</a>{%- endif -%}
-</span>
+  {%- if definition.term == include.term -%}
+    {%- assign title = definition.title -%}
+    {%- if include.plural and include.plural == true -%}
+      {%- assign title = definition.title | append: 's' -%}
+    {%- endif -%}
+
+    <span class="tooltip">{{ title }}
+      <span class="tooltiptext">
+        {{definition.def}}
+        {%- if definition.wiki and definition.wiki != empty -%}
+          <br><br><a href="https://en.wikipedia.org/wiki/{{ definition.wiki }}" target="_blank">More on Wikipedia</a>
+        {%- endif -%}
+      </span>
+    </span>
+    {%- assign term_found = true -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if term_found == false -%}
+<span class="tooltip">MISSING_TERM: {{include.term}}
+  <span class="tooltiptext">MISSING DEFINITION: Please add this term.</span>
 </span>
 {%- endif -%}
-{%- endfor -%}
