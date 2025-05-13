@@ -36,11 +36,11 @@ The first major finding of this study was that the 8-week MBSR course let to mea
 
 The authors measured this asymmetry by taking the difference in the amount of activity in the right and left hemispheres in the brain, as shown in this figure:
 
-![The subjects were presented with situations that induce negative emotins.  This chart shows the difference in activity in the right and left hemispheres in the brain at "Time 1" (before the meditation course) and "Time 3" (four months after the meditation course) for the meditators and non-meditators.  Before the course, the two groups have consistent asymmetric brain activation.  After the course, the meditation group has more strongly asymmetric brain activiation, in a direction that is consistent with more positive emotions.](/assets/article_images/brain-and-immune-function/brain_asymmetry.png)
+![Bar graph showing changes in brain activation asymmetry between meditation and control groups. The y-axis shows the difference in activity between left and right hemispheres (with higher values indicating greater left-sided activation associated with positive emotions). The x-axis compares measurements at Time 1 (pre-intervention) and Time 3 (four months after intervention). Before the meditation course, both groups show similar levels of asymmetry. After the course, the meditation group (dark bars) shows significantly increased left-sided activation compared to the control group (light bars), indicating a shift toward brain activity patterns associated with positive emotional states. Error bars show standard error, and asterisks indicate statistical significance.](/assets/article_images/brain-and-immune-function/brain_asymmetry.png)
 
 Furthermore, the authors looked at the immune response of the subjects to a flu vaccine, as depicted here:
 
-![The increase in antibodies after a flu vaccine for the control group and meditators. The meditators had significantly more flu antibodies than the non-meditators](/assets/article_images/brain-and-immune-function/flu_vaccine_response.png)
+![Bar graph comparing antibody response to influenza vaccine between meditation and control groups. The y-axis shows antibody titers (concentration of antibodies in blood) after vaccination. The meditation group (dark bar) shows a significantly higher antibody response compared to the control group (light bar), indicating enhanced immune function following the 8-week mindfulness meditation program. Error bars indicate standard error, and the asterisk denotes statistical significance (p<0.05), demonstrating that meditation practice measurably improved immune response to vaccination.](/assets/article_images/brain-and-immune-function/flu_vaccine_response.png)
 
 The authors note that:
 
@@ -56,7 +56,7 @@ And also point to other research on HIV-positive men, where relaxation and stres
 
 Further evidence that the driving factor is meditation comes from this chart, which shows the correlation between the brain activiation asymmetries and the flu vaccine response:
 
-![Correlation of the magnitude of brainwave asymmetries (a measure improved by meditation) to the rise in antibodies after a flu shot.  The meditators who showed the largest increases in brain activation asymmetry also showed the largest responses to the vaccine.  There was no relation between these variables in the non-meditator group.](/assets/article_images/brain-and-immune-function/final_result.png)
+![Scatter plot showing the correlation between brain activity and immune response for both meditation and control groups. The x-axis represents brain activation asymmetry (left minus right hemisphere activity), while the y-axis shows antibody response to influenza vaccine. The meditation group (solid circles with solid regression line) demonstrates a significant positive correlation (r=0.51, p<0.05), meaning participants with greater left-sided brain activation showed stronger immune responses. The control group (open circles with dashed regression line) shows no significant correlation (r=0.1). This graph provides evidence that the meditation-induced changes in brain activity are functionally related to improved immune function, suggesting a potential neurobiological mechanism for meditation's health benefits.](/assets/article_images/brain-and-immune-function/final_result.png)
 
 Overall the authors take these findings to mean that:
 

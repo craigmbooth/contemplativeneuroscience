@@ -595,14 +595,14 @@
 
             <div class="ml-form-embedContent" style=" ">
 
-                <h4>Enjoy This Paper?</h4>
+                <h4 id="newsletter-heading">Enjoy This Paper?</h4>
                 <p>Keep in touch and get an email when new contemplative neuroscience paper summaries are posted</p>
 <p></p>
 <p><br></p>
 
             </div>
 
-            <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/864413/forms/115466837896987758/subscribe" data-code="" method="post" target="_blank">
+            <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/864413/forms/115466837896987758/subscribe" data-code="" method="post" target="_blank" aria-labelledby="newsletter-heading">
               <div class="ml-form-formContent">
 
 
@@ -610,11 +610,12 @@
                   <div class="ml-form-fieldRow ml-last-item">
                     <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
 
-
+                      <label for="subscribe-email" class="sr-only">Email address</label>
 
 
                       <!-- input -->
-                      <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+                      <input id="subscribe-email" aria-label="Email address" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email" aria-describedby="subscribe-email-error">
+                      <div id="subscribe-email-error" class="error-message" aria-live="polite"></div>
                       <!-- /input -->
 
                       <!-- textarea -->
@@ -668,9 +669,9 @@
 
               <div class="ml-form-embedSubmit">
 
-                  <button type="submit" class="primary">Sign Up!</button>
+                  <button type="submit" class="primary" aria-label="Subscribe to newsletter">Sign Up!</button>
 
-                <button disabled="disabled" style="display: none;" type="button" class="loading">
+                <button disabled="disabled" style="display: none;" type="button" class="loading" aria-label="Submitting form">
                   <div class="ml-form-embedSubmitLoad"></div>
                   <span class="sr-only">Loading...</span>
                 </button>

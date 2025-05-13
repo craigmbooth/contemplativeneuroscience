@@ -34,7 +34,7 @@ The study's key takeaway is that the content of our thoughts --- specifically, w
 
 This conclusion is based on an analysis of the data from the app, which allowed researchers to capture real-time reports of thoughts, feelings, and activities from thousands of participants around the world.
 
-![The average happiness rating during different tasks (top) and different types of thought (bottom). THe vertical line indicates the average happiness across all samples, and the size of the bubbles corresponds to the count of samples.  The presence or absence of mind wandering has a larger effect on happiness than almost any activity.](/assets/article_images/wandering-mind-unhappy-mind/mean_happiness.png)
+![Dual bubble chart comparing happiness ratings across different activities and thought types. The top chart shows happiness ratings during various activities (like working, exercising, conversing), while the bottom chart shows happiness ratings during different thought states (mind wandering to pleasant/neutral/unpleasant topics versus not mind wandering). Bubble size indicates sample count, and the vertical line shows overall average happiness. The chart clearly demonstrates that mind wandering (especially to unpleasant topics) correlates with lower happiness than staying focused, and this effect is stronger than the impact of different activities.](/assets/article_images/wandering-mind-unhappy-mind/mean_happiness.png)
 
 Analysis revealed that people were generally less happy when their minds were wandering than when they were focused on their current activity. This was true even when the mind wandered to pleasant topics. Moreover, unhappiness was notably higher when the wandering thoughts were neutral or unpleasant.
 

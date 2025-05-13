@@ -15,7 +15,7 @@
     <div class="blog-title">{{ site.title }}</div>
     <div class="blog-subtitle">{{site.description}}</div>
 
-    <button class="menu-toggle">
+    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-navigation">
       <span class="menu-icon">
         <span class="hamburger-bar"></span>
         <span class="hamburger-bar"></span>
@@ -23,9 +23,9 @@
       </span>
     </button>
 
-    <div class="custom-links">
+    <div class="custom-links" id="site-navigation" role="navigation" aria-label="Main navigation">
       {% for menu_item in site.menu_items %}
-        <a href="{{ menu_item.url | prepend: site.baseurl }}">{{ menu_item.title }}</a>
+        <a href="{{ menu_item.url | prepend: site.baseurl }}" {% if page.url == menu_item.url %}aria-current="page"{% endif %}>{{ menu_item.title }}</a>
       {% endfor %}
     </div>
 
@@ -33,7 +33,7 @@
 </div>
 
 <header class="blog-header">
-  <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
+  <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')" aria-label="{{ site.title }} - Return to homepage">{{ site.title }}</a>
 </header>
 
 

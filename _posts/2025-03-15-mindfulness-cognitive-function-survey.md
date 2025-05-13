@@ -44,7 +44,7 @@ To ensure the rigor of their analysis, the authors used several criteria for eva
 
 The most striking finding was that MBIs effectively enhanced multiple cognitive functions, particularly those related to accuracy rather than speed.  This is demonstrated in the following graph, which shows the aggregatged results from all 111 studies.
 
-![The effect size of mindfulness interventions on each of the cognitive subdomains.  Positive numbers (further to the right) represent a positive effect, and the top eight cognitive subdomains as shown in this plot have a statistically significant improvement after mindfulness interventions.](/assets/article_images/mindfulness-cognitive-function-survey/meditation-cognition-effect-size.png)
+![Forest plot showing effect sizes of mindfulness interventions across 15 cognitive subdomains. The x-axis shows standardized mean difference (Cohen's d), with positive values to the right indicating improvement. Each cognitive subdomain is listed on the y-axis with a horizontal line showing the 95% confidence interval and a square marking the mean effect size. The top eight domains show statistically significant improvements (confidence intervals not crossing zero), with largest effects in executive attention, working memory accuracy, and inhibition accuracy. The plot visually demonstrates that mindfulness primarily improves accuracy-based cognitive functions rather than speed-based measures.](/assets/article_images/mindfulness-cognitive-function-survey/meditation-cognition-effect-size.png)
 
 Overall, to summarize:
 

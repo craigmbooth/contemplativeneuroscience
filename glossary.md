@@ -8,7 +8,7 @@ meta_description: "A glossary of terms related to contemplative neuroscience, me
 This glossary provides definitions for technical terms used throughout the site. Hover over these terms in articles to see their definitions.
 
 <div class="glossary-list">
-{% assign sorted_definitions = site.data.definitions | sort: 'title' %}
+{% assign sorted_definitions = site.data.definitions | sort_natural: 'title' %}
 {% for definition in sorted_definitions %}
   <div id="{{ definition.term }}" class="glossary-item">
     <h3 class="glossary-term">{{ definition.title }}</h3>
