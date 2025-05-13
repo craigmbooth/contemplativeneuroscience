@@ -19,13 +19,15 @@ name: 'Craig Booth'
 author: 'Craig Booth'
 author_image: "/assets/images/logo_sm.png"
 
-paginate:	10
+paginate:	5
 
 menu_items:
   - title: Home
     url: /
   - title: Research Themes
     url: /themes/
+  - title: Glossary
+    url: /glossary/
   - title: About
     url: /about/
   - title: What Is Contemplative Neuroscience?

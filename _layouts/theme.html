@@ -8,7 +8,8 @@ layout: default
         <h1 class="post-title">{{ page.title }}</h1>
       </div>
     </div>
-    <br>
+    {% include breadcrumbs.html %}
+
     <section class="post-content">
       <div class="theme-header">
         <div class="theme-image">
@@ -34,13 +35,12 @@ layout: default
           {% for post in theme_posts %}
             <li>
               <h3>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}?ref=theme&theme={{ page.theme_key }}">{{ post.title }}</a>
               </h3>
               <p>{{ post.snippet }}</p>
               <div class="post-meta citation">
                 {{ post.citation | markdownify }}
               </div>
-              <p class="post-meta date-added">Added: {{ post.date | date: "%b %-d, %Y" }}</p>
             </li>
           {% endfor %}
         </ul>

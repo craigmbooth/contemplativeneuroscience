@@ -5,23 +5,21 @@ meta_description: "Contemplative Neuroscience is a curated collection of scienti
 
 <main class="content" role="main">
 
-    <h2>Welcome</h2>
     <p>
-      This page contains summaries of papers in the field of contemplative neuroscience, written by
-      me, <a href="https://www.craigmbooth.com">Craig Booth</a>.  As a lay practitioner of meditation
-      and a scientist by training, I am boundlessly interested in the intersection of these
-      two fields.  I hope that these summaries are as engaging and interesting to others.
+      This site collects accessible summaries of peer-reviewed research at the intersection of meditation and brain science. As a meditation practitioner and scientist, I’m fascinated by how contemplative practices shape cognition, emotion, and identity. My aim is to make this research understandable and meaningful to others who share this curiosity—whether you're a fellow practitioner, a researcher, or just meditation-curious.
     </p>
 
-    <p>Learn more about contemplative neuroscience <a href="what-is-contemplative-neuroscience">here</a></p>
+    <p>
+      To explore recurring ideas like attention, identity, health, and meditation-related challenges, check out the <a href="themes">Research Themes</a> page.
+    </p>
 
-    <h5 class="index-headline featured"><span>List of Paper Summaries</span></h5>
+    <h2 class="index-headline featured"><span>Most Recent Paper Feed</span></h2>
 
       {% for post in paginator.posts %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
+              <h3 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}?ref=home" itemprop="url">{{ post.title }}</a></h3>
             </header>
             <section class="post-excerpt" itemprop="description">
               <p>{{ post.snippet }}</p>

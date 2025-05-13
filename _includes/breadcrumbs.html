@@ -1,0 +1,112 @@
+<script>
+// Function to get URL parameter by name
+function getParameterByName(name, url = window.location.href) {
+  name = name.replace(/[\[\]]/g, '\\$&');
+  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+// Function to update breadcrumbs based on referrer
+function updateBreadcrumbs() {
+  var referrerParam = getParameterByName('ref');
+  var themeParam = getParameterByName('theme');
+  
+  if (referrerParam === 'home') {
+    // Hide theme-related breadcrumbs if coming from home
+    var themeBreadcrumbs = document.querySelectorAll('.theme-breadcrumb');
+    themeBreadcrumbs.forEach(function(elem) {
+      elem.style.display = 'none';
+    });
+  } else if (referrerParam === 'theme' && themeParam) {
+    // Make sure we're showing the correct theme in the breadcrumb
+    var themeLinks = document.querySelectorAll('.theme-breadcrumb a[itemprop="item"]');
+    themeLinks.forEach(function(link) {
+      // Check if this is the theme link that contains our theme parameter
+      if (link.href.indexOf('/themes/' + themeParam) >= 0) {
+        // Make sure this theme's parent is visible
+        link.parentNode.style.display = 'inline-block';
+      } else {
+        // Hide other theme breadcrumbs
+        var parentLi = link.closest('li');
+        if (parentLi && parentLi.classList.contains('theme-breadcrumb') && 
+            !parentLi.querySelector('span[itemprop="name"]').textContent.includes('Research Themes')) {
+          parentLi.style.display = 'none';
+        }
+      }
+    });
+  }
+}
+
+// Run after page load
+document.addEventListener('DOMContentLoaded', updateBreadcrumbs);
+</script>
+
+<nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <!-- Home page link (always present) -->
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ site.baseurl }}/" itemprop="item">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+
+    {% if page.layout == 'post' %}
+      <!-- For blog posts: Home > [Themes path depending on referrer] > [Post Title] -->
+      <li class="theme-breadcrumb" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ site.baseurl }}/themes/" itemprop="item">
+          <span itemprop="name">Research Themes</span>
+        </a>
+        <meta itemprop="position" content="2" />
+      </li>
+
+      {% if page.theme %}
+        {% assign theme_slug = page.theme %}
+        {% if page.theme.first %}
+          {% assign theme_slug = page.theme.first %}
+        {% endif %}
+
+        {% assign theme_page = site.pages | where: "theme_key", theme_slug | first %}
+        {% if theme_page %}
+          <li class="theme-breadcrumb" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="{{ theme_page.url | prepend: site.baseurl }}" itemprop="item">
+              <span itemprop="name">{{ theme_page.title }}</span>
+            </a>
+            <meta itemprop="position" content="3" />
+          </li>
+        {% endif %}
+      {% endif %}
+
+      <!-- Current page (truncated if necessary) -->
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" aria-current="page">
+        <span itemprop="name">{{ page.title | truncate: 75 }}</span>
+        <meta itemprop="position" content="4" />
+      </li>
+
+    {% elsif page.layout == 'theme' %}
+      <!-- For theme pages: Home > Themes > [Theme Name] -->
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ site.baseurl }}/themes/" itemprop="item">
+          <span itemprop="name">Research Themes</span>
+        </a>
+        <meta itemprop="position" content="2" />
+      </li>
+
+      <!-- Current page (truncated if necessary) -->
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" aria-current="page">
+        <span itemprop="name">{{ page.title | truncate: 75 }}</span>
+        <meta itemprop="position" content="3" />
+      </li>
+
+    {% elsif page.layout == 'page' %}
+      <!-- Current page (truncated if necessary) -->
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" aria-current="page">
+        <span itemprop="name">{{ page.title | truncate: 75 }}</span>
+        <meta itemprop="position" content="2" />
+      </li>
+    {% endif %}
+  </ol>
+</nav>

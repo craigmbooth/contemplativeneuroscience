@@ -32,8 +32,6 @@ Each theme represents a significant aspect of how contemplative practices intera
       <p class="theme-card-count">
         {% if theme_posts.size > 0 %}
         <em>{{ theme_posts.size }} paper{% if theme_posts.size > 1 %}s{% endif %}</em>
-        {% assign sorted_posts = theme_posts | sort: 'date' | reverse %}
-        <br><small>(Last paper added: {{ sorted_posts[0].date | date: "%b %d, %Y" }})</small>
         {% else %}
         <em>Coming soon</em>
         {% endif %}
