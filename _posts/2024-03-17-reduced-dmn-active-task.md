@@ -3,7 +3,9 @@ layout: post
 title:  "Meditation leads to reduced default mode network activity beyond an active task."
 date:   2024-03-17
 categories: dmn fmri
+theme: mind-wandering
 doi: 10.3758/s13415-015-0358-3
+meta_description: "fMRI study shows experienced meditators reduce default mode network activity (associated with mind-wandering) more during meditation than during active cognitive tasks. This neural signature suggests meditation's unique cognitive effects."
 snippet: "This study compares activity in the default mode network (DMN) between meditation and an active task, for both meditators and non-meditators.  The paper finds evidence that suppression of DMN processing may represent a central neural process in long-term meditation, and suggest that meditation leads to relatively reduced DMN processing beyond that observed during active cognitive tasks."
 citation: "Garrison, K. A., Zeffiro, T. A., Scheinost, D., Constable, R. T., & Brewer, J. A. (2015). Meditation leads to reduced default mode network activity beyond an active task. In *Cognitive, Affective, &amp; Behavioral Neuroscience* (Vol. 15, Issue 3, pp. 712–720). Springer Science and Business Media LLC. [10.3758/s13415-015-0358-3](https://doi.org/10.3758/s13415-015-0358-3)"
 ---

@@ -6,8 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  {% if page.snippet %}
+  {% if page.meta_description %}
+  <meta name="description" content="{{ page.meta_description | strip_html | strip_newlines }}" />
+  {% elsif page.snippet %}
   <meta name="description" content="{{ page.snippet | strip_html | strip_newlines | truncate: 200 }}" />
+  {% elsif page.theme_description %}
+  <meta name="description" content="{{ page.theme_description | strip_html | strip_newlines | truncate: 200 }}" />
   {% else %}
   <meta name="description" content="{{ site.description }}" />
   {% endif %}
@@ -21,8 +25,12 @@
     <meta name="twitter:site" content="{{ site.twitter_handle }}" />
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta name="twitter:image" content="{{ site.logo | prepend: site.baseurl | prepend: site.url }}" />
-    {% if page.snippet %}
-    <meta name="twitter:description"  content="{{ page.snippet | strip_html | strip_newlines | truncate: 200 }}" />
+    {% if page.meta_description %}
+    <meta name="twitter:description" content="{{ page.meta_description | strip_html | strip_newlines }}" />
+    {% elsif page.snippet %}
+    <meta name="twitter:description" content="{{ page.snippet | strip_html | strip_newlines | truncate: 200 }}" />
+    {% elsif page.theme_description %}
+    <meta name="twitter:description" content="{{ page.theme_description | strip_html | strip_newlines | truncate: 200 }}" />
     {% elsif site.description %}
     <meta name="twitter:description" content="{{ site.description | strip_html | strip_newlines | truncate: 200 }}" />
     {% endif %}
@@ -30,8 +38,12 @@
 
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-  {% if page.snippet %}
+  {% if page.meta_description %}
+  <meta property="og:description" content="{{ page.meta_description | strip_html | strip_newlines }}" />
+  {% elsif page.snippet %}
   <meta property="og:description" content="{{ page.snippet | strip_html | strip_newlines | truncate: 200 }}" />
+  {% elsif page.theme_description %}
+  <meta property="og:description" content="{{ page.theme_description | strip_html | strip_newlines | truncate: 200 }}" />
   {% elsif site.description %}
   <meta property="og:description" content="{{ site.description | strip_html | strip_newlines | truncate: 200 }}" />
   {% endif %}
@@ -47,10 +59,15 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+  <!-- Preconnect to external domains to improve performance -->
+  <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://code.jquery.com" crossorigin>
+  <link rel="preconnect" href="https://assets.mailerlite.com" crossorigin>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 

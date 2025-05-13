@@ -3,7 +3,9 @@ layout: post
 title:  "Depersonalization and Meditation"
 date:   2025-05-11
 categories: pain mae
+theme: adverse-effects
 doi: 10.1080/00332747.1990.11024497
+meta_description: "When is depersonalization pathological versus beneficial? This 1990 study shows how long-term meditators experience dissociative states as calm awareness rather than distress. Symbolic interpretation transforms identical experiences into either spiritual growth or psychological disorder."
 snippet: "Can depersonalization be a sign of progress rather than pathology? This paper explores how long-term meditators experience self-detachment not as dysfunction, but as a calm and continuous mode of awareness—one shaped by meaning, not fear. A deep dive into how interpretation transforms experience."
 citation: "Castillo, R. J. (1990). Depersonalization and Meditation. Psychiatry, 53(2), 158–168. [10.1080/00332747.1990.11024497](https://doi.org/10.1080/00332747.1990.11024497)"
 

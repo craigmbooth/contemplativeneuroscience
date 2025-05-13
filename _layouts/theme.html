@@ -1,0 +1,102 @@
+---
+layout: default
+---
+<main class="content" role="main">
+  <article class="post">
+    <div class="noarticleimage">
+      <div class="post-meta">
+        <h1 class="post-title">{{ page.title }}</h1>
+      </div>
+    </div>
+    <br>
+    <section class="post-content">
+      <div class="theme-header">
+        <div class="theme-image">
+          {% if page.image_format %}
+            <img src="{{ site.baseurl }}/assets/images/themes/{{ page.theme_key }}.{{ page.image_format }}" alt="">
+          {% else %}
+            <img src="{{ site.baseurl }}/assets/images/themes/{{ page.theme_key }}.png" alt="">
+          {% endif %}
+        </div>
+        <div class="theme-description">
+          {{ page.theme_description | markdownify }}
+        </div>
+      </div>
+
+      <h2>Papers in this Theme</h2>
+
+      {% assign theme_posts = site.posts | where_exp: "post", "post.theme == page.theme_key" %}
+      {% assign theme_array_posts = site.posts | where_exp: "post", "post.theme contains page.theme_key" %}
+      {% assign theme_posts = theme_posts | concat: theme_array_posts | uniq %}
+
+      {% if theme_posts.size > 0 %}
+        <ul class="post-list">
+          {% for post in theme_posts %}
+            <li>
+              <h3>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h3>
+              <p>{{ post.snippet }}</p>
+              <div class="post-meta citation">
+                {{ post.citation | markdownify }}
+              </div>
+              <p class="post-meta date-added">Added: {{ post.date | date: "%b %-d, %Y" }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>No papers have been categorized in this theme yet.</p>
+      {% endif %}
+    </section>
+  </article>
+</main>
+
+<style>
+  .theme-header {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .theme-image {
+    flex: 0 0 250px;
+    margin-right: 30px;
+  }
+
+  .theme-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .theme-description {
+    flex: 1;
+  }
+
+  .post-meta.citation {
+    padding-left: 2em;
+    text-indent: -2em;
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .post-meta.date-added {
+    font-size: 0.8em;
+    color: #999;
+    font-style: italic;
+    margin-top: 0;
+  }
+
+  @media (max-width: 768px) {
+    .theme-header {
+      flex-direction: column;
+    }
+
+    .theme-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+      max-width: 250px;
+    }
+  }
+</style>

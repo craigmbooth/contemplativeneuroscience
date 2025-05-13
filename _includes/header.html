@@ -15,6 +15,14 @@
     <div class="blog-title">{{ site.title }}</div>
     <div class="blog-subtitle">{{site.description}}</div>
 
+    <button class="menu-toggle">
+      <span class="menu-icon">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </span>
+    </button>
+
     <div class="custom-links">
       {% for menu_item in site.menu_items %}
         <a href="{{ menu_item.url | prepend: site.baseurl }}">{{ menu_item.title }}</a>

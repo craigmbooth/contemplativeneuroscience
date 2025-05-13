@@ -3,6 +3,7 @@ layout: post
 title:  "Altered anterior insula activation during anticipation and experience of painful stimuli in expert meditators"
 date:   2024-04-03
 categories: pain fmri mbsr
+theme: biological-health
 doi: 10.1016/j.neuroimage.2012.09.030
 snippet: "Expert meditators experience less unpleasantness from pain than novices, despite similar intensity ratings. This difference is linked to enhanced activity in the brain's salience network during pain, suggesting that meditation can modify the emotional response to pain and facilitate quicker habituation to repeated pain stimuli."
 citation: "Lutz, A., McFarlin, D. R., Perlman, D. M., Salomons, T. V., & Davidson, R. J. (2013). Altered anterior insula activation during anticipation and experience of painful stimuli in expert meditators. In *NeuroImage* (Vol. 64, pp. 538–546). Elsevier BV. [10.1016/j.neuroimage.2012.09.030](https://doi.org/10.1016/j.neuroimage.2012.09.030)"
@@ -16,7 +17,7 @@ Further research indicates that meditation can also reduce the perception of pai
 
 Techniques such as Mindfulness Based Stress Reduction ({% include definition.html term="mbsr" %}) and Acceptance Commitment Therapy (ACT) have been shown to decrease pain unpleasantness and lead to a reduction of symptoms in chronic pain patients.
 
-This study aimed to investigate the neural mechanisms underlying the effects of open awareness meditation on pain perception, focusing on the amygdala and the so-called "salience network", a set of regions in the brain thought to be responsible for detection and integration of emotional and sensory stimuli, as well as in modulating the switch between the internally directed cognition of the default mode network ({% include definition.html term="DMN" %}) and externally directed cognition.
+This study aimed to investigate the neural mechanisms underlying the effects of open awareness meditation on pain perception, focusing on the amygdala and the so-called "salience network", a set of regions in the brain thought to be responsible for detection and integration of emotional and sensory stimuli, as well as in modulating the switch between the internally directed cognition of the default mode network ({% include definition.html term="dmn" %}) and externally directed cognition.
 
 ## What They Did
 

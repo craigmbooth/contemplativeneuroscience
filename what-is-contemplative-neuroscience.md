@@ -2,6 +2,7 @@
 layout: page
 title: What is Contemplative Neuroscience
 permalink: /what-is-contemplative-neuroscience/
+meta_description: "Explore the intersection of neuroscience and meditation in the field of contemplative neuroscience. Discover how meditation practices affect the brain, mind, and body through scientific research and evidence-based studies."
 ---
 
 Contemplative neuroscience is a multidisciplinary field that integrates methods and theories from neuroscience with the practices and principles of contemplative traditions, such as meditation and mindfulness, to investigate the effects of these practices on the brain and mind. This field examines how contemplative practices influence cognitive, emotional, and neural processes. Contemplative neuroscience draws from a broad range of fields to build its interdisciplinary approach. The primary fields include:
