@@ -24,38 +24,36 @@ This glossary provides definitions for technical terms used throughout the site.
         {% endif %}
       {% endfor %}
 
-      <p class="glossary-meta">
+      <div class="glossary-meta">
         {% if term_count > 0 %}
-          <span class="mention-count">
-            Mentioned in {{ term_count }} article{% if term_count > 1 %}s{% endif %}
-            <button class="random-article-btn" onclick="goToRandomArticle('{{ definition.term }}')">
-              <i class="fa fa-random"></i> Read one
-            </button>
-          </span>
+          <button class="related-articles-toggle" onclick="toggleRelatedArticles('{{ definition.term }}')">
+            <span>View {{ term_count }} related article{% if term_count > 1 %}s{% endif %}</span>
+            <i class="fa fa-caret-down" id="caret-{{ definition.term }}"></i>
+          </button>
 
-          <script>
-            // Store related posts for this term
-            window.termRelatedPosts = window.termRelatedPosts || {};
-            window.termRelatedPosts['{{ definition.term }}'] = [
+          <div class="related-articles" id="related-articles-{{ definition.term }}" style="display: none;">
+            <ul class="related-articles-list">
               {% for post in related_posts %}
-                { url: "{{ post.url | prepend: site.baseurl }}?ref=glossary-{{ definition.term }}", title: "{{ post.title | escape }}" }{% unless forloop.last %},{% endunless %}
+                <li>
+                  <a href="{{ post.url | prepend: site.baseurl }}?ref=glossary-{{ definition.term }}">{{ post.title }}</a>
+                </li>
               {% endfor %}
-            ];
-          </script>
+            </ul>
+          </div>
         {% else %}
           <span class="mention-count">Not yet mentioned in articles</span>
         {% endif %}
-
-        {% if definition.wiki %}
-          <span class="wiki-link"><a href="https://en.wikipedia.org/wiki/{{ definition.wiki }}" target="_blank">More on Wikipedia</a></span>
-        {% endif %}
-      </p>
+      </div>
     </div>
   </div>
 {% endfor %}
 </div>
 
 <style>
+.glossary-list * {
+  box-sizing: border-box;
+}
+
 .glossary-list {
   margin-top: 30px;
 }
@@ -82,8 +80,6 @@ This glossary provides definitions for technical terms used throughout the site.
 }
 
 .glossary-meta {
-  display: flex;
-  justify-content: space-between;
   margin-top: 15px;
   font-size: 14px;
   color: #666;
@@ -92,55 +88,153 @@ This glossary provides definitions for technical terms used throughout the site.
 .mention-count {
   font-style: italic;
   background-color: #f3f3f3;
-  padding: 3px 8px;
+  padding: 6px 10px;
   border-radius: 4px;
   display: inline-block;
+  font-size: 14px;
 }
 
-.wiki-link {
-  margin-left: 15px;
-}
-
-@media (max-width: 600px) {
-  .glossary-meta {
-    flex-direction: column;
-  }
-
-  .wiki-link {
-    margin-left: 0;
-    margin-top: 8px;
-  }
-}
-
-.random-article-btn {
-  display: inline-block;
-  background-color: #f62681;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  padding: 3px 8px;
-  margin-left: 10px;
-  font-size: 12px;
+.related-articles-toggle {
+  width: 100%;
+  text-align: left;
+  background-color: #f9f0f5;
+  color: #444;
+  border: 1px solid #f1c4d6;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
-  vertical-align: middle;
+  transition: all 0.2s ease;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-.random-article-btn:hover {
-  background-color: #d01a6c;
+.related-articles-toggle:hover {
+  background-color: #f8e4ed;
+  border-color: #e4a1bc;
 }
 
-.random-article-btn i {
-  margin-right: 4px;
+.related-articles-toggle i {
+  transition: transform 0.3s ease;
+}
+
+.related-articles-toggle span {
+  flex: 1;
+}
+
+.related-articles {
+  margin-top: 0;
+  background-color: #fafafa;
+  border-radius: 0 0 4px 4px;
+  padding: 15px;
+  border: 1px solid #f1c4d6;
+  border-top: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.related-articles-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.related-articles-list li {
+  padding: 8px 0;
+  border-bottom: 1px dotted #eee;
+  margin-left: 0 !important;
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+
+.related-articles-list li:last-child {
+  border-bottom: none;
+}
+
+.related-articles-list li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 2px 0;
+  transition: color 0.2s ease;
+}
+
+.related-articles-list li a:hover {
+  color: #d8517c;
+  text-decoration: underline;
 }
 </style>
 
 <script>
-function goToRandomArticle(term) {
-  if (window.termRelatedPosts && window.termRelatedPosts[term] && window.termRelatedPosts[term].length > 0) {
-    const posts = window.termRelatedPosts[term];
-    const randomIndex = Math.floor(Math.random() * posts.length);
-    window.location.href = posts[randomIndex].url;
+function toggleRelatedArticles(term) {
+  const relatedArticlesElement = document.getElementById(`related-articles-${term}`);
+  const caretIcon = document.getElementById(`caret-${term}`);
+  const button = caretIcon.parentElement;
+
+  // Close all other open lists first
+  if (relatedArticlesElement.style.display === 'none') {
+    const allLists = document.querySelectorAll('.related-articles');
+    const allCarets = document.querySelectorAll('.related-articles-toggle i');
+    const allButtons = document.querySelectorAll('.related-articles-toggle');
+
+    allLists.forEach(list => {
+      if (list.id !== `related-articles-${term}`) {
+        list.style.display = 'none';
+      }
+    });
+
+    allCarets.forEach(caret => {
+      if (caret.id !== `caret-${term}`) {
+        caret.style.transform = 'rotate(0deg)';
+      }
+    });
+
+    allButtons.forEach(btn => {
+      btn.style.borderRadius = '4px';
+    });
+
+    // Open the clicked list
+    relatedArticlesElement.style.display = 'block';
+    caretIcon.style.transform = 'rotate(180deg)';
+    button.style.borderRadius = '4px 4px 0 0';
+  } else {
+    // Close the clicked list
+    relatedArticlesElement.style.display = 'none';
+    caretIcon.style.transform = 'rotate(0deg)';
+    button.style.borderRadius = '4px';
   }
 }
+
+// Auto-open lists if hash fragment matches term
+document.addEventListener('DOMContentLoaded', function() {
+  const hash = window.location.hash.substring(1);
+  if (hash) {
+    const relatedArticlesElement = document.getElementById(`related-articles-${hash}`);
+    const caretIcon = document.getElementById(`caret-${hash}`);
+
+    if (relatedArticlesElement) {
+      relatedArticlesElement.style.display = 'block';
+      if (caretIcon) {
+        caretIcon.style.transform = 'rotate(180deg)';
+        const button = caretIcon.parentElement;
+        if (button) {
+          button.style.borderRadius = '4px 4px 0 0';
+        }
+      }
+
+      // Scroll to the term with a small delay to ensure everything is rendered
+      setTimeout(function() {
+        const element = document.getElementById(hash);
+        if (element) {
+          element.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
+      }, 200);
+    }
+  }
+});
 </script>

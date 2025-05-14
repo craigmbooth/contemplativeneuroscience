@@ -42,3 +42,15 @@
   title: Telomeres
   def: "Telomeres are protective caps at the end of chromosomes that shorten with each cell division. Telomere length is associated with aging and health, with longer telomeres linked to better health and longevity. Stress and lifestyle factors can affect telomere length, making them a potential marker of health and aging."
   wiki: Telomere
+- term: depersonalization
+  title: Depersonalization
+  def: "Depersonalization is a dissociative experience characterized by feelings of detachment from one's self, body, or mental processes. Individuals experiencing depersonalization may feel like an outside observer of their thoughts, feelings, or body, or they may feel as if they're in a dream. It can occur as a temporary response to stress, as a symptom of psychiatric disorders, or as a feature of certain meditation experiences."
+  wiki: Depersonalization
+- term: mind_wandering
+  title: Mind Wandering
+  def: "Mind wandering is the spontaneous shift of attention away from a current task or external environment to internally generated thoughts, memories, or fantasies. This common cognitive process is associated with default mode network activation and has been extensively studied in relation to meditation practices, which often aim to reduce mind wandering."
+  wiki: Mind_wandering
+- term: mindfulness
+  title: Mindfulness
+  def: "Mindfulness is the psychological process of purposely bringing one's attention to experiences occurring in the present moment without judgment. It involves maintaining awareness of thoughts, feelings, bodily sensations, and surrounding environment with an attitude of curiosity and acceptance. In meditation contexts, mindfulness practices typically involve focusing attention on the breath or body sensations as anchors to the present moment while acknowledging and releasing distracting thoughts."
+  wiki: Mindfulness

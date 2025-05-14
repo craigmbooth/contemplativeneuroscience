@@ -18,7 +18,7 @@ Most studies up to this point have focused primarily on the changes "inside" of 
 
 ## What They Did
 
-This study involved recruiting 48 right-handed employees from a biotechnology corporation in Madison, Wisconsin. These individuals were chosen to participate in a randomized controlled study to examine the effects of an 8-week Mindfulness-Based Stress Reduction ({% include definition.html term="mbsr" %}) program applied in a work environment. Out of the initial participants, 41 completed some of the measures for at least two of the assessment points.
+This study involved recruiting 48 right-handed employees from a biotechnology corporation in Madison, Wisconsin. These individuals were chosen to participate in a randomized controlled study to examine the effects of an 8-week {% include definition.html term="mindfulness" %}-Based Stress Reduction ({% include definition.html term="mbsr" %}) program applied in a work environment. Out of the initial participants, 41 completed some of the measures for at least two of the assessment points.
 
 Before the start of the study, an initial laboratory evaluation was conducted for all participants without revealing their future group assignment. Following this preliminary assessment, subjects were randomly assigned to either the meditation group, consisting of 25 participants (19 females), or a wait-list control group, consisting of 16 participants (10 females). This assignment was done at a ratio of approximately 3:2.
 

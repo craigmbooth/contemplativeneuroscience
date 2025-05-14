@@ -21,11 +21,11 @@ Studies show that telomere length, on aveage, decreases with ago.  However, othe
 
 The rate at which telomeres shorten or lengthen is dependent on many things, including the activity level of the enzyme telemorase.  It has been shown that there are relationships between the activity of telomerase and psychological factors, such as stress and well-being.
 
-It is therefore possible that interventions that target psychological factors may also influence telomerase activity and telomere length.  This includes meditation practice.  As shown in this figure, there exists a plausible mechanism by which meditation practices inrease mindfulness, which in turn can impact other psychological factors
+It is therefore possible that interventions that target psychological factors may also influence telomerase activity and telomere length.  This includes meditation practice.  As shown in this figure, there exists a plausible mechanism by which meditation practices inrease {% include definition.html term="mindfulness" case="lower" %}, which in turn can impact other psychological factors
 
 ![Graph showing the hypothesized causal links in this study.  Meditation increases feeliongs of life-purpose, which in turn have a positive impact on perceived control, and a negative impact on neutoticism.  Both perceived control and neuroticism have been linked to changes in telomerase activity.](/assets/article_images/immune-telemorase-psychological-mediators/meditation_telomerase.png)
 
-> Mindfulness is only one quality cultivated by meditative practice and other qualities have only recently begun to be explored. One understudied quality developed during meditative practice is a shift in intentions and priorities away from hedonic pleasure or superﬁcial well-being, making one’s deeper "purpose in life" (a measurable psychological construct; Ryff, 1989) clearer.
+> {% include definition.html term="mindfulness" %} is only one quality cultivated by meditative practice and other qualities have only recently begun to be explored. One understudied quality developed during meditative practice is a shift in intentions and priorities away from hedonic pleasure or superﬁcial well-being, making one’s deeper "purpose in life" (a measurable psychological construct; Ryff, 1989) clearer.
 
 This study focuses on the relationship between meditation and telomerase activity, and the psychological factors that mediate this relationship.
 

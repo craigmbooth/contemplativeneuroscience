@@ -13,7 +13,7 @@ citation: "Castillo, R. J. (1990). Depersonalization and Meditation. Psychiatry,
 
 ## Background Information
 
-Depersonalization is a psychological phenomenon in which a person feels a sense of disconnection from their own body, thoughts, or emotions—like watching themselves from the outside. Traditionally viewed as pathological, it is often associated with anxiety, panic, or dissociative disorders. But what if this experience, in certain contexts, isn't a symptom, but a signpost?
+{% include definition.html term="depersonalization" %} is a psychological phenomenon in which a person feels a sense of disconnection from their own body, thoughts, or emotions—like watching themselves from the outside. Traditionally viewed as pathological, it is often associated with anxiety, panic, or dissociative disorders. But what if this experience, in certain contexts, isn't a symptom, but a signpost?
 
 Richard Castillo's 1990 paper asks a provocative question: when depersonalization occurs during or after meditation, is it a disorder—or a doorway?
 

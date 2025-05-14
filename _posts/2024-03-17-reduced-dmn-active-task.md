@@ -14,7 +14,7 @@ citation: "Garrison, K. A., Zeffiro, T. A., Scheinost, D., Constable, R. T., & B
 
 Recent research has uncovered fascinating insights into how meditation influences brain activity, particularly in individuals who have extensive experience with meditation. Studies have shown that when seasoned meditators engage in meditation, there's a notable decrease in activity within certain areas of the brain associated with self-focused thoughts, known as the default mode network ({% include definition.html term="dmn" %}). This network is often more active when we're lost in thought or not focused on the external world.
 
-Similarly, the wandering of the mind, often experienced as daydreaming or getting lost in one's thoughts, activates the DMN (see, [McVay, Kane, & Kwapil, 2009](/mind-wandering-contexts)). Intriguingly, a quieting of the DMN during meditation sessions has been linked to improvements in attention and focus even outside of meditation practice.
+Similarly, {% include definition.html term="mind_wandering" case="lower" %}, often experienced as daydreaming or getting lost in one's thoughts, activates the DMN (see, [McVay, Kane, & Kwapil, 2009](/mind-wandering-contexts)). Intriguingly, a quieting of the DMN during meditation sessions has been linked to improvements in attention and focus even outside of meditation practice.
 
 The DMN is typically most active when
 

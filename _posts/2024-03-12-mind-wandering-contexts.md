@@ -15,7 +15,7 @@ citation: "McVay, J. C., Kane, M. J., & Kwapil, T. R. (2009). Tracking the train
 
 The connection between focusing our attention on a task and the random thoughts that pop up when we're supposed to be concentrating is of great interest, especially in practices like meditation. Specifically, within Buddhism, there's a strong belief that being able to better control where we focus our attention and being more aware of the tiny shifts in our thoughts can help us recognize and eventually free ourselves from negative thinking patterns. This enhanced mental control and awareness are seen as crucial steps in breaking free from harmful habits of the mind.
 
-That said, mind wandering is ubiquitous in every day life.  We have all experienced
+That said, {% include definition.html term="mind_wandering" case="lower" %} is ubiquitous in every day life.  We have all experienced
 
 > moving one’s eyes across a page without comprehending a thing
 

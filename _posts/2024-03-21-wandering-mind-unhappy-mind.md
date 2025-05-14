@@ -12,7 +12,7 @@ citation: "Killingsworth, M. A., & Gilbert, D. T. (2010). A Wandering Mind Is an
 
 ## Background Information
 
-The human brain has a unique ability: it can think about things that aren't happening right now. We can remember the past, imagine the future, or dream up things that will never happen. being able to think like this helps us learn, make plans, and be creative.  However, in the absence of external stimuli or direction, we continue to think, or to experience"mind wandering" or "stimulus-independent thought"
+The human brain has a unique ability: it can think about things that aren't happening right now. We can remember the past, imagine the future, or dream up things that will never happen. being able to think like this helps us learn, make plans, and be creative.  However, in the absence of external stimuli or direction, we continue to think, or to experience {% include definition.html term="mind_wandering" case="lower" %} or "stimulus-independent thought"
 
 This study investigates how mind wandering affects our happiness. Historically this had been hard to study this because you have to ask people how they were feeling and what they were thinking about right at that moment, which is tough to do with a lot of people.
 

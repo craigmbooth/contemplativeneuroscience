@@ -12,6 +12,10 @@ $content-max-width: 1024px
   border-bottom: 1px dashed $site-highlight-color
   color: $site-highlight-color
 
+  .glossary-term-link
+    color: inherit
+    text-decoration: none
+
   .tooltiptext
     visibility: hidden
     pointer-events: none
@@ -43,7 +47,9 @@ $content-max-width: 1024px
     a
       color: #fff
 
-  &:hover .tooltiptext
+  &:hover .tooltiptext,
+  &:focus .tooltiptext,
+  &:focus-within .tooltiptext
     visibility: visible
     pointer-events: auto
     opacity: 1
@@ -58,3 +64,7 @@ $content-max-width: 1024px
         border-width: 5px
         border-style: solid
         border-color: #353d5a transparent transparent transparent
+
+.tooltip-missing
+  border-bottom: 1px dashed #ff5252
+  color: #ff5252
