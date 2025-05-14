@@ -31,17 +31,25 @@ meta_description: "Contemplative Neuroscience is a curated collection of scienti
         </article>
       {% endfor %}
 
-    <nav class="pagination" role="navigation">
-      {% if paginator.next_page %}
-        <a class="newer-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.next_page }}>&larr; Older posts</a>
-      {% endif %}
-      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-          <a class="older-posts" href={{ "/" | prepend: site.baseurl }}>Newer posts &rarr;</a>
+    <nav class="pagination" role="navigation" aria-label="Article pagination">
+      <div class="pagination-container">
+        {% if paginator.previous_page %}
+          {% if paginator.page == 2 %}
+            <a class="pagination-link prev" href={{ "/" | prepend: site.baseurl }} aria-label="Previous page">&larr; Previous</a>
+          {% else %}
+            <a class="pagination-link prev" href={{ "/page" | prepend: site.baseurl | append: paginator.previous_page }} aria-label="Previous page">&larr; Previous</a>
+          {% endif %}
         {% else %}
-          <a class="older-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.previous_page }}>Newer posts &rarr;</a>
+          <span class="pagination-link disabled">&larr; Previous</span>
         {% endif %}
-      {% endif %}
+
+        <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+        {% if paginator.next_page %}
+          <a class="pagination-link next" href={{ "/page" | prepend: site.baseurl | append: paginator.next_page }} aria-label="Next page">Next &rarr;</a>
+        {% else %}
+          <span class="pagination-link disabled">Next &rarr;</span>
+        {% endif %}
+      </div>
     </nav>
 </main>

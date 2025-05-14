@@ -330,13 +330,44 @@ body
 
 .pagination
   text-align: center
-  padding: $rs*3 0 0
-  font-size: $rs/4*3
-  a
-    color: #999
+  padding: $rs*3 0 $rs*2
+  font-size: $rs
+
+  .pagination-container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    max-width: 500px
+    margin: 0 auto
+
+  .page-number
+    color: #666
+    font-weight: 500
+
+  .pagination-link
+    color: $site-highlight-color
     text-decoration: none
+    padding: 8px 12px
+    border-radius: 4px
+    transition: all 0.2s ease
+
     &:hover
-      color: #333
+      background-color: #f9f0f5
+      color: darken($site-highlight-color, 10%)
+      text-decoration: none
+
+  .disabled
+    color: #ccc
+    cursor: not-allowed
+
+  @media (max-width: 500px)
+    font-size: $rs*0.8
+
+    .pagination-container
+      max-width: 100%
+
+    .pagination-link
+      padding: 6px 8px
 
 .post-reading
   position: absolute
