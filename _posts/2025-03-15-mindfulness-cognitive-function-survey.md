@@ -13,7 +13,7 @@ citation: "Zainal, N. H., & Newman, M. G. (2023). Mindfulness enhances cognitive
 ---
 ## Background Information
 
-Despite extensive research on mindfulness meditation, specific cognitive benefits remain an area of ongoing research. In this study, the authors aim to address this gap through a comprehensive meta-analysis, offering insights into how mindfulness-based interventions (MBIs) specifically enhance cognitive performance, and to avoid burying the lede:
+Despite extensive research on {% include definition.html term="mindfulness" case="lower" %} meditation, specific cognitive benefits remain an area of ongoing research. In this study, the authors aim to address this gap through a comprehensive meta-analysis, offering insights into how mindfulness-based interventions (MBIs) specifically enhance cognitive performance, and to avoid burying the lede:
 
 > "MBIs consistently yielded small-to-moderate yet practically meaningful effect sizes on global cognition and six cognitive subdomains."
 
@@ -26,7 +26,7 @@ Cognitive functioning is typically assessed through a variety of standardized te
 - **Processing Speed:** How quickly one can perceive, process, and respond to information.
 - **Verbal Fluency:** The ability to retrieve and produce words efficiently.
 
-By systematically analyzing the results across these domains, the study aimed to determine which aspects of cognition benefit the most from mindfulness training.
+By systematically analyzing the results across these domains, the study aimed to determine which aspects of cognition benefit the most from {% include definition.html term="mindfulness" case="lower" %} training.
 
 ## What They Did
 

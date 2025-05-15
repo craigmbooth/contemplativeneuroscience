@@ -11,13 +11,13 @@
     {%- assign definition_id = "definition-" | append: definition.term | append: "-" | append: include.term | append: "-" | append: forloop.index -%}
 
     <span class="tooltip" tabindex="0" role="button" aria-describedby="{{ definition_id }}">
-      <a href="/glossary#{{ definition.term }}" class="glossary-term-link">{{ title }}</a>
+      <a href="/glossary#{{ definition.term }}?ref=article" class="glossary-term-link">{{ title }}</a>
       <span class="tooltiptext" id="{{ definition_id }}" role="tooltip">
         {{definition.def}}
         {%- if definition.wiki and definition.wiki != empty -%}
           <br><br><a href="https://en.wikipedia.org/wiki/{{ definition.wiki }}" target="_blank" aria-label="Learn more about {{ title }} on Wikipedia (opens in new tab)">More on Wikipedia</a>
         {%- endif -%}
-        <br><br><a href="/glossary#{{ definition.term }}">View in glossary</a>
+        <br><br><a href="/glossary#{{ definition.term }}?ref=article">View in glossary</a>
       </span>
     </span>
     {%- assign term_found = true -%}

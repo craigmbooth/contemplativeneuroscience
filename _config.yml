@@ -26,6 +26,8 @@ menu_items:
     url: /
   - title: Research Themes
     url: /themes/
+  - title: All Papers
+    url: /all-papers/
   - title: Glossary
     url: /glossary/
   - title: About

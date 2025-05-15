@@ -13,14 +13,40 @@ function getParameterByName(name, url = window.location.href) {
 function updateBreadcrumbs() {
   var referrerParam = getParameterByName('ref');
   var themeParam = getParameterByName('theme');
-  
+
+  // Hide all optional breadcrumbs by default
+  var optionalBreadcrumbs = document.querySelectorAll('.theme-breadcrumb, .all-papers-breadcrumb, .glossary-breadcrumb');
+  optionalBreadcrumbs.forEach(function(elem) {
+    elem.style.display = 'none';
+  });
+
   if (referrerParam === 'home') {
-    // Hide theme-related breadcrumbs if coming from home
+    // Coming from home - all optional breadcrumbs already hidden
+  } else if (referrerParam === 'all-papers') {
+    // Show All Papers breadcrumb
+    var allPapersBreadcrumb = document.querySelector('.all-papers-breadcrumb');
+    if (allPapersBreadcrumb) {
+      allPapersBreadcrumb.style.display = 'inline-block';
+    }
+  } else if (referrerParam === 'glossary') {
+    // Show Glossary breadcrumb
+    var glossaryBreadcrumb = document.querySelector('.glossary-breadcrumb');
+    if (glossaryBreadcrumb) {
+      glossaryBreadcrumb.style.display = 'inline-block';
+    }
+  } else if (referrerParam && referrerParam.startsWith('glossary-')) {
+    // Coming from a specific glossary term
+    var glossaryBreadcrumb = document.querySelector('.glossary-breadcrumb');
+    if (glossaryBreadcrumb) {
+      glossaryBreadcrumb.style.display = 'inline-block';
+    }
+  } else if (referrerParam === 'theme' && themeParam) {
+    // Show theme breadcrumbs
     var themeBreadcrumbs = document.querySelectorAll('.theme-breadcrumb');
     themeBreadcrumbs.forEach(function(elem) {
-      elem.style.display = 'none';
+      elem.style.display = 'inline-block';
     });
-  } else if (referrerParam === 'theme' && themeParam) {
+
     // Make sure we're showing the correct theme in the breadcrumb
     var themeLinks = document.querySelectorAll('.theme-breadcrumb a[itemprop="item"]');
     themeLinks.forEach(function(link) {
@@ -31,7 +57,7 @@ function updateBreadcrumbs() {
       } else {
         // Hide other theme breadcrumbs
         var parentLi = link.closest('li');
-        if (parentLi && parentLi.classList.contains('theme-breadcrumb') && 
+        if (parentLi && parentLi.classList.contains('theme-breadcrumb') &&
             !parentLi.querySelector('span[itemprop="name"]').textContent.includes('Research Themes')) {
           parentLi.style.display = 'none';
         }
@@ -55,7 +81,23 @@ document.addEventListener('DOMContentLoaded', updateBreadcrumbs);
     </li>
 
     {% if page.layout == 'post' %}
-      <!-- For blog posts: Home > [Themes path depending on referrer] > [Post Title] -->
+      <!-- All Papers breadcrumb -->
+      <li class="all-papers-breadcrumb" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ site.baseurl }}/all-papers/" itemprop="item">
+          <span itemprop="name">All Papers</span>
+        </a>
+        <meta itemprop="position" content="2" />
+      </li>
+
+      <!-- Glossary breadcrumb -->
+      <li class="glossary-breadcrumb" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ site.baseurl }}/glossary/" itemprop="item">
+          <span itemprop="name">Glossary</span>
+        </a>
+        <meta itemprop="position" content="2" />
+      </li>
+
+      <!-- Theme breadcrumbs -->
       <li class="theme-breadcrumb" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <a href="{{ site.baseurl }}/themes/" itemprop="item">
           <span itemprop="name">Research Themes</span>
