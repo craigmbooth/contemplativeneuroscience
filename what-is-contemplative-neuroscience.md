@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What is Contemplative Neuroscience
+title: What is Contemplative Neuroscience?
 permalink: /what-is-contemplative-neuroscience/
 meta_description: "Explore the intersection of neuroscience and meditation in the field of contemplative neuroscience. Discover how meditation practices affect the brain, mind, and body through scientific research and evidence-based studies."
 ---
