@@ -42,7 +42,9 @@ Importantly, these effects weren't limited to novices or those with pre-existing
 
 ### Interpretive Frameworks Matter
 
-Whether an experience was judged as pathological or transformative often depended on the interpretive lens available to the practitioner. For example, what might be seen as a psychotic break in a psychiatric setting could be framed as a “corruption of insight” or “nyam” in a Tibetan or Theravādin context. Practitioners who had access to traditional contemplative maps often felt less fear and confusion than those without such frameworks.
+Whether an experience was judged as pathological or transformative often depended on the interpretive lens available to the practitioner. For example, what might be seen as a psychotic break in a psychiatric setting could be framed as a "corruption of insight" or "nyam" in a Tibetan or Theravādin context. Practitioners who had access to traditional contemplative maps often felt less fear and confusion than those without such frameworks.
+
+For a specific examination of depersonalization experiences in meditation contexts, see [Castillo's (1990)]({% post_url 2025-05-11-depersonalization-and-meditation %}) work highlighting how interpretive frameworks influence whether practitioners experience depersonalization as distressing or as a positive state of calm awareness.
 
 ### Duration and Severity
 

@@ -17,7 +17,7 @@ Despite extensive research on {% include definition.html term="mindfulness" case
 
 > "MBIs consistently yielded small-to-moderate yet practically meaningful effect sizes on global cognition and six cognitive subdomains."
 
-Cognitive functioning is typically assessed through a variety of standardized tests designed to measure specific domains of mental performance. In this meta-analysis, the authors examined multiple types of cognitive assessments to evaluate mindfulness’s effects. These included behavioral cognitive tasks, which measure response accuracy and reaction time, and self-reported subjective cognitive assessments, where individuals evaluate their own cognitive abilities. Some of the key cognitive functions measured in these studies include:
+Cognitive functioning is typically assessed through a variety of standardized tests designed to measure specific domains of mental performance. In this meta-analysis, the authors examined multiple types of cognitive assessments to evaluate mindfulness's effects. These included behavioral cognitive tasks, which measure response accuracy and reaction time, and self-reported subjective cognitive assessments, where individuals evaluate their own cognitive abilities. Some of the key cognitive functions measured in these studies include:
 
 - **Executive Attention:** The ability to focus on relevant information while ignoring distractions.
 - **Working Memory:** The capacity to hold and manipulate information over short periods.
@@ -55,6 +55,8 @@ These improvements were particularly significant in executive attention, working
 Mindfulness was found to primarily enhance cognitive accuracy rather than speed, suggesting benefits for deliberate, careful cognitive processing. This has significant implications for activities requiring sustained attention and precision, such as learning, problem-solving, and professional decision-making. Instead of rushing through tasks, mindfulness may help individuals engage more deeply and accurately with the material at hand.
 
 > "Results suggest that MBIs primarily impacted cognitive processing effectiveness (captured by accuracy) more than efficiency (measured by latency)."
+
+These attentional improvements may explain findings from [McVay, Kane, & Kwapil (2009)]({% post_url 2024-03-12-mind-wandering-contexts %}) showing that awareness of mind-wandering correlates with improved task performance. These results align with work by [Shields et al. (2020)]({% post_url 2025-03-13-deconstructing-concentration-interference-control %}) demonstrating that intensive meditation practice specifically enhances controlled attention processes rather than automatic attentional capture.
 
 ## Miscellaneous Interesting Takeaways
 

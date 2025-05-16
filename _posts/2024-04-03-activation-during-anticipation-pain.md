@@ -42,6 +42,8 @@ This is an extremely clear finding:  Meditation decreases the perceived unpleasa
 
 As an additional finding, the pain trials were repeated on each user a number of times, and the meditators underwent more rapid habituation to the pain stimuli than the novices.  That is: Even after an experience had been demonstrated safe by repeated exposure, the novices would continue to show the same anxiety response to it, while the meditation group would habituate to the experience and show less anxiety.
 
+The attentional mechanisms observed here may relate to [Shields et al.'s (2020)]({% post_url 2025-03-13-deconstructing-concentration-interference-control %}) findings on meditation's effects on controlled attention processes, suggesting enhanced attentional control may contribute to altered pain perception. Given [Davidson, Kabat-Zinn et al.'s (2003)]({% post_url 2024-03-09-brain-and-immune-function %}) findings on meditation's effects on brain activity and immune function, future research might explore whether pain perception changes correlate with broader biological markers of health.
+
 ## Miscellaneous Interesting Takeaways
 
 ### Anticipation and the Two Arrows

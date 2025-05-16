@@ -27,9 +27,13 @@ The most significant result was that participants on the meditation retreat demo
 
 This outcome suggests a nuanced mechanism: meditation specifically strengthens intentional attention without necessarily reducing sensitivity to distractions. The implication is profound, as it indicates meditation training may primarily benefit executive control by reinforcing deliberate, goal-directed attentional processes. Rather than becoming less sensitive to distractions, meditators become more effective at intentionally focusing their cognitive resources. This finding challenges the assumption that meditation simply reduces distractibility, suggesting instead that it primarily enhances cognitive control through targeted improvements in deliberate attention.
 
+These findings on specific attentional improvements align with the meta-analytic evidence from [Zainal & Newman (2023)]({% post_url 2025-03-15-mindfulness-cognitive-function-survey %}) showing mindfulness training more strongly enhances cognitive accuracy than speed, particularly for executive attention tasks.
+
 ## Miscellaneous Interesting Takeaways
 
 ### Inflammation Predicts Cognitive Control
 Participants with higher inflammatory activity consistently showed poorer controlled attention. This relationship appeared before and during the meditation retreats, suggesting that inflammation may independently impair cognitive control, rather than being directly influenced by meditation training itself.
 
 ![Graph showing the strength of each participant's controlley attention (y-axis) as a function of their inflammation marker levels (x-axis).  The left and right panels are the first and second retreats respectively.  Higher inflammation means less concentration in both graphs.](/assets/article_images/deconstructing-interference-control/inflammation-attention.png)
+
+The inflammation-attention relationship identified here complements work by [Davidson, Kabat-Zinn et al. (2003)]({% post_url 2024-03-09-brain-and-immune-function %}) demonstrating meditation's effects on immune function, suggesting potential bidirectional relationships between meditation, inflammation, and cognitive processes. Additionally, this finding relates to research by [Jacobs et al. (2011)]({% post_url 2024-04-12-immune-telemorase-psychological-mediators %}), as both studies identify connections between biological markers and meditation's psychological effects.

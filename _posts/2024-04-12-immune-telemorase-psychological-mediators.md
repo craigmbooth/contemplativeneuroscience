@@ -13,30 +13,30 @@ citation: Jacobs, T. L., Epel, E. S., Lin, J., Blackburn, E. H., Wolkowitz, O. M
 
 ## Background Information
 
-Telomerase is the enzyme responsible for maintenance of the length of {% include definition.html term="telomeres" %}. Telomeres are structures made from DNA sequences and proteins found at the ends of chromosomes. They cap and protect the end of a chromosome like the end of a shoelace. Recent findings have suggested that telomere length may be regulated by psychological factors, including stress, perception of stress, and well-being.
+{% include definition.html term="telomerase" %} is the enzyme responsible for maintenance of the length of {% include definition.html term="telomeres" %}. Telomeres are structures made from DNA sequences and proteins found at the ends of chromosomes. They cap and protect the end of a chromosome like the end of a shoelace. Recent findings have suggested that telomere length may be regulated by psychological factors, including stress, perception of stress, and well-being.
 
-> Telomere length has recently been proposed as a useful ‘psychobiomarker’ linking stress and disease. Shortened telomere length and reduced telomerase predict a host of health risks and diseases
+> Telomere length has recently been proposed as a useful 'psychobiomarker' linking stress and disease. Shortened telomere length and reduced telomerase predict a host of health risks and diseases
 
 Studies show that telomere length, on aveage, decreases with ago.  However, other studies show that in a significant fraction of people, telomere length can increase over time.  This suggests that there are potential malleable mechanisms that can influence telomere length.
 
-The rate at which telomeres shorten or lengthen is dependent on many things, including the activity level of the enzyme telemorase.  It has been shown that there are relationships between the activity of telomerase and psychological factors, such as stress and well-being.
+The rate at which telomeres shorten or lengthen is dependent on many things, including the activity level of the enzyme {% include definition.html term="telomerase" %}.  It has been shown that there are relationships between the activity of telomerase and psychological factors, such as stress and well-being.
 
 It is therefore possible that interventions that target psychological factors may also influence telomerase activity and telomere length.  This includes meditation practice.  As shown in this figure, there exists a plausible mechanism by which meditation practices inrease {% include definition.html term="mindfulness" case="lower" %}, which in turn can impact other psychological factors
 
 ![Graph showing the hypothesized causal links in this study.  Meditation increases feeliongs of life-purpose, which in turn have a positive impact on perceived control, and a negative impact on neutoticism.  Both perceived control and neuroticism have been linked to changes in telomerase activity.](/assets/article_images/immune-telemorase-psychological-mediators/meditation_telomerase.png)
 
-> {% include definition.html term="mindfulness" %} is only one quality cultivated by meditative practice and other qualities have only recently begun to be explored. One understudied quality developed during meditative practice is a shift in intentions and priorities away from hedonic pleasure or superﬁcial well-being, making one’s deeper "purpose in life" (a measurable psychological construct; Ryff, 1989) clearer.
+> {% include definition.html term="mindfulness" %} is only one quality cultivated by meditative practice and other qualities have only recently begun to be explored. One understudied quality developed during meditative practice is a shift in intentions and priorities away from hedonic pleasure or superﬁcial well-being, making one's deeper "purpose in life" (a measurable psychological construct; Ryff, 1989) clearer.
 
-This study focuses on the relationship between meditation and telomerase activity, and the psychological factors that mediate this relationship.
+This study focuses on the relationship between meditation and telomerase activity, and the psychological factors that mediate this relationship. More recent research by [Dasanayaka, Sirisena, & Samaranayake (2023)]({% post_url 2025-05-16-telomere-dynamics %}) extends these findings, showing that long-term meditators have significantly longer telomeres and altered methylation patterns of the hTERT promoter, further supporting the connection between meditation practice and cellular aging.
 
 ## What They Did
 
 The authors performed a comparison between individuals participating in a three-month intensive meditation retreat and a matched wait-list control group.  Thirty individuals were in each of the meditation and waiting-list groups.  The meditation retreat involved daily practices aimed at enhancing mindfulness, perceived control, purpose in life, and reducing neuroticism, with participants engaging in approximately six hours of meditation each day. Psychological assessments were conducted before and after the retreat to evaluate changes in the aforementioned psychological states, and blood samples were collected post-retreat from both groups to measure telomerase activity.  The relevant psychological measures were:
 
 * Mindfulness: Assessed with the Five Facet Mindfulness Questionnaire, evaluating the ability to maintain attention on present experiences and practice non-judgmental awareness.
-* Purpose in Life: Measured using the Purpose in Life subscale of Ryff’s Psychological Well-Being Scales, indicating the extent to which individuals feel their lives have meaning and direction.
-* Perceived Control: Evaluated through the Environmental Mastery subscale of Ryff’s scales, reflecting individuals' beliefs in their capacity to manage and control their life circumstances.
-* Neuroticism: Assessed with the Big Five Inventory’s Neuroticism scale, measuring the tendency towards experiencing negative emotions like anxiety, depression, and vulnerability.
+* Purpose in Life: Measured using the Purpose in Life subscale of Ryff's Psychological Well-Being Scales, indicating the extent to which individuals feel their lives have meaning and direction.
+* Perceived Control: Evaluated through the Environmental Mastery subscale of Ryff's scales, reflecting individuals' beliefs in their capacity to manage and control their life circumstances.
+* Neuroticism: Assessed with the Big Five Inventory's Neuroticism scale, measuring the tendency towards experiencing negative emotions like anxiety, depression, and vulnerability.
 
 ## One Big Result
 
@@ -70,8 +70,10 @@ And noted that purpose in life mediated changes in both perceived control and ne
 
 Although the study here does not conclusively demonstrate causality here, other studies also suggest that meditive practice causes a
 
-> gradual, daily accumulation of positive emotions that broaden the meditator’s viewpoint, setting up a trajectory of growth in which the speciﬁc psychological resources of "purpose in life" and "mindfulness" expand, which in turn increases life satisfaction and reduces depressive symptoms
+> gradual, daily accumulation of positive emotions that broaden the meditator's viewpoint, setting up a trajectory of growth in which the speciﬁc psychological resources of "purpose in life" and "mindfulness" expand, which in turn increases life satisfaction and reduces depressive symptoms
 
 The authors conclude by noting that
 
 > it is provocative that purpose in life may reﬂect a cognitive shift that both reshapes two contributors to stress, neuroticism and low perceived control, and also promotes increased telomerase activity.
+
+This study builds upon earlier work by [Davidson, Kabat-Zinn et al. (2003)]({% post_url 2024-03-09-brain-and-immune-function %}), which demonstrated that even a shorter 8-week mindfulness intervention could produce measurable changes in immune function and brain activity patterns. Interestingly, [Shields et al. (2020)]({% post_url 2025-03-13-deconstructing-concentration-interference-control %}) identified inflammation as a factor that can independently impair cognitive control, suggesting potential bidirectional relationships between psychological states, inflammatory processes, and cellular aging mechanisms.

@@ -38,11 +38,13 @@ This conclusion is based on an analysis of the data from the app, which allowed 
 
 Analysis revealed that people were generally less happy when their minds were wandering than when they were focused on their current activity. This was true even when the mind wandered to pleasant topics. Moreover, unhappiness was notably higher when the wandering thoughts were neutral or unpleasant.
 
-> the nature of people’s activities had only a modest impact on whether their minds wandered and had almost no impact on the pleasantness of the topics to which their minds wandered
+> the nature of people's activities had only a modest impact on whether their minds wandered and had almost no impact on the pleasantness of the topics to which their minds wandered
 
 The researchers also found that mind wandering accounted for a more significant portion of the differences in happiness levels than the actual task being done. Specifically, mind wandering explained 10.8% of the variance in happiness within individuals and 17.7% between individuals, while the specific activities people were engaged in explained a much smaller fraction of happiness variance.
 
 These findings collectively indicate that the tendency of the mind to wander, and the nature of the thoughts it wanders to, have a more profound impact on our moment-to-moment happiness than the activities we are performing. This highlights the cognitive and emotional cost of mind wandering, emphasizing the importance of mindfulness and present-moment awareness for enhancing personal well-being.
+
+[McVay, Kane, & Kwapil (2009)]({% post_url 2024-03-12-mind-wandering-contexts %}) previously demonstrated that mind-wandering represents a stable individual trait across contexts, suggesting these happiness effects may be consistent across situations. Research by [Garrison et al. (2015)]({% post_url 2024-03-17-reduced-dmn-active-task %}) suggests meditation may specifically target the default mode network—a brain system associated with mind-wandering—offering a potential neural mechanism for cultivating present-moment awareness. Additionally, meta-analytic evidence from [Zainal & Newman (2023)]({% post_url 2025-03-15-mindfulness-cognitive-function-survey %}) indicates mindfulness training enhances attentional processes, which may help reduce mind-wandering tendencies and potentially impact emotional well-being.
 
 ## Miscellaneous Interesting Takeaways
 

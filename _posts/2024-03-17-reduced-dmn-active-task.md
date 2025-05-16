@@ -14,7 +14,7 @@ citation: "Garrison, K. A., Zeffiro, T. A., Scheinost, D., Constable, R. T., & B
 
 Recent research has uncovered fascinating insights into how meditation influences brain activity, particularly in individuals who have extensive experience with meditation. Studies have shown that when seasoned meditators engage in meditation, there's a notable decrease in activity within certain areas of the brain associated with self-focused thoughts, known as the default mode network ({% include definition.html term="dmn" %}). This network is often more active when we're lost in thought or not focused on the external world.
 
-Similarly, {% include definition.html term="mind_wandering" case="lower" %}, often experienced as daydreaming or getting lost in one's thoughts, activates the DMN (see, [McVay, Kane, & Kwapil, 2009](/mind-wandering-contexts)). Intriguingly, a quieting of the DMN during meditation sessions has been linked to improvements in attention and focus even outside of meditation practice.
+Similarly, {% include definition.html term="mind_wandering" case="lower" %}, often experienced as daydreaming or getting lost in one's thoughts, activates the DMN (see, [McVay, Kane, & Kwapil, 2009]({% post_url 2024-03-12-mind-wandering-contexts %})). Intriguingly, a quieting of the DMN during meditation sessions has been linked to improvements in attention and focus even outside of meditation practice.
 
 The DMN is typically most active when
 
@@ -46,6 +46,8 @@ Interestingly, control participants also showed reduced activity in parts of the
 > For meditators, this is consistent with the hypothesis that meditation may reduce self-related thinking and mind wandering more than another active task
 
 This ability of meditation to specifically reduce self-referential thinking and mind wandering, beyond the effects of engaging in other active tasks, underscores a potential mechanism by which meditation exerts its beneficial effects. The reduction in DMN processing observed in long-term meditators may be central to understanding the cognitive and clinical benefits of meditation. Increased DMN activity has been linked to impaired cognitive performance and various mental health conditions, including depression, anxiety, and addiction. Conversely, meditation, associated with decreased DMN activity, has been shown to enhance attention, working memory, and overall well-being. These findings suggest that the practice of meditation could serve as a powerful tool in improving mental health and cognitive functions by reducing the tendency towards rumination and self-focused thought.
+
+Given Killingsworth & Gilbert's ([2010]({% post_url 2024-03-21-wandering-mind-unhappy-mind %})) findings that mind-wandering is associated with decreased happiness, the meditation-related reductions in DMN activity observed here may have implications for emotional well-being.
 
 ## Miscellaneous Interesting Takeaways
 

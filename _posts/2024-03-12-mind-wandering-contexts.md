@@ -17,7 +17,7 @@ The connection between focusing our attention on a task and the random thoughts 
 
 That said, {% include definition.html term="mind_wandering" case="lower" %} is ubiquitous in every day life.  We have all experienced
 
-> moving one’s eyes across a page without comprehending a thing
+> moving one's eyes across a page without comprehending a thing
 
 which is suggestive that -- for periods of time -- our minds can actually wander to the point that we become unaware of our own conscious experience.
 
@@ -48,7 +48,7 @@ In every-day life, the authors also show that the propensity to mind wander is d
 
 ### Mind Wandering Never Helps
 
-In the field, subjects were asked to rate their performance on tasks whenever they were asked about mind-wandering.  Consistent with other studies,  subjects’ performance ratings were lower while mind wandering than while mentally on task.  Asking subjects about their level of awareness of their mind wandering also revealed that mind-wandering awareness predicted perceived performance. When subjects were aware that they had been mind wandering, they believed they had been performing better than when they had been mind wandering without awareness
+In the field, subjects were asked to rate their performance on tasks whenever they were asked about mind-wandering.  Consistent with other studies,  subjects' performance ratings were lower while mind wandering than while mentally on task.  Asking subjects about their level of awareness of their mind wandering also revealed that mind-wandering awareness predicted perceived performance. When subjects were aware that they had been mind wandering, they believed they had been performing better than when they had been mind wandering without awareness
 
 ![The relationship between the self-assessed level of awareness of the mind-wandering against the self-assessed performance of the task at hand.  There is a positive correlation between these two characteristics, indicating that more meta-awareness leads to higher performance at tasks.  The red line shows the self-assessed performance of the subjects when their minds were on-task.  No matter how aware of mind wandering people were, the presence of mind-wandering led to worse perceived task outcomes.](/assets/article_images/mind-wandering-contexts/awareness.png)
 
@@ -60,4 +60,6 @@ The authors noted that
 
 This study shows that mind wandering is a stable characteristic of a person, and also that the performance of a person at a task is related to the rate of mind wandering.
 
-There is good evidence that mind wandering is related to activity in the default mode network ({% include definition.html term="dmn" %}), and also that meditation can cause a reducton the activity of the DMN.  These, observations taken together are suggestive that -- through its effect on the DMN -- meditation could be used to reduce mind wandering and improve task performance.
+There is good evidence that mind wandering is related to activity in the default mode network ({% include definition.html term="dmn" %}), and also that meditation can cause a reducton the activity of the DMN. These observations taken together are suggestive that -- through its effect on the DMN -- meditation could be used to reduce mind wandering and improve task performance.
+
+Later research by [Garrison et al. (2015)]({% post_url 2024-03-17-reduced-dmn-active-task %}) demonstrated that experienced meditators show greater reductions in default mode network activity—a neural system associated with mind-wandering—during meditation compared to active cognitive tasks. These findings on the prevalence and stability of mind-wandering complement work by [Killingsworth & Gilbert (2010)]({% post_url 2024-03-21-wandering-mind-unhappy-mind %}), which revealed the negative emotional consequences of a wandering mind in daily life. Additionally, meta-analytic work by [Zainal & Newman (2023)]({% post_url 2025-03-15-mindfulness-cognitive-function-survey %}) suggests mindfulness training may specifically enhance attention control, which could potentially reduce the frequency or impact of mind-wandering episodes.

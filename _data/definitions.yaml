@@ -58,3 +58,7 @@
   title: Beta
   def: "Beta brain waves are a type of brainwave pattern that oscillate between approximately 12 to 30 Hz. Beta waves are typically associated with active thinking, focus, alertness, and engagement with the external world. They are prominent during conscious, goal-directed activity and are linked to cognitive tasks such as problem-solving, decision-making, and sustained attention."
   wiki: Beta_wave
+- term: telomerase
+  title: Telomerase
+  def: "Telomerase is an enzyme that helps maintain telomere length by adding repetitive DNA sequences to the ends of chromosomes. It plays a crucial role in cellular aging and longevity, as it can counteract the natural shortening of telomeres that occurs with cell division. This enzyme is particularly active in stem cells, germline cells, and cancer cells, while its activity is typically low in most mature somatic cells, contributing to cellular senescence and aging."
+  wiki: Telomerase
