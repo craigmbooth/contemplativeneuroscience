@@ -12,6 +12,21 @@ This page provides a chronological list of all research paper summaries availabl
   <button id="clearSearch" class="clear-search-btn" aria-label="Clear search">×</button>
 </div>
 
+<div class="sort-controls">
+  <span class="sort-label">Sort by:</span>
+  <div class="sort-buttons">
+    <button id="sortByTitle" class="sort-button active" data-sort="title" aria-label="Sort by title">
+      Title <span class="sort-arrow">↓</span>
+    </button>
+    <button id="sortByYear" class="sort-button" data-sort="year" aria-label="Sort by year">
+      Year <span class="sort-arrow">↓</span>
+    </button>
+    <button id="sortByAuthor" class="sort-button" data-sort="author" aria-label="Sort by first author">
+      First Author <span class="sort-arrow">↓</span>
+    </button>
+  </div>
+</div>
+
 <p id="searchResults" class="search-results-info" aria-live="polite"></p>
 
 <div class="all-papers-list">
@@ -167,6 +182,62 @@ This page provides a chronological list of all research paper summaries availabl
   border-radius: 4px;
   margin: 20px 0;
 }
+
+/* Sort Controls */
+.sort-controls {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.sort-label {
+  font-weight: 500;
+  color: #666;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sort-button {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sort-button:hover {
+  background-color: #f1f1f1;
+  border-color: #ccc;
+}
+
+.sort-button.active {
+  background-color: #f1c4d6;
+  border-color: #d8517c;
+  color: #333;
+  font-weight: 500;
+}
+
+.sort-arrow {
+  display: inline-block;
+  margin-left: 4px;
+  transition: transform 0.2s ease;
+}
+
+.sort-button.active[data-direction="asc"] .sort-arrow {
+  transform: rotate(180deg);
+}
 </style>
 
 <script>
@@ -183,6 +254,110 @@ document.addEventListener('DOMContentLoaded', function() {
   noResultsMessage.innerHTML = 'No papers match your search criteria. Try different keywords.';
   noResultsMessage.style.display = 'none';
   allPapersList.after(noResultsMessage);
+
+  // Sort buttons
+  const sortButtons = document.querySelectorAll('.sort-button');
+  let currentSort = {
+    type: 'title',
+    direction: 'desc'
+  };
+
+  // Parse data from papers
+  function getPaperData() {
+    const papers = [];
+    paperItems.forEach(item => {
+      const titleElement = item.querySelector('.post-title');
+      const title = titleElement.textContent.trim();
+      
+      // Extract year from citation (assumes format includes a year in parentheses)
+      const citation = item.querySelector('.citation').textContent;
+      const yearMatch = citation.match(/\((\d{4})\)/);
+      const year = yearMatch ? parseInt(yearMatch[1]) : 0;
+      
+      // Extract first author from citation
+      const authorMatch = citation.match(/^([^,]+)/);
+      const author = authorMatch ? authorMatch[1].trim() : '';
+      
+      papers.push({
+        element: item,
+        title: title,
+        year: year,
+        author: author
+      });
+    });
+    return papers;
+  }
+
+  // Sort papers
+  function sortPapers() {
+    const papers = getPaperData();
+    const sortType = currentSort.type;
+    const sortDirection = currentSort.direction;
+    
+    papers.sort((a, b) => {
+      let comparison = 0;
+      
+      if (sortType === 'title') {
+        // Reverse the default comparison for titles (Z-A by default)
+        comparison = -a.title.localeCompare(b.title);
+      } else if (sortType === 'year') {
+        // Default comparison for years (older first by default)
+        comparison = a.year - b.year;
+      } else if (sortType === 'author') {
+        // Reverse the default comparison for authors (Z-A by default)
+        comparison = -a.author.localeCompare(b.author);
+      }
+      
+      return sortDirection === 'asc' ? comparison : -comparison;
+    });
+    
+    // Reorder DOM elements
+    const fragment = document.createDocumentFragment();
+    papers.forEach(paper => {
+      fragment.appendChild(paper.element);
+    });
+    
+    allPapersList.innerHTML = '';
+    allPapersList.appendChild(fragment);
+  }
+
+  // Update sort button states
+  function updateSortButtons() {
+    sortButtons.forEach(button => {
+      const sortType = button.getAttribute('data-sort');
+      
+      if (sortType === currentSort.type) {
+        button.classList.add('active');
+        button.setAttribute('data-direction', currentSort.direction);
+      } else {
+        button.classList.remove('active');
+        button.removeAttribute('data-direction');
+      }
+    });
+  }
+
+  // Initialize sorting
+  sortPapers();
+  updateSortButtons();
+
+  // Sort button click handlers
+  sortButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const sortType = this.getAttribute('data-sort');
+      
+      if (sortType === currentSort.type) {
+        // Toggle direction if already active
+        currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+      } else {
+        // Set new sort type with default desc direction
+        currentSort.type = sortType;
+        currentSort.direction = 'desc';
+      }
+      
+      sortPapers();
+      updateSortButtons();
+    });
+  });
 
   // Search functionality
   function performSearch() {
