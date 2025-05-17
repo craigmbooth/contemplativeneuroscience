@@ -5,7 +5,7 @@ permalink: /all-papers/
 meta_description: "Complete collection of contemplative neuroscience research paper summaries. Browse all articles exploring the intersection of meditation, mindfulness, and brain science."
 ---
 
-This page provides a chronological list of all research paper summaries available on the site. Each summary offers an accessible overview of peer-reviewed research on contemplative practices and their effects on the brain, cognition, and well-being.
+This page provides a collection of {% assign post_count = site.posts | where_exp: "post", "post.path contains '_posts/'" | size %}{{ post_count }} research paper summaries available on the site. You can browse, search, and sort these papers by title, year, or author. Each summary offers an accessible overview of peer-reviewed research on contemplative practices and their effects on the brain, cognition, and well-being.
 
 <div class="search-container">
   <input type="text" id="paperSearch" class="search-input" placeholder="Search paper titles..." aria-label="Search paper titles">
