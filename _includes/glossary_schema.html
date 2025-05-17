@@ -1,0 +1,19 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% assign sorted_definitions = site.data.definitions | sort_natural: 'title' %}
+    {% for definition in sorted_definitions %}
+    {
+      "@type": "Question",
+      "name": "{{ definition.title }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ definition.def | strip_newlines | replace: '"', "'" }}"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>

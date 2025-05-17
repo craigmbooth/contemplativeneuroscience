@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.logo | prepend: site.baseurl }}"
+    }
+  },
+  "description": "{{ page.meta_description }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  {% if page.theme %}
+  "articleSection": "{{ page.theme }}",
+  {% endif %}
+  {% if page.categories %}
+  "keywords": "{{ page.categories | join: ',' }}",
+  {% endif %}
+  {% if page.doi %}
+  "citation": {
+    "@type": "CreativeWork",
+    "identifier": "{{ page.doi }}",
+    "url": "https://doi.org/{{ page.doi }}"
+  },
+  {% endif %}
+  {% if page.snippet %}
+  "abstract": "{{ page.snippet }}",
+  {% endif %}
+  "isAccessibleForFree": "True"
+}
+</script>

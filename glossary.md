@@ -5,6 +5,8 @@ permalink: /glossary/
 meta_description: "A glossary of terms related to contemplative neuroscience, meditation practices, and neuroscience research methods."
 ---
 
+{% include glossary_schema.html %}
+
 This glossary provides definitions for technical terms used throughout the site. Hover over these terms in articles to see their definitions.
 
 <div class="glossary-list">
