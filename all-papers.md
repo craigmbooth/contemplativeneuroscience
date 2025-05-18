@@ -18,8 +18,8 @@ This page provides a collection of {% assign post_count = site.posts | where_exp
     <button id="sortByTitle" class="sort-button active" data-sort="title" aria-label="Sort by title">
       Title <span class="sort-arrow">↓</span>
     </button>
-    <button id="sortByYear" class="sort-button" data-sort="year" aria-label="Sort by year">
-      Year <span class="sort-arrow">↓</span>
+    <button id="sortByYear" class="sort-button" data-sort="year" aria-label="Sort by publication year">
+      Publication Year <span class="sort-arrow">↓</span>
     </button>
     <button id="sortByAuthor" class="sort-button" data-sort="author" aria-label="Sort by first author">
       First Author <span class="sort-arrow">↓</span>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Glossary
+title: Glossary of Technical Terms
 permalink: /glossary/
 meta_description: "A glossary of terms related to contemplative neuroscience, meditation practices, and neuroscience research methods."
 ---
