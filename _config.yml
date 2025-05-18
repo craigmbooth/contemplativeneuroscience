@@ -32,8 +32,6 @@ menu_items:
     url: /glossary/
   - title: About
     url: /about/
-  - title: What Is Contemplative Neuroscience?
-    url: /what-is-contemplative-neuroscience/
 
 url: "https://contemplativeneuroscience.com" # the base hostname & protocol for your site
 baseurl: ""
@@ -53,11 +51,3 @@ social:
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
-
-definitions:
-  - term: eeg
-    title: EEG
-    def: This is an electro thingy
-  - term: fmri
-    title: fMRI
-    def: A functional MRI

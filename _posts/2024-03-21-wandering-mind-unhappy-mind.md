@@ -2,7 +2,6 @@
 layout: post
 title:  "A Wandering Mind Is an Unhappy Mind"
 date:   2024-03-21
-categories: pain fmri
 theme: mind-wandering
 doi: 10.1126/science.1192439
 meta_description: "Groundbreaking study using smartphone experience sampling reveals mind-wandering occurs in 47% of waking time and consistently predicts lower happiness levels. What you're thinking about impacts happiness more than what you're doing."

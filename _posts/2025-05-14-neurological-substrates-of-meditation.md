@@ -2,7 +2,6 @@
 layout: post
 title:  "Intracranial Substrates of Meditation-Induced Neuromodulation in the Amygdala and Hippocampus"
 date:   2025-05-14
-categories:
 theme: neurological-correlates
 doi: 10.1073/pnas.2409423122
 meta_description: "Loving-kindness meditation boosts gamma activity in the amygdala and hippocampus, showing rapid emotional brain modulation even in first-time meditators."

@@ -2,7 +2,6 @@
 layout: post
 title:  "Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts"
 date:   2024-03-12
-categories: mind-wandering
 theme: mind-wandering
 doi: 10.3758/PBR.16.5.857
 meta_description: "This pioneering study tracks mind wandering both in lab settings and daily life using experience sampling. Results show mind wandering is a stable individual trait that consistently impairs performance across all contexts."

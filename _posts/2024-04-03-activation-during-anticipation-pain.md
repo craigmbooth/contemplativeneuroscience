@@ -2,7 +2,6 @@
 layout: post
 title:  "Altered anterior insula activation during anticipation and experience of painful stimuli in expert meditators"
 date:   2024-04-03
-categories: pain fmri mbsr
 theme: biological-health
 doi: 10.1016/j.neuroimage.2012.09.030
 snippet: "Expert meditators experience less unpleasantness from pain than novices, despite similar intensity ratings. This difference is linked to enhanced activity in the brain's salience network during pain, suggesting that meditation can modify the emotional response to pain and facilitate quicker habituation to repeated pain stimuli."

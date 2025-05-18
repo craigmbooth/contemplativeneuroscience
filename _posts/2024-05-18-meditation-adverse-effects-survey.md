@@ -2,7 +2,6 @@
 layout: post
 title:  "The Varieties of Contemplative Experience: A Survey of Meditation-Related Challenges"
 date:   2024-05-18
-categories: adverse effects
 theme: adverse-effects
 doi: 10.1371/journal.pone.0176239
 meta_description: "First systematic study documenting 59 types of meditation-related adverse effects across Buddhist traditions. Research reveals challenging experiences from mild discomfort to severe distress, challenging the perception of meditation as universally beneficial."

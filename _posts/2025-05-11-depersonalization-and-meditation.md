@@ -2,7 +2,6 @@
 layout: post
 title:  "Depersonalization and Meditation"
 date:   2025-05-11
-categories: pain mae
 theme: adverse-effects
 doi: 10.1080/00332747.1990.11024497
 meta_description: "When is depersonalization pathological versus beneficial? This 1990 study shows how long-term meditators experience dissociative states as calm awareness rather than distress. Symbolic interpretation transforms identical experiences into either spiritual growth or psychological disorder."

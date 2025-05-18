@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  ""
-date:   2025-05-16
-categories:
+date:
 theme:
 doi:
 meta_description: "

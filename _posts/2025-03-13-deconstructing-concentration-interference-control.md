@@ -2,7 +2,6 @@
 layout: post
 title:  "Deconstructing the effects of concentration meditation practice on interference control: The roles of controlled attention and inflammatory activity"
 date:   2025-03-13
-categories: inflammation
 theme: [mind-wandering, biological-health]
 doi: 10.1016/j.bbi.2020.06.034
 snippet: "Meditation is known to boost attention, but how it achieves this isn't fully clear. This study explored how intensive meditation affects attention control and inflammation, revealing that participants on a three-month retreat significantly improved their ability to stay focused amid distractions. Surprisingly, meditation did not reduce automatic reactions to distractors, and participants with higher inflammation had weaker attention control. These findings underscore improved controlled attention as a primary benefit of meditation and suggest inflammation independently impacts cognitive function."

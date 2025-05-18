@@ -2,7 +2,6 @@
 layout: post
 title:  "Associations of meditation with telomere dynamics: a case–control study in healthy adults"
 date:   2025-05-16
-categories:
 theme: biological-health
 doi: 10.3389/fpsyg.2023.1222863
 meta_description: "Long-term meditation is associated with longer telomeres, increased telomerase gene activity, and reduced DNA methylation—highlighting its potential to slow cellular aging through deep biological pathways."

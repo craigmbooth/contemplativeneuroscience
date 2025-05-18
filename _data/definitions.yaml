@@ -62,3 +62,7 @@
   title: Telomerase
   def: "Telomerase is an enzyme that helps maintain telomere length by adding repetitive DNA sequences to the ends of chromosomes. It plays a crucial role in cellular aging and longevity, as it can counteract the natural shortening of telomeres that occurs with cell division. This enzyme is particularly active in stem cells, germline cells, and cancer cells, while its activity is typically low in most mature somatic cells, contributing to cellular senescence and aging."
   wiki: Telomerase
+- term: effect_size
+  title: Effect Size
+  def: "Effect size is a statistical concept that quantifies the magnitude or strength of a relationship, difference, or intervention outcome. Unlike p-values which only indicate statistical significance, effect sizes measure how meaningful a result is in practical terms. Common measures include Cohen's d (standardized mean difference), correlation coefficients (r), and odds ratios. In meditation research, effect sizes help quantify the practical impact of different meditation practices on psychological or physiological outcomes."
+  wiki: Effect_size

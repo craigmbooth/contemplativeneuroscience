@@ -2,7 +2,6 @@
 layout: post
 title:  "Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials"
 date:   2025-03-15
-categories: inflammation
 theme: mind-wandering
 doi: 10.1080/17437199.2023.2248222
 meta_description: "Most comprehensive meta-analysis of mindfulness effects on cognition (111 RCTs, 9,500+ participants). Results show consistent small-to-moderate improvements in attention, memory, and cognitive flexibility, especially for accuracy over speed."
@@ -15,7 +14,7 @@ citation: "Zainal, N. H., & Newman, M. G. (2023). Mindfulness enhances cognitive
 
 Despite extensive research on {% include definition.html term="mindfulness" case="lower" %} meditation, specific cognitive benefits remain an area of ongoing research. In this study, the authors aim to address this gap through a comprehensive meta-analysis, offering insights into how mindfulness-based interventions (MBIs) specifically enhance cognitive performance, and to avoid burying the lede:
 
-> "MBIs consistently yielded small-to-moderate yet practically meaningful effect sizes on global cognition and six cognitive subdomains."
+> "MBIs consistently yielded small-to-moderate yet practically meaningful {% include definition.html term="effect_size" case="lower" display="effect sizes" %}  on global cognition and six cognitive subdomains."
 
 Cognitive functioning is typically assessed through a variety of standardized tests designed to measure specific domains of mental performance. In this meta-analysis, the authors examined multiple types of cognitive assessments to evaluate mindfulness's effects. These included behavioral cognitive tasks, which measure response accuracy and reaction time, and self-reported subjective cognitive assessments, where individuals evaluate their own cognitive abilities. Some of the key cognitive functions measured in these studies include:
 

@@ -8,10 +8,15 @@
     {%- if include.case and include.case == "lower" -%}
       {%- assign title = title | downcase -%}
     {%- endif -%}
+    {%- if include.display -%}
+      {%- assign display_text = include.display -%}
+    {%- else -%}
+      {%- assign display_text = title -%}
+    {%- endif -%}
     {%- assign definition_id = "definition-" | append: definition.term | append: "-" | append: include.term | append: "-" | append: forloop.index -%}
 
     <span class="tooltip" tabindex="0" role="button" aria-describedby="{{ definition_id }}">
-      <a href="/glossary#{{ definition.term }}?ref=article" class="glossary-term-link">{{ title }}</a>
+      <a href="/glossary#{{ definition.term }}?ref=article" class="glossary-term-link">{{ display_text }}</a>
       <span class="tooltiptext" id="{{ definition_id }}" role="tooltip">
         {{definition.def}}
         {%- if definition.wiki and definition.wiki != empty -%}
