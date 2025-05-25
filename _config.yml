@@ -1,6 +1,5 @@
 plugins:
   - jemoji
-  - jekyll-paginate
   - jekyll-sitemap
 
 # Site settings
@@ -19,7 +18,6 @@ name: 'Craig Booth'
 author: 'Craig Booth'
 author_image: "/assets/images/logo_sm.png"
 
-paginate:	5
 
 menu_items:
   - title: Home
