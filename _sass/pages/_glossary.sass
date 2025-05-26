@@ -1,0 +1,110 @@
+.glossary-list
+  margin-top: $spacing-xl
+  
+  *
+    box-sizing: border-box
+
+.glossary-item
+  margin-bottom: $spacing-xl
+  padding-bottom: $spacing-lg
+  border-bottom: 1px solid $color-border-lighter
+  
+  &:last-child
+    border-bottom: none
+
+.glossary-term
+  margin-bottom: 10px
+  color: $color-text-primary
+  font-family: $font-family-serif
+
+.glossary-definition
+  font-size: 18px
+  line-height: 1.6
+
+.glossary-meta
+  margin-top: 15px
+  font-size: 14px
+  color: $color-text-secondary
+
+.mention-count
+  font-style: italic
+  background-color: #f3f3f3
+  padding: 6px 10px
+  border-radius: 4px
+  display: inline-block
+  font-size: 14px
+
+.related-articles-toggle
+  width: 100%
+  text-align: left
+  background-color: $color-primary-light
+  color: #444
+  border: 1px solid $color-primary-border
+  border-radius: 4px
+  padding: 8px 12px
+  font-size: 14px
+  cursor: pointer
+  transition: all $transition-fast
+  font-weight: normal
+  display: flex
+  justify-content: space-between
+  align-items: center
+  box-sizing: border-box
+  
+  &:hover
+    background-color: $color-primary-lighter
+    border-color: #e4a1bc
+  
+  &.expanded
+    border-radius: 4px 4px 0 0
+  
+  i
+    transition: transform $transition-normal
+    
+  &.expanded i
+    transform: rotate(180deg)
+  
+  span
+    flex: 1
+
+.related-articles
+  margin-top: 0
+  background-color: $color-background-light
+  border-radius: 0 0 4px 4px
+  padding: 15px
+  border: 1px solid $color-primary-border
+  border-top: none
+  width: 100%
+  box-sizing: border-box
+  display: none
+  
+  &.visible
+    display: block
+
+.related-articles-list
+  list-style-type: none
+  padding: 0
+  margin: 0
+  width: 100%
+  box-sizing: border-box
+  
+  li
+    padding: 8px 0
+    border-bottom: 1px dotted $color-border-lighter
+    margin-left: 0 !important
+    font-size: 15px !important
+    line-height: 1.4 !important
+    
+    &:last-child
+      border-bottom: none
+    
+    a
+      display: block
+      text-decoration: none
+      color: $color-text-primary
+      padding: 2px 0
+      transition: color $transition-fast
+      
+      &:hover
+        color: $color-accent
+        text-decoration: underline

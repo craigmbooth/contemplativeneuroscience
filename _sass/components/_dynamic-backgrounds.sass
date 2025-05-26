@@ -1,0 +1,16 @@
+@import 'mixins/background'
+
+// Elements that use dynamic background images
+.teaserimage-image[data-bg-image],
+.blog-logo[data-bg-image],
+.background-closer-image[data-bg-image],
+.post-image-image[data-bg-image],
+.author-image[data-bg-image]
+  @include dynamic-background
+
+// Specific styles for each element type
+.blog-logo[data-bg-image]
+  // Already has other styles in main.sass
+  
+.author-image[data-bg-image]
+  // Already has other styles in main.sass

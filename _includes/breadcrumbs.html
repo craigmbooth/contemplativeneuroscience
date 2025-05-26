@@ -17,7 +17,7 @@ function updateBreadcrumbs() {
   // Hide all optional breadcrumbs by default
   var optionalBreadcrumbs = document.querySelectorAll('.theme-breadcrumb, .all-papers-breadcrumb, .glossary-breadcrumb');
   optionalBreadcrumbs.forEach(function(elem) {
-    elem.style.display = 'none';
+    elem.classList.remove('visible');
   });
 
   if (referrerParam === 'home') {
@@ -26,25 +26,25 @@ function updateBreadcrumbs() {
     // Show All Papers breadcrumb
     var allPapersBreadcrumb = document.querySelector('.all-papers-breadcrumb');
     if (allPapersBreadcrumb) {
-      allPapersBreadcrumb.style.display = 'inline-block';
+      allPapersBreadcrumb.classList.add('visible');
     }
   } else if (referrerParam === 'glossary') {
     // Show Glossary breadcrumb
     var glossaryBreadcrumb = document.querySelector('.glossary-breadcrumb');
     if (glossaryBreadcrumb) {
-      glossaryBreadcrumb.style.display = 'inline-block';
+      glossaryBreadcrumb.classList.add('visible');
     }
   } else if (referrerParam && referrerParam.startsWith('glossary-')) {
     // Coming from a specific glossary term
     var glossaryBreadcrumb = document.querySelector('.glossary-breadcrumb');
     if (glossaryBreadcrumb) {
-      glossaryBreadcrumb.style.display = 'inline-block';
+      glossaryBreadcrumb.classList.add('visible');
     }
   } else if (referrerParam === 'theme' && themeParam) {
     // Show theme breadcrumbs
     var themeBreadcrumbs = document.querySelectorAll('.theme-breadcrumb');
     themeBreadcrumbs.forEach(function(elem) {
-      elem.style.display = 'inline-block';
+      elem.classList.add('visible');
     });
 
     // Make sure we're showing the correct theme in the breadcrumb
@@ -53,13 +53,13 @@ function updateBreadcrumbs() {
       // Check if this is the theme link that contains our theme parameter
       if (link.href.indexOf('/themes/' + themeParam) >= 0) {
         // Make sure this theme's parent is visible
-        link.parentNode.style.display = 'inline-block';
+        link.parentNode.classList.add('visible');
       } else {
         // Hide other theme breadcrumbs
         var parentLi = link.closest('li');
         if (parentLi && parentLi.classList.contains('theme-breadcrumb') &&
             !parentLi.querySelector('span[itemprop="name"]').textContent.includes('Research Themes')) {
-          parentLi.style.display = 'none';
+          parentLi.classList.remove('visible');
         }
       }
     });

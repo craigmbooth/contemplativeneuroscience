@@ -1,0 +1,5 @@
+{% comment %}
+  Generates a page title with proper truncation to keep total length under 70 characters.
+  Since " | Contemplative Neuroscience" is 28 characters, page titles are truncated to 42 characters max.
+{% endcomment %}
+{% if page.title %}{% assign title_length = page.title | size %}{% if title_length > 42 %}{{ page.title | truncate: 42 }} | {{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}

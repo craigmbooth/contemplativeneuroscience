@@ -1,0 +1,147 @@
+.all-papers-list
+  margin-top: $spacing-xl
+
+.post-item
+  margin-bottom: 40px
+  padding-bottom: $spacing-xl
+  border-bottom: 1px solid $color-border-lighter
+  
+  &:last-child
+    border-bottom: none
+  
+  &.hidden
+    display: none
+
+.post-title
+  margin-bottom: 10px
+  font-family: $font-family-serif
+
+.post-excerpt
+  font-size: 18px
+  line-height: 1.6
+  margin-bottom: 15px
+
+.citation
+  padding-left: 2em
+  text-indent: -2em
+  margin-bottom: 15px
+  font-size: 16px
+  color: $color-text-secondary
+
+.post-themes
+  font-size: 15px
+  margin-top: 10px
+
+.theme-label
+  font-weight: 500
+  color: $color-text-secondary
+
+.theme-tag
+  display: inline-block
+  text-decoration: none
+  color: $color-primary
+  transition: color $transition-fast
+  
+  &:hover
+    color: $color-primary-dark
+    text-decoration: underline
+
+// Search functionality
+.search-container
+  position: relative
+  margin: 20px 0
+  width: 100%
+
+.search-input
+  width: 100%
+  padding: 12px 40px 12px 15px
+  font-size: 16px
+  border: 1px solid $color-border-dark
+  border-radius: 4px
+  box-sizing: border-box
+  transition: border-color $transition-fast
+  
+  &:focus
+    outline: none
+    border-color: $color-primary-border
+    box-shadow: 0 0 0 2px rgba(216, 81, 124, 0.1)
+
+.clear-search-btn
+  position: absolute
+  right: 10px
+  top: 50%
+  transform: translateY(-50%)
+  background: none
+  border: none
+  font-size: 20px
+  color: $color-text-muted
+  cursor: pointer
+  padding: 5px
+  display: none
+  
+  &:hover
+    color: $color-text-secondary
+
+.search-results-info
+  font-size: 15px
+  color: $color-text-secondary
+  margin: 10px 0 20px
+  font-style: italic
+
+.no-results-message
+  text-align: center
+  padding: 20px
+  font-size: 18px
+  color: $color-text-secondary
+  font-style: italic
+  border: 1px dashed $color-border-dark
+  border-radius: 4px
+  margin: 20px 0
+
+// Sort Controls
+.sort-controls
+  display: flex
+  align-items: center
+  margin: 20px 0
+  flex-wrap: wrap
+
+.sort-label
+  font-weight: 500
+  color: $color-text-secondary
+  margin-right: 10px
+  font-size: 16px
+
+.sort-buttons
+  display: flex
+  gap: 8px
+  flex-wrap: wrap
+
+.sort-button
+  background-color: #f8f8f8
+  border: 1px solid $color-border-dark
+  border-radius: 4px
+  padding: 8px 12px
+  font-size: 15px
+  cursor: pointer
+  transition: all $transition-fast
+  display: flex
+  align-items: center
+  justify-content: center
+  
+  &:hover
+    background-color: #f1f1f1
+    border-color: $color-border-dark
+  
+  &.active
+    background-color: $color-primary-border
+    border-color: $color-accent
+    color: $color-text-primary
+    font-weight: 500
+
+.sort-arrow
+  display: inline-block
+  margin-left: 4px
+  transition: transform $transition-fast
+
+.sort-button.active[data-direction="asc"] .sort-arrow
+  transform: rotate(180deg)

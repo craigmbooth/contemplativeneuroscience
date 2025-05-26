@@ -1,0 +1,50 @@
+.breadcrumbs
+  margin-bottom: $spacing-lg
+  padding: 10px 0
+  font-size: 0.9em
+  color: $color-text-secondary
+
+  ol
+    list-style: none
+    margin: 0
+    padding: 0
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+
+  li
+    display: inline-block
+
+    &:not(:last-child):after
+      content: "/"
+      margin: 0 8px
+      color: $color-border-dark
+
+  li[aria-current="page"]
+    color: $color-text-secondary
+    font-weight: 500
+
+  a
+    color: $color-primary
+    text-decoration: none
+
+    &:hover
+      text-decoration: underline
+
+  @media (max-width: 600px)
+    font-size: 0.8em
+
+    li:not(:last-child):not(:first-child)
+      display: none
+
+    li:first-child:after
+      content: "..."
+
+// Hidden by default, shown via JavaScript
+.breadcrumbs .theme-breadcrumb,
+.breadcrumbs .all-papers-breadcrumb,
+.breadcrumbs .glossary-breadcrumb
+  display: none
+  
+  &.visible
+    display: inline-block

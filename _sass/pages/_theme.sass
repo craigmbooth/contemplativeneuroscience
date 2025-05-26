@@ -1,0 +1,39 @@
+.theme-header
+  display: flex
+  margin-bottom: $spacing-xl
+
+.theme-image
+  flex: 0 0 250px
+  margin-right: $spacing-xl
+  
+  img
+    width: 100%
+    height: auto
+    border-radius: 5px
+    box-shadow: $shadow-md
+
+.theme-description
+  flex: 1
+
+.post-meta
+  &.citation
+    padding-left: 2em
+    text-indent: -2em
+    font-size: 0.9em
+    margin-top: 5px
+    margin-bottom: 5px
+  
+  &.date-added
+    font-size: 0.8em
+    color: $color-text-muted
+    font-style: italic
+    margin-top: 0
+
+@media (max-width: $breakpoint-mobile)
+  .theme-header
+    flex-direction: column
+  
+  .theme-image
+    margin-right: 0
+    margin-bottom: $spacing-lg
+    max-width: 250px
