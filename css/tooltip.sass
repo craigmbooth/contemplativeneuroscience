@@ -1,16 +1,13 @@
 ---
 ---
 
-// To be in shared
-$site-highlight-color: #f62681
-$tool-tip-width: 320px
-$content-max-width: 1024px
+@import 'variables'
 
 .tooltip
   position: relative
   display: inline-block
-  border-bottom: 1px dashed $site-highlight-color
-  color: $site-highlight-color
+  border-bottom: 1px dashed $color-primary
+  color: $color-primary
 
   .glossary-term-link
     color: inherit
@@ -19,8 +16,8 @@ $content-max-width: 1024px
   .tooltiptext
     visibility: hidden
     pointer-events: none
-    width: $tool-tip-width
-    @media (max-width: $content-max-width+2*$tool-tip-width)
+    width: $tooltip-width
+    @media (max-width: $content-max-width+2*$tooltip-width)
         width: 240px
     @media (max-width: 768px)
         width: 320px
@@ -36,7 +33,7 @@ $content-max-width: 1024px
     transition: opacity 0.3s
     left: 50%
     bottom: 100%
-    margin-left: -$tool-tip-width/2
+    margin-left: -$tooltip-width/2
 
     @media (max-width: 768px)
         position: fixed
@@ -66,5 +63,5 @@ $content-max-width: 1024px
         border-color: #353d5a transparent transparent transparent
 
 .tooltip-missing
-  border-bottom: 1px dashed #ff5252
-  color: #ff5252
+  border-bottom: 1px dashed $color-error
+  color: $color-error

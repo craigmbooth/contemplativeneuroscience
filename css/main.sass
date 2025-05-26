@@ -1,10 +1,7 @@
 ---
 ---
 
-// To be in shared
-$site-highlight-color: #f62681
-$content-max-width: 1024px
-$tool-tip-width: 300px
+@import 'variables'
 
 // Breadcrumbs styling
 .breadcrumbs
@@ -34,7 +31,7 @@ $tool-tip-width: 300px
     font-weight: 500
 
   a
-    color: $site-highlight-color
+    color: $color-primary
     text-decoration: none
 
     &:hover
@@ -56,10 +53,9 @@ $tool-tip-width: 300px
 .cf
   @include clearfix
 
-$rs: 16px
+$rs: $base-unit
 
-$font-serif: Merriweather, serif
-$font-sans: Jost, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
+// Font variables now in _variables.sass
 
 
 @mixin respond-to($breakpoint)
@@ -74,7 +70,7 @@ main
   display: block
 
 body
-  font-family: $font-sans
+  font-family: $font-family-sans
   margin: 0
   padding: 0
   text-rendering: optimizeLegibility
@@ -129,7 +125,7 @@ body
       font-size: 50px
     text-align: center
     font-weight: 700
-    margin-bottom: 20px
+    margin: 0 0 20px 0
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 1.0)
   .blog-subtitle
     text-align: center
@@ -196,7 +192,7 @@ body
       text-decoration: none
       color: #fff
       &:hover
-        color: $site-highlight-color
+        color: $color-primary
       margin-right: 20px
 
     @media (max-width: 768px)
@@ -253,7 +249,7 @@ body
   //and when we get all the way to 768px, go back to 100% because
   //we have flipped to mobile-safe tooltips.
   max-width: $content-max-width
-  @media (max-width: $content-max-width+2*$tool-tip-width)
+  @media (max-width: $content-max-width+2*$tooltip-width)
     max-width: 80%
   @media (max-width: 768px)
     max-width: $content-max-width
@@ -272,7 +268,7 @@ body
       letter-spacing: -0.02em
       font-weight: 700
       font-style: normal
-      font-family: $font-serif
+      font-family: $font-family-serif
       display: block
       font-size: 28px
       line-height: 1.1
@@ -302,9 +298,9 @@ body
         &:hover
           text-decoration: underline
   h2
-    font-family: $font-serif
+    font-family: $font-family-serif
   a
-    color: $site-highlight-color
+    color: $color-primary
     text-decoration: none
     &:hover
       text-decoration: underline
@@ -345,15 +341,15 @@ body
     font-weight: 500
 
   .pagination-link
-    color: $site-highlight-color
+    color: $color-primary
     text-decoration: none
     padding: 8px 12px
     border-radius: 4px
     transition: all 0.2s ease
 
     &:hover
-      background-color: #f9f0f5
-      color: darken($site-highlight-color, 10%)
+      background-color: $color-primary-light
+      color: $color-primary-dark
       text-decoration: none
 
   .disabled
@@ -381,7 +377,7 @@ body
   letter-spacing: -0.02em
   font-weight: 400
   font-style: normal
-  font-family: $font-sans
+  font-family: $font-family-sans
   z-index: 999
 .tag-articleimage .post-reading
   color: rgba(255,255,255,0.9)
@@ -442,7 +438,7 @@ body
       left: 30%
       right: 30%
       z-index: 9
-      font-family: $font-sans
+      font-family: $font-family-sans
       @include box-sizing(border-box)
       @include respond-to(800)
         left: $rs
@@ -477,7 +473,7 @@ body
       text-shadow: 0px 1px 4px rgba(0,0,0,0.25), 0px 0px 1px rgba(0,0,0,0.5)
       font-size: 14px
       overflow: hidden
-      font-family: $font-sans
+      font-family: $font-family-sans
       white-space: nowrap
       text-overflow: ellipsis
       a
@@ -494,7 +490,7 @@ body
       text-decoration: underline
   .noarticleimage
     .post-meta
-      font-family: $font-serif
+      font-family: $font-family-serif
       padding-top: 60px
     .post-title
       font-weight: 700
@@ -524,15 +520,15 @@ body
       font-style: normal
       font-size: 14px
       overflow: hidden
-      font-family: $font-sans
+      font-family: $font-family-sans
       white-space: nowrap
       text-overflow: ellipsis
   .post-content
     width: 100%
-    font-family: $font-sans
+    font-family: $font-family-sans
     color: #333
     h1, h2, h3
-      font-family: $font-serif
+      font-family: $font-family-serif
     h3, h4, h5, h6
       letter-spacing: -0.02em
       font-weight: 700
@@ -540,7 +536,7 @@ body
       font-size: 24px
       line-height: 1.3
       margin: 0
-      font-family: $font-serif
+      font-family: $font-family-serif
       margin-bottom: 31px
       padding-top: 4px
     h2, h1
@@ -592,13 +588,13 @@ body
     blockquote
       margin: 0 0 30px
       margin-left: -26px
-      border-left: 3px solid $site-highlight-color
+      border-left: 3px solid $color-primary
       padding-left: 20px
       p
         letter-spacing: 0.01rem
         font-weight: 400
         font-style: italic
-        mborder-left: 3px solid $site-highlight-color
+        mborder-left: 3px solid $color-primary
         mpadding-left: 20px
         mmargin-left: -26px
         padding-bottom: 3px
@@ -625,7 +621,7 @@ body
 
   .bottom-teaser
     padding: 50px 0
-    font-family: $font-sans
+    font-family: $font-family-sans
     hr
       border: 0
       padding: 0
@@ -739,7 +735,7 @@ body
       font-size: 50px
       text-align: center
       font-weight: 700
-      font-family: $font-serif
+      font-family: $font-family-serif
       letter-spacing: -2px
       outline: 0
       line-height: 50px
@@ -767,7 +763,7 @@ body
       text-decoration: none
       cursor: pointer
       height: 44px
-      background: $site-highlight-color
+      background: $color-primary
       color: #fff
       vertical-align: middle
       box-sizing: border-box
