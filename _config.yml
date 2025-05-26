@@ -41,6 +41,10 @@ twitter_handle: '@cmb'
 
 permalink: /:title/
 
+# Minification
+sass:
+  style: compressed
+
 # social icons and sharing options
 social:
   - icon:	twitter
