@@ -12,7 +12,7 @@
 
 <div class="teaserimage">
   <div class="teaserimage-image" {% if site.cover %}data-bg-image="{{ site.cover | prepend: site.baseurl }}"{% endif %}>
-    <h1 class="blog-title">{{ site.title }}</h1>
+    {% if page.url == "/" %}<h1 class="blog-title">{{ site.title }}</h1>{% else %}<div class="blog-title">{{ site.title }}</div>{% endif %}
     <div class="blog-subtitle">{{site.description}}</div>
 
     <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-navigation">
