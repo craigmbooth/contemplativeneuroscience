@@ -12,6 +12,7 @@
 
 <div class="teaserimage">
   <div class="teaserimage-image" {% if site.cover %}data-bg-image="{{ site.cover | prepend: site.baseurl }}"{% endif %}>
+    {% comment %}Use h1 on frontpage for semantic structure, div on other pages to avoid duplicate h1 tags{% endcomment %}
     {% if page.url == "/" %}<h1 class="blog-title">{{ site.title }}</h1>{% else %}<div class="blog-title">{{ site.title }}</div>{% endif %}
     <div class="blog-subtitle">{{site.description}}</div>
 
