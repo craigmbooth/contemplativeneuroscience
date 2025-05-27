@@ -66,3 +66,11 @@
   title: Effect Size
   def: "Effect size is a statistical concept that quantifies the magnitude or strength of a relationship, difference, or intervention outcome. Unlike p-values which only indicate statistical significance, effect sizes measure how meaningful a result is in practical terms. Common measures include Cohen's d (standardized mean difference), correlation coefficients (r), and odds ratios. In meditation research, effect sizes help quantify the practical impact of different meditation practices on psychological or physiological outcomes."
   wiki: Effect_size
+- term: vipassana
+  title: Vipassana
+  def: "Vipassana is a form of Buddhist meditation focused on the cultivation of insight through moment-to-moment awareness of bodily sensations, thoughts, and emotions. It emphasizes non-reactivity and equanimity, helping practitioners observe mental and physical phenomena without attachment."
+  wiki: Vipassanā
+- term: rem_sleep
+  title: REM Sleep
+  def: "Rapid Eye Movement (REM) sleep is a sleep stage marked by vivid dreaming, rapid eye movements, and heightened brain activity similar to wakefulness. REM sleep supports emotional regulation, memory consolidation, and neuroplasticity. It typically increases in the later part of the night."
+  wiki: Rapid_eye_movement_sleep

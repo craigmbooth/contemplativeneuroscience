@@ -2,7 +2,7 @@
 layout: post
 title:  "Mindfulness Meditation and Improvement in Sleep Quality and Daytime Impairment Among Older Adults With Sleep Disturbances"
 date:   2025-05-17
-theme:
+theme: sleep
 doi: 10.1001/jamainternmed.2014.8081
 meta_description: "A randomized trial finds that mindfulness meditation significantly improves sleep quality and reduces fatigue and depression in older adults, outperforming a structured sleep hygiene program."
 snippet: "Can mindfulness meditation help older adults sleep better? This randomized trial says yes. In just six weeks, participants in a community-based meditation course saw clinically meaningful improvements in sleep quality, outperforming even a structured sleep hygiene program. They also experienced less fatigue and depression, with benefits comparable to medication but without the side effects."
