@@ -99,6 +99,39 @@ Check for any Sass compilation errors in the output.
 - Use `.classList.add/remove()` instead of `.style.property`
 - Dynamic backgrounds use `data-bg-image` attributes
 
+### JavaScript Architecture & Minification
+
+1. **JavaScript files organization**:
+   - `/assets/js/bundle.js` - Main application JavaScript (jQuery-based)
+   - `/assets/js/all-papers.js` - Search and sort functionality for papers page
+   - `/assets/js/glossary.js` - Toggle functionality for glossary related articles
+   - All JavaScript previously inline in templates has been extracted to separate files
+
+2. **Minification setup** (Added 2025-05-27):
+   - **Scripts location**: `/scripts/minify-js.sh` - Bash script for minifying JS files
+   - **Output**: Creates `.min.js` versions of all JavaScript files
+   - **Tool**: Uses `uglifyjs` for minification (install with `npm install -g uglify-js`)
+   - **Development workflow**: Use `/scripts/serve-with-minify.sh` for auto-minification during development
+   
+3. **Deployment considerations**:
+   - Site is deployed on GitHub Pages, so no custom Jekyll plugins allowed
+   - Minification must be done locally before committing
+   - Minified files should be committed to the repository
+   - Reference minified versions in production
+
+4. **Running minification**:
+   ```bash
+   # One-time minification
+   ./scripts/minify-js.sh
+   
+   # Development with auto-minification
+   ./scripts/serve-with-minify.sh
+   ```
+
+5. **File watching requirements**:
+   - macOS: `brew install fswatch`
+   - Linux: `sudo apt-get install inotify-tools`
+
 ## Future Improvements Identified
 
 From the SEO and CSS audits, priority improvements include:
@@ -138,4 +171,4 @@ From the SEO and CSS audits, priority improvements include:
 - When refactoring inline styles, check for JavaScript that may depend on them
 - The subscribe.html file contains 590+ lines of third-party CSS - handle with care
 
-Last updated: 2025-05-25
+Last updated: 2025-05-27

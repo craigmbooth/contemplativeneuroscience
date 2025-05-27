@@ -1,6 +1,3 @@
----
----
-
 (function ($) {
     "use strict";
 
@@ -40,6 +37,24 @@
             const imageUrl = element.getAttribute('data-bg-image');
             if (imageUrl) {
                 element.style.backgroundImage = 'url(' + imageUrl + ')';
+            }
+        });
+
+        // Article image padding adjustment
+        var $window = $(window);
+        var height = $('.article-image').height();
+        $('.post-content').css('padding-top', height + 'px');
+
+        // Smooth scroll for anchor links
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+             && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({ scrollTop: target.offset().top }, 500);
+                    return false;
+                }
             }
         });
 
