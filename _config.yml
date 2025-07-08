@@ -45,6 +45,12 @@ permalink: /:title/
 sass:
   style: compressed
 
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENCE
+
 # social icons and sharing options
 social:
   - icon:	twitter
