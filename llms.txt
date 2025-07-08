@@ -1,0 +1,61 @@
+# Contemplative Neuroscience
+
+> A curated collection of scientific research on meditation and mindfulness, exploring how these practices affect the brain
+
+## Overview
+
+This website collects accessible summaries of peer-reviewed research at the intersection of meditation and brain science. The site is authored by Craig Booth, a meditation practitioner and scientist, with the goal of making contemplative neuroscience research understandable and meaningful to practitioners, researchers, and the meditation-curious.
+
+## Site Structure
+
+### Core Content
+- **Research Papers**: Individual summaries of peer-reviewed studies on meditation and neuroscience
+- **Research Themes**: Papers organized by key areas including:
+  - Neurological Correlates
+  - Biological Health Effects  
+  - Sleep and Meditation
+  - Mind-Wandering
+  - Adverse Effects
+- **Glossary**: Definitions of key terms and concepts in contemplative neuroscience
+- **All Papers**: Searchable and sortable collection of all research summaries
+
+## Key Features
+
+### Content Organization
+- Papers categorized by research themes for easy browsing
+- Search and sort functionality across all papers
+- Glossary with expandable definitions
+- Responsive design optimized for mobile and desktop
+
+### Technical Highlights
+- Non-standard Sass setup with files in `/css/` directory
+- Component-based CSS architecture
+- Semantic color and spacing variables
+- Minified JavaScript for production
+- Dynamic background image system using data attributes
+
+## Content Focus
+
+The site covers cutting-edge research in contemplative neuroscience, including:
+- Neuroplasticity and meditation
+- Jhana states and reward systems
+- Default mode network changes
+- Immune system effects
+- Sleep quality improvements
+- Attention and cognitive function
+- Adverse effects and safety considerations
+
+## Target Audience
+
+- Meditation practitioners seeking scientific understanding
+- Researchers in neuroscience and psychology
+- Students of contemplative practices
+- General public interested in meditation science
+
+## Author
+
+Craig Booth - Meditation practitioner and scientist passionate about the intersection of contemplative practices and neuroscience research.
+
+---
+
+*This site serves as a bridge between rigorous scientific research and practical meditation experience, making complex neuroscience accessible to those interested in the measurable effects of contemplative practices on the brain.*
