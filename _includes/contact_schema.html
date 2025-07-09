@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author }}",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "sameAs": [
+    "https://twitter.com/cmb"
+  ],
+  "jobTitle": "Meditation Practitioner and Scientist",
+  "description": "A meditation practitioner and scientist who curates accessible summaries of peer-reviewed research at the intersection of meditation and brain science.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ site.baseurl }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.logo | prepend: site.baseurl }}"
+    }
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "author",
+    "availableLanguage": "en"
+  }
+}
+</script>

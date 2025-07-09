@@ -87,6 +87,11 @@
   <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/pages.css"  | prepend: site.baseurl  }}" />
   <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/components.css"  | prepend: site.baseurl  }}" />
 
+  <!-- JSON-LD Structured Data -->
+  {% if page.url == "/" %}
+    {% include contact_schema.html %}
+  {% endif %}
+
   <!-- MailerLite Universal -->
   <script>
     (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
