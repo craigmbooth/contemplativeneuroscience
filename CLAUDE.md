@@ -85,6 +85,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 ## Gotchas
 
 - Astro's HTML compression removes whitespace between elements. Where inline elements need a gap (nav links, "Themes:" label), emit `{' '}` explicitly.
+- Image width/height come from the file at render time and are cached with the rendered markdown (`.astro/data-store.json` for dev, `node_modules/.astro/data-store.json` for builds). If you replace an image without editing its post, delete both files (and restart `npm run dev`) to pick up the new size. CI builds start clean.
 - Smart typography matches kramdown: `--` → en dash, `---` → em dash (`SMARTYPANTS_OPTIONS`).
 - Breadcrumbs: the visible trail is chosen client-side from `document.referrer` (`src/scripts/breadcrumbs.js`); the only structured breadcrumb data is the JSON-LD BreadcrumbList.
 - Use state classes (`.visible`, `.expanded`, `.active`) rather than inline style manipulation in JS; dynamic backgrounds use `data-bg-image` attributes.

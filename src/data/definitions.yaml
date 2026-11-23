@@ -85,3 +85,19 @@
   title: Cross-Sectional Study
   def: "A cross-sectional study measures a group of people at a single point in time. It can show which things tend to go together, but not which came first or whether one causes the other."
   wiki: Cross-sectional_study
+- term: active_control_group
+  title: Active Control Group
+  def: "An active control group is a comparison group that takes part in a different program designed to be just as engaging as the one being tested. In meditation research, it might involve exercise, music, or education classes with the same time commitment, teachers, and expectations of benefit. Comparing against an active control helps separate the effects of meditation itself from the general effects of joining a course."
+  wiki: Scientific_control
+- term: amygdala
+  title: Amygdala
+  def: "The amygdala is a pair of almond-shaped structures deep in the brain's temporal lobes. It plays a central role in processing emotion, especially threat and fear. Meditation studies often look at how strongly the amygdala responds to emotional images, and sometimes at its size."
+  wiki: Amygdala
+- term: gray_matter
+  title: Gray Matter
+  def: "Gray matter is brain tissue made up mostly of nerve cell bodies and their connections. It forms the brain's outer layer (the cortex) and several deeper structures. Structural MRI can estimate gray matter volume (how big a region is), density (how concentrated the tissue is), and cortical thickness (how deep the outer layer is)."
+  wiki: Grey_matter
+- term: neuroplasticity
+  title: Neuroplasticity
+  def: "Neuroplasticity is the brain's ability to change its structure and function in response to experience. Changes can include new connections between neurons and shifts in the size of brain regions. Researchers have looked for structural neuroplasticity after meditation training, much as it has been found after exercise or learning new skills."
+  wiki: Neuroplasticity

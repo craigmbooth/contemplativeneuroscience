@@ -24,7 +24,7 @@ While contemplative traditions have long claimed that compassion can be enhanced
 
 ## What They Did
 
-The authors recruited healthy adult participants with no prior meditation experience and randomly assigned them to two different two-week training programs. One group received compassion meditation training, where participants practiced generating compassion toward themselves and others, including loved ones, strangers, and even people they found difficult. The second group underwent reappraisal training, learning cognitive strategies to reinterpret stressful personal events in order to reduce negative emotions—serving as an active control.
+The authors recruited healthy adult participants with no prior meditation experience and randomly assigned them to two different two-week training programs. One group received compassion meditation training, where participants practiced generating compassion toward themselves and others, including loved ones, strangers, and even people they found difficult. The second group underwent reappraisal training, learning cognitive strategies to reinterpret stressful personal events in order to reduce negative emotions—serving as an :term[active control]{id="active_control_group"}.
 
 Both groups completed daily 30-minute guided audio practices for two weeks and underwent brain scans before and after the training.
 

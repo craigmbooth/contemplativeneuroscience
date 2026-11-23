@@ -23,7 +23,7 @@ Mindfulness meditation, a practice rooted in cultivating non-judgmental present-
 
 ## What They Did
 
-In a randomized clinical trial, 49 older adults (average age 66) with moderate sleep issues were assigned to one of two six-week programs. One group received mindfulness training through a standardized "Mindful Awareness Practices" (MAPs) course, which included techniques like sitting meditation, mindful walking, and loving-kindness practice. The other group participated in an active control condition: a sleep hygiene education (SHE) course designed to match the meditation program in time, attention, and group support.
+In a randomized clinical trial, 49 older adults (average age 66) with moderate sleep issues were assigned to one of two six-week programs. One group received mindfulness training through a standardized "Mindful Awareness Practices" (MAPs) course, which included techniques like sitting meditation, mindful walking, and loving-kindness practice. The other group participated in an :term[active control]{id="active_control_group"} condition: a sleep hygiene education (SHE) course designed to match the meditation program in time, attention, and group support.
 
 Participants in both groups attended weekly two-hour classes for six weeks and were assigned daily homework. Outcomes were assessed both before and after the intervention, focusing on sleep quality (via the Pittsburgh Sleep Quality Index), as well as other measures like depression, fatigue, anxiety, and :term[inflammatory]{id="inflammation"} markers (specifically NF-κB, a signaling molecule linked to inflammation and sleep disruption).
 

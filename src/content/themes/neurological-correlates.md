@@ -10,5 +10,7 @@ research_summary: |
 
   Other practices look different. In a case study of jhana meditation, an experienced meditator's brain showed reduced activity in areas tied to outward awareness and increased activity in reward areas ([Hagerty et al., 2013](/ecstatic-meditation-reward-system/)), a pattern the authors note differs from loving-kindness and Transcendental Meditation studies. Practice can also change behavior: two weeks of compassion training increased altruistic giving, and the change was linked to shifts in brain responses to suffering ([Weng et al., 2013](/compassion-alters-altruism/)).
 
+  Changes to brain structure are a different question. In the largest randomized trial of its kind, eight weeks of MBSR changed gray matter no more than a matched wellness course or a waitlist ([Kral et al., 2022](/mindfulness-brain-structure/)), even though earlier analyses of the same participants found changes in brain function. A short course may change how the brain responds without measurably changing its structure.
+
   Most of these studies are small, and several compare experts with novices at a single point in time, so they map what meditation looks like in the brain more than they prove how it changes it.
 ---
