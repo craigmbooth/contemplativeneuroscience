@@ -74,3 +74,14 @@
   title: REM Sleep
   def: "Rapid Eye Movement (REM) sleep is a sleep stage marked by vivid dreaming, rapid eye movements, and heightened brain activity similar to wakefulness. REM sleep supports emotional regulation, memory consolidation, and neuroplasticity. It typically increases in the later part of the night."
   wiki: Rapid_eye_movement_sleep
+- term: adverse_childhood_experiences
+  title: Adverse Childhood Experiences (ACEs)
+  def: "Adverse childhood experiences are potentially traumatic events that happen before age 18, such as abuse, neglect, or growing up with household substance use or violence. Researchers usually measure them with a short yes/no questionnaire and add up the total. Higher ACE scores are associated with poorer physical and mental health in adulthood, and in meditation research they have been linked to a higher chance of meditation-related adverse effects."
+  wiki: Adverse_childhood_experiences
+- term: meditation_adverse_effects
+  title: Meditation-Related Adverse Effects
+  def: "Meditation-related adverse effects are unpleasant experiences that a person attributes to meditation practice, ranging from mild and brief to severe and lasting. Examples include anxiety, re-living traumatic memories, trouble sleeping and feeling disconnected from oneself or the world. Researchers usually record how long each effect lasted and whether it interfered with daily functioning."
+- term: cross_sectional_study
+  title: Cross-Sectional Study
+  def: "A cross-sectional study measures a group of people at a single point in time. It can show which things tend to go together, but not which came first or whether one causes the other."
+  wiki: Cross-sectional_study

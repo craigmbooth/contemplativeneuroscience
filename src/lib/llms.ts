@@ -35,6 +35,7 @@ function plainMarkdown(body: string): string {
 const doiUrl = (doi: string) => `https://doi.org/${doi}`;
 
 export async function llmsTxt(): Promise<string> {
+  const withWikipedia = [...definitions.values()].filter((d) => d.wiki).length;
   const posts = await getPosts();
   const themes = await getThemes();
   const counts = new Map(themes.map((t) => [t.data.theme_key, 0]));
@@ -67,7 +68,7 @@ ${themes
 
 ## Reference
 
-- [Glossary](${absoluteUrl('/glossary/')}): Definitions of ${definitions.size} technical terms used in the summaries, each linked to Wikipedia.
+- [Glossary](${absoluteUrl('/glossary/')}): Definitions of ${definitions.size} technical terms used in the summaries, ${withWikipedia === definitions.size ? 'each' : `${withWikipedia}`} linked to Wikipedia.
 - [All papers](${absoluteUrl('/all-papers/')}): Every summary with its citation, searchable and sortable.
 - [About](${absoluteUrl('/about/')}): Who writes this site and why.
 
