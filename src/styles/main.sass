@@ -213,6 +213,9 @@ body
   margin: 0 auto
   margin-top: 100px
   @include box-sizing(border-box)
+  // Posts and pages: a narrower column, about 70 characters per line.
+  &.reading
+    max-width: $content-reading-width
   @include respond-to(800)
     padding: 0 $rs*2
   article

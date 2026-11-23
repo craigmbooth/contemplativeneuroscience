@@ -6,7 +6,7 @@ date:   2024-03-08
 theme: neurological-correlates
 doi: 10.1073/pnas.0407401101
 meta_description: "EEG study: long-term Buddhist meditators generate high-amplitude gamma waves during loving-kindness meditation, rising with years of practice."
-snippet: "This study compares the brain wave activity of a group of seasoned meditators to that of meditation novices, both at rest and during meditation. It finds that experienced meditators generate extremely high amounts of gamma brain waves, associated with enhanced perception, consciouness, attention and memory.  These gamma waves are elevated both in- and out- side of meditation. More meditation experience is correlated with stronger gamma waves."
+snippet: "Can meditation change the brain's electrical rhythms? Researchers recorded EEG from 8 long-term Buddhist practitioners (10,000 to 50,000 hours of practice) and 10 novices during compassion meditation. The experts produced unusually strong, synchronized gamma waves, which stayed higher at rest, and the more practice they had, the higher their resting gamma. The groups differed in more than meditation, so this shows a link, not proof that practice caused it."
 citation: "Lutz, A., Greischar, L. L., Rawlings, N. B., Ricard, M., & Davidson, R. J. (2004). Long-term meditators self-induce high-amplitude gamma synchrony during mental practice. In *Proceedings of the National Academy of Sciences* (Vol. 101, Issue 46, pp. 16369–16373). Proceedings of the National Academy of Sciences. [10.1073/pnas.0407401101](https://www.doi.org/10.1073/pnas.0407401101)"
 study:
   type: "Comparison study"

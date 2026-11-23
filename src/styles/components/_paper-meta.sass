@@ -1,0 +1,37 @@
+// Study-type label and the date / type / theme line on paper listings (PaperMeta.astro).
+
+// Small label for a paper's study type ("Randomized trial").
+.study-type
+  display: inline-block
+  font-family: $font-family-sans
+  font-size: 0.75rem
+  font-weight: 500
+  letter-spacing: 0.04em
+  text-transform: uppercase
+  color: $color-primary-text
+
+// Date, study type and theme above or below a title.
+.paper-meta
+  font-family: $font-family-sans
+  font-size: 0.875rem
+  color: $color-text-muted
+  margin: 0
+
+  .study-type
+    font-size: inherit
+    letter-spacing: 0.04em
+
+  // Nested so it outranks main.sass's `.content a`.
+  a
+    color: $color-text-muted
+    text-decoration: underline
+
+// Inside post and page bodies, undo the large paragraph and link styles.
+.post .post-content p.paper-meta
+  font-size: 0.875rem
+  line-height: 1.5
+  padding-bottom: 0
+  color: $color-text-muted
+
+  a
+    color: $color-text-muted

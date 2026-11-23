@@ -3,6 +3,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Footer from '../components/Footer.astro';
+import PaperMeta from '../components/PaperMeta.astro';
 import { breadcrumbSchema, metaDescription, pageTitle } from '../lib/seo';
 import { publicImageSize } from '../lib/images.js';
 import { markdownify, postsForTheme, postUrl, themeImage, themeUrl, type Theme } from '../lib/content';
@@ -33,7 +34,7 @@ const schemas = [
   schemas={schemas}
   wrapped
 >
-  <main class="content" role="main">
+  <main class="content reading" role="main">
     <article class="post">
       <div class="noarticleimage">
         <div class="post-meta">
@@ -66,6 +67,7 @@ const schemas = [
           <ul class="post-list">
             {posts.map((post, i) => (
               <li>
+                <PaperMeta post={post} />
                 <h3>
                   <a class="post-link" href={postUrl(post)}>{post.data.title}</a>
                 </h3>

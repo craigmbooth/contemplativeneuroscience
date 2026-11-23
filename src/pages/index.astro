@@ -1,9 +1,9 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro';
+import PaperMeta from '../components/PaperMeta.astro';
 import { websiteSchema } from '../lib/seo';
 import { site } from '../site';
 import {
-  displayDate,
   getPosts,
   getThemes,
   postsBySlug,
@@ -31,7 +31,6 @@ const recentItems = await Promise.all(recent.map(meta));
 
 const description =
   'Accessible summaries of peer-reviewed research on meditation and the brain, from jhana and gamma waves to sleep, immune function, and mind wandering.';
-const isoDate = (d: Date) => d.toISOString().slice(0, 10);
 ---
 <DefaultLayout
   title="Home"
@@ -83,13 +82,9 @@ const isoDate = (d: Date) => d.toISOString().slice(0, 10);
     <section class="recent-papers" aria-labelledby="recent-papers-heading">
       <h2 id="recent-papers-heading">Recent Papers</h2>
       <ul class="post-list">
-        {recentItems.map(({ post, type, themes }) => (
+        {recentItems.map(({ post, themes }) => (
           <li>
-            <p class="paper-meta">
-              <time datetime={isoDate(post.data.date)}>{displayDate(post.data.date)}</time>
-              {type && <>{' · '}<span class="study-type">{type}</span></>}
-              {themes.map((t) => <>{' · '}<a href={themeUrl(t)}>{t.data.short_title}</a></>)}
-            </p>
+            <PaperMeta post={post} themes={themes} date />
             <h3><a class="post-link" href={postUrl(post)}>{post.data.title}</a></h3>
             {post.data.snippet && <p>{post.data.snippet}</p>}
           </li>

@@ -1,0 +1,24 @@
+---
+// One line of facts about a paper for listings: date, study type, theme links.
+import { displayDate, themeUrl, type Post, type Theme } from '../lib/content';
+
+export interface Props {
+  post: Post;
+  /** Themes to link (short titles). */
+  themes?: Theme[];
+  /** Show the publication date on this site. */
+  date?: boolean;
+}
+const { post, themes = [], date = false } = Astro.props;
+const type = post.data.study?.type;
+const parts = [date && 'date', type && 'type', ...themes.map(() => 'theme')].filter(Boolean);
+let i = 0;
+const sep = () => (i++ > 0 ? ' · ' : '');
+---
+{parts.length > 0 && (
+  <p class="paper-meta">
+    {date && <>{sep()}<time datetime={post.data.date.toISOString().slice(0, 10)}>{displayDate(post.data.date)}</time></>}
+    {type && <>{sep()}<span class="study-type">{type}</span></>}
+    {themes.map((t) => <>{sep()}<a href={themeUrl(t)}>{t.data.short_title}</a></>)}
+  </p>
+)}

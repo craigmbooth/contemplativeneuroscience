@@ -1,6 +1,8 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
-import { getPosts, markdownify, postUrl, themesForPost, themeUrl } from '../lib/content';
+import PaperMeta from '../components/PaperMeta.astro';
+import { STUDY_TYPES } from '../content.config';
+import { getPosts, markdownify, postUrl, themesForPost } from '../lib/content';
 
 const posts = await getPosts();
 const items = await Promise.all(
@@ -10,12 +12,17 @@ const items = await Promise.all(
     themes: await themesForPost(post),
   })),
 );
+// Study types in use, in STUDY_TYPES order, with counts for the filter.
+const typeCounts = STUDY_TYPES.map((type) => ({
+  type,
+  count: posts.filter((p) => p.data.study?.type === type).length,
+})).filter((t) => t.count > 0);
 ---
 <PageLayout
   title="All Papers"
   meta_description="Browse, search, and sort every research summary on the site: peer-reviewed studies on meditation, mindfulness, and the brain."
 >
-  <p>This page provides a collection of {posts.length} research paper summaries available on the site. You can browse, search, and sort these papers by title, year, or author. Each summary offers an accessible overview of peer-reviewed research on contemplative practices and their effects on the brain, cognition, and well-being.</p>
+  <p>This page provides a collection of {posts.length} research paper summaries available on the site. You can search them, sort them by title, year, or author, and filter them by type of study. Each summary offers an accessible overview of peer-reviewed research on contemplative practices and their effects on the brain, cognition, and well-being.</p>
 
   <div class="search-container">
     <input type="text" id="paperSearch" class="search-input" placeholder="Search headlines, paper titles, authors..." aria-label="Search papers by headline, title or author">
@@ -37,13 +44,22 @@ const items = await Promise.all(
     </div>
   </div>
 
+  <div class="type-filter">
+    <label for="typeFilter" class="sort-label">Study type:</label>
+    <select id="typeFilter" class="type-filter-select">
+      <option value="">All study types ({posts.length})</option>
+      {typeCounts.map(({ type, count }) => <option value={type}>{type} ({count})</option>)}
+    </select>
+  </div>
+
   <p id="searchResults" class="search-results-info" aria-live="polite"></p>
 
   <div class="all-papers-list">
     {items.map(({ post, citation, themes }) => (
-      <article class="post-item" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <article class="post-item" data-study-type={post.data.study?.type ?? ''} itemscope itemtype="http://schema.org/BlogPosting" role="article">
         <div class="article-item">
           <header class="post-header">
+            <PaperMeta post={post} themes={themes} />
             <h3 class="post-title" itemprop="name"><a href={postUrl(post)} itemprop="url">{post.data.title}</a></h3>
           </header>
           <section class="post-excerpt" itemprop="description">
@@ -51,14 +67,6 @@ const items = await Promise.all(
           </section>
           <div class="post-meta citation">
             <Fragment set:html={citation} />
-          </div>
-          <div class="post-themes">
-            {post.data.theme.length > 0 && <><span class="theme-label">Themes:</span>{' '}</>}
-            {themes.map((theme, i) => (
-              <>
-                <a href={themeUrl(theme)} class="theme-tag">{theme.data.title}</a>{i < themes.length - 1 && ', '}
-              </>
-            ))}
           </div>
         </div>
       </article>

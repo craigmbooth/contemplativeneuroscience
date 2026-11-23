@@ -6,7 +6,7 @@ date: 2025-07-08
 theme: neurological-correlates
 doi: 10.1177/0956797612469537
 meta_description: "Two weeks of compassion training increased altruistic giving and changed brain responses to suffering, suggesting compassion is a trainable skill."
-snippet: "Two weeks of compassion meditation led to increased altruistic behavior and measurable changes in brain function, showing that compassion can be trained just like any other skill."
+snippet: "Can a short course in compassion make people more generous? In a randomized trial, adults new to meditation practiced either compassion or reappraisal, a different emotion-regulation technique, for 30 minutes a day for two weeks. Afterwards, the compassion group gave nearly twice as much money to help a stranger who had been treated unfairly, and their brains responded differently to images of suffering. It is unclear how long the effect lasts."
 citation: "Weng, H. Y., Fox, A. S., Shackman, A. J., Stodola, D. E., Caldwell, J. Z. K., Olson, M. C., Rogers, G. M., & Davidson, R. J. (2013). Compassion Training Alters Altruism and Neural Responses to Suffering. Psychological Science, 24(7), 1171–1180. [10.1177/0956797612469537](https://doi.org/10.1177/0956797612469537)"
 
 study:

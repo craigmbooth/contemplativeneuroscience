@@ -6,7 +6,7 @@ date:   2024-05-18
 theme: adverse-effects
 doi: 10.1371/journal.pone.0176239
 meta_description: "Interviews across Buddhist traditions document 59 types of meditation-related challenges, from mild discomfort to severe psychological distress."
-snippet: "Not all meditation experiences are positive. This pioneering study documents the range and frequency of meditation-related challenges, from mild discomfort to severe psychological distress. By interviewing practitioners and teachers across Buddhist traditions, the researchers identify 59 types of adverse effects, challenging the narrative that meditation is risk-free."
+snippet: "What kinds of difficult experiences can meditation bring? Researchers interviewed 60 Western Buddhist practitioners who had had difficulties, along with 32 teachers and clinicians. They identified 59 kinds of challenges, from anxiety and fear to changes in perception, sense of self and relationships, and found them in experienced meditators as well as beginners. Because participants were chosen for having had difficulties, the study maps what can happen, not how often."
 citation: "Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. PLOS ONE, 12(5), e0176239. [10.1371/journal.pone.0176239](https://doi.org/10.1371/journal.pone.0176239)"
 study:
   type: "Interview study"

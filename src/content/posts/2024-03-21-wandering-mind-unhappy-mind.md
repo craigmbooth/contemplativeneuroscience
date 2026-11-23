@@ -1,10 +1,11 @@
 ---
 title:  "A Wandering Mind Is an Unhappy Mind"
+last_modified_at: 2026-11-23
 date:   2024-03-21
 theme: mind-wandering
 doi: 10.1126/science.1192439
 meta_description: "A smartphone study of thousands of people found minds wander 47% of the time, and wandering predicts lower happiness whatever people are doing."
-snippet: "This paper investigates the emotional impact of mind wandering, utilizing a phone app to collect real-time data from thousands of participants worldwide, revealing that mind-wandering occurs frequently across various activities and is associated with decreased happiness. The findings suggest that the content of one's thoughts has a more significant influence on happiness than the nature of the activity being performed, highlighting the cognitive and emotional costs of not living in the moment."
+snippet: "How often do our minds wander, and does it affect how happy we are? Researchers used an iPhone app to ask 2,250 adults, at random moments, what they were doing, what they were thinking about and how they felt. Minds wandered almost half the time, and people were less happy when their minds wandered than when they were focused. What people were thinking about predicted their happiness better than what they were doing."
 citation: "Killingsworth, M. A., & Gilbert, D. T. (2010). A Wandering Mind Is an Unhappy Mind. In *Science* (Vol. 330, Issue 6006, pp. 932–932). American Association for the Advancement of Science (AAAS). [10.1126/science.1192439](https://doi.org/10.1126/science.1192439)"
 study:
   type: "Observational study"
@@ -41,7 +42,7 @@ This conclusion is based on an analysis of the data from the app, which allowed 
 
 ![Dual bubble chart comparing happiness ratings across different activities and thought types. The top chart shows happiness ratings during various activities (like working, exercising, conversing), while the bottom chart shows happiness ratings during different thought states (mind wandering to pleasant/neutral/unpleasant topics versus not mind wandering). Bubble size indicates sample count, and the vertical line shows overall average happiness. The chart clearly demonstrates that mind wandering (especially to unpleasant topics) correlates with lower happiness than staying focused, and this effect is stronger than the impact of different activities.](/assets/article_images/wandering-mind-unhappy-mind/mean_happiness.png)
 
-Analysis revealed that people were generally less happy when their minds were wandering than when they were focused on their current activity. This was true even when the mind wandered to pleasant topics. Moreover, unhappiness was notably higher when the wandering thoughts were neutral or unpleasant.
+Analysis revealed that people were generally less happy when their minds were wandering than when they were focused on their current activity. And when their minds wandered to pleasant topics, they were no happier than when they were focused. Moreover, unhappiness was notably higher when the wandering thoughts were neutral or unpleasant.
 
 > the nature of people's activities had only a modest impact on whether their minds wandered and had almost no impact on the pleasantness of the topics to which their minds wandered
 

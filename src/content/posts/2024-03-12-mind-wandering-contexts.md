@@ -6,8 +6,7 @@ date:   2024-03-12
 theme: mind-wandering
 doi: 10.3758/PBR.16.5.857
 meta_description: "Experience sampling in the lab and in daily life shows mind wandering is a stable individual trait, consistent with a failure of executive control."
-snippet: "This paper measures the propensity for people to mind wander in both laboratory settings and every day life.  The authors find that  the propensity to mind wander is a stable cognitive characteristic, representing an individual dif-
-  ference that is reliable across time, activities, and contexts, consistent with the idea that mind wandering represents a failure of executive control."
+snippet: "Is mind wandering a habit you carry everywhere, or does it depend on what you're doing? Researchers measured off-task thoughts in 72 undergraduates, first on a lab attention task and then eight times a day for a week. People whose minds wandered more in the lab also wandered more in daily life, suggesting a stable trait. Context mattered too: minds wandered more during boring or stressful activities and less during enjoyable or important ones."
 citation: "McVay, J. C., Kane, M. J., & Kwapil, T. R. (2009). Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts. In *Psychonomic Bulletin &amp; Review* (Vol. 16, Issue 5, pp. 857–863). Springer Science and Business Media LLC. [10.3758/pbr.16.5.857](https://doi.org/10.3758/pbr.16.5.857)"
 study:
   type: "Observational study"

@@ -28,24 +28,6 @@
   font-size: 16px
   color: $color-text-secondary
 
-.post-themes
-  font-size: 15px
-  margin-top: 10px
-
-.theme-label
-  font-weight: 500
-  color: $color-text-secondary
-
-.theme-tag
-  display: inline-block
-  text-decoration: none
-  color: $color-primary
-  transition: color $transition-fast
-  
-  &:hover
-    color: $color-primary-dark
-    text-decoration: underline
-
 // Search functionality
 .search-container
   position: relative
@@ -145,3 +127,26 @@
 
 .sort-button.active[data-direction="asc"] .sort-arrow
   transform: rotate(180deg)
+// Study-type filter
+.type-filter
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  gap: $spacing-sm
+  margin: 20px 0
+
+.type-filter-select
+  font: inherit
+  font-size: 15px
+  padding: 8px 12px
+  border: 1px solid $color-border-dark
+  border-radius: 4px
+  background-color: #f8f8f8
+  color: $color-text-primary
+
+  &:focus-visible
+    outline: 2px solid $color-primary-text
+    outline-offset: 2px
+
+.post-item .paper-meta
+  margin-bottom: $spacing-xs

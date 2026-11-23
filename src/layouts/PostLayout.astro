@@ -3,6 +3,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Footer from '../components/Footer.astro';
+import PaperMeta from '../components/PaperMeta.astro';
 import Subscribe from '../components/Subscribe.astro';
 import { site } from '../site';
 import { articleSchema, breadcrumbSchema, metaDescription, pageTitle, postBreadcrumbs, postImage, type ShareMeta } from '../lib/seo';
@@ -36,7 +37,7 @@ const schemas = [await articleSchema(post, path), breadcrumbSchema(await postBre
   share={share}
   schemas={schemas}
 >
-  <main class="content" role="main">
+  <main class="content reading" role="main">
     <article class="post">
       <div class="noarticleimage">
         <div class="post-meta">
@@ -87,7 +88,7 @@ const schemas = [await articleSchema(post, path), breadcrumbSchema(await postBre
             <h2 id="related-papers-heading">Related Papers</h2>
             <ul>
               {related.map((p) => (
-                <li><a href={postUrl(p)}>{p.data.title}</a></li>
+                <li><PaperMeta post={p} /><a href={postUrl(p)}>{p.data.title}</a></li>
               ))}
             </ul>
             <p class="related-papers-more">

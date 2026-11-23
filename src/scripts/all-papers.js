@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Create a no results message element (initially hidden)
   const noResultsMessage = document.createElement('div');
   noResultsMessage.className = 'no-results-message';
-  noResultsMessage.innerHTML = 'No papers match your search criteria. Try different keywords.';
+  noResultsMessage.textContent = 'No papers match. Try different keywords or another study type.';
   noResultsMessage.style.display = 'none';
   allPapersList.after(noResultsMessage);
 
@@ -116,32 +116,25 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Search functionality
+  // Search and study-type filter: a paper shows when it matches both.
+  const typeFilter = document.getElementById('typeFilter');
+
   function performSearch() {
     const searchTerm = searchInput.value.trim().toLowerCase();
+    const type = typeFilter ? typeFilter.value : '';
     let matchCount = 0;
 
     // Show/hide clear button
     clearButton.style.display = searchTerm.length > 0 ? 'block' : 'none';
 
-    // If search is empty, show all papers
-    if (searchTerm === '') {
-      paperItems.forEach(item => {
-        item.classList.remove('hidden');
-      });
-      resultsInfo.textContent = '';
-      noResultsMessage.style.display = 'none';
-      return;
-    }
-
-    // Filter papers based on search term
     paperItems.forEach(item => {
       // Match the headline or the citation, which holds the paper's own title and authors.
       const title = item.querySelector('.post-title').textContent.toLowerCase();
       const citation = (item.querySelector('.citation')?.textContent ?? '').toLowerCase();
-      const matchesSearch = title.includes(searchTerm) || citation.includes(searchTerm);
+      const matchesSearch = searchTerm === '' || title.includes(searchTerm) || citation.includes(searchTerm);
+      const matchesType = type === '' || item.dataset.studyType === type;
 
-      if (matchesSearch) {
+      if (matchesSearch && matchesType) {
         item.classList.remove('hidden');
         matchCount++;
       } else {
@@ -150,17 +143,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Update results info
-    if (matchCount === 0) {
+    if (searchTerm === '' && type === '') {
+      resultsInfo.textContent = '';
+      noResultsMessage.style.display = 'none';
+    } else if (matchCount === 0) {
       resultsInfo.textContent = 'No papers found matching your search.';
       noResultsMessage.style.display = 'block';
     } else {
-      resultsInfo.textContent = `Found ${matchCount} paper${matchCount !== 1 ? 's' : ''} matching your search.`;
+      resultsInfo.textContent = `Showing ${matchCount} paper${matchCount !== 1 ? 's' : ''}.`;
       noResultsMessage.style.display = 'none';
     }
   }
 
   // Event listeners
   searchInput.addEventListener('input', performSearch);
+  if (typeFilter) typeFilter.addEventListener('change', performSearch);
 
   clearButton.addEventListener('click', function() {
     searchInput.value = '';
