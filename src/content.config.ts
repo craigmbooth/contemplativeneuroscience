@@ -21,7 +21,10 @@ const posts = defineCollection({
     generateId: ({ entry }) => entry.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, ''),
   }),
   schema: z.object({
+    /** Plain-language headline stating the finding (shown on the page and in lists). */
     title: z.string(),
+    /** The paper's own title, when the headline differs (structured data, search). */
+    paper_title: optionalString,
     /** Concise title for search results (<= 60 chars); defaults to title. */
     seo_title: optionalString,
     date: z.coerce.date(),

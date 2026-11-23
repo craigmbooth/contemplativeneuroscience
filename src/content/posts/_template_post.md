@@ -1,5 +1,6 @@
 ---
-title:  ""
+title: ""  # plain-language headline stating the finding
+paper_title: ""  # the paper's own title
 seo_title: ""  # optional: concise title for search results (<= 60 chars); defaults to title
 last_modified_at:  # optional: date of last substantive revision (YYYY-MM-DD)
 date:

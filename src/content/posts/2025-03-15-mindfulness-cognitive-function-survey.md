@@ -1,5 +1,6 @@
 ---
-title:  "Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials"
+title: "Across 111 Trials, Mindfulness Modestly Improved Attention and Memory"
+paper_title: "Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials"
 seo_title: "Mindfulness Improves Cognition: Meta-Analysis of 111 RCTs"
 date:   2025-03-15
 theme: mind-wandering

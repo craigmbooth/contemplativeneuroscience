@@ -1,5 +1,6 @@
 ---
-title:  "Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts"
+title: "Mind Wandering Is a Stable Trait, in the Lab and in Daily Life"
+paper_title: "Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts"
 seo_title: "Mind Wandering in the Lab and in Everyday Life"
 date:   2024-03-12
 theme: mind-wandering

@@ -1,5 +1,6 @@
 ---
-title:  "Intracranial Substrates of Meditation-Induced Neuromodulation in the Amygdala and Hippocampus"
+title: "Loving-Kindness Meditation Boosted Gamma Waves Deep in the Brain"
+paper_title: "Intracranial Substrates of Meditation-Induced Neuromodulation in the Amygdala and Hippocampus"
 seo_title: "Meditation Modulates the Amygdala and Hippocampus"
 date:   2025-05-14
 theme: neurological-correlates

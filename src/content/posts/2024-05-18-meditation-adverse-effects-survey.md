@@ -1,5 +1,6 @@
 ---
-title:  "The Varieties of Contemplative Experience: A Survey of Meditation-Related Challenges"
+title: "Meditators Described 59 Kinds of Difficult Experiences"
+paper_title: "The Varieties of Contemplative Experience: A Survey of Meditation-Related Challenges"
 seo_title: "Varieties of Contemplative Experience: Meditation Challenges"
 date:   2024-05-18
 theme: adverse-effects

@@ -1,5 +1,6 @@
 ---
-title:  "Associations of meditation with telomere dynamics: a case–control study in healthy adults"
+title: "Long-Term Meditators Had 32% Longer Telomeres Than Non-Meditators"
+paper_title: "Associations of meditation with telomere dynamics: a case–control study in healthy adults"
 seo_title: "Meditation and Telomere Dynamics: A Case–Control Study"
 date:   2025-05-16
 theme: biological-health

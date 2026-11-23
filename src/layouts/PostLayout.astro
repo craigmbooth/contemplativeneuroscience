@@ -23,6 +23,8 @@ const updated = data.last_modified_at && isoDate(data.last_modified_at) !== isoD
 const citation = (await markdownify(data.citation)).replaceAll('<p>', '<p class="citation">');
 const image = postImage(post);
 const share: ShareMeta = {
+  // Social cards show the plain-language headline; <title> stays search-focused (seo_title).
+  title: data.title,
   image: image.src,
   imageAlt: image.alt,
   article: { published: data.date, modified: data.last_modified_at, sections: themes.map((t) => t.data.title) },

@@ -22,10 +22,11 @@
         const menuToggle = document.querySelector('.menu-toggle');
         if (menuToggle) {
             menuToggle.addEventListener('click', function() {
-                this.classList.toggle('active');
+                const open = this.classList.toggle('active');
+                this.setAttribute('aria-expanded', String(open));
                 const customLinks = document.querySelector('.custom-links');
                 if (customLinks) {
-                    customLinks.classList.toggle('active');
+                    customLinks.classList.toggle('active', open);
                 }
             });
         }
@@ -35,7 +36,10 @@
             if (!event.target.closest('.menu-toggle') && !event.target.closest('.custom-links')) {
                 const menuToggle = document.querySelector('.menu-toggle');
                 const customLinks = document.querySelector('.custom-links');
-                if (menuToggle) menuToggle.classList.remove('active');
+                if (menuToggle) {
+                    menuToggle.classList.remove('active');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
                 if (customLinks) customLinks.classList.remove('active');
             }
         });

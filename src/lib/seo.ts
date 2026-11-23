@@ -215,7 +215,7 @@ export async function articleSchema(post: Post, path: string) {
     ...(data.doi && {
       citation: {
         '@type': 'ScholarlyArticle',
-        name: data.title,
+        name: data.paper_title ?? data.title,
         identifier: data.doi,
         url: `https://doi.org/${data.doi}`,
       },
@@ -227,6 +227,8 @@ export async function articleSchema(post: Post, path: string) {
 
 /** Open Graph / Twitter card settings for a page. */
 export interface ShareMeta {
+  /** og:title / twitter:title; defaults to the page's <title>. */
+  title?: string;
   /** Site-relative image path; defaults to the site logo. */
   image?: string;
   imageAlt?: string;

@@ -1,5 +1,6 @@
 ---
-title:  "Long-term meditators self-induce high-amplitude gamma synchrony during mental practice"
+title: "Long-Term Meditators Produce Unusually Strong Gamma Brain Waves"
+paper_title: "Long-term meditators self-induce high-amplitude gamma synchrony during mental practice"
 seo_title: "Long-Term Meditators Self-Induce High-Amplitude Gamma Waves"
 date:   2024-03-08
 theme: neurological-correlates

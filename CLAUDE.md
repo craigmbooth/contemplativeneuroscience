@@ -64,7 +64,7 @@ Copy `src/content/posts/_template_post.md`. Glossary tooltips use markdown direc
 
 An unknown term id fails the build, and so does an unknown theme key or an image path that is not in `public/`. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
 
-Front matter: `title`, `date`, `theme` (one key or a list), `doi`, `meta_description` (≤ 155 chars; over 160 fails the build), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
+Front matter: `title` (a plain-language headline stating the finding, not the paper's title), `paper_title` (the paper's own title; used in structured data and All Papers search), `date`, `theme` (one key or a list), `doi`, `meta_description` (≤ 155 chars; over 160 fails the build), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
 
 Front matter is parsed by a strict YAML parser: continuation lines of a multi-line quoted string must be indented.
 
@@ -87,6 +87,8 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Astro's HTML compression removes whitespace between elements. Where inline elements need a gap (nav links, "Themes:" label), emit `{' '}` explicitly.
 - Image width/height come from the file at render time and are cached with the rendered markdown (`.astro/data-store.json` for dev, `node_modules/.astro/data-store.json` for builds). If you replace an image without editing its post, delete both files (and restart `npm run dev`) to pick up the new size. CI builds start clean.
 - Smart typography matches kramdown: `--` → en dash, `---` → em dash (`SMARTYPANTS_OPTIONS`).
+- Header: the home page keeps the full starfield banner; every other page gets the slim `.site-bar` (`Header.astro`, `styles/components/_site-bar.sass`) so content starts near the top. Both share the `.menu-toggle` / `.custom-links` hooks used by `scripts/bundle.js`.
+- Social cards (og:title) use the headline (`title`); the browser/search `<title>` uses `seo_title` when set.
 - Breadcrumbs: the visible trail is chosen client-side from `document.referrer` (`src/scripts/breadcrumbs.js`); the only structured breadcrumb data is the JSON-LD BreadcrumbList.
 - Use state classes (`.visible`, `.expanded`, `.active`) rather than inline style manipulation in JS; dynamic backgrounds use `data-bg-image` attributes.
 - `subscribe.html` is ~700 lines of third-party MailerLite CSS/markup — handle with care.

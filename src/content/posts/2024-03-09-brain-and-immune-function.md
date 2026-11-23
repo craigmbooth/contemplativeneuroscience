@@ -1,5 +1,6 @@
 ---
-title:  "Alterations in Brain and Immune Function Produced by Mindfulness Meditation"
+title: "Mindfulness Training Shifted Brain Activity and Boosted Flu Vaccine Response"
+paper_title: "Alterations in Brain and Immune Function Produced by Mindfulness Meditation"
 seo_title: "Mindfulness Meditation Alters Brain and Immune Function"
 date:   2024-03-09
 theme: biological-health

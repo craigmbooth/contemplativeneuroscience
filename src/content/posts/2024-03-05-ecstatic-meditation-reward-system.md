@@ -1,5 +1,6 @@
 ---
-title:  "Case Study of Ecstatic Meditation: fMRI and EEG Evidence of Self-Stimulating a Reward System"
+title: "Jhana Meditation Activated the Brain's Reward System in an Experienced Meditator"
+paper_title: "Case Study of Ecstatic Meditation: fMRI and EEG Evidence of Self-Stimulating a Reward System"
 seo_title: "Jhana Meditation and the Brain's Reward System: fMRI & EEG"
 date:   2024-03-05
 theme: neurological-correlates

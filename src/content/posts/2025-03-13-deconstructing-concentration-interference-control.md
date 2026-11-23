@@ -1,5 +1,6 @@
 ---
-title:  "Deconstructing the effects of concentration meditation practice on interference control: The roles of controlled attention and inflammatory activity"
+title: "A Meditation Retreat Sharpened Focus, but Distractions Still Registered"
+paper_title: "Deconstructing the effects of concentration meditation practice on interference control: The roles of controlled attention and inflammatory activity"
 seo_title: "Concentration Meditation, Attention, and Inflammation"
 date:   2025-03-13
 theme: [mind-wandering, biological-health]

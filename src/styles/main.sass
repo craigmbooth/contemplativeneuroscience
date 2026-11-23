@@ -446,15 +446,20 @@ body
   .noarticleimage
     .post-meta
       font-family: $font-family-serif
-      padding-top: 60px
+      padding-top: 40px
+      @media (max-width: $breakpoint-mobile)
+        padding-top: 24px
     .post-title
       font-weight: 700
       font-style: normal
-      letter-spacing: -0.04em
-      font-size: 50px
-      line-height: 1.1
+      letter-spacing: -0.03em
+      font-size: 44px
+      line-height: 1.15
       color: #333332
       margin-bottom: 16px
+      @media (max-width: $breakpoint-mobile)
+        font-size: 30px
+        letter-spacing: -0.02em
     .author-image
       display: inline-block
       width: 30px

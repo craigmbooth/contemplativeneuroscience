@@ -19,34 +19,61 @@ const isHome = path === '/';
   gtag('config', 'G-XV8N5DDQYP');
 </script>
 
-<div class="teaserimage">
-  <div class="teaserimage-image" data-bg-image={site.cover}>
-    {/* h1 on the front page; a div elsewhere to avoid duplicate h1s */}
-    {isHome ? <h1 class="blog-title">{site.title}</h1> : <div class="blog-title">{site.title}</div>}
-    <div class="blog-subtitle">{site.description}</div>
+{isHome ? (
+  <>
+    <div class="teaserimage">
+      <div class="teaserimage-image" data-bg-image={site.cover}>
+        <h1 class="blog-title">{site.title}</h1>
+        <div class="blog-subtitle">{site.description}</div>
 
-    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-navigation">
-      <span class="menu-icon">
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-        <span class="hamburger-bar"></span>
-      </span>
-    </button>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-navigation">
+          <span class="menu-icon">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </span>
+        </button>
 
-    <div class="custom-links" id="site-navigation" role="navigation" aria-label="Main navigation">
-      {/* The spaces between links are part of the layout (inline elements). */}
-      {site.menuItems.map((item) => (
-        <>
-          <a href={item.url} aria-current={path === item.url ? 'page' : undefined}>{item.title}</a>{' '}
-        </>
-      ))}
+        <div class="custom-links" id="site-navigation" role="navigation" aria-label="Main navigation">
+          {/* The spaces between links are part of the layout (inline elements). */}
+          {site.menuItems.map((item) => (
+            <>
+              <a href={item.url} aria-current={path === item.url ? 'page' : undefined}>{item.title}</a>{' '}
+            </>
+          ))}
+        </div>
+
+      </div>
     </div>
 
-  </div>
-</div>
+    <header class="blog-header">
+      <a class="blog-logo" href={`${site.url}/`} data-bg-image={site.logo} aria-label={`${site.title} - Return to homepage`}>{site.title}</a>
+    </header>
+  </>
+) : (
+  /* Every other page: a slim bar, so the page's own content starts near the top. */
+  <header class="site-bar">
+    <div class="site-bar-inner">
+      <a class="site-bar-brand" href="/">
+        <img src="/assets/images/logo-96.png" alt="" width="36" height="36" />
+        <span>{site.title}</span>
+      </a>
 
-<header class="blog-header">
-  <a class="blog-logo" href={`${site.url}/`} data-bg-image={site.logo} aria-label={`${site.title} - Return to homepage`}>{site.title}</a>
-</header>
+      <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-navigation">
+        <span class="menu-icon">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </span>
+      </button>
+
+      <nav class="custom-links" id="site-navigation" aria-label="Main navigation">
+        {site.menuItems.map((item) => (
+          <a href={item.url} aria-current={path === item.url ? 'page' : undefined}>{item.title}</a>
+        ))}
+      </nav>
+    </div>
+  </header>
+)}
 
 <!-- header end -->

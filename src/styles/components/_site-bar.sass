@@ -1,0 +1,147 @@
+// Slim header bar on every page except the home page (Header.astro), so each
+// page's own content starts near the top of the screen.
+$site-bar-bg: #1d1b2e   // deep indigo from the home page's starfield
+
+.site-bar
+  background-color: $site-bar-bg
+  color: #fff
+
+  .site-bar-inner
+    max-width: $content-max-width
+    height: 64px
+    margin: 0 auto
+    padding: 0 $spacing-md
+    display: flex
+    align-items: center
+    justify-content: space-between
+    box-sizing: border-box
+
+  .site-bar-brand
+    display: flex
+    align-items: center
+    gap: 12px
+    color: #fff
+    text-decoration: none
+    font-family: $font-family-sans
+    font-size: 19px
+    font-weight: 600
+    letter-spacing: 0.01em
+
+    img
+      width: 36px
+      height: 36px
+      border-radius: 50%
+      background-color: #fff
+
+  .custom-links
+    display: flex
+    gap: $spacing-lg
+
+    a
+      color: rgba(255, 255, 255, 0.85)
+      text-decoration: none
+      font-size: 16px
+      padding: 4px 0
+      border-bottom: 2px solid transparent
+
+      &:hover
+        color: #fff
+        border-bottom-color: rgba(255, 255, 255, 0.6)
+
+      &[aria-current="page"]
+        color: #fff
+        border-bottom-color: $color-primary
+
+  .menu-toggle
+    display: none
+    position: relative
+    z-index: 100
+    background: transparent
+    border: none
+    cursor: pointer
+    padding: 10px
+    margin-right: -10px
+
+    .menu-icon
+      display: block
+      position: relative
+      width: 24px
+      height: 18px
+
+    .hamburger-bar
+      display: block
+      position: absolute
+      width: 100%
+      height: 2px
+      background-color: #fff
+      transition: all $transition-normal
+
+      &:first-child
+        top: 0
+      &:nth-child(2)
+        top: 8px
+      &:last-child
+        top: 16px
+
+    &.active .hamburger-bar
+      &:first-child
+        transform: rotate(45deg)
+        top: 8px
+      &:nth-child(2)
+        opacity: 0
+      &:last-child
+        transform: rotate(-45deg)
+        top: 8px
+
+  @media (max-width: $breakpoint-mobile)
+    .site-bar-inner
+      height: 56px
+
+    .site-bar-brand
+      font-size: 17px
+
+      img
+        width: 32px
+        height: 32px
+
+    .menu-toggle
+      display: block
+
+    // Slide-down menu; hidden from keyboard and screen readers while closed.
+    .custom-links
+      position: fixed
+      top: 0
+      left: 0
+      right: 0
+      z-index: 99
+      flex-direction: column
+      gap: 0
+      padding: 64px $spacing-lg $spacing-lg
+      background-color: rgba(29, 27, 46, 0.97)
+      text-align: center
+      transform: translateY(-100%)
+      visibility: hidden
+      transition: transform $transition-normal, visibility 0s linear 0.3s
+
+      &.active
+        transform: translateY(0)
+        visibility: visible
+        transition: transform $transition-normal, visibility 0s
+
+      a
+        font-size: 18px
+        padding: 12px 0
+        border-bottom: none
+
+        &[aria-current="page"]
+          color: #fff
+          font-weight: 600
+
+// The 100px top margin on .content cleared the home page's floating logo; under
+// the slim bar the page can start right away.
+.site-bar ~ .content,
+.site-bar ~ .page-content .content
+  margin-top: 0
+
+  > article:first-child
+    padding-top: $spacing-sm

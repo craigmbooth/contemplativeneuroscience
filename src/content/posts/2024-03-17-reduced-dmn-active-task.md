@@ -1,5 +1,6 @@
 ---
-title:  "Meditation leads to reduced default mode network activity beyond an active task."
+title: "Meditation Quiets the Default Mode Network More Than a Focused Task Does"
+paper_title: "Meditation leads to reduced default mode network activity beyond an active task."
 seo_title: "Meditation Reduces Default Mode Network Activity"
 date:   2024-03-17
 theme: mind-wandering

@@ -136,8 +136,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Filter papers based on search term
     paperItems.forEach(item => {
+      // Match the headline or the citation, which holds the paper's own title and authors.
       const title = item.querySelector('.post-title').textContent.toLowerCase();
-      const matchesSearch = title.includes(searchTerm);
+      const citation = (item.querySelector('.citation')?.textContent ?? '').toLowerCase();
+      const matchesSearch = title.includes(searchTerm) || citation.includes(searchTerm);
 
       if (matchesSearch) {
         item.classList.remove('hidden');

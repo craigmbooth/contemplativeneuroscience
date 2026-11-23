@@ -1,5 +1,6 @@
 ---
-title:  "A Randomized Controlled Trial of Mindfulness Meditation for Chronic Insomnia"
+title: "Mindfulness Cut Nighttime Wakefulness in People With Chronic Insomnia"
+paper_title: "A Randomized Controlled Trial of Mindfulness Meditation for Chronic Insomnia"
 seo_title: "Mindfulness Meditation for Chronic Insomnia: An RCT"
 date: 2025-05-25
 theme: sleep

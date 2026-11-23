@@ -1,5 +1,6 @@
 ---
-title:  "Depersonalization and Meditation"
+title: "Why Meditators Can Experience Depersonalization Without Distress"
+paper_title: "Depersonalization and Meditation"
 date:   2025-05-11
 theme: adverse-effects
 doi: 10.1080/00332747.1990.11024497
