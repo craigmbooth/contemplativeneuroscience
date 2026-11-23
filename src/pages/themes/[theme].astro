@@ -1,0 +1,12 @@
+---
+import ThemeLayout from '../../layouts/ThemeLayout.astro';
+import { getThemes, type Theme } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const themes = await getThemes();
+  return themes.map((theme) => ({ params: { theme: theme.data.theme_key }, props: { theme } }));
+}
+
+const { theme } = Astro.props as { theme: Theme };
+---
+<ThemeLayout theme={theme} />

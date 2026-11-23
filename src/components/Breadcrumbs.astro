@@ -1,0 +1,36 @@
+---
+// Visual breadcrumbs only. Structured data is emitted separately as a single
+// BreadcrumbList (see breadcrumbSchema in src/lib/seo.ts), because on posts the
+// optional crumbs are shown/hidden by breadcrumbs.js depending on where the
+// visitor came from.
+import { truncate } from '../lib/seo';
+import { themeUrl, type Theme } from '../lib/content';
+
+export interface Props {
+  kind: 'post' | 'theme' | 'page';
+  title: string;
+  /** Post themes (post pages only). */
+  themes?: Theme[];
+}
+const { kind, title, themes = [] } = Astro.props;
+const current = truncate(title, 75);
+---
+<script is:inline src="/assets/js/breadcrumbs.min.js"></script>
+
+<nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    {kind === 'post' && (
+      <>
+        <li class="all-papers-breadcrumb"><a href="/all-papers/">All Papers</a></li>
+        <li class="glossary-breadcrumb"><a href="/glossary/">Glossary</a></li>
+        <li class="theme-breadcrumb themes-index-breadcrumb"><a href="/themes/">Research Themes</a></li>
+        {themes.map((theme) => (
+          <li class="theme-breadcrumb" data-theme={theme.data.theme_key}><a href={themeUrl(theme)}>{theme.data.title}</a></li>
+        ))}
+      </>
+    )}
+    {kind === 'theme' && <li><a href="/themes/">Research Themes</a></li>}
+    <li aria-current="page">{current}</li>
+  </ol>
+</nav>

@@ -1,0 +1,36 @@
+---
+// Document shell shared by every page: <head>, site header and scripts.
+// `wrapped` reproduces Jekyll's "default" layout, which places the page inside
+// .page-content > .wrapper; other layouts render their own <main>.
+import Head from '../components/Head.astro';
+import Header from '../components/Header.astro';
+
+export interface Props {
+  title: string;
+  description: string;
+  path: string;
+  date?: Date;
+  schemas?: unknown[];
+  wrapped?: boolean;
+  /** Legacy body-level microdata used by the "page" layout. */
+  bodyItemtype?: string;
+}
+const { title, description, path, date, schemas, wrapped = false, bodyItemtype } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <Head title={title} description={description} path={path} date={date} schemas={schemas} />
+  <body itemscope={bodyItemtype ? true : undefined} itemtype={bodyItemtype}>
+    <Header path={path} />
+    {wrapped ? (
+      <div class="page-content">
+        <div class="wrapper">
+          <slot />
+        </div>
+      </div>
+    ) : (
+      <slot />
+    )}
+    <script is:inline type="text/javascript" src="/assets/js/bundle.min.js"></script>
+  </body>
+</html>
