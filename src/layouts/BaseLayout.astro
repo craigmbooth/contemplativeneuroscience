@@ -4,22 +4,23 @@
 // .page-content > .wrapper; other layouts render their own <main>.
 import Head from '../components/Head.astro';
 import Header from '../components/Header.astro';
+import type { ShareMeta } from '../lib/seo';
 
 export interface Props {
   title: string;
   description: string;
   path: string;
-  date?: Date;
+  share?: ShareMeta;
   schemas?: unknown[];
   wrapped?: boolean;
   /** Legacy body-level microdata used by the "page" layout. */
   bodyItemtype?: string;
 }
-const { title, description, path, date, schemas, wrapped = false, bodyItemtype } = Astro.props;
+const { title, description, path, share, schemas, wrapped = false, bodyItemtype } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
-  <Head title={title} description={description} path={path} date={date} schemas={schemas} />
+  <Head title={title} description={description} path={path} share={share} schemas={schemas} />
   <body itemscope={bodyItemtype ? true : undefined} itemtype={bodyItemtype}>
     <Header path={path} />
     {wrapped ? (

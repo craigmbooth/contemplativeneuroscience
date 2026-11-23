@@ -1,6 +1,8 @@
 ---
 import { site, absoluteUrl } from '../site';
-import { jsonLd } from '../lib/seo';
+import { jsonLd, truncate, twitterCard, type ShareMeta } from '../lib/seo';
+import { xmlSchemaDate } from '../lib/content';
+import { publicImageSize } from '../lib/images.js';
 
 export interface Props {
   /** Full <title> text (see pageTitle()). */
@@ -8,15 +10,19 @@ export interface Props {
   description: string;
   /** Site-relative path of this page, e.g. "/about/". */
   path: string;
-  /** Publication date, for article:published_time. */
-  date?: Date;
+  /** Share-card image and article metadata (Open Graph / Twitter). */
+  share?: ShareMeta;
   /** JSON-LD objects to embed in <head>. */
   schemas?: unknown[];
 }
 
-const { title, description, path, date, schemas = [] } = Astro.props;
+const { title, description, path, share = {}, schemas = [] } = Astro.props;
 const url = absoluteUrl(path);
-const logo = absoluteUrl(site.logo);
+const imagePath = share.image ?? site.logo;
+const image = absoluteUrl(imagePath);
+const imageSize = publicImageSize(imagePath, path);
+const imageAlt = share.imageAlt && truncate(share.imageAlt, 420);
+const article = share.article;
 ---
 <head>
   <meta charset="utf-8">
@@ -30,19 +36,31 @@ const logo = absoluteUrl(site.logo);
   <meta name="MobileOptimized" content="320" />
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content={twitterCard(imageSize)} />
   <meta name="twitter:site" content={site.twitterHandle} />
   <meta name="twitter:title" content={title} />
-  <meta name="twitter:image" content={logo} />
+  <meta name="twitter:image" content={image} />
+  {imageAlt && <meta name="twitter:image:alt" content={imageAlt} />}
   <meta name="twitter:description" content={description} />
 
   <meta property="og:site_name" content={site.title} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content={logo} />
+  <meta property="og:image" content={image} />
+  <meta property="og:image:width" content={String(imageSize.width)} />
+  <meta property="og:image:height" content={String(imageSize.height)} />
+  {imageAlt && <meta property="og:image:alt" content={imageAlt} />}
   <meta property="og:url" content={url} />
-  <meta property="og:type" content="blog" />
-  {date && <meta property="article:published_time" content={date.toISOString().replace(/\.\d{3}Z$/, '+00:00')} />}
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content={article ? 'article' : 'website'} />
+  {article && (
+    <>
+      <meta property="article:published_time" content={xmlSchemaDate(article.published)} />
+      <meta property="article:modified_time" content={xmlSchemaDate(article.modified ?? article.published)} />
+      <meta property="article:author" content={absoluteUrl('/about/')} />
+      {article.sections.map((section) => <meta property="article:section" content={section} />)}
+    </>
+  )}
 
   <meta name="author" content={site.author}>
   <meta name="robots" content="index, follow">

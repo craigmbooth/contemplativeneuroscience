@@ -4,6 +4,7 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Footer from '../components/Footer.astro';
 import { breadcrumbSchema, metaDescription, pageTitle } from '../lib/seo';
+import { publicImageSize } from '../lib/images.js';
 import { markdownify, postsForTheme, postUrl, themeImage, themeUrl, type Theme } from '../lib/content';
 
 export interface Props {
@@ -13,6 +14,7 @@ const { theme } = Astro.props;
 const { data } = theme;
 const path = themeUrl(theme);
 const posts = await postsForTheme(theme);
+const image = { src: themeImage(theme), ...publicImageSize(themeImage(theme), path) };
 const descriptionHtml = await markdownify(data.theme_description);
 const citations = await Promise.all(posts.map((post) => markdownify(post.data.citation)));
 const schemas = [
@@ -26,6 +28,7 @@ const schemas = [
   title={pageTitle(data.title)}
   description={metaDescription({ metaDescription: data.meta_description, themeDescription: data.theme_description })}
   path={path}
+  share={{ image: image.src }}
   schemas={schemas}
   wrapped
 >
@@ -41,7 +44,8 @@ const schemas = [
       <section class="post-content">
         <div class="theme-header">
           <div class="theme-image">
-            <img src={themeImage(theme)} alt="">
+            {/* Decorative: the theme title is the h1 above. */}
+            <img src={image.src} alt="" width={image.width} height={image.height}>
           </div>
           <div class="theme-description">
             <Fragment set:html={descriptionHtml} />

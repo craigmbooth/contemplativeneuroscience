@@ -37,6 +37,8 @@ src/
   lib/content.ts      Collection helpers (sorting, URLs, theme lookups, markdownify)
   lib/seo.ts          <title> logic, meta descriptions, JSON-LD (Article, BreadcrumbList, Person)
   lib/remark-glossary-terms.js  Renders :term{...} directives as glossary tooltips
+  lib/rehype-image-dimensions.js  Adds width/height (+ lazy loading) to markdown images
+  lib/images.js       publicImageSize(): pixel size of a file in public/
   pages/              Routes; [slug].astro = posts, themes/[theme].astro = themes
   pages/css/[name].css.ts       Compiles src/styles/<name>.sass -> /css/<name>.css
   pages/assets/js/[name].js.ts  Serves src/scripts/<name>.js -> /assets/js/<name>.js and <name>.min.js
@@ -57,7 +59,7 @@ Copy `src/content/posts/_template_post.md`. Glossary tooltips use markdown direc
 :term[inflammatory]{id="inflammation"}   custom link text
 ```
 
-An unknown term id fails the build. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
+An unknown term id fails the build, and so does an image path that is not in `public/`. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
 
 Front matter: `title`, `date`, `theme` (one key or a list), `doi`, `meta_description` (≤ ~160 chars), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
 
@@ -73,6 +75,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 
 - Sass indented syntax (`.sass`), entry points `main`, `tooltip`, `pages`, `components` in `src/styles/`; partials in `src/styles/{components,pages,mixins}`.
 - Semantic variables live in `src/styles/_variables.sass` — check there before adding colors or dimensions.
+- Text must meet WCAG AA contrast (4.5:1). Use `$color-primary-text` (not `$color-primary`) for pink text and `$color-text-muted` (#767676) as the lightest grey for text; `$color-primary` is for borders and backgrounds.
 - Dart Sass deprecation warnings (`@import`, Bourbon's old syntax) are silenced in `pages/css/[name].css.ts`; Dart Sass 3 will require migrating to `@use` and dropping Bourbon.
 - Breakpoints: 768px, 800px, 1024px.
 
@@ -84,8 +87,13 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Use state classes (`.visible`, `.expanded`, `.active`) rather than inline style manipulation in JS; dynamic backgrounds use `data-bg-image` attributes.
 - `subscribe.html` is ~700 lines of third-party MailerLite CSS/markup — handle with care.
 
+## Share Cards and Images
+
+- Posts use `og:type` article and their own image (`postImage()`: `schema_image`, else the first figure, else the logo); theme pages use the theme image. `twitterCard()` picks `summary_large_image` only for landscape images at least 600×315 — most figures are smaller and get the compact card.
+- Keep images light: theme images are 800×800 WebP (q80), the header JPEG is progressive q78, the logo is 400×400.
+
 ## Known Improvement Opportunities
 
-- Theme images in `public/assets/images/themes/` are 1.2–1.7 MB each.
-- Per-paper `og:image` / `summary_large_image` cards; `og:type` should be `article` on posts.
+- Generated 1200×630 share images per post (most figures are too small for large cards).
+- Heading levels skip on All Papers (h1 → h3), the glossary and the MailerLite form (h4).
 - Many `meta_description`s exceed ~160 characters.

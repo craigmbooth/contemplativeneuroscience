@@ -249,14 +249,13 @@ body
       color: #b3b3b1
       line-height: 30px
       a
-        color: #b3b3b1
-        text-decoration: none
-        &:hover
-          text-decoration: underline
+        // Underlined: the color alone doesn't set links apart from #333 citation text.
+        color: $color-text-muted
+        text-decoration: underline
   h2
     font-family: $font-family-serif
   a
-    color: $color-primary
+    color: $color-primary-text
     text-decoration: none
     &:hover
       text-decoration: underline
@@ -346,7 +345,7 @@ body
   max-width: 640px
   font-size: $rs/4*3
   text-align: center
-  color: #999
+  color: $color-text-muted
   line-height: $rs*1.1
   a
     color: #666
@@ -519,6 +518,7 @@ body
       text-decoration: underline
     img
       max-width: 100%
+      height: auto
       margin: 0 auto
     figure
       margin: 0

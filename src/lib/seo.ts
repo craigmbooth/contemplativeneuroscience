@@ -94,9 +94,20 @@ export async function postBreadcrumbs(post: Post, path: string): Promise<Crumb[]
 }
 
 /**
+ * The image that represents a post (structured data and share cards):
+ * schema_image, else the first image in the post body, else the site logo.
+ */
+export function postImage(post: Post): { src: string; alt?: string } {
+  if (post.data.schema_image) return { src: post.data.schema_image };
+  const first = post.body?.match(/!\[([^\]]*)\]\(\s*([^)\s]+)/);
+  if (first) return { src: first[2], alt: first[1].replace(/\s+/g, ' ').trim() || undefined };
+  return { src: site.logo };
+}
+
+/**
  * Article structured data for a paper summary.
  * - headline: the title, or seo_title when the title exceeds Google's 110-char limit
- * - image: schema_image, else the first image in the post body, else the site logo
+ * - image: see postImage()
  * - dateModified: last_modified_at, else the post date
  * - keywords: glossary terms the post links to
  * - articleSection: display names of the post's themes
@@ -108,8 +119,7 @@ export async function articleSchema(post: Post, path: string) {
   let headline = data.title;
   if (headline.length > 110) headline = truncate(data.seo_title || data.title, 110);
 
-  const firstImage = html.match(/<img[^>]*\ssrc="([^"]+)"/)?.[1];
-  const image = absoluteUrl(data.schema_image ?? firstImage ?? site.logo);
+  const image = absoluteUrl(postImage(post).src);
 
   const definitions = definitionsByTerm();
   const keywords = [
@@ -151,4 +161,23 @@ export async function articleSchema(post: Post, path: string) {
     ...(data.snippet && { abstract: stripNewlines(stripHtml(data.snippet)) }),
     isAccessibleForFree: true,
   };
+}
+
+/** Open Graph / Twitter card settings for a page. */
+export interface ShareMeta {
+  /** Site-relative image path; defaults to the site logo. */
+  image?: string;
+  imageAlt?: string;
+  /** Set on paper summaries: og:type becomes "article". */
+  article?: { published: Date; modified?: Date; sections: string[] };
+}
+
+/**
+ * Twitter card type for an image. Large cards are cropped to roughly 1.91:1 and
+ * shown wide, so only big landscape images get one; anything else (small figures,
+ * square theme images, the logo) gets the compact "summary" card.
+ */
+export function twitterCard({ width, height }: { width: number; height: number }) {
+  const ratio = width / height;
+  return width >= 600 && height >= 315 && ratio >= 1.3 && ratio <= 2.5 ? 'summary_large_image' : 'summary';
 }

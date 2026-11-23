@@ -1,10 +1,15 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
 import { getThemes, postsForTheme, themeImage, themeUrl } from '../../lib/content';
+import { publicImageSize } from '../../lib/images.js';
 
 const themes = await getThemes();
 const cards = await Promise.all(
-  themes.map(async (theme) => ({ theme, count: (await postsForTheme(theme)).length })),
+  themes.map(async (theme) => ({
+    theme,
+    count: (await postsForTheme(theme)).length,
+    image: { src: themeImage(theme), ...publicImageSize(themeImage(theme), '/themes/') },
+  })),
 );
 ---
 <PageLayout title="Research Themes">
@@ -15,11 +20,11 @@ const cards = await Promise.all(
   <h2 id="available-themes">Available Themes</h2>
 
   <div class="theme-grid">
-    {cards.map(({ theme, count }) => (
+    {cards.map(({ theme, count, image }) => (
       <div class="theme-card">
         <div class="theme-card-image">
           <a href={themeUrl(theme)}>
-            <img src={themeImage(theme)} alt="">
+            <img src={image.src} alt={theme.data.title} width={image.width} height={image.height}>
           </a>
         </div>
         <div class="theme-card-content">
