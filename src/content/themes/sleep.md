@@ -1,6 +1,8 @@
 ---
 title: Meditation and Sleep
 theme_key: sleep
+short_title: "Sleep"
+question: "Does meditation help you sleep?"
 image_format: webp
 meta_description: "Research on meditation and sleep: sleep quality, insomnia, and sleep architecture, from randomized trials to studies of long-term meditators."
 theme_description: |

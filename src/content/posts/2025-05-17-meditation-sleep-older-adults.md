@@ -10,6 +10,7 @@ snippet: "Can mindfulness meditation help older adults sleep better? This random
 citation: "Black, D. S., O’Reilly, G. A., Olmstead, R., Breen, E. C., & Irwin, M. R. (2015). Mindfulness Meditation and Improvement in Sleep Quality and Daytime Impairment Among Older Adults With Sleep Disturbances. JAMA Internal Medicine, 175(4), 494. [10.1001/jamainternmed.2014.8081](https://doi.org/10.1001/jamainternmed.2014.8081)"
 
 study:
+  type: "Randomized trial"
   design: "Randomized controlled trial with an active control"
   participants: "49 older adults (average age 66) with moderate sleep problems"
   method: "A six-week Mindful Awareness Practices course vs. a matched sleep hygiene education course (weekly two-hour classes)"

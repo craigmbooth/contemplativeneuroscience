@@ -10,6 +10,7 @@ meta_description: ""  # <= 155 chars
 snippet: ""  # shown as "In brief" at the top of the post; state the main finding
 citation: ""
 study:  # "Study at a glance" box; only facts stated in the post
+  type: ""  # listing label, one of STUDY_TYPES in src/content.config.ts, e.g. Randomized trial, Meta-analysis, Survey
   design: ""  # e.g. Randomized controlled trial, Cross-sectional comparison, Meta-analysis
   participants: ""  # who and how many
   method: ""  # optional: the practice or procedure, and how long

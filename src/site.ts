@@ -1,7 +1,7 @@
 // Site-wide settings (formerly Jekyll's _config.yml).
 export const site = {
   title: 'Contemplative Neuroscience',
-  description: 'Reviewing Papers on Meditative States and Their Neurological Signatures',
+  description: 'Plain-English summaries of the science of meditation and the brain',
   url: 'https://contemplativeneuroscience.com',
   logo: '/assets/images/logo_sm.png',
   cover: '/assets/images/index_header.jpg',
@@ -12,6 +12,13 @@ export const site = {
   /** One-line author bio for structured data and llms.txt (matches the About page). */
   authorBio:
     'A lay meditation practitioner with a background in science who writes accessible summaries of peer-reviewed research on meditation and the brain.',
+  /** "Start here" papers on the home page (post slugs); an unknown slug fails the build. */
+  startHere: [
+    'wandering-mind-unhappy-mind',
+    'mindfulness-cognitive-function-survey',
+    'meditation-sleep-older-adults',
+    'brain-and-immune-function',
+  ],
   menuItems: [
     { title: 'Home', url: '/' },
     { title: 'Research Themes', url: '/themes/' },

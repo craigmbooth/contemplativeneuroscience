@@ -11,6 +11,7 @@ citation: "Zainal, N. H., & Newman, M. G. (2023). Mindfulness enhances cognitive
   "
 
 study:
+  type: "Meta-analysis"
   design: "Meta-analysis"
   participants: "111 randomized controlled trials with more than 9,500 participants"
   method: "Pooled results of mindfulness-based interventions across 15 cognitive subdomains"

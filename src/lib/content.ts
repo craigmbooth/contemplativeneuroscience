@@ -21,6 +21,22 @@ export const postUrl = (post: Post) => `/${post.id}/`;
 export const themeUrl = (theme: Theme) => `/themes/${theme.data.theme_key}/`;
 export const themeImage = (theme: Theme) =>
   `/assets/images/themes/${theme.data.theme_key}.${theme.data.image_format ?? 'png'}`;
+/** 240px WebP version of the theme image, for small cards. */
+export const themeThumb = (theme: Theme) => `/assets/images/themes/thumbs/${theme.data.theme_key}.webp`;
+
+/** "November 23, 2026" (dates are stored as UTC midnight). */
+export const displayDate = (d: Date) =>
+  d.toLocaleDateString('en-US', { timeZone: 'UTC', year: 'numeric', month: 'long', day: 'numeric' });
+
+/** Look up posts by slug, failing the build on an unknown one. */
+export async function postsBySlug(slugs: readonly string[]): Promise<Post[]> {
+  const posts = await getPosts();
+  return slugs.map((slug) => {
+    const post = posts.find((p) => p.id === slug);
+    if (!post) throw new Error(`Unknown post slug "${slug}".`);
+    return post;
+  });
+}
 
 /**
  * The theme pages a post belongs to, in the order listed in its front matter.

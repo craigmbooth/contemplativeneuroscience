@@ -1,61 +1,164 @@
-.content-cards
-  display: grid
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))
-  gap: 20px
-  margin: 40px 0
+// Home page: intro, Start Here cards, theme questions, Recent Papers.
 
-.content-card
-  background-color: $color-background-light
-  border-radius: 8px
-  padding: 25px
-  box-shadow: $shadow-md
-  display: flex
-  flex-direction: column
-  
-  h2
-    margin-top: 0
-    margin-bottom: 15px
-    color: $color-text-primary
-  
-  p
-    margin-bottom: 20px
+.home
+  section
+    margin: $spacing-xxl 0
+
+  section > h2
+    margin: 0 0 $spacing-sm
+
+  .section-intro
+    margin: 0 0 $spacing-lg
     color: $color-text-secondary
-    flex-grow: 1
 
-// Nested so it outranks main.sass's `.content a`.
-.content-card .card-button
+.home .home-intro
+  margin-top: $spacing-lg
+  max-width: $content-narrow-width
+
+  .home-lede
+    font-size: 1.25em
+    line-height: 1.6
+    color: $color-text-primary
+    margin: 0 0 $spacing-md
+
+  .home-author
+    margin: 0
+    color: $color-text-secondary
+
+    // Underlined: pink alone doesn't stand out enough from the grey text.
+    a
+      text-decoration: underline
+
+// Small label for a paper's study type ("Randomized trial").
+.study-type
   display: inline-block
-  background-color: $color-primary-light
-  color: $color-primary-text
-  text-decoration: none
-  padding: 10px 15px
-  border-radius: 4px
-  border: 1px solid $color-primary-border
-  transition: background-color $transition-fast
+  font-family: $font-family-sans
+  font-size: 0.75rem
   font-weight: 500
-  
-  &:hover
-    background-color: $color-primary-lighter
+  letter-spacing: 0.04em
+  text-transform: uppercase
+  color: $color-primary-text
+
+// Date, study type and theme above or below a title.
+.paper-meta
+  font-family: $font-family-sans
+  font-size: 0.875rem
+  color: $color-text-muted
+  margin: 0
+
+  .study-type
+    font-size: inherit
+    letter-spacing: 0.04em
+
+  // Nested so it outranks main.sass's `.content a`.
+  a
+    color: $color-text-muted
+    text-decoration: underline
+
+// Cards whose whole surface is the link: the heading link stretches over the card.
+.paper-card, .question-card
+  position: relative
+  background-color: $color-background-light
+  border: 1px solid $color-border-light
+  border-radius: 8px
+  box-shadow: $shadow-md
+  transition: box-shadow $transition-fast, transform $transition-fast
+
+  &:hover, &:focus-within
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12)
+    transform: translateY(-2px)
+
+  h3
+    margin: 0
+    font-size: 1.1em
+    line-height: 1.35
+
+  // The muted grey falls just short of 4.5:1 on the card background.
+  .paper-meta
+    color: $color-text-secondary
+
+  // Nested so it outranks main.sass's `.content a`.
+  h3 a
+    color: $color-text-primary
     text-decoration: none
 
-@media (max-width: $breakpoint-mobile)
-  .content-cards
-    grid-template-columns: 1fr
-    gap: 15px
-    margin: 20px 0
+    &::after
+      content: ""
+      position: absolute
+      inset: 0
+      border-radius: 8px
 
-  .content-card
-    margin: 0 5px
+    &:focus-visible
+      outline: none
+
+      &::after
+        outline: 2px solid $color-primary-text
+        outline-offset: 2px
+
+  &:hover h3 a
+    color: $color-primary-text
+
+@media (prefers-reduced-motion: reduce)
+  .paper-card, .question-card
+    transition: none
+
+    &:hover, &:focus-within
+      transform: none
+
+.paper-cards
+  list-style: none
+  padding: 0
+  margin: 0
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  gap: $spacing-md
+
+.paper-card
+  display: flex
+  flex-direction: column
+  gap: $spacing-sm
+  padding: $spacing-lg
+
+  h3
+    flex-grow: 1
+
+.question-grid
+  list-style: none
+  padding: 0
+  margin: $spacing-lg 0 0
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr))
+  gap: $spacing-md
+
+.question-card
+  overflow: hidden
+
+  img
+    display: block
+    width: 100%
+    height: auto
+    aspect-ratio: 1
+
+  div
+    padding: $spacing-md
+
+  h3
+    font-size: 1em
+    margin-bottom: $spacing-xs
+
 .recent-papers
-  margin: $spacing-xxl 0 $spacing-xl
-
   .post-list
     list-style: none
     padding: 0
-    margin: 0 0 $spacing-lg
+    margin: $spacing-lg 0
 
     li
       margin-bottom: $spacing-lg
+      padding-bottom: $spacing-lg
+      border-bottom: 1px solid $color-border-light
+
+    .paper-meta
+      margin-bottom: $spacing-xs
 
     h3
       margin: 0 0 $spacing-sm
@@ -63,3 +166,35 @@
     p
       margin: 0
       color: $color-text-secondary
+
+    p.paper-meta
+      color: $color-text-muted
+
+@media (max-width: $breakpoint-mobile)
+  .home section
+    margin: $spacing-xl 0
+
+  .home .home-intro .home-lede
+    font-size: 1.1em
+
+  .paper-cards
+    grid-template-columns: 1fr
+
+  .paper-card
+    padding: $spacing-md
+
+  // Questions become rows: thumbnail beside the text.
+  .question-grid
+    grid-template-columns: 1fr
+    gap: $spacing-sm
+
+  .question-card
+    display: flex
+    align-items: center
+
+    img
+      width: 72px
+      flex: 0 0 72px
+
+    div
+      padding: $spacing-sm $spacing-md

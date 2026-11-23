@@ -1,6 +1,8 @@
 ---
 title: Mind Wandering and Executive Control
 theme_key: mind-wandering
+short_title: "Focus and mind wandering"
+question: "Can meditation help you focus?"
 image_format: webp
 meta_description: "Studies on how meditation improves focus, reduces mind wandering, and strengthens executive control, including default mode network findings."
 theme_description: |

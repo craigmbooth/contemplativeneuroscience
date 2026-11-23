@@ -1,6 +1,8 @@
 ---
 title: Neurological Correlates of Meditative States
 theme_key: neurological-correlates
+short_title: "Brain"
+question: "What does meditation do to the brain?"
 image_format: webp
 meta_description: "How meditation changes brain activity: fMRI, EEG, and intracranial studies of the networks, regions, and rhythms of meditative states."
 theme_description: |

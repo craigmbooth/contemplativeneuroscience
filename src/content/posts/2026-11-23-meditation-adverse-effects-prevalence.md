@@ -8,6 +8,7 @@ meta_description: "A US survey of 434 meditators found half reported an unpleasa
 snippet: "How common are unpleasant experiences from meditation among everyday practitioners? Researchers surveyed 434 US adults who had tried meditation, drawn from a sample recruited to roughly match the US population by age, gender and race. About half reported at least one adverse effect, about 1 in 10 said an effect had interfered with daily life, and nearly 9 in 10 were still glad they had practiced."
 citation: "Goldberg, S. B., Lam, S. U., Britton, W. B., & Davidson, R. J. (2022). Prevalence of meditation-related adverse effects in a population-based sample in the United States. *Psychotherapy Research*, 32(3), 291–305. [10.1080/10503307.2021.1933646](https://doi.org/10.1080/10503307.2021.1933646)"
 study:
+  type: "Survey"
   design: "Cross-sectional online survey"
   participants: "434 US adults who had tried meditation at least once (from 953 screened)"
   method: "One-time questionnaire on meditation history, adverse effects, their duration and impact, and childhood adversity"

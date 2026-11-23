@@ -10,6 +10,7 @@ snippet: "Meditation can increase telomerase activity, which is associated with 
 citation: Jacobs, T. L., Epel, E. S., Lin, J., Blackburn, E. H., Wolkowitz, O. M., Bridwell, D. A., Zanesco, A. P., Aichele, S. R., Sahdra, B. K., MacLean, K. A., King, B. G., Shaver, P. R., Rosenberg, E. L., Ferrer, E., Wallace, B. A., & Saron, C. D. (2011). Intensive meditation training, immune cell telomerase activity, and psychological mediators. In *Psychoneuroendocrinology* (Vol. 36, Issue 5, pp. 664–681). Elsevier BV. [10.1016/j.psyneuen.2010.09.010](https://doi.org/10.1016/j.psyneuen.2010.09.010)
 
 study:
+  type: "Controlled study"
   design: "Retreat group compared with matched wait-list controls"
   participants: "60 people: 30 on a three-month retreat and 30 on a wait-list"
   method: "A three-month intensive meditation retreat, about six hours of practice a day"

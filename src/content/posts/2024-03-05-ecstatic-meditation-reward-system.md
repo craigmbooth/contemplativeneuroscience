@@ -9,6 +9,7 @@ meta_description: "The first fMRI and EEG study of jhana meditation: in an exper
 snippet: "This study presents the first fMRI and EEG evidence of the neural effects of jhana meditation. The results show that jhana meditation quiets the brain, while simultaneously increasing activity in the brain's pleasure centers and areas associated with attention and self-control."
 citation: "Hagerty, M. R., Isaacs, J., Brasington, L., Shupe, L., Fetz, E. E., & Cramer, S. C. (2013). Case Study of Ecstatic Meditation: fMRI and EEG Evidence of Self-Stimulating a Reward System. In *Neural Plasticity* (Vol. 2013, pp. 1–12). Hindawi Limited. [10.1155/2013/653572](https://doi.org/10.1155/2013/653572)"
 study:
+  type: "Case study"
   design: "Case study (one person)"
   participants: "One experienced Buddhist meditator (about 6,000 hours of practice)"
   method: "Moving through the eight jhanas in the scanner, signalling each transition with a finger tap"

@@ -10,6 +10,7 @@ snippet: "This paper measures the propensity for people to mind wander in both l
   ference that is reliable across time, activities, and contexts, consistent with the idea that mind wandering represents a failure of executive control."
 citation: "McVay, J. C., Kane, M. J., & Kwapil, T. R. (2009). Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts. In *Psychonomic Bulletin &amp; Review* (Vol. 16, Issue 5, pp. 857–863). Springer Science and Business Media LLC. [10.3758/pbr.16.5.857](https://doi.org/10.3758/pbr.16.5.857)"
 study:
+  type: "Observational study"
   design: "Observational study: a lab task plus a week of experience sampling"
   participants: "72 college undergraduates"
   method: "A lab attention task (SART) with thought probes, then a week of reporting thoughts eight times a day on a handheld device"

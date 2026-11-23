@@ -66,6 +66,8 @@ An unknown term id fails the build, and so does an unknown theme key or an image
 
 Front matter: `title` (a plain-language headline stating the finding, not the paper's title), `paper_title` (the paper's own title; used in structured data and All Papers search), `date`, `theme` (one key or a list), `doi`, `meta_description` (≤ 155 chars; over 160 fails the build), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
 
+`study.type` is a short listing label from the fixed `STUDY_TYPES` list in `src/content.config.ts` (e.g. "Randomized trial", "Meta-analysis", "Survey"); anything else fails the build. Themes need a `short_title` (listing label, e.g. "Sleep") and a `question` (the theme as a reader's question, shown on the home page).
+
 Front matter is parsed by a strict YAML parser: continuation lines of a multi-line quoted string must be indented.
 
 ## URL Stability
@@ -95,7 +97,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 
 ## Internal Links
 
-- The home page lists the 5 newest papers; every post ends with up to 4 Related Papers (`relatedPosts()`: papers sharing a theme, nearest in date first, so links spread across the archive) plus links to its theme pages.
+- The home page has a hand-picked "Start Here" set (`site.startHere` in `src/site.ts`; an unknown slug fails the build), the themes as questions (order set in `pages/index.astro`, thumbnails in `public/assets/images/themes/thumbs/`, 240px WebP), and the 5 newest papers with date, study type and theme; every post ends with up to 4 Related Papers (`relatedPosts()`: papers sharing a theme, nearest in date first, so links spread across the archive) plus links to its theme pages.
 - `<title>` gets the " | Contemplative Neuroscience" suffix only when the result is ≤ 60 characters.
 
 ## AI Search (GEO)

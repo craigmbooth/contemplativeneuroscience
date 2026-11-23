@@ -10,6 +10,7 @@ snippet: "Meditation is known to boost attention, but how it achieves this isn't
 citation: "Shields, G. S., Skwara, A. C., King, B. G., Zanesco, A. P., Dhabhar, F. S., & Saron, C. D. (2020). Deconstructing the effects of concentration meditation practice on interference control: The roles of controlled attention and inflammatory activity. In Brain, Behavior, and Immunity (Vol. 89, pp. 256–267). Elsevier BV. [10.1016/j.bbi.2020.06.034](https://doi.org/10.1016/j.bbi.2020.06.034)"
 
 study:
+  type: "Randomized trial"
   design: "Randomized wait-list controlled trial"
   participants: "Experienced meditators attending a three-month residential retreat"
   method: "A three-month intensive concentration retreat; the control group attended their retreat later"

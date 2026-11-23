@@ -10,6 +10,7 @@ snippet: "Can meditation protect against the decline in sleep quality that comes
 citation: "PATTANASHETTY, R., SATHIAMMA, S., TALAKKAD, S., NITYANANDA, P., TRICHUR, R., & KUTTY, B. M. (2010). Practitioners of vipassana meditation exhibit enhanced slow wave sleep and REM sleep states across different age groups. Sleep and Biological Rhythms, 8(1), 34–41. [10.1111/j.1479-8425.2009.00416.x](https://doi.org/10.1111/j.1479-8425.2009.00416.x)"
 
 study:
+  type: "Comparison study"
   design: "Cross-sectional comparison across age groups"
   participants: "91 healthy men aged 30–60: 45 Vipassana meditators and 46 non-meditators"
   method: "Two nights of whole-night EEG sleep recording, analyzed by age group"

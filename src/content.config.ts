@@ -12,6 +12,20 @@ const metaDescription = z
   .transform((v) => v || undefined);
 const optionalDate = z.coerce.date().nullish().transform((v) => v ?? undefined);
 
+/** Short study-type labels shown on post listings (a fixed set, so listings stay consistent). */
+export const STUDY_TYPES = [
+  'Randomized trial',
+  'Controlled study',
+  'Meta-analysis',
+  'Comparison study',
+  'Observational study',
+  'Survey',
+  'Interview study',
+  'Case study',
+  'Experiment',
+  'Review',
+] as const;
+
 // Paper summaries. Files keep Jekyll's YYYY-MM-DD-slug.md naming; the URL is
 // /slug/. Files starting with "_" (e.g. _template_post.md) are ignored.
 const posts = defineCollection({
@@ -45,6 +59,8 @@ const posts = defineCollection({
     /** "Study at a glance" box shown under "In brief". */
     study: z
       .object({
+        /** Short label for listings, e.g. "Randomized trial" (see STUDY_TYPES). */
+        type: z.enum(STUDY_TYPES),
         design: z.string(),
         participants: z.string(),
         method: z.string().optional(),
@@ -62,6 +78,10 @@ const themes = defineCollection({
   schema: z.object({
     title: z.string(),
     theme_key: z.string(),
+    /** Short name for listings and labels, e.g. "Sleep". */
+    short_title: z.string(),
+    /** The theme as a reader's question, shown on the home page. */
+    question: z.string(),
     image_format: optionalString,
     meta_description: metaDescription,
     theme_description: z.string(),

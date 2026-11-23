@@ -1,55 +1,101 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro';
 import { websiteSchema } from '../lib/seo';
-import { getPosts, postUrl } from '../lib/content';
+import { site } from '../site';
+import {
+  displayDate,
+  getPosts,
+  getThemes,
+  postsBySlug,
+  postsForTheme,
+  postUrl,
+  themesForPost,
+  themeThumb,
+  themeUrl,
+  type Post,
+} from '../lib/content';
 
 const posts = await getPosts();
 const recent = posts.slice(0, 5);
+const startHere = await postsBySlug(site.startHere);
+// Questions in reading order: brain and mind first, then body and sleep, then risks.
+const questionOrder = ['neurological-correlates', 'mind-wandering', 'biological-health', 'sleep', 'adverse-effects'];
+const rank = (key: string) => (questionOrder.indexOf(key) + 1 || questionOrder.length + 1);
+const themes = await Promise.all(
+  (await getThemes()).sort((a, b) => rank(a.data.theme_key) - rank(b.data.theme_key)).map(async (theme) => ({ theme, count: (await postsForTheme(theme)).length })),
+);
+// Study type and themes for each listed paper.
+const meta = async (post: Post) => ({ post, type: post.data.study?.type, themes: await themesForPost(post) });
+const startCards = await Promise.all(startHere.map(meta));
+const recentItems = await Promise.all(recent.map(meta));
+
 const description =
   'Accessible summaries of peer-reviewed research on meditation and the brain, from jhana and gamma waves to sleep, immune function, and mind wandering.';
+const isoDate = (d: Date) => d.toISOString().slice(0, 10);
 ---
 <DefaultLayout
   title="Home"
   meta_description={description}
   schemas={[websiteSchema(description)]}
 >
-  <main class="content" role="main">
+  <main class="content home" role="main">
 
-    <p>
-      This site collects accessible summaries of peer-reviewed research at the intersection of meditation and brain science. As a meditation practitioner and scientist, I'm fascinated by how contemplative practices shape cognition, emotion, and identity. My aim is to make this research understandable and meaningful to others who share this curiosity—whether you're a fellow practitioner, a researcher, or just meditation-curious.
-    </p>
+    <section class="home-intro">
+      <p class="home-lede">
+        Plain-English summaries of peer-reviewed studies on meditation and the brain. Each one explains what the
+        researchers did, what they found, and how much weight the result can bear.
+      </p>
+      <p class="home-author">
+        Written by {site.author}, a meditator with a background in science.{' '}
+        <a href="/about/">About me and this site</a>
+      </p>
+    </section>
 
-    <div class="content-cards">
-      <div class="content-card">
-        <h2>Research Themes</h2>
-        <p>Browse papers organized by key research areas in contemplative neuroscience, from neurological correlates to biological health effects.</p>
-        <a href="/themes/" class="card-button">Explore Themes</a>
-      </div>
+    <section class="start-here" aria-labelledby="start-here-heading">
+      <h2 id="start-here-heading">Start Here</h2>
+      <p class="section-intro">New to the site? These four summaries are a good place to begin.</p>
+      <ul class="paper-cards">
+        {startCards.map(({ post, type, themes }) => (
+          <li class="paper-card">
+            {type && <span class="study-type">{type}</span>}
+            <h3><a href={postUrl(post)}>{post.data.title}</a></h3>
+            <p class="paper-meta">{themes.map((t) => t.data.short_title).join(' · ')}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
 
-      <div class="content-card">
-        <h2>All Papers</h2>
-        <p>Browse, search, and sort the complete collection of research paper summaries.</p>
-        <a href="/all-papers/" class="card-button">View All Papers</a>
-      </div>
-
-      <div class="content-card">
-        <h2>Glossary</h2>
-        <p>Learn about key terms and concepts in contemplative neuroscience and meditation research.</p>
-        <a href="/glossary/" class="card-button">View Glossary</a>
-      </div>
-    </div>
+    <section class="theme-questions" aria-labelledby="questions-heading">
+      <h2 id="questions-heading">Explore by Question</h2>
+      <ul class="question-grid">
+        {themes.map(({ theme, count }) => (
+          <li class="question-card">
+            <img src={themeThumb(theme)} alt="" width="240" height="240" loading="lazy" decoding="async" />
+            <div>
+              <h3><a href={themeUrl(theme)}>{theme.data.question}</a></h3>
+              <p class="paper-meta">{theme.data.short_title} · {count} paper{count === 1 ? '' : 's'}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
 
     <section class="recent-papers" aria-labelledby="recent-papers-heading">
       <h2 id="recent-papers-heading">Recent Papers</h2>
       <ul class="post-list">
-        {recent.map((post) => (
+        {recentItems.map(({ post, type, themes }) => (
           <li>
+            <p class="paper-meta">
+              <time datetime={isoDate(post.data.date)}>{displayDate(post.data.date)}</time>
+              {type && <>{' · '}<span class="study-type">{type}</span></>}
+              {themes.map((t) => <>{' · '}<a href={themeUrl(t)}>{t.data.short_title}</a></>)}
+            </p>
             <h3><a class="post-link" href={postUrl(post)}>{post.data.title}</a></h3>
             {post.data.snippet && <p>{post.data.snippet}</p>}
           </li>
         ))}
       </ul>
-      <p><a href="/all-papers/">Browse all {posts.length} papers</a></p>
+      <p><a href="/all-papers/">Browse all {posts.length} papers</a> or <a href="/glossary/">look up a term in the glossary</a></p>
     </section>
   </main>
 </DefaultLayout>

@@ -10,6 +10,7 @@ snippet: "Two weeks of compassion meditation led to increased altruistic behavio
 citation: "Weng, H. Y., Fox, A. S., Shackman, A. J., Stodola, D. E., Caldwell, J. Z. K., Olson, M. C., Rogers, G. M., & Davidson, R. J. (2013). Compassion Training Alters Altruism and Neural Responses to Suffering. Psychological Science, 24(7), 1171–1180. [10.1177/0956797612469537](https://doi.org/10.1177/0956797612469537)"
 
 study:
+  type: "Randomized trial"
   design: "Randomized trial with an active control"
   participants: "Healthy adults with no meditation experience"
   method: "Two weeks of daily 30-minute compassion training vs. reappraisal training"

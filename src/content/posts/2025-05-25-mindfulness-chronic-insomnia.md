@@ -10,6 +10,7 @@ snippet: "Can mindfulness meditation help you sleep better? This randomized cont
 citation: "Ong, J. C., Manber, R., Segal, Z., Xia, Y., Shapiro, S., & Wyatt, J. K. (2014). A Randomized Controlled Trial of Mindfulness Meditation for Chronic Insomnia. Sleep, 37(9), 1553–1563. [10.5665/sleep.4010](https://doi.org/10.5665/sleep.4010)"
 
 study:
+  type: "Randomized trial"
   design: "Randomized controlled trial"
   participants: "54 adults with chronic insomnia"
   method: "Eight weeks of MBSR, eight weeks of MBTI (MBSR plus behavioral sleep techniques), or sleep self-monitoring"

@@ -10,6 +10,7 @@ snippet: "Can meditation slow aging at the cellular level? This study compared l
 citation: "Dasanayaka, N. N., Sirisena, N. D., & Samaranayake, N. (2023). Associations of meditation with telomere dynamics: a case–control study in healthy adults. Frontiers in Psychology, 14. [10.3389/fpsyg.2023.1222863](https://doi.org/10.3389/fpsyg.2023.1222863)"
 
 study:
+  type: "Comparison study"
   design: "Case-control study (one-time comparison)"
   participants: "30 long-term meditators and 30 matched non-meditators, all healthy non-smokers"
   method: "Compared the two groups once; the meditators had practiced regularly for at least three years"

@@ -10,6 +10,7 @@ snippet: "The authors of this study used deep brain recordings to show that even
 citation: "Maher, C., Tortolero, L., Jun, S., Cummins, D. D., Saad, A., Young, J., Nunez Martinez, L., Schulman, Z., Marcuse, L., Waters, A., Mayberg, H. S., Davidson, R. J., Panov, F., & Saez, I. (2025). Intracranial substrates of meditation-induced neuromodulation in the amygdala and hippocampus. Proceedings of the National Academy of Sciences, 122(6). [10.1073/pnas.2409423122](https://doi.org/10.1073/pnas.2409423122)"
 
 study:
+  type: "Experiment"
   design: "Within-person intracranial recording study"
   participants: "8 people with implanted brain electrodes"
   method: "Five minutes of guided instruction as a baseline, then ten minutes of loving-kindness meditation"

@@ -8,6 +8,7 @@ meta_description: "A large randomized trial found that eight weeks of mindfulnes
 snippet: "Does an eight-week mindfulness course physically reshape the brain? Researchers pooled two randomized trials and scanned 218 newcomers to meditation before and after Mindfulness-Based Stress Reduction (MBSR), a matched wellness program, or a waitlist. They found no evidence that MBSR changed gray matter compared with either control group, including in the regions earlier studies had highlighted."
 citation: "Kral, T. R. A., Davis, K., Korponay, C., Hirshberg, M. J., Hoel, R., Tello, L. Y., Goldman, R. I., Rosenkranz, M. A., Lutz, A., & Davidson, R. J. (2022). Absence of structural brain changes from mindfulness-based stress reduction: Two combined randomized controlled trials. *Science Advances*, 8(20), eabk3316. [10.1126/sciadv.abk3316](https://doi.org/10.1126/sciadv.abk3316)"
 study:
+  type: "Randomized trial"
   design: "Randomized controlled trial (two pooled three-arm trials)"
   participants: "218 healthy, meditation-naïve adults aged 25–66 in Madison, Wisconsin: 75 MBSR, 73 active control, 70 waitlist"
   method: "8 weeks of MBSR vs. the Health Enhancement Program (exercise, music therapy, nutrition) vs. waitlist; MRI scans before and after"

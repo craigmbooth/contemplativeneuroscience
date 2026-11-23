@@ -1,6 +1,8 @@
 ---
 title: Biological and Health-Related Correlates
 theme_key: biological-health
+short_title: "Body and health"
+question: "Does meditation change the body?"
 image_format: webp
 meta_description: "How meditation affects the body: studies on immune function, inflammation, telomeres and telomerase, and cellular aging."
 theme_description: |

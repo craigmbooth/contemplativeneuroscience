@@ -1,6 +1,8 @@
 ---
 title: Adverse Effects of Meditation
 theme_key: adverse-effects
+short_title: "Adverse effects"
+question: "Can meditation be harmful?"
 image_format: webp
 meta_description: "Research on the adverse effects of meditation, from anxiety to depersonalization, and what the evidence means for practicing safely."
 theme_description: |

@@ -9,6 +9,7 @@ snippet: "Can depersonalization be a sign of progress rather than pathology? Thi
 citation: "Castillo, R. J. (1990). Depersonalization and Meditation. Psychiatry, 53(2), 158–168. [10.1080/00332747.1990.11024497](https://doi.org/10.1080/00332747.1990.11024497)"
 
 study:
+  type: "Review"
   design: "Clinical review with case interviews (1990)"
   participants: "6 long-term Transcendental Meditation practitioners"
   method: "Interviews alongside a review of the clinical and cross-cultural literature"
