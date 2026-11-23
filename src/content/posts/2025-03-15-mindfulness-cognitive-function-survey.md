@@ -9,6 +9,12 @@ snippet: "A meta-analysis of 111 studies shows that mindfulness training improve
 citation: "Zainal, N. H., & Newman, M. G. (2023). Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials. In Health Psychology Review (Vol. 18, Issue 2, pp. 369–395). Informa UK Limited. [10.1080/17437199.2023.2248222](https://doi.org/10.1080/17437199.2023.2248222)
   "
 
+study:
+  design: "Meta-analysis"
+  participants: "111 randomized controlled trials with more than 9,500 participants"
+  method: "Pooled results of mindfulness-based interventions across 15 cognitive subdomains"
+  measures: "Global cognition and subdomains such as executive attention, working memory, inhibition and cognitive flexibility"
+  limitations: "Effects were small to moderate, and mindfulness did not improve processing speed or verbal fluency."
 ---
 ## Background Information
 

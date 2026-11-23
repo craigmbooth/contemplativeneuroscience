@@ -5,9 +5,15 @@ last_modified_at:  # optional: date of last substantive revision (YYYY-MM-DD)
 date:
 theme:
 doi:
-meta_description: ""
-snippet: ""
+meta_description: ""  # <= 155 chars
+snippet: ""  # shown as "In brief" at the top of the post; state the main finding
 citation: ""
+study:  # "Study at a glance" box; only facts stated in the post
+  design: ""  # e.g. Randomized controlled trial, Cross-sectional comparison, Meta-analysis
+  participants: ""  # who and how many
+  method: ""  # optional: the practice or procedure, and how long
+  measures: ""  # optional: what was measured
+  limitations: ""  # shown as "Keep in mind": what the design can and cannot show
 ---
 <!--
 Copy to src/content/posts/YYYY-MM-DD-slug.md; the page is served at /slug/.
@@ -25,7 +31,7 @@ Delete this comment.
 
 ## What They Did
 
-## One Big Result
+## One Big Result: <state the finding>
 
 ## Miscellaneous Interesting Takeaways
 

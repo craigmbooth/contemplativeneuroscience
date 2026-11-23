@@ -7,6 +7,12 @@ meta_description: "Why long-term meditators can experience depersonalization as 
 snippet: "Can depersonalization be a sign of progress rather than pathology? This paper explores how long-term meditators experience self-detachment not as dysfunction, but as a calm and continuous mode of awareness—one shaped by meaning, not fear. A deep dive into how interpretation transforms experience."
 citation: "Castillo, R. J. (1990). Depersonalization and Meditation. Psychiatry, 53(2), 158–168. [10.1080/00332747.1990.11024497](https://doi.org/10.1080/00332747.1990.11024497)"
 
+study:
+  design: "Clinical review with case interviews (1990)"
+  participants: "6 long-term Transcendental Meditation practitioners"
+  method: "Interviews alongside a review of the clinical and cross-cultural literature"
+  measures: "How depersonalization and derealization showed up, whether they caused distress, and how meditators interpreted them"
+  limitations: "Six interviews from a single tradition; the paper is an interpretive argument rather than a controlled study."
 ---
 
 ## Background Information

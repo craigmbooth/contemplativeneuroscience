@@ -90,6 +90,11 @@ export async function llmsFullTxt(): Promise<string> {
         themes.length > 0 && `Themes: ${themes.join(', ')}`,
         data.citation && `Paper: ${oneLine(data.citation)}`,
         data.doi && `DOI: ${doiUrl(data.doi)}`,
+        data.study && `Study type: ${data.study.design}`,
+        data.study && `Participants: ${data.study.participants}`,
+        data.study?.method && `Method: ${data.study.method}`,
+        data.study?.measures && `Measured: ${data.study.measures}`,
+        data.study && `Keep in mind: ${data.study.limitations}`,
       ].filter(Boolean);
       return [
         `## ${oneLine(data.title)}`,
@@ -102,10 +107,21 @@ export async function llmsFullTxt(): Promise<string> {
     }),
   );
 
+  const themeSections = (await getThemes())
+    .filter((t) => t.data.research_summary)
+    .map(
+      (t) =>
+        `## ${t.data.title}: what the research says\n\nURL: ${absoluteUrl(themeUrl(t))}\n\n${plainMarkdown(t.data.research_summary ?? '')}`,
+    );
+
   return `# ${site.title}: all paper summaries
 
-> The full text of every summary on ${site.url}, newest first, written by ${site.author}. The index is at ${absoluteUrl('/llms.txt')}.
+> The full text of every summary on ${site.url}, newest first, written by ${site.author}, followed by a synthesis for each research theme. The index is at ${absoluteUrl('/llms.txt')}.
 
 ${sections.join('\n\n---\n\n')}
+
+---
+
+${themeSections.join('\n\n---\n\n')}
 `;
 }

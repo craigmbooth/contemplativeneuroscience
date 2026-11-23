@@ -39,6 +39,17 @@ const posts = defineCollection({
     citation: optionalString,
     /** Overrides the Article structured-data image (defaults to the first figure). */
     schema_image: optionalString,
+    /** "Study at a glance" box shown under "In brief". */
+    study: z
+      .object({
+        design: z.string(),
+        participants: z.string(),
+        method: z.string().optional(),
+        measures: z.string().optional(),
+        /** Shown as "Keep in mind": what the design can and can't show. */
+        limitations: z.string(),
+      })
+      .optional(),
   }),
 });
 
@@ -51,6 +62,8 @@ const themes = defineCollection({
     image_format: optionalString,
     meta_description: metaDescription,
     theme_description: z.string(),
+    /** Markdown "What the Research Says" synthesis, linking the theme's papers. */
+    research_summary: optionalString,
   }),
 });
 

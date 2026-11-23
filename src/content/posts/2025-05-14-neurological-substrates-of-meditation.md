@@ -8,6 +8,12 @@ meta_description: "Loving-kindness meditation boosts gamma activity in the amygd
 snippet: "The authors of this study used deep brain recordings to show that even novice meditators can rapidly increase gamma activity in the amygdala and hippocampus during loving-kindness meditation—regions tied to emotion and memory—revealing meditation's immediate impact on the emotional brain."
 citation: "Maher, C., Tortolero, L., Jun, S., Cummins, D. D., Saad, A., Young, J., Nunez Martinez, L., Schulman, Z., Marcuse, L., Waters, A., Mayberg, H. S., Davidson, R. J., Panov, F., & Saez, I. (2025). Intracranial substrates of meditation-induced neuromodulation in the amygdala and hippocampus. Proceedings of the National Academy of Sciences, 122(6). [10.1073/pnas.2409423122](https://doi.org/10.1073/pnas.2409423122)"
 
+study:
+  design: "Within-person intracranial recording study"
+  participants: "8 people with implanted brain electrodes"
+  method: "Five minutes of guided instruction as a baseline, then ten minutes of loving-kindness meditation"
+  measures: "Beta and gamma activity in the amygdala and hippocampus, and self-rated depth of meditation"
+  limitations: "Eight participants and a single short session; people with implanted electrodes are a small, specialized group."
 ---
 ## Background Information
 Meditation is known to affect emotional regulation and mental health, but we still lack a clear picture of how it changes the brain—especially in deep regions like the amygdala and hippocampus. Previous studies using :term{id="eeg"} and :term{id="fmri"} have shown altered brain activity during meditation, but these techniques can't directly access the limbic system. This study takes advantage of a rare opportunity: patients with implanted neurostimulation devices in their amygdala and hippocampus for epilepsy treatment. These implants allow researchers to directly measure the brain's electrical activity during meditation with high spatial and temporal resolution.

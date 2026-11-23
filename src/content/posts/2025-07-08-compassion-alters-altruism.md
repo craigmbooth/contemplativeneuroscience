@@ -8,6 +8,12 @@ meta_description: "Two weeks of compassion training increased altruistic giving 
 snippet: "Two weeks of compassion meditation led to increased altruistic behavior and measurable changes in brain function, showing that compassion can be trained just like any other skill."
 citation: "Weng, H. Y., Fox, A. S., Shackman, A. J., Stodola, D. E., Caldwell, J. Z. K., Olson, M. C., Rogers, G. M., & Davidson, R. J. (2013). Compassion Training Alters Altruism and Neural Responses to Suffering. Psychological Science, 24(7), 1171–1180. [10.1177/0956797612469537](https://doi.org/10.1177/0956797612469537)"
 
+study:
+  design: "Randomized trial with an active control"
+  participants: "Healthy adults with no meditation experience"
+  method: "Two weeks of daily 30-minute compassion training vs. reappraisal training"
+  measures: "Money given to help an unfairly treated stranger, and brain responses (fMRI) to images of suffering"
+  limitations: "Brief training and a single lab measure of generosity; it doesn't show how long the effect lasts or whether it carries into daily life."
 ---
 
 ## Background Information

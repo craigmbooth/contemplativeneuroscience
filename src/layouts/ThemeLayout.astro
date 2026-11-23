@@ -16,6 +16,7 @@ const path = themeUrl(theme);
 const posts = await postsForTheme(theme);
 const image = { src: themeImage(theme), ...publicImageSize(themeImage(theme), path) };
 const descriptionHtml = await markdownify(data.theme_description);
+const summaryHtml = await markdownify(data.research_summary);
 const citations = await Promise.all(posts.map((post) => markdownify(post.data.citation)));
 const schemas = [
   breadcrumbSchema([
@@ -51,6 +52,13 @@ const schemas = [
             <Fragment set:html={descriptionHtml} />
           </div>
         </div>
+
+        {summaryHtml && (
+          <section class="research-summary" aria-labelledby="research-summary-heading">
+            <h2 id="research-summary-heading">What the Research Says</h2>
+            <Fragment set:html={summaryHtml} />
+          </section>
+        )}
 
         <h2>Papers in this Theme</h2>
 

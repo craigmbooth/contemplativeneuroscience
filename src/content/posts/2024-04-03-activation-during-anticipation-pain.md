@@ -7,6 +7,12 @@ doi: 10.1016/j.neuroimage.2012.09.030
 meta_description: "Expert meditators rate pain as less unpleasant than novices, though no less intense, linked to salience-network activity and faster habituation."
 snippet: "Expert meditators experience less unpleasantness from pain than novices, despite similar intensity ratings. This difference is linked to enhanced activity in the brain's salience network during pain, suggesting that meditation can modify the emotional response to pain and facilitate quicker habituation to repeated pain stimuli."
 citation: "Lutz, A., McFarlin, D. R., Perlman, D. M., Salomons, T. V., & Davidson, R. J. (2013). Altered anterior insula activation during anticipation and experience of painful stimuli in expert meditators. In *NeuroImage* (Vol. 64, pp. 538–546). Elsevier BV. [10.1016/j.neuroimage.2012.09.030](https://doi.org/10.1016/j.neuroimage.2012.09.030)"
+study:
+  design: "Cross-sectional fMRI comparison of experts and novices"
+  participants: "14 long-term Buddhist practitioners (over 10,000 hours) and 14 people new to meditation"
+  method: "Open Presence meditation while receiving painful and non-painful heat"
+  measures: "Ratings of pain intensity and unpleasantness, and brain activity (fMRI) before and during pain"
+  limitations: "A small sample of experts compared with briefly trained novices at a single point in time, so it can't show that practice caused the differences."
 ---
 
 ## Background Information

@@ -59,6 +59,21 @@ const schemas = [await articleSchema(post, path), breadcrumbSchema(await postBre
             <p>{data.snippet}</p>
           </aside>
         )}
+        {data.study && (
+          <aside class="study-glance" aria-labelledby="study-glance-label">
+            <p id="study-glance-label" class="study-glance-label">Study at a glance</p>
+            <dl>
+              <dt>Study type</dt>
+              <dd>{data.study.design}</dd>
+              <dt>Participants</dt>
+              <dd>{data.study.participants}</dd>
+              {data.study.method && <><dt>Method</dt><dd>{data.study.method}</dd></>}
+              {data.study.measures && <><dt>Measured</dt><dd>{data.study.measures}</dd></>}
+              <dt>Keep in mind</dt>
+              <dd>{data.study.limitations}</dd>
+            </dl>
+          </aside>
+        )}
         <slot />
         <Subscribe />
         {citation && (

@@ -7,6 +7,12 @@ doi: 10.3758/s13415-015-0358-3
 meta_description: "fMRI study: experienced meditators quiet the default mode network more during meditation than during an active task, a core neural effect of practice."
 snippet: "This study compares activity in the default mode network (DMN) between meditation and an active task, for both meditators and non-meditators.  The paper finds evidence that suppression of DMN processing may represent a central neural process in long-term meditation, and suggest that meditation leads to relatively reduced DMN processing beyond that observed during active cognitive tasks."
 citation: "Garrison, K. A., Zeffiro, T. A., Scheinost, D., Constable, R. T., & Brewer, J. A. (2015). Meditation leads to reduced default mode network activity beyond an active task. In *Cognitive, Affective, &amp; Behavioral Neuroscience* (Vol. 15, Issue 3, pp. 712–720). Springer Science and Business Media LLC. [10.3758/s13415-015-0358-3](https://doi.org/10.3758/s13415-015-0358-3)"
+study:
+  design: "Cross-sectional fMRI comparison of meditators and non-meditators"
+  participants: "20 experienced Insight meditators (about 9,700 hours over 14 years) and 26 matched non-meditators"
+  method: "Three meditations (concentration, loving-kindness, choiceless awareness) and an active task (judging adjectives) in the scanner"
+  measures: "Default mode network activity (fMRI) and self-reported mind wandering"
+  limitations: "Meditators and non-meditators were compared at one point in time, so differences may reflect who chooses to meditate as well as the practice itself."
 ---
 
 ## Background Information

@@ -25,3 +25,41 @@
     letter-spacing: 0.05em
     font-size: 14px
     margin-bottom: $spacing-xs
+
+.post-content .study-glance
+  border: 1px solid $color-border
+  border-radius: 4px
+  padding: $spacing-md $spacing-lg
+  margin: 0 0 $spacing-xl
+  font-size: 17px
+  line-height: 1.5
+
+  .study-glance-label
+    color: $color-primary-text
+    font-weight: 600
+    text-transform: uppercase
+    letter-spacing: 0.05em
+    font-size: 14px
+    margin: 0 0 $spacing-sm
+    padding: 0
+
+  dl
+    display: grid
+    grid-template-columns: max-content 1fr
+    gap: $spacing-sm $spacing-lg
+    margin: 0
+
+  dt
+    font-weight: 600
+    color: $color-text-primary
+
+  dd
+    margin: 0
+
+  @media (max-width: $breakpoint-mobile)
+    dl
+      grid-template-columns: 1fr
+      gap: 0
+
+    dd
+      margin-bottom: $spacing-sm

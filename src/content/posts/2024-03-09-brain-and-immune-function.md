@@ -7,6 +7,12 @@ doi: 10.1097/01.psy.0000077505.67574.e3
 meta_description: "An 8-week MBSR course shifted brain activity toward positive emotion and strengthened the flu vaccine response in new meditators (Davidson et al., 2003)."
 snippet: "This study takes a group of untrained meditators and puts them through an 8-week course in Mindfulness-based Stress Reduction (MBSR).  The study finds that the meditation group have brain activity implying a more positive emotional frame.  Furthermore, the meditation group had a significantly stronger immune response to a flu vaccine than the non-meditators.  The authors conclude that a short training program in mindfulness meditation has demonstrable effects on both brain and immune function."
 citation: Davidson, R. J., Kabat-Zinn, J., Schumacher, J., Rosenkranz, M., Muller, D., Santorelli, S. F., Urbanowski, F., Harrington, A., Bonus, K., & Sheridan, J. F. (2003). Alterations in Brain and Immune Function Produced by Mindfulness Meditation. In *Psychosomatic Medicine* (Vol. 65, Issue 4, pp. 564–570). Ovid Technologies (Wolters Kluwer Health). [10.1097/01.psy.0000077505.67574.e3](https://doi.org/10.1097/01.psy.0000077505.67574.e3)
+study:
+  design: "Randomized controlled trial with a wait-list control"
+  participants: "41 employees of a biotechnology company (25 meditation, 16 wait-list)"
+  method: "An 8-week Mindfulness-Based Stress Reduction (MBSR) course at work"
+  measures: "Left–right brain activation asymmetry (EEG) before, after and four months later, and antibody response to a flu vaccine"
+  limitations: "A modest sample from one workplace, compared with a wait-list rather than an active control, so expectation and group effects can't be ruled out."
 ---
 
 ## Background Information

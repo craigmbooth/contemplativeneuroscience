@@ -8,6 +8,12 @@ meta_description: "Long-term meditators had longer telomeres, more activity in t
 snippet: "Can meditation slow aging at the cellular level? This study compared long-term meditators with non-meditators and found that those with a regular practice had significantly longer telomeres (the protective caps on chromosomes) as well as higher activity of the genes that help maintain them. The more years of meditation, the stronger the effect. These results suggest that consistent meditation may influence how we age by reaching all the way down to our DNA."
 citation: "Dasanayaka, N. N., Sirisena, N. D., & Samaranayake, N. (2023). Associations of meditation with telomere dynamics: a case–control study in healthy adults. Frontiers in Psychology, 14. [10.3389/fpsyg.2023.1222863](https://doi.org/10.3389/fpsyg.2023.1222863)"
 
+study:
+  design: "Case-control study (one-time comparison)"
+  participants: "30 long-term meditators and 30 matched non-meditators, all healthy non-smokers"
+  method: "Compared the two groups once; the meditators had practiced regularly for at least three years"
+  measures: "Telomere length, hTERT and hTR gene activity, hTERT promoter methylation, mindfulness and quality of life"
+  limitations: "A one-time comparison: meditators may differ from non-meditators in other ways, so it shows an association, not that meditation lengthens telomeres."
 ---
 ## Background Information
 

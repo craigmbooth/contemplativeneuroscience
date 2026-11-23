@@ -95,7 +95,8 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 
 ## AI Search (GEO)
 
-- Each post opens with a byline (author, published/updated dates) and an "In brief" box showing its `snippet`, so the main finding comes first. Keep snippets self-contained.
+- Each post opens with a byline (author, published/updated dates), an "In brief" box showing its `snippet`, and a "Study at a glance" box from the `study` front matter (design, participants, method, measures, limitations). Keep snippets self-contained, and keep `study` to facts stated in the post.
+- Theme pages show a "What the Research Says" synthesis from the theme's `research_summary` (markdown); update it when a paper is added to the theme.
 - Post template headings: Background Information, What They Did, `One Big Result: <the finding>`, Miscellaneous Interesting Takeaways. The One Big Result heading should state the result.
 - `/llms.txt` and `/llms-full.txt` are generated from the collections at build time; don't hand-edit them.
 - Structured data uses one author entity (`authorSchema()`, `@id` /about/#author) with `sameAs` links from `site.authorProfiles`; posts list the glossary terms they cover as `mentions`, and the glossary is a `DefinedTermSet` tied to Wikipedia.
