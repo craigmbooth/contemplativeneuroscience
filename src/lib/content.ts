@@ -22,10 +22,20 @@ export const themeUrl = (theme: Theme) => `/themes/${theme.data.theme_key}/`;
 export const themeImage = (theme: Theme) =>
   `/assets/images/themes/${theme.data.theme_key}.${theme.data.image_format ?? 'png'}`;
 
-/** The theme pages a post belongs to, in the order listed in its front matter. */
+/**
+ * The theme pages a post belongs to, in the order listed in its front matter.
+ * An unknown theme key fails the build.
+ */
 export async function themesForPost(post: Post): Promise<Theme[]> {
   const themes = await getThemes();
-  return post.data.theme.flatMap((key) => themes.filter((t) => t.data.theme_key === key));
+  return post.data.theme.map((key) => {
+    const theme = themes.find((t) => t.data.theme_key === key);
+    if (!theme) {
+      const known = themes.map((t) => t.data.theme_key).join(', ');
+      throw new Error(`Post "${post.id}" has unknown theme "${key}" (known themes: ${known}).`);
+    }
+    return theme;
+  });
 }
 
 /** Posts in a theme, newest first. */

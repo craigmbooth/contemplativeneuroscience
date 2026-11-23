@@ -2,7 +2,7 @@
 title:  "Case Study of Ecstatic Meditation: fMRI and EEG Evidence of Self-Stimulating a Reward System"
 seo_title: "Jhana Meditation and the Brain's Reward System: fMRI & EEG"
 date:   2024-03-05
-theme: [meditation-states, neurological-correlates]
+theme: neurological-correlates
 doi: 10.1155/2013/653572
 meta_description: "The first fMRI and EEG study of jhana meditation: in an experienced meditator, ecstatic states quieted the brain while activating its reward system."
 snippet: "This study presents the first fMRI and EEG evidence of the neural effects of jhana meditation. The results show that jhana meditation quiets the brain, while simultaneously increasing activity in the brain's pleasure centers and areas associated with attention and self-control."

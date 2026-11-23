@@ -59,7 +59,7 @@ Copy `src/content/posts/_template_post.md`. Glossary tooltips use markdown direc
 :term[inflammatory]{id="inflammation"}   custom link text
 ```
 
-An unknown term id fails the build, and so does an image path that is not in `public/`. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
+An unknown term id fails the build, and so does an unknown theme key or an image path that is not in `public/`. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
 
 Front matter: `title`, `date`, `theme` (one key or a list), `doi`, `meta_description` (≤ 155 chars; over 160 fails the build), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
 
@@ -101,4 +101,3 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 
 - Generated 1200×630 share images per post (most figures are too small for large cards).
 - Heading levels skip on All Papers (h1 → h3), the glossary and the MailerLite form (h4).
-- `compassion-alters-altruism` has no theme (so it is on no theme page and its Related Papers fall back to papers nearest in date), and `ecstatic-meditation-reward-system` lists an unknown theme key, `meditation-states`.
