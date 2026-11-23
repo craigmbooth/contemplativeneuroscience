@@ -101,3 +101,15 @@
   title: Neuroplasticity
   def: "Neuroplasticity is the brain's ability to change its structure and function in response to experience. Changes can include new connections between neurons and shifts in the size of brain regions. Researchers have looked for structural neuroplasticity after meditation training, much as it has been found after exercise or learning new skills."
   wiki: Neuroplasticity
+- term: meta_analysis
+  title: Meta-Analysis
+  def: "A meta-analysis statistically combines the results of many earlier studies on the same question. Pooling the data can estimate an overall effect more precisely than any single study and show whether results agree across studies. Its conclusions are only as good as the studies it includes and how similar they are."
+  wiki: Meta-analysis
+- term: cbt_i
+  title: CBT-I
+  def: "Cognitive behavioral therapy for insomnia (CBT-I) is a structured, usually short-term talk therapy for chronic sleeplessness. It combines changes to sleep habits and schedules, such as limiting time in bed, with work on unhelpful thoughts about sleep. It is widely recommended as a first-line treatment for insomnia."
+  wiki: Cognitive_behavioral_therapy_for_insomnia
+- term: psqi
+  title: PSQI
+  def: "The Pittsburgh Sleep Quality Index (PSQI) is a widely used questionnaire about how well a person has slept over the past month. It covers time to fall asleep, sleep duration, disturbances and daytime effects, and combines them into a score from 0 to 21, where higher means worse sleep. Scores above 5 are commonly taken to indicate poor sleep."
+  wiki: Pittsburgh_Sleep_Quality_Index
