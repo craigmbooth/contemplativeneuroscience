@@ -4,6 +4,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Footer from '../components/Footer.astro';
+import Subscribe from '../components/Subscribe.astro';
 import { breadcrumbSchema, metaDescription, pageTitle, profilePageSchema } from '../lib/seo';
 
 export interface Props {
@@ -11,8 +12,10 @@ export interface Props {
   meta_description?: string;
   /** Extra JSON-LD for this page. */
   schemas?: unknown[];
+  /** End the page with the email sign-up box. */
+  subscribe?: boolean;
   /** Present when used as a markdown layout. */
-  frontmatter?: { title: string; meta_description?: string; profile_page?: boolean };
+  frontmatter?: { title: string; meta_description?: string; profile_page?: boolean; subscribe?: boolean };
 }
 
 const props = Astro.props;
@@ -21,6 +24,7 @@ const description = metaDescription({
   metaDescription: props.frontmatter?.meta_description ?? props.meta_description,
 });
 const path = Astro.url.pathname;
+const subscribe = props.frontmatter?.subscribe ?? props.subscribe ?? false;
 const schemas = [
   breadcrumbSchema([{ name: title, path }]),
   // `profile_page: true` marks a page about the author (the About page).
@@ -49,6 +53,7 @@ const schemas = [
       <section class="post-content">
         <a name="topofpage"></a>
         <slot />
+        {subscribe && <Subscribe />}
       </section>
     </article>
   </main>

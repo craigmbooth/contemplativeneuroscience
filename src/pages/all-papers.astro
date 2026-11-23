@@ -60,7 +60,7 @@ const typeCounts = STUDY_TYPES.map((type) => ({
         <div class="article-item">
           <header class="post-header">
             <PaperMeta post={post} themes={themes} />
-            <h3 class="post-title" itemprop="name"><a href={postUrl(post)} itemprop="url">{post.data.title}</a></h3>
+            <h2 class="post-title" itemprop="name"><a href={postUrl(post)} itemprop="url">{post.data.title}</a></h2>
           </header>
           <section class="post-excerpt" itemprop="description">
             <p>{post.data.snippet}</p>

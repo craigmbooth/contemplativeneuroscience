@@ -6,6 +6,10 @@ export interface Props {
 }
 const { path } = Astro.props;
 const isHome = path === '/';
+// "page" for the page itself, "true" for pages inside its section (e.g. a theme under Research Themes).
+const current = (url: string) =>
+  path === url ? 'page' : url !== '/' && path.startsWith(url) ? 'true' : undefined;
+const navClass = (url: string) => (url === '/subscribe/' ? 'nav-subscribe' : undefined);
 ---
 <!-- header start -->
 
@@ -38,7 +42,7 @@ const isHome = path === '/';
           {/* The spaces between links are part of the layout (inline elements). */}
           {site.menuItems.map((item) => (
             <>
-              <a href={item.url} aria-current={path === item.url ? 'page' : undefined}>{item.title}</a>{' '}
+              <a href={item.url} class={navClass(item.url)} aria-current={current(item.url)}>{item.title}</a>{' '}
             </>
           ))}
         </div>
@@ -69,7 +73,7 @@ const isHome = path === '/';
 
       <nav class="custom-links" id="site-navigation" aria-label="Main navigation">
         {site.menuItems.map((item) => (
-          <a href={item.url} aria-current={path === item.url ? 'page' : undefined}>{item.title}</a>
+          <a href={item.url} class={navClass(item.url)} aria-current={current(item.url)}>{item.title}</a>
         ))}
       </nav>
     </div>

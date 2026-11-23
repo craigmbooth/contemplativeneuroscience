@@ -1,6 +1,6 @@
 // "Related Papers" block at the end of each post (PostLayout).
-// Scoped under .post-content to override its default list padding.
-.post-content .related-papers
+// Scoped under .post .post-content to outrank main.sass's list item indent.
+.post .post-content .related-papers
   margin-top: $spacing-xxl
   padding-top: $spacing-lg
   border-top: 1px solid $color-border
@@ -14,7 +14,7 @@
     margin: 0 0 $spacing-lg
 
   li
-    margin-bottom: $spacing-md
+    margin: 0 0 $spacing-md
     line-height: 1.4
 
   .related-papers-more

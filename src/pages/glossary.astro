@@ -29,7 +29,7 @@ const schema = glossarySchema(definitions);
   <div class="glossary-list">
     {entries.map(({ definition, related }) => (
       <div id={definition.term} class="glossary-item">
-        <h3 class="glossary-term">{definition.title}</h3>
+        <h2 class="glossary-term">{definition.title}</h2>
         <div class="glossary-definition">
           {definition.def}
 

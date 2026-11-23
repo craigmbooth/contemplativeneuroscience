@@ -1,0 +1,31 @@
+---
+// Email sign-up page: the target of the Subscribe button in the menu.
+import PageLayout from '../layouts/PageLayout.astro';
+import PaperMeta from '../components/PaperMeta.astro';
+import Subscribe from '../components/Subscribe.astro';
+import { getPosts, postUrl } from '../lib/content';
+
+const recent = (await getPosts()).slice(0, 3);
+---
+<PageLayout
+  title="Get New Summaries by Email"
+  meta_description="Get an email when new summaries of meditation and brain research go up: one or two peer-reviewed papers every couple of weeks."
+>
+  <p>
+    Plain-English summaries of peer-reviewed research on meditation and the brain. Each one explains what the
+    researchers did, what they found, and how much weight the result can bear.
+  </p>
+
+  <Subscribe heading="Sign up" />
+
+  <h2>The Latest Summaries</h2>
+  <ul class="subscribe-recent">
+    {recent.map((post) => (
+      <li>
+        <PaperMeta post={post} date />
+        <a href={postUrl(post)}>{post.data.title}</a>
+      </li>
+    ))}
+  </ul>
+  <p><a href="/all-papers/">Browse all the summaries</a></p>
+</PageLayout>

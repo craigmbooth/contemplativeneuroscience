@@ -76,13 +76,13 @@ const schemas = [await articleSchema(post, path), breadcrumbSchema(await postBre
           </aside>
         )}
         <slot />
-        <Subscribe />
         {citation && (
           <>
             <h3>Citation</h3>
             <Fragment set:html={citation} />
           </>
         )}
+        <Subscribe heading="Get the next summary by email" />
         {related.length > 0 && (
           <nav class="related-papers" aria-labelledby="related-papers-heading">
             <h2 id="related-papers-heading">Related Papers</h2>

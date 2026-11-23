@@ -1,5 +1,66 @@
 ---
-// MailerLite embed (third-party markup, styles and scripts), inserted verbatim.
-import subscribeHtml from './subscribe.html?raw';
+// Email sign-up box (MailerLite form 13082872). Use at most once per page.
+//
+// MailerLite's webforms.min.js does the submitting. It finds the form by these hooks,
+// so keep them: the container's id "mlb2-13082872" and classes ml-subscribe-form(-13082872),
+// .row-form / .row-success, form.ml-block-form, the .ml-validate-* field group,
+// input name="fields[email]", button.primary / button.loading and .ml-server-error.
+// It never adds styles of its own; ours are in components/_subscribe.sass.
+import { site } from '../site';
+
+export interface Props {
+  heading?: string;
+  /** Heading level that fits the page's outline. */
+  level?: 2 | 3;
+}
+const { heading = 'Get new summaries by email', level = 2 } = Astro.props;
+const Heading = `h${level}` as 'h2' | 'h3';
+const action = 'https://assets.mailerlite.com/jsonp/864413/forms/115466837896987758/subscribe';
 ---
-<Fragment set:html={subscribeHtml} />
+<section class="subscribe-box" aria-labelledby="subscribe-heading">
+  <div id="mlb2-13082872" class="ml-subscribe-form ml-subscribe-form-13082872">
+    <div class="row-form">
+      <Heading id="subscribe-heading" class="subscribe-heading">{heading}</Heading>
+      <p class="subscribe-promise">{site.newsletter.promise}</p>
+      <form class="ml-block-form subscribe-form" action={action} method="post" target="_blank">
+        <div class="subscribe-fields">
+          <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+            <label for="subscribe-email" class="sr-only">Email address</label>
+            <input id="subscribe-email" type="email" name="fields[email]" placeholder="Your email address" autocomplete="email" required>
+            <p class="subscribe-error">Please enter a valid email address.</p>
+          </div>
+          <div class="ml-form-embedSubmit">
+            <button type="submit" class="primary">Subscribe</button>
+            <button type="button" class="loading" disabled style="display: none">Sending…</button>
+          </div>
+        </div>
+        <p class="ml-server-error d-none" role="alert"></p>
+        <input type="hidden" name="ml-submit" value="1">
+        <input type="hidden" name="anticsrf" value="true">
+      </form>
+      <p class="subscribe-small">
+        No spam, and you can unsubscribe at any time. Prefer a feed reader? Use the <a href="/feed.xml">RSS feed</a>.
+      </p>
+    </div>
+
+    <div class="row-success" style="display: none">
+      <p class="subscribe-heading" tabindex="-1">Thanks for subscribing!</p>
+      <p class="subscribe-promise">You'll get an email when the next summaries go up.</p>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  // Called by MailerLite's script after a successful sign-up.
+  function ml_webform_success_13082872() {
+    document.querySelectorAll('.ml-subscribe-form-13082872').forEach(function (box) {
+      box.querySelector('.row-form').style.display = 'none';
+      var done = box.querySelector('.row-success');
+      done.style.display = 'block';
+      done.querySelector('[tabindex]').focus();
+    });
+  }
+</script>
+<script is:inline defer src="https://groot.mailerlite.com/js/w/webforms.min.js?v2d8fb22bb5b3677f161552cd9e774127"></script>
+{/* MailerLite's count of form views (part of their embed code). */}
+<script is:inline>fetch('https://assets.mailerlite.com/jsonp/864413/forms/115466837896987758/takel');</script>

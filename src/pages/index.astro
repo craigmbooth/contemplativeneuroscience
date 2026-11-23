@@ -1,6 +1,7 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro';
 import PaperMeta from '../components/PaperMeta.astro';
+import Subscribe from '../components/Subscribe.astro';
 import { websiteSchema } from '../lib/seo';
 import { site } from '../site';
 import {
@@ -92,5 +93,7 @@ const description =
       </ul>
       <p><a href="/all-papers/">Browse all {posts.length} papers</a> or <a href="/glossary/">look up a term in the glossary</a></p>
     </section>
+
+    <Subscribe />
   </main>
 </DefaultLayout>

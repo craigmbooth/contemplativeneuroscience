@@ -35,7 +35,7 @@ src/
   content.config.ts   Front-matter schemas for posts and themes
   data/definitions.yaml  Glossary terms (tooltips + /glossary/)
   layouts/            BaseLayout (document shell), DefaultLayout, PageLayout, PostLayout, ThemeLayout
-  components/         Head, Header, Footer, Breadcrumbs, Subscribe (+ subscribe.html, third-party MailerLite markup)
+  components/         Head, Header, Footer, Breadcrumbs, PaperMeta, Subscribe (email sign-up box)
   lib/content.ts      Collection helpers (sorting, URLs, theme lookups, markdownify)
   lib/seo.ts          <title> logic, meta descriptions, JSON-LD (Article, BreadcrumbList, Person)
   lib/remark-glossary-terms.js  Renders :term{...} directives as glossary tooltips
@@ -82,7 +82,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Semantic variables live in `src/styles/_variables.sass` — check there before adding colors or dimensions.
 - Text must meet WCAG AA contrast (4.5:1). Use `$color-primary-text` (not `$color-primary`) for pink text and `$color-text-muted` (#767676) as the lightest grey for text; `$color-primary` is for borders and backgrounds.
 - Dart Sass deprecation warnings (`@import`, Bourbon's old syntax) are silenced in `pages/css/[name].css.ts`; Dart Sass 3 will require migrating to `@use` and dropping Bourbon.
-- Breakpoints: 768px, 800px, 1024px.
+- Breakpoints: 768px, 800px, 1024px; the slim bar's menu collapses into the hamburger below 960px (`$breakpoint-menu`).
 
 ## Gotchas
 
@@ -93,7 +93,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Social cards (og:title) use the headline (`title`); the browser/search `<title>` uses `seo_title` when set.
 - Breadcrumbs: the visible trail is chosen client-side from `document.referrer` (`src/scripts/breadcrumbs.js`); the only structured breadcrumb data is the JSON-LD BreadcrumbList.
 - Use state classes (`.visible`, `.expanded`, `.active`) rather than inline style manipulation in JS; dynamic backgrounds use `data-bg-image` attributes.
-- `subscribe.html` is ~700 lines of third-party MailerLite CSS/markup — handle with care.
+- `Subscribe.astro` is our own markup and styles (`components/_subscribe.sass`) around MailerLite's submit script, which finds the form by its ids and classes (listed in the component). Keep those hooks, and use the component at most once per page (fixed ids).
 
 ## Internal Links
 
@@ -101,6 +101,11 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Listings show a `PaperMeta` line (date, study type, theme links); All Papers can filter by study type.
 - The home page has a hand-picked "Start Here" set (`site.startHere` in `src/site.ts`; an unknown slug fails the build), the themes as questions (order set in `pages/index.astro`, thumbnails in `public/assets/images/themes/thumbs/`, 240px WebP), and the 5 newest papers with date, study type and theme; every post ends with up to 4 Related Papers (`relatedPosts()`: papers sharing a theme, nearest in date first, so links spread across the archive) plus links to its theme pages.
 - `<title>` gets the " | Contemplative Neuroscience" suffix only when the result is ≤ 60 characters.
+
+## Email Sign-up
+
+- The promise beside every sign-up form is `site.newsletter.promise` (one or two summaries every couple of weeks); change it there if the cadence changes.
+- Forms appear at the end of every post (after the citation), on the home page, on About (`subscribe: true` front matter, via PageLayout) and on `/subscribe/`, which the menu's Subscribe button and the footer link to.
 
 ## AI Search (GEO)
 
@@ -118,4 +123,3 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 ## Known Improvement Opportunities
 
 - Generated 1200×630 share images per post (most figures are too small for large cards).
-- Heading levels skip on All Papers (h1 → h3), the glossary and the MailerLite form (h4).

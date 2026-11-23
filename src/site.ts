@@ -19,12 +19,18 @@ export const site = {
     'meditation-sleep-older-adults',
     'brain-and-immune-function',
   ],
+  /** Email list (MailerLite). The promise appears beside every sign-up form. */
+  newsletter: {
+    promise: 'One or two new paper summaries every couple of weeks, sent to your inbox when they go up.',
+  },
   menuItems: [
     { title: 'Home', url: '/' },
     { title: 'Research Themes', url: '/themes/' },
     { title: 'All Papers', url: '/all-papers/' },
     { title: 'Glossary', url: '/glossary/' },
     { title: 'About', url: '/about/' },
+    // Shown as a button (Header.astro).
+    { title: 'Subscribe', url: '/subscribe/' },
   ],
 } as const;
 

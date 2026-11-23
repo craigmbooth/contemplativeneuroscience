@@ -1,5 +1,14 @@
 .all-papers-list
-  margin-top: $spacing-xl
+  margin-top: $spacing-lg
+
+  // main.sass's `.content article` adds 40px above every item; one gap between items is enough.
+  // Only items after a visible one get the top gap, so a filtered list starts flush too.
+  .post-item
+    margin-bottom: 0
+    padding: 0 0 $spacing-xl
+
+  .post-item:not(.hidden) ~ .post-item
+    padding-top: $spacing-xl
 
 .post-item
   margin-bottom: 40px
@@ -64,11 +73,18 @@
   &:hover
     color: $color-text-secondary
 
-.search-results-info
+.search-results-info,
+.post .post-content .search-results-info
   font-size: 15px
+  line-height: 1.5
   color: $color-text-secondary
-  margin: 10px 0 20px
+  margin: 0 0 $spacing-md
+  padding: 0
   font-style: italic
+
+  // Empty until a search or filter runs; stays in the page for screen readers.
+  &:empty
+    margin: 0
 
 .no-results-message
   text-align: center
@@ -150,3 +166,8 @@
 
 .post-item .paper-meta
   margin-bottom: $spacing-xs
+
+// Paper titles are h2s (the page's only level below h1) at the old h3 size.
+.post .post-content .all-papers-list h2.post-title
+  font-size: 24px
+  line-height: 1.3
