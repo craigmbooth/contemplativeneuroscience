@@ -4,7 +4,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Footer from '../components/Footer.astro';
-import { breadcrumbSchema, metaDescription, pageTitle } from '../lib/seo';
+import { breadcrumbSchema, metaDescription, pageTitle, profilePageSchema } from '../lib/seo';
 
 export interface Props {
   title?: string;
@@ -12,7 +12,7 @@ export interface Props {
   /** Extra JSON-LD for this page. */
   schemas?: unknown[];
   /** Present when used as a markdown layout. */
-  frontmatter?: { title: string; meta_description?: string };
+  frontmatter?: { title: string; meta_description?: string; profile_page?: boolean };
 }
 
 const props = Astro.props;
@@ -21,7 +21,12 @@ const description = metaDescription({
   metaDescription: props.frontmatter?.meta_description ?? props.meta_description,
 });
 const path = Astro.url.pathname;
-const schemas = [breadcrumbSchema([{ name: title, path }]), ...(props.schemas ?? [])];
+const schemas = [
+  breadcrumbSchema([{ name: title, path }]),
+  // `profile_page: true` marks a page about the author (the About page).
+  ...(props.frontmatter?.profile_page ? [profilePageSchema()] : []),
+  ...(props.schemas ?? []),
+];
 ---
 <BaseLayout
   title={pageTitle(title)}

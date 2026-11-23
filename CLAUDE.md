@@ -45,7 +45,8 @@ src/
   pages/feed.xml.ts, sitemap.xml.ts
   styles/             Sass (indented syntax), incl. vendored Bourbon
   scripts/            Browser JS (plain scripts, not modules)
-public/               Copied verbatim: images, favicons, CNAME, robots.txt, llms.txt, print/normalize CSS
+  pages/llms.txt.ts, llms-full.txt.ts  AI-facing index and full text of every summary (lib/llms.ts)
+public/               Copied verbatim: images, favicons, CNAME, robots.txt, print/normalize CSS
 ```
 
 ## Writing Posts
@@ -91,6 +92,13 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 
 - The home page lists the 5 newest papers; every post ends with up to 4 Related Papers (`relatedPosts()`: papers sharing a theme, nearest in date first, so links spread across the archive) plus links to its theme pages.
 - `<title>` gets the " | Contemplative Neuroscience" suffix only when the result is ≤ 60 characters.
+
+## AI Search (GEO)
+
+- Each post opens with a byline (author, published/updated dates) and an "In brief" box showing its `snippet`, so the main finding comes first. Keep snippets self-contained.
+- Post template headings: Background Information, What They Did, `One Big Result: <the finding>`, Miscellaneous Interesting Takeaways. The One Big Result heading should state the result.
+- `/llms.txt` and `/llms-full.txt` are generated from the collections at build time; don't hand-edit them.
+- Structured data uses one author entity (`authorSchema()`, `@id` /about/#author) with `sameAs` links from `site.authorProfiles`; posts list the glossary terms they cover as `mentions`, and the glossary is a `DefinedTermSet` tied to Wikipedia.
 
 ## Share Cards and Images
 

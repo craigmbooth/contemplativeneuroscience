@@ -21,7 +21,7 @@ This :term{id="randomized_controlled_trial"} enrolled 54 adults diagnosed with c
 
 Participants reported their sleep in daily diaries and completed standard measures including the Insomnia Severity Index (ISI) and the Pre-Sleep Arousal Scale (PSAS). Objective sleep data were gathered using polysomnography and actigraphy. Follow-ups occurred immediately after the 8-week program and again at 3 and 6 months.
 
-## One Big Result
+## One Big Result: About 44 Fewer Minutes Awake Each Night
 
 Both MBSR and MBTI participants showed a large reduction in total wake time—averaging 44 minutes less awake at night by the end of the treatment, compared to virtually no change in the control group. These improvements were sustained or improved over the following six months. MBTI participants, in particular, showed the greatest long-term reduction in insomnia severity, with 79% meeting criteria for treatment response and 50% achieving full remission at six months.
 

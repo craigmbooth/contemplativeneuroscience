@@ -21,7 +21,7 @@ Castillo reviewed clinical literature and conducted interviews with six long-ter
 
 Importantly, he drew from cross-cultural psychology and symbolic healing theories, proposing that the interpretation of depersonalization may determine whether it’s experienced as terrifying dissociation—or as spiritual insight.
 
-## One Big Result
+## One Big Result: Meaning Decides Whether Depersonalization Is Distressing
 
 Every meditator interviewed had experienced depersonalization, often not just during formal meditation but in daily life. But unlike clinical depersonalization, these states were not generally accompanied by anxiety, dysfunction, or emotional distress. In fact, most meditators described a subtle, ongoing experience of detachment paired with calm, contentment, and clarity.
 

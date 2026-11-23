@@ -27,7 +27,7 @@ The researchers compared the neural mechanisms of pain perception between expert
 
 The experimental design included a detailed calibration process to determine the temperature threshold for pain stimuli for each participant, ensuring a consistent pain experience across the study. Participants received comprehensive instructions on the meditation practices to be employed during the experiment, with control subjects being given a brief training period to familiarize themselves with the meditation technique. The researchers analyzed the data to assess differences in pain intensity and unpleasantness ratings between the two groups, along with examining the brain's activity in response to pain. Key areas of investigation included the effect of meditation on anticipatory neural activity related to pain, the correlation between such activity and pain perception, and how meditation practice influences baseline brain activity and neural habituation to pain stimuli. This approach allowed for a nuanced understanding of how meditation impacts the neural processing of pain and the potential benefits of mindfulness practices in pain management.
 
-## One Big Result
+## One Big Result: Experts Found Pain Less Unpleasant, Not Less Intense
 
 To summarize this paper down into one oversimplified takeaway:
 

@@ -27,7 +27,7 @@ Additionally, all participants received a flu vaccine at the Time 2, and the aut
 
 Upon completion of the last assessment, participants in the wait-list control group were offered the same 8-week MBSR training provided to the meditation group, ensuring that all participants eventually had the opportunity to receive the intervention. This approach not only facilitated the ethical conduct of the study by offering all participants access to the potentially beneficial meditation training but also allowed for a controlled comparison between those who had immediately undergone the MBSR program and those who were initially placed on a wait list.
 
-## One Big Result
+## One Big Result: More Left-Sided Brain Activation and a Stronger Flu Vaccine Response
 
 The first major finding of this study was that the 8-week MBSR course let to measurable changes in brain function when the subjects were presented with emotional stimuli.  One brain measurement that has been associated with positive emotions is asymmetry of brain activation.  From [a recent review of the literature](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7111451/):
 

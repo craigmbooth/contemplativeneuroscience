@@ -48,24 +48,82 @@ export function metaDescription(opts: {
 /** Serialize JSON-LD safely for inline <script> tags. */
 export const jsonLd = (data: unknown) => JSON.stringify(data, null, 2).replace(/</g, '\\u003c');
 
-export function contactSchema() {
+/**
+ * The author, as one Person entity shared by every page (same @id), linked to
+ * their other profiles so search and AI systems can tie the content to them.
+ */
+export function authorSchema() {
+  return {
+    '@type': 'Person',
+    '@id': absoluteUrl('/about/#author'),
+    name: site.author,
+    url: absoluteUrl('/about/'),
+    sameAs: [...site.authorProfiles],
+    description: site.authorBio,
+    knowsAbout: ['Meditation', 'Mindfulness', 'Contemplative neuroscience'],
+  };
+}
+
+function publisherSchema() {
+  return {
+    '@type': 'Organization',
+    '@id': absoluteUrl('/#publisher'),
+    name: site.title,
+    url: absoluteUrl('/'),
+    logo: { '@type': 'ImageObject', url: absoluteUrl(site.logo) },
+  };
+}
+
+/** Home page: the site itself, its publisher and author. */
+export function websiteSchema(description: string) {
   return {
     '@context': 'https://schema.org',
-    '@type': 'Person',
-    name: site.author,
-    url: site.url,
-    sameAs: ['https://twitter.com/cmb'],
-    jobTitle: 'Meditation Practitioner and Scientist',
-    description:
-      'A meditation practitioner and scientist who curates accessible summaries of peer-reviewed research at the intersection of meditation and brain science.',
-    mainEntityOfPage: { '@type': 'WebPage', '@id': site.url },
-    publisher: {
-      '@type': 'Organization',
-      name: site.title,
-      url: site.url,
-      logo: { '@type': 'ImageObject', url: absoluteUrl(site.logo) },
-    },
-    contactPoint: { '@type': 'ContactPoint', contactType: 'author', availableLanguage: 'en' },
+    '@type': 'WebSite',
+    '@id': absoluteUrl('/#website'),
+    url: absoluteUrl('/'),
+    name: site.title,
+    description,
+    inLanguage: 'en',
+    publisher: publisherSchema(),
+    author: authorSchema(),
+  };
+}
+
+/** About page: a profile page about the author. */
+export function profilePageSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    url: absoluteUrl('/about/'),
+    mainEntity: authorSchema(),
+  };
+}
+
+const glossaryTermId = (term: string) => absoluteUrl(`/glossary/#${term}`);
+const wikipediaUrl = (article: string) => `https://en.wikipedia.org/wiki/${article}`;
+
+/** A glossary term as a schema.org DefinedTerm, tied to its Wikipedia article. */
+function definedTerm(d: { term: string; title: string; def?: string; wiki?: string }, withDescription = false) {
+  return {
+    '@type': 'DefinedTerm',
+    '@id': glossaryTermId(d.term),
+    name: d.title,
+    ...(withDescription && d.def && { description: stripNewlines(d.def) }),
+    url: glossaryTermId(d.term),
+    inDefinedTermSet: absoluteUrl('/glossary/'),
+    ...(d.wiki && { sameAs: wikipediaUrl(d.wiki) }),
+  };
+}
+
+/** Glossary page: every term with its definition. */
+export function glossarySchema(definitions: { term: string; title: string; def: string; wiki?: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTermSet',
+    '@id': absoluteUrl('/glossary/'),
+    name: 'Glossary of Technical Terms',
+    url: absoluteUrl('/glossary/'),
+    hasDefinedTerm: definitions.map((d) => definedTerm(d, true)),
   };
 }
 
@@ -120,7 +178,7 @@ export function postImage(post: Post): { src: string; alt?: string } {
  * - headline: the title, or seo_title when the title exceeds Google's 110-char limit
  * - image: see postImage()
  * - dateModified: last_modified_at, else the post date
- * - keywords: glossary terms the post links to
+ * - keywords / mentions: glossary terms the post links to (mentions as DefinedTerms)
  * - articleSection: display names of the post's themes
  */
 export async function articleSchema(post: Post, path: string) {
@@ -133,13 +191,10 @@ export async function articleSchema(post: Post, path: string) {
   const image = absoluteUrl(postImage(post).src);
 
   const definitions = definitionsByTerm();
-  const keywords = [
-    ...new Set(
-      [...html.matchAll(/href="\/glossary\/#([^"]+)"/g)]
-        .map((m) => definitions.get(m[1])?.title)
-        .filter((t): t is string => Boolean(t)),
-    ),
-  ];
+  const terms = [...new Set([...html.matchAll(/href="\/glossary\/#([^"]+)"/g)].map((m) => m[1]))]
+    .map((term) => definitions.get(term))
+    .filter((d): d is NonNullable<typeof d> => Boolean(d));
+  const keywords = terms.map((d) => d.title);
   const sections = (await themesForPost(post)).map((t: Theme) => t.data.title);
 
   return {
@@ -150,17 +205,13 @@ export async function articleSchema(post: Post, path: string) {
     image: [image],
     datePublished: xmlSchemaDate(data.date),
     dateModified: xmlSchemaDate(data.last_modified_at ?? data.date),
-    author: { '@type': 'Person', name: site.author, url: absoluteUrl('/about/') },
-    publisher: {
-      '@type': 'Organization',
-      name: site.title,
-      url: absoluteUrl('/'),
-      logo: { '@type': 'ImageObject', url: absoluteUrl(site.logo) },
-    },
+    author: authorSchema(),
+    publisher: publisherSchema(),
     ...(data.meta_description && { description: stripNewlines(stripHtml(data.meta_description)) }),
     mainEntityOfPage: { '@type': 'WebPage', '@id': absoluteUrl(path) },
     ...(sections.length > 0 && { articleSection: sections }),
     ...(keywords.length > 0 && { keywords }),
+    ...(terms.length > 0 && { mentions: terms.map((d) => definedTerm(d)) }),
     ...(data.doi && {
       citation: {
         '@type': 'ScholarlyArticle',

@@ -39,7 +39,7 @@ To ensure the rigor of their analysis, the authors used several criteria for eva
 - **Use of Objective vs. Subjective Measures:** Determining whether cognitive improvements were observed across different types of assessments.
 - **Handling of Missing Data:** Studies were assessed for how they accounted for missing participant data, which can impact the reliability of findings.
 
-## One Big Result
+## One Big Result: Mindfulness Improved Accuracy More Than Speed
 
 The most striking finding was that MBIs effectively enhanced multiple cognitive functions, particularly those related to accuracy rather than speed.  This is demonstrated in the following graph, which shows the aggregatged results from all 111 studies.
 

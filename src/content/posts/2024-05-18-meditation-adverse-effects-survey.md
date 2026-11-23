@@ -21,7 +21,7 @@ The researchers conducted in-depth interviews with 60 experienced Western Buddhi
 
 Using qualitative coding and thematic analysis, they categorized 59 distinct types of meditation-related difficulties across seven domains: cognitive, perceptual, affective, somatic, conative, sense of self, and social. In addition, they identified 26 factors that influenced how practitioners experienced, interpreted, and coped with these challenges.
 
-## One Big Result
+## One Big Result: Challenging Experiences Are Common and Diverse
 
 The single most important finding is that challenging meditation-related experiences are both common and extremely diverse, occurring across multiple psychological and somatic dimensions—even in highly experienced meditators with over 10,000 hours of practice.
 

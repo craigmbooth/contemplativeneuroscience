@@ -2,6 +2,7 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import { getPosts, postHtml, postUrl } from '../lib/content';
 import { sortedDefinitions } from '../lib/glossary';
+import { glossarySchema } from '../lib/seo';
 
 const definitions = sortedDefinitions();
 const posts = await getPosts();
@@ -15,21 +16,13 @@ const entries = definitions.map((definition) => ({
   }),
 }));
 
-// Google no longer shows FAQ rich results for most sites; kept for parity with the Jekyll site.
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: definitions.map((d) => ({
-    '@type': 'Question',
-    name: d.title,
-    acceptedAnswer: { '@type': 'Answer', text: d.def.replace(/\r?\n/g, '').replaceAll('"', "'") },
-  })),
-};
+// Every term as a schema.org DefinedTerm linked to its Wikipedia article.
+const schema = glossarySchema(definitions);
 ---
 <PageLayout
   title="Glossary of Technical Terms"
   meta_description="A glossary of terms related to contemplative neuroscience, meditation practices, and neuroscience research methods."
-  schemas={[faqSchema]}
+  schemas={[schema]}
 >
   <p>This glossary provides definitions for technical terms used throughout the site. Hover over these terms in articles to see their definitions.</p>
 

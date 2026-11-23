@@ -33,7 +33,7 @@ The authors took 72 college undergraduates, who underwent a sustained attention 
 
 The relationships between task performance, and mind wandering both in and out of the lab were then analyzed
 
-## One Big Result
+## One Big Result: Mind Wandering in the Lab Predicts Mind Wandering in Daily Life
 
 The first result is that the rate of TUTs in the lab predicts the rate of TUTs outside of the lab.  The positive correlation in this graph tells us that if your mind wandered more during the lab test, you likely also have more mind wandering in general.  Explained by the authors as:
 

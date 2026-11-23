@@ -25,7 +25,7 @@ EEG data were captured before, during, and after the meditation sessions, with p
 
 ![Graph showing gamma wave amplitude for one meditator during a meditation session measured from four electrodes. The x-axis shows time with meditation beginning at 45 seconds, and the y-axis shows gamma-band amplitude. The graph clearly demonstrates how gamma wave amplitude increases dramatically after meditation begins and continues to rise throughout the session.](/assets/article_images/high-amplitude-gamma-synchrony/gamma.png)
 
-## One Big Result
+## One Big Result: Long-Term Meditators Generated High-Amplitude Gamma Synchrony
 
 Experienced meditators in the tradition of unbounded metta meditation can produce high levels of gamma brain wave activity during meditation, which suggests they have developed an enhanced capacity for concentration, emotional control, and a heightened state of awareness compared to people with less meditation experience.
 

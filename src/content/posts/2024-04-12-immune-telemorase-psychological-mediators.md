@@ -37,7 +37,7 @@ The authors performed a comparison between individuals participating in a three-
 * Perceived Control: Evaluated through the Environmental Mastery subscale of Ryff's scales, reflecting individuals' beliefs in their capacity to manage and control their life circumstances.
 * Neuroticism: Assessed with the Big Five Inventory's Neuroticism scale, measuring the tendency towards experiencing negative emotions like anxiety, depression, and vulnerability.
 
-## One Big Result
+## One Big Result: Telomerase Rose Alongside Psychological Gains
 
 Psychologically, the retreat participants
 

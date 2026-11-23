@@ -7,7 +7,11 @@ export const site = {
   cover: '/assets/images/index_header.jpg',
   author: 'Craig Booth',
   authorImage: '/assets/images/logo_sm.png',
-  twitterHandle: '@cmb',
+  /** The author's other profiles (schema.org sameAs). */
+  authorProfiles: ['https://craigmbooth.me/', 'https://www.linkedin.com/in/craigmbooth/'],
+  /** One-line author bio for structured data and llms.txt (matches the About page). */
+  authorBio:
+    'A lay meditation practitioner with a background in science who writes accessible summaries of peer-reviewed research on meditation and the brain.',
   menuItems: [
     { title: 'Home', url: '/' },
     { title: 'Research Themes', url: '/themes/' },

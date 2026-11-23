@@ -1,15 +1,17 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro';
-import { contactSchema } from '../lib/seo';
+import { websiteSchema } from '../lib/seo';
 import { getPosts, postUrl } from '../lib/content';
 
 const posts = await getPosts();
 const recent = posts.slice(0, 5);
+const description =
+  'Accessible summaries of peer-reviewed research on meditation and the brain, from jhana and gamma waves to sleep, immune function, and mind wandering.';
 ---
 <DefaultLayout
   title="Home"
-  meta_description="Accessible summaries of peer-reviewed research on meditation and the brain, from jhana and gamma waves to sleep, immune function, and mind wandering."
-  schemas={[contactSchema()]}
+  meta_description={description}
+  schemas={[websiteSchema(description)]}
 >
   <main class="content" role="main">
 

@@ -28,7 +28,7 @@ After completing the training, participants played an economic decision-making t
 
 Throughout the study, brain activity was measured via :term{id="fmri"} while participants viewed images of human suffering. The researchers then examined whether changes in brain responses predicted shifts in altruistic behavior.
 
-## One Big Result
+## One Big Result: Compassion Training Nearly Doubled Altruistic Giving
 
 The key finding was that participants in the compassion training group exhibited significantly greater altruistic behavior than those in the reappraisal group. Specifically, they were more likely to sacrifice their own money to help a victim of unfair treatment, even though they were not instructed to apply their training during the task.
 

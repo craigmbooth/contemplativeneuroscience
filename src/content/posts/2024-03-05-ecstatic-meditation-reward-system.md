@@ -31,7 +31,7 @@ Before running this experiment, the authors had developed a set of hypotheses ab
 * Hypothesis 5: Jhanas should show increased activation compared to rest state in the areas of the brain related to pleasure since the jhanas are associated with pleasure
 * Hypothesis 6: Jhanas should show no increased activation compared to rest state for the areas of the brain related to phythmic motion and the motor cortex.
 
-## One Big Result
+## One Big Result: Jhana Quieted Outward Awareness and Activated Reward Areas
 
 Each of the hypotheses were borne out.  This table, containing one row for each hypothesis shows the hypothesis in the left column, whether the expectation is that jhana meditation would increase (+) or decrease (-) activity in that brain area, and then on the right the results.
 

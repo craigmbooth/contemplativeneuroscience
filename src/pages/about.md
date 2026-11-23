@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/PageLayout.astro
 title: What is This Site?
+profile_page: true
 meta_description: "About Contemplative Neuroscience: accessible summaries of peer-reviewed meditation research, written by scientist and meditator Craig Booth."
 ---
 

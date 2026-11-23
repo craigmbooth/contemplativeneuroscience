@@ -25,7 +25,7 @@ Finally, the researchers looked at a deeper layer of control: how easily the bod
 
 In addition to these biological tests, the study also assessed participants' psychological traits, including levels of mindfulness and quality of life. This allowed the researchers to explore whether any observed biological differences were related to specific mental or emotional patterns associated with meditation.
 
-## One Big Result
+## One Big Result: Meditators' Telomeres Were 32% Longer
 
 Long-term meditators had significantly longer telomeres and higher expression of telomerase-related genes, along with lower methylation of the hTERT promoter—pointing to a multi-layered impact of meditation on cellular aging.
 

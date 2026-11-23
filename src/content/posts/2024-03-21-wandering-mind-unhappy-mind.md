@@ -26,7 +26,7 @@ For this analysis, task and mind wandering data from 2,250 adults were collected
 
 This approach allowed the researchers to collect a large amount of real-time data on people's emotional states, activities, and the content of their mind wandering, providing a comprehensive look into how these elements interact in everyday life.
 
-## One Big Result
+## One Big Result: What We Think About Matters More for Happiness Than What We Do
 
 The study's key takeaway is that the content of our thoughts --- specifically, whether our mind is wandering and what it's wandering to --- plays a more significant role in determining our happiness than the actual activity we're engaged in.
 

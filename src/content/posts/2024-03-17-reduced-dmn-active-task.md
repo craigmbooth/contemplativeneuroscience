@@ -30,7 +30,7 @@ This study aimed to explore the effects of meditation on brain activity, specifi
 
 Functional MRI (:term{id="fmri"}) scanning was utilized to measure brain activity during three standard mindfulness meditation practices (concentration, loving kindness, and choiceless awareness) and during an active cognitive task where participants made judgments about adjectives. The active task served as a comparison to identify whether meditation specifically reduces DMN activity compared to other types of cognitive engagement. Behavioral data on task performance and self-reported mind wandering were also collected to contextualize the fMRI results. This methodological approach allowed the researchers to investigate the neural correlates of meditation beyond simple rest, providing insights into how meditation might uniquely influence brain function and potentially offer benefits for attention and well-being by reducing habitual self-referential thoughts and mind wandering.
 
-## One Big Result
+## One Big Result: Meditators Quieted the Default Mode Network During Meditation
 
 The study revealed a notable distinction between experienced meditators and control participants during meditation. Specifically, meditators displayed significantly reduced activity in key areas of the brain associated with the DMN, such as the anterior cingulate cortex and both the dorsal and ventral precuneus/posterior cingulate cortex, in comparison to an implicit baseline. This reduction in brain activity suggests that meditation fosters a unique state of mind, distinct from resting or engaging in other cognitive tasks.
 

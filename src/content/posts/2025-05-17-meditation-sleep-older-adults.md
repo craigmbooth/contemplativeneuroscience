@@ -21,7 +21,7 @@ In a randomized clinical trial, 49 older adults (average age 66) with moderate s
 
 Participants in both groups attended weekly two-hour classes for six weeks and were assigned daily homework. Outcomes were assessed both before and after the intervention, focusing on sleep quality (via the Pittsburgh Sleep Quality Index), as well as other measures like depression, fatigue, anxiety, and :term[inflammatory]{id="inflammation"} markers (specifically NF-κB, a signaling molecule linked to inflammation and sleep disruption).
 
-## One Big Result
+## One Big Result: Mindfulness Improved Sleep Quality More Than Sleep Hygiene
 
 The MAPs mindfulness group showed significantly greater improvements in sleep quality than the sleep hygiene education group. On average, participants in the mindfulness group improved their Pittsburgh Sleep Quality Index (PSQI) scores by 2.8 points, compared to just 1.1 points in the SHE group—a between-group difference of 1.8 points with a large :term{id="effect_size" case="lower"} of 0.89.
 

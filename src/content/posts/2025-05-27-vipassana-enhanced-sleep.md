@@ -21,7 +21,7 @@ Researchers recruited 91 healthy male participants aged 30–60, including 45 se
 
 All participants underwent two nights of whole-night :term{id="eeg"}, with the second night’s data used for analysis. Only participants with a sleep efficiency index above 85% were included, ensuring high-quality sleep data. Researchers compared various sleep metrics, including slow wave sleep, REM sleep, REM onset latency, and number of sleep cycles.
 
-## One Big Result
+## One Big Result: More Deep and REM Sleep at Every Age
 
 Across all age groups, Vipassana meditators had significantly more slow wave sleep and REM sleep compared to controls. This pattern persisted even in older meditators, while non-meditators showed a marked age-related decline in slow wave sleep. For example, older controls had a 65% reduction in SWS compared to younger controls, while older meditators maintained relatively high SWS levels. Meditators also had shorter REM onset latency and more sleep cycles.
 

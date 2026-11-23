@@ -25,7 +25,7 @@ The researchers examined several types of brain signals in the amygdala and hipp
 
 The findings were then compared to participants' self-reported meditation depth to assess how these brain changes might relate to real-world experience.
 
-## One Big Result
+## One Big Result: One Session Raised Gamma in the Amygdala and Hippocampus
 
 A single session of loving-kindness meditation was enough to increase high-frequency gamma activity in the emotional centers of the brain—even in first-time meditators.
 

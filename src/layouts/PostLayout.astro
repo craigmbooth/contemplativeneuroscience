@@ -4,6 +4,7 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Footer from '../components/Footer.astro';
 import Subscribe from '../components/Subscribe.astro';
+import { site } from '../site';
 import { articleSchema, breadcrumbSchema, metaDescription, pageTitle, postBreadcrumbs, postImage, type ShareMeta } from '../lib/seo';
 import { markdownify, postUrl, relatedPosts, themesForPost, themeUrl, type Post } from '../lib/content';
 
@@ -15,6 +16,10 @@ const { data } = post;
 const path = postUrl(post);
 const themes = await themesForPost(post);
 const related = await relatedPosts(post);
+const isoDate = (d: Date) => d.toISOString().slice(0, 10);
+const longDate = (d: Date) =>
+  d.toLocaleDateString('en-US', { timeZone: 'UTC', year: 'numeric', month: 'long', day: 'numeric' });
+const updated = data.last_modified_at && isoDate(data.last_modified_at) !== isoDate(data.date) ? data.last_modified_at : undefined;
 const citation = (await markdownify(data.citation)).replaceAll('<p>', '<p class="citation">');
 const image = postImage(post);
 const share: ShareMeta = {
@@ -43,6 +48,17 @@ const schemas = [await articleSchema(post, path), breadcrumbSchema(await postBre
       <Breadcrumbs kind="post" title={data.title} themes={themes} />
 
       <section class="post-content">
+        <p class="post-byline">
+          By <a href="/about/" rel="author">{site.author}</a>
+          {' · '}Published <time datetime={isoDate(data.date)}>{longDate(data.date)}</time>
+          {updated && <>{' · '}Updated <time datetime={isoDate(updated)}>{longDate(updated)}</time></>}
+        </p>
+        {data.snippet && (
+          <aside class="key-finding" aria-labelledby="key-finding-label">
+            <p id="key-finding-label" class="key-finding-label">In brief</p>
+            <p>{data.snippet}</p>
+          </aside>
+        )}
         <slot />
         <Subscribe />
         {citation && (
