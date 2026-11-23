@@ -2,7 +2,7 @@
 title: "Mindfulness Improved Sleep More Than Matched Classes, but Didn't Beat Established Sleep Treatments"
 paper_title: "The effect of mindfulness meditation on sleep quality: a systematic review and meta-analysis of randomized controlled trials"
 seo_title: "Mindfulness and Sleep Quality: A Meta-Analysis of 18 Trials"
-date: 2026-11-23
+date: 2026-07-14
 theme: sleep
 doi: 10.1111/nyas.13996
 meta_description: "A meta-analysis of 18 trials found mindfulness improved sleep more than matched classes, with no clear difference from established sleep treatments."
