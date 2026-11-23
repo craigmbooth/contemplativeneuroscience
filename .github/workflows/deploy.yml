@@ -1,5 +1,6 @@
 # Builds the Astro site on pull requests, and builds + publishes it to GitHub
-# Pages on every push to master.
+# Pages on every push to master, then tells search engines which pages changed
+# (IndexNow, see scripts/indexnow.mjs).
 # Requires Settings → Pages → Build and deployment → Source: "GitHub Actions".
 name: Deploy site
 
@@ -8,6 +9,11 @@ on:
     branches: [master]
   pull_request:
   workflow_dispatch:
+    inputs:
+      submit_all:
+        description: Submit every page to IndexNow, not just the ones that changed
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -22,6 +28,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      indexnow_urls: ${{ steps.indexnow.outputs.urls }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -33,6 +41,16 @@ jobs:
       - run: npm run build
         env:
           TZ: UTC
+      # Compare the new build with the live site before it is replaced. A failure
+      # here shows as a warning but never blocks the deploy.
+      - id: indexnow
+        if: github.event_name != 'pull_request'
+        continue-on-error: true
+        run: |
+          urls=$(node scripts/indexnow.mjs changed)
+          echo "urls=$urls" >> "$GITHUB_OUTPUT"
+        env:
+          INDEXNOW_ALL: ${{ inputs.submit_all }}
       - if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v6
       - if: github.event_name != 'pull_request'
@@ -50,3 +68,22 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v5
+
+  # Runs once the new pages (and the key file) are live.
+  indexnow:
+    if: >-
+      github.event_name != 'pull_request' &&
+      needs.build.outputs.indexnow_urls != '' &&
+      needs.build.outputs.indexnow_urls != '[]'
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+      - run: node scripts/indexnow.mjs submit
+        env:
+          INDEXNOW_URLS: ${{ needs.build.outputs.indexnow_urls }}

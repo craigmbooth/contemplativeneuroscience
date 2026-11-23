@@ -24,6 +24,8 @@ Always run `npm run check` and `npm run build` before committing.
 
 `.github/workflows/deploy.yml` builds and deploys on every push to `master` (GitHub Pages source: "GitHub Actions"). Nothing generated is committed: CSS and minified JS are produced by the build.
 
+After each deploy, the workflow submits the pages whose HTML changed (plus any removed pages) to IndexNow (`scripts/indexnow.mjs`), which notifies Bing and other participating search engines. It finds them by comparing the new build with the live site before deploying. The key file `public/92733d5f979cf4080a9a770b5046e59f.txt` must stay published (the key is public by design). To resubmit every page, run the workflow manually with "Submit every page" ticked.
+
 ## Layout
 
 ```
