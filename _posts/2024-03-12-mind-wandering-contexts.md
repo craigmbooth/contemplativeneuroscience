@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts"
+seo_title: "Mind Wandering in the Lab and in Everyday Life"
 date:   2024-03-12
 theme: mind-wandering
 doi: 10.3758/PBR.16.5.857

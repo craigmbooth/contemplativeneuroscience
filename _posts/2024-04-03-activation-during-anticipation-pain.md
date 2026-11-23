@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Altered anterior insula activation during anticipation and experience of painful stimuli in expert meditators"
+seo_title: "Expert Meditators, Pain, and the Anterior Insula"
 date:   2024-04-03
 theme: biological-health
 doi: 10.1016/j.neuroimage.2012.09.030

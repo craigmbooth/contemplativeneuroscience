@@ -35,7 +35,7 @@ layout: default
           {% for post in theme_posts %}
             <li>
               <h3>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}?ref=theme&theme={{ page.theme_key }}">{{ post.title }}</a>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h3>
               <p>{{ post.snippet }}</p>
               <div class="post-meta citation">

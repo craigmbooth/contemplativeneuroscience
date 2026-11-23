@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Meditation leads to reduced default mode network activity beyond an active task."
+seo_title: "Meditation Reduces Default Mode Network Activity"
 date:   2024-03-17
 theme: mind-wandering
 doi: 10.3758/s13415-015-0358-3

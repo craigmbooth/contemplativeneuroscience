@@ -34,7 +34,7 @@ This page provides a collection of {% assign post_count = site.posts | where_exp
     <article class="post-item" itemscope itemtype="http://schema.org/BlogPosting" role="article">
       <div class="article-item">
         <header class="post-header">
-          <h3 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}?ref=all-papers" itemprop="url">{{ post.title }}</a></h3>
+          <h3 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h3>
         </header>
         <section class="post-excerpt" itemprop="description">
           <p>{{ post.snippet }}</p>

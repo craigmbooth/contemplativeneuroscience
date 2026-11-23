@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Alterations in Brain and Immune Function Produced by Mindfulness Meditation"
+seo_title: "Mindfulness Meditation Alters Brain and Immune Function"
 date:   2024-03-09
 theme: biological-health
 doi: 10.1097/01.psy.0000077505.67574.e3
@@ -67,7 +68,7 @@ I, personally, find this result to be very exciting.  First, this study was perf
 
 ### It Doesn't Take Much
 
-In other papers I reviewed on this site, subjects who were experienced meditators (to the tune of tens of thousands of hours), had striking differences in their brain activity compared to non-meditators for both meditations leading to {% include definition.html term="jhana" %} ([Hagerty et al. 2013](/ecstatic-meditation-reward-system)) and  meditation on the {% include definition.html term="brahmaviharas" %} ([Lutz et al. 2004](/high-amplitude-gamma-synchrony)) meditations.
+In other papers I reviewed on this site, subjects who were experienced meditators (to the tune of tens of thousands of hours), had striking differences in their brain activity compared to non-meditators for both meditations leading to {% include definition.html term="jhana" %} ([Hagerty et al. 2013](/ecstatic-meditation-reward-system/)) and  meditation on the {% include definition.html term="brahmaviharas" %} ([Lutz et al. 2004](/high-amplitude-gamma-synchrony/)) meditations.
 
 This study, however, found that even a short training program in mindfulness meditation (MBSR) has demonstrable effects on brain and immune function.  This suggests that the benefits of meditation are accessible to everyone, not just those who have dedicated their lives to the practice.
 

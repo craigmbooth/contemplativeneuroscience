@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Deconstructing the effects of concentration meditation practice on interference control: The roles of controlled attention and inflammatory activity"
+seo_title: "Concentration Meditation, Attention, and Inflammation"
 date:   2025-03-13
 theme: [mind-wandering, biological-health]
 doi: 10.1016/j.bbi.2020.06.034

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Long-term meditators self-induce high-amplitude gamma synchrony during mental practice"
+seo_title: "Long-Term Meditators Self-Induce High-Amplitude Gamma Waves"
 date:   2024-03-08
 theme: neurological-correlates
 doi: 10.1073/pnas.0407401101
@@ -66,7 +67,7 @@ Synchrony is the coordination of brain activity across different regions.  Synch
 
 ### Different Types of Meditation Are, Well, Different
 
-This study used meditators who were bracticing boundless metta meditation.  Most studies (for example, [Hagerty et al, 2013](/ecstatic-meditation-reward-system), also summarized on this site) use mditation from concentration traditions.
+This study used meditators who were bracticing boundless metta meditation.  Most studies (for example, [Hagerty et al, 2013](/ecstatic-meditation-reward-system/), also summarized on this site) use mditation from concentration traditions.
 
 The authors note that the results of this study are completely incompatible with the results of those other studies, which find primarily increases in alpha and theta brain waves.
 

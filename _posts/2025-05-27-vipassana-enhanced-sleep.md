@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Practitioners of Vipassana Meditation Exhibit Enhanced Slow Wave Sleep and REM Sleep States Across Different Age Groups"
+seo_title: "Vipassana Meditators Show Enhanced Slow-Wave and REM Sleep"
 date: 2025-05-27
 theme: sleep
 doi: 10.1111/j.1479-8425.2009.00416.x

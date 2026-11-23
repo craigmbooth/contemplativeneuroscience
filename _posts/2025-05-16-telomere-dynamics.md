@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Associations of meditation with telomere dynamics: a case–control study in healthy adults"
+seo_title: "Meditation and Telomere Dynamics: A Case–Control Study"
 date:   2025-05-16
 theme: biological-health
 doi: 10.3389/fpsyg.2023.1222863

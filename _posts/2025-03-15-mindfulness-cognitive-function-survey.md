@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials"
+seo_title: "Mindfulness Improves Cognition: Meta-Analysis of 111 RCTs"
 date:   2025-03-15
 theme: mind-wandering
 doi: 10.1080/17437199.2023.2248222

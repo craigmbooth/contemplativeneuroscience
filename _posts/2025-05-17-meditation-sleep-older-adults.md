@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Mindfulness Meditation and Improvement in Sleep Quality and Daytime Impairment Among Older Adults With Sleep Disturbances"
+seo_title: "Mindfulness Meditation Improves Sleep in Older Adults"
 date:   2025-05-17
 theme: sleep
 doi: 10.1001/jamainternmed.2014.8081

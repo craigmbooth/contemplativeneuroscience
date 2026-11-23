@@ -91,6 +91,10 @@
   {% if page.url == "/" %}
     {% include contact_schema.html %}
   {% endif %}
+  {% if page.layout == 'post' %}
+    {% include research_paper_schema.html %}
+  {% endif %}
+  {% include breadcrumb_schema.html %}
 
   <!-- MailerLite Universal -->
   <script>

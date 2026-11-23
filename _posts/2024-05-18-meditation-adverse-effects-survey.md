@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The Varieties of Contemplative Experience: A Survey of Meditation-Related Challenges"
+seo_title: "Varieties of Contemplative Experience: Meditation Challenges"
 date:   2024-05-18
 theme: adverse-effects
 doi: 10.1371/journal.pone.0176239

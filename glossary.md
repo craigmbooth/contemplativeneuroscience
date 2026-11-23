@@ -37,7 +37,7 @@ This glossary provides definitions for technical terms used throughout the site.
             <ul class="related-articles-list">
               {% for post in related_posts %}
                 <li>
-                  <a href="{{ post.url | prepend: site.baseurl }}?ref=glossary-{{ definition.term }}">{{ post.title }}</a>
+                  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </li>
               {% endfor %}
             </ul>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Intensive meditation training, immune cell telomerase activity, and psychological mediators"
+seo_title: "Intensive Meditation Training and Telomerase Activity"
 date:   2024-04-07
 theme: biological-health
 doi:

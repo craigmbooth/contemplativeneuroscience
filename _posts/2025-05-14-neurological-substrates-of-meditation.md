@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Intracranial Substrates of Meditation-Induced Neuromodulation in the Amygdala and Hippocampus"
+seo_title: "Meditation Modulates the Amygdala and Hippocampus"
 date:   2025-05-14
 theme: neurological-correlates
 doi: 10.1073/pnas.2409423122
