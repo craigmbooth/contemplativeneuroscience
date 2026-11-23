@@ -1,0 +1,71 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { getPosts, postHtml, postUrl } from '../lib/content';
+import { sortedDefinitions } from '../lib/glossary';
+
+const definitions = sortedDefinitions();
+const posts = await getPosts();
+
+// A post is related to a term when its rendered body mentions the term key or title.
+const entries = definitions.map((definition) => ({
+  definition,
+  related: posts.filter((post) => {
+    const html = postHtml(post);
+    return html.includes(definition.term) || html.includes(definition.title);
+  }),
+}));
+
+// Google no longer shows FAQ rich results for most sites; kept for parity with the Jekyll site.
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: definitions.map((d) => ({
+    '@type': 'Question',
+    name: d.title,
+    acceptedAnswer: { '@type': 'Answer', text: d.def.replace(/\r?\n/g, '').replaceAll('"', "'") },
+  })),
+};
+---
+<PageLayout
+  title="Glossary of Technical Terms"
+  meta_description="A glossary of terms related to contemplative neuroscience, meditation practices, and neuroscience research methods."
+  schemas={[faqSchema]}
+>
+  <p>This glossary provides definitions for technical terms used throughout the site. Hover over these terms in articles to see their definitions.</p>
+
+  <div class="glossary-list">
+    {entries.map(({ definition, related }) => (
+      <div id={definition.term} class="glossary-item">
+        <h3 class="glossary-term">{definition.title}</h3>
+        <div class="glossary-definition">
+          {definition.def}
+
+          <div class="glossary-meta">
+            {related.length > 0 ? (
+              <>
+                <button class="related-articles-toggle" onclick={`toggleRelatedArticles('${definition.term}')`}>
+                  <span>View {related.length} related article{related.length > 1 ? 's' : ''}</span>
+                  <i class="fa fa-caret-down" id={`caret-${definition.term}`}></i>
+                </button>
+
+                <div class="related-articles" id={`related-articles-${definition.term}`}>
+                  <ul class="related-articles-list">
+                    {related.map((post) => (
+                      <li>
+                        <a href={postUrl(post)}>{post.data.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </>
+            ) : (
+              <span class="mention-count">Not yet mentioned in articles</span>
+            )}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <script is:inline src="/assets/js/glossary.min.js"></script>
+</PageLayout>

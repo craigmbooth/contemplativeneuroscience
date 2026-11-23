@@ -1,0 +1,39 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { getThemes, postsForTheme, themeImage, themeUrl } from '../../lib/content';
+
+const themes = await getThemes();
+const cards = await Promise.all(
+  themes.map(async (theme) => ({ theme, count: (await postsForTheme(theme)).length })),
+);
+---
+<PageLayout title="Research Themes">
+  <p>This collection organizes research papers into thematic categories that represent key areas of investigation in contemplative neuroscience. While research papers are often categorized by methodology or specific results, these themes help highlight broader questions and areas of inquiry that span multiple studies and approaches.</p>
+
+  <p>Each theme represents a significant aspect of how contemplative practices interact with brain function, cognition, or health. By grouping papers this way, we hope to facilitate deeper understanding of the patterns and consistencies emerging across different research efforts.</p>
+
+  <h2 id="available-themes">Available Themes</h2>
+
+  <div class="theme-grid">
+    {cards.map(({ theme, count }) => (
+      <div class="theme-card">
+        <div class="theme-card-image">
+          <a href={themeUrl(theme)}>
+            <img src={themeImage(theme)} alt="">
+          </a>
+        </div>
+        <div class="theme-card-content">
+          <h3><a href={themeUrl(theme)}>{theme.data.title}</a></h3>
+          <p>{theme.data.theme_description.replace(/<[^>]*>/g, '')}</p>
+          <p class="theme-card-count">
+            {count > 0 ? <em>{count} paper{count > 1 ? 's' : ''}</em> : <em>Coming soon</em>}
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <hr />
+
+  <p><em>Note: Papers may appear in multiple themes if they address several key areas of research.</em></p>
+</PageLayout>

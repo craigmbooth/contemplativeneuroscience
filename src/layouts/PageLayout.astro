@@ -1,0 +1,51 @@
+---
+// Standard content page (About, Glossary, All Papers, Research Themes).
+// Also usable as a markdown layout: `layout: ../layouts/PageLayout.astro`.
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Footer from '../components/Footer.astro';
+import { breadcrumbSchema, metaDescription, pageTitle } from '../lib/seo';
+
+export interface Props {
+  title?: string;
+  meta_description?: string;
+  /** Extra JSON-LD for this page. */
+  schemas?: unknown[];
+  /** Present when used as a markdown layout. */
+  frontmatter?: { title: string; meta_description?: string };
+}
+
+const props = Astro.props;
+const title = props.frontmatter?.title ?? props.title ?? '';
+const description = metaDescription({
+  metaDescription: props.frontmatter?.meta_description ?? props.meta_description,
+});
+const path = Astro.url.pathname;
+const schemas = [breadcrumbSchema([{ name: title, path }]), ...(props.schemas ?? [])];
+---
+<BaseLayout
+  title={pageTitle(title)}
+  description={description}
+  path={path}
+  schemas={schemas}
+  bodyItemtype="http://schema.org/Article"
+>
+  <main class="content" role="main">
+    <article class="post">
+      <div class="noarticleimage">
+        <div class="post-meta">
+          <h1 class="post-title">{title}</h1>
+        </div>
+      </div>
+      <br>
+
+      <Breadcrumbs kind="page" title={title} />
+
+      <section class="post-content">
+        <a name="topofpage"></a>
+        <slot />
+      </section>
+    </article>
+  </main>
+  <Footer />
+</BaseLayout>

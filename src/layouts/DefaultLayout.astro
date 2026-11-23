@@ -1,0 +1,22 @@
+---
+// Minimal wrapped layout (home page, 404). Also usable as a markdown layout.
+import BaseLayout from './BaseLayout.astro';
+import { metaDescription, pageTitle } from '../lib/seo';
+
+export interface Props {
+  title?: string;
+  meta_description?: string;
+  schemas?: unknown[];
+  frontmatter?: { title: string; meta_description?: string };
+}
+const props = Astro.props;
+const title = props.frontmatter?.title ?? props.title;
+const description = metaDescription({
+  metaDescription: props.frontmatter?.meta_description ?? props.meta_description,
+});
+// The 404 page is served as /404.html.
+const path = /^\/404\/?$/.test(Astro.url.pathname) ? '/404.html' : Astro.url.pathname;
+---
+<BaseLayout title={pageTitle(title)} description={description} path={path} schemas={props.schemas} wrapped>
+  <slot />
+</BaseLayout>

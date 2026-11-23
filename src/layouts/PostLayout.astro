@@ -1,0 +1,51 @@
+---
+// A paper summary.
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Footer from '../components/Footer.astro';
+import Subscribe from '../components/Subscribe.astro';
+import { articleSchema, breadcrumbSchema, metaDescription, pageTitle, postBreadcrumbs } from '../lib/seo';
+import { markdownify, postUrl, themesForPost, type Post } from '../lib/content';
+
+export interface Props {
+  post: Post;
+}
+const { post } = Astro.props;
+const { data } = post;
+const path = postUrl(post);
+const themes = await themesForPost(post);
+const citation = (await markdownify(data.citation)).replaceAll('<p>', '<p class="citation">');
+const schemas = [await articleSchema(post, path), breadcrumbSchema(await postBreadcrumbs(post, path))];
+---
+<BaseLayout
+  title={pageTitle(data.title, data.seo_title)}
+  description={metaDescription({ metaDescription: data.meta_description, snippet: data.snippet })}
+  path={path}
+  date={data.date}
+  schemas={schemas}
+>
+  <main class="content" role="main">
+    <article class="post">
+      <div class="noarticleimage">
+        <div class="post-meta">
+          <h1 class="post-title">{data.title}</h1>
+        </div>
+      </div>
+      <br>
+
+      <Breadcrumbs kind="post" title={data.title} themes={themes} />
+
+      <section class="post-content">
+        <slot />
+        <Subscribe />
+        {citation && (
+          <>
+            <h3>Citation</h3>
+            <Fragment set:html={citation} />
+          </>
+        )}
+      </section>
+    </article>
+  </main>
+  <Footer />
+</BaseLayout>

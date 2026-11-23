@@ -1,174 +1,91 @@
 # CLAUDE.md - AI Assistant Context
 
-This document contains important context and learnings for AI assistants working on this Jekyll-based contemplative neuroscience website.
+This document contains important context for AI assistants working on this website.
 
 ## Project Overview
 
-This is a Jekyll 3.9.5 static site that collects accessible summaries of peer-reviewed research at the intersection of meditation and brain science.
+An [Astro](https://astro.build) static site (migrated from Jekyll in November 2026) that collects accessible summaries of peer-reviewed research at the intersection of meditation and brain science. It is deployed to GitHub Pages at https://contemplativeneuroscience.com.
 
-## Key Technical Details
+## Commands
 
-### Sass/CSS Architecture
+Requires Node >= 22.23.4 (see `.nvmrc` / `package.json` engines).
 
-1. **Sass files location**: This project uses a non-standard Sass setup:
-   - Main Sass files are in `/css/` directory (not `/_sass/`)
-   - Files have Jekyll front matter (`---`) which means Jekyll processes them directly
-   - However, `@import` statements still look in `/_sass/` directory by default
-
-2. **Important files**:
-   - `/css/main.sass` - Main stylesheet
-   - `/css/tooltip.sass` - Tooltip-specific styles
-   - `/css/pages.sass` - Page-specific styles (imports from _sass/pages/)
-   - `/css/components.sass` - Component styles (imports from _sass/components/)
-   - `/_sass/_variables.sass` - Centralized variables (must be in _sass for imports to work)
-   - `/_sass/pages/_home.sass` - Home page component styles
-   - `/_sass/pages/_theme.sass` - Theme page component styles
-   - `/_sass/pages/_all-papers.sass` - All papers page component styles
-   - `/_sass/pages/_glossary.sass` - Glossary page component styles
-   - `/_sass/pages/_themes-index.sass` - Themes index page component styles
-   - `/_sass/components/_breadcrumbs.sass` - Breadcrumb navigation styles
-   - `/_sass/components/_animations.sass` - Scroll animations and transitions
-   - `/_sass/components/_dynamic-backgrounds.sass` - Dynamic background image handling
-   - `/_sass/mixins/_background.sass` - Background image mixins
-   - `/assets/js/dynamic-backgrounds.js` - JavaScript for setting background images from data attributes
-
-3. **Build commands**: Always use `bundle exec jekyll build` to avoid gem version conflicts
-
-### CSS Variable System
-
-The project uses semantic color variables defined in `/_sass/_variables.sass`:
-- Primary colors: `$color-primary`, `$color-primary-dark`, `$color-primary-light`
-- Text colors: `$color-text-primary`, `$color-text-secondary`, `$color-text-muted`
-- Typography: `$font-family-serif`, `$font-family-sans`
-- Layout: `$content-max-width`, `$tooltip-width`
-- Spacing: Based on `$base-unit` (16px) with multipliers
-
-### Common Issues & Solutions
-
-1. **Import errors**: If you see "File to import not found or unreadable", ensure imported files are in `/_sass/` directory
-2. **Variable naming**: The project previously used inconsistent names (e.g., `$tool-tip-width` vs `$tooltip-width`). All are now standardized
-3. **Color consistency**: Many slightly different color values (#333, #333332, #333333) have been consolidated
-
-### SEO Considerations
-
-- The site has good SEO foundations but needs image optimization (logo.png is 2.8MB!)
-- All pages should have meta_description in front matter
-- Posts use structured data (Article schema) 
-
-### Testing & Validation
-
-Before committing CSS changes:
 ```bash
-cd /home/craig/projects/personal/contemplativeneuroscience
-bundle exec jekyll build
+npm install
+npm run dev      # dev server (Astro 7 runs it in the background; stop with `npx astro dev stop`)
+npm run build    # static build into dist/
+npm run preview  # serve dist/
+npm run check    # type-check .astro/.ts files
 ```
 
-Check for any Sass compilation errors in the output.
+Always run `npm run check` and `npm run build` before committing.
 
-## Content Structure
+## Deployment
 
-- Research papers are in `/_posts/` with specific front matter including DOI, citations, and themes
-- Themes are organized as separate pages in `/themes/`
-- The glossary (`/glossary/`) contains definitions of key terms
+`.github/workflows/deploy.yml` builds and deploys on every push to `master` (GitHub Pages source: "GitHub Actions"). Nothing generated is committed: CSS and minified JS are produced by the build.
 
-## Development Guidelines
+## Layout
 
-1. **DRY Principle**: Always check `/_sass/_variables.sass` before adding new colors or dimensions
-2. **Component styles**: Consider extracting inline styles to separate component files
-3. **Consistency**: Use semantic variable names rather than hardcoded values
-4. **Mobile-first**: The site uses responsive design with breakpoints at 768px, 800px, and 1024px
+```
+src/
+  content/posts/      Paper summaries: YYYY-MM-DD-slug.md -> /slug/ (files starting with _ are ignored)
+  content/themes/     Research themes -> /themes/<theme_key>/
+  content.config.ts   Front-matter schemas for posts and themes
+  data/definitions.yaml  Glossary terms (tooltips + /glossary/)
+  layouts/            BaseLayout (document shell), DefaultLayout, PageLayout, PostLayout, ThemeLayout
+  components/         Head, Header, Footer, Breadcrumbs, Subscribe (+ subscribe.html, third-party MailerLite markup)
+  lib/content.ts      Collection helpers (sorting, URLs, theme lookups, markdownify)
+  lib/seo.ts          <title> logic, meta descriptions, JSON-LD (Article, BreadcrumbList, Person)
+  lib/remark-glossary-terms.js  Renders :term{...} directives as glossary tooltips
+  pages/              Routes; [slug].astro = posts, themes/[theme].astro = themes
+  pages/css/[name].css.ts       Compiles src/styles/<name>.sass -> /css/<name>.css
+  pages/assets/js/[name].js.ts  Serves src/scripts/<name>.js -> /assets/js/<name>.js and <name>.min.js
+  pages/feed.xml.ts, sitemap.xml.ts
+  styles/             Sass (indented syntax), incl. vendored Bourbon
+  scripts/            Browser JS (plain scripts, not modules)
+public/               Copied verbatim: images, favicons, CNAME, robots.txt, llms.txt, print/normalize CSS
+```
 
-## CSS Architecture Evolution
+## Writing Posts
 
-### Completed Refactoring (2025-05-25)
-1. **Variable consolidation** - All colors, spacing, and typography now use semantic variables
-2. **Inline style extraction** - Removed 900+ lines of inline CSS across templates:
-   - Glossary page (120 lines)
-   - Themes index (67 lines)
-   - All-papers page (174 lines)
-   - Dynamic backgrounds via data attributes
-3. **Component-based architecture** - Styles organized into:
-   - `/css/pages.sass` - Page-specific styles
-   - `/css/components.sass` - Reusable components
-   - `/_sass/pages/` - Individual page styles
-   - `/_sass/components/` - Component styles
-   - `/_sass/mixins/` - Shared mixins
+Copy `src/content/posts/_template_post.md`. Glossary tooltips use markdown directives:
 
-### JavaScript Style Management
-- Replaced direct style manipulation with CSS classes
-- Use `.classList.add/remove()` instead of `.style.property`
-- Dynamic backgrounds use `data-bg-image` attributes
+```md
+:term{id="eeg"}                          EEG
+:term{id="mindfulness" case="lower"}     mindfulness
+:term{id="eeg" plural}                   EEGs
+:term[inflammatory]{id="inflammation"}   custom link text
+```
 
-### JavaScript Architecture & Minification
+An unknown term id fails the build. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
 
-1. **JavaScript files organization**:
-   - `/assets/js/bundle.js` - Main application JavaScript (jQuery-based)
-   - `/assets/js/all-papers.js` - Search and sort functionality for papers page
-   - `/assets/js/glossary.js` - Toggle functionality for glossary related articles
-   - All JavaScript previously inline in templates has been extracted to separate files
+Front matter: `title`, `date`, `theme` (one key or a list), `doi`, `meta_description` (≤ ~160 chars), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
 
-2. **Minification setup** (Added 2025-05-27):
-   - **Scripts location**: `/scripts/minify-js.sh` - Bash script for minifying JS files
-   - **Output**: Creates `.min.js` versions of all JavaScript files
-   - **Tool**: Uses `uglifyjs` for minification (install with `npm install -g uglify-js`)
-   - **Development workflow**: Use `/scripts/serve-with-minify.sh` for auto-minification during development
-   
-3. **Deployment considerations**:
-   - Site is deployed on GitHub Pages, so no custom Jekyll plugins allowed
-   - Minification must be done locally before committing
-   - Minified files should be committed to the repository
-   - Reference minified versions in production
+Front matter is parsed by a strict YAML parser: continuation lines of a multi-line quoted string must be indented.
 
-4. **Running minification**:
-   ```bash
-   # One-time minification
-   ./scripts/minify-js.sh
-   
-   # Development with auto-minification
-   ./scripts/serve-with-minify.sh
-   ```
+## URL Stability
 
-5. **File watching requirements**:
-   - macOS: `brew install fswatch`
-   - Linux: `sudo apt-get install inotify-tools`
+Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.js` and `*.min.js`, `/feed.xml`, `/sitemap.xml`, all images). Keep it that way:
+- `trailingSlash: 'always'` + `build.format: 'directory'` give `/slug/` URLs like Jekyll's `/:title/`.
+- The sitemap is a single `/sitemap.xml` (robots.txt and Search Console point at it); do not swap in `@astrojs/sitemap`, which emits a sitemap index at a different URL.
 
-## Future Improvements Identified
+## Styles
 
-From the SEO and CSS audits, priority improvements include:
-1. ✅ Variable consolidation (completed)
-2. ✅ Extract inline styles from templates (completed)
-3. Image optimization (especially logo.png - currently 2.8MB!)
-4. Implement consistent mixins for common patterns
-5. Add missing meta tags and schema markup
-6. Page title truncation to 70 characters (partially implemented)
+- Sass indented syntax (`.sass`), entry points `main`, `tooltip`, `pages`, `components` in `src/styles/`; partials in `src/styles/{components,pages,mixins}`.
+- Semantic variables live in `src/styles/_variables.sass` — check there before adding colors or dimensions.
+- Dart Sass deprecation warnings (`@import`, Bourbon's old syntax) are silenced in `pages/css/[name].css.ts`; Dart Sass 3 will require migrating to `@use` and dropping Bourbon.
+- Breakpoints: 768px, 800px, 1024px.
 
-## Common Patterns & Best Practices
+## Gotchas
 
-### CSS Refactoring Approach
-1. **Extract inline styles to components** - Create semantic component files rather than utility classes
-2. **Use data attributes for dynamic values** - Replace `style="background-image: url()"` with `data-bg-image`
-3. **State classes over style manipulation** - Use `.visible`, `.expanded`, `.active` instead of display/transform styles
-4. **Consistent variable usage** - Always check `_variables.sass` before adding new values
+- Astro's HTML compression removes whitespace between elements. Where inline elements need a gap (nav links, "Themes:" label), emit `{' '}` explicitly.
+- Smart typography matches kramdown: `--` → en dash, `---` → em dash (`SMARTYPANTS_OPTIONS`).
+- Breadcrumbs: the visible trail is chosen client-side from `document.referrer` (`src/scripts/breadcrumbs.js`); the only structured breadcrumb data is the JSON-LD BreadcrumbList.
+- Use state classes (`.visible`, `.expanded`, `.active`) rather than inline style manipulation in JS; dynamic backgrounds use `data-bg-image` attributes.
+- `subscribe.html` is ~700 lines of third-party MailerLite CSS/markup — handle with care.
 
-### File Organization
-- Page-specific styles go in `/_sass/pages/`
-- Reusable components go in `/_sass/components/`
-- Mixins go in `/_sass/mixins/`
-- Each major CSS file in `/css/` should only contain imports
+## Known Improvement Opportunities
 
-### Common Pitfalls to Avoid
-1. **Don't put variables in `/css/`** - They must be in `/_sass/` for imports to work
-2. **Check for duplicate variable definitions** - Especially in tooltip.sass and main.sass
-3. **Use exact string matching for edits** - Whitespace and newlines matter in multiline replacements
-4. **Test builds frequently** - Sass compilation errors aren't always obvious
-
-## Notes for AI Assistants
-
-- When asked about CSS/Sass issues, always check the actual file structure first - don't assume standard Jekyll conventions
-- The site uses Sass indented syntax (.sass) not SCSS (.scss)
-- Be careful with variable replacements - use exact string matching or context-aware replacements
-- Always test builds after CSS changes to catch compilation errors early
-- When refactoring inline styles, check for JavaScript that may depend on them
-- The subscribe.html file contains 590+ lines of third-party CSS - handle with care
-
-Last updated: 2025-05-27
+- Theme images in `public/assets/images/themes/` are 1.2–1.7 MB each.
+- Per-paper `og:image` / `summary_large_image` cards; `og:type` should be `article` on posts.
+- Many `meta_description`s exceed ~160 characters.
