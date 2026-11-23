@@ -4,7 +4,7 @@ seo_title: "Compassion Training Alters Altruism and Neural Responses"
 date: 2025-07-08
 theme:
 doi: 10.1177/0956797612469537
-meta_description: "This study reveals that compassion meditation can boost altruistic behavior and alter brain activity, demonstrating that compassion is a trainable skill with real-world social benefits."
+meta_description: "Two weeks of compassion training increased altruistic giving and changed brain responses to suffering, suggesting compassion is a trainable skill."
 snippet: "Two weeks of compassion meditation led to increased altruistic behavior and measurable changes in brain function, showing that compassion can be trained just like any other skill."
 citation: "Weng, H. Y., Fox, A. S., Shackman, A. J., Stodola, D. E., Caldwell, J. Z. K., Olson, M. C., Rogers, G. M., & Davidson, R. J. (2013). Compassion Training Alters Altruism and Neural Responses to Suffering. Psychological Science, 24(7), 1171–1180. [10.1177/0956797612469537](https://doi.org/10.1177/0956797612469537)"
 

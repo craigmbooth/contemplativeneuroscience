@@ -4,7 +4,7 @@ seo_title: "Mindfulness Improves Cognition: Meta-Analysis of 111 RCTs"
 date:   2025-03-15
 theme: mind-wandering
 doi: 10.1080/17437199.2023.2248222
-meta_description: "Most comprehensive meta-analysis of mindfulness effects on cognition (111 RCTs, 9,500+ participants). Results show consistent small-to-moderate improvements in attention, memory, and cognitive flexibility, especially for accuracy over speed."
+meta_description: "Meta-analysis of 111 RCTs (9,500+ people): mindfulness training brings small-to-moderate gains in attention, memory, and cognitive flexibility."
 snippet: "A meta-analysis of 111 studies shows that mindfulness training improves attention, memory, and cognitive flexibility, with the strongest benefits for accuracy-based tasks and those experiencing mental health challenges."
 citation: "Zainal, N. H., & Newman, M. G. (2023). Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials. In Health Psychology Review (Vol. 18, Issue 2, pp. 369–395). Informa UK Limited. [10.1080/17437199.2023.2248222](https://doi.org/10.1080/17437199.2023.2248222)
   "

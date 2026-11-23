@@ -4,7 +4,7 @@ seo_title: "Mindfulness Meditation Alters Brain and Immune Function"
 date:   2024-03-09
 theme: biological-health
 doi: 10.1097/01.psy.0000077505.67574.e3
-meta_description: "Research by Davidson and Kabat-Zinn shows 8-week MBSR meditation course enhances immune function and positive brain activity. Novice meditators developed stronger flu vaccine response and increased left-sided anterior brain activation."
+meta_description: "An 8-week MBSR course shifted brain activity toward positive emotion and strengthened the flu vaccine response in new meditators (Davidson et al., 2003)."
 snippet: "This study takes a group of untrained meditators and puts them through an 8-week course in Mindfulness-based Stress Reduction (MBSR).  The study finds that the meditation group have brain activity implying a more positive emotional frame.  Furthermore, the meditation group had a significantly stronger immune response to a flu vaccine than the non-meditators.  The authors conclude that a short training program in mindfulness meditation has demonstrable effects on both brain and immune function."
 citation: Davidson, R. J., Kabat-Zinn, J., Schumacher, J., Rosenkranz, M., Muller, D., Santorelli, S. F., Urbanowski, F., Harrington, A., Bonus, K., & Sheridan, J. F. (2003). Alterations in Brain and Immune Function Produced by Mindfulness Meditation. In *Psychosomatic Medicine* (Vol. 65, Issue 4, pp. 564–570). Ovid Technologies (Wolters Kluwer Health). [10.1097/01.psy.0000077505.67574.e3](https://doi.org/10.1097/01.psy.0000077505.67574.e3)
 ---

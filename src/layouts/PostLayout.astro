@@ -5,7 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Footer from '../components/Footer.astro';
 import Subscribe from '../components/Subscribe.astro';
 import { articleSchema, breadcrumbSchema, metaDescription, pageTitle, postBreadcrumbs, postImage, type ShareMeta } from '../lib/seo';
-import { markdownify, postUrl, themesForPost, type Post } from '../lib/content';
+import { markdownify, postUrl, relatedPosts, themesForPost, themeUrl, type Post } from '../lib/content';
 
 export interface Props {
   post: Post;
@@ -14,6 +14,7 @@ const { post } = Astro.props;
 const { data } = post;
 const path = postUrl(post);
 const themes = await themesForPost(post);
+const related = await relatedPosts(post);
 const citation = (await markdownify(data.citation)).replaceAll('<p>', '<p class="citation">');
 const image = postImage(post);
 const share: ShareMeta = {
@@ -49,6 +50,24 @@ const schemas = [await articleSchema(post, path), breadcrumbSchema(await postBre
             <h3>Citation</h3>
             <Fragment set:html={citation} />
           </>
+        )}
+        {related.length > 0 && (
+          <nav class="related-papers" aria-labelledby="related-papers-heading">
+            <h2 id="related-papers-heading">Related Papers</h2>
+            <ul>
+              {related.map((p) => (
+                <li><a href={postUrl(p)}>{p.data.title}</a></li>
+              ))}
+            </ul>
+            <p class="related-papers-more">
+              {themes.map((theme, i) => (
+                <>
+                  {i > 0 && ' · '}
+                  <a href={themeUrl(theme)}>All papers on {theme.data.title}</a>
+                </>
+              ))}
+            </p>
+          </nav>
         )}
       </section>
     </article>

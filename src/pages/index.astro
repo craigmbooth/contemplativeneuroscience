@@ -1,10 +1,14 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro';
 import { contactSchema } from '../lib/seo';
+import { getPosts, postUrl } from '../lib/content';
+
+const posts = await getPosts();
+const recent = posts.slice(0, 5);
 ---
 <DefaultLayout
   title="Home"
-  meta_description="Contemplative Neuroscience is a curated collection of scientific research on meditation and mindfulness, exploring how these practices affect the brain. Find paper summaries on topics from jhana meditation to neuroplasticity."
+  meta_description="Accessible summaries of peer-reviewed research on meditation and the brain, from jhana and gamma waves to sleep, immune function, and mind wandering."
   schemas={[contactSchema()]}
 >
   <main class="content" role="main">
@@ -32,5 +36,18 @@ import { contactSchema } from '../lib/seo';
         <a href="/glossary/" class="card-button">View Glossary</a>
       </div>
     </div>
+
+    <section class="recent-papers" aria-labelledby="recent-papers-heading">
+      <h2 id="recent-papers-heading">Recent Papers</h2>
+      <ul class="post-list">
+        {recent.map((post) => (
+          <li>
+            <h3><a class="post-link" href={postUrl(post)}>{post.data.title}</a></h3>
+            {post.data.snippet && <p>{post.data.snippet}</p>}
+          </li>
+        ))}
+      </ul>
+      <p><a href="/all-papers/">Browse all {posts.length} papers</a></p>
+    </section>
   </main>
 </DefaultLayout>

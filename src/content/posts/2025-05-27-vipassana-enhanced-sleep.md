@@ -4,7 +4,7 @@ seo_title: "Vipassana Meditators Show Enhanced Slow-Wave and REM Sleep"
 date: 2025-05-27
 theme: sleep
 doi: 10.1111/j.1479-8425.2009.00416.x
-meta_description: "A study of long-term Vipassana meditators reveals that meditation may preserve deep and REM sleep across aging, enhancing sleep architecture and countering age-related decline."
+meta_description: "Long-term Vipassana meditators had more slow wave and REM sleep than non-meditators across age groups, countering age-related sleep decline."
 snippet: "Can meditation protect against the decline in sleep quality that comes with aging? This study compared long-term Vipassana meditators with non-meditators and found that meditators had significantly more slow wave and REM sleep—even into their 50s. With more restorative sleep cycles and better sleep structure, this research highlights meditation’s potential to support healthy sleep across the lifespan."
 citation: "PATTANASHETTY, R., SATHIAMMA, S., TALAKKAD, S., NITYANANDA, P., TRICHUR, R., & KUTTY, B. M. (2010). Practitioners of vipassana meditation exhibit enhanced slow wave sleep and REM sleep states across different age groups. Sleep and Biological Rhythms, 8(1), 34–41. [10.1111/j.1479-8425.2009.00416.x](https://doi.org/10.1111/j.1479-8425.2009.00416.x)"
 

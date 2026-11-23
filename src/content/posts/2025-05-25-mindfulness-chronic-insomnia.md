@@ -4,7 +4,7 @@ seo_title: "Mindfulness Meditation for Chronic Insomnia: An RCT"
 date: 2025-05-25
 theme: sleep
 doi: 10.5665/sleep.4010
-meta_description: "A randomized controlled trial shows that mindfulness meditation significantly reduces insomnia severity and nighttime wakefulness—especially when combined with behavioral sleep strategies."
+meta_description: "In a randomized trial, MBSR and mindfulness-based therapy for insomnia (MBTI) cut insomnia severity and time awake at night, with MBTI strongest."
 snippet: "Can mindfulness meditation help you sleep better? This randomized controlled trial found that both MBSR and a tailored mindfulness-based therapy for insomnia (MBTI) led to significant reductions in total wake time and insomnia severity. MBTI, which integrates behavioral sleep techniques, showed the strongest and most lasting improvements—offering a powerful, non-pharmacological option for those struggling with chronic insomnia."
 citation: "Ong, J. C., Manber, R., Segal, Z., Xia, Y., Shapiro, S., & Wyatt, J. K. (2014). A Randomized Controlled Trial of Mindfulness Meditation for Chronic Insomnia. Sleep, 37(9), 1553–1563. [10.5665/sleep.4010](https://doi.org/10.5665/sleep.4010)"
 

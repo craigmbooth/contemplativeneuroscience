@@ -34,6 +34,29 @@ export async function postsForTheme(theme: Theme): Promise<Post[]> {
   return posts.filter((p) => p.data.theme.includes(theme.data.theme_key));
 }
 
+/**
+ * Other papers to link from a post: those sharing one of its themes (any paper
+ * if it has no theme), taking the ones closest in date first (newest first on a tie). Linking neighbours rather
+ * than simply the newest papers spreads internal links evenly across the archive.
+ * Returned newest first.
+ */
+export async function relatedPosts(post: Post, limit = 4): Promise<Post[]> {
+  const sharing = (await getPosts()).filter(
+    (p) =>
+      p.id === post.id ||
+      post.data.theme.length === 0 ||
+      p.data.theme.some((t) => post.data.theme.includes(t)),
+  );
+  const at = sharing.findIndex((p) => p.id === post.id);
+  return sharing
+    .map((p, i) => ({ p, i, distance: Math.abs(i - at) }))
+    .filter(({ i }) => i !== at)
+    .sort((a, b) => a.distance - b.distance || a.i - b.i)
+    .slice(0, limit)
+    .sort((a, b) => a.i - b.i)
+    .map(({ p }) => p);
+}
+
 /** Rendered HTML of a post body (Jekyll's post.content). */
 export const postHtml = (post: Post) => post.rendered?.html ?? '';
 

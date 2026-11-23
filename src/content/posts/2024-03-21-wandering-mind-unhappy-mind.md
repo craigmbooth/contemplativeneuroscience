@@ -3,7 +3,7 @@ title:  "A Wandering Mind Is an Unhappy Mind"
 date:   2024-03-21
 theme: mind-wandering
 doi: 10.1126/science.1192439
-meta_description: "Groundbreaking study using smartphone experience sampling reveals mind-wandering occurs in 47% of waking time and consistently predicts lower happiness levels. What you're thinking about impacts happiness more than what you're doing."
+meta_description: "A smartphone study of thousands of people found minds wander 47% of the time, and wandering predicts lower happiness whatever people are doing."
 snippet: "This paper investigates the emotional impact of mind wandering, utilizing a phone app to collect real-time data from thousands of participants worldwide, revealing that mind-wandering occurs frequently across various activities and is associated with decreased happiness. The findings suggest that the content of one's thoughts has a more significant influence on happiness than the nature of the activity being performed, highlighting the cognitive and emotional costs of not living in the moment."
 citation: "Killingsworth, M. A., & Gilbert, D. T. (2010). A Wandering Mind Is an Unhappy Mind. In *Science* (Vol. 330, Issue 6006, pp. 932–932). American Association for the Advancement of Science (AAAS). [10.1126/science.1192439](https://doi.org/10.1126/science.1192439)"
 ---

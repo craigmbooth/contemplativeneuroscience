@@ -4,7 +4,7 @@ seo_title: "Intensive Meditation Training and Telomerase Activity"
 date:   2024-04-07
 theme: biological-health
 doi:
-meta_description: "Three-month meditation retreat significantly increased telomerase activity - a biomarker linked to cellular aging and longevity. Study reveals meditation's psychological benefits (purpose, control) directly correlated with biological changes that may slow cellular aging."
+meta_description: "A three-month meditation retreat raised immune-cell telomerase, a marker of cellular aging, with gains tied to purpose in life and perceived control."
 snippet: "Meditation can increase telomerase activity, which is associated with decreased health risks and diseases. This study found that participants in a three-month intensive meditation retreat showed increased telomerase activity, along with improvements in purpose in life, perceived control, and decreased neuroticism. The changes in telomerase activity were correlated with changes in psychological measures, suggesting that meditation can influence telomere length through psychological factors."
 citation: Jacobs, T. L., Epel, E. S., Lin, J., Blackburn, E. H., Wolkowitz, O. M., Bridwell, D. A., Zanesco, A. P., Aichele, S. R., Sahdra, B. K., MacLean, K. A., King, B. G., Shaver, P. R., Rosenberg, E. L., Ferrer, E., Wallace, B. A., & Saron, C. D. (2011). Intensive meditation training, immune cell telomerase activity, and psychological mediators. In *Psychoneuroendocrinology* (Vol. 36, Issue 5, pp. 664–681). Elsevier BV. [10.1016/j.psyneuen.2010.09.010](https://doi.org/10.1016/j.psyneuen.2010.09.010)
 

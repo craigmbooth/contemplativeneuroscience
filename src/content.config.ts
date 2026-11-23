@@ -4,6 +4,12 @@ import { z } from 'astro/zod';
 
 // Front matter keys may be present but empty (e.g. `doi:`), as Jekyll allowed.
 const optionalString = z.string().nullish().transform((v) => v || undefined);
+// Search results show ~155 characters; longer descriptions get cut off.
+const metaDescription = z
+  .string()
+  .max(160, 'meta_description should be at most ~155 characters (it is cut off in search results)')
+  .nullish()
+  .transform((v) => v || undefined);
 const optionalDate = z.coerce.date().nullish().transform((v) => v ?? undefined);
 
 // Paper summaries. Files keep Jekyll's YYYY-MM-DD-slug.md naming; the URL is
@@ -27,7 +33,7 @@ const posts = defineCollection({
       .nullish()
       .transform((t) => (t == null ? [] : Array.isArray(t) ? t : [t])),
     doi: optionalString,
-    meta_description: optionalString,
+    meta_description: metaDescription,
     snippet: optionalString,
     /** Markdown citation shown at the end of the post. */
     citation: optionalString,
@@ -43,7 +49,7 @@ const themes = defineCollection({
     title: z.string(),
     theme_key: z.string(),
     image_format: optionalString,
-    meta_description: optionalString,
+    meta_description: metaDescription,
     theme_description: z.string(),
   }),
 });

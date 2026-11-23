@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/PageLayout.astro
 title: What is This Site?
-meta_description: "About Contemplative Neuroscience, a site dedicated to translating scientific research on meditation into accessible summaries. Created by scientist and meditator Craig Booth to bridge contemplative practice and neuroscience."
+meta_description: "About Contemplative Neuroscience: accessible summaries of peer-reviewed meditation research, written by scientist and meditator Craig Booth."
 ---
 
 This site is my personal exploration of the science behind contemplative practices.

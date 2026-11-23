@@ -7,19 +7,30 @@ import { postHtml, themesForPost, xmlSchemaDate, type Post, type Theme } from '.
 /** Liquid's `truncate`: at most `length` characters including the ellipsis. */
 export const truncate = (s: string, length: number) =>
   s.length > length ? s.slice(0, length - 3) + '...' : s;
+/** Search results show about this many characters of a description. */
+export const META_DESCRIPTION_MAX = 155;
+
+/** Shorten to at most `length` characters at a word boundary, ending in an ellipsis. */
+export function truncateWords(s: string, length: number): string {
+  if (s.length <= length) return s;
+  const cut = s.slice(0, length - 1);
+  const space = cut.lastIndexOf(' ');
+  return (space > length / 2 ? cut.slice(0, space) : cut).replace(/[\s,;:.\u2014\u2013-]+$/, '') + '\u2026';
+}
 const stripHtml = (s: string) => s.replace(/<[^>]*>/g, '');
 const stripNewlines = (s: string) => s.replace(/\r?\n/g, '');
 
 /**
  * <title> text. Uses seo_title when present, otherwise title. The site name is
- * appended only when the result stays within 65 characters, so long titles are
+ * appended only when the result stays within 60 characters (about what search
+ * results show), so long titles are
  * never cut mid-word. Long paper titles should set a concise seo_title.
  */
 export function pageTitle(title?: string, seoTitle?: string): string {
   const base = seoTitle || title;
   if (!base) return site.title;
   const full = `${base} | ${site.title}`;
-  return full.length <= 65 ? full : base;
+  return full.length <= 60 ? full : base;
 }
 
 /** Meta description, falling back to the snippet, theme description, then site description. */
@@ -30,7 +41,7 @@ export function metaDescription(opts: {
 }): string {
   if (opts.metaDescription) return stripNewlines(stripHtml(opts.metaDescription));
   const fallback = opts.snippet ?? opts.themeDescription;
-  if (fallback) return truncate(stripNewlines(stripHtml(fallback)), 200);
+  if (fallback) return truncateWords(stripNewlines(stripHtml(fallback)), META_DESCRIPTION_MAX);
   return site.description;
 }
 

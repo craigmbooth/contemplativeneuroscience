@@ -4,7 +4,7 @@ seo_title: "Meditation and Telomere Dynamics: A Case–Control Study"
 date:   2025-05-16
 theme: biological-health
 doi: 10.3389/fpsyg.2023.1222863
-meta_description: "Long-term meditation is associated with longer telomeres, increased telomerase gene activity, and reduced DNA methylation—highlighting its potential to slow cellular aging through deep biological pathways."
+meta_description: "Long-term meditators had longer telomeres, more activity in telomere-maintenance genes, and less DNA methylation than non-meditators."
 snippet: "Can meditation slow aging at the cellular level? This study compared long-term meditators with non-meditators and found that those with a regular practice had significantly longer telomeres (the protective caps on chromosomes) as well as higher activity of the genes that help maintain them. The more years of meditation, the stronger the effect. These results suggest that consistent meditation may influence how we age by reaching all the way down to our DNA."
 citation: "Dasanayaka, N. N., Sirisena, N. D., & Samaranayake, N. (2023). Associations of meditation with telomere dynamics: a case–control study in healthy adults. Frontiers in Psychology, 14. [10.3389/fpsyg.2023.1222863](https://doi.org/10.3389/fpsyg.2023.1222863)"
 
