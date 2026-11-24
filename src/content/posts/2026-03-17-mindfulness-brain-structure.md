@@ -2,7 +2,7 @@
 title: "Eight Weeks of Mindfulness Training Produced No Measurable Changes in Brain Structure"
 paper_title: "Absence of structural brain changes from mindfulness-based stress reduction: Two combined randomized controlled trials"
 seo_title: "No Brain Structure Changes After Eight Weeks of MBSR"
-date: 2026-11-23
+date: 2026-03-17
 theme: neurological-correlates
 doi: 10.1126/sciadv.abk3316
 paper:  # the summarized paper, for structured data; must agree with citation
@@ -26,7 +26,9 @@ study:
 
 ## Background Information
 
-Can eight weeks of meditation change the physical structure of your brain? For more than a decade, many people have assumed so. Small studies from the early 2010s reported that people who completed :term{id="mbsr"}, the eight-week course originally developed by Jon Kabat-Zinn, showed more :term[gray matter]{id="gray_matter"} (the brain tissue that holds most nerve cell bodies) in regions such as the hippocampus and the posterior cingulate cortex, a hub of the default mode network (:term{id="dmn"}). Those studies have been cited more than 3,200 times.
+Can eight weeks of meditation change the physical structure of your brain? For more than a decade, many people have assumed so. Small studies from the early 2010s reported that people who completed :term{id="mbsr"}, the eight-week course originally developed by Jon Kabat-Zinn, showed more :term[gray matter]{id="gray_matter"} (the brain tissue that holds most nerve cell bodies) in regions such as the hippocampus and the posterior cingulate cortex, a hub of the default mode network (:term{id="dmn"}). Those studies have been cited more than 3,200 times. As the authors put it:
+
+> Findings from a few small studies have permeated popular media with the notion that a few weeks of training in mindfulness-based stress reduction (MBSR) can lead to measurable changes in brain structure
 
 The idea was plausible. :term{id="neuroplasticity"}, the brain's capacity to change with experience, is well documented, and aerobic exercise and balance training have both been linked to measurable structural change.
 
@@ -54,7 +56,7 @@ Compared with either the active control or the waitlist, MBSR produced no signif
 
 The differences weren't just statistically insignificant; they were tiny. For the left hippocampus, one of the regions highlighted in earlier work, the :term{id="effect_size" case="lower"} for MBSR versus the active control was a partial η² of 0.01. That means group membership accounted for only about 1% of the variation in change. With more than three times as many MBSR participants as the earlier studies, the authors concluded:
 
-> "MBSR does not differentially affect brain structure."
+> MBSR does not differentially affect brain structure.
 
 That conclusion is about eight weeks of MBSR in healthy adults. It doesn't speak directly to longer or more intensive practice.
 
@@ -76,9 +78,13 @@ However, the effect was small and didn't survive the team's checks with alternat
 
 ### Who Signs Up May Matter
 
-The earlier studies recruited people who had chosen to take an MBSR course, and some selected participants for high stress. This study advertised a study of "health and well-being," assigned people at random, and ended up with unusually healthy volunteers who had very low baseline anxiety. They may simply have had less room to improve.
+The earlier studies recruited people who had chosen to take an MBSR course, and some selected participants for high stress. The authors suggest this gave those participants more to gain:
 
-The authors acknowledge a trade-off: tighter experimental control can cost some realism, and the act of choosing to enroll may itself be linked to greater benefit. They also note that MBSR mixes many practices, so any structural change might be spread out and hard to detect. Longer training, or training focused on a single practice, may be needed to produce measurable change.
+> The participants in prior studies may have had more "room for improvement," because they sought out a course for stress reduction
+
+This study, by contrast, advertised a study of "health and well-being," assigned people at random, and ended up with unusually healthy volunteers who had very low baseline anxiety.
+
+The authors acknowledge a trade-off: tighter experimental control can cost some realism, and the act of choosing to enroll may itself be linked to greater benefit. They also note that MBSR mixes many practices, so any structural change might be spread out and hard to detect. Longer training, or training focused on a single practice, may be needed to produce measurable change. They point to a well-powered study with training about 50% longer than MBSR that did find cortical thickening, with different practices linked to different regions ([Valk et al., 2017](/social-brain-plasticity/)).
 
 ## Final Reflection
 

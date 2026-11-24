@@ -113,3 +113,15 @@
   title: PSQI
   def: "The Pittsburgh Sleep Quality Index (PSQI) is a widely used questionnaire about how well a person has slept over the past month. It covers time to fall asleep, sleep duration, disturbances and daytime effects, and combines them into a score from 0 to 21, where higher means worse sleep. Scores above 5 are commonly taken to indicate poor sleep."
   wiki: Pittsburgh_Sleep_Quality_Index
+- term: cortical_thickness
+  title: Cortical Thickness
+  def: "Cortical thickness is the depth of the cerebral cortex, the brain's folded outer layer of gray matter. It is estimated from MRI scans as the distance between the cortex's outer surface and the white matter underneath. Researchers track it over time to look for training-related change, though it can't show what changed at the level of cells."
+  wiki: Cortical_thickness
+- term: theory_of_mind
+  title: Theory of Mind
+  def: "Theory of mind is the ability to work out what another person thinks, believes or intends. It is also called mentalizing or cognitive perspective-taking. It is usually distinguished from empathy, which involves sharing another person's feelings rather than reasoning about their thoughts."
+  wiki: Theory_of_mind
+- term: insula
+  title: Insula
+  def: "The insula is a region of cortex folded deep inside each side of the brain. It helps represent the body's internal state (interoception) and is involved in emotion, empathy and compassion. Its front part, the anterior insula, comes up often in meditation research."
+  wiki: Insular_cortex
