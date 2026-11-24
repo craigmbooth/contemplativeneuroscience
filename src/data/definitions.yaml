@@ -157,3 +157,11 @@
   title: Mediation Analysis
   def: "Mediation analysis is a statistical method that tests whether a third variable helps explain the link between a cause and an effect, for example whether a brain change helps explain why a training program altered a health marker. It estimates how much of the overall effect runs through that variable. A significant result is consistent with a causal pathway but does not prove one on its own."
   wiki: Mediation_(statistics)
+- term: nrem_sleep
+  title: NREM Sleep
+  def: "Non-rapid eye movement (NREM) sleep makes up most of a night's sleep. It runs from light sleep (stages N1 and N2) to deep, slow-wave sleep (N3), alternating with REM sleep in cycles of about 90 minutes. During NREM sleep, brain activity is dominated by slow waves and the brain responds much less to the outside world."
+  wiki: Non-rapid_eye_movement_sleep
+- term: polysomnography
+  title: Polysomnography
+  def: "Polysomnography is an overnight sleep study, usually done in a sleep lab. Sensors record brain activity (EEG), eye movements, muscle activity, heart rhythm and breathing, so that each stretch of the night can be scored as wake, light sleep, deep sleep or REM sleep, and sleep disorders such as apnea can be detected."
+  wiki: Polysomnography
