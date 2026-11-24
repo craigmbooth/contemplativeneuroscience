@@ -141,3 +141,19 @@
   title: Neurophenomenology
   def: "Neurophenomenology is a research approach that pairs detailed first-person reports of experience with measurements of brain activity, using each to help interpret the other. Proposed by neuroscientist Francisco Varela in the 1990s, it depends on participants who can observe and describe their experience precisely, which makes experienced meditators natural collaborators."
   wiki: Neurophenomenology
+- term: il_6
+  title: IL-6
+  def: "Interleukin-6 (IL-6) is a signaling protein (a cytokine) that immune cells release to coordinate inflammation. It is measured from a blood sample, usually in picograms per milliliter. Persistently elevated IL-6 is associated with chronic stress, aging and a higher risk of cardiovascular disease, which makes it a common marker in studies of whether meditation affects health."
+  wiki: Interleukin_6
+- term: pcc
+  title: PCC
+  def: "The posterior cingulate cortex (PCC) is a region toward the back of the brain's midline. It is a central hub of the default mode network and tends to be active during self-related thought and mind-wandering. Many meditation studies track PCC activity or connectivity as a window onto the DMN."
+  wiki: Posterior_cingulate_cortex
+- term: dlpfc
+  title: dlPFC
+  def: "The dorsolateral prefrontal cortex (dlPFC) is a region on the upper outer sides of the frontal lobes. It is a core part of the brain's executive control network, supporting working memory, directing attention and regulating emotion. Stronger dlPFC activity and connectivity have been associated with lower pain, negative emotion and stress."
+  wiki: Dorsolateral_prefrontal_cortex
+- term: mediation_analysis
+  title: Mediation Analysis
+  def: "Mediation analysis is a statistical method that tests whether a third variable helps explain the link between a cause and an effect, for example whether a brain change helps explain why a training program altered a health marker. It estimates how much of the overall effect runs through that variable. A significant result is consistent with a causal pathway but does not prove one on its own."
+  wiki: Mediation_(statistics)
