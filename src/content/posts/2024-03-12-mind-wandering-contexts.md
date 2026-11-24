@@ -53,7 +53,7 @@ The first result is that the rate of TUTs in the lab predicts the rate of TUTs o
 
 >  the propensity to mind wander is a stable cognitive characteristic, representing an individual difference that is reliable across time, activities, and contexts
 
-![Graph showing the rate of TUTs in the lab test (x-axis) against the percentage of time the subject reported TUTs in the field (y-axis).  There exists a significant positive correlation between these two quantities, indicating that mind-wandering is a stable characteristic of a person, and that people who mind-wander more (less) in one context likely also mind-wnder more (less) in others.](/assets/article_images/mind-wandering-contexts/lab_vs_life.png)
+![Graph showing the rate of TUTs in the lab test (x-axis) against the percentage of time the subject reported TUTs in the field (y-axis).  There exists a significant positive correlation between these two quantities, indicating that mind-wandering is a stable characteristic of a person, and that people who mind-wander more (less) in one context likely also mind-wander more (less) in others.](/assets/article_images/mind-wandering-contexts/lab_vs_life.png)
 
 In every-day life, the authors also show that the propensity to mind wander is dependent on the context of the activity.  For example, mind wandering is more likely to occur when the activity is boring, stressful, or when there is a lot going on around the subject.  On the other hand, mind wandering is less likely to occur when the subject is good at the activity, likes the activity, or when the activity is important.
 
@@ -73,6 +73,6 @@ The authors noted that
 
 This study shows that mind wandering is a stable characteristic of a person, and also that the performance of a person at a task is related to the rate of mind wandering.
 
-There is good evidence that mind wandering is related to activity in the default mode network (:term{id="dmn"}), and also that meditation can cause a reducton the activity of the DMN. These observations taken together are suggestive that -- through its effect on the DMN -- meditation could be used to reduce mind wandering and improve task performance.
+There is good evidence that mind wandering is related to activity in the default mode network (:term{id="dmn"}), and also that meditation can cause a reduction in the activity of the DMN. These observations taken together are suggestive that -- through its effect on the DMN -- meditation could be used to reduce mind wandering and improve task performance.
 
 Later research by [Garrison et al. (2015)](/reduced-dmn-active-task/) demonstrated that experienced meditators show greater reductions in default mode network activity—a neural system associated with mind-wandering—during meditation compared to active cognitive tasks. These findings on the prevalence and stability of mind-wandering complement work by [Killingsworth & Gilbert (2010)](/wandering-mind-unhappy-mind/), which revealed the negative emotional consequences of a wandering mind in daily life. Additionally, meta-analytic work by [Zainal & Newman (2023)](/mindfulness-cognitive-function-survey/) suggests mindfulness training may specifically enhance attention control, which could potentially reduce the frequency or impact of mind-wandering episodes.

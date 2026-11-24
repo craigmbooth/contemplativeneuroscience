@@ -40,6 +40,7 @@ src/
   lib/seo.ts          <title> logic, meta descriptions, JSON-LD (Article, BreadcrumbList, Person)
   lib/remark-glossary-terms.js  Renders :term{...} directives as glossary tooltips
   lib/rehype-image-dimensions.js  Adds width/height (+ lazy loading) to markdown images
+  lib/rehype-figures.js  Wraps images with alt text in <figure> with the alt as <figcaption>
   lib/images.js       publicImageSize(): pixel size of a file in public/
   pages/              Routes; [slug].astro = posts, themes/[theme].astro = themes
   pages/css/[name].css.ts       Compiles src/styles/<name>.sass -> /css/<name>.css
@@ -62,7 +63,7 @@ Copy `src/content/posts/_template_post.md`. Glossary tooltips use markdown direc
 :term[inflammatory]{id="inflammation"}   custom link text
 ```
 
-An unknown term id fails the build, and so does an unknown theme key or an image path that is not in `public/`. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
+An unknown term id fails the build, and so does an unknown theme key or an image path that is not in `public/`. An image alone in its paragraph becomes a figure whose caption is its alt text (built into the HTML); on posts, `scripts/figures.js` adds "Enlarge figure" to figures shown smaller than their real size, opening a full-screen viewer. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
 
 Front matter: `title` (a plain-language headline stating the finding, not the paper's title), `paper_title` (the paper's own title; used in structured data and All Papers search), `date`, `theme` (one key or a list), `doi`, `paper` (the paper field by field: `authors` as APA "Surname, I. I." strings, `journal`, `year`, optional `volume`, `issue`, `pages`; the build fails if these don't all appear in `citation`), `meta_description` (≤ 155 chars; over 160 fails the build), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
 
@@ -83,6 +84,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Text must meet WCAG AA contrast (4.5:1). Use `$color-primary-text` (not `$color-primary`) for pink text and `$color-text-muted` (#767676) as the lightest grey for text; `$color-primary` is for borders and backgrounds.
 - Dart Sass deprecation warnings (`@import`, Bourbon's old syntax) are silenced in `pages/css/[name].css.ts`; Dart Sass 3 will require migrating to `@use` and dropping Bourbon.
 - Fonts: Google Fonts loads only Jost 400–700 (with italics) and Merriweather 400/700 (`Head.astro`). Using another weight or Merriweather italic means adding it to that URL, or the browser fakes it.
+- Font fallbacks: `styles/_fonts.sass` defines size-matched stand-ins ("Jost Fallback", "Merriweather Fallback" and Android versions over Arial, Times New Roman, Roboto and Noto Serif) that sit second in the font stacks, so text doesn't reflow when the web fonts arrive. Re-measure them if the fonts change (the file says how).
 - No icon font: icons are small inline SVGs (footer RSS, glossary caret).
 - Breakpoints: 768px, 800px, 1024px; the slim bar's menu collapses into the hamburger below 960px (`$breakpoint-menu`).
 

@@ -3,21 +3,6 @@
 
     document.addEventListener('DOMContentLoaded', function(){
 
-        // Creates Captions from Alt tags
-        document.querySelectorAll(".post-content img").forEach(function(img) {
-            // Let's put a caption if there is one
-            if(img.getAttribute("alt") && !img.classList.contains("emoji")) {
-                const figure = document.createElement('figure');
-                figure.className = 'image';
-                img.parentNode.insertBefore(figure, img);
-                figure.appendChild(img);
-                
-                const figcaption = document.createElement('figcaption');
-                figcaption.textContent = img.getAttribute("alt");
-                figure.appendChild(figcaption);
-            }
-        });
-
         // Toggle mobile menu
         const menuToggle = document.querySelector('.menu-toggle');
         if (menuToggle) {

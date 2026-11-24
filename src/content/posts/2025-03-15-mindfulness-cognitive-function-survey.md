@@ -56,7 +56,7 @@ To ensure the rigor of their analysis, the authors used several criteria for eva
 
 ## One Big Result: Mindfulness Improved Accuracy More Than Speed
 
-The most striking finding was that MBIs effectively enhanced multiple cognitive functions, particularly those related to accuracy rather than speed.  This is demonstrated in the following graph, which shows the aggregatged results from all 111 studies.
+The most striking finding was that MBIs effectively enhanced multiple cognitive functions, particularly those related to accuracy rather than speed.  This is demonstrated in the following graph, which shows the aggregated results from all 111 studies.
 
 ![Forest plot showing effect sizes of mindfulness interventions across 15 cognitive subdomains. The x-axis shows standardized mean difference (Cohen's d), with positive values to the right indicating improvement. Each cognitive subdomain is listed on the y-axis with a horizontal line showing the 95% confidence interval and a square marking the mean effect size. The top eight domains show statistically significant improvements (confidence intervals not crossing zero), with largest effects in executive attention, working memory accuracy, and inhibition accuracy. The plot visually demonstrates that mindfulness primarily improves accuracy-based cognitive functions rather than speed-based measures.](/assets/article_images/mindfulness-cognitive-function-survey/meditation-cognition-effect-size.png)
 

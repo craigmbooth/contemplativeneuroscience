@@ -1,0 +1,88 @@
+// Fallback faces sized to match Jost and Merriweather, so text keeps its line
+// breaks when the web fonts arrive (Google Fonts uses display=swap) instead of
+// reflowing the page (layout shift).
+//
+// size-adjust = width of the web font / width of the fallback, measured in
+// Chrome over a post's text at the weights the site uses (Jost 400 for body
+// text, 700 for bold; Merriweather 700 for headings, 400 rarely). The other
+// overrides are the web font's own vertical metrics divided by size-adjust
+// (Jost: ascent 1.070, descent 0.375; Merriweather: ascent 0.984, descent 0.273).
+// Arial and Times New Roman cover Windows, macOS and iOS (Liberation is their
+// metric-compatible Linux twin); Roboto and Noto Serif cover Android.
+// Re-measure if the font URL in components/Head.astro changes family or weights.
+
+// Jost over Arial
+@font-face
+  font-family: "Jost Fallback"
+  font-weight: 400
+  src: local("Arial"), local("ArialMT"), local("Liberation Sans")
+  size-adjust: 95.7%
+  ascent-override: 111.8%
+  descent-override: 39.2%
+  line-gap-override: 0%
+
+@font-face
+  font-family: "Jost Fallback"
+  font-weight: 700
+  src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold")
+  size-adjust: 97.7%
+  ascent-override: 109.5%
+  descent-override: 38.4%
+  line-gap-override: 0%
+
+// Jost over Roboto (Android)
+@font-face
+  font-family: "Jost Fallback Android"
+  font-weight: 400
+  src: local("Roboto"), local("Roboto-Regular")
+  size-adjust: 95.7%
+  ascent-override: 111.8%
+  descent-override: 39.2%
+  line-gap-override: 0%
+
+@font-face
+  font-family: "Jost Fallback Android"
+  font-weight: 700
+  src: local("Roboto Bold"), local("Roboto-Bold")
+  size-adjust: 103.8%
+  ascent-override: 103.1%
+  descent-override: 36.1%
+  line-gap-override: 0%
+
+// Merriweather over Times New Roman
+@font-face
+  font-family: "Merriweather Fallback"
+  font-weight: 400
+  src: local("Times New Roman"), local("TimesNewRomanPSMT"), local("Liberation Serif")
+  size-adjust: 119.6%
+  ascent-override: 82.3%
+  descent-override: 22.8%
+  line-gap-override: 0%
+
+@font-face
+  font-family: "Merriweather Fallback"
+  font-weight: 700
+  src: local("Times New Roman Bold"), local("TimesNewRomanPS-BoldMT"), local("Liberation Serif Bold")
+  size-adjust: 115.5%
+  ascent-override: 85.2%
+  descent-override: 23.6%
+  line-gap-override: 0%
+
+// Merriweather over Noto Serif (Android)
+@font-face
+  font-family: "Merriweather Fallback Android"
+  font-weight: 400
+  src: local("Noto Serif"), local("NotoSerif-Regular")
+  size-adjust: 100.6%
+  ascent-override: 97.8%
+  descent-override: 27.1%
+  line-gap-override: 0%
+
+@font-face
+  font-family: "Merriweather Fallback Android"
+  font-weight: 700
+  src: local("Noto Serif Bold"), local("NotoSerif-Bold")
+  size-adjust: 97.3%
+  ascent-override: 101.1%
+  descent-override: 28.1%
+  line-gap-override: 0%

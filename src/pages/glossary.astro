@@ -24,7 +24,10 @@ const schema = glossarySchema(definitions);
   meta_description="A glossary of terms related to contemplative neuroscience, meditation practices, and neuroscience research methods."
   schemas={[schema]}
 >
-  <p>This glossary provides definitions for technical terms used throughout the site. Hover over these terms in articles to see their definitions.</p>
+  <p>
+    Plain-language definitions of the technical terms used in the summaries. In a summary, these terms have a dashed
+    underline: hover over one, or tap it on a phone, to see its definition.
+  </p>
 
   <div class="glossary-list">
     {entries.map(({ definition, related }) => (

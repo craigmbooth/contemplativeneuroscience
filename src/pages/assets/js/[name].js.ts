@@ -7,7 +7,7 @@ import { resolve } from 'node:path';
 import { transform } from 'esbuild';
 
 const SCRIPTS_DIR = resolve(process.cwd(), 'src/scripts');
-const SCRIPTS = ['all-papers', 'breadcrumbs', 'bundle', 'glossary'];
+const SCRIPTS = ['all-papers', 'breadcrumbs', 'bundle', 'figures', 'glossary'];
 
 export const getStaticPaths: GetStaticPaths = () =>
   SCRIPTS.flatMap((script) => [{ params: { name: script } }, { params: { name: `${script}.min` } }]);

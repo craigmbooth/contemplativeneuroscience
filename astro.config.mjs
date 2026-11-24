@@ -4,6 +4,7 @@ import { unified } from '@astrojs/markdown-remark';
 import remarkDirective from 'remark-directive';
 import remarkGlossaryTerms, { SMARTYPANTS_OPTIONS } from './src/lib/remark-glossary-terms.js';
 import rehypeImageDimensions from './src/lib/rehype-image-dimensions.js';
+import rehypeFigures from './src/lib/rehype-figures.js';
 
 export default defineConfig({
   site: 'https://contemplativeneuroscience.com',
@@ -11,11 +12,12 @@ export default defineConfig({
   trailingSlash: 'always',
   build: { format: 'directory' },
   markdown: {
-    // remark/rehype pipeline plus :term{id="..."} glossary tooltips and image
-    // width/height. Typography matches kramdown: -- is an en dash, --- an em dash.
+    // remark/rehype pipeline plus :term{id="..."} glossary tooltips, image
+    // width/height, and captioned figures for images with alt text.
+    // Typography matches kramdown: -- is an en dash, --- an em dash.
     processor: unified({
       remarkPlugins: [remarkDirective, remarkGlossaryTerms],
-      rehypePlugins: [rehypeImageDimensions],
+      rehypePlugins: [rehypeImageDimensions, rehypeFigures],
       smartypants: SMARTYPANTS_OPTIONS,
     }),
   },

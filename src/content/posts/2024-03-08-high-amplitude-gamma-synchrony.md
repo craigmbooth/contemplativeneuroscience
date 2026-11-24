@@ -3,6 +3,7 @@ title: "Long-Term Meditators Produce Unusually Strong Gamma Brain Waves"
 paper_title: "Long-term meditators self-induce high-amplitude gamma synchrony during mental practice"
 seo_title: "Long-Term Meditators Self-Induce High-Amplitude Gamma Waves"
 date:   2024-03-08
+last_modified_at: 2026-11-23
 theme: neurological-correlates
 doi: 10.1073/pnas.0407401101
 paper:  # the summarized paper, for structured data; must agree with citation
@@ -28,11 +29,11 @@ study:
 
 This study investigated the impact of long-term meditation practice on the brain, focusing on experienced Buddhist practitioners compared to novice volunteers. The researchers used electroencephalogram (:term{id="eeg"}) recordings to measure brain activity in two groups: one consisting of long-term Buddhist meditators with thousands of hours of meditation experience, and another group of student volunteers with no prior meditation experience but who received a week of meditation training for the study.
 
-The researchers found significant differences in the brain activity in the two groups, focusing specifically on :term{id="gamma"}-waves, which are fast brain waves associated with higher cognitive and emotional processes. The study found that the experienced meditators produced extremely high levels of gamma brain wave activity during meditation, which is suggestive that they have developed an enhanced capacity for concentration, emotional control, and a heightened state of awareness compared to people with less meditation experience.
+The researchers found significant differences in the brain activity in the two groups, focusing specifically on :term{id="gamma"}-waves, which are fast brain waves associated with higher cognitive and emotional processes. The study found that the experienced meditators produced extremely high levels of gamma brain wave activity during meditation, much more than the novices did.
 
 ## What They Did
 
-THe study included two groups of participants. The first group included eight Buddhist practitioners with 15 to 40 years of experience in meditation, amounting to between 10,000 to 50,000 hours of practice. The second group consisted of 10 healthy student volunteers who were meditation novices.  Before the meditation sessions began, the researchers recorded a baseline EEG from each participant. This involved having the participants rest with both eyes open and closed in random order to measure their natural brain activity without meditation.
+The study included two groups of participants. The first group included eight Buddhist practitioners with 15 to 40 years of experience in meditation, amounting to between 10,000 to 50,000 hours of practice. The second group consisted of 10 healthy student volunteers who were meditation novices.  Before the meditation sessions began, the researchers recorded a baseline EEG from each participant. This involved having the participants rest with both eyes open and closed in random order to measure their natural brain activity without meditation.
 
 Each participant then engaged in meditation on the :term{id="brahmaviharas"}, focusing on generating a state of "unconditional loving-kindness and compassion." This type of meditation does not focus on specific objects, memories, or images but aims to pervade the mind with benevolence and compassion. The novice group received instructions and practiced this meditation for an hour daily for a week before the EEG recordings.
 
@@ -42,11 +43,11 @@ EEG data were captured before, during, and after the meditation sessions, with p
 
 ## One Big Result: Long-Term Meditators Generated High-Amplitude Gamma Synchrony
 
-Experienced meditators in the tradition of unbounded metta meditation can produce high levels of gamma brain wave activity during meditation, which suggests they have developed an enhanced capacity for concentration, emotional control, and a heightened state of awareness compared to people with less meditation experience.
+Experienced meditators in the tradition of unbounded metta meditation can produce high levels of gamma brain wave activity during meditation, and those gamma waves rose and fell in step across distant parts of the brain (synchrony).
 
 > We found robust gamma-band oscillation and long-distance phase-synchrony during the generation of the nonreferential compassion meditative state.
 
-To put what this means into some context, gamma waves are associated with several aspects of cognition, perception and emotion, including:
+The study measured brain waves, not abilities, so it can't say what the extra gamma does for the meditators. For context, gamma waves have been linked to several aspects of cognition, perception and emotion, including:
 
 * **Enhanced Perception**: Gamma waves are thought to be involved in the processing of sensory information, contributing to heightened awareness and perception of the environment.
 * **Consciousness**: They have been linked to states of conscious awareness, integrating different streams of thought and sensory information into a cohesive experience of reality.
@@ -55,21 +56,21 @@ To put what this means into some context, gamma waves are associated with severa
 
 ![Brain topographic maps comparing gamma wave activity between novice meditators (left) and experienced meditators (right). The maps use color coding (blue to red) to show the percentage of participants in each group who exhibited at least double (2x) gamma wave amplitude during meditation compared to rest. The experienced meditators' map shows much more red and yellow areas, indicating that nearly all experienced practitioners showed significant gamma wave increases across multiple brain regions.](/assets/article_images/high-amplitude-gamma-synchrony/gamma_map.png)
 
-Interestingly, the researchers found that the experienced meditators showed levels of Gamma waves that have only previously been reported under abnormal conditions, such as during epileptic seizures or in patients with brain tumors.
+Interestingly, the authors note that some of the experienced meditators showed the strongest gamma waves they knew of in anyone without a brain disorder.
 
-> The high-amplitude gamma activity found in some of these practitioners are, to our knowledge, the highest reported in the literature in a nonpathological contex
+> The high-amplitude gamma activity found in some of these practitioners are, to our knowledge, the highest reported in the literature in a nonpathological context
 
-This result is indicative that the conscious experience of meditators is foundationally different from that of non-meditators.
+It hints that the meditative states these practitioners reach are unlike ordinary waking states, at least in their electrical signature.
 
 ## Miscellaneous Interesting Takeaways
 
 ### Meditation Changes Your Brain at Rest
 
-The paper also covered scans of the subject's brains while they were *not* meditating, and here there was a second striking result.
+The paper also covered recordings of the participants' brains while they were *not* meditating, and here there was a second striking result.
 
 > In addition to the meditation-induced effects, we found a difference in the normative EEG spectral profile between the two populations during the resting state before meditation. It is not unexpected that such differences would be detected during a resting baseline, because the goal of meditation practice is to transform the baseline state and to diminish the distinction between formal meditation practice and everyday life
 
-It appears clear that a long-term meditation practice changes the brain even when the meditator is not actively meditating such that the brain is more likely to be in a state of heightened awareness and emotional control.  THe size of this effect was correlated stringly with the number of hours of meditation that the meditators had performed, with more meditation leading to stronger gamma waves at rest
+The experts' brains looked different even when they were not meditating. The size of this difference was strongly correlated with the number of hours of meditation the meditators had done: more hours of practice went with stronger gamma waves at rest. Because the experts were not followed over time, this is a link rather than proof that practice caused the change; people whose brains already worked this way might, for example, have been more drawn to years of practice.
 
 ![Scatter plot showing the correlation between meditation experience (x-axis, in hours) and baseline gamma activity (y-axis, ratio of gamma to slow wave activity) measured during rest. Each dot represents one meditator, with experience ranging from approximately 10,000 to 50,000 hours. The plot shows a strong positive correlation (r=0.69), demonstrating that more experienced meditators maintain higher gamma wave activity even when not actively meditating.](/assets/article_images/high-amplitude-gamma-synchrony/gamma_vs_experience.png)
 
@@ -81,9 +82,9 @@ Synchrony is the coordination of brain activity across different regions.  Synch
 
 ### Different Types of Meditation Are, Well, Different
 
-This study used meditators who were bracticing boundless metta meditation.  Most studies (for example, [Hagerty et al, 2013](/ecstatic-meditation-reward-system/), also summarized on this site) use mditation from concentration traditions.
+This study used meditators who were practicing boundless metta meditation.  Most studies (for example, [Hagerty et al., 2013](/ecstatic-meditation-reward-system/), also summarized on this site) use meditation from concentration traditions.
 
-The authors note that the results of this study are completely incompatible with the results of those other studies, which find primarily increases in alpha and theta brain waves.
+The authors point out that their results look very different from those studies, which mostly find increases in slower alpha and theta brain waves.
 
 > These concentration techniques can be seen as a particular form of top-down control that may exhibit an important slow oscillatory component. First-person descriptions of objectless meditations, however, differ radically from those of concentration meditation. Objectless meditation does not directly attend to a specific object but rather cultivates a state of being
 

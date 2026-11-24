@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-Meditatative practices -- under what has become known as integrative medicine -- are becoming more commonly used in medical settings for outpatients presenting with things like chronic stress/disease and pain-related disorders.  The question of the biological mechanisms by which meditation can drive somatic, cognitive and emotional processes is only becoming more important.
+Meditative practices -- under what has become known as integrative medicine -- are becoming more commonly used in medical settings for outpatients presenting with things like chronic stress/disease and pain-related disorders.  The question of the biological mechanisms by which meditation can drive somatic, cognitive and emotional processes is only becoming more important.
 
 Most studies up to this point have focused primarily on the changes "inside" of an individual meditation session, by comparing a meditator's state before and during meditation.  This study aims to put meditation in a wider work context by tracking changes when people are given an extended (8-week) training, and follows up with them in the months thereafter to begin to understand the more enduring changes that meditation can provide.
 
@@ -36,7 +36,7 @@ This study involved recruiting 48 right-handed employees from a biotechnology co
 
 Before the start of the study, an initial laboratory evaluation was conducted for all participants without revealing their future group assignment. Following this preliminary assessment, subjects were randomly assigned to either the meditation group, consisting of 25 participants (19 females), or a wait-list control group, consisting of 16 participants (10 females). This assignment was done at a ratio of approximately 3:2.
 
-Participants underwent a series of assessments at three different time points: before the start of the MBSR program (Time 1), immediately after the program (Time 2), and four months after the program (Time 3).  At eaxch time, the participants underwent an :term{id="eeg"} scan while being presented with emotional stimuli.
+Participants underwent a series of assessments at three different time points: before the start of the MBSR program (Time 1), immediately after the program (Time 2), and four months after the program (Time 3).  At each time, the participants underwent an :term{id="eeg"} scan while being presented with emotional stimuli.
 
 Additionally, all participants received a flu vaccine at the Time 2, and the authors measured the immune response to the vaccine from blood antibody levels.
 
@@ -60,15 +60,15 @@ The authors note that:
 
 > To our knowledge, this is the first demonstration of a reliable effect of meditation on an in vivo measure of immune function. The finding may reflect a relatively more rapid peak rise in antibody titers among the meditators compared with the controls
 
-This study is primarily observational, but the autors do note
+This study is primarily observational, but the authors do note
 
-> Recent studies have established that greater relative leftsided anterior activation at baseline is associated with enhanced immune function
+> Recent studies have established that greater relative left-sided anterior activation at baseline is associated with enhanced immune function
 
 And also point to other research on HIV-positive men, where relaxation and stress management procedures increased immune function:
 
 > Recent research indicates that relaxation and stress management procedures increase T-cytotoxic/suppressor (CD3+CD) lymphocytes in HIV-infected me
 
-Further evidence that the driving factor is meditation comes from this chart, which shows the correlation between the brain activiation asymmetries and the flu vaccine response:
+Further evidence that the driving factor is meditation comes from this chart, which shows the correlation between the brain activation asymmetries and the flu vaccine response:
 
 ![Scatter plot showing the correlation between brain activity and immune response for both meditation and control groups. The x-axis represents brain activation asymmetry (left minus right hemisphere activity), while the y-axis shows antibody response to influenza vaccine. The meditation group (solid circles with solid regression line) demonstrates a significant positive correlation (r=0.51, p<0.05), meaning participants with greater left-sided brain activation showed stronger immune responses. The control group (open circles with dashed regression line) shows no significant correlation (r=0.1). This graph provides evidence that the meditation-induced changes in brain activity are functionally related to improved immune function, suggesting a potential neurobiological mechanism for meditation's health benefits.](/assets/article_images/brain-and-immune-function/final_result.png)
 

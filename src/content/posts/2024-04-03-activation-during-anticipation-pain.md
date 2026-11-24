@@ -3,6 +3,7 @@ title: "Expert Meditators Found Pain Less Unpleasant, but No Less Intense"
 paper_title: "Altered anterior insula activation during anticipation and experience of painful stimuli in expert meditators"
 seo_title: "Expert Meditators, Pain, and the Anterior Insula"
 date:   2024-04-03
+last_modified_at: 2026-11-23
 theme: biological-health
 doi: 10.1016/j.neuroimage.2012.09.030
 paper:  # the summarized paper, for structured data; must agree with citation
@@ -25,11 +26,11 @@ study:
 
 ## Background Information
 
-It is well known that the mind regulates our perceptions of pain.  There are many mental strategies that can be used to reduce the perception of pain.  For example, distraction (for example, listening to music), or techniques that calter the context of the experience (hypnosis, cognitive reappraisal, or even a placebo).
+It is well known that the mind regulates our perceptions of pain.  There are many mental strategies that can be used to reduce the perception of pain.  For example, distraction (for example, listening to music), or techniques that alter the context of the experience (hypnosis, cognitive reappraisal, or even a placebo).
 
 Further research indicates that meditation can also reduce the perception of pain through acceptance and mindfulness.  Instead of striving to distract, ignore or reframe, meditation instead cultivates states of open acceptance and non-judgmental awareness of the present moment.  This is thought to reduce the perception of pain by reducing the emotional reaction to it.
 
-Techniques such as Mindfulness Based Stress Reduction (:term{id="mbsr"}) and Acceptance Commitment Therapy (ACT) have been shown to decrease pain unpleasantness and lead to a reduction of symptoms in chronic pain patients.
+Techniques such as Mindfulness Based Stress Reduction (:term{id="mbsr"}) and Acceptance and Commitment Therapy (ACT) have been shown to decrease pain unpleasantness and lead to a reduction of symptoms in chronic pain patients.
 
 This study aimed to investigate the neural mechanisms underlying the effects of open awareness meditation on pain perception, focusing on the amygdala and the so-called "salience network", a set of regions in the brain thought to be responsible for detection and integration of emotional and sensory stimuli, as well as in modulating the switch between the internally directed cognition of the default mode network (:term{id="dmn"}) and externally directed cognition.
 
@@ -52,9 +53,9 @@ What does this mean?  Here are the intensity and unpleasantness ratings for both
 
 ![Bar graph comparing intensity and unpleasantness ratings between expert meditators and novices during painful stimulation. The left side shows pain intensity ratings (0-10 scale) with nearly identical values between groups (approximately 7/10 for both). The right side shows unpleasantness ratings where expert meditators reported significantly lower values (approximately 3/10) compared to novices (approximately 5/10). Error bars show standard error, and an asterisk indicates statistical significance (p<0.05) for the unpleasantness difference but not for intensity. This clearly demonstrates that while both groups perceived similar pain intensity, experienced meditators found the pain substantially less unpleasant.](/assets/article_images/activation-during-anticipation-pain/intensity_unpleasantness.png)
 
-This is an extremely clear finding:  Meditation decreases the perceived unpleasantness of pain.  The meditators also showed enhanced activity in the salience network during the painful event, indicating that they were more aware of the pain, but less emotionally reactive to it.
+This is a clear difference: the experts felt the pain just as strongly but found it less unpleasant. Because the study compared two groups at one point in time rather than training people, it shows a link, not proof that meditation caused the difference. The meditators also showed more activity in the salience network during the painful event, which the authors read as the experts being fully present to the pain while reacting to it less emotionally.
 
-As an additional finding, the pain trials were repeated on each user a number of times, and the meditators underwent more rapid habituation to the pain stimuli than the novices.  That is: Even after an experience had been demonstrated safe by repeated exposure, the novices would continue to show the same anxiety response to it, while the meditation group would habituate to the experience and show less anxiety.
+As an additional finding, the pain trials were repeated on each participant a number of times, and the meditators' brain responses habituated faster: their amygdala response faded more quickly across the repeated, harmless trials, while the novices' stayed closer to where it started.
 
 The attentional mechanisms observed here may relate to [Shields et al.'s (2020)](/deconstructing-concentration-interference-control/) findings on meditation's effects on controlled attention processes, suggesting enhanced attentional control may contribute to altered pain perception. Given [Davidson, Kabat-Zinn et al.'s (2003)](/brain-and-immune-function/) findings on meditation's effects on brain activity and immune function, future research might explore whether pain perception changes correlate with broader biological markers of health.
 
@@ -62,7 +63,7 @@ The attentional mechanisms observed here may relate to [Shields et al.'s (2020)]
 
 ### Anticipation and the Two Arrows
 
-There is a teaching in buddhism that has stuck with me ever since I first heard it, the story of the two arrows. According to this teaching, the Buddha described that when we are struck by an arrow, it is painful. This arrow represents whatever initial suffering or pain that we experience from life's inevitable challenges, such as illness, loss, or disappointment.
+There is a teaching in Buddhism that has stuck with me ever since I first heard it, the story of the two arrows. According to this teaching, the Buddha described that when we are struck by an arrow, it is painful. This arrow represents whatever initial suffering or pain that we experience from life's inevitable challenges, such as illness, loss, or disappointment.
 
 However, we often compound our suffering by the way we react to the first arrow. This reaction is likened to being struck by a second arrow. While the first arrow's pain is unavoidable, the second arrow represents the additional suffering we create for ourselves through our reactions, such as anger, frustration, self-pity, or resentment. Unlike the first arrow, the pain from the second arrow is not inevitable; it arises from our attachment, aversion, and ignorance.
 
@@ -75,4 +76,4 @@ The following image shows the brain activity of the two groups during the antici
 
 ![Line graph showing brain activity (BOLD signal) in the anterior insula region across time during pain anticipation and experience. The x-axis shows time in seconds, with the pain stimulus occurring between 12-22 seconds (shaded area). Four lines represent different conditions: red/yellow for expert meditators and blue/green for novices, with solid and dashed lines distinguishing between high and low pain conditions. The graph reveals that novices (blue/green) show significantly higher activation in anticipation of pain (before 12 seconds) compared to meditators (red/yellow). During the actual pain (12-22 seconds), both groups show increased activity, but with different patterns. After pain offset, novices maintain higher activation than meditators. This demonstrates meditators' reduced anticipatory anxiety and different neural processing of pain.](/assets/article_images/activation-during-anticipation-pain/anxiety.png)
 
-The main takeaway from this image is that the novices demonstrate much higher salience network activation than the meditators before the painful event.  Also notably, the degree of brain activation in the novices is pretty much the same whether or not the painful event even happens.  By the time that the painful event actually occurs, the novices are already in a state of high anxiety, while the meditators are not.
+The main takeaway from this image is that the novices show much higher salience network activation than the meditators before the painful event.  By the time the painful heat actually arrives, the novices' brains are already braced for it, while the meditators' are not.

@@ -51,7 +51,7 @@ The study revealed a notable distinction between experienced meditators and cont
 
 Further examination of brain activity highlighted a clear pattern: during meditation, activity levels in the parts of the DMN decreased among meditators but increased when they performed an active control task. This contrast was not observed in the control group, indicating a specific modulation of brain activity through meditation practices.
 
->  meditation was found to be associated with relatively lower activity in regions of the DMN in meditators compared to controls during meditation compared to another active cognitive tas
+>  meditation was found to be associated with relatively lower activity in regions of the DMN in meditators compared to controls during meditation compared to another active cognitive task
 
 ![Bar graphs comparing brain activity in two default mode network regions across different conditions. The left graph shows activity in the anterior cingulate cortex (ACC) and the right graph shows activity in the dorsal precuneus (PCu). Each graph displays four conditions: meditators meditating (MM), meditators performing an active task (MA), controls meditating (CM), and controls performing an active task (CA). The y-axis shows brain activity (beta values). For experienced meditators, both brain regions show negative activity during meditation but positive activity during the active task (a flip in pattern). Control participants show a different pattern without this distinctive reversal. Error bars indicate standard error, and asterisks mark statistically significant differences.](/assets/article_images/reduced-dmn-active-task/dmn_activity.png)
 

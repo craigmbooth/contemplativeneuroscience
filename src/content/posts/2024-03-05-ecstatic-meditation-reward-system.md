@@ -40,10 +40,10 @@ Before running this experiment, the authors had developed a set of hypotheses ab
 
 * Hypothesis 1: Jhanas should show decreased activity compared to the rest state in the visual and auditory processing areas since all jhanas share the experiential characteristic that external awareness dims
 * Hypothesis 2: Jhanas should show decreased activation compared to rest state in brain regions associated with speech since internal verbalization fades
-* Hypothesis 3: Jahanas should show decreased activation compared to rest state in the orientation area since the normal sense of personal boundaries is altered
+* Hypothesis 3: Jhanas should show decreased activation compared to rest state in the orientation area since the normal sense of personal boundaries is altered
 * Hypothesis 4: Jhanas should show increased activation compared to rest state in the areas of the brain related to attention since attention is highly focused during jhana
 * Hypothesis 5: Jhanas should show increased activation compared to rest state in the areas of the brain related to pleasure since the jhanas are associated with pleasure
-* Hypothesis 6: Jhanas should show no increased activation compared to rest state for the areas of the brain related to phythmic motion and the motor cortex.
+* Hypothesis 6: Jhanas should show no increased activation compared to rest state for the areas of the brain related to rhythmic motion and the motor cortex.
 
 ## One Big Result: Jhana Quieted Outward Awareness and Activated Reward Areas
 
