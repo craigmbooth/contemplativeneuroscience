@@ -1,23 +1,40 @@
 ---
+// Every summary, newest first, with search (scripts/all-papers.js), sort and a
+// study-type filter. ?q=, ?type= and ?sort= set the controls on load.
 import PageLayout from '../layouts/PageLayout.astro';
 import PaperMeta from '../components/PaperMeta.astro';
 import { STUDY_TYPES } from '../content.config';
 import { getPosts, markdownify, postUrl, themesForPost } from '../lib/content';
-import { collectionPageSchema } from '../lib/seo';
+import { collectionPageSchema, postGlossaryTerms } from '../lib/seo';
 
 const posts = await getPosts();
+const termAlias = (wiki: string) => wiki.replace(/_/g, ' ').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 const items = await Promise.all(
-  posts.map(async (post) => ({
-    post,
-    citation: await markdownify(post.data.citation),
-    themes: await themesForPost(post),
-  })),
+  posts.map(async (post) => {
+    const themes = await themesForPost(post);
+    const { paper } = post.data;
+    return {
+      post,
+      themes,
+      citation: await markdownify(post.data.citation),
+      // Searched but not shown: full theme titles and the glossary terms the summary explains.
+      // Terms are listed separately so a match can be named ("Mentions: EEG").
+      hidden: [...themes.map((t) => t.data.title), paper.journal].join(' | '),
+      // "Title=Wikipedia name" so "default mode network" finds DMN.
+      terms: postGlossaryTerms(post)
+        .map((d) => (d.wiki ? `${d.title}=${termAlias(d.wiki)}` : d.title))
+        .join('|'),
+      year: paper.year,
+      author: paper.authors[0].split(',')[0],
+    };
+  }),
 );
 // Study types in use, in STUDY_TYPES order, with counts for the filter.
 const typeCounts = STUDY_TYPES.map((type) => ({
   type,
   count: posts.filter((p) => p.data.study?.type === type).length,
 })).filter((t) => t.count > 0);
+
 const title = 'All Papers';
 const description =
   'Browse, search, and sort every research summary on the site: peer-reviewed studies on meditation, mindfulness, and the brain.';
@@ -29,55 +46,77 @@ const schema = collectionPageSchema({
 });
 ---
 <PageLayout title={title} meta_description={description} schemas={[schema]}>
-  <p>This page provides a collection of {posts.length} research paper summaries available on the site. You can search them, sort them by title, year, or author, and filter them by type of study. Each summary offers an accessible overview of peer-reviewed research on contemplative practices and their effects on the brain, cognition, and well-being.</p>
+  <p>
+    Every paper summarized on the site, {posts.length} so far, newest summaries first. Search by topic, finding, author
+    or technical term, or narrow the list by study type.
+  </p>
 
-  <div class="search-container">
-    <input type="text" id="paperSearch" class="search-input" placeholder="Search headlines, paper titles, authors..." aria-label="Search papers by headline, title or author">
-    <button id="clearSearch" class="clear-search-btn" aria-label="Clear search">×</button>
-  </div>
-
-  <div class="sort-controls">
-    <span class="sort-label">Sort by:</span>
-    <div class="sort-buttons">
-      <button id="sortByTitle" class="sort-button active" data-sort="title" aria-label="Sort by title">
-        Title <span class="sort-arrow">↓</span>
-      </button>
-      <button id="sortByYear" class="sort-button" data-sort="year" aria-label="Sort by publication year">
-        Publication Year <span class="sort-arrow">↓</span>
-      </button>
-      <button id="sortByAuthor" class="sort-button" data-sort="author" aria-label="Sort by first author">
-        First Author <span class="sort-arrow">↓</span>
+  <div class="papers-tools" role="search">
+    <div class="search-container">
+      <label for="paperSearch" class="sr-only">Search the summaries</label>
+      <input
+        type="search"
+        id="paperSearch"
+        class="search-input"
+        placeholder="For example: sleep, gamma, Davidson, EEG"
+        autocomplete="off"
+        spellcheck="false"
+      >
+      <button type="button" id="clearSearch" class="clear-search-btn" aria-label="Clear search" hidden>
+        <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="M1 1l10 10M11 1L1 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       </button>
     </div>
-  </div>
 
-  <div class="type-filter">
-    <label for="typeFilter" class="sort-label">Study type:</label>
-    <select id="typeFilter" class="type-filter-select">
-      <option value="">All study types ({posts.length})</option>
-      {typeCounts.map(({ type, count }) => <option value={type}>{type} ({count})</option>)}
-    </select>
+    <div class="papers-controls">
+      <label class="papers-control">
+        <span>Sort</span>
+        <select id="sortOrder">
+          <option value="added">Newest summaries</option>
+          <option value="year-desc">Publication year, newest</option>
+          <option value="year-asc">Publication year, oldest</option>
+          <option value="title">Headline, A–Z</option>
+          <option value="author">First author, A–Z</option>
+        </select>
+      </label>
+      <label class="papers-control">
+        <span>Study type</span>
+        <select id="typeFilter">
+          <option value="">All ({posts.length})</option>
+          {typeCounts.map(({ type, count }) => <option value={type}>{type} ({count})</option>)}
+        </select>
+      </label>
+    </div>
   </div>
 
   <p id="searchResults" class="search-results-info" aria-live="polite"></p>
 
   <div class="all-papers-list">
-    {items.map(({ post, citation, themes }) => (
-      <article class="post-item" data-study-type={post.data.study?.type ?? ''} role="article">
-        <div class="article-item">
-          <header class="post-header">
-            <PaperMeta post={post} themes={themes} />
-            <h2 class="post-title"><a href={postUrl(post)}>{post.data.title}</a></h2>
-          </header>
-          <section class="post-excerpt">
-            <p>{post.data.snippet}</p>
-          </section>
-          <div class="post-meta citation">
-            <Fragment set:html={citation} />
-          </div>
+    {items.map(({ post, themes, citation, hidden, terms, year, author }, i) => (
+      <article
+        class="post-item"
+        data-order={i}
+        data-year={year}
+        data-author={author}
+        data-study-type={post.data.study?.type ?? ''}
+        data-search={hidden}
+        data-terms={terms}
+      >
+        <header class="post-header">
+          <PaperMeta post={post} themes={themes} />
+          <h2 class="post-title"><a href={postUrl(post)}>{post.data.title}</a></h2>
+        </header>
+        <p class="post-excerpt">{post.data.snippet}</p>
+        <p class="search-mentions" hidden></p>
+        <div class="post-meta citation">
+          <Fragment set:html={citation} />
         </div>
       </article>
     ))}
+  </div>
+
+  <div class="no-results-message" hidden>
+    <p>Try fewer words, an author's surname, or a technical term such as EEG or <a href="/glossary/">another from the glossary</a>.</p>
+    <p>Or browse the summaries by question on the <a href="/themes/">Research Themes</a> page.</p>
   </div>
 
   <script is:inline src="/assets/js/all-papers.min.js"></script>

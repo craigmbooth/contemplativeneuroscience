@@ -1,182 +1,180 @@
+// All Papers (pages/all-papers.astro): search, sort and study-type filter.
+// Search matches every word typed, anywhere in a paper's headline, snippet,
+// citation, themes or the glossary terms it explains, and highlights the
+// matches. The controls are mirrored in the URL (?q=, ?type=, ?sort=) so a
+// filtered list can be linked to; the 404 page sends searches here with ?q=.
 document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('paperSearch');
   const clearButton = document.getElementById('clearSearch');
+  const sortSelect = document.getElementById('sortOrder');
+  const typeFilter = document.getElementById('typeFilter');
   const resultsInfo = document.getElementById('searchResults');
-  const paperItems = document.querySelectorAll('.post-item');
-  const allPapersList = document.querySelector('.all-papers-list');
+  const noResults = document.querySelector('.no-results-message');
+  const list = document.querySelector('.all-papers-list');
+  if (!searchInput || !list) return;
 
-  // Create a no results message element (initially hidden)
-  const noResultsMessage = document.createElement('div');
-  noResultsMessage.className = 'no-results-message';
-  noResultsMessage.textContent = 'No papers match. Try different keywords or another study type.';
-  noResultsMessage.style.display = 'none';
-  allPapersList.after(noResultsMessage);
-
-  // Sort buttons
-  const sortButtons = document.querySelectorAll('.sort-button');
-  let currentSort = {
-    type: 'title',
-    direction: 'desc'
-  };
-
-  // Parse data from papers
-  function getPaperData() {
-    const papers = [];
-    paperItems.forEach(item => {
-      const titleElement = item.querySelector('.post-title');
-      const title = titleElement.textContent.trim();
-      
-      // Extract year from citation (assumes format includes a year in parentheses)
-      const citation = item.querySelector('.citation').textContent;
-      const yearMatch = citation.match(/\((\d{4})\)/);
-      const year = yearMatch ? parseInt(yearMatch[1]) : 0;
-      
-      // Extract first author from citation
-      const authorMatch = citation.match(/^([^,]+)/);
-      const author = authorMatch ? authorMatch[1].trim() : '';
-      
-      papers.push({
-        element: item,
-        title: title,
-        year: year,
-        author: author
-      });
-    });
-    return papers;
-  }
-
-  // Sort papers
-  function sortPapers() {
-    const papers = getPaperData();
-    const sortType = currentSort.type;
-    const sortDirection = currentSort.direction;
-    
-    papers.sort((a, b) => {
-      let comparison = 0;
-      
-      if (sortType === 'title') {
-        // Reverse the default comparison for titles (Z-A by default)
-        comparison = -a.title.localeCompare(b.title);
-      } else if (sortType === 'year') {
-        // Default comparison for years (older first by default)
-        comparison = a.year - b.year;
-      } else if (sortType === 'author') {
-        // Reverse the default comparison for authors (Z-A by default)
-        comparison = -a.author.localeCompare(b.author);
-      }
-      
-      return sortDirection === 'asc' ? comparison : -comparison;
-    });
-    
-    // Reorder DOM elements
-    const fragment = document.createDocumentFragment();
-    papers.forEach(paper => {
-      fragment.appendChild(paper.element);
-    });
-    
-    allPapersList.innerHTML = '';
-    allPapersList.appendChild(fragment);
-  }
-
-  // Update sort button states
-  function updateSortButtons() {
-    sortButtons.forEach(button => {
-      const sortType = button.getAttribute('data-sort');
-      
-      if (sortType === currentSort.type) {
-        button.classList.add('active');
-        button.setAttribute('data-direction', currentSort.direction);
-      } else {
-        button.classList.remove('active');
-        button.removeAttribute('data-direction');
-      }
-    });
-  }
-
-  // Initialize sorting
-  sortPapers();
-  updateSortButtons();
-
-  // Sort button click handlers
-  sortButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      const sortType = this.getAttribute('data-sort');
-      
-      if (sortType === currentSort.type) {
-        // Toggle direction if already active
-        currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
-      } else {
-        // Set new sort type with default desc direction
-        currentSort.type = sortType;
-        currentSort.direction = 'desc';
-      }
-      
-      sortPapers();
-      updateSortButtons();
-    });
+  const papers = Array.from(list.querySelectorAll('.post-item')).map(function(item) {
+    const highlightable = Array.from(item.querySelectorAll('.post-title a, .post-excerpt, .citation'));
+    return {
+      item: item,
+      order: Number(item.dataset.order),
+      year: Number(item.dataset.year),
+      author: item.dataset.author || '',
+      title: item.querySelector('.post-title').textContent.trim(),
+      type: item.dataset.studyType || '',
+      visibleText: item.textContent.toLowerCase(),
+      hiddenText: (item.dataset.search || '').toLowerCase(),
+      // "DMN=Default mode network": show the first part, match either.
+      terms: (item.dataset.terms || '').split('|').filter(Boolean).map(function(t) {
+        return { label: t.split('=')[0], text: t.toLowerCase() };
+      }),
+      mentions: item.querySelector('.search-mentions'),
+      highlightable: highlightable,
+      originals: highlightable.map(function(el) { return el.innerHTML; })
+    };
   });
 
-  // Search and study-type filter: a paper shows when it matches both.
-  const typeFilter = document.getElementById('typeFilter');
+  // Sorting -----------------------------------------------------------------
 
-  function performSearch() {
-    const searchTerm = searchInput.value.trim().toLowerCase();
+  const comparators = {
+    'added': function(a, b) { return a.order - b.order; },
+    'year-desc': function(a, b) { return b.year - a.year || a.order - b.order; },
+    'year-asc': function(a, b) { return a.year - b.year || a.order - b.order; },
+    'title': function(a, b) { return a.title.localeCompare(b.title); },
+    'author': function(a, b) { return a.author.localeCompare(b.author) || a.year - b.year; }
+  };
+
+  function sortPapers() {
+    const compare = comparators[sortSelect.value] || comparators.added;
+    const fragment = document.createDocumentFragment();
+    papers.slice().sort(compare).forEach(function(p) { fragment.appendChild(p.item); });
+    list.appendChild(fragment);
+  }
+
+  // Highlighting ------------------------------------------------------------
+
+  const escapeRegExp = function(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); };
+
+  function resetHighlights(p) {
+    p.highlightable.forEach(function(el, i) { el.innerHTML = p.originals[i]; });
+  }
+
+  function highlight(el, pattern) {
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function(node) {
+      const text = node.nodeValue;
+      pattern.lastIndex = 0;
+      if (!pattern.test(text)) return;
+      pattern.lastIndex = 0;
+      const fragment = document.createDocumentFragment();
+      let last = 0;
+      let match;
+      while ((match = pattern.exec(text))) {
+        if (match.index > last) fragment.appendChild(document.createTextNode(text.slice(last, match.index)));
+        const mark = document.createElement('mark');
+        mark.textContent = match[0];
+        fragment.appendChild(mark);
+        last = match.index + match[0].length;
+      }
+      if (last < text.length) fragment.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(fragment, node);
+    });
+  }
+
+  // Search and filter -------------------------------------------------------
+
+  function update() {
+    const query = searchInput.value.trim();
+    const words = query.toLowerCase().split(/\s+/).filter(Boolean);
     const type = typeFilter ? typeFilter.value : '';
-    let matchCount = 0;
+    const pattern = words.length ? new RegExp(words.map(escapeRegExp).join('|'), 'gi') : null;
+    let shown = 0;
 
-    // Show/hide clear button
-    clearButton.style.display = searchTerm.length > 0 ? 'block' : 'none';
+    clearButton.hidden = query.length === 0;
 
-    paperItems.forEach(item => {
-      // Match the headline or the citation, which holds the paper's own title and authors.
-      const title = item.querySelector('.post-title').textContent.toLowerCase();
-      const citation = (item.querySelector('.citation')?.textContent ?? '').toLowerCase();
-      const matchesSearch = searchTerm === '' || title.includes(searchTerm) || citation.includes(searchTerm);
-      const matchesType = type === '' || item.dataset.studyType === type;
+    papers.forEach(function(p) {
+      resetHighlights(p);
+      const matchesWords = words.every(function(w) {
+        return p.visibleText.includes(w) || p.hiddenText.includes(w) ||
+          p.terms.some(function(t) { return t.text.includes(w); });
+      });
+      const visible = matchesWords && (type === '' || p.type === type);
+      p.item.classList.toggle('hidden', !visible);
 
-      if (matchesSearch && matchesType) {
-        item.classList.remove('hidden');
-        matchCount++;
-      } else {
-        item.classList.add('hidden');
+      // Name the glossary terms that matched, when the word isn't in the visible text.
+      const termHits = words.length && visible
+        ? p.terms.filter(function(t) {
+            return words.some(function(w) { return t.text.includes(w) && !p.visibleText.includes(w); });
+          }).map(function(t) { return t.label; })
+        : [];
+      p.mentions.hidden = termHits.length === 0;
+      p.mentions.textContent = termHits.length ? 'Covers: ' + termHits.join(', ') : '';
+
+      if (visible) {
+        shown++;
+        if (pattern) p.highlightable.forEach(function(el) { highlight(el, pattern); });
       }
     });
 
-    // Update results info
-    if (searchTerm === '' && type === '') {
+    const total = papers.length;
+    if (!words.length && type === '') {
       resultsInfo.textContent = '';
-      noResultsMessage.style.display = 'none';
-    } else if (matchCount === 0) {
-      resultsInfo.textContent = 'No papers found matching your search.';
-      noResultsMessage.style.display = 'block';
+    } else if (shown === 0) {
+      resultsInfo.textContent = query ? 'No papers match “' + query + '”.' : 'No papers match.';
     } else {
-      resultsInfo.textContent = `Showing ${matchCount} paper${matchCount !== 1 ? 's' : ''}.`;
-      noResultsMessage.style.display = 'none';
+      resultsInfo.textContent = 'Showing ' + shown + ' of ' + total + ' papers.';
+    }
+    noResults.hidden = shown !== 0;
+    syncUrl(query, type);
+  }
+
+  // URL ---------------------------------------------------------------------
+
+  function syncUrl(query, type) {
+    const params = new URLSearchParams();
+    if (query) params.set('q', query);
+    if (type) params.set('type', type);
+    if (sortSelect.value !== 'added') params.set('sort', sortSelect.value);
+    const search = params.toString();
+    const url = window.location.pathname + (search ? '?' + search : '') + window.location.hash;
+    if (url !== window.location.pathname + window.location.search + window.location.hash) {
+      history.replaceState(null, '', url);
     }
   }
 
-  // Event listeners
-  searchInput.addEventListener('input', performSearch);
-  if (typeFilter) typeFilter.addEventListener('change', performSearch);
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('q')) searchInput.value = params.get('q');
+  if (params.get('type') && typeFilter && typeFilter.querySelector('option[value="' + CSS.escape(params.get('type')) + '"]')) {
+    typeFilter.value = params.get('type');
+  }
+  if (params.get('sort') && comparators[params.get('sort')]) sortSelect.value = params.get('sort');
 
-  clearButton.addEventListener('click', function() {
-    searchInput.value = '';
-    performSearch();
-    searchInput.focus();
+  // Events ------------------------------------------------------------------
+
+  let timer;
+  searchInput.addEventListener('input', function() {
+    clearTimeout(timer);
+    timer = setTimeout(update, 120);
   });
-
-  // Handle Escape key to clear search
   searchInput.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
       searchInput.value = '';
-      performSearch();
+      update();
     }
   });
+  clearButton.addEventListener('click', function() {
+    searchInput.value = '';
+    update();
+    searchInput.focus();
+  });
+  if (typeFilter) typeFilter.addEventListener('change', update);
+  sortSelect.addEventListener('change', function() {
+    sortPapers();
+    update();
+  });
 
-  // A search handed over in the URL (?q=...), e.g. from the 404 page.
-  const query = new URLSearchParams(window.location.search).get('q');
-  if (query) {
-    searchInput.value = query;
-    performSearch();
-  }
+  sortPapers();
+  update();
 });

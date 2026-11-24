@@ -1,20 +1,17 @@
 ---
+// The five research themes as questions, each with its short answer (the bold
+// opening of the theme's research_summary) and the papers behind it.
 import PageLayout from '../../layouts/PageLayout.astro';
-import { getThemes, postsForTheme, themeImage, themeUrl } from '../../lib/content';
-import { publicImageSize } from '../../lib/images.js';
+import { postsForTheme, postUrl, themeShortAnswer, themesInOrder, themeThumb, themeUrl } from '../../lib/content';
 import { collectionPageSchema } from '../../lib/seo';
 
-const themes = await getThemes();
-const cards = await Promise.all(
-  themes.map(async (theme) => ({
-    theme,
-    count: (await postsForTheme(theme)).length,
-    image: { src: themeImage(theme), ...publicImageSize(themeImage(theme), '/themes/') },
-  })),
+const themes = await themesInOrder();
+const entries = await Promise.all(
+  themes.map(async (theme) => ({ theme, posts: await postsForTheme(theme), answer: themeShortAnswer(theme) })),
 );
 const title = 'Research Themes';
 const description =
-  'Research themes in contemplative neuroscience: brain activity, mind wandering, physical health, sleep, and the adverse effects of meditation.';
+  'Five questions about meditation, on the brain, focus, the body, sleep and safety, each with a short answer from the research and the papers behind it.';
 const schema = collectionPageSchema({
   path: '/themes/',
   name: title,
@@ -23,32 +20,37 @@ const schema = collectionPageSchema({
 });
 ---
 <PageLayout title={title} meta_description={description} schemas={[schema]}>
-  <p>This collection organizes research papers into thematic categories that represent key areas of investigation in contemplative neuroscience. While research papers are often categorized by methodology or specific results, these themes help highlight broader questions and areas of inquiry that span multiple studies and approaches.</p>
+  <p>
+    The summaries on this site are grouped around five questions people ask about meditation. Below each question is
+    the short answer from the papers covered so far. Each theme page goes further: what the research says, where the
+    evidence is strong or thin, and every paper behind it. Some papers bear on more than one question, so they appear
+    under each.
+  </p>
 
-  <p>Each theme represents a significant aspect of how contemplative practices interact with brain function, cognition, or health. By grouping papers this way, we hope to facilitate deeper understanding of the patterns and consistencies emerging across different research efforts.</p>
-
-  <h2 id="available-themes">Available Themes</h2>
-
-  <div class="theme-grid">
-    {cards.map(({ theme, count, image }) => (
-      <div class="theme-card">
-        <div class="theme-card-image">
-          <a href={themeUrl(theme)}>
-            <img src={image.src} alt={theme.data.title} width={image.width} height={image.height}>
-          </a>
-        </div>
-        <div class="theme-card-content">
-          <h3><a href={themeUrl(theme)}>{theme.data.title}</a></h3>
-          <p>{theme.data.theme_description.replace(/<[^>]*>/g, '')}</p>
-          <p class="theme-card-count">
-            {count > 0 ? <em>{count} paper{count > 1 ? 's' : ''}</em> : <em>Coming soon</em>}
+  <ol class="theme-index">
+    {entries.map(({ theme, posts, answer }) => (
+      <li class="theme-entry">
+        {/* Decorative: the question below links to the same page. */}
+        <img class="theme-entry-image" src={themeThumb(theme)} alt="" width="240" height="240" loading="lazy" decoding="async" />
+        <div class="theme-entry-body">
+          <p class="paper-meta">{theme.data.short_title} · {posts.length} paper{posts.length === 1 ? '' : 's'}</p>
+          <h2><a href={themeUrl(theme)}>{theme.data.question}</a></h2>
+          {answer && <p class="theme-answer">{answer}</p>}
+          {posts.length > 0 && (
+            <ul class="theme-papers">
+              {posts.map((post) => (
+                <li>
+                  <a href={postUrl(post)}>{post.data.title}</a>
+                  {post.data.study && <span class="study-type">{post.data.study.type}</span>}
+                </li>
+              ))}
+            </ul>
+          )}
+          <p class="theme-more">
+            <a href={themeUrl(theme)}>{theme.data.title}: what the research says</a>
           </p>
         </div>
-      </div>
+      </li>
     ))}
-  </div>
-
-  <hr />
-
-  <p><em>Note: Papers may appear in multiple themes if they address several key areas of research.</em></p>
+  </ol>
 </PageLayout>

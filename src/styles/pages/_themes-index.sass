@@ -1,52 +1,117 @@
-.theme-grid
-  display: flex
-  flex-direction: column
-  gap: $spacing-lg
+// Research Themes (pages/themes/index.astro): each theme as a question with its
+// short answer and papers. Selectors start with .post .post-content to outrank
+// main.sass's paragraph, heading and list rules.
 
-.theme-card
-  display: flex
-  border-radius: 5px
-  overflow: hidden
-  background: #f9f9f9
-  transition: all $transition-normal
-  box-shadow: $shadow-md
-  
-  &:hover
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1)
+.post .post-content .theme-index
+  list-style: none
+  margin: $spacing-xl 0 0
+  padding: 0
 
-.theme-card-image
-  flex: 0 0 150px
-  
-  img
-    width: 150px
-    height: 150px
+  > li.theme-entry
+    display: flex
+    gap: $spacing-lg
+    align-items: flex-start
+    list-style: none
+    margin: 0
+    padding: $spacing-xl 0
+    border-top: 1px solid $color-border-lighter
+
+    &:first-child
+      border-top: none
+      padding-top: 0
+
+  .theme-entry-image
+    flex: none
+    width: 96px
+    height: 96px
+    border-radius: 6px
     object-fit: cover
-    border-radius: 5px 0 0 5px
 
-.theme-card-content
-  flex: 1
-  padding: 15px
-  
-  h3
-    margin-top: 0
-    margin-bottom: 10px
-  
-  p
-    margin: 0 0 10px
-    font-size: 0.9em
+  .theme-entry-body
+    flex: 1
+    min-width: 0
 
-.theme-card-count
-  font-size: 0.8em
-  color: $color-text-secondary
+  .paper-meta
+    margin-bottom: $spacing-xs
 
+  h2
+    margin: 0 0 $spacing-sm
+    font-size: 26px
+    line-height: 1.3
+
+    a
+      color: $color-text-primary
+      text-decoration: none
+
+      &:hover,
+      &:focus-visible
+        color: $color-primary-text
+        text-decoration: underline
+
+  p.theme-answer
+    margin: 0 0 $spacing-md
+    padding: 0
+    font-size: 20px
+    line-height: 1.5
+
+  ul.theme-papers
+    list-style: none
+    margin: 0 0 $spacing-md
+    padding: 0
+
+    li
+      list-style: none
+      margin: 0 0 $spacing-sm
+      padding: 0
+      font-size: 17px
+      line-height: 1.4
+
+    .study-type
+      margin-left: $spacing-sm
+      color: $color-text-muted
+      font-size: 0.7rem
+
+  p.theme-more
+    margin: 0
+    padding: 0
+    font-size: 17px
+    line-height: 1.4
+    font-weight: 500
+
+    a::after
+      content: " →"
+
+// Phones: the thumbnail sits beside the label and question; everything else runs full width.
 @media (max-width: 600px)
-  .theme-card
-    flex-direction: column
-  
-  .theme-card-image
-    flex: 0 0 auto
-    
-    img
-      width: 100%
-      height: 180px
-      border-radius: 5px 5px 0 0
+  .post .post-content .theme-index
+    > li.theme-entry
+      display: grid
+      grid-template-columns: 56px 1fr
+      gap: 0 $spacing-md
+      align-items: start
+
+    .theme-entry-image
+      grid-row: 1 / span 2
+      width: 56px
+      height: 56px
+
+    .theme-entry-body
+      display: contents
+
+    .paper-meta,
+    h2
+      grid-column: 2
+
+    p.theme-answer,
+    ul.theme-papers,
+    p.theme-more
+      grid-column: 1 / -1
+
+    p.theme-answer
+      margin-top: $spacing-md
+
+    h2
+      font-size: 22px
+
+    p.theme-answer
+      font-size: 18px

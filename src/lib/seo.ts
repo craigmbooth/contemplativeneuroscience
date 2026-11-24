@@ -267,6 +267,14 @@ export function paperSchema(post: Post) {
   };
 }
 
+/** Glossary terms a post links to, in order of first mention. */
+export function postGlossaryTerms(post: Post) {
+  const definitions = definitionsByTerm();
+  return [...new Set([...postHtml(post).matchAll(/href="\/glossary\/#([^"]+)"/g)].map((m) => m[1]))]
+    .map((term) => definitions.get(term))
+    .filter((d): d is NonNullable<typeof d> => Boolean(d));
+}
+
 /**
  * Article structured data for a paper summary.
  * - headline: the title, or seo_title when the title exceeds Google's 110-char limit
@@ -278,18 +286,13 @@ export function paperSchema(post: Post) {
  */
 export async function articleSchema(post: Post, path: string) {
   const { data } = post;
-  const html = postHtml(post);
-
   let headline = data.title;
   if (headline.length > 110) headline = truncate(data.seo_title || data.title, 110);
 
   const image = absoluteUrl(postImage(post).src);
   const paper = paperSchema(post);
 
-  const definitions = definitionsByTerm();
-  const terms = [...new Set([...html.matchAll(/href="\/glossary\/#([^"]+)"/g)].map((m) => m[1]))]
-    .map((term) => definitions.get(term))
-    .filter((d): d is NonNullable<typeof d> => Boolean(d));
+  const terms = postGlossaryTerms(post);
   const keywords = terms.map((d) => d.title);
   const sections = (await themesForPost(post)).map((t: Theme) => t.data.title);
 

@@ -30,6 +30,13 @@ export const themeUrl = (theme: Theme) => `/themes/${theme.data.theme_key}/`;
 export const themeImage = (theme: Theme) =>
   `/assets/images/themes/${theme.data.theme_key}.${theme.data.image_format ?? 'png'}`;
 /** 240px WebP version of the theme image, for small cards. */
+/**
+ * A theme's short answer to its question: the bold sentence that opens its
+ * research_summary ("**Yes: meditation can bring difficult experiences...**").
+ */
+export const themeShortAnswer = (theme: Theme): string | undefined =>
+  theme.data.research_summary?.match(/^\s*\*\*(.+?)\*\*/)?.[1];
+
 export const themeThumb = (theme: Theme) => `/assets/images/themes/thumbs/${theme.data.theme_key}.webp`;
 
 /** "November 23, 2026" (dates are stored as UTC midnight). */
