@@ -4,7 +4,7 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Footer from '../components/Footer.astro';
 import PaperMeta from '../components/PaperMeta.astro';
-import { breadcrumbSchema, metaDescription, pageTitle } from '../lib/seo';
+import { breadcrumbSchema, collectionPageSchema, htmlToText, metaDescription, pageTitle } from '../lib/seo';
 import { publicImageSize } from '../lib/images.js';
 import { markdownify, postsForTheme, postUrl, themeImage, themeUrl, type Theme } from '../lib/content';
 
@@ -19,7 +19,15 @@ const image = { src: themeImage(theme), ...publicImageSize(themeImage(theme), pa
 const descriptionHtml = await markdownify(data.theme_description);
 const summaryHtml = await markdownify(data.research_summary);
 const citations = await Promise.all(posts.map((post) => markdownify(post.data.citation)));
+const description = metaDescription({ metaDescription: data.meta_description, themeDescription: data.theme_description });
 const schemas = [
+  collectionPageSchema({
+    path,
+    name: data.title,
+    description,
+    abstract: summaryHtml ? htmlToText(summaryHtml) : undefined,
+    items: posts.map((post) => ({ name: post.data.title, path: postUrl(post) })),
+  }),
   breadcrumbSchema([
     { name: 'Research Themes', path: '/themes/' },
     { name: data.title, path },
@@ -28,7 +36,7 @@ const schemas = [
 ---
 <BaseLayout
   title={pageTitle(data.title)}
-  description={metaDescription({ metaDescription: data.meta_description, themeDescription: data.theme_description })}
+  description={description}
   path={path}
   share={{ image: image.src }}
   schemas={schemas}

@@ -1,9 +1,17 @@
 ---
 title:  "A Wandering Mind Is an Unhappy Mind"
+paper_title: "A Wandering Mind Is an Unhappy Mind"
 last_modified_at: 2026-11-23
 date:   2024-03-21
 theme: mind-wandering
 doi: 10.1126/science.1192439
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Killingsworth, M. A.", "Gilbert, D. T."]
+  journal: "Science"
+  year: 2010
+  volume: "330"
+  issue: "6006"
+  pages: "932"
 meta_description: "A smartphone study of thousands of people found minds wander 47% of the time, and wandering predicts lower happiness whatever people are doing."
 snippet: "How often do our minds wander, and does it affect how happy we are? Researchers used an iPhone app to ask 2,250 adults, at random moments, what they were doing, what they were thinking about and how they felt. Minds wandered almost half the time, and people were less happy when their minds wandered than when they were focused. What people were thinking about predicted their happiness better than what they were doing."
 citation: "Killingsworth, M. A., & Gilbert, D. T. (2010). A Wandering Mind Is an Unhappy Mind. In *Science* (Vol. 330, Issue 6006, pp. 932–932). American Association for the Advancement of Science (AAAS). [10.1126/science.1192439](https://doi.org/10.1126/science.1192439)"

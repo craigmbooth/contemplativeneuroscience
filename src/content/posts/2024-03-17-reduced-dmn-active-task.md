@@ -5,6 +5,13 @@ seo_title: "Meditation Reduces Default Mode Network Activity"
 date:   2024-03-17
 theme: mind-wandering
 doi: 10.3758/s13415-015-0358-3
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Garrison, K. A.", "Zeffiro, T. A.", "Scheinost, D.", "Constable, R. T.", "Brewer, J. A."]
+  journal: "Cognitive, Affective, & Behavioral Neuroscience"
+  year: 2015
+  volume: "15"
+  issue: "3"
+  pages: "712–720"
 meta_description: "fMRI study: experienced meditators quiet the default mode network more during meditation than during an active task, a core neural effect of practice."
 snippet: "Does meditation quiet the default mode network, the brain system active when the mind wanders? Researchers scanned 20 experienced Insight meditators and 26 non-meditators during three kinds of meditation and an active thinking task. In meditators, default mode activity was lower during meditation than during the task, a contrast not seen in non-meditators. The groups were compared once, so the difference may partly reflect who chooses to meditate."
 citation: "Garrison, K. A., Zeffiro, T. A., Scheinost, D., Constable, R. T., & Brewer, J. A. (2015). Meditation leads to reduced default mode network activity beyond an active task. In *Cognitive, Affective, &amp; Behavioral Neuroscience* (Vol. 15, Issue 3, pp. 712–720). Springer Science and Business Media LLC. [10.3758/s13415-015-0358-3](https://doi.org/10.3758/s13415-015-0358-3)"

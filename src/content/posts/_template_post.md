@@ -6,6 +6,13 @@ last_modified_at:  # optional: date of last substantive revision (YYYY-MM-DD)
 date:
 theme:
 doi:
+paper:  # the summarized paper, for structured data; must agree with citation (the build checks)
+  authors: ["Surname, A. B.", "Surname, C."]  # every author, APA style
+  journal: ""
+  year:
+  volume: ""  # optional
+  issue: ""  # optional
+  pages: ""  # optional: page range (5–16) or article number (e0176239)
 meta_description: ""  # <= 155 chars
 snippet: ""  # shown as "In brief" at the top of the post; state the main finding
 citation: ""

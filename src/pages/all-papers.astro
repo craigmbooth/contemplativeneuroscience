@@ -3,6 +3,7 @@ import PageLayout from '../layouts/PageLayout.astro';
 import PaperMeta from '../components/PaperMeta.astro';
 import { STUDY_TYPES } from '../content.config';
 import { getPosts, markdownify, postUrl, themesForPost } from '../lib/content';
+import { collectionPageSchema } from '../lib/seo';
 
 const posts = await getPosts();
 const items = await Promise.all(
@@ -17,11 +18,17 @@ const typeCounts = STUDY_TYPES.map((type) => ({
   type,
   count: posts.filter((p) => p.data.study?.type === type).length,
 })).filter((t) => t.count > 0);
+const title = 'All Papers';
+const description =
+  'Browse, search, and sort every research summary on the site: peer-reviewed studies on meditation, mindfulness, and the brain.';
+const schema = collectionPageSchema({
+  path: '/all-papers/',
+  name: title,
+  description,
+  items: posts.map((post) => ({ name: post.data.title, path: postUrl(post) })),
+});
 ---
-<PageLayout
-  title="All Papers"
-  meta_description="Browse, search, and sort every research summary on the site: peer-reviewed studies on meditation, mindfulness, and the brain."
->
+<PageLayout title={title} meta_description={description} schemas={[schema]}>
   <p>This page provides a collection of {posts.length} research paper summaries available on the site. You can search them, sort them by title, year, or author, and filter them by type of study. Each summary offers an accessible overview of peer-reviewed research on contemplative practices and their effects on the brain, cognition, and well-being.</p>
 
   <div class="search-container">
@@ -56,13 +63,13 @@ const typeCounts = STUDY_TYPES.map((type) => ({
 
   <div class="all-papers-list">
     {items.map(({ post, citation, themes }) => (
-      <article class="post-item" data-study-type={post.data.study?.type ?? ''} itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <article class="post-item" data-study-type={post.data.study?.type ?? ''} role="article">
         <div class="article-item">
           <header class="post-header">
             <PaperMeta post={post} themes={themes} />
-            <h2 class="post-title" itemprop="name"><a href={postUrl(post)} itemprop="url">{post.data.title}</a></h2>
+            <h2 class="post-title"><a href={postUrl(post)}>{post.data.title}</a></h2>
           </header>
-          <section class="post-excerpt" itemprop="description">
+          <section class="post-excerpt">
             <p>{post.data.snippet}</p>
           </section>
           <div class="post-meta citation">

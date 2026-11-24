@@ -5,9 +5,16 @@ seo_title: "Meditation Modulates the Amygdala and Hippocampus"
 date:   2025-05-14
 theme: neurological-correlates
 doi: 10.1073/pnas.2409423122
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Maher, C.", "Tortolero, L.", "Jun, S.", "Cummins, D. D.", "Saad, A.", "Young, J.", "Nunez Martinez, L.", "Schulman, Z.", "Marcuse, L.", "Waters, A.", "Mayberg, H. S.", "Davidson, R. J.", "Panov, F.", "Saez, I."]
+  journal: "Proceedings of the National Academy of Sciences"
+  year: 2025
+  volume: "122"
+  issue: "6"
+  pages: "e2409423122"
 meta_description: "Loving-kindness meditation boosts gamma activity in the amygdala and hippocampus, showing rapid emotional brain modulation even in first-time meditators."
 snippet: "What happens deep inside the brain during loving-kindness meditation? Researchers recorded from electrodes implanted in the brains of 8 people during ten minutes of loving-kindness meditation. A single session raised gamma activity in the amygdala and hippocampus, regions tied to emotion and memory, even in people new to meditation. With eight participants and one short session, the findings need confirming."
-citation: "Maher, C., Tortolero, L., Jun, S., Cummins, D. D., Saad, A., Young, J., Nunez Martinez, L., Schulman, Z., Marcuse, L., Waters, A., Mayberg, H. S., Davidson, R. J., Panov, F., & Saez, I. (2025). Intracranial substrates of meditation-induced neuromodulation in the amygdala and hippocampus. Proceedings of the National Academy of Sciences, 122(6). [10.1073/pnas.2409423122](https://doi.org/10.1073/pnas.2409423122)"
+citation: "Maher, C., Tortolero, L., Jun, S., Cummins, D. D., Saad, A., Young, J., Nunez Martinez, L., Schulman, Z., Marcuse, L., Waters, A., Mayberg, H. S., Davidson, R. J., Panov, F., & Saez, I. (2025). Intracranial substrates of meditation-induced neuromodulation in the amygdala and hippocampus. Proceedings of the National Academy of Sciences, 122(6), e2409423122. [10.1073/pnas.2409423122](https://doi.org/10.1073/pnas.2409423122)"
 
 study:
   type: "Experiment"

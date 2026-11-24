@@ -5,6 +5,12 @@ seo_title: "Expert Meditators, Pain, and the Anterior Insula"
 date:   2024-04-03
 theme: biological-health
 doi: 10.1016/j.neuroimage.2012.09.030
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Lutz, A.", "McFarlin, D. R.", "Perlman, D. M.", "Salomons, T. V.", "Davidson, R. J."]
+  journal: "NeuroImage"
+  year: 2013
+  volume: "64"
+  pages: "538–546"
 meta_description: "Expert meditators rate pain as less unpleasant than novices, though no less intense, linked to salience-network activity and faster habituation."
 snippet: "Does meditation make pain hurt less, or just bother you less? Researchers compared 14 long-term Buddhist practitioners (over 10,000 hours of practice) with 14 novices as they received painful heat in a brain scanner. Both groups rated the pain as similarly intense, but the experts found it less unpleasant, showed more activity in the brain's salience network during pain, and got used to repeated pain faster."
 citation: "Lutz, A., McFarlin, D. R., Perlman, D. M., Salomons, T. V., & Davidson, R. J. (2013). Altered anterior insula activation during anticipation and experience of painful stimuli in expert meditators. In *NeuroImage* (Vol. 64, pp. 538–546). Elsevier BV. [10.1016/j.neuroimage.2012.09.030](https://doi.org/10.1016/j.neuroimage.2012.09.030)"

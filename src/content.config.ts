@@ -50,6 +50,17 @@ const posts = defineCollection({
       .nullish()
       .transform((t) => (t == null ? [] : Array.isArray(t) ? t : [t])),
     doi: optionalString,
+    /** The summarized paper, field by field (structured data). Must agree with `citation`. */
+    paper: z.object({
+      /** APA style, "Surname, I. I.", every author in order. */
+      authors: z.array(z.string().regex(/^[^,]+, [^,]+$/, 'write each author as "Surname, I. I."')).min(1),
+      journal: z.string(),
+      year: z.number().int(),
+      volume: z.coerce.string().optional(),
+      issue: z.coerce.string().optional(),
+      /** Page range ("5–16") or article number ("e0176239"). */
+      pages: z.coerce.string().optional(),
+    }),
     meta_description: metaDescription,
     snippet: optionalString,
     /** Markdown citation shown at the end of the post. */
@@ -69,8 +80,23 @@ const posts = defineCollection({
         limitations: z.string(),
       })
       .optional(),
-  }),
+  }).superRefine(checkPaperMatchesCitation),
 });
+
+/** Catch `paper` drifting from the human-readable citation (two copies of the same facts). */
+function checkPaperMatchesCitation(
+  data: { citation?: string; paper: { authors: string[]; journal: string; year: number; volume?: string; issue?: string; pages?: string } },
+  ctx: z.RefinementCtx,
+) {
+  if (!data.citation) return;
+  const cite = data.citation.replace(/&amp;/g, '&').toLowerCase();
+  const { authors, journal, year, volume, pages } = data.paper;
+  const expected = [...authors.map((a) => a.split(',')[0]), `(${year})`, journal, volume, pages];
+  const missing = expected.filter((s): s is string => !!s && !cite.includes(s.toLowerCase()));
+  if (missing.length > 0) {
+    ctx.addIssue({ code: 'custom', path: ['paper'], message: `paper doesn't match citation; citation lacks: ${missing.join(', ')}` });
+  }
+}
 
 // Research themes, served at /themes/<theme_key>/.
 const themes = defineCollection({

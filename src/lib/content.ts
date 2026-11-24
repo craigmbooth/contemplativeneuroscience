@@ -1,3 +1,4 @@
+import { site } from '../site';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 import { SMARTYPANTS_OPTIONS } from './remark-glossary-terms.js';
@@ -15,6 +16,13 @@ export async function getPosts(): Promise<Post[]> {
 export async function getThemes(): Promise<Theme[]> {
   const themes = await getCollection('themes');
   return themes.sort((a, b) => a.id.localeCompare(b.id));
+}
+
+/** Themes in the order the home page asks them as questions (site.themeOrder). */
+export async function themesInOrder(): Promise<Theme[]> {
+  const order: readonly string[] = site.themeOrder;
+  const rank = (key: string) => order.indexOf(key) + 1 || order.length + 1;
+  return [...(await getThemes())].sort((a, b) => rank(a.data.theme_key) - rank(b.data.theme_key));
 }
 
 export const postUrl = (post: Post) => `/${post.id}/`;

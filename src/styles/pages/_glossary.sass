@@ -58,10 +58,11 @@
   &.expanded
     border-radius: 4px 4px 0 0
   
-  i
+  .caret
+    flex: none
     transition: transform $transition-normal
-    
-  &.expanded i
+
+  &.expanded .caret
     transform: rotate(180deg)
   
   span

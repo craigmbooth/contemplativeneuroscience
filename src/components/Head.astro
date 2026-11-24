@@ -5,6 +5,8 @@ import { xmlSchemaDate } from '../lib/content';
 import { publicImageSize } from '../lib/images.js';
 
 export interface Props {
+  /** Keep this page out of search results (the 404 page). */
+  noindex?: boolean;
   /** Full <title> text (see pageTitle()). */
   title: string;
   description: string;
@@ -16,7 +18,7 @@ export interface Props {
   schemas?: unknown[];
 }
 
-const { title, description, path, share = {}, schemas = [] } = Astro.props;
+const { title, description, path, share = {}, schemas = [], noindex = false } = Astro.props;
 const url = absoluteUrl(path);
 const imagePath = share.image ?? site.logo;
 const image = absoluteUrl(imagePath);
@@ -63,7 +65,7 @@ const shareTitle = share.title ?? title;
   )}
 
   <meta name="author" content={site.author}>
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'}>
   <meta name="theme-color" content="#ffffff">
 
   <link rel="canonical" href={url} />
@@ -74,14 +76,14 @@ const shareTitle = share.title ?? title;
   <link rel="manifest" href="/site.webmanifest">
 
   <!-- Preconnect to external domains to improve performance -->
-  <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://assets.mailerlite.com" crossorigin>
   <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
 
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  {/* Only the styles the CSS uses: Jost 400–700 (body, with italics for captions and quotes),
+      Merriweather 400 and 700 (headings). */}
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400..700;1,400..700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Stylesheets are compiled from src/styles/ by src/pages/css/[name].css.ts -->
   <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />

@@ -64,7 +64,7 @@ Copy `src/content/posts/_template_post.md`. Glossary tooltips use markdown direc
 
 An unknown term id fails the build, and so does an unknown theme key or an image path that is not in `public/`. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
 
-Front matter: `title` (a plain-language headline stating the finding, not the paper's title), `paper_title` (the paper's own title; used in structured data and All Papers search), `date`, `theme` (one key or a list), `doi`, `meta_description` (≤ 155 chars; over 160 fails the build), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
+Front matter: `title` (a plain-language headline stating the finding, not the paper's title), `paper_title` (the paper's own title; used in structured data and All Papers search), `date`, `theme` (one key or a list), `doi`, `paper` (the paper field by field: `authors` as APA "Surname, I. I." strings, `journal`, `year`, optional `volume`, `issue`, `pages`; the build fails if these don't all appear in `citation`), `meta_description` (≤ 155 chars; over 160 fails the build), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
 
 `study.type` is a short listing label from the fixed `STUDY_TYPES` list in `src/content.config.ts` (e.g. "Randomized trial", "Meta-analysis", "Survey"); anything else fails the build. Themes need a `short_title` (listing label, e.g. "Sleep") and a `question` (the theme as a reader's question, shown on the home page).
 
@@ -82,6 +82,8 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Semantic variables live in `src/styles/_variables.sass` — check there before adding colors or dimensions.
 - Text must meet WCAG AA contrast (4.5:1). Use `$color-primary-text` (not `$color-primary`) for pink text and `$color-text-muted` (#767676) as the lightest grey for text; `$color-primary` is for borders and backgrounds.
 - Dart Sass deprecation warnings (`@import`, Bourbon's old syntax) are silenced in `pages/css/[name].css.ts`; Dart Sass 3 will require migrating to `@use` and dropping Bourbon.
+- Fonts: Google Fonts loads only Jost 400–700 (with italics) and Merriweather 400/700 (`Head.astro`). Using another weight or Merriweather italic means adding it to that URL, or the browser fakes it.
+- No icon font: icons are small inline SVGs (footer RSS, glossary caret).
 - Breakpoints: 768px, 800px, 1024px; the slim bar's menu collapses into the hamburger below 960px (`$breakpoint-menu`).
 
 ## Gotchas
@@ -100,6 +102,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Posts and pages use the narrower reading column (`.content.reading`, `$content-reading-width`); the home page keeps the full width.
 - Listings show a `PaperMeta` line (date, study type, theme links); All Papers can filter by study type.
 - The home page has a hand-picked "Start Here" set (`site.startHere` in `src/site.ts`; an unknown slug fails the build), the themes as questions (order set in `pages/index.astro`, thumbnails in `public/assets/images/themes/thumbs/`, 240px WebP), and the 5 newest papers with date, study type and theme; every post ends with up to 4 Related Papers (`relatedPosts()`: papers sharing a theme, nearest in date first, so links spread across the archive) plus links to its theme pages.
+- The 404 page (`pages/404.astro`, noindex) offers a search that opens All Papers with `?q=`, which All Papers applies on load, plus the Start Here papers and the theme questions (`site.themeOrder`, shared with the home page).
 - `<title>` gets the " | Contemplative Neuroscience" suffix only when the result is ≤ 60 characters.
 
 ## Email Sign-up
@@ -113,6 +116,9 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Theme pages show a "What the Research Says" synthesis from the theme's `research_summary` (markdown); update it when a paper is added to the theme.
 - Post template headings: Background Information, What They Did, `One Big Result: <the finding>`, Miscellaneous Interesting Takeaways. The One Big Result heading should state the result.
 - `/llms.txt` and `/llms-full.txt` are generated from the collections at build time; don't hand-edit them.
+- Each post's Article says it `isBasedOn` the paper: a ScholarlyArticle identified by its DOI URL, with authors, journal, volume, issue and pages from the `paper` front matter (`paperSchema()`).
+- Theme pages, All Papers and Research Themes are `CollectionPage`s whose `mainEntity` is an `ItemList` of the pages they list; a theme's `abstract` is its "What the Research Says" text. The home page's WebSite has a `SearchAction` pointing at `/all-papers/?q=`.
+- Structured data is JSON-LD only (no microdata). Check changes with https://validator.schema.org/ and Google's Rich Results Test.
 - Structured data uses one author entity (`authorSchema()`, `@id` /about/#author) with `sameAs` links from `site.authorProfiles`; posts list the glossary terms they cover as `mentions`, and the glossary is a `DefinedTermSet` tied to Wikipedia.
 
 ## Share Cards and Images

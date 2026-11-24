@@ -13,15 +13,15 @@ export interface Props {
   share?: ShareMeta;
   schemas?: unknown[];
   wrapped?: boolean;
-  /** Legacy body-level microdata used by the "page" layout. */
-  bodyItemtype?: string;
+  /** Keep this page out of search results. */
+  noindex?: boolean;
 }
-const { title, description, path, share, schemas, wrapped = false, bodyItemtype } = Astro.props;
+const { title, description, path, share, schemas, wrapped = false, noindex } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
-  <Head title={title} description={description} path={path} share={share} schemas={schemas} />
-  <body itemscope={bodyItemtype ? true : undefined} itemtype={bodyItemtype}>
+  <Head title={title} description={description} path={path} share={share} schemas={schemas} noindex={noindex} />
+  <body>
     <Header path={path} />
     {wrapped ? (
       <div class="page-content">

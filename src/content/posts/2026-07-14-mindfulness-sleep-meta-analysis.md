@@ -5,6 +5,13 @@ seo_title: "Mindfulness and Sleep Quality: A Meta-Analysis of 18 Trials"
 date: 2026-07-14
 theme: sleep
 doi: 10.1111/nyas.13996
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Rusch, H. L.", "Rosario, M.", "Levison, L. M.", "Olivera, A.", "Livingston, W. S.", "Wu, T.", "Gill, J. M."]
+  journal: "Annals of the New York Academy of Sciences"
+  year: 2019
+  volume: "1445"
+  issue: "1"
+  pages: "5–16"
 meta_description: "A meta-analysis of 18 trials found mindfulness improved sleep more than matched classes, with no clear difference from established sleep treatments."
 snippet: "Can mindfulness help people whose sleep is genuinely troubled? This meta-analysis pooled 18 randomized trials with 1,654 adults with clinically significant sleep problems. Mindfulness programs improved self-reported sleep quality more than time-matched classes: a small effect right after the programs and a medium one 5–12 months later, though only three trials measured that. Against established sleep treatments such as CBT-I, there was no clear difference."
 citation: "Rusch, H. L., Rosario, M., Levison, L. M., Olivera, A., Livingston, W. S., Wu, T., & Gill, J. M. (2019). The effect of mindfulness meditation on sleep quality: A systematic review and meta-analysis of randomized controlled trials. *Annals of the New York Academy of Sciences*, 1445(1), 5–16. [10.1111/nyas.13996](https://doi.org/10.1111/nyas.13996)"

@@ -1,0 +1,63 @@
+---
+// Served by GitHub Pages for any missing URL. Kept out of search results.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Footer from '../components/Footer.astro';
+import PaperMeta from '../components/PaperMeta.astro';
+import { pageTitle } from '../lib/seo';
+import { site } from '../site';
+import { postsBySlug, postUrl, themesInOrder, themeUrl } from '../lib/content';
+
+const startHere = await postsBySlug(site.startHere);
+const themes = await themesInOrder();
+---
+<BaseLayout
+  title={pageTitle('Page Not Found')}
+  description="This page doesn't exist. Search the summaries or start with one of these."
+  path="/404.html"
+  noindex
+>
+  <main class="content reading not-found" role="main">
+    <article class="post">
+      <div class="noarticleimage">
+        <div class="post-meta">
+          <h1 class="post-title">Page Not Found</h1>
+        </div>
+      </div>
+
+      <section class="post-content">
+        <p>There's nothing at this address. The link may have a typo, or the page may have moved.</p>
+
+        <form class="not-found-search" action="/all-papers/" method="get" role="search">
+          <label for="not-found-q">Search the summaries</label>
+          <div class="not-found-search-row">
+            <input id="not-found-q" type="search" name="q" placeholder="For example: sleep, gamma, telomeres">
+            <button type="submit">Search</button>
+          </div>
+        </form>
+
+        <h2>Good Places to Start</h2>
+        <ul class="not-found-list">
+          {startHere.map((post) => (
+            <li>
+              <PaperMeta post={post} />
+              <a href={postUrl(post)}>{post.data.title}</a>
+            </li>
+          ))}
+        </ul>
+
+        <h2>Explore by Question</h2>
+        <ul class="not-found-list">
+          {themes.map((theme) => (
+            <li><a href={themeUrl(theme)}>{theme.data.question}</a></li>
+          ))}
+        </ul>
+
+        <p>
+          Or go to the <a href="/">home page</a>, browse <a href="/all-papers/">all the papers</a>, or look up a term in
+          the <a href="/glossary/">glossary</a>.
+        </p>
+      </section>
+    </article>
+  </main>
+  <Footer />
+</BaseLayout>

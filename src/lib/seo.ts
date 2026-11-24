@@ -86,7 +86,67 @@ export function websiteSchema(description: string) {
     inLanguage: 'en',
     publisher: publisherSchema(),
     author: authorSchema(),
+    // All Papers applies ?q= on load (scripts/all-papers.js).
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: absoluteUrl('/all-papers/?q={search_term_string}') },
+      'query-input': 'required name=search_term_string',
+    },
   };
+}
+
+const websiteRef = () => ({ '@id': absoluteUrl('/#website') });
+
+/**
+ * A listing page (a theme, All Papers, Research Themes) as a CollectionPage
+ * whose main entity is the ordered list of pages it links to.
+ */
+export function collectionPageSchema(opts: {
+  path: string;
+  name: string;
+  description: string;
+  /** Plain-text synthesis of the collection (a theme's "What the Research Says"). */
+  abstract?: string;
+  items: { name: string; path: string }[];
+}) {
+  const url = absoluteUrl(opts.path);
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': url,
+    url,
+    name: opts.name,
+    description: opts.description,
+    ...(opts.abstract && { abstract: opts.abstract }),
+    inLanguage: 'en',
+    isPartOf: websiteRef(),
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: opts.items.length,
+      itemListElement: opts.items.map((item, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: item.name,
+        url: absoluteUrl(item.path),
+      })),
+    },
+  };
+}
+
+/** Rendered HTML to one line of plain text (for abstracts). */
+export function htmlToText(html: string): string {
+  return html
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+    .replace(/\s+/g, ' ')
+    .replace(/ ([.,;:!?)])/g, '$1')
+    .replace(/([(]) /g, '$1')
+    .trim();
 }
 
 /** About page: a profile page about the author. */
@@ -173,6 +233,40 @@ export function postImage(post: Post): { src: string; alt?: string } {
   return { src: site.logo };
 }
 
+/** "Surname, I. I." (APA, as in front matter) as a schema.org Person. */
+function paperAuthor(apa: string) {
+  const [familyName, givenName] = apa.split(', ');
+  return { '@type': 'Person', name: `${givenName} ${familyName}`, givenName, familyName };
+}
+
+/**
+ * The summarized paper as a ScholarlyArticle, identified by its DOI URL, with
+ * its authors and journal (Periodical > PublicationVolume > PublicationIssue).
+ */
+export function paperSchema(post: Post) {
+  const { data } = post;
+  const { paper } = data;
+  const doiUrl = data.doi ? `https://doi.org/${data.doi}` : undefined;
+  let container: Record<string, unknown> = { '@type': 'Periodical', name: paper.journal };
+  if (paper.volume) container = { '@type': 'PublicationVolume', volumeNumber: paper.volume, isPartOf: container };
+  if (paper.issue) container = { '@type': 'PublicationIssue', issueNumber: paper.issue, isPartOf: container };
+  return {
+    '@type': 'ScholarlyArticle',
+    ...(doiUrl && { '@id': doiUrl }),
+    headline: data.paper_title ?? data.title,
+    name: data.paper_title ?? data.title,
+    author: paper.authors.map(paperAuthor),
+    datePublished: String(paper.year),
+    isPartOf: container,
+    ...(paper.pages && { pagination: paper.pages }),
+    ...(data.doi && {
+      identifier: { '@type': 'PropertyValue', propertyID: 'DOI', value: data.doi },
+      url: doiUrl,
+      sameAs: doiUrl,
+    }),
+  };
+}
+
 /**
  * Article structured data for a paper summary.
  * - headline: the title, or seo_title when the title exceeds Google's 110-char limit
@@ -180,6 +274,7 @@ export function postImage(post: Post): { src: string; alt?: string } {
  * - dateModified: last_modified_at, else the post date
  * - keywords / mentions: glossary terms the post links to (mentions as DefinedTerms)
  * - articleSection: display names of the post's themes
+ * - isBasedOn: the paper (see paperSchema())
  */
 export async function articleSchema(post: Post, path: string) {
   const { data } = post;
@@ -189,6 +284,7 @@ export async function articleSchema(post: Post, path: string) {
   if (headline.length > 110) headline = truncate(data.seo_title || data.title, 110);
 
   const image = absoluteUrl(postImage(post).src);
+  const paper = paperSchema(post);
 
   const definitions = definitionsByTerm();
   const terms = [...new Set([...html.matchAll(/href="\/glossary\/#([^"]+)"/g)].map((m) => m[1]))]
@@ -212,15 +308,12 @@ export async function articleSchema(post: Post, path: string) {
     ...(sections.length > 0 && { articleSection: sections }),
     ...(keywords.length > 0 && { keywords }),
     ...(terms.length > 0 && { mentions: terms.map((d) => definedTerm(d)) }),
-    ...(data.doi && {
-      citation: {
-        '@type': 'ScholarlyArticle',
-        name: data.paper_title ?? data.title,
-        identifier: data.doi,
-        url: `https://doi.org/${data.doi}`,
-      },
-    }),
+    // The summary is based on (and cites) the paper; citation refers to it by @id.
+    isBasedOn: paper,
+    ...(data.doi && { citation: { '@id': `https://doi.org/${data.doi}` } }),
     ...(data.snippet && { abstract: stripNewlines(stripHtml(data.snippet)) }),
+    inLanguage: 'en',
+    isPartOf: websiteRef(),
     isAccessibleForFree: true,
   };
 }

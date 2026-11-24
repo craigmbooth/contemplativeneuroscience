@@ -172,4 +172,11 @@ document.addEventListener('DOMContentLoaded', function() {
       performSearch();
     }
   });
+
+  // A search handed over in the URL (?q=...), e.g. from the 404 page.
+  const query = new URLSearchParams(window.location.search).get('q');
+  if (query) {
+    searchInput.value = query;
+    performSearch();
+  }
 });

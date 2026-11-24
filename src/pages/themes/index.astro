@@ -2,6 +2,7 @@
 import PageLayout from '../../layouts/PageLayout.astro';
 import { getThemes, postsForTheme, themeImage, themeUrl } from '../../lib/content';
 import { publicImageSize } from '../../lib/images.js';
+import { collectionPageSchema } from '../../lib/seo';
 
 const themes = await getThemes();
 const cards = await Promise.all(
@@ -11,11 +12,17 @@ const cards = await Promise.all(
     image: { src: themeImage(theme), ...publicImageSize(themeImage(theme), '/themes/') },
   })),
 );
+const title = 'Research Themes';
+const description =
+  'Research themes in contemplative neuroscience: brain activity, mind wandering, physical health, sleep, and the adverse effects of meditation.';
+const schema = collectionPageSchema({
+  path: '/themes/',
+  name: title,
+  description,
+  items: themes.map((theme) => ({ name: theme.data.title, path: themeUrl(theme) })),
+});
 ---
-<PageLayout
-  title="Research Themes"
-  meta_description="Research themes in contemplative neuroscience: brain activity, mind wandering, physical health, sleep, and the adverse effects of meditation."
->
+<PageLayout title={title} meta_description={description} schemas={[schema]}>
   <p>This collection organizes research papers into thematic categories that represent key areas of investigation in contemplative neuroscience. While research papers are often categorized by methodology or specific results, these themes help highlight broader questions and areas of inquiry that span multiple studies and approaches.</p>
 
   <p>Each theme represents a significant aspect of how contemplative practices interact with brain function, cognition, or health. By grouping papers this way, we hope to facilitate deeper understanding of the patterns and consistencies emerging across different research efforts.</p>

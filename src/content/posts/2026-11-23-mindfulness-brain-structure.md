@@ -1,9 +1,17 @@
 ---
 title: "Eight Weeks of Mindfulness Training Produced No Measurable Changes in Brain Structure"
+paper_title: "Absence of structural brain changes from mindfulness-based stress reduction: Two combined randomized controlled trials"
 seo_title: "No Brain Structure Changes After Eight Weeks of MBSR"
 date: 2026-11-23
 theme: neurological-correlates
 doi: 10.1126/sciadv.abk3316
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Kral, T. R. A.", "Davis, K.", "Korponay, C.", "Hirshberg, M. J.", "Hoel, R.", "Tello, L. Y.", "Goldman, R. I.", "Rosenkranz, M. A.", "Lutz, A.", "Davidson, R. J."]
+  journal: "Science Advances"
+  year: 2022
+  volume: "8"
+  issue: "20"
+  pages: "eabk3316"
 meta_description: "A large randomized trial found that eight weeks of mindfulness-based stress reduction produced no measurable changes in brain structure."
 snippet: "Does an eight-week mindfulness course physically reshape the brain? Researchers pooled two randomized trials and scanned 218 newcomers to meditation before and after Mindfulness-Based Stress Reduction (MBSR), a matched wellness program, or a waitlist. They found no evidence that MBSR changed gray matter compared with either control group, including in the regions earlier studies had highlighted."
 citation: "Kral, T. R. A., Davis, K., Korponay, C., Hirshberg, M. J., Hoel, R., Tello, L. Y., Goldman, R. I., Rosenkranz, M. A., Lutz, A., & Davidson, R. J. (2022). Absence of structural brain changes from mindfulness-based stress reduction: Two combined randomized controlled trials. *Science Advances*, 8(20), eabk3316. [10.1126/sciadv.abk3316](https://doi.org/10.1126/sciadv.abk3316)"

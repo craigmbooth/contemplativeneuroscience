@@ -5,6 +5,13 @@ seo_title: "Intensive Meditation Training and Telomerase Activity"
 date:   2024-04-07
 theme: biological-health
 doi:
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Jacobs, T. L.", "Epel, E. S.", "Lin, J.", "Blackburn, E. H.", "Wolkowitz, O. M.", "Bridwell, D. A.", "Zanesco, A. P.", "Aichele, S. R.", "Sahdra, B. K.", "MacLean, K. A.", "King, B. G.", "Shaver, P. R.", "Rosenberg, E. L.", "Ferrer, E.", "Wallace, B. A.", "Saron, C. D."]
+  journal: "Psychoneuroendocrinology"
+  year: 2011
+  volume: "36"
+  issue: "5"
+  pages: "664–681"
 meta_description: "A three-month meditation retreat raised immune-cell telomerase, a marker of cellular aging, with gains tied to purpose in life and perceived control."
 snippet: "Can an intensive meditation retreat affect an enzyme tied to cellular aging? Researchers compared 30 people on a three-month retreat with 30 matched people on a wait-list. After the retreat, the meditators had higher activity of telomerase, which helps protect chromosomes, along with more purpose in life, a greater sense of control and lower neuroticism. Telomerase was measured only after the retreat, so the study shows a link, not proof of cause."
 citation: Jacobs, T. L., Epel, E. S., Lin, J., Blackburn, E. H., Wolkowitz, O. M., Bridwell, D. A., Zanesco, A. P., Aichele, S. R., Sahdra, B. K., MacLean, K. A., King, B. G., Shaver, P. R., Rosenberg, E. L., Ferrer, E., Wallace, B. A., & Saron, C. D. (2011). Intensive meditation training, immune cell telomerase activity, and psychological mediators. In *Psychoneuroendocrinology* (Vol. 36, Issue 5, pp. 664–681). Elsevier BV. [10.1016/j.psyneuen.2010.09.010](https://doi.org/10.1016/j.psyneuen.2010.09.010)

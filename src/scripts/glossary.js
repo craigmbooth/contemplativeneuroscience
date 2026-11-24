@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const hash = window.location.hash.substring(1);
   if (hash) {
     const relatedArticlesElement = document.getElementById(`related-articles-${hash}`);
-    const caretIcon = document.getElementById(`caret-${hash}`);
 
     if (relatedArticlesElement) {
       relatedArticlesElement.classList.add('visible');

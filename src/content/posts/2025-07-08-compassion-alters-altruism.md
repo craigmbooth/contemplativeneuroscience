@@ -5,6 +5,13 @@ seo_title: "Compassion Training Alters Altruism and Neural Responses"
 date: 2025-07-08
 theme: neurological-correlates
 doi: 10.1177/0956797612469537
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Weng, H. Y.", "Fox, A. S.", "Shackman, A. J.", "Stodola, D. E.", "Caldwell, J. Z. K.", "Olson, M. C.", "Rogers, G. M.", "Davidson, R. J."]
+  journal: "Psychological Science"
+  year: 2013
+  volume: "24"
+  issue: "7"
+  pages: "1171–1180"
 meta_description: "Two weeks of compassion training increased altruistic giving and changed brain responses to suffering, suggesting compassion is a trainable skill."
 snippet: "Can a short course in compassion make people more generous? In a randomized trial, adults new to meditation practiced either compassion or reappraisal, a different emotion-regulation technique, for 30 minutes a day for two weeks. Afterwards, the compassion group gave nearly twice as much money to help a stranger who had been treated unfairly, and their brains responded differently to images of suffering. It is unclear how long the effect lasts."
 citation: "Weng, H. Y., Fox, A. S., Shackman, A. J., Stodola, D. E., Caldwell, J. Z. K., Olson, M. C., Rogers, G. M., & Davidson, R. J. (2013). Compassion Training Alters Altruism and Neural Responses to Suffering. Psychological Science, 24(7), 1171–1180. [10.1177/0956797612469537](https://doi.org/10.1177/0956797612469537)"

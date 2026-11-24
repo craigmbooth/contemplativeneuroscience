@@ -5,6 +5,12 @@ seo_title: "Concentration Meditation, Attention, and Inflammation"
 date:   2025-03-13
 theme: [mind-wandering, biological-health]
 doi: 10.1016/j.bbi.2020.06.034
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Shields, G. S.", "Skwara, A. C.", "King, B. G.", "Zanesco, A. P.", "Dhabhar, F. S.", "Saron, C. D."]
+  journal: "Brain, Behavior, and Immunity"
+  year: 2020
+  volume: "89"
+  pages: "256–267"
 meta_description: "A three-month retreat sharpened controlled attention but not automatic reactions to distractors, and higher inflammation predicted weaker attention."
 snippet: "Does meditation help you ignore distractions, or focus despite them? In a randomized trial, experienced meditators on a three-month concentration retreat were compared with a group waiting for a later retreat. The retreat strengthened deliberate, controlled attention, but distractions still pulled at attention automatically. Separately, participants with higher inflammation had weaker attention control, a link between the body and focus."
 citation: "Shields, G. S., Skwara, A. C., King, B. G., Zanesco, A. P., Dhabhar, F. S., & Saron, C. D. (2020). Deconstructing the effects of concentration meditation practice on interference control: The roles of controlled attention and inflammatory activity. In Brain, Behavior, and Immunity (Vol. 89, pp. 256–267). Elsevier BV. [10.1016/j.bbi.2020.06.034](https://doi.org/10.1016/j.bbi.2020.06.034)"

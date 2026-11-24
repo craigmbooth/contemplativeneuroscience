@@ -5,9 +5,15 @@ seo_title: "Meditation and Telomere Dynamics: A Case–Control Study"
 date:   2025-05-16
 theme: biological-health
 doi: 10.3389/fpsyg.2023.1222863
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Dasanayaka, N. N.", "Sirisena, N. D.", "Samaranayake, N."]
+  journal: "Frontiers in Psychology"
+  year: 2023
+  volume: "14"
+  pages: "1222863"
 meta_description: "Long-term meditators had longer telomeres, more activity in telomere-maintenance genes, and less DNA methylation than non-meditators."
 snippet: "Do long-term meditators age differently at the cellular level? Researchers compared 30 people who had meditated regularly for at least three years with 30 matched non-meditators. The meditators' telomeres, the protective caps on chromosomes, were 32% longer on average, and genes that maintain them were more active. This was a one-time comparison, so it shows an association, not that meditation lengthens telomeres."
-citation: "Dasanayaka, N. N., Sirisena, N. D., & Samaranayake, N. (2023). Associations of meditation with telomere dynamics: a case–control study in healthy adults. Frontiers in Psychology, 14. [10.3389/fpsyg.2023.1222863](https://doi.org/10.3389/fpsyg.2023.1222863)"
+citation: "Dasanayaka, N. N., Sirisena, N. D., & Samaranayake, N. (2023). Associations of meditation with telomere dynamics: a case–control study in healthy adults. Frontiers in Psychology, 14, 1222863. [10.3389/fpsyg.2023.1222863](https://doi.org/10.3389/fpsyg.2023.1222863)"
 
 study:
   type: "Comparison study"

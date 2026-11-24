@@ -4,6 +4,13 @@ paper_title: "Depersonalization and Meditation"
 date:   2025-05-11
 theme: adverse-effects
 doi: 10.1080/00332747.1990.11024497
+paper:  # the summarized paper, for structured data; must agree with citation
+  authors: ["Castillo, R. J."]
+  journal: "Psychiatry"
+  year: 1990
+  volume: "53"
+  issue: "2"
+  pages: "158–168"
 meta_description: "Why long-term meditators can experience depersonalization as calm awareness rather than distress, and how interpretation shapes the experience."
 snippet: "Can feeling detached from yourself be a calm part of meditation rather than a symptom? In this 1990 paper, R. J. Castillo interviewed six long-term Transcendental Meditation practitioners and reviewed the clinical literature. All six had experienced depersonalization, often in daily life, but generally without the anxiety seen in clinical cases. Castillo argues that how people interpret the experience shapes whether it is distressing."
 citation: "Castillo, R. J. (1990). Depersonalization and Meditation. Psychiatry, 53(2), 158–168. [10.1080/00332747.1990.11024497](https://doi.org/10.1080/00332747.1990.11024497)"

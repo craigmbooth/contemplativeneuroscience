@@ -6,11 +6,11 @@ import { websiteSchema } from '../lib/seo';
 import { site } from '../site';
 import {
   getPosts,
-  getThemes,
   postsBySlug,
   postsForTheme,
   postUrl,
   themesForPost,
+  themesInOrder,
   themeThumb,
   themeUrl,
   type Post,
@@ -19,11 +19,8 @@ import {
 const posts = await getPosts();
 const recent = posts.slice(0, 5);
 const startHere = await postsBySlug(site.startHere);
-// Questions in reading order: brain and mind first, then body and sleep, then risks.
-const questionOrder = ['neurological-correlates', 'mind-wandering', 'biological-health', 'sleep', 'adverse-effects'];
-const rank = (key: string) => (questionOrder.indexOf(key) + 1 || questionOrder.length + 1);
 const themes = await Promise.all(
-  (await getThemes()).sort((a, b) => rank(a.data.theme_key) - rank(b.data.theme_key)).map(async (theme) => ({ theme, count: (await postsForTheme(theme)).length })),
+  (await themesInOrder()).map(async (theme) => ({ theme, count: (await postsForTheme(theme)).length })),
 );
 // Study type and themes for each listed paper.
 const meta = async (post: Post) => ({ post, type: post.data.study?.type, themes: await themesForPost(post) });
