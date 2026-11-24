@@ -125,3 +125,19 @@
   title: Insula
   def: "The insula is a region of cortex folded deep inside each side of the brain. It helps represent the body's internal state (interoception) and is involved in emotion, empathy and compassion. Its front part, the anterior insula, comes up often in meditation research."
   wiki: Insular_cortex
+- term: alpha
+  title: Alpha
+  def: "Alpha waves are rhythmic electrical brain activity at roughly 8–13 cycles per second, recorded with EEG. They are often strongest when the eyes are closed and the mind is relaxed, and are thought to help filter out or hold back information as part of top-down control. Meditation studies have reported both increases and decreases in alpha, depending on the practice."
+  wiki: Alpha_wave
+- term: functional_connectivity
+  title: Functional Connectivity
+  def: "Functional connectivity is the degree to which activity in different brain regions rises and falls together over time. It is usually measured with fMRI as the correlation between regions' signals. It shows coordinated activity, not physical wiring. Researchers use it to see how brain networks such as the DMN communicate in different mental states."
+  wiki: Functional_connectivity
+- term: lempel_ziv_complexity
+  title: Lempel-Ziv Complexity
+  def: "Lempel-Ziv complexity is a measure of how varied, or unpredictable, a signal is. Applied to EEG, it counts how many distinct patterns appear in a recording: a repetitive signal scores low, and a richly varied one scores high. It is often used as a rough index of brain \"entropy\" and has been found to rise in psychedelic states."
+  wiki: Lempel–Ziv_complexity
+- term: neurophenomenology
+  title: Neurophenomenology
+  def: "Neurophenomenology is a research approach that pairs detailed first-person reports of experience with measurements of brain activity, using each to help interpret the other. Proposed by neuroscientist Francisco Varela in the 1990s, it depends on participants who can observe and describe their experience precisely, which makes experienced meditators natural collaborators."
+  wiki: Neurophenomenology
