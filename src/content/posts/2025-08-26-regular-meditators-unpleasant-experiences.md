@@ -3,6 +3,7 @@ title: "A Quarter of Regular Meditators Had a Particularly Unpleasant Experience
 paper_title: "Unpleasant meditation-related experiences in regular meditators: Prevalence, predictors, and conceptual considerations"
 seo_title: "Unpleasant Meditation Experiences in Regular Meditators"
 date: 2025-08-26
+last_modified_at: 2026-11-25
 theme: adverse-effects
 doi: 10.1371/journal.pone.0216643
 paper:  # the summarized paper, for structured data; must agree with citation
@@ -97,7 +98,7 @@ The retreat link fits with Lindahl's study, where about three-quarters of the re
 
 ### How Much People Practiced Didn't Matter
 
-Years of practice, sessions per week and session length showed no link with unpleasant experiences, and neither did mindfulness, self-compassion, age or education. That differs from Cebolla's survey, which found unwanted effects more likely in sessions over 40 minutes. It also differs from [Goldberg and colleagues' US survey](/meditation-adverse-effects-prevalence/), where more lifetime hours of practice went with more adverse effects, though not with any impairment. The samples differ. Goldberg's participants were mostly light practitioners who had tried meditation, recruited to roughly match the US population, and fewer than 7% had been on a residential retreat. Schlosser's were committed, self-selected practitioners, most of whom had been on retreat.
+Years of practice, sessions per week and session length showed no link with unpleasant experiences, and neither did mindfulness, self-compassion, age or education. The authors contrast this with [Cebolla's survey](/meditation-unwanted-effects/), which they cite as finding unwanted effects more likely in sessions over 40 minutes. Cebolla's paper actually reports only that most of the people with unwanted effects had been practicing for more than 20 minutes at a time, with no comparison against people without them. It also differs from [Goldberg and colleagues' US survey](/meditation-adverse-effects-prevalence/), where more lifetime hours of practice went with more adverse effects, though not with any impairment. The samples differ. Goldberg's participants were mostly light practitioners who had tried meditation, recruited to roughly match the US population, and fewer than 7% had been on a residential retreat. Schlosser's were committed, self-selected practitioners, most of whom had been on retreat.
 
 ### One Question Can't Say Much
 

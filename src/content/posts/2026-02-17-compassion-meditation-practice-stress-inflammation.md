@@ -1,5 +1,5 @@
 ---
-title: "Compassion Training Didn't Change Stress Responses Overall, but Students Who Practiced More Had a Smaller Inflammatory Response"
+title: "Compassion Training Didn't Change Stress Responses Overall, but More Practice Went With a Smaller IL-6 Rise"
 paper_title: "Effect of compassion meditation on neuroendocrine, innate immune and behavioral responses to psychosocial stress"
 seo_title: "Compassion Meditation, Practice Time and Stress Inflammation"
 date: 2026-02-17

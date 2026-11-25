@@ -1,5 +1,5 @@
 ---
-title: "A Three-Month Meditation Retreat Sharpened Visual Perception, Which Helped Attention Hold Up"
+title: "A Three-Month Meditation Retreat Sharpened Visual Perception"
 paper_title: "Intensive meditation training improves perceptual discrimination and sustained attention"
 seo_title: "Meditation Retreat Sharpened Perception and Vigilance"
 date: 2025-04-15
