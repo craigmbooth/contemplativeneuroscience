@@ -281,3 +281,7 @@
   title: Slow-Wave Sleep
   def: "Slow-wave sleep (SWS), often called deep sleep, is the deepest stage of non-REM sleep (stage N3, or stages 3 and 4 under older scoring rules), when the EEG is dominated by large, slow delta waves. People are hardest to wake from it. It is concentrated in the first part of the night, declines with age, and is thought to support physical restoration and memory."
   wiki: Slow-wave_sleep
+- term: self_selection_bias
+  title: Self-Selection Bias
+  def: "Self-selection bias arises when people decide for themselves whether to take part in a study, so those who do may differ from those who don't in ways that affect the results. A survey advertised as being about the unwanted effects of meditation, for example, may draw more people who have had such effects, making them look more common than they are among meditators in general."
+  wiki: Self-selection_bias
