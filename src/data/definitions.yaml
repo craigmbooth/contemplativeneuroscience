@@ -181,3 +181,15 @@
   title: Secretory IgA
   def: "Secretory immunoglobulin A (sIgA) is the main antibody in saliva, tears and the mucous linings of the gut and airways, where it forms a first line of defense against germs. Because it can be measured from a saliva sample, stress researchers use it as a marker of immune activity."
   wiki: Immunoglobulin_A
+- term: mbct
+  title: MBCT
+  def: "Mindfulness-based cognitive therapy (MBCT) is an 8-week group program that combines mindfulness meditation, adapted from Mindfulness-Based Stress Reduction (MBSR), with elements of cognitive behavioral therapy. It was developed to help people who have recovered from depression avoid relapse, by learning to notice and step back from patterns of negative thinking. Classes usually meet weekly, with daily meditation practice at home."
+  wiki: Mindfulness-based_cognitive_therapy
+- term: dissociation
+  title: Dissociation
+  def: "Dissociation is a disruption in the usual integration of thoughts, feelings, perceptions, memory and sense of self. Mild forms, such as daydreaming or 'zoning out', are common. More marked forms include depersonalization (feeling detached from oneself), derealization (feeling that the world is unreal) and emotional numbing. Dissociation can be a response to stress or trauma and is a feature of several psychiatric conditions."
+  wiki: Dissociation_(psychology)
+- term: derealization
+  title: Derealization
+  def: "Derealization is an experience in which the outside world feels unreal, distant, dreamlike or flat, as if seen through a fog or a pane of glass. It often occurs together with depersonalization. It can be a passing response to stress, fatigue or anxiety, and it is a symptom of some dissociative and anxiety disorders."
+  wiki: Derealization
