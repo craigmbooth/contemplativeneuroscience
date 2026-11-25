@@ -221,3 +221,19 @@
   title: IL-8
   def: "Interleukin-8 (IL-8) is a signaling protein (a cytokine) that draws white blood cells, especially neutrophils, to a site of infection or injury. Its levels rise in inflamed tissue, so researchers measure it as a marker of local inflammation."
   wiki: Interleukin_8
+- term: voxel_based_morphometry
+  title: Voxel-Based Morphometry
+  def: "Voxel-based morphometry (VBM) is a way of comparing brain structure across MRI scans. Each scan is divided into a grid of tiny cubes called voxels (3D pixels). Software labels the tissue in each voxel as gray matter, white matter or fluid, and warps every brain to a standard shape so that the same voxel falls in roughly the same place in each person. Researchers then test, voxel by voxel, whether gray matter density (how much of the tissue there looks like gray matter) or volume differs between groups or changes over time."
+  wiki: Voxel-based_morphometry
+- term: hippocampus
+  title: Hippocampus
+  def: "The hippocampus is a curved structure deep in each temporal lobe of the brain. It is essential for learning and forming new memories, and it also helps regulate emotion and the stress response. It can change with experience, and it tends to be smaller in people with long-term depression or post-traumatic stress disorder."
+  wiki: Hippocampus
+- term: tpj
+  title: TPJ
+  def: "The temporoparietal junction (TPJ) is the area where the brain's temporal and parietal lobes meet, toward the back and side of the head. It helps combine signals from the body and senses into a sense of where the self is, and it is central to theory of mind: working out what other people think and intend."
+  wiki: Temporoparietal_junction
+- term: multiple_comparisons
+  title: Multiple Comparisons
+  def: "The multiple comparisons problem arises when researchers run many statistical tests at once. Each test has a small chance of a false positive, so across thousands of tests, such as one for every point in a brain scan, some \"significant\" results will turn up by chance alone. Corrections raise the bar for significance to keep the overall false-positive rate down, at the cost of making small real effects harder to detect."
+  wiki: Multiple_comparisons_problem
