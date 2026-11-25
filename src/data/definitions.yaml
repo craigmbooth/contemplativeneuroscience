@@ -273,3 +273,11 @@
   title: Lojong
   def: "Lojong, Tibetan for \"mind training,\" is a set of Tibetan Buddhist practices for cultivating compassion, traced to the Indian teachers Atisha and Shantideva. Rather than simply observing thoughts, it uses reasoning and reflection to question habitual attitudes toward oneself and others, such as sorting people into friends, enemies and strangers, and to extend warmth step by step to a widening circle of people, including those one dislikes."
   wiki: Lojong
+- term: sleep_efficiency
+  title: Sleep Efficiency
+  def: "Sleep efficiency is the share of time in bed actually spent asleep: total sleep time divided by time in bed, given as a percentage. It can be measured in a sleep lab or estimated from sleep diaries or wrist-worn devices. Taking a long time to fall asleep or lying awake during the night lowers it, and values below about 85–90% are often taken as a sign of disturbed sleep."
+  wiki: Sleep_efficiency
+- term: slow_wave_sleep
+  title: Slow-Wave Sleep
+  def: "Slow-wave sleep (SWS), often called deep sleep, is the deepest stage of non-REM sleep (stage N3, or stages 3 and 4 under older scoring rules), when the EEG is dominated by large, slow delta waves. People are hardest to wake from it. It is concentrated in the first part of the night, declines with age, and is thought to support physical restoration and memory."
+  wiki: Slow-wave_sleep
