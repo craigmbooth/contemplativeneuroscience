@@ -245,3 +245,15 @@
   title: Repetitive Negative Thinking
   def: "Repetitive negative thinking is a habit of dwelling on problems and negative experiences, through worry about the future or rumination about the past, in a way that feels hard to stop and gets nowhere. It is common across many mental health problems, especially depression and anxiety. Researchers often measure it with the Perseverative Thinking Questionnaire."
   wiki: Perseverative_cognition
+- term: theta
+  title: Theta
+  def: "Theta waves are rhythmic electrical brain activity at roughly 4–8 cycles per second, recorded with EEG. While awake, they are linked to memory, focused attention and drowsiness, and meditation studies often report more theta over the front of the head during practice. In sleep, theta is common in light non-REM sleep and in REM sleep."
+  wiki: Theta_wave
+- term: sleep_spindle
+  title: Sleep Spindle
+  def: "A sleep spindle is a brief burst of brain activity at about 11–16 cycles per second (the sigma band), lasting from about half a second to two seconds, seen on an EEG during non-REM sleep, especially stage N2. Spindles are thought to help shield sleep from outside noise and to support memory consolidation, and they can increase locally in brain areas used heavily for learning during the day."
+  wiki: Sleep_spindle
+- term: slow_wave_activity
+  title: Slow-Wave Activity
+  def: "Slow-wave activity (SWA) is the strength of the slowest brain rhythms of sleep, delta waves at about 1–4 cycles per second, measured with EEG. Slow waves dominate deep (N3) non-REM sleep. SWA is highest early in the night and falls as sleep goes on, and brain areas that worked hard during the day can show more of it that night, which makes it a marker of both sleep pressure and learning-related changes in the brain."
+  wiki: Slow-wave_sleep
