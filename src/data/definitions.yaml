@@ -321,3 +321,11 @@
   title: State Anxiety Inventory
   def: "The State Anxiety Inventory is the half of the State-Trait Anxiety Inventory (STAI) that asks how anxious someone feels right now, rather than how anxious they tend to be in general. People rate 20 statements such as \"I feel worried\" from 1 (not at all) to 4 (very much so), giving a score from 20 to 80. Because it captures the moment, researchers can give it just before and just after a single session."
   wiki: State-Trait_Anxiety_Inventory
+- term: study_heterogeneity
+  title: Heterogeneity
+  def: "In a meta-analysis, heterogeneity is how much the results of the pooled studies differ from one another beyond what chance alone would produce, for example because they enrolled different people or compared the treatment with different things. It is often summarized by the I² statistic, the share of the variation due to real differences between studies; values of 50% or more are usually read as substantial. High heterogeneity makes a single pooled number harder to interpret."
+  wiki: Study_heterogeneity
+- term: publication_bias
+  title: Publication Bias
+  def: "Publication bias arises when studies with positive or striking results are more likely to be published than studies that find nothing. A meta-analysis that pools only published studies can then overestimate how well a treatment works. Researchers check for it with tools such as funnel plots and Egger's test, which need a reasonable number of studies to be informative."
+  wiki: Publication_bias
