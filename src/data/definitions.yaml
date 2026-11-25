@@ -329,3 +329,7 @@
   title: Publication Bias
   def: "Publication bias arises when studies with positive or striking results are more likely to be published than studies that find nothing. A meta-analysis that pools only published studies can then overestimate how well a treatment works. Researchers check for it with tools such as funnel plots and Egger's test, which need a reasonable number of studies to be informative."
   wiki: Publication_bias
+- term: working_memory
+  title: Working Memory
+  def: "Working memory is the small mental workspace that holds information in mind for a few seconds while you use it, such as keeping a phone number in mind while dialing it or holding the start of a sentence while reading the rest. Its capacity is limited and differs from person to person. Tests of working memory capacity, such as the operation span task, ask people to remember items while doing something else in between, and scores on them tend to predict performance on complex tasks such as reasoning and reading comprehension."
+  wiki: Working_memory
