@@ -193,3 +193,11 @@
   title: Derealization
   def: "Derealization is an experience in which the outside world feels unreal, distant, dreamlike or flat, as if seen through a fog or a pane of glass. It often occurs together with depersonalization. It can be a passing response to stress, fatigue or anxiety, and it is a symptom of some dissociative and anxiety disorders."
   wiki: Derealization
+- term: attentional_blink
+  title: Attentional Blink
+  def: "The attentional blink is a brief gap in awareness that follows spotting something. When people watch a rapid stream of items for two targets, they often miss the second one if it appears within about half a second of the first, as if attention had blinked while the brain was still taking in the first target. It is thought to arise because the two targets compete for limited attention."
+  wiki: Attentional_blink
+- term: p3b
+  title: P3b
+  def: "The P3b is a positive brain wave, recorded with EEG, that peaks over the top and back of the head roughly 300 to 600 milliseconds after a person notices a target they were looking for. It is one part of the P300 response. Researchers use its size as a rough index of how much attention or processing the brain devotes to that target."
+  wiki: P300_(neuroscience)
