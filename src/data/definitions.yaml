@@ -257,3 +257,15 @@
   title: Slow-Wave Activity
   def: "Slow-wave activity (SWA) is the strength of the slowest brain rhythms of sleep, delta waves at about 1–4 cycles per second, measured with EEG. Slow waves dominate deep (N3) non-REM sleep. SWA is highest early in the night and falls as sleep goes on, and brain areas that worked hard during the day can show more of it that night, which makes it a marker of both sleep pressure and learning-related changes in the brain."
   wiki: Slow-wave_sleep
+- term: shamatha
+  title: Shamatha
+  def: "Shamatha (Pali samatha, \"calm abiding\") is a Buddhist family of concentration practices that train attention to settle and stay on a chosen object, such as the sensations of the breath. Practitioners notice when the mind has wandered and bring it back, aiming for attention that is both stable and vivid. It is often paired with vipassana, or insight, practice."
+  wiki: Samatha
+- term: vigilance_decrement
+  title: Vigilance Decrement
+  def: "The vigilance decrement is the decline in performance as time goes on during a long, monotonous task that requires watching for rare targets, such as a radar operator looking for a blip. People typically miss more targets or make more false alarms after only a few minutes. It is the standard laboratory measure of how well sustained attention holds up."
+  wiki: Vigilance_(psychology)
+- term: wait_list_control
+  title: Wait-List Control Group
+  def: "A wait-list control group is a comparison group that receives the program being studied only after the study period, so participants who are waiting can be compared with those already taking part. It controls for the passage of time and repeated testing, but not for the attention, expectations and setting that come with taking part in any program, which an active control group can address."
+  wiki: Waitlist_control_group
