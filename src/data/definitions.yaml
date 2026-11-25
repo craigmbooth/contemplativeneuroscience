@@ -328,4 +328,19 @@
 - term: publication_bias
   title: Publication Bias
   def: "Publication bias arises when studies with positive or striking results are more likely to be published than studies that find nothing. A meta-analysis that pools only published studies can then overestimate how well a treatment works. Researchers check for it with tools such as funnel plots and Egger's test, which need a reasonable number of studies to be informative."
+- term: white_matter
+  title: White Matter
+  def: "White matter is brain tissue made up mostly of long nerve fibers (axons), many wrapped in a fatty insulating layer called myelin that gives the tissue its pale color. It forms the wiring that connects regions of gray matter, within each hemisphere and between the two. In living people it is usually studied with diffusion MRI."
+  wiki: White_matter
+- term: diffusion_tensor_imaging
+  title: Diffusion Tensor Imaging
+  def: "Diffusion tensor imaging (DTI) is an MRI method that tracks how water molecules move through brain tissue. In white matter, water moves more easily along nerve fibers than across them, so DTI can map fiber pathways and estimate their structure. Its most common measure, fractional anisotropy, is often read as a sign of how intact or organized the fibers are, though several different things can change it."
+  wiki: Diffusion-weighted_magnetic_resonance_imaging
+- term: anterior_cingulate_cortex
+  title: Anterior Cingulate Cortex
+  def: "The anterior cingulate cortex (ACC) is a strip of cortex on the inner surface of each frontal lobe, curving around the front of the corpus callosum. It is involved in monitoring conflicts and errors, regulating attention and emotion, and processing pain, and it often turns up in brain-imaging studies of meditation."
+  wiki: Anterior_cingulate_cortex
+- term: publication_bias
+  title: Publication Bias
+  def: "Publication bias is the tendency for studies with positive or striking results to be published more often than studies that find little or nothing, which may stay in the \"file drawer.\" A meta-analysis that pools only published studies can then overestimate how large or reliable an effect is. A common warning sign is that small studies report much bigger effects than large ones."
   wiki: Publication_bias
