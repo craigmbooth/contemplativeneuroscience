@@ -1,5 +1,5 @@
 ---
-title: "After a Day of Practice, Experienced Meditators Had Lower Activity in Some Inflammation-Related Genes Than Non-Meditators"
+title: "After a Day of Practice, Meditators Had Lower Activity in Some Inflammation-Related Genes Than Non-Meditators"
 paper_title: "Rapid changes in histone deacetylases and inflammatory gene expression in expert meditators"
 seo_title: "One Day of Meditation and Inflammation-Related Genes"
 date: 2026-10-20
@@ -87,7 +87,7 @@ For COX2, the team also measured the protein itself, in six people per group, an
 
 The abstract says that RIPK2 and HDAC2 activity "was associated with a faster cortisol recovery" after the stress test. The recovery score measured how far cortisol fell back from its peak toward its starting level within 40 minutes, and the team compared it between the two stress tests, 12 weeks apart. Pooling both groups, the change in recovery correlated with the change in HDAC2 activity over the meditation or leisure day (r = 0.58, p = 0.029). The correlation with RIPK2 (r = 0.51, p = 0.065) didn't reach significance, and neither did any link with the other HDACs or COX2.
 
-Several details make this result hard to interpret. The two groups' second stress tests meant different things: for the meditators, it came the day after the meditation day, while for the controls it wasn't connected to their leisure day, and the authors note that for the controls, the change reflects getting used to the test. The paper doesn't report whether the groups' cortisol recovery differed. It also doesn't say how many people these correlations included; the reported statistics are consistent with about 14. And the paper describes lower gene activity going with better recovery, while reporting positive correlations, without spelling out how the two change scores were oriented.
+Several details make this result hard to interpret. The two groups' second stress tests meant different things: for the meditators, it came the day after the meditation day, while for the controls it wasn't connected to their leisure day, and the authors note that for the controls, the change reflects getting used to the test. The paper doesn't report whether the groups' cortisol recovery differed. It also doesn't say how many people these correlations included. And the paper describes lower gene activity going with better recovery, while reporting positive correlations, without spelling out how the two change scores were oriented.
 
 ### Twenty-Three Genes, Five Differences
 
