@@ -285,3 +285,15 @@
   title: Self-Selection Bias
   def: "Self-selection bias arises when people decide for themselves whether to take part in a study, so those who do may differ from those who don't in ways that affect the results. A survey advertised as being about the unwanted effects of meditation, for example, may draw more people who have had such effects, making them look more common than they are among meditators in general."
   wiki: Self-selection_bias
+- term: gene_expression
+  title: Gene Expression
+  def: "Gene expression is the process by which a cell reads a gene and uses it to make a product, usually by copying it into a messenger molecule (mRNA) that is then used to build a protein. Every cell carries the same DNA, but cells turn genes up and down within hours in response to signals such as hormones, infection or stress. Researchers often measure a gene's mRNA to see how active it is; that says nothing about the DNA sequence itself, which doesn't change."
+  wiki: Gene_expression
+- term: epigenetics
+  title: Epigenetics
+  def: "Epigenetics is the study of chemical marks on DNA, and on the histone proteins it is wound around, that help switch genes on or off without changing the DNA sequence. Examples include DNA methylation and the acetylation of histones. Some marks change within hours in response to the environment and others last for years, which makes them a candidate link between experience and health."
+  wiki: Epigenetics
+- term: histone_deacetylase
+  title: Histone Deacetylase
+  def: "Histone deacetylases (HDACs) are enzymes that remove small chemical tags called acetyl groups from histones, the spool-like proteins that DNA is wound around, and from other proteins. Removing these tags generally packs DNA more tightly, making nearby genes harder to read. Drugs that block HDACs (HDAC inhibitors) are used to treat some cancers and are being studied as anti-inflammatory treatments."
+  wiki: Histone_deacetylase
