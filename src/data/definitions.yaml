@@ -165,3 +165,19 @@
   title: Polysomnography
   def: "Polysomnography is an overnight sleep study, usually done in a sleep lab. Sensors record brain activity (EEG), eye movements, muscle activity, heart rhythm and breathing, so that each stretch of the night can be scored as wake, light sleep, deep sleep or REM sleep, and sleep disorders such as apnea can be detected."
   wiki: Polysomnography
+- term: attention_network_test
+  title: Attention Network Test
+  def: "The Attention Network Test (ANT) is a short computer task that measures three aspects of attention at once: alerting (getting ready for something about to happen), orienting (moving attention to a location) and executive attention (resolving conflict). People press a key to show which way a central arrow points while arrows on either side point the same way or the opposite way, and cues signal when and where the arrow will appear. Subtracting reaction times between kinds of trials gives a score for each."
+  wiki: Attentional_control
+- term: poms
+  title: POMS
+  def: "The Profile of Mood States (POMS) is a questionnaire in which people rate how strongly they have felt a list of moods. It gives scores on six scales: tension–anxiety, depression–dejection, anger–hostility, fatigue–inertia, confusion–bewilderment and vigor–activity, the only positive one. Researchers use it to track short-term changes in mood, for example before and after a training program."
+  wiki: Profile_of_mood_states
+- term: cortisol
+  title: Cortisol
+  def: "Cortisol is a hormone released by the adrenal glands, especially in response to stress. It mobilizes energy and helps regulate the immune system. Because it can be measured in saliva, researchers often use it to gauge how strongly someone reacts to a stressful task, such as timed mental arithmetic. Levels also follow a daily rhythm, so studies try to test everyone at the same time of day."
+  wiki: Cortisol
+- term: secretory_iga
+  title: Secretory IgA
+  def: "Secretory immunoglobulin A (sIgA) is the main antibody in saliva, tears and the mucous linings of the gut and airways, where it forms a first line of defense against germs. Because it can be measured from a saliva sample, stress researchers use it as a marker of immune activity."
+  wiki: Immunoglobulin_A
