@@ -297,3 +297,15 @@
   title: Histone Deacetylase
   def: "Histone deacetylases (HDACs) are enzymes that remove small chemical tags called acetyl groups from histones, the spool-like proteins that DNA is wound around, and from other proteins. Removing these tags generally packs DNA more tightly, making nearby genes harder to read. Drugs that block HDACs (HDAC inhibitors) are used to treat some cancers and are being studied as anti-inflammatory treatments."
   wiki: Histone_deacetylase
+- term: psoriasis
+  title: Psoriasis
+  def: "Psoriasis is a long-lasting immune-related skin disease in which skin cells multiply far faster than normal, building up into raised, red, scaly patches called plaques, often on the elbows, knees, scalp and trunk. It tends to come and go in flare-ups, which many patients say stress can trigger. It affects roughly 1–3% of people and can be treated, but not cured, with creams, ultraviolet light therapy and drugs that act on the immune system."
+  wiki: Psoriasis
+- term: phototherapy
+  title: Phototherapy (UVB and PUVA)
+  def: "Ultraviolet phototherapy treats skin diseases such as psoriasis by exposing the skin to controlled doses of ultraviolet light, usually in a booth several times a week, slowing the overgrowth of skin cells and calming inflammation. UVB therapy uses ultraviolet B light alone. PUVA (psoralen plus UVA) combines a light-sensitizing drug, psoralen, with ultraviolet A light and is often used for more severe or stubborn cases. Long courses raise the risk of skin cancer."
+  wiki: Ultraviolet_light_therapy
+- term: hazard_ratio
+  title: Hazard Ratio
+  def: "A hazard ratio compares how fast an event happens in two groups over time, such as recovery or death, at any given moment among the people it hasn't happened to yet. A hazard ratio of 2 means the event is happening at twice the rate in one group as in the other; 1 means no difference. It comes from survival analysis (often a Cox proportional hazards model), which can include people who leave a study early by counting the time they were followed."
+  wiki: Hazard_ratio
