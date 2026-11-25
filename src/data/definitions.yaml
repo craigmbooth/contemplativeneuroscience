@@ -340,7 +340,3 @@
   title: Anterior Cingulate Cortex
   def: "The anterior cingulate cortex (ACC) is a strip of cortex on the inner surface of each frontal lobe, curving around the front of the corpus callosum. It is involved in monitoring conflicts and errors, regulating attention and emotion, and processing pain, and it often turns up in brain-imaging studies of meditation."
   wiki: Anterior_cingulate_cortex
-- term: publication_bias
-  title: Publication Bias
-  def: "Publication bias is the tendency for studies with positive or striking results to be published more often than studies that find little or nothing, which may stay in the \"file drawer.\" A meta-analysis that pools only published studies can then overestimate how large or reliable an effect is. A common warning sign is that small studies report much bigger effects than large ones."
-  wiki: Publication_bias
