@@ -309,3 +309,15 @@
   title: Hazard Ratio
   def: "A hazard ratio compares how fast an event happens in two groups over time, such as recovery or death, at any given moment among the people it hasn't happened to yet. A hazard ratio of 2 means the event is happening at twice the rate in one group as in the other; 1 means no difference. It comes from survival analysis (often a Cox proportional hazards model), which can include people who leave a study early by counting the time they were followed."
   wiki: Hazard_ratio
+- term: working_memory
+  title: Working Memory
+  def: "Working memory is the small, short-lived mental workspace that holds information while you use it, such as a phone number you are about to dial or the running total of a sum done in your head. It holds only a few items at once and depends on attention, so a distraction or a wandering mind can quickly empty it. Psychologists measure it with tasks such as digit span and the n-back."
+  wiki: Working_memory
+- term: n_back
+  title: N-Back Task
+  def: "The n-back task is a working memory test in which people watch a stream of items, such as letters, and say whether each one matches the item a set number of steps back (two steps in a 2-back task). Doing it well means constantly updating what you hold in mind while letting go of older items, so it demands steady attention."
+  wiki: N-back
+- term: stai
+  title: State Anxiety Inventory
+  def: "The State Anxiety Inventory is the half of the State-Trait Anxiety Inventory (STAI) that asks how anxious someone feels right now, rather than how anxious they tend to be in general. People rate 20 statements such as \"I feel worried\" from 1 (not at all) to 4 (very much so), giving a score from 20 to 80. Because it captures the moment, researchers can give it just before and just after a single session."
+  wiki: State-Trait_Anxiety_Inventory
