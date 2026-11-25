@@ -3,6 +3,7 @@ title: "Mindfulness and a Matched Health Course Eased Stress Equally, but Skin I
 paper_title: "A comparison of mindfulness-based stress reduction and an active control in modulation of neurogenic inflammation"
 seo_title: "MBSR vs. a Health Program: Stress and Skin Inflammation"
 date: 2024-10-15
+last_modified_at: 2026-11-25
 theme: biological-health
 doi: 10.1016/j.bbi.2012.10.013
 paper:  # the summarized paper, for structured data; must agree with citation
@@ -107,6 +108,6 @@ A few further points are worth adding. The study measured many outcomes at two f
 
 This study is a good illustration of what happens when meditation is compared with a strong control. Against a wait-list, MBSR would have looked effective on almost everything measured here: lower distress, less anxiety, fewer physical symptoms and a smaller cortisol response to stress. Against a health course matched in time, teaching quality and home practice, all of those benefits turned out to be shared. What remained specific to MBSR was narrower: a smaller rise in a nerve-driven skin flare right after the course, and a steeper daily cortisol rhythm that emerged by four months.
 
-Those are interesting leads, especially for stress-sensitive skin conditions, where the authors point to an earlier study in which adding mindfulness practice to psoriasis treatment sped the clearing of skin lesions. But the flare result came from 29 people, sat alongside null results for the molecular measures, depended partly on an after-the-fact explanation involving the weather, and had faded by four months.
+Those are interesting leads, especially for stress-sensitive skin conditions, where the authors point to [an earlier study](/mindfulness-psoriasis-skin-clearing/) in which adding mindfulness practice to psoriasis treatment sped the clearing of skin lesions. But the flare result came from 29 people, sat alongside null results for the molecular measures, depended partly on an after-the-fact explanation involving the weather, and had faded by four months.
 
 Other randomized trials on this site have also pitted mindfulness against a carefully matched alternative, with similarly specific results: a [three-day mindfulness retreat](/mindfulness-connectivity-inflammation/) was followed by a drop in the inflammation marker IL-6 that a relaxation retreat didn't produce, and [five days of integrative body–mind training](/five-days-meditation-attention-stress/) was linked to a smaller cortisol rise than relaxation training. Together they suggest that if mindfulness has effects on the body beyond those of other healthy activities, they are real but modest, and finding them takes a control group as good as this one.
