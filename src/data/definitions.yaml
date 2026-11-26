@@ -714,3 +714,12 @@
   name: "Moderation (Statistics)"
   def: "Moderation is when the strength of a link between two things depends on a third factor, called the moderator. For example, low mood might strongly predict craving in one treatment group but hardly at all in another; treatment group then moderates the link between mood and craving. Researchers test it with an interaction term in a regression. Combined with mediation analysis, it is called moderated mediation."
   wiki: Moderation_(statistics)
+- term: operant_conditioning
+  title: Operant Conditioning
+  def: "Operant conditioning is learning from the consequences of behavior. An action followed by something pleasant (positive reinforcement) or by relief from something unpleasant (negative reinforcement) becomes more likely to be repeated, so that over time a cue such as a sight, a place or a mood can set off the habit almost automatically."
+  wiki: Operant_conditioning
+- term: bmi
+  title: BMI
+  name: "Body Mass Index (BMI)"
+  def: "Body mass index (BMI) is a person's weight in kilograms divided by the square of their height in meters. Adults with a BMI of 25 to 29.9 are classed as overweight and 30 or more as obese. It is a quick screening measure that does not distinguish fat from muscle."
+  wiki: Body_mass_index
