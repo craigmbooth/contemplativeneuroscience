@@ -3,7 +3,7 @@ title: "Meditators Described 59 Kinds of Difficult Experiences"
 paper_title: "The Varieties of Contemplative Experience: A Survey of Meditation-Related Challenges"
 seo_title: "Varieties of Contemplative Experience: Meditation Challenges"
 date:   2024-05-18
-theme: adverse-effects
+theme: [adverse-effects, self]
 doi: 10.1371/journal.pone.0176239
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Lindahl, J. R.", "Fisher, N. E.", "Cooper, D. J.", "Rosen, R. K.", "Britton, W. B."]

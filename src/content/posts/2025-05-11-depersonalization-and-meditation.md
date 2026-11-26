@@ -2,7 +2,7 @@
 title: "Why Meditators Can Experience Depersonalization Without Distress"
 paper_title: "Depersonalization and Meditation"
 date:   2025-05-11
-theme: adverse-effects
+theme: [adverse-effects, self]
 doi: 10.1080/00332747.1990.11024497
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Castillo, R. J."]
