@@ -597,3 +597,15 @@
   title: Thalamus
   def: "The thalamus is a pair of egg-shaped structures deep in the middle of the brain that relay sensory signals (from everything except smell) and motor signals to the cerebral cortex. It acts as a gatekeeper, helping decide which information reaches the cortex, and also plays a part in regulating sleep, wakefulness and attention."
   wiki: Thalamus
+- term: tukdam
+  title: Tukdam
+  def: "Tukdam (Tibetan thugs dam, also spelled thukdam) is a state that Tibetan Buddhists believe some advanced meditators enter at death, remaining in meditation after breathing has stopped. According to the tradition, the body of someone in tukdam stays fresh, with supple skin and warmth around the heart, and doesn't begin to decay for days or even weeks. The state is understood to have ended when signs of decomposition appear."
+  wiki: Tukdam
+- term: mismatch_negativity
+  title: Mismatch Negativity
+  def: "The mismatch negativity (MMN) is a brain response, recorded with EEG, to a sound that breaks a repeating pattern, such as a change in pitch after a run of identical tones. It shows up as a negative dip roughly 100 to 300 milliseconds after the odd sound and arises automatically, even when the person isn't paying attention, so it is used to test whether the brain still processes sound during sleep, in coma or in a vegetative state."
+  wiki: Mismatch_negativity
+- term: auditory_brainstem_response
+  title: Auditory Brainstem Response
+  def: "The auditory brainstem response (ABR) is a series of tiny electrical waves, recorded from the scalp, that the hearing nerve and brainstem produce within about 10 milliseconds of a click. Because it doesn't depend on attention or awareness, it is used to test hearing in newborns and to check whether the brainstem is still working in people in a deep coma or suspected of brain death."
+  wiki: Auditory_brainstem_response
