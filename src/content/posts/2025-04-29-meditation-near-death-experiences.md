@@ -3,7 +3,7 @@ title: "Twelve Advanced Buddhist Meditators Reported Near-Death Experiences They
 paper_title: "Meditation-Induced Near-Death Experiences: a 3-Year Longitudinal Study"
 seo_title: "Near-Death Experiences Induced by Meditation: 12 Meditators"
 date: 2025-04-29
-theme: [deep-states]
+theme: [deep-states, death]
 doi: 10.1007/s12671-018-0922-3
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Van Gordon, W.", "Shonin, E.", "Dunn, T. J.", "Sheffield, D.", "Garcia-Campayo, J.", "Griffiths, M. D."]

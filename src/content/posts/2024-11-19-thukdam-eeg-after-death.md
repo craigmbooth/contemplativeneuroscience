@@ -3,7 +3,7 @@ title: "No Brain Activity Was Detected in Tibetan Buddhist Practitioners Believe
 paper_title: "No Detectable Electroencephalographic Activity After Clinical Declaration of Death Among Tibetan Buddhist Meditators in Apparent Tukdam, a Putative Postmortem Meditation State"
 seo_title: "No Brain Activity Found in Tukdam After Death, EEG Study"
 date: 2024-11-19
-theme: [deep-states]
+theme: [deep-states, death]
 doi: 10.3389/fpsyg.2020.599190
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Lott, D. T.", "Yeshi, T.", "Norchung, N.", "Dolma, S.", "Tsering, N.", "Jinpa, N.", "Woser, T.", "Dorjee, K.", "Desel, T.", "Fitch, D.", "Finley, A. J.", "Goldman, R.", "Bernal, A. M. O.", "Ragazzi, R.", "Aroor, K.", "Koger, J.", "Francis, A.", "Perlman, D. M.", "Wielgosz, J.", "Bachhuber, D. R. W.", "Tamdin, T.", "Sadutshang, T. D.", "Dunne, J. D.", "Lutz, A.", "Davidson, R. J."]
