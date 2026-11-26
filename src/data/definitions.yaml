@@ -348,3 +348,11 @@
   title: Confidence Interval
   def: "A confidence interval is the range of values that a study's data are consistent with, given the uncertainty that comes from measuring a limited sample. A 95% confidence interval for an effect of 0.30 running from 0.00 to 0.59, for example, means the true effect could plausibly be anywhere from nothing to moderate. Narrower intervals mean more precise estimates; an interval that includes zero means the study can't rule out no effect."
   wiki: Confidence_interval
+- term: perceived_stress_scale
+  title: Perceived Stress Scale
+  def: "The Perceived Stress Scale (PSS) is a widely used questionnaire that asks how often, over the past month, people have felt their lives were unpredictable, out of control or overloaded. It comes in 14-, 10- and 4-item versions, each answered from never (0) to very often (4); higher totals mean more stress. It measures how stressed people feel, not physical signs of stress such as hormone levels."
+  wiki: Perceived_Stress_Scale
+- term: region_of_interest
+  title: Region of Interest
+  def: "In brain imaging, a region of interest (ROI) is an area chosen in advance for testing, such as the amygdala or hippocampus, usually because earlier research points to it. Limiting the main test to one region means fewer statistical comparisons, so real effects there are easier to detect. The trade-off is that the test says nothing about the rest of the brain, so ROI studies often add a separate, exploratory whole-brain search."
+  wiki: Region_of_interest
