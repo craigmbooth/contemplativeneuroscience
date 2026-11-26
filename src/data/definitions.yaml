@@ -503,10 +503,12 @@
   wiki: Generalized_anxiety_disorder
 - term: bootstrapping
   title: Bootstrapping
+  name: "Bootstrapping (Statistics)"
   def: "Bootstrapping is a statistical technique that gauges how uncertain a result is by resampling the data. It draws thousands of new samples of the same size from the original participants (with replacement), recalculates the result in each, and uses the spread of those results to build a confidence interval. It makes fewer assumptions about the shape of the data than traditional tests and is commonly used to test indirect effects in mediation analysis."
   wiki: Bootstrapping_(statistics)
 - term: vmpfc
   title: vmPFC
+  name: "Ventromedial Prefrontal Cortex (vmPFC)"
   def: "The ventromedial prefrontal cortex (vmPFC) is the lower part of the frontal lobes along the brain's midline, just above the eyes. Together with the neighboring medial orbitofrontal cortex and the subgenual (lower) part of the anterior cingulate, it helps weigh how much something matters to oneself, represents reward and value, and links emotions with the body's internal states."
   wiki: Ventromedial_prefrontal_cortex
 - term: angular_gyrus
