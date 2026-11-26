@@ -101,8 +101,8 @@
   padding: 0
   margin: $spacing-lg 0 0
   display: grid
-  // Three across, so the nine themes sit in full rows (avoid leaving one alone).
-  grid-template-columns: repeat(3, 1fr)
+  // Five across, so the ten themes sit in two full rows (avoid leaving one alone).
+  grid-template-columns: repeat(5, 1fr)
   gap: $spacing-md
 
 .question-card
@@ -144,6 +144,24 @@
 
     p.paper-meta
       color: $color-text-muted
+
+// Too narrow for five across: two columns of rows, thumbnail beside the text
+// (the phone layout below, side by side).
+@media (max-width: $breakpoint-desktop)
+  .question-grid
+    grid-template-columns: repeat(2, 1fr)
+    gap: $spacing-sm
+
+  .question-card
+    display: flex
+    align-items: center
+
+    img
+      width: 96px
+      flex: 0 0 96px
+
+    div
+      padding: $spacing-sm $spacing-md
 
 @media (max-width: $breakpoint-mobile)
   .home section
