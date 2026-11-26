@@ -436,3 +436,11 @@
   title: Regression to the Mean
   def: "Regression to the mean is the tendency for unusually high or low measurements to be followed by ones closer to average, because part of any single measurement is chance. People who score as very stressed on a questionnaire one week will, on average, score a little less stressed the next, with or without treatment. In a trial, a group that happens to start out worse can therefore seem to improve more, which is one reason researchers compare against a control group and adjust for starting scores."
   wiki: Regression_toward_the_mean
+- term: prediction_interval
+  title: Prediction Interval
+  def: "In a meta-analysis, a prediction interval is the range within which the true effect in a new study, run in a new setting, is likely to fall. A confidence interval describes how precisely the average effect across studies is known, and it narrows as studies accumulate. A prediction interval also takes in how much the effect genuinely varies from one setting to another, so it is wider when studies disagree. If it crosses zero, some settings may see no benefit, or even harm, even when the average effect is clearly positive."
+  wiki: Prediction_interval
+- term: grade_evidence
+  title: GRADE
+  def: "GRADE (Grading of Recommendations Assessment, Development and Evaluation) is a widely used system for rating how much confidence to place in a body of evidence. Reviewers rate each finding as high, moderate, low or very low certainty, downgrading it for problems such as risk of bias in the studies, inconsistent results, imprecise estimates, indirect evidence and signs that unfavorable results went unpublished. Low certainty means the true effect may be substantially different from the estimate."
+  wiki: GRADE_approach
