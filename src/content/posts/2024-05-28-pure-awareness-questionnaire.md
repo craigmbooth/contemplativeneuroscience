@@ -64,7 +64,7 @@ Several factors describe qualities that the contemplative literature has long at
 
 Others describe what was still going on during some of the reported experiences: a sense of time passing, effort and desire; thoughts, memories, plans and emotions; perceptions and body sensations; and the knowledge that one could still control one's attention or think on purpose. The authors read the first of these as ordinary, effortful meditation, with "still a meditator and a goal state." One more factor collected the questions about whether the experience happened in dreamless sleep or in a dream.
 
-The paper's chart of all 92 questions, sorted by their typical rating, shows what the experiences were usually like. At the top were feeling at ease, at peace, in the present moment, whole and relaxed, and "simply being." Near the bottom were pain, effort, desire, planning, and the experience happening during sleep or dreams. So most people described an experience that happened while they were awake, and the sleep factor reflects a minority who reported pure awareness during sleep.
+The paper's chart of all 92 questions, sorted by their typical rating, shows what the experiences were usually like. At the top were feeling at ease, at peace, in the present moment, whole and relaxed, and "simply being." Near the bottom were pain, effort, desire, planning, and the experience happening during sleep or dreams.
 
 The factors also related to each other in a way that makes intuitive sense. Time, Effort and Desire was negatively correlated with Peace, Bliss and Silence (r = −0.40) and with Emptiness and Non-egoic Self-awareness (−0.30), and positively correlated with Thoughts and Feelings (0.31) and Sensory Perception (0.37). Experiences with more sense of effort and time tended to have less peace and emptiness, and more thoughts and perceptions.
 
@@ -100,7 +100,7 @@ The authors list many limitations. There's no guarantee that participants unders
 
 > What can be remembered particularly clearly may often be the most impressive states, which may not necessarily be the most paradigmatic instances of “pure awareness.”
 
-The reports were retrospective, sometimes about experiences that may have happened decades earlier, and memory for past mental states is unreliable. Because the survey was anonymous and IP addresses weren't stored, nobody could verify who answered or rule out duplicate or fraudulent responses, which matters more when a €50 reward is on offer. More than 60% of responses were incomplete, a sign of heavy :term{id="self_selection_bias" case="lower"}, and the sample, dominated by German speakers, is unlikely to represent meditators worldwide. There was no comparison group and no brain measurement. The participants also wrote 841 usable free-text descriptions of their experiences, which the authors plan to analyze separately.
+The reports were retrospective, sometimes about experiences that may have happened decades earlier, and memory for past mental states is unreliable. Because the survey was anonymous and IP addresses weren't stored, nobody could verify who answered or rule out duplicate or fraudulent responses. More than 60% of responses were incomplete, a sign of heavy :term{id="self_selection_bias" case="lower"}, and the sample, dominated by German speakers, is unlikely to represent meditators worldwide. There was no comparison group and no brain measurement. The participants also wrote 841 usable free-text descriptions of their experiences, which the authors plan to analyze separately.
 
 ## Final Reflection
 
