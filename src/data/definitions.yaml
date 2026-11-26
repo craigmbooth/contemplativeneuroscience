@@ -848,3 +848,13 @@
   title: Thought Suppression
   def: "Thought suppression is the deliberate attempt to push an unwanted thought out of mind. It often backfires: suppressed thoughts tend to come back more strongly later, a rebound effect. Terror management research holds that thoughts of death are pushed away right after a reminder of death and become more accessible after a delay, which experiments measure with word fragments that can be completed as either death-related or neutral words."
   wiki: Thought_suppression
+- term: death_thought_accessibility
+  title: Death-Thought Accessibility
+  def: "Death-thought accessibility is how readily thoughts of death come to mind. It is usually measured with word fragments that can be completed either as a death-related word or as a neutral one, such as SK_ _L (skull or skill), and counting the death-related completions. In terror management theory research, the count is normally compared between people given a death reminder and people given a neutral one."
+- term: affective_misattribution_procedure
+  title: Affective Misattribution Procedure
+  def: "The affective misattribution procedure (AMP) is a test of implicit attitudes. A word or picture flashes briefly on screen, followed by an unfamiliar symbol such as a Chinese character, and people judge whether the symbol is more or less pleasant than average. Feelings about the first item tend to spill over onto the symbol even when people are told to ignore it, so the share of \"pleasant\" judgments after each kind of item is read as an attitude they might not report directly."
+- term: sufism
+  title: Sufism
+  def: "Sufism is the mystical tradition within Islam. Its practitioners, often organized in orders around a teacher, seek a direct inner experience of God through practices such as dhikr (rhythmic repetition of God's names or short phrases), meditation, prayer and, in some orders, music and movement. Sufi writers often describe death not as an end to be feared but as a reunion with God."
+  wiki: Sufism
