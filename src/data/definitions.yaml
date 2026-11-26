@@ -432,3 +432,7 @@
   title: Hedonic Treadmill
   def: "The hedonic treadmill (or hedonic adaptation) is the tendency for people to get used to good and bad changes in their lives and drift back toward their usual level of happiness. A raise, a new purchase or a pleasant routine may lift mood at first, but the lift tends to fade as it becomes familiar."
   wiki: Hedonic_treadmill
+- term: regression_to_the_mean
+  title: Regression to the Mean
+  def: "Regression to the mean is the tendency for unusually high or low measurements to be followed by ones closer to average, because part of any single measurement is chance. People who score as very stressed on a questionnaire one week will, on average, score a little less stressed the next, with or without treatment. In a trial, a group that happens to start out worse can therefore seem to improve more, which is one reason researchers compare against a control group and adjust for starting scores."
+  wiki: Regression_toward_the_mean
