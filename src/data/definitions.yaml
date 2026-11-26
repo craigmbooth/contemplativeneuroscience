@@ -380,3 +380,7 @@
   title: Precuneus
   def: "The precuneus is a region on the inner surface of the parietal lobe, toward the back of the brain's midline, next to the posterior cingulate cortex. Together they form a core hub of the default mode network, and the precuneus is often active during self-related thinking, memory recall and imagining one's own point of view."
   wiki: Precuneus
+- term: individual_patient_data
+  title: Individual Patient Data Meta-Analysis
+  def: "An individual patient data (IPD) meta-analysis pools the raw records of every participant from several trials, rather than the summary results each trial published. Re-analyzing everyone together, the same way, lets researchers ask whether a treatment works better for some kinds of patients than others. It depends on the original trial teams sharing their data, which isn't always possible."
+  wiki: Individual_participant_data
