@@ -32,7 +32,7 @@ This site has already covered two brain-imaging studies of jhana, each with a si
 
 That 2025 study, like most connectivity research, measured :term{id="functional_connectivity" case="lower"} averaged over whole runs of meditation. But the brain doesn't hold one pattern for minutes at a time. Its regions fall in and out of step with each other from moment to moment, in step with shifts in attention and arousal. This paper, from the same lab, asks what those moment-to-moment patterns look like during jhana, using a method called :term{id="dynamic_functional_connectivity" case="lower"}. The authors say it is the first such analysis of any advanced meditation.
 
-**The same meditator, and the same scans.** The participant is the meditation teacher described in the [earlier post](/jhana-brain-networks/): a 52-year-old man with more than 25 years of practice and an estimated 20,000 hours or more. The 27 jhana runs recorded in a 7-tesla scanner over five days match too, and the paper takes its list of brain regions and its table of jhana durations from the team's earlier analysis of these recordings. So this is a fresh analysis of existing data from one person, not a new experiment or a second meditator.
+**The same meditator, and apparently the same scans.** The participant is the meditation teacher described in the [earlier post](/jhana-brain-networks/): a 52-year-old man with more than 25 years of practice and an estimated 20,000 hours or more. The 27 jhana runs recorded in a 7-tesla scanner over five days match too, and the paper takes its list of brain regions and its table of jhana durations from the team's earlier analysis of these recordings. The paper doesn't cite that network study, but every detail lines up, so this appears to be a fresh analysis of existing data from one person, not a new experiment or a second meditator.
 
 ## What They Did
 
@@ -96,7 +96,7 @@ Across the runs, the meditator's time in jhana grew longer (r = 0.60), and in la
 
 ### The Averaged Picture Fits the Earlier Study
 
-Averaged over whole runs, connectivity between cortical networks was higher during jhana than in the control tasks, while connectivity between brainstem regions (such as the locus coeruleus) and the rest of the brain was lower. That fits the [more interconnected networks](/jhana-brain-networks/) found when the same scans were analyzed for network structure. A check using all 526 brain regions instead of the 49 chosen in advance also found higher cortical connectivity and more switching during jhana.
+Averaged over whole runs, connectivity between cortical networks was higher during jhana than in the control tasks, while connectivity between brainstem regions (such as the locus coeruleus) and the rest of the brain was lower. That fits the [more interconnected networks](/jhana-brain-networks/) found in the earlier analysis of network structure. A check using all 526 brain regions instead of the 49 chosen in advance also found higher cortical connectivity and more switching during jhana.
 
 ## Final Reflection
 
