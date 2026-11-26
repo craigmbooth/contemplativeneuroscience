@@ -408,3 +408,7 @@
   title: Ecological Momentary Assessment
   def: "Ecological momentary assessment (EMA), also called experience sampling, asks people to report what they are feeling or doing several times a day, in the moment and in their everyday surroundings, usually through short surveys sent to their phones at set or random times. Because answers are given on the spot rather than recalled later, they are less colored by memory than questionnaires about the past week or month, and they can show how experiences rise and fall through the day."
   wiki: Experience_sampling_method
+- term: cbt
+  title: CBT
+  def: "Cognitive behavioral therapy (CBT) is a structured, usually short-term talk therapy that helps people notice and change unhelpful patterns of thinking and behavior. It is one of the most thoroughly tested psychological treatments and a first-line option for depression, anxiety disorders and many other conditions."
+  wiki: Cognitive_behavioral_therapy
