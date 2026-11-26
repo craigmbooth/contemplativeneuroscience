@@ -376,3 +376,11 @@
   title: Quality-Adjusted Life Year (QALY)
   def: "A quality-adjusted life year (QALY) is a measure used in health economics that combines how long people live with how well they live. A year in full health counts as 1 QALY, and a year in poorer health counts as less, based on questionnaires such as the EQ-5D. Dividing a treatment's extra cost by the QALYs it gains shows whether it is good value compared with other options."
   wiki: Quality-adjusted_life_year
+- term: meg
+  title: MEG
+  def: "Magnetoencephalography (MEG) records the tiny magnetic fields produced by electrical activity in the brain, using very sensitive sensors arranged around the head. Like EEG, it tracks brain rhythms millisecond by millisecond; because magnetic fields pass through the skull with little distortion, it is also better at estimating where in the brain the activity comes from."
+  wiki: Magnetoencephalography
+- term: precuneus
+  title: Precuneus
+  def: "The precuneus is a region on the inner surface of the parietal lobe, toward the back of the brain's midline, next to the posterior cingulate cortex. Together they form a core hub of the default mode network, and the precuneus is often active during self-related thinking, memory recall and imagining one's own point of view."
+  wiki: Precuneus
