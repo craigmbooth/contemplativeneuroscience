@@ -545,3 +545,7 @@
   title: Body Scan
   def: "The body scan is a meditation practice in which attention is moved slowly through the body, part by part, noticing whatever sensations are present without trying to change them. It is a core exercise in mindfulness programs such as MBSR."
   wiki: Body_scan
+- term: interoception
+  title: Interoception
+  def: "Interoception is the sense of the body's internal state: feeling your heartbeat, breathing, hunger, warmth, tension and other sensations from inside the body. Interoceptive awareness is how much attention a person pays to these signals. Practices such as the body scan, which moves attention through the body part by part, aim to strengthen it."
+  wiki: Interoception
