@@ -412,3 +412,15 @@
   title: CBT
   def: "Cognitive behavioral therapy (CBT) is a structured, usually short-term talk therapy that helps people notice and change unhelpful patterns of thinking and behavior. It is one of the most thoroughly tested psychological treatments and a first-line option for depression, anxiety disorders and many other conditions."
   wiki: Cognitive_behavioral_therapy
+- term: bystander_effect
+  title: Bystander Effect
+  def: "The bystander effect is the finding that people are less likely to help someone in need when other people are present, especially when those others do nothing. Each person may feel less responsible, or take the others' inaction as a sign that help isn't needed. Experiments often recreate it with actors who are told to ignore the person in need."
+  wiki: Bystander_effect
+- term: demand_characteristics
+  title: Demand Characteristics
+  def: "Demand characteristics are cues in an experiment that hint at what the researchers expect, which can lead participants to behave the way they think they are supposed to rather than how they normally would. Researchers reduce them by disguising the study's purpose, measuring behavior unobtrusively, or using comparison conditions that seem just as plausible."
+  wiki: Demand_characteristics
+- term: empathic_accuracy
+  title: Empathic Accuracy
+  def: "Empathic accuracy is how well a person can correctly infer what someone else is thinking or feeling. Researchers often measure it with tests that ask people to identify the emotion shown in photographs of faces, recordings of voices or videos, and score how many they get right. It is a skill of perception, distinct from caring about the other person's feelings."
+  wiki: Empathic_accuracy
