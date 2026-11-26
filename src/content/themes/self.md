@@ -16,5 +16,7 @@ research_summary: |
 
   The same loosening can be unsettling. Among 59 kinds of difficulty described by 60 Western Buddhist meditators who had struggled with their practice, one of seven broad domains was changes in the sense of self, including depersonalization, a feeling of being detached from oneself ([Lindahl et al., 2017](/meditation-adverse-effects-survey/)). Yet all six long-term Transcendental Meditation practitioners interviewed in an older study had experienced depersonalization, often in daily life, generally without the anxiety seen in clinical cases; the author argues that whether people read it as calm "witnessing" or as a sign of going mad shapes whether it distresses them ([Castillo, 1990](/depersonalization-and-meditation/)).
 
+  A review that treats well-being as a set of trainable skills counts insight, seeing how beliefs and thoughts shape one's sense of self, as one of four, though its authors note that research on the meditation practices meant to train it is limited ([Dahl et al., 2020](/well-being-four-skills/)).
+
   Most of this evidence comes from single cases, small one-session experiments, one-time comparisons and interviews, and none of these studies tracked a person's sense of self before and after training, so they describe what these changes can look like more than they show how often meditation brings them about.
 ---
