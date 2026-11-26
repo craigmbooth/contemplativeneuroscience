@@ -340,3 +340,11 @@
   title: Anterior Cingulate Cortex
   def: "The anterior cingulate cortex (ACC) is a strip of cortex on the inner surface of each frontal lobe, curving around the front of the corpus callosum. It is involved in monitoring conflicts and errors, regulating attention and emotion, and processing pain, and it often turns up in brain-imaging studies of meditation."
   wiki: Anterior_cingulate_cortex
+- term: transcendental_meditation
+  title: Transcendental Meditation
+  def: "Transcendental Meditation (TM) is a trademarked form of mantra meditation taught through a standardized course by certified teachers. Practitioners sit with eyes closed for about 20 minutes twice a day, silently repeating a mantra (a sound or word) in a way meant to be effortless, letting the mind settle rather than holding attention on an object. Researchers usually group it with other mantra-based techniques, separate from mindfulness meditation."
+  wiki: Transcendental_Meditation
+- term: confidence_interval
+  title: Confidence Interval
+  def: "A confidence interval is the range of values that a study's data are consistent with, given the uncertainty that comes from measuring a limited sample. A 95% confidence interval for an effect of 0.30 running from 0.00 to 0.59, for example, means the true effect could plausibly be anywhere from nothing to moderate. Narrower intervals mean more precise estimates; an interval that includes zero means the study can't rule out no effect."
+  wiki: Confidence_interval
