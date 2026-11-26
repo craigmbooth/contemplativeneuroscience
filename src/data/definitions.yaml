@@ -723,3 +723,15 @@
   name: "Body Mass Index (BMI)"
   def: "Body mass index (BMI) is a person's weight in kilograms divided by the square of their height in meters. Adults with a BMI of 25 to 29.9 are classed as overweight and 30 or more as obese. It is a quick screening measure that does not distinguish fat from muscle."
   wiki: Body_mass_index
+- term: attentional_bias
+  title: Attentional Bias
+  def: "An attentional bias is a tendency for attention to be drawn to certain kinds of things more than others. In addiction research it usually means that images or words linked to a drug, such as a cigarette or a pill bottle, grab a user's attention faster or hold it longer than neutral ones. It is measured with computer tasks that time how quickly people respond to drug-related and neutral cues."
+  wiki: Attentional_bias
+- term: cue_reactivity
+  title: Cue Reactivity
+  def: "Cue reactivity is the set of reactions that reminders of a drug, such as the sight of a cigarette, a bottle or a syringe, set off in someone who uses it: craving, bodily changes such as in heart rate and sweating, and activity in the brain's reward circuits. Researchers measure it by showing such cues in the lab; stronger reactions have been linked to a higher risk of relapse."
+  wiki: Cue_reactivity
+- term: striatum
+  title: Striatum
+  def: "The striatum is a group of structures deep in the brain that is central to reward, motivation and habit. Its lower part, the ventral striatum (which includes the nucleus accumbens), responds to pleasures and to cues that predict them, and is strongly activated by addictive drugs. Its upper part, the dorsal striatum, is involved in movement and in habits that run automatically."
+  wiki: Striatum
