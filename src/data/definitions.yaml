@@ -368,3 +368,11 @@
   title: Inferior Parietal Lobule
   def: "The inferior parietal lobule (IPL) is a region on the outer surface of the parietal lobe, toward the back and side of the head. It combines information from the senses and the body and is involved in attention, language, the sense of being the one who causes one's own actions (agency), and telling oneself apart from others."
   wiki: Inferior_parietal_lobule
+- term: intention_to_treat
+  title: Intention-to-Treat Analysis
+  def: "An intention-to-treat analysis counts every randomized participant in the group they were assigned to, whether or not they completed or even started the treatment. It keeps the benefit of randomization, since dropping people who didn't follow their plan can leave groups that differ in other ways, and it estimates what happens when a treatment is offered in practice rather than when it is taken exactly as intended."
+  wiki: Intention-to-treat_analysis
+- term: qaly
+  title: Quality-Adjusted Life Year (QALY)
+  def: "A quality-adjusted life year (QALY) is a measure used in health economics that combines how long people live with how well they live. A year in full health counts as 1 QALY, and a year in poorer health counts as less, based on questionnaires such as the EQ-5D. Dividing a treatment's extra cost by the QALYs it gains shows whether it is good value compared with other options."
+  wiki: Quality-adjusted_life_year
