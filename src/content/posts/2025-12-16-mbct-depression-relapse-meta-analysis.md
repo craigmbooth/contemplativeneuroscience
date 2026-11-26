@@ -1,5 +1,5 @@
 ---
-title: "Pooling Nine Trials, MBCT Lowered the Risk of Depressive Relapse, Including Against Antidepressants"
+title: "Pooling Nine Trials, MBCT Lowered the Risk of Depressive Relapse and Did at Least as Well as Antidepressants"
 paper_title: "Efficacy of Mindfulness-Based Cognitive Therapy in Prevention of Depressive Relapse: An Individual Patient Data Meta-analysis From Randomized Trials"
 seo_title: "MBCT and Depressive Relapse: A Meta-Analysis of 9 Trials"
 date: 2025-12-16

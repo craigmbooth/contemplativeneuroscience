@@ -46,9 +46,7 @@ The interviews, analyzed in a companion paper (Ataria et al., 2015), identified 
 
 During MEG recording, a recorded voice cued S through the three states, one minute each, in four blocks with a minute's rest between blocks. Because shifting between such states at random would have been very hard, the order was always the same: SB1, then SB2, then SB3. The team then looked for brain rhythms whose strength rose or fell in step across the three states.
 
-To see whether what they found in S held up in other people, the team reanalyzed recordings from the [team's earlier MEG study](/mindfulness-induced-selflessness/) of long-term mindfulness meditators. The original group of 12 had practiced for over 16 years on average. S had been part of it, but his data were left out, and one more recording couldn't be used, which left 10 meditators. They had produced three related states, 30 seconds at a time: a "narrative" mode (thinking about what characterizes you), a "minimal" mode (experiencing what is happening to you right now), and a "selfless" mode (experiencing the present moment "when you are not in the center"). Asked to describe the selfless mode, one participant said:
-
-> It was emptiness, as if the self fell out of the picture. There was an experience but it had no address, it was not attached to a center or subject.
+To see whether what they found in S held up in other people, the team reanalyzed recordings from the [team's earlier MEG study](/mindfulness-induced-selflessness/) of long-term mindfulness meditators. The original group of 12 had practiced for over 16 years on average. S had been part of it, but his data were left out, and one more recording couldn't be used, which left 10 meditators. They had produced three related states, 30 seconds at a time: a "narrative" mode (thinking about what characterizes you), a "minimal" mode (experiencing what is happening to you right now), and a "selfless" mode (experiencing the present moment "when you are not in the center").
 
 ## One Big Result: As the Sense of Boundaries Dissolved, Beta Brain Waves Weakened in Parietal Regions Tied to Self and Body
 
