@@ -705,3 +705,12 @@
   title: Opioid Use Disorder
   def: "Opioid use disorder is the medical term for opioid addiction: a pattern of opioid use, whether of prescribed painkillers, heroin or other opioids, that a person struggles to control and that causes significant harm or distress. Signs include strong cravings, needing more to get the same effect, and continuing to use despite problems at home, work or with health. It is usually treated with medications such as buprenorphine or methadone, often alongside counseling."
   wiki: Opioid_use_disorder
+- term: mbrp
+  title: MBRP
+  name: "Mindfulness-Based Relapse Prevention (MBRP)"
+  def: "Mindfulness-Based Relapse Prevention (MBRP) is an 8-week group program for people recovering from alcohol or drug problems, developed by Sarah Bowen, G. Alan Marlatt and colleagues. Modeled on mindfulness-based cognitive therapy, it combines mindfulness meditation with cognitive-behavioral relapse prevention skills such as spotting high-risk situations. Participants practice noticing cravings and difficult emotions as passing experiences rather than automatically acting on them."
+- term: moderation
+  title: Moderation
+  name: "Moderation (Statistics)"
+  def: "Moderation is when the strength of a link between two things depends on a third factor, called the moderator. For example, low mood might strongly predict craving in one treatment group but hardly at all in another; treatment group then moderates the link between mood and craving. Researchers test it with an interaction term in a regression. Combined with mediation analysis, it is called moderated mediation."
+  wiki: Moderation_(statistics)
