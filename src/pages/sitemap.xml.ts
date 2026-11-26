@@ -3,6 +3,7 @@
 import type { APIRoute } from 'astro';
 import { absoluteUrl } from '../site';
 import { getPosts, getThemes, postUrl, themeUrl, xmlSchemaDate } from '../lib/content';
+import { loadDefinitions, termPath } from '../lib/glossary';
 
 // Static pages are discovered from src/pages so new pages are included automatically.
 // Dynamic routes ([param]), endpoints (*.ts) and the 404 page are excluded.
@@ -26,7 +27,7 @@ export const GET: APIRoute = async () => {
     path: postUrl(post),
     lastmod: post.data.last_modified_at ?? post.data.date,
   }));
-  const pageEntries: Entry[] = [...staticPaths, ...themes.map(themeUrl)]
+  const pageEntries: Entry[] = [...staticPaths, ...themes.map(themeUrl), ...loadDefinitions().map(termPath)]
     .sort((a, b) => a.localeCompare(b))
     .map((path) => ({ path }));
 

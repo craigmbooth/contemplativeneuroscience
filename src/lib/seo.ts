@@ -1,7 +1,7 @@
 // Page metadata and JSON-LD builders (formerly page-title.html, head.html and
 // the *_schema.html includes).
 import { site, absoluteUrl } from '../site';
-import { definitionsByTerm } from './glossary';
+import { definitionsBySlug, termHeading, termPath, type Definition } from './glossary';
 import { postHtml, themesForPost, xmlSchemaDate, type Post, type Theme } from './content';
 
 /** Liquid's `truncate`: at most `length` characters including the ellipsis. */
@@ -159,24 +159,25 @@ export function profilePageSchema() {
   };
 }
 
-const glossaryTermId = (term: string) => absoluteUrl(`/glossary/#${term}`);
+const glossaryTermId = (d: Definition) => absoluteUrl(termPath(d));
 const wikipediaUrl = (article: string) => `https://en.wikipedia.org/wiki/${article}`;
 
 /** A glossary term as a schema.org DefinedTerm, tied to its Wikipedia article. */
-function definedTerm(d: { term: string; title: string; def?: string; wiki?: string }, withDescription = false) {
+function definedTerm(d: Definition, withDescription = false) {
   return {
     '@type': 'DefinedTerm',
-    '@id': glossaryTermId(d.term),
-    name: d.title,
+    '@id': glossaryTermId(d),
+    name: termHeading(d),
+    ...(d.name && d.name !== d.title && { alternateName: d.title }),
     ...(withDescription && d.def && { description: stripNewlines(d.def) }),
-    url: glossaryTermId(d.term),
+    url: glossaryTermId(d),
     inDefinedTermSet: absoluteUrl('/glossary/'),
     ...(d.wiki && { sameAs: wikipediaUrl(d.wiki) }),
   };
 }
 
 /** Glossary page: every term with its definition. */
-export function glossarySchema(definitions: { term: string; title: string; def: string; wiki?: string }[]) {
+export function glossarySchema(definitions: Definition[]) {
   return {
     '@context': 'https://schema.org',
     '@type': 'DefinedTermSet',
@@ -185,6 +186,11 @@ export function glossarySchema(definitions: { term: string; title: string; def: 
     url: absoluteUrl('/glossary/'),
     hasDefinedTerm: definitions.map((d) => definedTerm(d, true)),
   };
+}
+
+/** A glossary term's own page: the term, as part of the glossary's DefinedTermSet. */
+export function glossaryTermSchema(d: Definition) {
+  return { '@context': 'https://schema.org', ...definedTerm(d, true) };
 }
 
 type Crumb = { name: string; path: string };
@@ -269,9 +275,9 @@ export function paperSchema(post: Post) {
 
 /** Glossary terms a post links to, in order of first mention. */
 export function postGlossaryTerms(post: Post) {
-  const definitions = definitionsByTerm();
-  return [...new Set([...postHtml(post).matchAll(/href="\/glossary\/#([^"]+)"/g)].map((m) => m[1]))]
-    .map((term) => definitions.get(term))
+  const definitions = definitionsBySlug();
+  return [...new Set([...postHtml(post).matchAll(/href="\/glossary\/([^/"#]+)\/"/g)].map((m) => m[1]))]
+    .map((slug) => definitions.get(slug))
     .filter((d): d is NonNullable<typeof d> => Boolean(d));
 }
 

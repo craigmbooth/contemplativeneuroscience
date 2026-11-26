@@ -1,0 +1,63 @@
+---
+// Glossary index: every term A–Z with its first sentence, linking to the term's
+// own page. Each entry keeps the term id as its anchor, so old /glossary/#term
+// links still land on the right entry.
+import PageLayout from '../../layouts/PageLayout.astro';
+import { getPosts } from '../../lib/content';
+import { firstSentence, sortedDefinitions, termHeading, termIdsInMarkdown, termPath } from '../../lib/glossary';
+import { glossarySchema } from '../../lib/seo';
+
+const definitions = sortedDefinitions();
+const posts = await getPosts();
+const used = posts.map((post) => termIdsInMarkdown(post.body ?? ''));
+const paperCount = (term: string) => used.filter((ids) => ids.includes(term)).length;
+
+// Group by the first letter of each term's heading.
+const letterOf = (heading: string) => {
+  const c = heading.normalize('NFKD').charAt(0).toUpperCase();
+  return /[A-Z]/.test(c) ? c : '#';
+};
+const groups = new Map<string, typeof definitions>();
+for (const d of definitions) {
+  const letter = letterOf(termHeading(d));
+  groups.set(letter, [...(groups.get(letter) ?? []), d]);
+}
+
+// Every term as a schema.org DefinedTerm linked to its own page and Wikipedia article.
+const schema = glossarySchema(definitions);
+---
+<PageLayout
+  title="Glossary of Technical Terms"
+  meta_description="Plain-language definitions of the technical terms in meditation and brain research, each linking to the paper summaries that use it."
+  schemas={[schema]}
+>
+  <p>
+    Plain-language definitions of the {definitions.length} technical terms used in the summaries. Each term has its own
+    page with the full definition and the papers that use it. In a summary, these terms have a dashed underline: hover
+    over one, or tap it on a phone, to see its definition.
+  </p>
+
+  <nav class="glossary-letters" aria-label="Jump to letter">
+    {[...groups.keys()].map((letter) => <a href={`#letter-${letter}`}>{letter}</a>)}
+  </nav>
+
+  <div class="glossary-index">
+    {[...groups.entries()].map(([letter, terms]) => (
+      <section class="glossary-letter-group" aria-labelledby={`letter-${letter}`}>
+        <h2 id={`letter-${letter}`} class="glossary-letter">{letter}</h2>
+        <ul>
+          {terms.map((d) => {
+            const count = paperCount(d.term);
+            return (
+              <li id={d.term} class="glossary-entry">
+                <h3><a href={termPath(d)}>{termHeading(d)}</a></h3>
+                <p>{firstSentence(d.def)}</p>
+                <p class="paper-meta">{count === 0 ? 'Not yet used in a summary' : `Used in ${count} paper${count === 1 ? '' : 's'}`}</p>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    ))}
+  </div>
+</PageLayout>

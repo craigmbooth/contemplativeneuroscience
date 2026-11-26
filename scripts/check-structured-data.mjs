@@ -10,6 +10,8 @@
 //   - a BreadcrumbList starting at Home and ending at the post.
 // Every theme page must have a CollectionPage listing all of the theme's posts,
 // and a BreadcrumbList ending at the theme.
+// The glossary index must be a DefinedTermSet of every term, and every term page a
+// DefinedTerm (@id = the page) with a BreadcrumbList Home > Glossary > term.
 // Every indexable page must have at least one JSON-LD block, and every block must
 // parse and carry @context https://schema.org and an @type.
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
@@ -146,6 +148,53 @@ for (const f of readdirSync(themesDir).filter((f) => f.endsWith('.md'))) {
     if (listed.length !== expected) fail(page, `CollectionPage lists ${listed.length} papers, theme has ${expected}`);
   }
   checkBreadcrumbs(page, items, url);
+}
+
+// Glossary: the index is a DefinedTermSet holding every term; each term page has a
+// DefinedTerm whose @id is the page, inside that set, and a BreadcrumbList via the Glossary.
+const termCount = (readFileSync('src/data/definitions.yaml', 'utf8').match(/^- term: /gm) ?? []).length;
+{
+  const page = '/glossary/';
+  checked.add(page);
+  const html = read(join(DIST, 'glossary', 'index.html'));
+  if (!html) {
+    fail(page, 'not built');
+  } else {
+    checkCanonical(page, html, `${origin}${page}`);
+    const items = jsonLd(page, html);
+    const sets = ofType(items, 'DefinedTermSet');
+    if (sets.length !== 1) fail(page, `expected 1 DefinedTermSet, found ${sets.length}`);
+    else if ((sets[0].hasDefinedTerm ?? []).length !== termCount) {
+      fail(page, `DefinedTermSet has ${(sets[0].hasDefinedTerm ?? []).length} terms, definitions.yaml has ${termCount}`);
+    }
+    checkBreadcrumbs(page, items, `${origin}${page}`);
+  }
+  const termDirs = readdirSync(join(DIST, 'glossary')).filter((d) => statSync(join(DIST, 'glossary', d)).isDirectory());
+  if (termDirs.length !== termCount) fail(page, `${termDirs.length} term pages built, definitions.yaml has ${termCount} terms`);
+  for (const dir of termDirs) {
+    const termPage = `/glossary/${dir}/`;
+    const url = `${origin}${termPage}`;
+    checked.add(termPage);
+    const termHtml = read(join(DIST, 'glossary', dir, 'index.html'));
+    if (!termHtml) {
+      fail(termPage, 'no index.html');
+      continue;
+    }
+    checkCanonical(termPage, termHtml, url);
+    const items = jsonLd(termPage, termHtml);
+    const terms = ofType(items, 'DefinedTerm');
+    if (terms.length !== 1) {
+      fail(termPage, `expected 1 DefinedTerm, found ${terms.length}`);
+    } else {
+      const t = terms[0];
+      if (t['@id'] !== url || t.url !== url) fail(termPage, `DefinedTerm @id/url is ${t['@id']}, expected ${url}`);
+      if (!nonEmpty(t.name) || !nonEmpty(t.description)) fail(termPage, 'DefinedTerm lacks name or description');
+      if (t.inDefinedTermSet !== `${origin}/glossary/`) fail(termPage, 'DefinedTerm is not inDefinedTermSet the glossary');
+    }
+    checkBreadcrumbs(termPage, items, url);
+    const crumbs = ofType(items, 'BreadcrumbList')[0]?.itemListElement ?? [];
+    if (crumbs.length !== 3 || crumbs[1].item !== `${origin}/glossary/`) fail(termPage, 'BreadcrumbList should be Home > Glossary > term');
+  }
 }
 
 // Every indexable page has some valid structured data

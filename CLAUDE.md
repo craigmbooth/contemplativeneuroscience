@@ -33,7 +33,7 @@ src/
   content/posts/      Paper summaries: YYYY-MM-DD-slug.md -> /slug/ (files starting with _ are ignored)
   content/themes/     Research themes -> /themes/<theme_key>/
   content.config.ts   Front-matter schemas for posts and themes
-  data/definitions.yaml  Glossary terms (tooltips + /glossary/)
+  data/definitions.yaml  Glossary terms (tooltips, /glossary/ index and a page per term)
   layouts/            BaseLayout (document shell), DefaultLayout, PageLayout, PostLayout, ThemeLayout
   components/         Head, Header, Footer, Breadcrumbs, PaperMeta, Subscribe (email sign-up box)
   lib/content.ts      Collection helpers (sorting, URLs, theme lookups, markdownify)
@@ -42,7 +42,7 @@ src/
   lib/rehype-image-dimensions.js  Adds width/height (+ lazy loading) to markdown images
   lib/rehype-figures.js  Wraps images with alt text in <figure> with the alt as <figcaption>
   lib/images.js       publicImageSize(): pixel size of a file in public/
-  pages/              Routes; [slug].astro = posts, themes/[theme].astro = themes
+  pages/              Routes; [slug].astro = posts, themes/[theme].astro = themes, glossary/[term].astro = glossary terms
   pages/css/[name].css.ts       Compiles src/styles/<name>.sass -> /css/<name>.css
   pages/assets/js/[name].js.ts  Serves src/scripts/<name>.js -> /assets/js/<name>.js and <name>.min.js
   pages/feed.xml.ts, sitemap.xml.ts
@@ -71,6 +71,12 @@ Front matter: `title` (a plain-language headline stating the finding, not the pa
 
 Front matter is parsed by a strict YAML parser: continuation lines of a multi-line quoted string must be indented.
 
+## Glossary
+
+- `/glossary/` is an A–Z index (first sentence of each definition, paper count); every term also has its own page at `/glossary/<slug>/` with the full definition, the summaries that use it (posts whose markdown has a `:term{id="..."}` for it) and related terms (those used in the same papers). Tooltips link to the term's page.
+- The slug comes from the term's heading: its optional `name` (full name, e.g. `name: "Default Mode Network (DMN)"`), else its `title`, without any parenthetical (`/glossary/default-mode-network/`). Give a term a `name` when its `title` is an abbreviation or too terse to head a page. Two terms with the same slug fail the build. Changing a `name` or `title` changes the term's URL, so avoid renaming published terms.
+- Index entries keep the term id as their anchor, so old `/glossary/#term` links still land on the right entry.
+
 ## URL Stability
 
 Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.js` and `*.min.js`, `/feed.xml`, `/sitemap.xml`, all images). Keep it that way:
@@ -85,7 +91,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Dart Sass deprecation warnings (`@import`, Bourbon's old syntax) are silenced in `pages/css/[name].css.ts`; Dart Sass 3 will require migrating to `@use` and dropping Bourbon.
 - Fonts: Google Fonts loads only Jost 400–700 (with italics) and Merriweather 400/700 (`Head.astro`). Using another weight or Merriweather italic means adding it to that URL, or the browser fakes it.
 - Font fallbacks: `styles/_fonts.sass` defines size-matched stand-ins ("Jost Fallback", "Merriweather Fallback" and Android versions over Arial, Times New Roman, Roboto and Noto Serif) that sit second in the font stacks, so text doesn't reflow when the web fonts arrive. Re-measure them if the fonts change (the file says how).
-- No icon font: icons are small inline SVGs (footer RSS, glossary caret).
+- No icon font: icons are small inline SVGs (footer RSS).
 - Breakpoints: 768px, 800px, 1024px; the slim bar's menu collapses into the hamburger below 960px (`$breakpoint-menu`).
 
 ## Gotchas
@@ -124,7 +130,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Theme pages, All Papers and Research Themes are `CollectionPage`s whose `mainEntity` is an `ItemList` of the pages they list; a theme's `abstract` is its "What the Research Says" text. The home page's WebSite has a `SearchAction` pointing at `/all-papers/?q=`.
 - Structured data is JSON-LD only (no microdata). Check changes with https://validator.schema.org/ and Google's Rich Results Test.
 - `npm run build` ends with `scripts/check-structured-data.mjs`, which fails the build (and so the deploy) unless every post has an Article that `isBasedOn` a ScholarlyArticle with the paper's DOI and a BreadcrumbList ending at the post, every theme page has a CollectionPage listing all its papers, and every indexable page has valid JSON-LD. Extend it when adding new page types or required fields.
-- Structured data uses one author entity (`authorSchema()`, `@id` /about/#author) with `sameAs` links from `site.authorProfiles`; posts list the glossary terms they cover as `mentions`, and the glossary is a `DefinedTermSet` tied to Wikipedia.
+- Structured data uses one author entity (`authorSchema()`, `@id` /about/#author) with `sameAs` links from `site.authorProfiles`; posts list the glossary terms they cover as `mentions`, the glossary index is a `DefinedTermSet`, and each term page is a `DefinedTerm` (`@id` = its page) tied to Wikipedia.
 
 ## Share Cards and Images
 

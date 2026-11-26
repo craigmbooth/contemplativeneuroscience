@@ -4,10 +4,12 @@
   wiki: Brahmavihara
 - term: dmn
   title: DMN
-  def: "The default mode network (DMN) is a system of connected brain areas that show increased activity when a person is not focused on what is happening around them. such as during daydreaming and mind-wandering. It can also be active when the individual is thinking about others or themselves, remembering the past, and planning for the future."
+  name: "Default Mode Network (DMN)"
+  def: "The default mode network (DMN) is a system of connected brain areas that show increased activity when a person is not focused on what is happening around them, such as during daydreaming and mind-wandering. It can also be active when the individual is thinking about others or themselves, remembering the past, and planning for the future."
   wiki: Default_mode_network
 - term: eeg
   title: EEG
+  name: "Electroencephalography (EEG)"
   def: An electroencephalogram (EEG) is a recording of brain activity. During this painless test, small sensors are attached to the scalp to pick up the electrical signals produced by the brain.
   wiki: Electroencephalography
 - term: flanker_test
@@ -16,10 +18,12 @@
   wiki: Eriksen_flanker_task
 - term: fmri
   title: fMRI
+  name: "Functional MRI (fMRI)"
   def: An fMRI (functional Magnetic Resonance Imaging) measures changes in blood flow related to neural activity in the brain, offering insights into brain function and activity patterns.
   wiki: Functional_magnetic_resonance_imaging
 - term: gamma
   title: Gamma
+  name: "Gamma Waves"
   def: "Gamma brain waves are a type of brainwave pattern that oscillate at approximately 25 to 100 Hz. Gamma waves are associated with states of heightened perception, problem-solving, and consciousness. Gamma waves play a crucial role in cognitive functioning, including memory, and information processing, and are thought to integrate thoughts and information from different parts of the brain."
   wiki: Gamma_wave
 - term: inflammation
@@ -32,6 +36,7 @@
   wiki: Dhyāna_in_Buddhism
 - term: mbsr
   title: MBSR
+  name: "Mindfulness-Based Stress Reduction (MBSR)"
   def: "Mindfulness-Based Stress Reduction (MBSR) is a program designed to help individuals cope with stress, pain, and illness. Developed by Jon Kabat-Zinn in the 1970s, it combines meditation and yoga to promote awareness and stress management. The eight-week program teaches participants to focus on the present moment non-judgmentally, enhancing their ability to manage difficulties."
   wiki: Mindfulness-based_stress_reduction
 - term: randomized_controlled_trial
@@ -56,6 +61,7 @@
   wiki: Mindfulness
 - term: beta
   title: Beta
+  name: "Beta Waves"
   def: "Beta brain waves are a type of brainwave pattern that oscillate between approximately 12 to 30 Hz. Beta waves are typically associated with active thinking, focus, alertness, and engagement with the external world. They are prominent during conscious, goal-directed activity and are linked to cognitive tasks such as problem-solving, decision-making, and sustained attention."
   wiki: Beta_wave
 - term: telomerase
@@ -107,10 +113,12 @@
   wiki: Meta-analysis
 - term: cbt_i
   title: CBT-I
+  name: "Cognitive Behavioral Therapy for Insomnia (CBT-I)"
   def: "Cognitive behavioral therapy for insomnia (CBT-I) is a structured, usually short-term talk therapy for chronic sleeplessness. It combines changes to sleep habits and schedules, such as limiting time in bed, with work on unhelpful thoughts about sleep. It is widely recommended as a first-line treatment for insomnia."
   wiki: Cognitive_behavioral_therapy_for_insomnia
 - term: psqi
   title: PSQI
+  name: "Pittsburgh Sleep Quality Index (PSQI)"
   def: "The Pittsburgh Sleep Quality Index (PSQI) is a widely used questionnaire about how well a person has slept over the past month. It covers time to fall asleep, sleep duration, disturbances and daytime effects, and combines them into a score from 0 to 21, where higher means worse sleep. Scores above 5 are commonly taken to indicate poor sleep."
   wiki: Pittsburgh_Sleep_Quality_Index
 - term: cortical_thickness
@@ -127,6 +135,7 @@
   wiki: Insular_cortex
 - term: alpha
   title: Alpha
+  name: "Alpha Waves"
   def: "Alpha waves are rhythmic electrical brain activity at roughly 8–13 cycles per second, recorded with EEG. They are often strongest when the eyes are closed and the mind is relaxed, and are thought to help filter out or hold back information as part of top-down control. Meditation studies have reported both increases and decreases in alpha, depending on the practice."
   wiki: Alpha_wave
 - term: functional_connectivity
@@ -143,14 +152,17 @@
   wiki: Neurophenomenology
 - term: il_6
   title: IL-6
+  name: "Interleukin-6 (IL-6)"
   def: "Interleukin-6 (IL-6) is a signaling protein (a cytokine) that immune cells release to coordinate inflammation. It is measured from a blood sample, usually in picograms per milliliter. Persistently elevated IL-6 is associated with chronic stress, aging and a higher risk of cardiovascular disease, which makes it a common marker in studies of whether meditation affects health."
   wiki: Interleukin_6
 - term: pcc
   title: PCC
+  name: "Posterior Cingulate Cortex (PCC)"
   def: "The posterior cingulate cortex (PCC) is a region toward the back of the brain's midline. It is a central hub of the default mode network and tends to be active during self-related thought and mind-wandering. Many meditation studies track PCC activity or connectivity as a window onto the DMN."
   wiki: Posterior_cingulate_cortex
 - term: dlpfc
   title: dlPFC
+  name: "Dorsolateral Prefrontal Cortex (dlPFC)"
   def: "The dorsolateral prefrontal cortex (dlPFC) is a region on the upper outer sides of the frontal lobes. It is a core part of the brain's executive control network, supporting working memory, directing attention and regulating emotion. Stronger dlPFC activity and connectivity have been associated with lower pain, negative emotion and stress."
   wiki: Dorsolateral_prefrontal_cortex
 - term: mediation_analysis
@@ -171,6 +183,7 @@
   wiki: Attentional_control
 - term: poms
   title: POMS
+  name: "Profile of Mood States (POMS)"
   def: "The Profile of Mood States (POMS) is a questionnaire in which people rate how strongly they have felt a list of moods. It gives scores on six scales: tension–anxiety, depression–dejection, anger–hostility, fatigue–inertia, confusion–bewilderment and vigor–activity, the only positive one. Researchers use it to track short-term changes in mood, for example before and after a training program."
   wiki: Profile_of_mood_states
 - term: cortisol
@@ -183,6 +196,7 @@
   wiki: Immunoglobulin_A
 - term: mbct
   title: MBCT
+  name: "Mindfulness-Based Cognitive Therapy (MBCT)"
   def: "Mindfulness-based cognitive therapy (MBCT) is an 8-week group program that combines mindfulness meditation, adapted from Mindfulness-Based Stress Reduction (MBSR), with elements of cognitive behavioral therapy. It was developed to help people who have recovered from depression avoid relapse, by learning to notice and step back from patterns of negative thinking. Classes usually meet weekly, with daily meditation practice at home."
   wiki: Mindfulness-based_cognitive_therapy
 - term: dissociation
@@ -215,10 +229,12 @@
   wiki: Neurogenic_inflammation
 - term: tnf_alpha
   title: TNF-α
+  name: "Tumor Necrosis Factor Alpha (TNF-α)"
   def: "Tumor necrosis factor alpha (TNF-α) is a signaling protein (a cytokine) that immune cells release early in inflammation. It helps fight infection and repair tissue, but high or persistent levels contribute to inflammatory diseases such as rheumatoid arthritis, psoriasis and inflammatory bowel disease."
   wiki: Tumor_necrosis_factor
 - term: il_8
   title: IL-8
+  name: "Interleukin-8 (IL-8)"
   def: "Interleukin-8 (IL-8) is a signaling protein (a cytokine) that draws white blood cells, especially neutrophils, to a site of infection or injury. Its levels rise in inflamed tissue, so researchers measure it as a marker of local inflammation."
   wiki: Interleukin_8
 - term: voxel_based_morphometry
@@ -231,6 +247,7 @@
   wiki: Hippocampus
 - term: tpj
   title: TPJ
+  name: "Temporoparietal Junction (TPJ)"
   def: "The temporoparietal junction (TPJ) is the area where the brain's temporal and parietal lobes meet, toward the back and side of the head. It helps combine signals from the body and senses into a sense of where the self is, and it is central to theory of mind: working out what other people think and intend."
   wiki: Temporoparietal_junction
 - term: multiple_comparisons
@@ -247,6 +264,7 @@
   wiki: Perseverative_cognition
 - term: theta
   title: Theta
+  name: "Theta Waves"
   def: "Theta waves are rhythmic electrical brain activity at roughly 4–8 cycles per second, recorded with EEG. While awake, they are linked to memory, focused attention and drowsiness, and meditation studies often report more theta over the front of the head during practice. In sleep, theta is common in light non-REM sleep and in REM sleep."
   wiki: Theta_wave
 - term: sleep_spindle
@@ -358,10 +376,12 @@
   wiki: Region_of_interest
 - term: meg
   title: MEG
+  name: "Magnetoencephalography (MEG)"
   def: "Magnetoencephalography (MEG) records the tiny magnetic fields produced by electrical activity in the brain, using very sensitive sensors in a helmet-shaped device. Like EEG, it tracks brain activity millisecond by millisecond, but because magnetic fields pass through the skull with little distortion, it can usually locate where in the brain the activity comes from more accurately."
   wiki: Magnetoencephalography
 - term: mpfc
   title: mPFC
+  name: "Medial Prefrontal Cortex (mPFC)"
   def: "The medial prefrontal cortex (mPFC) is the part of the frontal lobes along the brain's midline, just behind the forehead. It is a core part of the default mode network and is consistently active when people think about themselves, judge their own traits, or recall and plan events in their own lives."
   wiki: Prefrontal_cortex
 - term: inferior_parietal_lobule
@@ -410,6 +430,7 @@
   wiki: Experience_sampling_method
 - term: cbt
   title: CBT
+  name: "Cognitive Behavioral Therapy (CBT)"
   def: "Cognitive behavioral therapy (CBT) is a structured, usually short-term talk therapy that helps people notice and change unhelpful patterns of thinking and behavior. It is one of the most thoroughly tested psychological treatments and a first-line option for depression, anxiety disorders and many other conditions."
   wiki: Cognitive_behavioral_therapy
 - term: bystander_effect
@@ -442,6 +463,7 @@
   wiki: Prediction_interval
 - term: grade_evidence
   title: GRADE
+  name: "GRADE Evidence Ratings"
   def: "GRADE (Grading of Recommendations Assessment, Development and Evaluation) is a widely used system for rating how much confidence to place in a body of evidence. Reviewers rate each finding as high, moderate, low or very low certainty, downgrading it for problems such as risk of bias in the studies, inconsistent results, imprecise estimates, indirect evidence and signs that unfavorable results went unpublished. Low certainty means the true effect may be substantially different from the estimate."
   wiki: GRADE_approach
 - term: pragmatic_trial

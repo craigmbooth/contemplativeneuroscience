@@ -8,7 +8,7 @@
 // Unknown glossary terms fail the build rather than rendering placeholder text.
 import { visit } from 'unist-util-visit';
 import remarkSmartypants from 'remark-smartypants';
-import { loadDefinitions } from './definitions.js';
+import { loadDefinitions, termPath } from './definitions.js';
 
 /**
  * Smart-typography settings shared with astro.config.mjs (kramdown-style dashes).
@@ -56,7 +56,7 @@ export default function remarkGlossaryTerms() {
       if (attrs.case === 'lower') title = title.toLowerCase();
 
       const tooltipId = `definition-${definition.term}-${attrs.id}-${position + 1}`;
-      const glossaryHref = `/glossary/#${definition.term}`;
+      const glossaryHref = termPath(definition);
       const linkChildren = node.children.length > 0 ? node.children : [text(title)];
 
       const body = el('span', { className: ['tooltiptext'], id: tooltipId, role: 'tooltip' }, [
@@ -81,7 +81,7 @@ export default function remarkGlossaryTerms() {
       body.children.push(
         el('br', {}),
         el('br', {}),
-        el('a', { href: glossaryHref }, [text('View in glossary')]),
+        el('a', { href: glossaryHref }, [text('Read more in the glossary')]),
         text('\n      '),
       );
 

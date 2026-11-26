@@ -1,0 +1,92 @@
+---
+// One page per glossary term at /glossary/<slug>/: the definition, the paper
+// summaries that use the term, and related terms (those used in the same papers).
+import PageLayout from '../../layouts/PageLayout.astro';
+import PaperMeta from '../../components/PaperMeta.astro';
+import { getPosts, markdownify, postUrl, type Post } from '../../lib/content';
+import {
+  definitionsByTerm,
+  loadDefinitions,
+  termHeading,
+  termIdsInMarkdown,
+  termPath,
+  termSlug,
+  type Definition,
+} from '../../lib/glossary';
+import { glossaryTermSchema, truncateWords } from '../../lib/seo';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  const termsByPost = new Map(posts.map((post) => [post.id, termIdsInMarkdown(post.body ?? '')]));
+  const byTerm = definitionsByTerm();
+
+  return loadDefinitions().map((definition) => {
+    const papers = posts.filter((post) => termsByPost.get(post.id)!.includes(definition.term));
+    // Related terms: those used most often in the same papers.
+    const counts = new Map<string, number>();
+    for (const post of papers) {
+      for (const id of termsByPost.get(post.id)!) {
+        if (id !== definition.term) counts.set(id, (counts.get(id) ?? 0) + 1);
+      }
+    }
+    const related = [...counts.entries()]
+      .sort((a, b) => b[1] - a[1] || termHeading(byTerm.get(a[0])!).localeCompare(termHeading(byTerm.get(b[0])!)))
+      .slice(0, 8)
+      .map(([id]) => byTerm.get(id)!);
+    return { params: { term: termSlug(definition) }, props: { definition, papers, related } };
+  });
+}
+
+const { definition, papers, related } = Astro.props as {
+  definition: Definition;
+  papers: Post[];
+  related: Definition[];
+};
+const heading = termHeading(definition);
+const plainName = heading.replace(/\s*\([^)]*\)/g, '');
+const definitionHtml = await markdownify(definition.def);
+---
+<PageLayout
+  title={heading}
+  seo_title={`${plainName} in Meditation Research`}
+  meta_description={truncateWords(definition.def.replace(/\s+/g, ' '), 155)}
+  parents={[{ name: 'Glossary', path: '/glossary/' }]}
+  schemas={[glossaryTermSchema(definition)]}
+>
+  <div class="glossary-term-page">
+    <div class="glossary-definition" set:html={definitionHtml} />
+    {definition.wiki && (
+      <p class="glossary-wiki">
+        <a href={`https://en.wikipedia.org/wiki/${definition.wiki}`}>More on Wikipedia</a>
+      </p>
+    )}
+
+    <h2>Papers That Mention {plainName}</h2>
+    {papers.length > 0 ? (
+      <ul class="post-list glossary-papers">
+        {papers.map((post) => (
+          <li>
+            <PaperMeta post={post} date />
+            <h3><a class="post-link" href={postUrl(post)}>{post.data.title}</a></h3>
+            <p>{post.data.snippet}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No summaries use this term yet.</p>
+    )}
+
+    {related.length > 0 && (
+      <>
+        <h2>Related terms</h2>
+        <ul class="glossary-related">
+          {related.map((d) => (
+            <li><a href={termPath(d)}>{termHeading(d)}</a></li>
+          ))}
+        </ul>
+      </>
+    )}
+
+    <p class="glossary-back"><a href="/glossary/">Browse the full glossary</a></p>
+  </div>
+</PageLayout>

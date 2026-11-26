@@ -14,6 +14,10 @@ export interface Props {
   schemas?: unknown[];
   /** End the page with the email sign-up box. */
   subscribe?: boolean;
+  /** Pages between Home and this one in the breadcrumb trail, e.g. the Glossary for a term page. */
+  parents?: { name: string; path: string }[];
+  /** <title> text when it should differ from the heading. */
+  seo_title?: string;
   /** Present when used as a markdown layout. */
   frontmatter?: { title: string; meta_description?: string; profile_page?: boolean; subscribe?: boolean };
 }
@@ -25,15 +29,16 @@ const description = metaDescription({
 });
 const path = Astro.url.pathname;
 const subscribe = props.frontmatter?.subscribe ?? props.subscribe ?? false;
+const parents = props.parents ?? [];
 const schemas = [
-  breadcrumbSchema([{ name: title, path }]),
+  breadcrumbSchema([...parents, { name: title, path }]),
   // `profile_page: true` marks a page about the author (the About page).
   ...(props.frontmatter?.profile_page ? [profilePageSchema()] : []),
   ...(props.schemas ?? []),
 ];
 ---
 <BaseLayout
-  title={pageTitle(title)}
+  title={pageTitle(title, props.seo_title)}
   description={description}
   path={path}
   schemas={schemas}
@@ -47,7 +52,7 @@ const schemas = [
       </div>
       <br>
 
-      <Breadcrumbs kind="page" title={title} />
+      <Breadcrumbs kind="page" title={title} parents={parents} />
 
       <section class="post-content">
         <a name="topofpage"></a>
