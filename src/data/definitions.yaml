@@ -580,3 +580,12 @@
   title: Thermogenesis
   def: "Thermogenesis is the body's production of heat. Muscle activity, including shivering and other muscle contractions, is a major source; the body also makes heat by burning fuel in brown fat and through digestion."
   wiki: Thermogenesis
+- term: delta
+  title: Delta
+  name: "Delta Waves"
+  def: "Delta waves are the slowest rhythmic electrical brain activity recorded with EEG, at roughly 0.5–4 cycles per second. They dominate deep (slow-wave) sleep and also appear under general anesthesia, so more delta while awake can be a sign of drowsiness. Smaller amounts are present in waking EEG, where they have also been linked to attention and internal processing."
+  wiki: Delta_wave
+- term: false_discovery_rate
+  title: False Discovery Rate
+  def: "The false discovery rate (FDR) is the expected share of false positives among the results a study declares significant. FDR corrections, such as the Benjamini–Hochberg method, are a common way to handle multiple comparisons. They are less strict than corrections that try to avoid even a single false positive (such as Bonferroni), so they miss fewer real effects, while accepting that a small fraction of the reported findings may be due to chance."
+  wiki: False_discovery_rate
