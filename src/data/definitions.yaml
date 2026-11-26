@@ -356,3 +356,15 @@
   title: Region of Interest
   def: "In brain imaging, a region of interest (ROI) is an area chosen in advance for testing, such as the amygdala or hippocampus, usually because earlier research points to it. Limiting the main test to one region means fewer statistical comparisons, so real effects there are easier to detect. The trade-off is that the test says nothing about the rest of the brain, so ROI studies often add a separate, exploratory whole-brain search."
   wiki: Region_of_interest
+- term: meg
+  title: MEG
+  def: "Magnetoencephalography (MEG) records the tiny magnetic fields produced by electrical activity in the brain, using very sensitive sensors in a helmet-shaped device. Like EEG, it tracks brain activity millisecond by millisecond, but because magnetic fields pass through the skull with little distortion, it can usually locate where in the brain the activity comes from more accurately."
+  wiki: Magnetoencephalography
+- term: mpfc
+  title: mPFC
+  def: "The medial prefrontal cortex (mPFC) is the part of the frontal lobes along the brain's midline, just behind the forehead. It is a core part of the default mode network and is consistently active when people think about themselves, judge their own traits, or recall and plan events in their own lives."
+  wiki: Prefrontal_cortex
+- term: inferior_parietal_lobule
+  title: Inferior Parietal Lobule
+  def: "The inferior parietal lobule (IPL) is a region on the outer surface of the parietal lobe, toward the back and side of the head. It combines information from the senses and the body and is involved in attention, language, the sense of being the one who causes one's own actions (agency), and telling oneself apart from others."
+  wiki: Inferior_parietal_lobule
