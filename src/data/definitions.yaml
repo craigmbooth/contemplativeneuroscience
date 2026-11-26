@@ -863,3 +863,12 @@
   name: "Subgenual Anterior Cingulate Cortex (sgACC)"
   def: "The subgenual anterior cingulate cortex (sgACC) is the lowest part of the anterior cingulate cortex, lying beneath the bend (genu) at the front of the corpus callosum, next to the ventromedial prefrontal cortex. It is involved in emotion and mood: it is overactive in depression, where it has been a target of deep brain stimulation. Brain-imaging studies have also found it more active when smokers see cigarette cues and crave."
   wiki: Brodmann_area_25
+- term: resting_state_fmri
+  title: Resting-State fMRI
+  def: "Resting-state fMRI scans the brain while a person lies quietly and does nothing in particular, often looking at a crosshair. Instead of measuring responses to a task, it looks at the slow, spontaneous fluctuations in each area's activity signal: how strongly an area fluctuates (one measure is the fractional amplitude of low-frequency fluctuations, or fALFF) or how closely areas fluctuate together. Differences are read as changes in the brain's baseline activity, though what they mean for thought or behavior is often uncertain."
+  wiki: Resting_state_fMRI
+- term: ftnd
+  title: FTND
+  name: "Fagerström Test for Nicotine Dependence (FTND)"
+  def: "The Fagerström Test for Nicotine Dependence (FTND) is a short, widely used questionnaire that rates how dependent a person is on nicotine. Its six questions ask, for example, how soon after waking the person has their first cigarette, whether they find it hard not to smoke where smoking is forbidden, and how many cigarettes they smoke a day. Scores run from 0 to 10, with higher scores meaning stronger dependence."
+  wiki: Fagerström_Test_for_Nicotine_Dependence
