@@ -567,3 +567,16 @@
   title: Memory Reconsolidation
   def: "Memory reconsolidation is the process by which a memory, when recalled, briefly becomes changeable before it is stored again. During that window it can be updated, weakened or linked to new associations. Researchers study it as a way to change emotional memories, for example in anxiety and addiction."
   wiki: Memory_reconsolidation
+- term: tummo
+  title: g-Tummo
+  name: "g-Tummo (Tummo)"
+  def: "g-Tummo, often written tummo and known in English as \"inner fire\" or \"psychic heat,\" is a meditation practice of Tibetan Buddhism and Bön associated with sensations of intense bodily heat. It combines a breath-holding technique with muscle contractions (\"vase breathing\") and visualization of flames in the body, and it is traditionally taught in long retreats."
+  wiki: Tummo
+- term: isometric_exercise
+  title: Isometric Exercise
+  def: "An isometric exercise tenses muscles without moving the joints they act on, as in holding a plank or pressing the palms together. The muscles work and produce heat even though the body stays still."
+  wiki: Isometric_exercise
+- term: thermogenesis
+  title: Thermogenesis
+  def: "Thermogenesis is the body's production of heat. Muscle activity, including shivering and other muscle contractions, is a major source; the body also makes heat by burning fuel in brown fat and through digestion."
+  wiki: Thermogenesis
