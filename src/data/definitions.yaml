@@ -384,3 +384,23 @@
   title: Individual Patient Data Meta-Analysis
   def: "An individual patient data (IPD) meta-analysis pools the raw records of every participant from several trials, rather than the summary results each trial published. Re-analyzing everyone together, the same way, lets researchers ask whether a treatment works better for some kinds of patients than others. It depends on the original trial teams sharing their data, which isn't always possible."
   wiki: Individual_participant_data
+- term: p300
+  title: P300
+  def: "The P300 is a positive brain wave, recorded with EEG, that peaks roughly 300 to 600 milliseconds after something rare or meaningful appears, such as a target a person is watching for or a striking, personally relevant picture. It tends to be larger for things that draw more attention, so researchers use its size as a rough index of how much processing the brain gives a stimulus. It has several parts, including the P3a and the P3b."
+  wiki: P300_(neuroscience)
+- term: event_related_potential
+  title: Event-Related Potential
+  def: "An event-related potential (ERP) is the brain's electrical response to a specific event, such as a picture appearing on a screen, recorded with EEG. The response to a single event is tiny compared with the rest of the brain's activity, so researchers repeat the event many times and average the recordings until the consistent response stands out as a series of positive and negative waves at typical delays."
+  wiki: Event-related_potential
+- term: oddball_paradigm
+  title: Oddball Task
+  def: "An oddball task shows a long stream of frequent, ordinary stimuli interrupted now and then by rare ones. Some rare stimuli are targets that call for a response, such as a button press; others are distracters to be ignored. Rare stimuli trigger a P300 brain response that the frequent ones don't, which makes the task a standard way to study attention with EEG."
+  wiki: Oddball_paradigm
+- term: loving_kindness
+  title: Loving-Kindness Meditation
+  def: "Loving-kindness meditation (mettā in Pali) is a Buddhist practice of deliberately cultivating warm, unconditional goodwill. Practitioners silently repeat wishes such as \"may you be happy\" or picture a person, usually starting with themselves or someone close and then extending the wishes to acquaintances, strangers, difficult people and all beings. It is one of the four brahmaviharas."
+  wiki: Mettā
+- term: self_compassion
+  title: Self-Compassion
+  def: "Self-compassion means treating yourself with the kindness you would offer a friend when you fail or suffer. In psychologist Kristin Neff's widely used definition it has three parts: kindness toward oneself rather than harsh judgment, seeing one's difficulties as part of shared human experience rather than as isolating, and mindful awareness of painful feelings without being swept away by them. It is usually measured with Neff's Self-Compassion Scale."
+  wiki: Self-compassion
