@@ -404,3 +404,7 @@
   title: Self-Compassion
   def: "Self-compassion means treating yourself with the kindness you would offer a friend when you fail or suffer. In psychologist Kristin Neff's widely used definition it has three parts: kindness toward oneself rather than harsh judgment, seeing one's difficulties as part of shared human experience rather than as isolating, and mindful awareness of painful feelings without being swept away by them. It is usually measured with Neff's Self-Compassion Scale."
   wiki: Self-compassion
+- term: ecological_momentary_assessment
+  title: Ecological Momentary Assessment
+  def: "Ecological momentary assessment (EMA), also called experience sampling, asks people to report what they are feeling or doing several times a day, in the moment and in their everyday surroundings, usually through short surveys sent to their phones at set or random times. Because answers are given on the spot rather than recalled later, they are less colored by memory than questionnaires about the past week or month, and they can show how experiences rise and fall through the day."
+  wiki: Experience_sampling_method
