@@ -78,7 +78,7 @@ The authors summarize:
 
 ### Depression Had the Clearest Evidence
 
-Because the team only analyzed a disorder within a comparison tier when at least four trials were available, only some combinations could be tested. Depression was the only condition with enough trials to be tested against no treatment, other therapies and evidence-based treatments at both time points, and the authors call it the clearest case. Mindfulness beat no treatment, beat other therapies (d = 0.38 at the end of treatment, 0.35 at follow-up) and did about as well as evidence-based treatments such as antidepressants and CBT, both at the end of treatment and at follow-up (d = 0.04). That fits with the [pooled data on MBCT for relapse prevention](/mbct-depression-relapse-meta-analysis/) and a [large trial in which MBCT did about as well as staying on antidepressants](/mbct-vs-antidepressants-relapse/).
+Because the team only analyzed a disorder within a comparison tier when at least four trials were available, only some combinations could be tested. Depression was the only condition with enough trials to be tested against no treatment, other therapies and evidence-based treatments at both time points, and the authors call it the clearest case. Mindfulness beat no treatment and beat other therapies (at follow-up, d = 0.35), and did about as well as evidence-based treatments such as antidepressants and CBT (at follow-up, d = 0.04). That fits with the [pooled data on MBCT for relapse prevention](/mbct-depression-relapse-meta-analysis/) and a [large trial in which MBCT did about as well as staying on antidepressants](/mbct-vs-antidepressants-relapse/).
 
 Other disorders had thinner evidence:
 
