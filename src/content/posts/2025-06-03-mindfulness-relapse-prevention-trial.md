@@ -18,7 +18,7 @@ citation: "Bowen, S., Witkiewitz, K., Clifasefi, S. L., Grow, J., Chawla, N., Hs
 study:
   type: "Randomized trial"
   design: "Three-arm randomized trial comparing two matched active treatments with usual care, analyzed by intention to treat, with follow-ups 3, 6 and 12 months after treatment"
-  participants: "286 adults (103 mindfulness, 88 relapse prevention, 95 usual care) who had completed inpatient or intensive outpatient treatment for substance use disorders at a nonprofit agency in the Seattle area; aged 18–70, about 70% men, 42% from racial or ethnic minorities, most using more than one substance"
+  participants: "286 adults (103 mindfulness, 88 relapse prevention, 95 usual care) who had completed inpatient or intensive outpatient treatment for substance use disorders at a nonprofit treatment agency; aged 18–70, about 70% men, 42% from racial or ethnic minorities, most using more than one substance"
   method: "Eight weekly 2-hour groups of mindfulness-based relapse prevention or cognitive-behavioral relapse prevention, matched in time, format and homework and replacing standard aftercare for those 8 weeks; or usual 12-step-based aftercare groups (1–2 times a week, 1½ hours)"
   measures: "Time to first drug use and first heavy-drinking day over the follow-up year; days of drug use and heavy drinking in the 90 days before each follow-up, from a calendar-based interview; urine tests for a subset"
   limitations: "Substance use mostly self-reported (urine tests for 199 people agreed 74% of the time); usual care differed from the active programs in format, homework and therapist training; about 1 in 5 missed the 12-month assessment; many tests without correction, and the 12-month results rest on few people who used; three authors run paid MBRP trainings."
@@ -38,7 +38,7 @@ An earlier pilot trial of MBRP at the same agency had compared it only with usua
 
 ## What They Did
 
-Between October 2009 and July 2012, the team recruited people from a nonprofit addiction treatment agency with two sites in the Seattle area (Recovery Centers of King County). Patients there typically attend about a year of aftercare, the ongoing support that follows initial treatment, after either a 28-day inpatient stay or 90 days of intensive outpatient treatment (about 60% and 40% respectively). To join, people had to have completed that initial treatment and be medically cleared. People with a current psychotic disorder, dementia or suicidality were excluded.
+Between October 2009 and July 2012, the team recruited people from a nonprofit addiction treatment agency with two sites (the paper's funding note names Recovery Centers of King County). Patients there typically attend about a year of aftercare, the ongoing support that follows initial treatment, after either a 28-day inpatient stay or 90 days of intensive outpatient treatment (about 60% and 40% respectively). To join, people had to have completed that initial treatment and be medically cleared. People with a current psychotic disorder, dementia or suicidality were excluded.
 
 Of those screened, 84 were ineligible and 32 declined. The remaining 286 were randomly assigned to one of three kinds of aftercare:
 
