@@ -800,3 +800,17 @@
   title: Self-Efficacy
   def: "Self-efficacy is a person's confidence in their ability to do what a situation calls for, a concept developed by the psychologist Albert Bandura. In pain research it usually means confidence in being able to manage pain and keep up daily activities despite it. People with chronic pain who have higher self-efficacy tend to be less disabled and less distressed by their pain."
   wiki: Self-efficacy
+- term: terror_management_theory
+  title: Terror Management Theory
+  def: "Terror management theory is a social psychology theory, proposed in 1986, that people's awareness that they will die could cause paralyzing dread, which they manage by holding on to shared cultural beliefs that make the world feel orderly and meaningful and by building self-esteem through living up to those beliefs. Its best-known prediction, tested in many experiments, is that reminders of death make people cling more tightly to their worldview and defend it against others."
+  wiki: Terror_management_theory
+- term: ffmq
+  title: FFMQ
+  name: "Five Facet Mindfulness Questionnaire (FFMQ)"
+  def: "The Five Facet Mindfulness Questionnaire (FFMQ) is a widely used 39-item self-report questionnaire that measures mindfulness as an everyday tendency. It gives scores for five facets: observing experiences, describing them in words, acting with awareness rather than on autopilot, not judging one's inner experience, and not reacting to it. Because it relies on self-report, scores can reflect how people see themselves, and can shift with what they have learned about mindfulness."
+  wiki: Five_Facet_Mindfulness_Questionnaire
+- term: maranasati
+  title: Maranasati
+  name: "Maranasati (Mindfulness of Death)"
+  def: "Maranasati (Pali maraṇasati, \"mindfulness of death\" or recollection of death) is a Buddhist meditation in which practitioners deliberately bring to mind that they will die and that death could come at any time. Early Buddhist texts describe it both as a reflection, at its most urgent the thought that death could come with the next breath, and as contemplating a corpse in stages of decay as a reminder that one's own body will share that fate. It is traditionally meant to counter complacency and to loosen fear of and clinging to life."
+  wiki: Maranasati
