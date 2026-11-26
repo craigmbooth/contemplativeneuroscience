@@ -796,3 +796,11 @@
   name: "Psychophysiological Interaction (PPI)"
   def: "A psychophysiological interaction (PPI) analysis measures, with fMRI, whether two brain regions work together more or less closely in one condition than another, for example during painful heat compared with harmless warmth. It asks whether a chosen region's activity tracks another region's activity differently depending on the task, a kind of task-dependent functional connectivity. Like other connectivity measures, it shows coordinated activity, not a physical connection or which region drives the other."
   wiki: Psychophysiological_interaction
+- term: minimal_clinically_important_difference
+  title: Minimal Clinically Important Difference
+  def: "The minimal clinically important difference is the smallest change in a score that patients would notice and consider worthwhile. It is set separately for each questionnaire or scale, often by asking patients whether they feel better and seeing how much their scores changed. A result can be statistically significant yet smaller than this threshold, which means it may be real but too small to matter much in daily life."
+  wiki: Minimal_important_difference
+- term: self_efficacy
+  title: Self-Efficacy
+  def: "Self-efficacy is a person's confidence in their ability to do what a situation calls for, a concept developed by the psychologist Albert Bandura. In pain research it usually means confidence in being able to manage pain and keep up daily activities despite it. People with chronic pain who have higher self-efficacy tend to be less disabled and less distressed by their pain."
+  wiki: Self-efficacy
