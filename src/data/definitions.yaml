@@ -783,10 +783,6 @@
   title: Low Back Pain
   def: "Low back pain is pain between the bottom of the ribs and the buttocks, and a leading cause of disability worldwide. Most cases are called non-specific because no particular cause, such as a fracture, infection or nerve compression, can be found. Pain lasting more than three months is called chronic."
   wiki: Low_back_pain
-  title: OFC
-  name: "Orbitofrontal Cortex (OFC)"
-  def: "The orbitofrontal cortex (OFC) is the part of the frontal lobes just above the eye sockets. It helps weigh what things are worth to us, linking sensations with reward, punishment and emotion, and it is involved in reappraising experiences, including pain. Its inner part overlaps with the ventromedial prefrontal cortex along the brain's midline."
-  wiki: Orbitofrontal_cortex
 - term: somatosensory_cortex
   title: Somatosensory Cortex
   def: "The somatosensory cortex is the part of the brain's surface that receives touch, temperature, pain and body-position signals. The primary somatosensory cortex (S1), a strip behind the central groove at the top of the brain, holds a map of the body, with each body part in its own spot; the secondary somatosensory cortex (S2), lower down on each side, helps tell what a sensation is and how strong it feels."
