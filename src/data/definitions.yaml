@@ -779,3 +779,11 @@
   title: Pain Catastrophizing
   def: "Pain catastrophizing is a tendency to magnify the threat of pain, dwell on it and feel helpless in the face of it, for example by thinking that it will never stop or that something terrible is wrong. People who catastrophize tend to report more severe pain and more distress and disability from it."
   wiki: Pain_catastrophizing
+- term: relative_risk
+  title: Relative Risk
+  def: "A relative risk (or risk ratio) is the chance of an outcome in one group divided by the chance in another. A relative risk of 1 means no difference; 1.5 means the outcome was 50% more common in the first group. If 60% of one group improve and 40% of another, the relative risk is 1.5. Unlike an odds ratio, it can be read directly as how many times more likely something is."
+  wiki: Relative_risk
+- term: low_back_pain
+  title: Low Back Pain
+  def: "Low back pain is pain between the bottom of the ribs and the buttocks, and a leading cause of disability worldwide. Most cases are called non-specific because no particular cause, such as a fracture, infection or nerve compression, can be found. Pain lasting more than three months is called chronic."
+  wiki: Low_back_pain
