@@ -747,3 +747,15 @@
   title: Substance Use Disorder
   def: "A substance use disorder is the clinical term for addiction to alcohol or other drugs: continued use despite harm, with problems such as craving, loss of control over how much is used, and failed attempts to cut down. It ranges from mild to severe, and relapse after treatment is common."
   wiki: Substance_use_disorder
+- term: orbitofrontal_cortex
+  title: Orbitofrontal Cortex
+  def: "The orbitofrontal cortex (OFC) is the part of the frontal lobes just above the eye sockets. It helps judge how rewarding or unpleasant something is in its context, updates those judgments as circumstances change, and is involved in regulating emotions."
+  wiki: Orbitofrontal_cortex
+- term: somatosensory_cortex
+  title: Primary Somatosensory Cortex
+  def: "The primary somatosensory cortex (S1) is a strip of cortex running over the top of the brain, just behind the motor cortex, that receives signals of touch, pressure, temperature and pain from the body. Each part of the body is mapped to its own patch, so activity there shows where on the body a sensation is felt and how strong it is."
+  wiki: Primary_somatosensory_cortex
+- term: arterial_spin_labeling
+  title: Arterial Spin Labeling
+  def: "Arterial spin labeling (ASL) is a kind of MRI scan that measures blood flow in the brain by magnetically tagging the water in blood flowing up the neck and imaging it as it arrives. It needs no injected tracer, and unlike standard fMRI it gives blood flow in absolute units, which makes it suited to comparing slow, steady states that last for minutes."
+  wiki: Arterial_spin_labelling
