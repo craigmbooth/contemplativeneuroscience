@@ -3,7 +3,7 @@ title: "Deep Meditation and Psychedelics Can Both Dissolve the Sense of Self, bu
 paper_title: "Psychedelics, Meditation, and Self-Consciousness"
 seo_title: "Meditation vs. Psychedelics: Different Kinds of Self-Loss"
 date: 2026-02-03
-theme: [self]
+theme: [self, deep-states]
 doi: 10.3389/fpsyg.2018.01475
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Millière, R.", "Carhart-Harris, R. L.", "Roseman, L.", "Trautwein, F.-M.", "Berkovich-Ohana, A."]

@@ -3,7 +3,7 @@ title: "In Nondual Awareness Meditation, the Brain's Inward and Outward Systems 
 paper_title: "Influence of meditation on anti-correlated networks in the brain"
 seo_title: "Nondual Meditation and the Brain's Opposing Networks"
 date: 2025-02-04
-theme: [self, neurological-correlates]
+theme: [self, neurological-correlates, deep-states]
 doi: 10.3389/fnhum.2011.00183
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Josipovic, Z.", "Dinstein, I.", "Weber, J.", "Heeger, D. J."]

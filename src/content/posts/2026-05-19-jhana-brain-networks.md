@@ -3,7 +3,7 @@ title: "Jhana States Were Linked to Looser, More Interconnected Brain Networks i
 paper_title: "Multimodal neurophenomenology of advanced concentration absorption meditation: An intensively sampled case study of Jhana"
 seo_title: "Jhana and Brain Networks: A 7T fMRI and EEG Case Study"
 date: 2026-05-19
-theme: [neurological-correlates, self]
+theme: [neurological-correlates, self, deep-states]
 doi: 10.1016/j.neuroimage.2024.120973
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Chowdhury, A.", "Bianciardi, M.", "Chapdelaine, E.", "Riaz, O. S.", "Timmermann, C.", "van Lutterveld, R.", "Sparby, T.", "Sacchet, M. D."]

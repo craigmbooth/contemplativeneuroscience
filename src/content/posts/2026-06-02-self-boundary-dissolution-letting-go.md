@@ -3,7 +3,7 @@ title: "Meditators Who Let Go, Rather Than Pushed, Described the Deepest Dissolv
 paper_title: "Self-Boundary Dissolution in Meditation: A Phenomenological Investigation"
 seo_title: "Dissolving the Self–World Boundary: 46 Meditators' Accounts"
 date: 2026-06-02
-theme: self
+theme: [self, deep-states]
 doi: 10.3390/brainsci11060819
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Nave, O.", "Trautwein, F.-M.", "Ataria, Y.", "Dor-Ziderman, Y.", "Schweitzer, Y.", "Fulder, S.", "Berkovich-Ohana, A."]

@@ -3,7 +3,7 @@ title: "As an Expert Meditator Let the Boundary Between Self and World Dissolve,
 paper_title: "Self-specific processing in the meditating brain: A MEG neurophenomenology study"
 seo_title: "Dissolving the Self–World Boundary and Beta Brain Waves"
 date: 2025-07-29
-theme: [self, neurological-correlates]
+theme: [self, neurological-correlates, deep-states]
 doi: 10.1093/nc/niw019
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Dor-Ziderman, Y.", "Ataria, Y.", "Fulder, S.", "Goldstein, A.", "Berkovich-Ohana, A."]

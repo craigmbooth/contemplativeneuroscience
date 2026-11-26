@@ -3,7 +3,7 @@ title: "Letting Go of the Sense of Self Went With Less Beta Brain Activity in Ex
 paper_title: "Mindfulness-induced selflessness: A MEG neurophenomenological study"
 seo_title: "Meditators' Selfless State Linked to Lower Beta Brain Waves"
 date: 2024-12-17
-theme: [self, neurological-correlates]
+theme: [self, neurological-correlates, deep-states]
 doi: 10.3389/fnhum.2013.00582
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Dor-Ziderman, Y.", "Berkovich-Ohana, A.", "Glicksohn, J.", "Goldstein, A."]
