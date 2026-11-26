@@ -6,7 +6,7 @@ date: 2025-01-14
 theme: [craving]
 doi: 10.1016/j.drugalcdep.2012.11.015
 paper:  # the summarized paper, for structured data; must agree with citation
-  authors: ["Elwafi, H. M.", "Witkiewitz, K.", "Mallik, S.", "Thornhill, T. A., IV", "Brewer, J. A."]
+  authors: ["Elwafi, H. M.", "Witkiewitz, K.", "Mallik, S.", "Thornhill, T. A.", "Brewer, J. A."]
   journal: "Drug and Alcohol Dependence"
   year: 2013
   volume: "130"
