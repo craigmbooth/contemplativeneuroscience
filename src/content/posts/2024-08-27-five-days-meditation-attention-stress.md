@@ -3,7 +3,7 @@ title: "Five Days of Meditation Training Improved Attention, Mood and Stress Res
 paper_title: "Short-term meditation training improves attention and self-regulation"
 seo_title: "Five Days of Meditation: Attention, Mood and Stress"
 date: 2024-08-27
-theme: [mind-wandering, biological-health]
+theme: [mind-wandering, biological-health, mental-health]
 doi: 10.1073/pnas.0707678104
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Tang, Y.-Y.", "Ma, Y.", "Wang, J.", "Fan, Y.", "Feng, S.", "Lu, Q.", "Yu, Q.", "Sui, D.", "Rothbart, M. K.", "Fan, M.", "Posner, M. I."]

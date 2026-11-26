@@ -3,7 +3,7 @@ title: "In Antidepressant Users With Poor Sleep, a Mindfulness Course Cut Time A
 paper_title: "Mindfulness-Based Cognitive Therapy Improves Polysomnographic and Subjective Sleep Profiles in Antidepressant Users with Sleep Complaints"
 seo_title: "Mindfulness, Antidepressants and Time Awake at Night"
 date: 2026-04-21
-theme: sleep
+theme: [sleep, mental-health]
 doi: 10.1159/000332755
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Britton, W. B.", "Haynes, P. L.", "Fridel, K. W.", "Bootzin, R. R."]

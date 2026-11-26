@@ -3,7 +3,7 @@ title:  "A Wandering Mind Is an Unhappy Mind"
 paper_title: "A Wandering Mind Is an Unhappy Mind"
 last_modified_at: 2026-11-23
 date:   2024-03-21
-theme: mind-wandering
+theme: [mind-wandering, mental-health]
 doi: 10.1126/science.1192439
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Killingsworth, M. A.", "Gilbert, D. T."]

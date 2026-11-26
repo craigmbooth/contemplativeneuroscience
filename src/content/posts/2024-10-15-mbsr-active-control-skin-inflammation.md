@@ -4,7 +4,7 @@ paper_title: "A comparison of mindfulness-based stress reduction and an active c
 seo_title: "MBSR vs. a Health Program: Stress and Skin Inflammation"
 date: 2024-10-15
 last_modified_at: 2026-11-25
-theme: biological-health
+theme: [biological-health, mental-health]
 doi: 10.1016/j.bbi.2012.10.013
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Rosenkranz, M. A.", "Davidson, R. J.", "MacCoon, D. G.", "Sheridan, J. F.", "Kalin, N. H.", "Lutz, A."]

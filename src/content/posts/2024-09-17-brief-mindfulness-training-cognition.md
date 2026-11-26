@@ -3,7 +3,7 @@ title: "Four Short Mindfulness Sessions Improved Some Cognitive Test Scores More
 paper_title: "Mindfulness meditation improves cognition: Evidence of brief mental training"
 seo_title: "Four 20-Minute Mindfulness Sessions and Cognitive Tests"
 date: 2024-09-17
-theme: mind-wandering
+theme: [mind-wandering, mental-health]
 doi: 10.1016/j.concog.2010.03.014
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Zeidan, F.", "Johnson, S. K.", "Diamond, B. J.", "David, Z.", "Goolkasian, P."]

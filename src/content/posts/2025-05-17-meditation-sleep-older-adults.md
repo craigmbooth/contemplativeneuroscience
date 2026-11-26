@@ -3,7 +3,7 @@ title: "Mindfulness Improved Older Adults' Sleep More Than Sleep Hygiene Classes
 paper_title: "Mindfulness Meditation and Improvement in Sleep Quality and Daytime Impairment Among Older Adults With Sleep Disturbances"
 seo_title: "Mindfulness Meditation Improves Sleep in Older Adults"
 date:   2025-05-17
-theme: sleep
+theme: [sleep, mental-health]
 doi: 10.1001/jamainternmed.2014.8081
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Black, D. S.", "O’Reilly, G. A.", "Olmstead, R.", "Breen, E. C.", "Irwin, M. R."]

@@ -101,7 +101,8 @@
   padding: 0
   margin: $spacing-lg 0 0
   display: grid
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr))
+  // Three across, so the six themes sit in two even rows.
+  grid-template-columns: repeat(3, 1fr)
   gap: $spacing-md
 
 .question-card

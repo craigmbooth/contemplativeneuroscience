@@ -3,7 +3,7 @@ title: "Compassion Training Didn't Change Stress Responses Overall, but More Pra
 paper_title: "Effect of compassion meditation on neuroendocrine, innate immune and behavioral responses to psychosocial stress"
 seo_title: "Compassion Meditation, Practice Time and Stress Inflammation"
 date: 2026-02-17
-theme: biological-health
+theme: [biological-health, mental-health]
 doi: 10.1016/j.psyneuen.2008.08.011
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Pace, T. W. W.", "Negi, L. T.", "Adame, D. D.", "Cole, S. P.", "Sivilli, T. I.", "Brown, T. D.", "Issa, M. J.", "Raison, C. L."]
