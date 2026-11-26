@@ -50,7 +50,7 @@ To make sense of 92 answers per person, the authors used :term{id="factor_analys
 
 The authors settled on 12 factors. Each is a dimension along which people's experiences differed, not a feature that every experience had.
 
-![The 12 factors found in 1,403 meditators' ratings of a remembered experience of pure awareness, with the share of the variation in answers that each explains and the question that loaded most strongly on it. The factors overlap, so the shares can't be added up. Drawn from the values in Tables 5 and 6 of Gamma and Metzinger, 2021 (CC BY 4.0).](/assets/article_images/pure-awareness-questionnaire/twelve-factors.jpg)
+![The 12 factors found in 1,403 meditators' ratings of a remembered experience of pure awareness, with the share of the variation in answers that each explains and the question that loaded most strongly on it. The factors overlap, so the shares can't be added up; together the 12 explain 44%. Drawn from the values in Tables 5 and 6 of Gamma and Metzinger, 2021 (CC BY 4.0).](/assets/article_images/pure-awareness-questionnaire/twelve-factors.jpg)
 
 Several factors describe qualities that the contemplative literature has long attributed to pure awareness:
 
