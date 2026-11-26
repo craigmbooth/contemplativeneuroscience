@@ -513,3 +513,15 @@
   title: Angular Gyrus
   def: "The angular gyrus is a region in the back of the parietal lobe, part of the inferior parietal lobule, where information from vision, hearing and touch comes together. It is involved in language, attention, memory and in taking perspectives, including switching between seeing a situation from one's own point of view and from the outside."
   wiki: Angular_gyrus
+- term: dorsal_attention_network
+  title: Dorsal Attention Network
+  def: "The dorsal attention network (DAN) is a set of brain regions toward the top of the parietal lobes (around the intraparietal sulcus) and in the frontal lobes (the frontal eye fields). It directs attention voluntarily toward whatever a person has chosen to focus on, especially in the outside world, and its activity tends to rise and fall in opposition to the default mode network."
+  wiki: Dorsal_attention_network
+- term: heart_rate_variability
+  title: Heart Rate Variability
+  def: "Heart rate variability (HRV) is the natural variation in time between one heartbeat and the next, calculated from an ECG or a pulse sensor. Higher HRV at rest usually reflects a stronger parasympathetic (\"rest and digest\") influence on the heart and is generally linked to relaxation, better health and more flexible responses to stress."
+  wiki: Heart_rate_variability
+- term: mahamudra
+  title: Mahāmudrā
+  def: "Mahāmudrā (Sanskrit for \"great seal\") is a body of teachings and meditation practices in Tibetan Buddhism, central to the Kagyü school. It aims at direct recognition of the nature of the mind itself, often described as open, clear awareness that is not centered on a self."
+  wiki: Mahamudra
