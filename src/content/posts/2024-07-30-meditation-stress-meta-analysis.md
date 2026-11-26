@@ -3,7 +3,7 @@ title: "Across 47 Trials, Mindfulness Programs Eased Anxiety, Depression and Pai
 paper_title: "Meditation Programs for Psychological Stress and Well-being: A Systematic Review and Meta-analysis"
 seo_title: "Meditation for Stress, Anxiety and Depression: 47 Trials"
 date: 2024-07-30
-theme: mental-health
+theme: [mental-health, pain]
 doi: 10.1001/jamainternmed.2013.13018
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Goyal, M.", "Singh, S.", "Sibinga, E. M. S.", "Gould, N. F.", "Rowland-Seymour, A.", "Sharma, R.", "Berger, Z.", "Sleicher, D.", "Maron, D. D.", "Shihab, H. M.", "Ranasinghe, P. D.", "Linn, S.", "Saha, S.", "Bass, E. B.", "Haythornthwaite, J. A."]

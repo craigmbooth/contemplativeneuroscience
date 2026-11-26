@@ -3,7 +3,7 @@ title: "A Mindfulness Program Cut Opioid Misuse and Chronic Pain More Than a Sup
 paper_title: "Mindfulness-Oriented Recovery Enhancement vs Supportive Group Therapy for Co-occurring Opioid Misuse and Chronic Pain in Primary Care: A Randomized Clinical Trial"
 seo_title: "Mindfulness Program Cut Opioid Misuse and Chronic Pain"
 date: 2025-10-21
-theme: [craving, mental-health]
+theme: [craving, mental-health, pain]
 doi: 10.1001/jamainternmed.2022.0033
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Garland, E. L.", "Hanley, A. W.", "Nakamura, Y.", "Barrett, J. W.", "Baker, A. K.", "Reese, S. E.", "Riquino, M. R.", "Froeliger, B.", "Donaldson, G. W."]

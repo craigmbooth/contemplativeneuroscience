@@ -3,7 +3,7 @@ title: "Across 142 Trials, Mindfulness Therapies Did About as Well as Proven Tre
 paper_title: "Mindfulness-based interventions for psychiatric disorders: A systematic review and meta-analysis"
 seo_title: "Mindfulness for Psychiatric Disorders: 142 Trials Pooled"
 date: 2026-03-31
-theme: [mental-health, craving]
+theme: [mental-health, craving, pain]
 doi: 10.1016/j.cpr.2017.10.011
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Goldberg, S. B.", "Tucker, R. P.", "Greene, P. A.", "Davidson, R. J.", "Wampold, B. E.", "Kearney, D. J.", "Simpson, T. L."]
