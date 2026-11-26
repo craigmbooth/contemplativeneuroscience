@@ -13,7 +13,7 @@ Requires Node >= 22.23.4 (see `.nvmrc` / `package.json` engines).
 ```bash
 npm install
 npm run dev      # dev server (Astro 7 runs it in the background; stop with `npx astro dev stop`)
-npm run build    # static build into dist/
+npm run build    # static build into dist/, then checks its structured data (fails on gaps)
 npm run preview  # serve dist/
 npm run check    # type-check .astro/.ts files
 ```
@@ -123,6 +123,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Each post's Article says it `isBasedOn` the paper: a ScholarlyArticle identified by its DOI URL, with authors, journal, volume, issue and pages from the `paper` front matter (`paperSchema()`).
 - Theme pages, All Papers and Research Themes are `CollectionPage`s whose `mainEntity` is an `ItemList` of the pages they list; a theme's `abstract` is its "What the Research Says" text. The home page's WebSite has a `SearchAction` pointing at `/all-papers/?q=`.
 - Structured data is JSON-LD only (no microdata). Check changes with https://validator.schema.org/ and Google's Rich Results Test.
+- `npm run build` ends with `scripts/check-structured-data.mjs`, which fails the build (and so the deploy) unless every post has an Article that `isBasedOn` a ScholarlyArticle with the paper's DOI and a BreadcrumbList ending at the post, every theme page has a CollectionPage listing all its papers, and every indexable page has valid JSON-LD. Extend it when adding new page types or required fields.
 - Structured data uses one author entity (`authorSchema()`, `@id` /about/#author) with `sameAs` links from `site.authorProfiles`; posts list the glossary terms they cover as `mentions`, and the glossary is a `DefinedTermSet` tied to Wikipedia.
 
 ## Share Cards and Images
