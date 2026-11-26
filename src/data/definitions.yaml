@@ -529,10 +529,6 @@
   title: Sense of Agency
   def: "The sense of agency is the feeling of being the one who initiates and controls an action, such as moving your hand or, in meditation, directing your attention. It is usually so constant that it goes unnoticed, but it can weaken or disappear in some psychiatric and neurological conditions and in some deep meditative states."
   wiki: Sense_of_agency
-- term: non_dual_awareness
-  title: Non-Dual Awareness
-  def: "Non-dual awareness is a state described in several contemplative traditions in which the usual split between a perceiving subject (\"I\") and the things perceived falls away, so that experience is no longer felt as happening to an observer. Researchers study it mainly through the reports of experienced meditators."
-  wiki: Nondualism
 - term: principal_component_analysis
   title: Principal Component Analysis
   def: "Principal component analysis (PCA) is a statistical method that looks for a small number of underlying dimensions that account for most of the variation in many related measurements. If several measures rise and fall together, PCA can show that they largely reflect one shared factor."
@@ -549,10 +545,6 @@
   title: Interoception
   def: "Interoception is the sense of the body's internal state: feeling your heartbeat, breathing, hunger, warmth, tension and other sensations from inside the body. Interoceptive awareness is how much attention a person pays to these signals. Practices such as the body scan, which moves attention through the body part by part, aim to strengthen it."
   wiki: Interoception
-- term: interoception
-  title: Interoception
-  def: "Interoception is the sense of the body's internal state: signals such as the heartbeat, breathing, hunger and sensations from the gut. Much of it runs outside awareness, but attention can be turned toward it, and many meditation practices, such as following the breath, train exactly that. The insula is a key brain region for it."
-  wiki: Interoception
 - term: psychedelic_drug
   title: Psychedelic Drugs
   def: "Classic psychedelics are drugs such as psilocybin (the active compound in \"magic mushrooms\"), LSD, mescaline and DMT that profoundly alter perception, emotion and the sense of self, mainly by stimulating the brain's serotonin 2A receptors. They are being studied as possible treatments for conditions such as depression and addiction, mostly in carefully controlled clinical settings, and are controlled substances in most countries."
@@ -561,10 +553,6 @@
   title: Ego Dissolution
   def: "Ego dissolution (also called ego death) is a temporary loss of the ordinary sense of being a separate self, often described as the boundary between self and world melting away, sometimes with a feeling of oneness. It is reported at high doses of psychedelic drugs and in some deep meditative states, and researchers usually measure it with questionnaires."
   wiki: Ego_death
-- term: non_dual_awareness
-  title: Non-Dual Awareness
-  def: "Non-dual awareness is a state described in several contemplative traditions, including Dzogchen and Mahāmudrā in Tibetan Buddhism and Advaita Vedanta in Hinduism, in which the usual split between a subject who experiences and the objects experienced seems to fall away. Practices aimed at it try to recognize awareness itself rather than focus on any particular object."
-  wiki: Nondualism
 - term: samadhi
   title: Samadhi
   def: "Samadhi is a state of deep meditative absorption, or one-pointed concentration, described in Hindu and Buddhist traditions. In Buddhism it is closely tied to the jhanas, a series of increasingly refined absorption states. Its deepest stages are described as having almost no content: no thoughts, no pleasure or pain, and no sense of an individual self."
