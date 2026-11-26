@@ -557,3 +557,15 @@
   title: Samadhi
   def: "Samadhi is a state of deep meditative absorption, or one-pointed concentration, described in Hindu and Buddhist traditions. In Buddhism it is closely tied to the jhanas, a series of increasingly refined absorption states. Its deepest stages are described as having almost no content: no thoughts, no pleasure or pain, and no sense of an individual self."
   wiki: Samadhi
+- term: interoception
+  title: Interoception
+  def: "Interoception is the sense of the body's internal state: signals such as heartbeat, breathing, hunger, temperature and the workings of the gut. Much of it happens outside awareness, yet it shapes how we feel. The insula is a key brain region for it, and many meditation practices direct attention to these inner sensations."
+  wiki: Interoception
+- term: extinction
+  title: Extinction (Learning)
+  def: "In psychology, extinction is the fading of a learned reaction when its trigger stops predicting what it used to, for example when a place once linked with danger is repeatedly experienced as safe. Extinction doesn't erase the original memory; it adds new learning that competes with it, which is why old fears can return. Exposure therapies for anxiety rely on it."
+  wiki: Extinction_(psychology)
+- term: memory_reconsolidation
+  title: Memory Reconsolidation
+  def: "Memory reconsolidation is the process by which a memory, when recalled, briefly becomes changeable before it is stored again. During that window it can be updated, weakened or linked to new associations. Researchers study it as a way to change emotional memories, for example in anxiety and addiction."
+  wiki: Memory_reconsolidation
