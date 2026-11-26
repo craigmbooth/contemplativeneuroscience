@@ -683,3 +683,16 @@
   title: Nicotine Replacement Therapy
   def: "Nicotine replacement therapy (NRT) gives smokers nicotine without tobacco smoke, through patches, gum, lozenges, inhalers or sprays, to ease withdrawal and cravings while they quit. It is one of the standard medications for stopping smoking, often combined with counseling."
   wiki: Nicotine_replacement_therapy
+- term: correlation
+  title: Correlation
+  name: "Correlation (Pearson's r)"
+  def: "A correlation measures how closely two things rise and fall together across people or over time. Pearson's r runs from −1 to +1: values near +1 mean that people high on one measure tend to be high on the other, values near −1 mean the reverse, and values near 0 mean no straight-line relationship. A correlation alone can't show that one thing causes the other."
+  wiki: Pearson_correlation_coefficient
+- term: moderation_analysis
+  title: Moderation Analysis
+  def: "Moderation analysis is a statistical method that tests whether the link between two variables changes depending on a third, called the moderator. For example, it can ask whether the link between craving and smoking is weaker in people who practice mindfulness more often. It is usually tested by adding an interaction term (the product of the two predictors) to a regression. It shows that a relationship differs between people, not why."
+  wiki: Moderation_(statistics)
+- term: negative_reinforcement
+  title: Negative Reinforcement
+  def: "Negative reinforcement is learning in which a behavior becomes more likely because it removes or relieves something unpleasant. Smoking to ease withdrawal, stress or a bad mood is a common example: the relief teaches the brain to reach for a cigarette the next time that feeling appears. It is the counterpart of positive reinforcement, where a behavior is strengthened by a pleasant result."
+  wiki: Negative_reinforcement
