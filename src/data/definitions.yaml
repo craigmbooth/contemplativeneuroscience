@@ -494,3 +494,14 @@
   title: Task-Positive Network
   def: "The task-positive network is a set of brain regions, including sensory, attention and parietal areas, that become more active when a person is engaged with an external, attention-demanding task. Its activity tends to rise when the default mode network's falls, and vice versa, so the two are often described as anticorrelated or competing."
   wiki: Task-positive_network
+- term: decentering
+  title: Decentering
+  def: "Decentering is the ability to observe thoughts, feelings and memories as passing events in the mind rather than as facts about reality or fixed parts of who you are: noticing \"I'm having the thought that I'll fail\" rather than simply believing \"I'll fail.\" It is thought to be one of the ways mindfulness-based programs and cognitive therapies work, and is usually measured by questionnaire, for example with the Experiences Questionnaire."
+- term: generalized_anxiety_disorder
+  title: Generalized Anxiety Disorder (GAD)
+  def: "Generalized anxiety disorder (GAD) is an anxiety disorder marked by excessive, hard-to-control worry about many everyday matters, such as health, work or family, lasting at least six months. The worry comes with physical and mental symptoms such as restlessness, tiring easily, trouble concentrating, irritability, muscle tension and poor sleep."
+  wiki: Generalized_anxiety_disorder
+- term: bootstrapping
+  title: Bootstrapping
+  def: "Bootstrapping is a statistical technique that gauges how uncertain a result is by resampling the data. It draws thousands of new samples of the same size from the original participants (with replacement), recalculates the result in each, and uses the spread of those results to build a confidence interval. It makes fewer assumptions about the shape of the data than traditional tests and is commonly used to test indirect effects in mediation analysis."
+  wiki: Bootstrapping_(statistics)
