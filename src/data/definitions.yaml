@@ -609,3 +609,11 @@
   title: Auditory Brainstem Response
   def: "The auditory brainstem response (ABR) is a series of tiny electrical waves, recorded from the scalp, that the hearing nerve and brainstem produce within about 10 milliseconds of a click. Because it doesn't depend on attention or awareness, it is used to test hearing in newborns and to check whether the brainstem is still working in people in a deep coma or suspected of brain death."
   wiki: Auditory_brainstem_response
+- term: out_of_body_experience
+  title: Out-of-Body Experience
+  def: "An out-of-body experience (OBE) is the feeling of being located outside one's own physical body, often seeing it from above or from across the room. OBEs are reported in deep meditation, near-death experiences, sleep paralysis and some neurological conditions, and can be triggered by stimulating the temporoparietal junction, a region that helps place the sense of self in the body."
+  wiki: Out-of-body_experience
+- term: cerebellum
+  title: Cerebellum
+  def: "The cerebellum (\"little brain\") is a densely packed structure at the back of the brain, beneath the main hemispheres. It is best known for coordinating movement and balance, using signals from the inner ear and the body, but it also contributes to timing, attention and other mental functions."
+  wiki: Cerebellum
