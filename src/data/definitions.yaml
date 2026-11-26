@@ -696,3 +696,12 @@
   title: Negative Reinforcement
   def: "Negative reinforcement is learning in which a behavior becomes more likely because it removes or relieves something unpleasant. Smoking to ease withdrawal, stress or a bad mood is a common example: the relief teaches the brain to reach for a cigarette the next time that feeling appears. It is the counterpart of positive reinforcement, where a behavior is strengthened by a pleasant result."
   wiki: Negative_reinforcement
+- term: more
+  title: MORE
+  name: "Mindfulness-Oriented Recovery Enhancement (MORE)"
+  def: "Mindfulness-Oriented Recovery Enhancement (MORE) is an 8-week group program developed by the social work researcher Eric Garland for addiction, stress and chronic pain, including opioid misuse. It combines mindfulness meditation with reappraisal (reframing unhelpful thoughts, a technique from cognitive behavioral therapy) and savoring (deliberately dwelling on pleasant experiences). Its aim is to shift the brain's reward system from valuing drugs back toward valuing natural rewards."
+  wiki: Mindfulness-Oriented_Recovery_Enhancement
+- term: opioid_use_disorder
+  title: Opioid Use Disorder
+  def: "Opioid use disorder is the medical term for opioid addiction: a pattern of opioid use, whether of prescribed painkillers, heroin or other opioids, that a person struggles to control and that causes significant harm or distress. Signs include strong cravings, needing more to get the same effect, and continuing to use despite problems at home, work or with health. It is usually treated with medications such as buprenorphine or methadone, often alongside counseling."
+  wiki: Opioid_use_disorder
