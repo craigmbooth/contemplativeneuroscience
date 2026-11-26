@@ -634,3 +634,32 @@
   title: Non-Attachment
   def: "In Buddhist psychology, non-attachment is freedom from clinging: being able to engage with experiences, people and things without needing to hold on to them, and to let them go when they change or end. It is not the same as indifference or emotional detachment. Researchers measure it with questionnaires such as the Non-Attachment Scale, on which higher scores mean less clinging."
   wiki: Nonattachment_(philosophy)
+- term: nimitta
+  title: Nimitta
+  def: "In Theravada Buddhist meditation, a nimitta (Pali for \"sign\") is a mental image that is said to appear once concentration has developed, often while focusing on the breath. It is commonly described as a light, such as a star, a cluster of gems or the disk of the moon. Teachers treat it as a sign of deepening concentration, and it can become the new object of attention on the way to the jhanas."
+  wiki: Nimitta
+- term: sensory_deprivation
+  title: Sensory Deprivation
+  def: "Sensory deprivation is the deliberate reduction of input to the senses, for example by sitting in a dark, silent room, wearing blindfolds and earplugs, or floating in a lightless tank. Even short periods can change perception, including simple visual hallucinations such as spots or flashes of light."
+  wiki: Sensory_deprivation
+- term: perceptual_isolation
+  title: Perceptual Isolation
+  name: "Perceptual Isolation (Ganzfeld)"
+  def: "Perceptual isolation, studied as the Ganzfeld effect, means exposing someone to an unchanging, featureless field of sight or sound, such as an even wash of light over both eyes with steady white noise. The senses still receive input, but the brain habituates and filters it out, and people often begin to see lights, patterns or images that aren't there."
+  wiki: Ganzfeld_effect
+- term: charles_bonnet_syndrome
+  title: Charles Bonnet Syndrome
+  def: "Charles Bonnet syndrome is a condition in which people with poor vision or blindness, most often older adults, see things that aren't there, from spots, flashes and patterns to faces or scenes. It is not a sign of mental illness, and people usually know the images aren't real. It is thought to arise when visual areas of the brain, deprived of input, become overactive."
+  wiki: Visual_release_hallucinations
+- term: homeostatic_plasticity
+  title: Homeostatic Plasticity
+  def: "Homeostatic plasticity is a set of feedback mechanisms that keep neurons' activity near a stable level. If a neuron receives less input, it becomes more excitable, for example by strengthening its connections; if it receives too much, it becomes less excitable. When sensory input drops sharply, this compensation can overshoot and cause spontaneous firing."
+  wiki: Homeostatic_plasticity
+- term: occipital_lobe
+  title: Occipital Lobe
+  def: "The occipital lobe, at the back of the brain, is the brain's main center for vision. Its outer layer, the occipital or visual cortex, receives signals from the eyes and analyzes features such as edges, color and movement."
+  wiki: Occipital_lobe
+- term: hypnagogia
+  title: Hypnagogia
+  def: "Hypnagogia is the drowsy state between wakefulness and sleep. Experiences that arise in it, called hypnagogic hallucinations, are very common: dream-like images, sounds, or a sudden feeling of falling as a person drifts off. They are usually harmless."
+  wiki: Hypnagogia
