@@ -444,3 +444,11 @@
   title: GRADE
   def: "GRADE (Grading of Recommendations Assessment, Development and Evaluation) is a widely used system for rating how much confidence to place in a body of evidence. Reviewers rate each finding as high, moderate, low or very low certainty, downgrading it for problems such as risk of bias in the studies, inconsistent results, imprecise estimates, indirect evidence and signs that unfavorable results went unpublished. Low certainty means the true effect may be substantially different from the estimate."
   wiki: GRADE_approach
+- term: pragmatic_trial
+  title: Pragmatic Trial
+  def: "A pragmatic trial tests how well a treatment works in everyday practice, with ordinary participants, settings and levels of attendance, rather than under the tightly controlled conditions of an explanatory trial. It shows whether offering a program helps the people it is offered to, but it usually compares the program with usual care, so it can't say which parts of the program caused any benefit."
+  wiki: Pragmatic_clinical_trial
+- term: number_needed_to_treat
+  title: Number Needed to Treat
+  def: "The number needed to treat (NNT) is how many people need to receive a treatment, or be offered it, for one more of them to avoid a bad outcome than would have without it. It is 1 divided by the difference in the share of each group that has the outcome: if 30% of an untreated group and 20% of a treated group have it, the NNT is 1 / 0.10, or 10. Lower numbers mean a bigger practical effect."
+  wiki: Number_needed_to_treat
