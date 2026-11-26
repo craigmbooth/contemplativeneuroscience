@@ -25,7 +25,7 @@ study:
 
 ## Background Information
 
-Psychotherapy, positive psychology and contemplative practices such as meditation all try to make people feel and function better. Each field has its own vocabulary, measures and favorite outcomes. Cortland Dahl, Christine Wilson-Mendenhall and Richard Davidson, of the Center for Healthy Minds at the University of Wisconsin–Madison, which Davidson founded, argue that what these fields lack is a shared map of which parts of well-being can actually be changed by training, and how.
+Psychotherapy, positive psychology and contemplative practices such as meditation all try to make people feel and function better. Each field has its own vocabulary, measures and favorite outcomes. Cortland Dahl, Christine Wilson-Mendenhall and Richard Davidson, of the Center for Healthy Minds at the University of Wisconsin–Madison, argue that what these fields lack is a shared map of which parts of well-being can actually be changed by training, and how.
 
 This paper is their attempt at that map. It is not a new study: there are no participants and no new data. It is a review that proposes a framework and gathers evidence from well-being research, cognitive and affective neuroscience and clinical psychology to support it. Its central move is to treat well-being as something learned, more like a set of skills than a fixed trait. In the authors' words, the four dimensions they propose
 

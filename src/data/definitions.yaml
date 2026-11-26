@@ -460,10 +460,6 @@
   title: Central Executive Network
   def: "The central executive network (also called the frontoparietal control network) is a set of brain regions in the lateral prefrontal and parietal cortex, including the dorsolateral prefrontal cortex. It is active during demanding, goal-directed tasks, supporting working memory, directing attention and regulating emotion, and it tends to work in opposition to the default mode network."
   wiki: Central_executive_network
-- term: cbt
-  title: Cognitive Behavioral Therapy (CBT)
-  def: "Cognitive behavioral therapy (CBT) is a structured, usually short-term form of psychotherapy. It helps people identify unhelpful patterns of thinking and behavior, such as harsh or distorted beliefs about themselves, test them against evidence and replace them with more realistic ones. It is a well-established treatment for depression, anxiety and many other conditions."
-  wiki: Cognitive_behavioral_therapy
 - term: act
   title: Acceptance and Commitment Therapy (ACT)
   def: "Acceptance and commitment therapy (ACT) is a form of psychotherapy that combines mindfulness and acceptance with values-based action. Rather than trying to change or get rid of difficult thoughts and feelings, people learn to notice and make room for them, clarify what matters to them, and commit to acting on those values."
