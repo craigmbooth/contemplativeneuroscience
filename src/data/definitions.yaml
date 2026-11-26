@@ -827,3 +827,7 @@
   title: Ringsel
   def: "Ringsel (Tibetan ring bsrel) are small, pearl-like beads that Tibetan Buddhists say are sometimes found among the cremated remains of accomplished practitioners. They are venerated and enshrined as relics, and the tradition treats them as a sign of the person's spiritual attainment."
   wiki: Ringsel
+- term: predictive_coding
+  title: Predictive Coding
+  def: "Predictive coding (or predictive processing) is the theory that the brain constantly predicts what it is about to sense and compares those predictions with what actually arrives. Mismatches, called prediction errors, are passed on to update its model of the world and of the self. A surprise response to an unexpected stimulus is therefore taken as a sign that the brain had formed a prediction in the first place."
+  wiki: Predictive_coding
