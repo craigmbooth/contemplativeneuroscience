@@ -767,3 +767,15 @@
   title: Fibromyalgia
   def: "Fibromyalgia is a long-term condition marked by widespread pain across the body, along with fatigue, poor sleep and problems with memory and concentration. Its cause is not fully understood; it is thought to involve heightened sensitivity to pain in the central nervous system rather than damage to muscles or joints. It is diagnosed more often in women, and treatment usually combines exercise, psychological therapies and medication."
   wiki: Fibromyalgia
+- term: focused_attention
+  title: Focused Attention
+  name: "Focused Attention Meditation"
+  def: "Focused attention is a style of meditation in which you keep your attention on one chosen object, such as the breath or a point in front of you, notice when the mind has wandered, and bring it back. It trains steady concentration, and Buddhist shamatha practice is a well-known example. Researchers often contrast it with open monitoring meditation."
+- term: open_monitoring
+  title: Open Monitoring
+  name: "Open Monitoring Meditation"
+  def: "Open monitoring is a style of meditation in which attention isn't fixed on any one object. You stay aware of whatever arises from moment to moment, such as sounds, sensations and thoughts, and let each come and go without reacting to it, holding on to it or pushing it away. Researchers often contrast it with focused attention meditation."
+- term: pain_catastrophizing
+  title: Pain Catastrophizing
+  def: "Pain catastrophizing is a tendency to magnify the threat of pain, dwell on it and feel helpless in the face of it, for example by thinking that it will never stop or that something terrible is wrong. People who catastrophize tend to report more severe pain and more distress and disability from it."
+  wiki: Pain_catastrophizing
