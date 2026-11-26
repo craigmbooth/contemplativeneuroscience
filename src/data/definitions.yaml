@@ -858,3 +858,8 @@
   title: Sufism
   def: "Sufism is the mystical tradition within Islam. Its practitioners, often organized in orders around a teacher, seek a direct inner experience of God through practices such as dhikr (rhythmic repetition of God's names or short phrases), meditation, prayer and, in some orders, music and movement. Sufi writers often describe death not as an end to be feared but as a reunion with God."
   wiki: Sufism
+- term: sgacc
+  title: sgACC
+  name: "Subgenual Anterior Cingulate Cortex (sgACC)"
+  def: "The subgenual anterior cingulate cortex (sgACC) is the lowest part of the anterior cingulate cortex, lying beneath the bend (genu) at the front of the corpus callosum, next to the ventromedial prefrontal cortex. It is involved in emotion and mood: it is overactive in depression, where it has been a target of deep brain stimulation. Brain-imaging studies have also found it more active when smokers see cigarette cues and crave."
+  wiki: Brodmann_area_25
