@@ -735,3 +735,15 @@
   title: Striatum
   def: "The striatum is a group of structures deep in the brain that is central to reward, motivation and habit. Its lower part, the ventral striatum (which includes the nucleus accumbens), responds to pleasures and to cues that predict them, and is strongly activated by addictive drugs. Its upper part, the dorsal striatum, is involved in movement and in habits that run automatically."
   wiki: Striatum
+- term: relapse_prevention
+  title: Relapse Prevention
+  def: "Relapse prevention is a cognitive-behavioral approach to addiction treatment, developed by G. Alan Marlatt and colleagues, that helps people stay off alcohol or drugs after they have stopped. Patients learn to identify high-risk situations, such as stress or certain places and people, to plan and practice ways of coping with them, and to treat a slip as something to learn from rather than a complete failure."
+  wiki: Relapse_prevention
+- term: twelve_step
+  title: Twelve-Step Program
+  def: "A twelve-step program is a mutual-help approach to recovery from addiction based on the twelve steps of Alcoholics Anonymous, such as admitting powerlessness over the addiction, taking a moral inventory and making amends. Members meet in peer-led groups, aim for complete abstinence and are encouraged to find a sponsor. Many addiction treatment centers build their programs around these principles."
+  wiki: Twelve-step_program
+- term: substance_use_disorder
+  title: Substance Use Disorder
+  def: "A substance use disorder is the clinical term for addiction to alcohol or other drugs: continued use despite harm, with problems such as craving, loss of control over how much is used, and failed attempts to cut down. It ranges from mild to severe, and relapse after treatment is common."
+  wiki: Substance_use_disorder
