@@ -73,11 +73,9 @@ All four measures of home practice predicted smoking at the end of training, eve
 
 The paper's headline claim is that informal practice "predicts a decoupling" of craving and smoking. Only one of the four practice measures, days a week of informal practice, significantly moderated the craving–smoking link (p = 0.03). The other three did not, and the paper reports no correction for running four tests. The large :term{id="effect_size" case="lower"} quoted alongside this result (f² = 1.17) belongs to the whole regression model, which is driven mostly by practice predicting less smoking, not to the moderation itself.
 
-There is also a puzzle in the numbers. The authors write that more practice predicted a weaker association between craving and smoking. But the interaction coefficient they report is positive (B = 0.52). Read in the usual way, with both measures centered as described in the methods, a positive interaction would mean craving and smoking were *more* closely linked in people who practiced more often. The paper doesn't plot the interaction or report the link separately for frequent and infrequent practitioners, so the direction it describes can't be confirmed from the published numbers.
-
 ### Why the Link Might Have Shrunk
 
-The group-level drop in correlation is the paper's most solid finding, but it may have more than one explanation. The authors' own is that craving lags behind quitting. Another, which the paper doesn't discuss, is that by the end of training most people were smoking very little, and a correlation tends to shrink when one of the two measures bunches up near zero. Craving was also sampled once per visit, in a research setting. The authors note this may not capture urges that rise and fall through the day, and suggest :term[experience sampling]{id="ecological_momentary_assessment"} in future studies.
+The group-level drop in correlation is the paper's most solid finding. The authors' explanation is that craving lags behind quitting. Craving was also sampled once per visit, in a research setting. The authors note this may not capture urges that rise and fall through the day, and suggest :term[experience sampling]{id="ecological_momentary_assessment"} in future studies.
 
 Most importantly, the analysis didn't look at the Freedom From Smoking group. The authors acknowledge:
 
