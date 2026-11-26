@@ -525,3 +525,23 @@
   title: Mahāmudrā
   def: "Mahāmudrā (Sanskrit for \"great seal\") is a body of teachings and meditation practices in Tibetan Buddhism, central to the Kagyü school. It aims at direct recognition of the nature of the mind itself, often described as open, clear awareness that is not centered on a self."
   wiki: Mahamudra
+- term: sense_of_agency
+  title: Sense of Agency
+  def: "The sense of agency is the feeling of being the one who initiates and controls an action, such as moving your hand or, in meditation, directing your attention. It is usually so constant that it goes unnoticed, but it can weaken or disappear in some psychiatric and neurological conditions and in some deep meditative states."
+  wiki: Sense_of_agency
+- term: non_dual_awareness
+  title: Non-Dual Awareness
+  def: "Non-dual awareness is a state described in several contemplative traditions in which the usual split between a perceiving subject (\"I\") and the things perceived falls away, so that experience is no longer felt as happening to an observer. Researchers study it mainly through the reports of experienced meditators."
+  wiki: Nondualism
+- term: principal_component_analysis
+  title: Principal Component Analysis
+  def: "Principal component analysis (PCA) is a statistical method that looks for a small number of underlying dimensions that account for most of the variation in many related measurements. If several measures rise and fall together, PCA can show that they largely reflect one shared factor."
+  wiki: Principal_component_analysis
+- term: inter_rater_reliability
+  title: Inter-Rater Reliability
+  def: "Inter-rater reliability is how closely two or more people agree when they independently rate or classify the same material, such as interview transcripts. Measures such as Cohen's kappa correct for the agreement expected by chance: 0 means chance-level agreement and 1 perfect agreement."
+  wiki: Inter-rater_reliability
+- term: body_scan
+  title: Body Scan
+  def: "The body scan is a meditation practice in which attention is moved slowly through the body, part by part, noticing whatever sensations are present without trying to change them. It is a core exercise in mindfulness programs such as MBSR."
+  wiki: Body_scan
