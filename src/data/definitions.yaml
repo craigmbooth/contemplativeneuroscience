@@ -663,3 +663,15 @@
   title: Hypnagogia
   def: "Hypnagogia is the drowsy state between wakefulness and sleep. Experiences that arise in it, called hypnagogic hallucinations, are very common: dream-like images, sounds, or a sudden feeling of falling as a person drifts off. They are usually harmless."
   wiki: Hypnagogia
+- term: factor_analysis
+  title: Factor Analysis
+  def: "Factor analysis is a statistical method for finding a smaller number of underlying dimensions, called factors, behind answers to many questions. Questions that people tend to answer in similar ways are grouped onto the same factor. Researchers choose how many factors to keep and name them by the questions that load on each, so the result involves judgment as well as arithmetic."
+  wiki: Factor_analysis
+- term: cronbachs_alpha
+  title: Cronbach's Alpha
+  def: "Cronbach's alpha is a measure of how consistently a set of questionnaire items measures the same thing, based on how strongly people's answers to them go together. It runs from 0 to 1; values of about 0.7 or higher are usually considered acceptable for research."
+  wiki: Cronbach%27s_alpha
+- term: zen
+  title: Zen
+  def: "Zen is a school of Mahayana Buddhism that developed in China (as Chan) and spread to Japan, Korea and Vietnam. Its central practice is seated meditation (zazen), such as shikantaza, \"just sitting\" in open awareness without a particular object, or working with koans, paradoxical questions meant to cut through ordinary conceptual thinking."
+  wiki: Zen
