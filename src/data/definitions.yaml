@@ -840,3 +840,11 @@
   title: Episodic Memory
   def: "Episodic memory is memory for particular events you lived through, such as your last birthday, recalled with a sense of when and where they happened and of re-experiencing them. It differs from semantic memory, which stores general facts. Episodic memory is closely tied to imagining one's own future, and both are thought to help give people a sense of being the same person over time."
   wiki: Episodic_memory
+- term: mortality_salience
+  title: Mortality Salience
+  def: "Mortality salience is the state of being reminded of one's own death. In terror management research it is created on purpose, usually by asking people to write briefly about their own death, and compared with a control group asked about an unpleasant but non-lethal topic such as dental pain. Researchers then measure how the reminder shifts people's judgments, typically after a short delay that lets thoughts of death fade from awareness."
+  wiki: Mortality_salience
+- term: thought_suppression
+  title: Thought Suppression
+  def: "Thought suppression is the deliberate attempt to push an unwanted thought out of mind. It often backfires: suppressed thoughts tend to come back more strongly later, a rebound effect. Terror management research holds that thoughts of death are pushed away right after a reminder of death and become more accessible after a delay, which experiments measure with word fragments that can be completed as either death-related or neutral words."
+  wiki: Thought_suppression
