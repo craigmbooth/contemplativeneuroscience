@@ -4,7 +4,7 @@ paper_title: "Long-term meditators self-induce high-amplitude gamma synchrony du
 seo_title: "Long-Term Meditators Self-Induce High-Amplitude Gamma Waves"
 date:   2024-03-08
 last_modified_at: 2026-11-23
-theme: neurological-correlates
+theme: [neurological-correlates, compassion]
 doi: 10.1073/pnas.0407401101
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Lutz, A.", "Greischar, L. L.", "Rawlings, N. B.", "Ricard, M.", "Davidson, R. J."]

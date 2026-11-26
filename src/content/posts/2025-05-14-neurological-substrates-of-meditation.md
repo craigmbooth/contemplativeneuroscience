@@ -3,7 +3,7 @@ title: "Loving-Kindness Meditation Boosted Gamma Waves Deep in the Brain"
 paper_title: "Intracranial Substrates of Meditation-Induced Neuromodulation in the Amygdala and Hippocampus"
 seo_title: "Meditation Modulates the Amygdala and Hippocampus"
 date:   2025-05-14
-theme: neurological-correlates
+theme: [neurological-correlates, compassion]
 doi: 10.1073/pnas.2409423122
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Maher, C.", "Tortolero, L.", "Jun, S.", "Cummins, D. D.", "Saad, A.", "Young, J.", "Nunez Martinez, L.", "Schulman, Z.", "Marcuse, L.", "Waters, A.", "Mayberg, H. S.", "Davidson, R. J.", "Panov, F.", "Saez, I."]

@@ -3,7 +3,7 @@ title: "Two Weeks of Compassion Training Made People More Generous"
 paper_title: "Compassion Training Alters Altruism and Neural Responses to Suffering"
 seo_title: "Compassion Training Alters Altruism and Neural Responses"
 date: 2025-07-08
-theme: neurological-correlates
+theme: [neurological-correlates, compassion]
 doi: 10.1177/0956797612469537
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Weng, H. Y.", "Fox, A. S.", "Shackman, A. J.", "Stodola, D. E.", "Caldwell, J. Z. K.", "Olson, M. C.", "Rogers, G. M.", "Davidson, R. J."]

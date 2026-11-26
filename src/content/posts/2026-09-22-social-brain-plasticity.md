@@ -3,7 +3,7 @@ title: "Different Meditation Practices Thickened Different Parts of the Cortex"
 paper_title: "Structural plasticity of the social brain: Differential change after socio-affective and cognitive mental training"
 seo_title: "Different Meditation Practices, Different Brain Changes"
 date: 2026-09-22
-theme: neurological-correlates
+theme: [neurological-correlates, compassion]
 doi: 10.1126/sciadv.1700489
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Valk, S. L.", "Bernhardt, B. C.", "Trautwein, F.-M.", "Böckler, A.", "Kanske, P.", "Guizard, N.", "Collins, D. L.", "Singer, T."]
