@@ -622,3 +622,15 @@
   name: "Cessation (Nirodha)"
   def: "In Buddhist meditation, a cessation (Pali nirodha) is a complete gap in experience reported by some very advanced meditators: for a moment, consciousness itself seems to switch off and then return, with almost no sense of time having passed, often followed by a feeling of unusual clarity. Theravada teachings link brief cessations to the last of the stages of insight, called fruition, and also describe a longer attainment, nirodha samāpatti. Science has studied cessations in only a handful of meditators."
   wiki: Nirodha-samāpatti
+- term: near_death_experience
+  title: Near-Death Experience
+  def: "A near-death experience (NDE) is a pattern of vivid experiences that some people report after coming close to death, for example during a cardiac arrest, or believing they were. Common features include a sense of leaving the body, moving through a tunnel, meeting a being of light or people who have died, reviewing one's life and losing the sense of time and space. Researchers usually identify NDEs with questionnaires such as Greyson's Near-Death Experience Scale, and what causes them is still debated."
+  wiki: Near-death_experience
+- term: mystical_experience
+  title: Mystical Experience
+  def: "A mystical experience is an experience, often described as religious or spiritual, of unity with everything, loss of the usual sense of self, timelessness, deep positive feeling and a sense of having glimpsed a deeper truth, which is typically felt to be hard to put into words. Researchers measure it with questionnaires such as Hood's Mysticism Scale. Such experiences are reported in meditation and prayer, and after taking psychedelic drugs."
+  wiki: Mystical_or_religious_experience
+- term: non_attachment
+  title: Non-Attachment
+  def: "In Buddhist psychology, non-attachment is freedom from clinging: being able to engage with experiences, people and things without needing to hold on to them, and to let them go when they change or end. It is not the same as indifference or emotional detachment. Researchers measure it with questionnaires such as the Non-Attachment Scale, on which higher scores mean less clinging."
+  wiki: Nonattachment_(philosophy)
