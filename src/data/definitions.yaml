@@ -759,3 +759,11 @@
   title: Arterial Spin Labeling
   def: "Arterial spin labeling (ASL) is a kind of MRI scan that measures blood flow in the brain by magnetically tagging the water in blood flowing up the neck and imaging it as it arrives. It needs no injected tracer, and unlike standard fMRI it gives blood flow in absolute units, which makes it suited to comparing slow, steady states that last for minutes."
   wiki: Arterial_spin_labelling
+- term: chronic_pain
+  title: Chronic Pain
+  def: "Chronic pain is pain that lasts longer than about three months, or beyond the time tissues normally take to heal. It can follow an injury or illness, accompany conditions such as arthritis or fibromyalgia, or have no clear cause. Because the nervous system can become more sensitive over time, chronic pain often persists even when the original damage has healed, and it is frequently accompanied by depression, poor sleep and reliance on pain medication."
+  wiki: Chronic_pain
+- term: fibromyalgia
+  title: Fibromyalgia
+  def: "Fibromyalgia is a long-term condition marked by widespread pain across the body, along with fatigue, poor sleep and problems with memory and concentration. Its cause is not fully understood; it is thought to involve heightened sensitivity to pain in the central nervous system rather than damage to muscles or joints. It is diagnosed more often in women, and treatment usually combines exercise, psychological therapies and medication."
+  wiki: Fibromyalgia
