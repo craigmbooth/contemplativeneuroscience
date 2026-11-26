@@ -505,3 +505,14 @@
   title: Bootstrapping
   def: "Bootstrapping is a statistical technique that gauges how uncertain a result is by resampling the data. It draws thousands of new samples of the same size from the original participants (with replacement), recalculates the result in each, and uses the spread of those results to build a confidence interval. It makes fewer assumptions about the shape of the data than traditional tests and is commonly used to test indirect effects in mediation analysis."
   wiki: Bootstrapping_(statistics)
+- term: decentering
+  title: Decentering
+  def: "Decentering is the ability to step back from one's thoughts and feelings and see them as passing events in the mind, rather than as accurate pictures of oneself or of reality that demand a reaction. Instead of being caught up in a worry, a person notices \"I'm having the thought that…\". It is thought to be one way mindfulness practice helps, and is close to what acceptance and commitment therapy calls cognitive defusion."
+- term: vmpfc
+  title: vmPFC
+  def: "The ventromedial prefrontal cortex (vmPFC) is the lower part of the frontal lobes along the brain's midline, just above the eyes. Together with the neighboring medial orbitofrontal cortex and the subgenual (lower) part of the anterior cingulate, it helps weigh how much something matters to oneself, represents reward and value, and links emotions with the body's internal states."
+  wiki: Ventromedial_prefrontal_cortex
+- term: angular_gyrus
+  title: Angular Gyrus
+  def: "The angular gyrus is a region in the back of the parietal lobe, part of the inferior parietal lobule, where information from vision, hearing and touch comes together. It is involved in language, attention, memory and in taking perspectives, including switching between seeing a situation from one's own point of view and from the outside."
+  wiki: Angular_gyrus
