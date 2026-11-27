@@ -1371,3 +1371,5 @@
   title: Responsive Neurostimulation
   def: "Responsive neurostimulation (RNS) is a treatment for epilepsy that doesn't respond to medication. A small device implanted in the skull is wired to electrodes placed where seizures are thought to begin; it continuously monitors the brain's electrical activity and delivers brief pulses of stimulation when it detects patterns that can lead to a seizure. Because the electrodes stay in place long-term, researchers can also record activity from deep brain structures, with patients' consent, while they go about ordinary activities."
   wiki: Responsive_neurostimulation_device
+  def: "The nucleus accumbens is a small region deep in the brain, part of the ventral striatum, that is central to reward and motivation. It receives signals from dopamine neurons in the brainstem and responds to pleasures such as food, sex, music and money, and to cues that predict them. Addictive drugs strongly activate it."
+  wiki: Nucleus_accumbens
