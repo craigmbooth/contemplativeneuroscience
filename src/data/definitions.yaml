@@ -959,3 +959,22 @@
   title: Social-Emotional Learning (SEL)
   def: "Social-emotional learning (SEL) is teaching in schools that aims to build the skills young people need to manage their emotions, get on with others, make responsible decisions and look after their mental and physical health. It is usually offered to every student as part of the regular curriculum, covering topics such as relationships and health education, rather than only to those with problems."
   wiki: Social-emotional_learning
+- term: hpa_axis
+  title: HPA Axis
+  name: "Hypothalamic–Pituitary–Adrenal (HPA) Axis"
+  def: "The hypothalamic–pituitary–adrenal (HPA) axis is the body's main hormonal stress system. When the brain registers a threat, the hypothalamus signals the pituitary gland, which in turn signals the adrenal glands above the kidneys to release cortisol. Cortisol then feeds back to the brain to switch the response off. Because cortisol is its end product, researchers often measure cortisol in saliva to gauge how strongly the HPA axis reacts to a stressful task."
+  wiki: Hypothalamic–pituitary–adrenal_axis
+- term: salivary_alpha_amylase
+  title: Alpha-Amylase
+  name: "Salivary Alpha-Amylase"
+  def: "Alpha-amylase is an enzyme in saliva that starts the digestion of starch. Its release rises quickly under stress, driven by the sympathetic (\"fight or flight\") nervous system, so stress researchers measure it in saliva samples as a marker of sympathetic activity, alongside cortisol as a marker of the hormonal stress response."
+  wiki: Alpha-amylase
+- term: c_reactive_protein
+  title: CRP
+  name: "C-Reactive Protein (CRP)"
+  def: "C-reactive protein (CRP) is a protein made by the liver that rises in the blood during inflammation. A high-sensitivity test (hsCRP) can detect the low levels found in healthy people, and modestly raised levels are linked to a higher risk of heart disease. Researchers use it as a general marker of inflammation in the body."
+  wiki: C-reactive_protein
+- term: social_desirability_bias
+  title: Social Desirability Bias
+  def: "Social desirability bias is the tendency of people answering questionnaires or interviews to present themselves in a favorable light, for example by reporting more of what they think is good and less of what they think is bad. In meditation studies it can make people who have committed to a training report more benefit than they actually experienced, which is one reason researchers look for measures that don't rely on self-report."
+  wiki: Social-desirability_bias
