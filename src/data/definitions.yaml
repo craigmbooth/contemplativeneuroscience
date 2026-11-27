@@ -1324,3 +1324,12 @@
   name: "Paced Auditory Serial Addition Test (PASAT)"
   def: "The Paced Auditory Serial Addition Test (PASAT) is a demanding mental arithmetic task. People hear a stream of single digits and must add each new digit to the one before it and say the answer aloud, while the next digit is already coming. Originally developed to assess attention and processing speed, it is also used in research as a brief laboratory stressor, because it reliably raises heart rate, blood pressure and frustration."
   wiki: Paced_Auditory_Serial_Addition_Test
+- term: factorial_design
+  title: Factorial Design
+  def: "A factorial design is an experiment that tests several factors at once by randomly assigning people to every combination of them. A study crossing three practices with two session lengths, for example, has six groups. Each factor's effect can then be estimated from the whole sample rather than from a separate experiment, and researchers can check for interactions, where the effect of one factor depends on the level of another."
+  wiki: Factorial_experiment
+- term: roc_curve
+  title: ROC Curve
+  name: "Receiver Operating Characteristic (ROC) Curve"
+  def: "A receiver operating characteristic (ROC) curve shows how well a test or prediction model separates people who have an outcome from people who don't. The area under it (AUC) sums this up as one number: 0.5 means the model does no better than a coin toss, and 1.0 means it sorts everyone correctly. An AUC of 0.7 means that if you pick one person with the outcome and one without, the model ranks the first as higher risk 70% of the time. Values around 0.7 to 0.8 are usually called acceptable, not strong."
+  wiki: Receiver_operating_characteristic
