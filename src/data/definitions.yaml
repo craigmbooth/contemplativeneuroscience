@@ -993,3 +993,16 @@
   name: "Beck Anxiety Inventory (BAI)"
   def: "The Beck Anxiety Inventory (BAI) is a 21-item questionnaire on which people rate how much they have been bothered by common symptoms of anxiety over the past week, such as nervousness, fear of the worst happening, a pounding heart or feeling unsteady. Each item is scored from 0 to 3, for a total of 0 to 63. Many of its items describe the bodily side of anxiety."
   wiki: Beck_Anxiety_Inventory
+- term: panas
+  title: PANAS
+  name: "Positive and Negative Affect Schedule (PANAS)"
+  def: "The Positive and Negative Affect Schedule (PANAS) is a widely used questionnaire with two short lists of feeling words, one for positive feelings and one for negative ones. People rate how strongly they feel each, and the ratings are added up into separate positive affect and negative affect scores, each from 10 to 50. The two scores are largely independent of each other, and when it asks about the present moment it can be given just before and just after a single session."
+  wiki: Positive_and_Negative_Affect_Schedule
+- term: respiratory_rate
+  title: Respiratory Rate
+  def: "Respiratory rate is the number of breaths a person takes per minute. At rest, adults typically breathe around 12 to 20 times a minute. Breathing tends to speed up with stress, effort and strong emotion and to slow down with relaxation and sleep, and slow, deliberate breathing is a common feature of meditation and breathing practices."
+  wiki: Respiratory_rate
+- term: mixed_model
+  title: Mixed-Effects Model
+  def: "A mixed-effects model is a statistical method for data in which the same people are measured many times, such as a daily rating over a month. It separates effects that apply to everyone, such as which group a person was in, from each person's own baseline and ups and downs, so that people who contributed more days don't count as extra independent evidence and people who skipped days can still be included."
+  wiki: Mixed_model
