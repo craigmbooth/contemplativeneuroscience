@@ -1209,3 +1209,13 @@
   name: "Multiple Sleep Latency Test (MSLT)"
   def: "The Multiple Sleep Latency Test (MSLT) measures daytime sleepiness. Over one day, a person is given four or five chances, about two hours apart, to nap in a quiet, dark room, and the time it takes to fall asleep (the sleep latency) is recorded with EEG. Falling asleep within a few minutes on average points to excessive sleepiness or sleep debt, while taking much longer suggests normal alertness."
   wiki: Multiple_Sleep_Latency_Test
+- term: acth
+  title: ACTH
+  name: "Adrenocorticotropic Hormone (ACTH)"
+  def: "Adrenocorticotropic hormone (ACTH) is a hormone released by the pituitary gland, at the base of the brain, when the body is under stress. It travels in the blood to the adrenal glands and signals them to release cortisol, making it the middle step of the HPA axis. ACTH rises and falls within minutes, faster than cortisol, and is measured in blood rather than saliva."
+  wiki: Adrenocorticotropic_hormone
+- term: area_under_the_curve
+  title: Area Under the Curve
+  name: "Area Under the Curve (AUC)"
+  def: "The area under the curve (AUC) sums up a series of measurements taken over time as a single number: plot the level of, say, a hormone at each sample, join the points, and measure the area beneath the line. Stress researchers often use a version calculated with respect to increase, which counts only the rise above the first sample, so it reflects how strongly and for how long a level rose during a stressful task."
+  wiki: Area_under_the_curve_(pharmacokinetics)
