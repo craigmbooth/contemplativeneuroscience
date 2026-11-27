@@ -21,7 +21,7 @@ study:
   participants: "36 right-handed adults enrolling in a hospital MBSR program in Toronto: 16 scanned before the course (12 women, average age 42) and 20 after it (15 women, average age 46)"
   method: "The standard 8-week MBSR course (weekly classes plus at least 45 minutes of home practice six days a week); before scanning, 20–25 minutes of training in two ways of attending; in the scanner, reading positive and negative personality words in 36-second blocks with either narrative focus (what does this word say about me?) or experiential focus (noticing thoughts, feelings and body sensations from moment to moment)"
   measures: "fMRI activity during each kind of focus; functional connectivity of the right insula; ratings after the scan of how easy each focus was and of mind wandering"
-  limitations: "Small groups, each scanned once, so no one's change was measured; the regions used to compare the groups were picked from the trained group's own results, and no direct test of a group difference in activity is reported; thresholds lenient by later standards; no check inside the scanner of what people were doing; no comparison course, and home practice and symptoms after the course weren't reported."
+  limitations: "Small groups, each scanned once, so no one's change was measured; the regions used to compare the groups were picked from the trained group's own results, and no direct test of a group difference in activity is reported; several very small clusters; no check inside the scanner of what people were doing; no comparison course, and home practice and symptoms after the course weren't reported."
 ---
 
 ## Background Information
@@ -48,7 +48,7 @@ People practiced until they could describe the difference in their own words.
 
 In the :term{id="fmri"} scanner, a cue told them which focus to use, and then six personality words appeared one at a time over 36 seconds, each for 4 seconds. Each set mixed mildly positive words (such as "confident" or "charming") with negative ones (such as "melancholy" or "greedy"), chosen because they invite people to think about themselves. Over two runs, each person did four blocks of each kind of focus, about two and a half minutes of each. Nobody pressed buttons or answered questions during scanning, to avoid pulling people out of momentary awareness. (The session also included other tasks, such as a memory task and breath monitoring, which weren't analyzed in this paper.)
 
-The main analyses compared the two kinds of focus within each group, searching the whole brain for clusters of activity. By the standards of later brain-imaging research the statistical threshold was lenient: a cluster had to contain at least 6 neighboring voxels that each passed p < 0.005, with a peak at p < 0.001.
+The main analyses compared the two kinds of focus within each group, searching the whole brain for clusters of activity. To count, a cluster had to contain at least 6 neighboring voxels that each passed p < 0.005, with a peak at p < 0.001, which the authors calculated as equivalent to p < 0.001 once cluster size is taken into account.
 
 ## One Big Result: After the Course, Present-Moment Focus Pulled Activity Away From the Midline and Toward Body-Sensing Areas
 
@@ -76,7 +76,7 @@ The authors' interpretation (here "viscerosomatic" means signals from the body's
 
 > This pattern of results suggests MT may afford greater access to distinct modes of self-focus by promoting a shift away from viewing viscerosomatic activity through the lens of the mPFC towards a distinct mode of sensory awareness supported by the lateral PFC.
 
-This is the paper's most striking picture, but it should be read with care. Both the insula and the two areas it was compared with were chosen because they differed between the groups, so the contrast is bound to look sharp. The paper reports the differences as overwhelmingly significant (z = 13.4 and 12.1), values far larger than two groups of 16 and 20 people could produce, which suggests each scan time point was counted as a separate observation; the paper doesn't spell out how the correlations were calculated. And because connectivity was measured across the whole scan, it doesn't show what happened during either kind of focus specifically.
+This is the paper's most striking picture, but it should be read with care. Both the insula and the two areas it was compared with were chosen because they differed between the groups, so the contrast is bound to look sharp. The paper reports the differences as overwhelmingly significant (z = 13.4 and 12.1), but it doesn't spell out how the correlations were calculated. And because connectivity was measured across the whole scan, it doesn't show what happened during either kind of focus specifically.
 
 ### Both Kinds of Focus Felt Easier After the Course
 
@@ -96,7 +96,7 @@ This narrative/experiential split went on to shape later thinking. The [S-ART fr
 
 - **The abstract says more.** It concludes that the two forms of self-awareness "can be dissociated through attentional training," a causal reading the discussion itself steps back from.
 - **No comparison course.** MBSR includes yoga, group classes and an explanation of present-moment awareness. People who had just spent eight weeks practicing exactly this kind of attention may simply have understood the instruction better, which is part of the authors' point, but it means the study can't separate a change in the brain's capacity from familiarity with the task.
-- **Small groups and lenient thresholds.** Several of the clusters were tiny (the insula cluster was 6 voxels, the novices' mPFC cluster 4), and the threshold for counting a cluster is lenient by today's standards, so some of these could be chance findings.
+- **Small groups and small clusters.** Several of the clusters were tiny (the insula cluster was 6 voxels, the novices' mPFC cluster 4), and with groups this small, some of these could be chance findings.
 - **No check inside the scanner.** With no responses collected, there was no way to confirm moment by moment which mode people were in. The ease and mind-wandering ratings came afterward.
 
 ## Final Reflection
