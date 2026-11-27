@@ -1096,3 +1096,16 @@
   name: "Intraclass Correlation (ICC)"
   def: "The intraclass correlation coefficient (ICC) measures how much people within the same group, such as children in one classroom, resemble each other compared with people in other groups. It runs from 0 to 1: an ICC of 0 means the group someone belongs to tells you nothing about their score, while larger values mean a sizeable share of the differences between people lies between groups. It is also used to measure how consistently a test gives the same score twice."
   wiki: Intraclass_correlation
+- term: amyloid_beta
+  title: Amyloid Beta
+  def: "Amyloid beta (Aβ) is a family of small protein fragments cut from a larger protein made by many cells, including nerve cells. In Alzheimer's disease they clump together into the plaques found in the brain. Two common forms, Aβ40 and Aβ42, also circulate in the blood, and researchers have studied their levels and the ratio between them as possible markers of dementia risk."
+  wiki: Amyloid_beta
+- term: ces_d
+  title: CES-D
+  name: "Center for Epidemiologic Studies Depression Scale (CES-D)"
+  def: "The Center for Epidemiologic Studies Depression Scale (CES-D) is a 20-item questionnaire asking how often, over the past week, people have had symptoms of depression such as poor sleep, low mood or feeling that everything was an effort. Total scores range from 0 to 60, with higher scores meaning more symptoms. It was designed for screening and research in the general population, not for diagnosing depression."
+  wiki: Center_for_Epidemiologic_Studies_Depression_Scale
+- term: gene_coexpression_network
+  title: Gene Co-expression Network
+  def: "A gene co-expression network is a map of which genes tend to become more or less active together across many samples. Researchers group tightly linked genes into modules and then look at what the genes in each module do, such as fighting infection or building proteins. This turns thousands of individual gene measurements into a smaller number of biological themes, though genes rising and falling together doesn't by itself show that one controls another."
+  wiki: Gene_co-expression_network
