@@ -1006,3 +1006,19 @@
   title: Mixed-Effects Model
   def: "A mixed-effects model is a statistical method for data in which the same people are measured many times, such as a daily rating over a month. It separates effects that apply to everyone, such as which group a person was in, from each person's own baseline and ups and downs, so that people who contributed more days don't count as extra independent evidence and people who skipped days can still be included."
   wiki: Mixed_model
+- term: prehypertension
+  title: Prehypertension
+  def: "Prehypertension is blood pressure that is higher than ideal but below the level counted as high blood pressure (hypertension): a systolic reading of 120–139 mm Hg or a diastolic reading of 80–89 mm Hg, a category introduced by US guidelines in 2003. Systolic pressure is the peak pressure in the arteries as the heart beats, and diastolic the pressure between beats. At this level, guidelines recommend lifestyle changes such as exercise, weight loss and diet rather than medication."
+  wiki: Prehypertension
+- term: progressive_muscle_relaxation
+  title: Progressive Muscle Relaxation
+  def: "Progressive muscle relaxation (PMR) is a relaxation technique in which a person tenses and then releases groups of muscles in turn, noticing the contrast between tension and relaxation. With practice, fewer and larger muscle groups are used, until relaxation can be brought on by recall alone. It was developed by the physician Edmund Jacobson in the early 20th century and is often used as a comparison treatment in meditation trials."
+  wiki: Progressive_muscle_relaxation
+- term: ambulatory_blood_pressure
+  title: Ambulatory Blood Pressure Monitoring
+  def: "Ambulatory blood pressure monitoring measures blood pressure automatically at regular intervals, usually over 24 hours, with a cuff on the arm and a small recorder worn on the body while the person goes about their day and sleeps. Averaging dozens of readings, awake and asleep, gives a picture of everyday blood pressure that a few readings taken in a clinic can miss."
+  wiki: Ambulatory_blood_pressure
+- term: white_coat_hypertension
+  title: White Coat Hypertension
+  def: "White coat hypertension is blood pressure that is raised when measured in a clinic or by a health professional but normal in everyday life, likely because of the alertness or anxiety the setting brings. It is usually detected by comparing clinic readings with readings taken at home or with a 24-hour ambulatory monitor."
+  wiki: White_coat_hypertension
