@@ -1,8 +1,9 @@
 ---
-title: "Two Weeks of Compassion Training Made People More Generous"
+title: "After Two Weeks of Compassion Training, People Gave More to Help a Stranger Than Those Trained in Reappraisal"
 paper_title: "Compassion Training Alters Altruism and Neural Responses to Suffering"
-seo_title: "Compassion Training Alters Altruism and Neural Responses"
+seo_title: "Two Weeks of Compassion Training and Generosity"
 date: 2025-07-08
+last_modified_at: 2026-11-27
 theme: [neurological-correlates, compassion]
 doi: 10.1177/0956797612469537
 paper:  # the summarized paper, for structured data; must agree with citation
@@ -12,71 +13,79 @@ paper:  # the summarized paper, for structured data; must agree with citation
   volume: "24"
   issue: "7"
   pages: "1171–1180"
-meta_description: "Two weeks of compassion training increased altruistic giving and changed brain responses to suffering, suggesting compassion is a trainable skill."
-snippet: "Can a short course in compassion make people more generous? In a randomized trial, adults new to meditation practiced either compassion or reappraisal, a different emotion-regulation technique, for 30 minutes a day for two weeks. Afterwards, the compassion group gave nearly twice as much money to help a stranger who had been treated unfairly, and their brains responded differently to images of suffering. It is unclear how long the effect lasts."
-citation: "Weng, H. Y., Fox, A. S., Shackman, A. J., Stodola, D. E., Caldwell, J. Z. K., Olson, M. C., Rogers, G. M., & Davidson, R. J. (2013). Compassion Training Alters Altruism and Neural Responses to Suffering. Psychological Science, 24(7), 1171–1180. [10.1177/0956797612469537](https://doi.org/10.1177/0956797612469537)"
+meta_description: "In a randomized trial of 41 adults, those who trained in compassion for two weeks gave more money to help a stranger than those trained in reappraisal."
+snippet: "Can two weeks of compassion practice make people more generous? In a randomized trial, 41 adults new to meditation practiced compassion or reappraisal, a technique for easing one's own distress, for 30 minutes a day. Afterwards, in a money game, the compassion group spent $1.14 of their $5 to help a stranger treated unfairly, against $0.62 for the reappraisal group. Giving was measured only after training, and the groups were small."
+citation: "Weng, H. Y., Fox, A. S., Shackman, A. J., Stodola, D. E., Caldwell, J. Z. K., Olson, M. C., Rogers, G. M., & Davidson, R. J. (2013). Compassion Training Alters Altruism and Neural Responses to Suffering. *Psychological Science*, 24(7), 1171–1180. [10.1177/0956797612469537](https://doi.org/10.1177/0956797612469537)"
 
 study:
   type: "Randomized trial"
-  design: "Randomized trial with an active control"
-  participants: "Healthy adults with no meditation experience"
-  method: "Two weeks of daily 30-minute compassion training vs. reappraisal training"
-  measures: "Money given to help an unfairly treated stranger, and brain responses (fMRI) to images of suffering"
-  limitations: "Brief training and a single lab measure of generosity; it doesn't show how long the effect lasts or whether it carries into daily life."
+  design: "Randomized trial with an active control (reappraisal training); fMRI before and after training, giving measured after training only"
+  participants: "41 healthy adults aged 18–45 with no meditation or cognitive-behavioral therapy experience (20 compassion, 21 reappraisal), out of 56 who completed the study; the rest were left out because they didn't believe the game partners were real"
+  method: "Two weeks of guided audio practice, 30 minutes a day: compassion for a loved one, oneself, a stranger and a difficult person, or reappraisal of personally stressful events"
+  measures: "Money spent to help a stranger treated unfairly in an economic game (the Redistribution Game); fMRI responses to images of human suffering while applying the trained strategy; self-rated arousal to the images"
+  limitations: "Small groups; giving was not measured before training, so the result is a difference between groups afterward, not a measured change; the brain–behavior links were tested between groups and some were weak within a group; one lab game, measured once, right after training."
 ---
 
 ## Background Information
 
-Compassion, one of the four :term{id="brahmaviharas"} or “divine abodes” in Buddhist practice, has long been regarded as a vital quality for both personal well-being and social harmony. Traditionally, it is cultivated alongside loving-kindness, empathetic joy, and equanimity, forming a cornerstone of contemplative life. Yet beyond its spiritual significance, compassion (generally described as the emotional response of caring for and wishing to alleviate others' suffering) also plays a big role in fostering cooperation and altruism within societies.
+The paper defines compassion as "the emotional response of caring for and wanting to help those who are suffering," and argues it may have evolved to encourage altruistic acts toward both kin and strangers. Contemplative traditions claim that compassion can be strengthened through meditation, in which practitioners cultivate it toward different people: loved ones, themselves, strangers, difficult people and, eventually, everyone. Earlier studies, the authors note, had linked compassion training to better well-being, such as [stress-related immune responses](/compassion-meditation-practice-stress-inflammation/) and [positive emotions](/loving-kindness-positive-emotions-resources/), and had found that [expert meditators' brains responded more strongly](/compassion-meditation-insula-emotional-sounds/) to sounds of others' suffering during compassion meditation. Whether a short course of training would make beginners act more altruistically toward a stranger, and what in the brain might drive that, was not known.
 
-While contemplative traditions have long claimed that compassion can be enhanced through meditation, modern scientific evidence examining the direct impact of such training on behavior and brain function remains sparse.  This study explored whether compassion training could systematically increase altruistic behavior and, crucially, whether this behavioral shift would be reflected in changes in brain activity related to :term{id="emotion_regulation" case="lower"} and social cognition.
+The authors' framework drew on research on empathy. To act on another's suffering, a person first has to register and understand it, and then has to regulate their own reaction so they move toward the suffering person instead of away. The paper describes two routes to helping: lowering one's own distress, which reduces the urge to avoid, or increasing concern for the other person, which strengthens the urge to help. The researchers predicted that greater giving after compassion training would go with more activity in the prefrontal cortex, which supports deliberate control and :term{id="emotion_regulation" case="lower"}, less activity in the amygdala, and more in the anterior insula and the :term{id="nucleus_accumbens" case="lower"}, a reward region linked to charitable giving.
 
 ## What They Did
 
-The authors recruited healthy adult participants with no prior meditation experience and randomly assigned them to two different two-week training programs. One group received compassion meditation training, where participants practiced generating compassion toward themselves and others, including loved ones, strangers, and even people they found difficult. The second group underwent reappraisal training, learning cognitive strategies to reinterpret stressful personal events in order to reduce negative emotions—serving as an :term[active control]{id="active_control_group"}.
+Healthy adults aged 18 to 45 with no previous experience of meditation or cognitive-behavioral therapy were randomly assigned to one of two programs. In compassion training, they practiced cultivating feelings of compassion for a loved one, themselves, a stranger and a difficult person. In :term[reappraisal]{id="cognitive_reappraisal"} training, the :term[active control]{id="active_control_group"}, they practiced re-interpreting stressful events in their own lives to feel less negative. Both trained emotion-regulation skills, but with opposite aims: compassion aimed to increase concern for others and the wish to relieve their suffering, while reappraisal aimed only to reduce one's own distress. Each group practiced with guided audio recordings for 30 minutes a day for two weeks and had to practice on at least 11 of the 14 days.
 
-Both groups completed daily 30-minute guided audio practices for two weeks and underwent brain scans before and after the training.
+Before and after training, participants had an :term{id="fmri"} scan in which they viewed photographs of human suffering (such as a burn victim or a crying child) and neutral photographs of people working or walking down a street. During the scan they applied their trained strategy: the compassion group silently repeated compassion phrases, and the reappraisal group silently re-interpreted the images to feel less negative. Different but matched sets of images were used before and after training. After each block, participants rated how arousing each image was on a 1-to-7 scale.
 
-After completing the training, participants played an economic decision-making task designed to measure altruistic behavior. In this task, participants could choose to spend their own money to compensate a stranger who had been unfairly treated in a financial game.
+At the same final visit, outside the scanner, participants played the Redistribution Game, presented as a separate study. Over what they were told was a live internet connection, they watched a "dictator" who had been given $10 send just $1 to a "victim" who had nothing. Each participant then had $5 of their own and could spend any part of it; every dollar spent took $2 from the dictator and gave it to the victim. They kept whatever they did not spend. Participants were never told to use their training in the game. In fact the other players were not real, and every participant saw the same pre-programmed unfair offer.
 
-![In the redistribution game, participants first observed an unfair scenario where a 'dictator' kept most of their $10 and gave only $1 to a victim (a). Participants could then choose to spend their own money to increase the amount given to the victim, effectively redistributing funds at a personal cost (b).](/assets/article_images/compassion-alters-altruism/setup.png)
+Fifty-six people completed the study. Only the 41 who said at the debriefing that they believed they were playing real people were analyzed: 20 in the compassion group and 21 in the reappraisal group, with average ages of about 22. The groups did not differ in age, gender, baseline trait compassion or practice time.
 
-Throughout the study, brain activity was measured via :term{id="fmri"} while participants viewed images of human suffering. The researchers then examined whether changes in brain responses predicted shifts in altruistic behavior.
+The amounts given were skewed, with two people more than three standard deviations above the average, so the researchers compared the groups on the rank order of the amounts rather than the amounts themselves. The brain analyses looked for regions where the change in response to suffering, from before to after training, related to giving differently in the two groups.
 
-## One Big Result: Compassion Training Nearly Doubled Altruistic Giving
+## One Big Result: The Compassion Group Gave More to the Stranger
 
-The key finding was that participants in the compassion training group exhibited significantly greater altruistic behavior than those in the reappraisal group. Specifically, they were more likely to sacrifice their own money to help a victim of unfair treatment, even though they were not instructed to apply their training during the task.
+After training, the compassion group spent more of their own money helping the victim than the reappraisal group did (t(39) = 2.09, p < .05, d = 0.65, on the ranked amounts). The paper reports that compassion trainees spent $1.14 and reappraisal trainees $0.62, which it describes as 1.84 times as much money. Before any redistribution the dictator had $9 and the victim $1, a gap of $8. The compassion group's figure cut that gap to $3.44, and the reappraisal group's to $5.52. Spending $2 would have split the money evenly.
 
-![Participants who completed compassion training gave significantly more money to help an unfairly treated victim compared to those in the reappraisal group, demonstrating increased altruistic behavior after just two weeks of training.](/assets/article_images/compassion-alters-altruism/main_result.png)
+![Amount each group spent, as reported in the paper, out of $5, to move money from the dictator to the victim after two weeks of training, and the split it produced. The groups were compared on the ranked amounts because the amounts were skewed. Drawn from the values in Weng et al. (2013), Psychological Science.](/assets/article_images/compassion-alters-altruism/giving-by-group.jpg)
 
-> Compassion trainees spent 1.84 times more money than reappraisal trainees ($1.14 vs. $0.62, respectively) and increased the distribution between the dictator and the victim by 57%.
+The authors conclude that "purely mental training in compassion can result in observable altruistic changes towards a victim," even without being prompted to use it. But the study did not measure giving before training, so it shows a difference between the groups afterward rather than a change within each person. The authors acknowledge this:
 
-This increase in altruistic behavior was linked to changes in specific brain regions involved in empathy, emotional regulation, and reward processing. Notably, greater activity in the inferior parietal cortex and :term[dorsolateral prefrontal cortex]{id="dlpfc"} (DLPFC) was associated with increased generosity in the compassion group. In addition, stronger connections between the DLPFC and the nucleus accumbens (a brain region associated with reward) were also tied to greater altruism.
+> A clear limitation of this study is that altruistic behavior was not measured at pre-training, although a separate validation sample was used to estimate pre-training levels.
 
-These neural shifts suggest that compassion training enhances both the capacity to recognize others' suffering and the willingness to take action to alleviate it.
+That separate sample of 72 untrained people supports the game as a measure of compassion: those who described themselves as higher in empathic concern gave more (r = 0.43, p < .001). The paper reports that the compassion group also gave more than these untrained people, with details in its supplementary material.
 
 ## Miscellaneous Interesting Takeaways
 
-### Compassion Changes Neural Circuits for Good
+### Brain Changes Tracked Giving, but Differently in Each Group
 
-The compassion group showed increased activation in brain areas related to both emotional control and perspective-taking, suggesting that compassion practice may strengthen the ability to remain engaged with others’ suffering without becoming overwhelmed.
+The brain results the paper reports are not simple differences between the groups in how strongly they responded to suffering. They are regions where the change from before to after training was related to giving in different ways in the two groups.
 
-### Emotional Calmness Supports Altruism
+A whole-brain search found one such region, the right :term[inferior parietal cortex]{id="inferior_parietal_lobule"}, which the authors link to sharing in others' experiences. In the compassion group, people whose activity there rose more in response to suffering gave more; in the reappraisal group there was no such relationship. A follow-up analysis found a region of the :term[dorsolateral prefrontal cortex]{id="dlpfc"} (DLPFC), involved in executive control, whose changes ran closely with the parietal ones (r = 0.92 in the compassion group, 0.79 in the reappraisal group). A bigger DLPFC increase went with more giving in the compassion group but less giving in the reappraisal group.
 
-Participants in the compassion group who reported feeling calmer while viewing images of suffering were more likely to act altruistically. This calming effect was associated with greater engagement of brain circuits involved in positive emotional processing.
+The predicted regions mostly did not show up. Within the amygdala, insula and nucleus accumbens, no region passed the paper's correction for multiple comparisons in the main analysis. The paper also notes that the per-group values taken from the regions it found were used only for description, since those regions had been selected by the same analysis.
 
-### Active Control Training Had Opposite Effects
+### The Prefrontal–Reward Link Cut Both Ways
 
-Interestingly, in the reappraisal group, increased activity in similar brain areas was associated with less altruistic behavior. This highlights how the intention behind emotional training—whether focused on self-regulation or compassion for others—can fundamentally shape its outcomes.
+The researchers then tested whether the DLPFC's coupling with other regions while viewing suffering, measured with a :term[psychophysiological interaction (PPI)]{id="psychophysiological_interaction"} analysis, related to giving. They found such a relationship for the nucleus accumbens, but not for the insula or amygdala. The text says that compassion trainees with increased DLPFC–accumbens coupling gave more and reappraisal trainees with increased coupling gave less. The figure legend gives the strength of each: p = 0.07 for the compassion group, short of the usual threshold, and p < .01 for the reappraisal group.
 
-![This graph shows the relationship between changes in dorsolateral prefrontal cortex (DLPFC) activation (x-axis: change in brain activation from before to after training) and altruistic behavior (y-axis: amount of money redistributed, shown as rank). In the compassion group, greater DLPFC activation predicted more generous behavior, while the opposite pattern appeared in the reappraisal group.](/assets/article_images/compassion-alters-altruism/brain.png)
+The authors' explanation for the opposite patterns is that the two trainings pursue opposing goals in a social setting, one directed at others and one at oneself:
 
-> Compassion trainees who showed greater DLPFC-NAcc connectivity redistributed more funds after training, whereas reappraisal trainees who showed greater DLPFC-NAcc connectivity redistributed less money after training.
+> In REP, neural changes may have resulted in decreased helping of others in order to serve the primary goal of decreasing personal negative affect.
+
+### Calmer Responses Went With More Giving After Compassion Training
+
+In the compassion group, people whose :term[arousal]{id="arousal" case="lower"} ratings for suffering images fell the most from before to after training gave more (r = −0.45, p < .05). In the reappraisal group there was no such link (r = 0.09). In the compassion group, bigger drops in arousal also went with greater increases in DLPFC–accumbens coupling (r = −0.64, p < .01). The authors suggest that compassion training may make helping more rewarding, but these are correlations within groups of about 20 people, and the arousal ratings were self-reports, which the authors note are open to :term{id="demand_characteristics" case="lower"}.
+
+### How the Researchers Guarded Against Demand Effects
+
+To keep participants from giving just because they guessed what the study was about, the game was presented as a separate study in purely economic terms, played without the other players or experimenters present, and with real money at stake. Still, the analysis kept only the 41 of 56 people who believed the setup; the main text doesn't say how those left out were split between the groups.
 
 ## Final Reflection
 
-This study challenges the notion that compassion is merely a fixed trait, offering compelling evidence that compassion can be intentionally cultivated through meditation.
+This randomized study tested whether a short course of compassion practice changes how people treat a stranger, using a behavioral measure with real money rather than a questionnaire. After two weeks, people trained in compassion gave noticeably more than people trained to calm their own distress, and the changes in their brains' responses to suffering tracked that giving in a way that differed from the reappraisal group's. The authors close with a broad interpretation:
 
-> Our findings support the possibility that compassion and altruism can be viewed as trainable skills rather than as stable traits."
+> Our findings support the possibility that compassion and altruism can be viewed as trainable skills rather than stable traits.
 
-Compassion is not just a feeling; it’s a trainable skill that reshapes the brain and promotes altruistic behavior.
+The evidence behind that is still limited: 41 young adults, one game played once right after training, no measure of giving before training, and brain–behavior relationships from small groups, some of them weak. The authors call for future studies to measure altruism at baseline and to follow people over time to see how much training is needed for lasting effects. Later studies on this site have taken up related questions, including whether [a mindfulness app made students more likely to help someone in pain](/mindfulness-app-compassion/) and whether [a kindness curriculum changed how preschoolers shared](/kindness-curriculum-preschool/).
