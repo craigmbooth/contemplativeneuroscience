@@ -3,7 +3,7 @@ title: "After a Day of Practice, Meditators Had Lower Activity in Some Inflammat
 paper_title: "Rapid changes in histone deacetylases and inflammatory gene expression in expert meditators"
 seo_title: "One Day of Meditation and Inflammation-Related Genes"
 date: 2026-10-20
-theme: biological-health
+theme: [immunity]
 doi: 10.1016/j.psyneuen.2013.11.004
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Kaliman, P.", "Álvarez-López, M. J.", "Cosín-Tomás, M.", "Rosenkranz, M. A.", "Lutz, A.", "Davidson, R. J."]

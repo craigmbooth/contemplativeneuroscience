@@ -3,7 +3,7 @@ title: "In a Small Trial, Mindfulness Training Eased Loneliness in Older Adults 
 paper_title: "Mindfulness-Based Stress Reduction training reduces loneliness and pro-inflammatory gene expression in older adults: A small randomized controlled trial"
 seo_title: "MBSR, Loneliness and Inflammation Genes in Older Adults"
 date: 2026-01-06
-theme: [biological-health, mental-health]
+theme: [immunity, mental-health]
 doi: 10.1016/j.bbi.2012.07.006
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Creswell, J. D.", "Irwin, M. R.", "Burklund, L. J.", "Lieberman, M. D.", "Arevalo, J. M. G.", "Ma, J.", "Breen, E. C.", "Cole, S. W."]

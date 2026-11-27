@@ -3,7 +3,7 @@ title: "A Meditation Retreat Sharpened Focus, but Distractions Still Registered"
 paper_title: "Deconstructing the effects of concentration meditation practice on interference control: The roles of controlled attention and inflammatory activity"
 seo_title: "Concentration Meditation, Attention, and Inflammation"
 date:   2025-03-13
-theme: [mind-wandering, biological-health]
+theme: [mind-wandering, immunity]
 doi: 10.1016/j.bbi.2020.06.034
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Shields, G. S.", "Skwara, A. C.", "King, B. G.", "Zanesco, A. P.", "Dhabhar, F. S.", "Saron, C. D."]

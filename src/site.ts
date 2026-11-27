@@ -20,7 +20,7 @@ export const site = {
     'brain-and-immune-function',
   ],
   /** Themes as questions, in reading order: brain and mind first, then mental health, the self, deep states and death, compassion, body, pain and sleep, then risks. */
-  themeOrder: ['neurological-correlates', 'mind-wandering', 'mental-health', 'craving', 'self', 'deep-states', 'death', 'compassion', 'biological-health', 'pain', 'sleep', 'adverse-effects'],
+  themeOrder: ['neurological-correlates', 'mind-wandering', 'mental-health', 'craving', 'self', 'deep-states', 'death', 'compassion', 'biological-health', 'immunity', 'aging', 'pain', 'sleep', 'adverse-effects'],
   /** Email list (MailerLite). The promise appears beside every sign-up form. */
   newsletter: {
     promise: 'One or two new paper summaries every couple of weeks, sent to your inbox when they go up.',

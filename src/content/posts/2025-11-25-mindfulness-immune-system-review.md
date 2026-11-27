@@ -3,7 +3,7 @@ title: "Across 20 Trials, Mindfulness Showed Tentative Effects on a Few Immune M
 paper_title: "Mindfulness meditation and the immune system: a systematic review of randomized controlled trials"
 seo_title: "Mindfulness and the Immune System: A Review of 20 Trials"
 date: 2025-11-25
-theme: [biological-health]
+theme: [immunity]
 doi: 10.1111/nyas.12998
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Black, D. S.", "Slavich, G. M."]

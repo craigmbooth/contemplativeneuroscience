@@ -3,7 +3,7 @@ title: "Inflammation-Related Genes Were Less Active in Relaxation Practitioners,
 paper_title: "Relaxation Response Induces Temporal Transcriptome Changes in Energy Metabolism, Insulin Secretion and Inflammatory Pathways"
 seo_title: "Relaxation Response and Gene Activity in Blood"
 date: 2025-06-24
-theme: [biological-health]
+theme: [immunity]
 doi: 10.1371/journal.pone.0062817
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Bhasin, M. K.", "Dusek, J. A.", "Chang, B.-H.", "Joseph, M. G.", "Denninger, J. W.", "Fricchione, G. L.", "Benson, H.", "Libermann, T. A."]

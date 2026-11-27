@@ -4,7 +4,7 @@ paper_title: "Altered anterior insula activation during anticipation and experie
 seo_title: "Expert Meditators, Pain, and the Anterior Insula"
 date:   2024-04-03
 last_modified_at: 2026-11-23
-theme: [biological-health, pain]
+theme: [pain]
 doi: 10.1016/j.neuroimage.2012.09.030
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Lutz, A.", "McFarlin, D. R.", "Perlman, D. M.", "Salomons, T. V.", "Davidson, R. J."]

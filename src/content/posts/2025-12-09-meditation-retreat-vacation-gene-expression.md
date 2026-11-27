@@ -3,7 +3,7 @@ title: "A Resort Vacation Shifted Gene Activity as Much as a Meditation Retreat,
 paper_title: "Meditation and vacation effects have an impact on disease-associated molecular phenotypes"
 seo_title: "Meditation Retreat vs. Vacation: Genes, Telomerase, Mood"
 date: 2025-12-09
-theme: [biological-health]
+theme: [immunity, aging]
 doi: 10.1038/tp.2016.164
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Epel, E. S.", "Puterman, E.", "Lin, J.", "Blackburn, E. H.", "Lum, P. Y.", "Beckmann, N. D.", "Zhu, J.", "Lee, E.", "Gilbert, A.", "Rissman, R. A.", "Tanzi, R. E.", "Schadt, E. E."]

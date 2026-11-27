@@ -4,7 +4,7 @@ paper_title: "Intensive meditation training, immune cell telomerase activity, an
 seo_title: "Intensive Meditation Training and Telomerase Activity"
 date:   2024-04-07
 last_modified_at: 2026-11-23
-theme: biological-health
+theme: [aging]
 doi: 10.1016/j.psyneuen.2010.09.010
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Jacobs, T. L.", "Epel, E. S.", "Lin, J.", "Blackburn, E. H.", "Wolkowitz, O. M.", "Bridwell, D. A.", "Zanesco, A. P.", "Aichele, S. R.", "Sahdra, B. K.", "MacLean, K. A.", "King, B. G.", "Shaver, P. R.", "Rosenberg, E. L.", "Ferrer, E.", "Wallace, B. A.", "Saron, C. D."]
