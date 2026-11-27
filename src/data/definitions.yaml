@@ -1307,3 +1307,20 @@
   title: Sleep Diary
   def: "A sleep diary is a daily log, usually filled in each morning, of when a person went to bed, how long it took to fall asleep, how often they woke in the night, when they got up and how well they felt they slept. It is a standard way to track sleep over weeks, but because it relies on people's own estimates it can differ from sleep measured with recording devices such as polysomnography or wrist-worn activity monitors."
   wiki: Sleep_diary
+- term: biofeedback
+  title: Biofeedback
+  def: "Biofeedback uses sensors to show people a body signal they can't normally perceive, such as heart rate, breathing or muscle tension, on a screen in real time, so they can learn to change it. In heart rate variability biofeedback, people watch their heart rhythm while slowing their breathing, usually to around 6 breaths a minute, until the rises and falls in heart rate become as large as possible. Courses typically run over several weekly sessions with practice at home."
+  wiki: Biofeedback
+- term: respiratory_sinus_arrhythmia
+  title: Respiratory Sinus Arrhythmia
+  def: "Respiratory sinus arrhythmia is the natural rise in heart rate as we breathe in and fall as we breathe out. Despite the name, it is normal and healthy, not a disorder. It is driven largely by the vagus nerve, which slows the heart, so its size is often used as a marker of parasympathetic (\"rest and digest\") activity. Slow breathing, at around 6 breaths a minute, makes these swings much larger."
+  wiki: Respiratory_sinus_arrhythmia
+- term: baroreflex
+  title: Baroreflex
+  def: "The baroreflex is the body's automatic control loop for blood pressure. Stretch sensors in the walls of major arteries detect when pressure rises or falls, and the brainstem responds within a heartbeat or two by slowing or speeding the heart and relaxing or tightening blood vessels. Its sensitivity tends to be lower in chronic stress and in heart disease, and slow breathing is thought to exercise it."
+  wiki: Baroreflex
+- term: pasat
+  title: PASAT
+  name: "Paced Auditory Serial Addition Test (PASAT)"
+  def: "The Paced Auditory Serial Addition Test (PASAT) is a demanding mental arithmetic task. People hear a stream of single digits and must add each new digit to the one before it and say the answer aloud, while the next digit is already coming. Originally developed to assess attention and processing speed, it is also used in research as a brief laboratory stressor, because it reliably raises heart rate, blood pressure and frustration."
+  wiki: Paced_Auditory_Serial_Addition_Test
