@@ -1263,3 +1263,13 @@
   title: Sustained Attention
   def: "Sustained attention is the ability to keep focusing on a task over a period of time, such as watching for rare targets or working steadily through a repetitive test, without drifting off or slipping up. It is usually measured by how accurately and quickly people keep responding as the task goes on, and it tends to suffer with fatigue, boredom and stress."
   wiki: Attention_span
+- term: valence
+  title: Valence
+  name: "Emotional Valence"
+  def: "In psychology, valence is how pleasant or unpleasant something is, from negative through neutral to positive. Together with arousal, it is one of the two main dimensions researchers use to describe emotions and emotional material such as words, pictures and sounds. Word lists used in research give each word an average valence rating collected from many people, and in experiments people are often asked to rate it themselves on a scale running from very negative to very positive."
+  wiki: Valence_(psychology)
+- term: arousal
+  title: Arousal
+  name: "Emotional Arousal"
+  def: "In emotion research, arousal is how stirring or calming something is, from quiet and low-energy to excited or alarmed, whatever its valence. Words like \"panic\" and \"sadness\" are both negative, for example, but panic is high in arousal and sadness low. Along with valence, it is one of the two main dimensions used to describe emotions and emotional words, pictures and sounds."
+  wiki: Arousal
