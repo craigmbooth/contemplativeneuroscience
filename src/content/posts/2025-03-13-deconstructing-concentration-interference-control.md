@@ -41,7 +41,7 @@ The most significant result was that participants on the meditation retreat demo
 
 This outcome suggests a nuanced mechanism: meditation specifically strengthens intentional attention without necessarily reducing sensitivity to distractions. The implication is profound, as it indicates meditation training may primarily benefit :term[executive control]{id="executive_function"} by reinforcing deliberate, goal-directed attentional processes. Rather than becoming less sensitive to distractions, meditators become more effective at intentionally focusing their cognitive resources. This finding challenges the assumption that meditation simply reduces distractibility, suggesting instead that it primarily enhances cognitive control through targeted improvements in deliberate attention.
 
-These findings on specific attentional improvements align with the meta-analytic evidence from [Zainal & Newman (2023)](/mindfulness-cognitive-function-survey/) showing :term{id="mindfulness" case="lower"} training more strongly enhances cognitive accuracy than speed, particularly for executive attention tasks.
+For a broader view, a [meta-analysis of 111 randomized trials](/mindfulness-cognitive-function-survey/) found that :term{id="mindfulness" case="lower"} training brought small-to-moderate gains in executive and sustained attention and in accuracy, but not speed, on executive-function tests.
 
 ## Miscellaneous Interesting Takeaways
 
