@@ -910,3 +910,11 @@
   name: "Independent Component Analysis (ICA)"
   def: "Independent component analysis (ICA) is a statistical method that splits a mix of recorded signals into separate underlying sources, much as one might pick out single voices in a crowded room. In EEG research it is used to find and remove activity that doesn't come from the brain, such as eye blinks, eye movements and muscle tension, which would otherwise contaminate the brain-wave recordings."
   wiki: Independent_component_analysis
+- term: lexical_decision_task
+  title: Lexical Decision Task
+  def: "A lexical decision task is a standard psychology test in which a person sees a string of letters and decides, usually by pressing a button, whether it is a real word or a made-up one that could be pronounced but means nothing. Researchers use it to study how words and their meanings are recognized: comparing the responses to real words and to nonwords isolates what the meaning adds."
+  wiki: Lexical_decision_task
+- term: hemodynamic_response
+  title: Hemodynamic Response
+  def: "The hemodynamic response is the change in blood flow and oxygen in a brain area after its neurons become active, and it is what fMRI actually measures (as the BOLD, or blood-oxygen-level-dependent, signal). It is slow: after a brief event the signal rises over a few seconds, peaks and takes several more seconds to settle. Researchers often model it with a standard curve, which can miss responses that last longer than usual."
+  wiki: Haemodynamic_response
