@@ -1362,3 +1362,8 @@
   title: Habituation
   def: "Habituation is the gradual weakening of a response to something that is repeated and turns out to be harmless. In brain-imaging studies it is often measured as activity in a region declining across repeated trials; the opposite, a response that grows with repetition, is called sensitization."
   wiki: Habituation
+- term: beck_depression_inventory
+  title: BDI-II
+  name: "Beck Depression Inventory-II (BDI-II)"
+  def: "The Beck Depression Inventory-II (BDI-II) is a 21-item questionnaire on which people rate how much they have experienced common symptoms of depression over the past two weeks, such as sadness, loss of pleasure, guilt, tiredness and changes in sleep or appetite. Each item is scored from 0 to 3, for a total of 0 to 63, where higher means more severe symptoms. It measures symptoms rather than diagnosing depression."
+  wiki: Beck_Depression_Inventory
