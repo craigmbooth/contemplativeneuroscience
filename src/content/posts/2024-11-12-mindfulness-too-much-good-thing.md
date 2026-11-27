@@ -58,7 +58,7 @@ Directing attention to present-moment experience is central to mindfulness and h
 
 Many psychological problems go with weak :term{id="interoception" case="lower"}, the sense of what is happening inside the body, and with low activity in the :term{id="insula" case="lower"}, a brain region that processes those signals. Mindfulness training is thought to help partly by strengthening both, and Britton cites evidence that it can: more body awareness after training went with greater wellbeing in chronic pain patients, and meditation training has been linked with a larger and more active insula.
 
-But fixing a deficit is not the same as "more is always better." High interoception or insula activity has been linked with heightened arousal and emotional intensity, depression, anxiety, panic, traumatic flashbacks and chronic pain conditions, and Britton points out that all of these have been reported during mindfulness training. She also cites [a recent trial](/compassion-perspective-training-cortisol-stress/) in which breath and :term{id="body_scan" case="lower"} training "produced the largest cortisol stress reactivity compared to other forms of meditation." As our summary of that trial explains, three months of that training left the :term{id="cortisol" case="lower"} response to a stress test no different from no training at all, while compassion-based modules shrank it. So "largest" here means the least reduced among the practices, not raised above untrained people.
+But fixing a deficit is not the same as "more is always better." High interoception or insula activity has been linked with heightened arousal and emotional intensity, depression, anxiety, panic, traumatic flashbacks and chronic pain conditions, and Britton points out that all of these have been reported during mindfulness training. She also cites [a recent trial](/compassion-perspective-training-cortisol-stress/) in which breath and :term{id="body_scan" case="lower"} training "produced the largest cortisol stress reactivity compared to other forms of meditation." Our summary of that trial gives its full :term{id="cortisol" case="lower"} results across the practices and an untrained group.
 
 ### Controlling emotion
 
@@ -84,7 +84,7 @@ Her own sleep studies found what she calls an inflection point. In people taking
 
 > Thus, if one is seeking to improve sleep through mindfulness meditation, limiting rather than increasing practice may be the best recommendation.
 
-She also cites [a study of long-term meditators' sleep](/meditators-sleep-gamma/) as showing poorer sleep, with arousal rising with lifetime practice. In our summary of that study, the meditators did sleep about 36 minutes less on their one night in the lab, but its authors read the extra brain activity linked to practice as a lasting effect of training rather than a sign of poor sleep. And in a parallel from outside meditation, a gratitude exercise did more for wellbeing when done once a week than three times a week.
+She also cites [a study of long-term meditators' sleep](/meditators-sleep-gamma/) as showing poorer sleep, with arousal rising with lifetime practice. Our summary of that study describes how its own authors interpreted the results. And in a parallel from outside meditation, a gratitude exercise did more for wellbeing when done once a week than three times a week.
 
 ## Miscellaneous Interesting Takeaways
 
