@@ -922,3 +922,24 @@
   title: Inferior Temporal Gyrus
   def: "The inferior temporal gyrus is the lowest of the ridges (gyri) along the outer side of each temporal lobe, the part of the brain behind the temples. It is part of the brain's visual pathway for recognizing objects, faces and other complex shapes."
   wiki: Inferior_temporal_gyrus
+- term: mantra
+  title: Mantra
+  def: "A mantra is a sound, word or phrase that is repeated, aloud or silently, as a spiritual or meditative practice. Mantras are central to Hindu and Buddhist traditions and appear in many others. In mantra meditation, the repetition itself serves as the object of attention, and practitioners often describe it as calming."
+  wiki: Mantra
+- term: bold_signal
+  title: BOLD Signal
+  name: "Blood-Oxygen-Level-Dependent (BOLD) Signal"
+  def: "The BOLD (blood-oxygen-level-dependent) signal is what fMRI actually measures. When a brain area becomes more active, blood flow to it rises more than its oxygen use does, changing the ratio of oxygen-rich to oxygen-poor blood, which the scanner can detect. A BOLD increase is read as more activity in an area, and a decrease (a negative BOLD response or deactivation) as less, always relative to a comparison condition such as rest."
+  wiki: Blood-oxygen-level-dependent_imaging
+- term: verbal_fluency_test
+  title: Verbal Fluency Task
+  def: "A verbal fluency task asks people to produce as many words as they can that fit a rule, such as words beginning with a given letter (letter fluency) or words in a category like animals (category fluency). It draws on language, memory search and executive control, and is widely used in neuropsychology and brain imaging."
+  wiki: Verbal_fluency_test
+- term: brocas_area
+  title: Broca's Area
+  def: "Broca's area is a region of the left frontal lobe, in the inferior frontal gyrus, long linked to producing speech. It is involved in planning and articulating words, in grammar, and in inner speech, and is typically active when people generate words, aloud or silently."
+  wiki: Broca%27s_area
+- term: gate_control_theory
+  title: Gate Control Theory
+  def: "The gate control theory of pain, proposed by Ronald Melzack and Patrick Wall in 1965, holds that nerve circuits in the spinal cord act as a gate that can let pain signals through to the brain or hold them back. Input from touch fibers can partly close the gate, which is why rubbing a bumped elbow eases the pain. The idea of a gate that blocks competing signals has since been borrowed to explain other effects in the brain."
+  wiki: Gate_control_theory
