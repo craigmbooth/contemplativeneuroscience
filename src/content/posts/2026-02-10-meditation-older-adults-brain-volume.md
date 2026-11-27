@@ -74,7 +74,7 @@ Why no effect on volume, when these are supposedly the regions most responsive t
 
 > Meditation might alter volume in younger and more plastic brains but not halt the age- and disease-related brain volume decreases at older ages.
 
-They also offer a more sobering reading of the earlier cross-sectional findings. The bigger brains seen in older expert meditators might reflect practice when they were younger, decades of intense practice, or other differences between the groups, such as lifestyle. And they note that the null result fits a large, rigorously controlled trial that found eight weeks of MBSR didn't change brain structure in adults aged 25 to 66 ([Kral et al., 2022](/mindfulness-brain-structure/)).
+They also offer a more sobering reading of the earlier cross-sectional findings. The bigger brains seen in older expert meditators (for example, a [shallower drop in gray matter across ages](/meditation-age-gray-matter-decline/) in one comparison) might reflect practice when they were younger, decades of intense practice, or other differences between the groups, such as lifestyle. And they note that the null result fits a large, rigorously controlled trial that found eight weeks of MBSR didn't change brain structure in adults aged 25 to 66 ([Kral et al., 2022](/mindfulness-brain-structure/)).
 
 ### The Perfusion Near-Miss, Read With Care
 
