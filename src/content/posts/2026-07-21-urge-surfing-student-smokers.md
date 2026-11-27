@@ -95,7 +95,7 @@ A few more points are worth keeping in mind:
 
 - **A week is short.** The paper doesn't say whether participants were asked to keep practicing, or whether anyone did. Whether a single recording could have any lasting effect is unknown.
 - **The groups started differently, and were measured differently.** The mindfulness group smoked more to begin with (5.93 against 4.73 cigarettes a day, not a significant difference). The analysis adjusted for this, but a group that starts higher has more room to fall, and some of the drop could be :term{id="regression_to_the_mean" case="lower"}. The starting figure also came from the opening questionnaire, while the follow-up figures came from daily tracking sheets, so the two may not be strictly comparable.
-- **Sessions, not people, were assigned.** Conditions alternated by time slot rather than being assigned to each person by chance. Students who shared a session also shared a condition, and the analysis doesn't appear to account for that grouping, which tends to make results look more certain than they are.
+- **Sessions, not people, were assigned.** Conditions alternated by time slot rather than being assigned to each person by chance. Students who shared a session also shared a condition.
 - **Expectations.** Participants were told the study compared ways of coping with craving, and the mindfulness group was given a new technique while the control group was told to do what it always did. Students reporting their smoking by phone may have guessed which answer was hoped for, a form of :term[demand characteristics]{id="demand_characteristics" case="lower"}.
 
 ## Final Reflection
