@@ -29,6 +29,46 @@
     font-style: italic
     margin-top: 0
 
+// "Related Themes" at the end of a theme page (ThemeLayout): themes sharing
+// the most papers. Scoped under .post .post-content to outrank main.sass's list indent.
+.post .post-content .related-themes
+  margin-top: $spacing-xxl
+  padding-top: $spacing-lg
+  border-top: 1px solid $color-border
+
+  h2
+    margin-top: 0
+
+  ul
+    list-style: none
+    padding: 0
+    margin: 0
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    gap: $spacing-md
+
+  li
+    display: flex
+    align-items: center
+    gap: $spacing-md
+    margin: 0
+    line-height: 1.35
+
+  img
+    flex: 0 0 64px
+    width: 64px
+    height: 64px
+    border-radius: 5px
+
+  .paper-meta
+    margin: 2px 0 0
+    font-size: 14px
+    color: $color-text-secondary
+
+@media (max-width: $breakpoint-mobile)
+  .post .post-content .related-themes ul
+    grid-template-columns: 1fr
+
 @media (max-width: $breakpoint-mobile)
   .theme-header
     flex-direction: column

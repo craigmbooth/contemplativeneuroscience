@@ -76,6 +76,20 @@ export async function postsForTheme(theme: Theme): Promise<Post[]> {
 }
 
 /**
+ * Other themes that share papers with this one, most shared papers first
+ * (site.themeOrder breaks ties), for the "Related Themes" list on theme pages.
+ */
+export async function relatedThemes(theme: Theme, limit = 4): Promise<{ theme: Theme; shared: number }[]> {
+  const posts = await postsForTheme(theme);
+  return (await themesInOrder())
+    .filter((t) => t.id !== theme.id)
+    .map((t) => ({ theme: t, shared: posts.filter((p) => p.data.theme.includes(t.data.theme_key)).length }))
+    .filter(({ shared }) => shared > 0)
+    .sort((a, b) => b.shared - a.shared)
+    .slice(0, limit);
+}
+
+/**
  * Other papers to link from a post: those sharing one of its themes (any paper
  * if it has no theme), taking the ones closest in date first (newest first on a tie). Linking neighbours rather
  * than simply the newest papers spreads internal links evenly across the archive.

@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 import PaperMeta from '../components/PaperMeta.astro';
 import { breadcrumbSchema, collectionPageSchema, htmlToText, metaDescription, pageTitle } from '../lib/seo';
 import { publicImageSize } from '../lib/images.js';
-import { markdownify, postsForTheme, postUrl, themeImage, themeUrl, type Theme } from '../lib/content';
+import { markdownify, postsForTheme, postUrl, relatedThemes, themeImage, themeThumb, themeUrl, type Theme } from '../lib/content';
 
 export interface Props {
   theme: Theme;
@@ -15,6 +15,7 @@ const { theme } = Astro.props;
 const { data } = theme;
 const path = themeUrl(theme);
 const posts = await postsForTheme(theme);
+const related = await relatedThemes(theme);
 const image = { src: themeImage(theme), ...publicImageSize(themeImage(theme), path) };
 const descriptionHtml = await markdownify(data.theme_description);
 const summaryHtml = await markdownify(data.research_summary);
@@ -88,6 +89,23 @@ const schemas = [
           </ul>
         ) : (
           <p>No papers have been categorized in this theme yet.</p>
+        )}
+
+        {related.length > 0 && (
+          <nav class="related-themes" aria-labelledby="related-themes-heading">
+            <h2 id="related-themes-heading">Related Themes</h2>
+            <ul>
+              {related.map(({ theme: t, shared }) => (
+                <li>
+                  <img src={themeThumb(t)} alt="" width="240" height="240" loading="lazy" decoding="async" />
+                  <div>
+                    <a href={themeUrl(t)}>{t.data.question}</a>
+                    <p class="paper-meta">{t.data.short_title} · {shared} shared paper{shared === 1 ? '' : 's'}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </nav>
         )}
       </section>
     </article>
