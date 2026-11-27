@@ -905,3 +905,8 @@
   title: Brain Atrophy
   def: "Brain atrophy is the loss of brain tissue, seen on MRI as smaller volumes of gray or white matter. Some shrinkage is a normal part of aging: overall brain volume starts to fall from early adulthood and the decline continues through later life. Faster or more extensive atrophy is linked to cognitive decline and to diseases such as Alzheimer's."
   wiki: Cerebral_atrophy
+- term: independent_component_analysis
+  title: ICA
+  name: "Independent Component Analysis (ICA)"
+  def: "Independent component analysis (ICA) is a statistical method that splits a mix of recorded signals into separate underlying sources, much as one might pick out single voices in a crowded room. In EEG research it is used to find and remove activity that doesn't come from the brain, such as eye blinks, eye movements and muscle tension, which would otherwise contaminate the brain-wave recordings."
+  wiki: Independent_component_analysis
