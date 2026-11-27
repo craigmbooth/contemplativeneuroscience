@@ -32,7 +32,7 @@ Willoughby Britton and colleagues set out to measure these effects the way curre
 
 > All treatments cause some harm some of the time, and multiple sources suggest that MBPs are no exception.
 
-The team drew on earlier work by the same group. Their [Varieties of Contemplative Experience study](/meditation-adverse-effects-survey/), led by Jared Lindahl (a co-author here), catalogued 59 kinds of meditation-related challenges by interviewing Buddhist meditators who had had difficulties. Because that study recruited people *because* they had struggled, it could map what can happen but not how often. This paper turns an early version of that catalogue into a structured interview and asks everyone who completed an ordinary 8-week mindfulness course.
+The team drew on earlier work by the same group. Their [Varieties of Contemplative Experience study](/meditation-adverse-effects-survey/), led by Jared Lindahl (a co-author here), catalogued 59 kinds of meditation-related experience by interviewing Buddhist meditators who had had difficulties. Because that study recruited people *because* they had struggled, it could map what can happen but not how often. This paper turns an early version of that catalogue into a structured interview and asks everyone who completed an ordinary 8-week mindfulness course.
 
 ## What They Did
 

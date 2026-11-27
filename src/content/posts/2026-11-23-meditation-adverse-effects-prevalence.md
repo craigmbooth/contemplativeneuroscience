@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-How often does meditation go wrong? Earlier posts on this site have looked at the kinds of difficult experiences practice can bring. These range from :term{id="depersonalization" case="lower"} (feeling detached from one's own thoughts, body or sense of self) to the 59 types of challenges that [Lindahl and colleagues](/meditation-adverse-effects-survey/) catalogued in interviews with practitioners and teachers. What those studies could not say is how common such experiences are.
+How often does meditation go wrong? Earlier posts on this site have looked at the kinds of difficult experiences practice can bring. These range from :term{id="depersonalization" case="lower"} (feeling detached from one's own thoughts, body or sense of self) to the 59 kinds of meditation-related experience that [Lindahl and colleagues](/meditation-adverse-effects-survey/) catalogued in interviews with practitioners and teachers. What those studies could not say is how common such experiences are.
 
 Estimates so far have varied widely. A 2020 :term{id="systematic_review" case="lower"} put the overall rate of adverse events at 8.3%, but at 3.7% in experimental studies and 33.2% in observational ones. Part of the problem is how researchers ask. Many trials record only serious events, or none at all.
 

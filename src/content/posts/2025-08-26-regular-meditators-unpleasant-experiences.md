@@ -27,7 +27,7 @@ study:
 
 ## Background Information
 
-Most meditation research asks what practice does for people. Far less asks how often it goes badly. The site's other posts on this theme approach that question in different ways. [Lindahl and colleagues](/meditation-adverse-effects-survey/) interviewed 60 Western Buddhists who had run into difficulties and catalogued 59 kinds of challenge. Because they recruited people who had struggled, their study could show what can happen but not how often it happens.
+Most meditation research asks what practice does for people. Far less asks how often it goes badly. The site's other posts on this theme approach that question in different ways. [Lindahl and colleagues](/meditation-adverse-effects-survey/) interviewed 60 Western Buddhists who had run into difficulties and catalogued 59 kinds of meditation-related experience. Because they recruited people who had struggled, their study could show what can happen but not how often it happens.
 
 Marco Schlosser and colleagues at University College London, with collaborators in Germany and Slovenia, set out to count. Their aim was to estimate how many regular meditators have had a particularly unpleasant experience they connect to their practice, and to see which people and which kinds of practice those experiences go with. Only two earlier large surveys had tried this, the authors note. A 2017 survey by Cebolla and colleagues found that 25.4% of 342 meditators reported "unwanted effects," and a 2018 survey by Vieten and colleagues that 32% of 1,120 meditators had felt "disturbing feelings of fear, dread, or terror" during or just after meditating.
 

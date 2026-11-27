@@ -28,7 +28,7 @@ Most things that are good for us are only good in the right amount. Psychologist
 
 Willoughby Britton, of Brown University Medical School, takes up that suggestion here. Her paper, in the journal *Current Opinion in Psychology*, is a short review, not an experiment. It has no participants and no new data. Instead it argues a position: that the mix of positive, null and negative results in mindfulness research makes more sense if mindfulness, like almost everything else, can be too much of a good thing.
 
-The argument draws partly on Britton's own earlier work. She co-authored the [Varieties of Contemplative Experience study](/meditation-adverse-effects-survey/), which catalogued 59 kinds of difficult meditation experiences, and two papers on meditation and sleep that she cites as evidence of a tipping point.
+The argument draws partly on Britton's own earlier work. She co-authored the [Varieties of Contemplative Experience study](/meditation-adverse-effects-survey/), which catalogued 59 kinds of meditation-related experience in practitioners who had struggled, and two papers on meditation and sleep that she cites as evidence of a tipping point.
 
 ## What They Did
 

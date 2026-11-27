@@ -30,7 +30,7 @@ By the 2010s, many studies had documented benefits from meditation and :term{id=
 
 Their aim was to estimate how often meditators experience what they called unwanted effects, a broad term for :term[meditation-related adverse effects]{id="meditation_adverse_effects"}, and to see whether the type, frequency or years of practice made a difference. They went in with three predictions: unwanted effects would be few, mild and temporary; they would be more frequent with more practice; and some types of meditation would be more prone to them than others.
 
-The same year, [Lindahl and colleagues](/meditation-adverse-effects-survey/) published interviews with 60 Western Buddhists who had run into difficulties, cataloguing 59 kinds of challenge. Because those participants were chosen for having struggled, that study mapped what can happen. Cebolla's team tried to count how often it happens.
+The same year, [Lindahl and colleagues](/meditation-adverse-effects-survey/) published interviews with 60 Western Buddhists who had run into difficulties, cataloguing 59 kinds of meditation-related experience. Because those participants were chosen for having struggled, that study mapped what can happen. Cebolla's team tried to count how often it happens.
 
 ## What They Did
 

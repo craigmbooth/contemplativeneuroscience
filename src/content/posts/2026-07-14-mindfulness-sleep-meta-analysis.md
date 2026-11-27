@@ -71,7 +71,7 @@ Total class time ranged from 3 to 42 hours, yet the amount showed essentially no
 
 ### Few Signs of Harm, but Thin Reporting
 
-Only 10 of the 18 trials reported on adverse events, and those that did showed no sign of increased risk. In two trials, sleep worsened for 3% and 7% of meditators, compared with 24% and 12% of people in the comparison groups. The authors still caution that difficult emotions can surface as awareness sharpens, especially early on, and that people with trauma histories may need extra support, a theme explored in [Meditators Described 59 Kinds of Difficult Experiences](/meditation-adverse-effects-survey/).
+Only 10 of the 18 trials reported on adverse events, and those that did showed no sign of increased risk. In two trials, sleep worsened for 3% and 7% of meditators, compared with 24% and 12% of people in the comparison groups. The authors still caution that difficult emotions can surface as awareness sharpens, especially early on, and that people with trauma histories may need extra support, a theme explored in [interviews with Buddhist meditators who had struggled in their practice](/meditation-adverse-effects-survey/).
 
 ## Final Reflection
 
