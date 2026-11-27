@@ -1354,3 +1354,7 @@
   title: Nucleus Accumbens
   def: "The nucleus accumbens is a small region deep in each half of the brain, part of the ventral striatum. It is a key hub of the brain's reward system: it responds to pleasant things and to the expectation of them, and it helps turn motivation into action. Brain-imaging studies have also linked it to charitable giving."
   wiki: Nucleus_accumbens
+- term: dna_methylation
+  title: DNA Methylation
+  def: "DNA methylation is the attachment of a small chemical tag, a methyl group, to DNA, usually at a cytosine that is followed by a guanine (a CpG site). It doesn't change the DNA sequence, but heavy methylation of a gene's promoter, the stretch of DNA that controls when the gene is read, tends to keep the gene switched off. It is one of the main epigenetic marks, and its level can be measured site by site."
+  wiki: DNA_methylation
