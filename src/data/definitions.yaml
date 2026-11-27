@@ -872,3 +872,15 @@
   name: "Fagerström Test for Nicotine Dependence (FTND)"
   def: "The Fagerström Test for Nicotine Dependence (FTND) is a short, widely used questionnaire that rates how dependent a person is on nicotine. Its six questions ask, for example, how soon after waking the person has their first cigarette, whether they find it hard not to smoke where smoking is forbidden, and how many cigarettes they smoke a day. Scores run from 0 to 10, with higher scores meaning stronger dependence."
   wiki: Fagerström_Test_for_Nicotine_Dependence
+- term: sense_of_ownership
+  title: Sense of Ownership
+  def: "The sense of ownership is the feeling that your body and your experiences are your own: that this is my hand and these are my sensations. Researchers distinguish it from the sense of agency, the feeling of being the one who acts: if someone else moves your arm, it still feels like yours, but you don't feel you moved it. Illusions such as the rubber hand illusion show that it can be shifted in the lab."
+  wiki: Sense_of_ownership
+- term: proprioception
+  title: Proprioception
+  def: "Proprioception is the body's sense of its own position and movement: knowing where your limbs are, and how they are moving, without looking. It relies on sensors in the muscles, tendons and joints. The closely related sense of movement is called kinesthesia."
+  wiki: Proprioception
+- term: grounded_theory
+  title: Grounded Theory
+  def: "Grounded theory is a qualitative research method in which researchers build categories and explanations from the material itself, such as interview transcripts, rather than testing hypotheses fixed in advance. They read and code the material repeatedly, comparing passages and refining the categories until a coherent picture emerges. It was developed by the sociologists Barney Glaser and Anselm Strauss in the 1960s."
+  wiki: Grounded_theory
