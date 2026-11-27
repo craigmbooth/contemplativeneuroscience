@@ -85,7 +85,7 @@ So the study can't say whether the same temporary decoupling happens whenever pe
 
 ### Surfing the Urge
 
-The idea that people can feel an urge without obeying it echoes an earlier study the authors cite. In a study titled "Surfing the urge," Bowen and Marlatt gave college smokers brief mindfulness instructions: accept thoughts without judging them, and pay attention to urges and the sensations that come with them without trying to change or get rid of them. A week later, those students smoked significantly fewer cigarettes than students who didn't get the instructions, even though the two groups' urges didn't differ significantly. The authors argue that the most useful clinical message may be the same. Rather than trying to suppress cravings, smokers can learn that a craving doesn't have to lead to a cigarette, and can expect cravings to linger for a while after they quit.
+The idea that people can feel an urge without obeying it echoes an earlier study the authors cite. In a study titled "Surfing the urge," [Bowen and Marlatt](/urge-surfing-student-smokers/) gave college smokers brief mindfulness instructions: accept thoughts without judging them, and pay attention to urges and the sensations that come with them without trying to change or get rid of them. A week later, those students smoked significantly fewer cigarettes than students told to cope with their urges in their usual way, even though the two groups' urges didn't differ significantly. The authors argue that the most useful clinical message may be the same. Rather than trying to suppress cravings, smokers can learn that a craving doesn't have to lead to a cigarette, and can expect cravings to linger for a while after they quit.
 
 ## Final Reflection
 
