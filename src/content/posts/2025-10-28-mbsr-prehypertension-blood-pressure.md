@@ -73,7 +73,7 @@ The authors point out that the clinic drop was similar in size to the effect of 
 
 ### After Treatment, Only Diastolic Pressure Was Clearly Lower
 
-Comparing the groups' readings after treatment, rather than how much they changed, diastolic pressure was lower in the MBSR group (75.4 vs. 79.4 mm Hg, p = .023), but systolic pressure was not significantly different (p = .208). The paper gives those systolic averages as 128.1 for MBSR and 125.3 for PMR, which would put the MBSR group higher. Yet those are exactly the figures its starting averages and reported changes give with the groups the other way round (130.2 − 4.9 = 125.3 for MBSR; 128.8 − 0.7 = 128.1 for PMR), so the two may have been switched. Either way, the difference wasn't significant.
+Comparing the groups' readings after treatment, rather than how much they changed, diastolic pressure was lower in the MBSR group (75.4 vs. 79.4 mm Hg, p = .023), but systolic pressure was not significantly different (p = .208). The paper gives those systolic averages as 128.1 for MBSR and 125.3 for PMR, which doesn't fit its own starting averages and reported changes (130.2 − 4.9 = 125.3 for MBSR; 128.8 − 0.7 = 128.1 for PMR). Either way, the difference wasn't significant.
 
 ### Dropouts and an Uneven Start
 
