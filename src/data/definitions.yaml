@@ -1294,3 +1294,8 @@
   title: Case Series
   def: "A case series describes a small group of patients who share an exposure or an illness, such as people who became unwell after a particular practice, usually drawn from clinicians' own work. It can flag a possible link and suggest ideas to test, but with no comparison group and no count of how many people had the same exposure without becoming ill, it can't show cause or how common the outcome is."
   wiki: Case_series
+- term: theravada
+  title: Theravada
+  name: "Theravada Buddhism"
+  def: "Theravada (Pali for \"teaching of the elders\") is the oldest surviving school of Buddhism and the main religion of Sri Lanka, Thailand, Myanmar, Cambodia and Laos. It takes the Pali Canon as its scripture and emphasizes meditation and insight into impermanence, suffering and not-self. The Insight (vipassana) meditation movement and the jhana practices studied in some meditation research come from this tradition."
+  wiki: Theravada
