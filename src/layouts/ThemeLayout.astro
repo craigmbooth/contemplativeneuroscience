@@ -6,7 +6,8 @@ import Footer from '../components/Footer.astro';
 import PaperMeta from '../components/PaperMeta.astro';
 import { breadcrumbSchema, collectionPageSchema, htmlToText, metaDescription, pageTitle } from '../lib/seo';
 import { publicImageSize } from '../lib/images.js';
-import { markdownify, postsForTheme, postUrl, relatedThemes, themeImage, themeThumb, themeUrl, type Theme } from '../lib/content';
+import { CARD_HEIGHT, CARD_WIDTH } from '../lib/share-card';
+import { markdownify, postsForTheme, postUrl, relatedThemes, themeCard, themeImage, themeThumb, themeUrl, type Theme } from '../lib/content';
 
 export interface Props {
   theme: Theme;
@@ -39,7 +40,7 @@ const schemas = [
   title={pageTitle(data.title)}
   description={description}
   path={path}
-  share={{ image: image.src }}
+  share={{ image: themeCard(theme), imageSize: { width: CARD_WIDTH, height: CARD_HEIGHT }, imageAlt: data.question }}
   schemas={schemas}
   wrapped
 >

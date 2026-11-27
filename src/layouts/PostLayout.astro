@@ -6,8 +6,9 @@ import Footer from '../components/Footer.astro';
 import PaperMeta from '../components/PaperMeta.astro';
 import Subscribe from '../components/Subscribe.astro';
 import { site } from '../site';
-import { articleSchema, breadcrumbSchema, metaDescription, pageTitle, postBreadcrumbs, postImage, type ShareMeta } from '../lib/seo';
-import { displayDate, markdownify, postUrl, relatedPosts, themesForPost, themeUrl, type Post } from '../lib/content';
+import { articleSchema, breadcrumbSchema, metaDescription, pageTitle, postBreadcrumbs, type ShareMeta } from '../lib/seo';
+import { CARD_HEIGHT, CARD_WIDTH } from '../lib/share-card';
+import { displayDate, markdownify, postCard, postUrl, relatedPosts, themesForPost, themeUrl, type Post } from '../lib/content';
 
 export interface Props {
   post: Post;
@@ -20,12 +21,13 @@ const related = await relatedPosts(post);
 const isoDate = (d: Date) => d.toISOString().slice(0, 10);
 const updated = data.last_modified_at && isoDate(data.last_modified_at) !== isoDate(data.date) ? data.last_modified_at : undefined;
 const citation = (await markdownify(data.citation)).replaceAll('<p>', '<p class="citation">');
-const image = postImage(post);
 const share: ShareMeta = {
   // Social cards show the plain-language headline; <title> stays search-focused (seo_title).
   title: data.title,
-  image: image.src,
-  imageAlt: image.alt,
+  // A generated card: the theme painting beside the headline (lib/share-card.ts).
+  image: postCard(post),
+  imageSize: { width: CARD_WIDTH, height: CARD_HEIGHT },
+  imageAlt: data.title,
   article: { published: data.date, modified: data.last_modified_at, sections: themes.map((t) => t.data.title) },
 };
 const schemas = [await articleSchema(post, path), breadcrumbSchema(await postBreadcrumbs(post, path))];

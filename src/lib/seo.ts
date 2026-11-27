@@ -2,7 +2,7 @@
 // the *_schema.html includes).
 import { site, absoluteUrl } from '../site';
 import { definitionsBySlug, termHeading, termPath, type Definition } from './glossary';
-import { postHtml, themesForPost, xmlSchemaDate, type Post, type Theme } from './content';
+import { postCard, postHtml, themesForPost, xmlSchemaDate, type Post, type Theme } from './content';
 
 /** Liquid's `truncate`: at most `length` characters including the ellipsis. */
 export const truncate = (s: string, length: number) =>
@@ -229,7 +229,7 @@ export async function postBreadcrumbs(post: Post, path: string): Promise<Crumb[]
 }
 
 /**
- * The image that represents a post (structured data and share cards):
+ * The post's own image (structured data, after its share card):
  * schema_image, else the first image in the post body, else the site logo.
  */
 export function postImage(post: Post): { src: string; alt?: string } {
@@ -284,7 +284,7 @@ export function postGlossaryTerms(post: Post) {
 /**
  * Article structured data for a paper summary.
  * - headline: the title, or seo_title when the title exceeds Google's 110-char limit
- * - image: see postImage()
+ * - image: the post's share card (postCard()), then postImage() unless that is the logo
  * - dateModified: last_modified_at, else the post date
  * - keywords / mentions: glossary terms the post links to (mentions as DefinedTerms)
  * - articleSection: display names of the post's themes
@@ -295,7 +295,8 @@ export async function articleSchema(post: Post, path: string) {
   let headline = data.title;
   if (headline.length > 110) headline = truncate(data.seo_title || data.title, 110);
 
-  const image = absoluteUrl(postImage(post).src);
+  const ownImage = postImage(post).src;
+  const images = [postCard(post), ...(ownImage === site.logo ? [] : [ownImage])].map(absoluteUrl);
   const paper = paperSchema(post);
 
   const terms = postGlossaryTerms(post);
@@ -307,7 +308,7 @@ export async function articleSchema(post: Post, path: string) {
     '@type': 'Article',
     headline,
     ...(headline !== data.title && { alternativeHeadline: data.title }),
-    image: [image],
+    image: images,
     datePublished: xmlSchemaDate(data.date),
     dateModified: xmlSchemaDate(data.last_modified_at ?? data.date),
     author: authorSchema(),
@@ -333,6 +334,8 @@ export interface ShareMeta {
   title?: string;
   /** Site-relative image path; defaults to the site logo. */
   image?: string;
+  /** Pixel size of an image that is generated rather than in public/ (share cards). */
+  imageSize?: { width: number; height: number };
   imageAlt?: string;
   /** Set on paper summaries: og:type becomes "article". */
   article?: { published: Date; modified?: Date; sections: string[] };

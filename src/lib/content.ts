@@ -39,6 +39,10 @@ export const themeShortAnswer = (theme: Theme): string | undefined =>
 
 export const themeThumb = (theme: Theme) => `/assets/images/themes/thumbs/${theme.data.theme_key}.webp`;
 
+/** 1200×630 share-card images, generated at build time (src/pages/assets/cards/). */
+export const postCard = (post: Post) => `/assets/cards/${post.id}.jpg`;
+export const themeCard = (theme: Theme) => `/assets/cards/themes/${theme.data.theme_key}.jpg`;
+
 /** "November 23, 2026" (dates are stored as UTC midnight). */
 export const displayDate = (d: Date) =>
   d.toLocaleDateString('en-US', { timeZone: 'UTC', year: 'numeric', month: 'long', day: 'numeric' });

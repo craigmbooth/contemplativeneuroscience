@@ -22,7 +22,7 @@ const { title, description, path, share = {}, schemas = [], noindex = false } = 
 const url = absoluteUrl(path);
 const imagePath = share.image ?? site.logo;
 const image = absoluteUrl(imagePath);
-const imageSize = publicImageSize(imagePath, path);
+const imageSize = share.imageSize ?? publicImageSize(imagePath, path);
 const imageAlt = share.imageAlt && truncate(share.imageAlt, 420);
 const article = share.article;
 const shareTitle = share.title ?? title;
