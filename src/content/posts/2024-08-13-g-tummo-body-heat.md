@@ -56,7 +56,7 @@ Gentle Breath behaved as the practitioners had said it would. The four people wh
 
 The Western group showed that the breathing works without the meditation. Their armpit temperature rose significantly during the Forceful Breath technique, from 36.38°C to 36.99°C on average, but it never exceeded 37.02°C, staying within the normal range. Before and after the breathing alone, their temperatures did not differ significantly from those of the six Tibetan practitioners at the same stage. Only the Tibetans' temperatures at the end of the full meditation were significantly higher than the Westerners' (p = .001). And when the Westerners stopped, their temperature drifted back to where it had started within about 20 minutes.
 
-From these patterns and from correlations described below, the authors conclude that the two parts of the practice play different roles:
+From these patterns and from :term{id="correlation" case="lower" plural} described below, the authors conclude that the two parts of the practice play different roles:
 
 > That is, the FB somatic component (vase breathing) causes thermogenic effects, while the neurocognitive component (meditative visualization) seems to be key for facilitating a sustained increase in body temperature for longer periods, possibly due to mitigating physiological mechanisms leading to heat loss.
 

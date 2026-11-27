@@ -42,11 +42,11 @@ The meditation group came from four MBSR courses at the Center for Mindfulness a
 
 The comparison group was 17 people (6 women and 11 men, average age 39) on a wait list, scanned twice about two months apart. They were not randomly assigned: the MBSR group had already signed up for a course. Age and sex were included in the analysis to adjust for the groups' different makeup.
 
-MBSR met for two and a half hours a week for eight weeks, plus a 6.5-hour day in week six. It taught a body scan, mindful yoga and sitting meditation, and participants were asked to practice daily at home with 45-minute guided recordings and to log how long they practiced. Everyone also filled in the Five Facet Mindfulness Questionnaire, which rates aspects of :term{id="mindfulness" case="lower"} such as observing experience and acting with awareness.
+MBSR met for two and a half hours a week for eight weeks, plus a 6.5-hour day in week six. It taught a :term{id="body_scan" case="lower"}, mindful yoga and sitting meditation, and participants were asked to practice daily at home with 45-minute guided recordings and to log how long they practiced. Everyone also filled in the :term[Five Facet Mindfulness Questionnaire]{id="ffmq"}, which rates aspects of :term{id="mindfulness" case="lower"} such as observing experience and acting with awareness.
 
 ### What "Gray Matter Density" Means
 
-The team analyzed the scans with :term{id="voxel_based_morphometry" case="lower"} (VBM). An MRI scan is a 3D image made of tiny cubes called voxels, a millimeter or two across in this study. Software sorts the tissue in every voxel into gray matter, white matter or fluid based on how it looks on the scan. Each person's brain is then warped to fit a standard shape, so that a given voxel sits in roughly the same place in everyone. What's left, for each voxel, is a number for how much of the tissue there looks like gray matter. That number is what the title calls gray matter *density* and the paper's text calls gray matter *concentration*. It is not the same as volume, which is how big a region is.
+The team analyzed the scans with :term{id="voxel_based_morphometry" case="lower"} (VBM). An MRI scan is a 3D image made of tiny cubes called voxels, a millimeter or two across in this study. Software sorts the tissue in every voxel into gray matter, :term{id="white_matter" case="lower"} or fluid based on how it looks on the scan. Each person's brain is then warped to fit a standard shape, so that a given voxel sits in roughly the same place in everyone. What's left, for each voxel, is a number for how much of the tissue there looks like gray matter. That number is what the title calls gray matter *density* and the paper's text calls gray matter *concentration*. It is not the same as volume, which is how big a region is.
 
 A rise in density does not mean the scan counted more neurons. MRI can't see individual cells, and the reading reflects whatever makes the tissue look more like gray matter. The authors are clear on this point:
 
@@ -58,7 +58,7 @@ VBM runs a separate statistical test at every voxel, which raises the problem of
 
 First, they looked only within the MBSR group for voxels whose density rose between the two scans. They did this in two ways. One was a focused test in regions chosen in advance, the hippocampus and the insula on both sides, because they had come up in earlier studies of meditators. The other was an exploratory search of the whole brain, which counted only clusters of at least 250 neighboring voxels.
 
-Second, for each cluster they found, they averaged the density for each person and tested whether the MBSR group's change was bigger than the wait-list group's.
+Second, for each cluster they found, they averaged the density for each person and tested whether the MBSR group's change was bigger than the :term[wait-list group]{id="wait_list_control"}'s.
 
 ## One Big Result: Gray Matter Density Rose in Five Areas After MBSR, but Not in the Wait-List Group
 
@@ -69,7 +69,7 @@ The whole-brain search found four more clusters that became denser in the MBSR g
 - **Left hippocampus:** learning, memory and regulating emotion. It tends to be smaller in depression and post-traumatic stress disorder.
 - **Posterior cingulate cortex (:term{id="pcc"}):** judging how relevant something is to oneself.
 - **Left temporoparietal junction (:term{id="tpj"}):** the sense of one's self in one's body, and understanding other people's perspectives.
-- **Left lateral cerebellum:** besides coordinating movement, helping regulate emotion and thinking.
+- **Left lateral :term{id="cerebellum" case="lower"}:** besides coordinating movement, helping regulate emotion and thinking.
 - **Cerebellar vermis, extending into the brainstem:** an area that appears to include nuclei that release norepinephrine and serotonin, brain chemicals involved in arousal and mood.
 
 The paper reports these results as statistical tests. It doesn't say how large the changes were in everyday terms, such as a percentage.
@@ -100,7 +100,7 @@ The authors close their list of limitations plainly:
 
 ### What a Later, Larger Trial Found
 
-That replication came a decade later. A team at the University of Wisconsin randomly assigned 218 newcomers to MBSR, a matched wellness program, or a wait list ([Kral et al., 2022](/mindfulness-brain-structure/)). Hölzel's group shared the maps of the clusters reported here, so the new study could test those exact regions. Eight weeks of MBSR changed gray matter no more than either comparison condition, whether measured as density, volume or cortical thickness, in those regions or across the whole brain. Its authors suggest one reason for the difference: participants in earlier studies like this one had sought out a course for stress, so they may have had more room to improve.
+That replication came a decade later. A team at the University of Wisconsin randomly assigned 218 newcomers to MBSR, a matched wellness program, or a wait list ([Kral et al., 2022](/mindfulness-brain-structure/)). Hölzel's group shared the maps of the clusters reported here, so the new study could test those exact regions. Eight weeks of MBSR changed gray matter no more than either comparison condition, whether measured as density, volume or :term{id="cortical_thickness" case="lower"}, in those regions or across the whole brain. Its authors suggest one reason for the difference: participants in earlier studies like this one had sought out a course for stress, so they may have had more room to improve.
 
 Longer and more focused training may be another matter. A nine-month study of 332 adults found that separate modules of attention, compassion and perspective-taking practice were each linked to thickening in different parts of the cortex ([Valk et al., 2017](/social-brain-plasticity/)).
 

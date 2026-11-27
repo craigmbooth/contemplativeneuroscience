@@ -38,13 +38,13 @@ The data come from the Age-Well trial, run in Caen, France, as part of the Europ
 
 The trial enrolled 137 adults aged 65 and over between 2016 and 2018. All were native French speakers with at least seven years of education, scored in the normal range on cognitive tests and had no major neurological, psychiatric or other chronic disease. Each was assigned at random to one of three groups:
 
-- **Meditation:** an 18-month secular program designed for the study, aimed at managing stress and supporting well-being by training attention and emotion regulation
+- **Meditation:** an 18-month secular program designed for the study, aimed at managing stress and supporting well-being by training attention and :term{id="emotion_regulation" case="lower"}
 - **English lessons:** an :term[active control]{id="active_control_group"} matched to the meditation course in length, class time, homework and delivery
 - **No intervention:** a passive control group asked to carry on as before and not to take up meditation or language training
 
 Both courses ran in groups of 14, with a 2-hour class each week and 20 minutes of daily practice at home for 18 months.
 
-Blood was drawn before the courses began and again after 18 months. From each sample, the lab isolated peripheral blood mononuclear cells, white blood cells with a single round nucleus (mainly lymphocytes and monocytes), and froze them. The people handling the samples didn't know who was in which group. Telomeres were measured on individual chromosomes with a high-throughput imaging method (quantitative fluorescent in situ hybridization) that lights up telomeric DNA with a fluorescent probe, and each measurement was done five times.
+Blood was drawn before the courses began and again after 18 months. From each sample, the lab isolated peripheral blood mononuclear cells, white blood cells with a single round nucleus (mainly lymphocytes and :term{id="monocyte" case="lower" plural}), and froze them. The people handling the samples didn't know who was in which group. Telomeres were measured on individual chromosomes with a high-throughput imaging method (quantitative fluorescent in situ hybridization) that lights up telomeric DNA with a fluorescent probe, and each measurement was done five times.
 
 The team looked at three numbers for each person:
 

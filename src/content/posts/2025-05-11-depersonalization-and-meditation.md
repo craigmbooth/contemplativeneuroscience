@@ -32,9 +32,9 @@ Richard Castillo's 1990 paper asks a provocative question: when depersonalizatio
 
 ## What They Did
 
-Castillo reviewed clinical literature and conducted interviews with six long-term Transcendental Meditation (TM) practitioners. He examined how depersonalization and derealization (the sense that the external world is unreal or dreamlike) manifested in these individuals, whether they caused distress, and how the meditators made sense of their experiences.
+Castillo reviewed clinical literature and conducted interviews with six long-term :term{id="transcendental_meditation"} (TM) practitioners. He examined how depersonalization and :term{id="derealization" case="lower"} (the sense that the external world is unreal or dreamlike) manifested in these individuals, whether they caused distress, and how the meditators made sense of their experiences.
 
-Importantly, he drew from cross-cultural psychology and symbolic healing theories, proposing that the interpretation of depersonalization may determine whether it’s experienced as terrifying dissociation—or as spiritual insight.
+Importantly, he drew from cross-cultural psychology and symbolic healing theories, proposing that the interpretation of depersonalization may determine whether it’s experienced as terrifying :term{id="dissociation" case="lower"}—or as spiritual insight.
 
 ## One Big Result: Meaning Decides Whether Depersonalization Is Distressing
 
@@ -58,7 +58,7 @@ Several of the meditators described being in a continuous or near-continuous sta
 The most striking insight comes from anthropological theory: if a person interprets depersonalization using a spiritual or mythic framework (e.g., "I’m experiencing my higher self"), the experience becomes benign—or even desirable. But if the same event is interpreted medically ("I’m dissociating"), it can trigger panic. Castillo calls this "symbolic healing", a transformation of meaning that rewrites emotional and bodily response.
 
 ### Derealization as Sacred
-Visual distortions described by meditators—pulsating colors, shimmering edges, and "breathing" trees—closely matched laboratory findings from sensory deprivation studies. These aren’t signs of psychosis, the study suggests, but expected features of perceptual de-automatization that can happen during sustained meditation.
+Visual distortions described by meditators—pulsating colors, shimmering edges, and "breathing" trees—closely matched laboratory findings from :term{id="sensory_deprivation" case="lower"} studies. These aren’t signs of :term{id="psychosis" case="lower"}, the study suggests, but expected features of perceptual de-automatization that can happen during sustained meditation.
 
 > "Instead of 'pathologizing' the experiences... they are 'sacralizing' the experiences… interpreting them according to a sacred model of reality."
 

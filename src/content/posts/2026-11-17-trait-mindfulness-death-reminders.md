@@ -56,7 +56,7 @@ Mindfulness was never manipulated. Nobody was taught to meditate or asked to be 
 
 Studies 1, 3 and 6 show the pattern most cleanly. Among students who scored low on mindfulness, writing about their own death made their judgments clearly more defensive than writing about television or dental pain. Among students who scored high, the death reminder made no significant difference.
 
-- **Study 1:** after the death reminder, less mindful students favored the pro-U.S. author more strongly (a standardized effect of β = 0.55, p < .001); more mindful students didn't (β = −0.05). The difference between the two held after the authors tested neuroticism, openness to experience, two kinds of self-consciousness and a tendency to reflect on oneself as alternative explanations.
+- **Study 1:** after the death reminder, less mindful students favored the pro-U.S. author more strongly (a standardized effect of β = 0.55, p < .001); more mindful students didn't (β = −0.05). The difference between the two held after the authors tested neuroticism, :term{id="openness_to_experience" case="lower"}, two kinds of self-consciousness and a tendency to reflect on oneself as alternative explanations.
 - **Study 3:** less mindful students judged wrongdoings more harshly after the death reminder (β = 0.45, p < .001); more mindful students barely changed (β = 0.09, not significant).
 - **Study 6**, run in spring 2008 with a dental pain control: the same as Study 1. Less mindful students favored the pro-U.S. author more (β = 0.51, p < .001), more mindful students didn't (β = −0.05).
 

@@ -26,9 +26,9 @@ study:
 
 ## Background Information
 
-Addiction is often described as a chronic, relapsing condition. Two of the strongest short-term warning signs of a return to drinking or drug use are negative mood, especially depressive symptoms, and craving. Many people use substances to escape bad feelings, and over time a low mood can become a cue that sets off craving almost automatically.
+Addiction is often described as a chronic, relapsing condition. Two of the strongest short-term warning signs of a return to drinking or drug use are negative mood, especially depressive symptoms, and :term{id="craving" case="lower"}. Many people use substances to escape bad feelings, and over time a low mood can become a cue that sets off craving almost automatically.
 
-:term{id="mbrp"} was designed to target exactly that chain. It combines Alan Marlatt's cognitive-behavioral relapse prevention program (spotting high-risk situations, building coping skills) with mindfulness meditation, using the structure of :term[mindfulness-based cognitive therapy (MBCT)]{id="mbct"}, which was built to stop low mood from spiraling into another episode of depression. Participants practice noticing physical sensations, thoughts, emotions and cravings without reacting to them on autopilot. The authors describe the idea this way:
+:term{id="mbrp"} was designed to target exactly that chain. It combines Alan Marlatt's :term[cognitive-behavioral]{id="cbt"} :term{id="relapse_prevention" case="lower"} program (spotting high-risk situations, building coping skills) with :term{id="mindfulness" case="lower"} meditation, using the structure of :term[mindfulness-based cognitive therapy (MBCT)]{id="mbct"}, which was built to stop low mood from spiraling into another episode of depression. Participants practice noticing physical sensations, thoughts, emotions and cravings without reacting to them on autopilot. The authors describe the idea this way:
 
 > It is hypothesized that clients’ mindful recognition of and attention to problematic cognitive and affective states provide a “pause,” interrupting the habitual reaction.
 
@@ -36,7 +36,7 @@ A year earlier, Sarah Bowen and colleagues had published a pilot trial of MBRP a
 
 ## What They Did
 
-The trial took place in 2007–2008 at a private, nonprofit agency that offered inpatient and intensive outpatient treatment for alcohol and drug problems. Its 168 participants had finished that treatment within the previous two weeks. They were aged 18 to 70 (average 40), 64% were men, and 46% were not White. About 41% were unemployed. Their main drugs were alcohol (45%), cocaine or crack (36%) and methamphetamine (14%). People with current psychosis, imminent suicide risk or a high risk of relapse were excluded.
+The trial took place in 2007–2008 at a private, nonprofit agency that offered inpatient and intensive outpatient treatment for alcohol and drug problems. Its 168 participants had finished that treatment within the previous two weeks. They were aged 18 to 70 (average 40), 64% were men, and 46% were not White. About 41% were unemployed. Their main drugs were alcohol (45%), cocaine or crack (36%) and methamphetamine (14%). People with current :term{id="psychosis" case="lower"}, imminent suicide risk or a high risk of relapse were excluded.
 
 Participants were randomly assigned to MBRP (93 people) or to the agency's usual aftercare (75 people). The trial deliberately put more people into MBRP because the researchers worried that more of them would drop out.
 
@@ -57,7 +57,7 @@ Dropout was a real problem. Only 61% of participants (103) completed the questio
 
 Across everyone, the expected chain showed up. More depressive symptoms at the end of the course predicted more craving two months later, and more craving predicted more days of use in the following two months. Craving statistically accounted for a small part of the link between depression and substance use (about 7%; indirect effect 0.23, 95% :term[confidence interval]{id="confidence_interval"} 0.08 to 0.40).
 
-But the chain looked very different in the two groups. In usual care, people who ended the course with more depressive symptoms reported clearly more craving two months later (r = .54) and used on more days (r = .53). In the MBRP group, depressive symptoms were barely linked to later craving (r = .12) and, if anything, slightly negatively linked to days of use (r = −.19). Neither of those MBRP correlations was statistically significant. Craving still went with substance use in both groups.
+But the chain looked very different in the two groups. In usual care, people who ended the course with more depressive symptoms reported clearly more craving two months later (r = .54) and used on more days (r = .53). In the MBRP group, depressive symptoms were barely linked to later craving (r = .12) and, if anything, slightly negatively linked to days of use (r = −.19). Neither of those MBRP :term{id="correlation" case="lower" plural} was statistically significant. Craving still went with substance use in both groups.
 
 ![Correlations, within each group, between depressive symptoms at the end of the course, craving two months later, and days of alcohol or drug use between the two- and four-month follow-ups. In treatment as usual, depression went with more craving (.54) and more days of use (.53); after MBRP these links were .12 and −.19. Craving went with days of use in both groups (.46 and .73). All three usual-care correlations and the MBRP craving–use correlation were statistically significant. Drawn from the values in Table 1 of Witkiewitz and Bowen, 2010.](/assets/article_images/mindfulness-depression-craving-relapse/depression-craving-correlations.jpg)
 

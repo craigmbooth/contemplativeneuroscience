@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-Mindfulness courses are no longer just for patients. They are offered to students, employees, teachers, nurses, new parents and anyone in the community who wants to feel less stressed. The authors note that in the USA twice as many people practice mindfulness for wellness as to treat a specific health condition, and that mindfulness courses are often promoted "as the go-to universal tool to reduce stress and increase well-being, accessible to anyone, anywhere".
+:term{id="mindfulness"} courses are no longer just for patients. They are offered to students, employees, teachers, nurses, new parents and anyone in the community who wants to feel less stressed. The authors note that in the USA twice as many people practice mindfulness for wellness as to treat a specific health condition, and that mindfulness courses are often promoted "as the go-to universal tool to reduce stress and increase well-being, accessible to anyone, anywhere".
 
 Many trials have tested such courses, and many reviews have summarized them. But those reviews often mixed :term{id="randomized_controlled_trial" case="lower" plural} with weaker designs, mixed people with and without mental health conditions, or pooled comparisons with "doing nothing" together with comparisons against other activities. Julieta Galante and colleagues, led from the University of Cambridge, set out to do a comprehensive review of randomized trials only, in people who had not been selected for any illness, and to keep those comparisons apart.
 
@@ -46,7 +46,7 @@ The team sorted the comparison groups into three kinds:
 
 - **Passive controls**: no intervention or a :term[wait-list]{id="wait_list_control"}. These made up 71% of trials.
 - **Nonspecific :term[active controls]{id="active_control_group"}**: activities that give people time and attention without being expected to improve mental health, such as reading groups, nutrition classes or lifestyle education.
-- **Specific active controls**: activities designed to improve the same outcomes, such as exercise programs, progressive muscle relaxation, yoga or cognitive behavioral therapy courses.
+- **Specific active controls**: activities designed to improve the same outcomes, such as exercise programs, :term{id="progressive_muscle_relaxation" case="lower"}, yoga or :term[cognitive behavioral therapy]{id="cbt"} courses.
 
 This grouping follows earlier reviews, including the [Goyal et al. 2014 review](/meditation-stress-meta-analysis/) of meditation programs in people with medical or psychiatric conditions.
 
@@ -81,7 +81,7 @@ Some of that spread lined up with features of the trials. For depression, trials
 
 The authors are frank about the quality of the trials. Every one of the 136 was at high risk of bias by the RoB 2 tool, which flags a trial as high risk if any one source of bias is rated high. Nearly all relied on questionnaires filled in by participants who knew whether they had taken the course. About 60% were at high risk from missing outcome data, which could favor mindfulness, since people who feel unwell may be less likely to fill in follow-up questionnaires. For about three quarters there were concerns about the randomization, mainly because they didn't mention keeping the allocation concealed. And researchers' allegiance to the program (for example, a trial's authors had developed or taught it) could be ruled out in only 7 trials (5%).
 
-GRADE certainty was **moderate** only for anxiety against no intervention. It was low or very low for everything else. When the team removed the trials with the most sources of high risk of bias, only the effect on distress against no intervention held up (0.30). The effects on anxiety, depression and well-being shrank and were no longer significant. Funnel plots suggested that small or unfavorable studies of depression may be missing from the record (:term{id="publication_bias" case="lower"}). The authors conclude:
+GRADE certainty was **moderate** only for anxiety against no intervention. It was low or very low for everything else. When the team removed the trials with the most sources of high risk of bias, only the effect on distress against no intervention held up (0.30). The effects on anxiety, depression and well-being shrank and were no longer significant. :term[Funnel plots]{id="funnel_plot"} suggested that small or unfavorable studies of depression may be missing from the record (:term{id="publication_bias" case="lower"}). The authors conclude:
 
 > In sum, compared with taking no action, MBPs promote mental health in the average nonclinical setting but cannot be expected to work in every setting.
 

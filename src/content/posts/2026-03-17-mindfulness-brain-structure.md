@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-Can eight weeks of meditation change the physical structure of your brain? For more than a decade, many people have assumed so. Small studies from the early 2010s reported that people who completed :term{id="mbsr"}, the eight-week course originally developed by Jon Kabat-Zinn, showed more :term[gray matter]{id="gray_matter"} (the brain tissue that holds most nerve cell bodies) in regions such as the hippocampus and the posterior cingulate cortex, a hub of the default mode network (:term{id="dmn"}). Those studies have been cited more than 3,200 times. As the authors put it:
+Can eight weeks of meditation change the physical structure of your brain? For more than a decade, many people have assumed so. Small studies from the early 2010s reported that people who completed :term{id="mbsr"}, the eight-week course originally developed by Jon Kabat-Zinn, showed more :term[gray matter]{id="gray_matter"} (the brain tissue that holds most nerve cell bodies) in regions such as the :term{id="hippocampus" case="lower"} and the :term[posterior cingulate cortex]{id="pcc"}, a hub of the default mode network (:term{id="dmn"}). Those studies have been cited more than 3,200 times. As the authors put it:
 
 > Findings from a few small studies have permeated popular media with the notion that a few weeks of training in mindfulness-based stress reduction (MBSR) can lead to measurable changes in brain structure
 
@@ -46,7 +46,7 @@ After a baseline brain scan, participants were randomly assigned to one of three
 
 Both courses asked for daily home practice, which participants logged. After the eight weeks, everyone was scanned again; 218 people completed both scans.
 
-The team used structural MRI (scans that capture the size and shape of brain tissue rather than its activity) to measure gray matter volume, gray matter density, and cortical thickness (the depth of the brain's outer layer). They looked across the whole brain and in 12 specific regions, including those where earlier studies had reported growth. They then re-ran the analysis with different software to check that the result didn't depend on one method.
+The team used structural MRI (scans that capture the size and shape of brain tissue rather than its activity) to measure gray matter volume, gray matter density, and :term{id="cortical_thickness" case="lower"} (the depth of the brain's outer layer). They looked across the whole brain and in 12 specific regions, including those where earlier studies had reported growth. They then re-ran the analysis with different software to check that the result didn't depend on one method.
 
 ![The new study tested the exact regions where earlier MBSR research had reported growth: the posterior cingulate (yellow), left temporoparietal junction (dark blue), and two areas of the cerebellum and brainstem (green and teal). Adapted from Kral et al., 2022 (CC BY 4.0).](/assets/article_images/mindfulness-brain-structure/regions-tested.jpg)
 

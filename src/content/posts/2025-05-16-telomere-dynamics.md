@@ -54,19 +54,19 @@ Altogether, these findings suggest that regular meditation may slow biological a
 ## Miscellaneous Interesting Takeaways
 
 ### Not Technique-Specific
-Participants reported practicing a mix of loving-kindness, body scanning, and breath-based meditation. Despite the variation in style, all showed similar molecular benefits. This supports the idea that it's not the specific form of meditation that matters most, but perhaps the consistency and depth of engagement.
+Participants reported practicing a mix of loving-kindness, :term[body scanning]{id="body_scan"}, and breath-based meditation. Despite the variation in style, all showed similar molecular benefits. This supports the idea that it's not the specific form of meditation that matters most, but perhaps the consistency and depth of engagement.
 
 ### Psychological Correlates
 The study reinforced a link between telomere length and specific :term{id="mindfulness"} traits, including "acting with awareness" and "non-reactivity," as well as physical and social dimensions of quality of life. These findings align with theories that psychological stress affects telomere biology via physiological stress pathways, and that meditation may mediate this effect by improving subjective well-being.
 
 ### Telomere Length Tracks with Years of Practice
-Among meditators, those who had practiced for longer periods had longer telomeres. The correlation was strong: the more years someone had maintained a regular meditation practice, the longer their telomeres tended to be. This suggests a dose–response relationship, where the biological benefits of meditation may accumulate over time. Rather than a one-time intervention, it appears that sustained, long-term practice has the most profound impact on cellular aging.
+Among meditators, those who had practiced for longer periods had longer telomeres. The :term{id="correlation" case="lower"} was strong: the more years someone had maintained a regular meditation practice, the longer their telomeres tended to be. This suggests a dose–response relationship, where the biological benefits of meditation may accumulate over time. Rather than a one-time intervention, it appears that sustained, long-term practice has the most profound impact on cellular aging.
 
 ![Among long-term meditators, those who had practiced for more years tended to have longer telomeres. Each point represents a meditator, with the upward trend indicating a strong positive correlation between total years of meditation and telomere length—supporting the idea that the benefits of meditation may build over time.](/assets/article_images/telomere-dynamics/fig2.png)
 
 ## Final Reflection
 
-This study adds weight to the view that meditation can influence not just states of mind, but also states of gene expression and cellular aging.
+This study adds weight to the view that meditation can influence not just states of mind, but also states of :term{id="gene_expression" case="lower"} and cellular aging.
 
 > "The findings suggest that meditation as a lifestyle practice has multi-level beneficial effects on telomere dynamics with potential to promote healthy aging."
 

@@ -30,7 +30,7 @@ More young people go to university than ever, and UK university counseling servi
 
 > Uptake of the approach might partly be explained by the perception of mindfulness training as a skill rather than a mental health intervention.
 
-Mindfulness programs had good evidence for easing symptoms of anxiety and depression in general, as in [Goyal and colleagues' review of 47 trials](/meditation-stress-meta-analysis/). But the evidence for students was thin. Most earlier trials studied health-care students, were small, had no published plan or clear main outcome, and followed students for only a short time. None, the authors note, had actively monitored for side effects.
+Mindfulness programs had good evidence for easing symptoms of anxiety and depression in general, as in [Goyal and colleagues' review of 47 trials](/meditation-stress-meta-analysis/). But the evidence for students was thin. Most earlier trials studied health-care students, were small, had no published plan or clear main outcome, and followed students for only a short time. None, the authors note, had actively monitored for :term[side effects]{id="meditation_adverse_effects"}.
 
 Julieta Galante, Peter Jones and colleagues at the University of Cambridge designed the Mindful Student Study to answer a practical question: if a university offers students a mindfulness course, are they more resilient when stress peaks? At Cambridge, stress peaks during the main exam period each May and June. The team treated lower distress during exams, a stress every student faces, as their sign of resilience.
 
@@ -86,7 +86,7 @@ The authors also looked at undergraduates' exam grades (292 students). Students 
 
 The effect on distress was 0.19 points larger in students who had exams or assessments during the exam period (267 students) than in those who didn't (p = 0.043). It was 0.18 points smaller in men than in women, but that difference was not statistically significant (p = 0.061). The authors read the first result as a sign that the course helped most when students were under more stress, though subgroup comparisons like these are less reliable than the main result.
 
-The mindfulness group were also more likely to donate the shopping vouchers they got for filling in questionnaires to charity (odds ratios 1.95 after the course and 1.80 during exams). An attempt to track physical activity with phone sensors produced data for only 31 students; the authors call this part of the trial essentially unsuccessful.
+The mindfulness group were also more likely to donate the shopping vouchers they got for filling in questionnaires to charity (:term{id="odds_ratio" case="lower" plural} 1.95 after the course and 1.80 during exams). An attempt to track physical activity with phone sensors produced data for only 31 students; the authors call this part of the trial essentially unsuccessful.
 
 ### Side Effects Were Watched For, and Few Were Found
 

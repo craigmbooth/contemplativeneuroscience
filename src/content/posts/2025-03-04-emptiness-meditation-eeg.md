@@ -35,7 +35,7 @@ If such a state exists, it raises a puzzle. Many theories tie consciousness to b
 
 ## What They Did
 
-The researchers recorded 50 people aged 22 to 68. Forty-two were meditators with at least two years of regular practice in a wide range of traditions: Zen Buddhism (11, including six Zen monks in Japan), Sahaja Yoga (8), Western contemplative methods (7), spiritist or mediumistic practice (5), Qigong (4), Tibetan Buddhism (4), and spiritual healing or shamanism (3). Eight people of similar age had never meditated. Most of the Buddhist and Qigong practitioners were recorded in Japan, and the sessions took place in various locations, mostly meditation rooms or people's homes.
+The researchers recorded 50 people aged 22 to 68. Forty-two were meditators with at least two years of regular practice in a wide range of traditions: :term{id="zen"} Buddhism (11, including six Zen monks in Japan), Sahaja Yoga (8), Western contemplative methods (7), spiritist or mediumistic practice (5), Qigong (4), Tibetan Buddhism (4), and spiritual healing or shamanism (3). Eight people of similar age had never meditated. Most of the Buddhist and Qigong practitioners were recorded in Japan, and the sessions took place in various locations, mostly meditation rooms or people's homes.
 
 Lifetime practice ranged from zero to over 21,000 hours. For the main analysis the team kept the 30 most seasoned meditators, those with at least five years or more than 1,000 hours of practice. On average they had meditated for 20 years and about 6,500 hours.
 
@@ -46,7 +46,7 @@ Each person wore a 64-electrode EEG cap through a session of about two and a hal
 3. **Four guided tasks of 2 minutes each,** eyes closed, after a short break:
    - *Presence/monitoring:* "Try to be in a state of high presence at the place you are in this room at each moment of time."
    - *Thoughtless emptiness:* "Try to maintain the state of emptiness from all thought as well as possible."
-   - *Focused attention* on a spot in the middle of the forehead, sometimes called the "third eye."
+   - *:term[Focused attention]{id="focused_attention"}* on a spot in the middle of the forehead, sometimes called the "third eye."
    - *Spatial connectedness:* first visualizing, then just perceiving, an "energy stream" running along the body's axis down to the earth and up to the sky.
 
 Afterwards everyone was asked how well they had managed each task, and all the meditators said they had succeeded.

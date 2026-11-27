@@ -47,7 +47,7 @@ The paper doesn't say which Sufi order or orders the practitioners belonged to, 
 
 1. **An implicit attitude task.** In this version of the :term[affective misattribution procedure]{id="affective_misattribution_procedure"}, a word flashed on screen for 75 milliseconds, followed by a Chinese character, and participants judged whether the character was more or less visually pleasant than average. Half the words were about gaining for oneself (keep, gain, earn, profit, obtain) and half about helping others (share, give, aid, favor, assistance), translated into Persian. The more often a person found a character pleasant after "giving" words than after "gaining" words, the stronger their implicit preference for others' interests over their own, which the authors call prosocial orientation.
 2. **The death reminder.** Everyone answered two open-ended questions: "Please briefly describe the emotions that the thought of your own death arouses in you," and "Jot down, as specifically as you can, what you think will happen to you as you physically die and once you are physically dead."
-3. **A distraction, which doubled as a measure of feelings.** Participants filled in the :term[State Anxiety Inventory]{id="stai"} and a positive and negative mood questionnaire (the PANAS).
+3. **A distraction, which doubled as a measure of feelings.** Participants filled in the :term[State Anxiety Inventory]{id="stai"} and a positive and negative mood questionnaire (the :term{id="panas"}).
 4. **The implicit task again.**
 5. **A word-fragment task** measuring :term{id="death_thought_accessibility" case="lower"}. Six of 20 fragments could be completed either as a death-related word or as a neutral one. In the Persian version, for example, "_arg" could become *marg* ("death") or *barg* ("leaf").
 
@@ -83,7 +83,7 @@ Several things counsel caution. The differences are small, a few percentage poin
 
 ### Longer Practice Went With Less Anxiety, Within the Sufi Group
 
-Among the 24 Sufi practitioners, those with more years of practice reported less anxiety (r = −0.44) and less negative mood (r = −0.47) after the reminder, though not more positive mood (r = 0.24). With only 24 people, these estimates are rough. The practitioners' ages ranged from 19 to 84, and the authors note that larger samples are needed to separate age and life experience from years of practice; the paper doesn't report whether these correlations hold once age is taken into account. And because anxiety was measured only after the reminder, longer practice may simply go with less anxiety in general.
+Among the 24 Sufi practitioners, those with more years of practice reported less anxiety (r = −0.44) and less negative mood (r = −0.47) after the reminder, though not more positive mood (r = 0.24). With only 24 people, these estimates are rough. The practitioners' ages ranged from 19 to 84, and the authors note that larger samples are needed to separate age and life experience from years of practice; the paper doesn't report whether these :term{id="correlation" case="lower" plural} hold once age is taken into account. And because anxiety was measured only after the reminder, longer practice may simply go with less anxiety in general.
 
 ### Meaning in Life Mattered, Self-Transcendence Didn't
 

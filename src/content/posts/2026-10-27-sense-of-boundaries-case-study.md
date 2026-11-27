@@ -25,7 +25,7 @@ study:
 
 ## Background Information
 
-Most of the time we don't notice it, but experience comes split in two: there is "me," here, and there is the world, out there. Researchers call the felt line between them the *sense of boundaries*. It isn't the same as the edge of the skin. In earlier interviews with 27 long-term Theravada Buddhist meditators, the paper's first author, Yochai Ataria, had argued that it is better described by how *flexible* it is than by where it lies: it can be rigid and closed, or open and loose. His other work had looked at the closed end, where people in trauma shut themselves off from the world.
+Most of the time we don't notice it, but experience comes split in two: there is "me," here, and there is the world, out there. Researchers call the felt line between them the *sense of boundaries*. It isn't the same as the edge of the skin. In earlier interviews with 27 long-term :term{id="theravada"} Buddhist meditators, the paper's first author, Yochai Ataria, had argued that it is better described by how *flexible* it is than by where it lies: it can be rigid and closed, or open and loose. His other work had looked at the closed end, where people in trauma shut themselves off from the world.
 
 This paper, from a team in Israel, looks at the other end: what is it like when the sense of boundaries disappears altogether? That is hard to study. It needs someone who can reach such a state, stay in it, move in and out of it at will, and describe it in detail as it happens. The team found that person in a meditator they call S.
 

@@ -88,7 +88,7 @@ The hippocampus did line up. One of the earlier studies had found more concentra
 
 ### Where This Fits
 
-Other studies on this site have looked at the same regions with different designs. An eight-week MBSR course was [linked to denser gray matter in the left hippocampus](/mindfulness-gray-matter-density/) in a small study of 16 newcomers, but a much larger randomized trial of 218 people [found no structural changes after MBSR](/mindfulness-brain-structure/). And a meta-analysis that pooled 21 brain-structure studies, most comparing long-term meditators with non-meditators as this one did, found that [the hippocampus was among a handful of regions where differences recurred](/meditation-brain-structure-meta-analysis/), while warning that small studies and publication bias probably inflate the size of such differences.
+Other studies on this site have looked at the same regions with different designs. An eight-week :term{id="mbsr"} course was [linked to denser gray matter in the left hippocampus](/mindfulness-gray-matter-density/) in a small study of 16 newcomers, but a much larger randomized trial of 218 people [found no structural changes after MBSR](/mindfulness-brain-structure/). And a meta-analysis that pooled 21 brain-structure studies, most comparing long-term meditators with non-meditators as this one did, found that [the hippocampus was among a handful of regions where differences recurred](/meditation-brain-structure-meta-analysis/), while warning that small studies and :term{id="publication_bias" case="lower"} probably inflate the size of such differences.
 
 ## Final Reflection
 

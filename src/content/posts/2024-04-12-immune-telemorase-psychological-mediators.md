@@ -46,9 +46,9 @@ This study focuses on the relationship between meditation and telomerase activit
 
 ## What They Did
 
-The authors performed a comparison between individuals participating in a three-month intensive meditation retreat and a matched wait-list control group.  Thirty individuals were in each of the meditation and waiting-list groups.  The retreat combined practices for calming and focusing the mind with practices for cultivating qualities such as loving-kindness and compassion, with participants meditating for approximately six hours each day. Psychological assessments were conducted before and after the retreat to evaluate changes in the aforementioned psychological states, and blood samples were collected post-retreat from both groups to measure telomerase activity.  The relevant psychological measures were:
+The authors performed a comparison between individuals participating in a three-month intensive meditation retreat and a matched :term{id="wait_list_control" case="lower"}.  Thirty individuals were in each of the meditation and waiting-list groups.  The retreat combined practices for calming and focusing the mind with practices for cultivating qualities such as loving-kindness and compassion, with participants meditating for approximately six hours each day. Psychological assessments were conducted before and after the retreat to evaluate changes in the aforementioned psychological states, and blood samples were collected post-retreat from both groups to measure telomerase activity.  The relevant psychological measures were:
 
-* Mindfulness: Assessed with the Five Facet Mindfulness Questionnaire, evaluating the ability to maintain attention on present experiences and practice non-judgmental awareness.
+* Mindfulness: Assessed with the :term[Five Facet Mindfulness Questionnaire]{id="ffmq"}, evaluating the ability to maintain attention on present experiences and practice non-judgmental awareness.
 * Purpose in Life: Measured using the Purpose in Life subscale of Ryff's Psychological Well-Being Scales, indicating the extent to which individuals feel their lives have meaning and direction.
 * Perceived Control: Evaluated through the Environmental Mastery subscale of Ryff's scales, reflecting individuals' beliefs in their capacity to manage and control their life circumstances.
 * Neuroticism: Assessed with the Big Five Inventory's Neuroticism scale, measuring the tendency towards experiencing negative emotions like anxiety, depression, and vulnerability.
@@ -75,7 +75,7 @@ This result is striking and has interesting connotations.  Telomerase activity h
 
 ### How Does Meditation Increase Purpose in Life?
 
-This study included an observed correlation between meditation and purpose in life:
+This study included an observed :term{id="correlation" case="lower"} between meditation and purpose in life:
 
 > Meditation and other contemplative practices promote a sense of purpose and direction in life, as demonstrated here. This may occur as intentions and priorities shift away from hedonic pleasure to more genuine contentment and a greater sense of contributing to human welfare
 
@@ -91,4 +91,4 @@ The authors conclude by noting that
 
 > it is provocative that purpose in life may reflect a cognitive shift that both reshapes two contributors to stress, neuroticism and low perceived control, and also promotes increased telomerase activity.
 
-This study builds upon earlier work by [Davidson, Kabat-Zinn et al. (2003)](/brain-and-immune-function/), which demonstrated that even a shorter 8-week mindfulness intervention could produce measurable changes in immune function and brain activity patterns. Interestingly, [Shields et al. (2020)](/deconstructing-concentration-interference-control/) identified inflammation as a factor that can independently impair cognitive control, suggesting potential bidirectional relationships between psychological states, inflammatory processes, and cellular aging mechanisms.
+This study builds upon earlier work by [Davidson, Kabat-Zinn et al. (2003)](/brain-and-immune-function/), which demonstrated that even a shorter 8-week mindfulness intervention could produce measurable changes in immune function and brain activity patterns. Interestingly, [Shields et al. (2020)](/deconstructing-concentration-interference-control/) identified :term{id="inflammation" case="lower"} as a factor that can independently impair cognitive control, suggesting potential bidirectional relationships between psychological states, inflammatory processes, and cellular aging mechanisms.

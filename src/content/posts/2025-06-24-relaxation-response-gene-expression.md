@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-In the 1970s, the cardiologist Herbert Benson described what he called the :term{id="relaxation_response"}: a state of physical rest that is the opposite of the fight-or-flight stress response. In his account, many practices bring it on, from meditation, yoga and repetitive prayer to tai chi and progressive muscle relaxation, as long as they involve two steps: focusing on a word, sound, phrase, prayer or movement, and letting everyday thoughts go. It is marked by slower breathing and heart rate and lower oxygen use, and the paper cites studies in which practices that elicit it helped with high blood pressure, anxiety and insomnia.
+In the 1970s, the cardiologist Herbert Benson described what he called the :term{id="relaxation_response"}: a state of physical rest that is the opposite of the fight-or-flight stress response. In his account, many practices bring it on, from meditation, yoga and repetitive prayer to tai chi and :term{id="progressive_muscle_relaxation" case="lower"}, as long as they involve two steps: focusing on a word, sound, phrase, prayer or movement, and letting everyday thoughts go. It is marked by slower breathing and heart rate and lower oxygen use, and the paper cites studies in which practices that elicit it helped with high blood pressure, anxiety and insomnia.
 
 What happens inside the body's cells is less clear. One way to look is to measure :term{id="gene_expression" case="lower"}. Every cell carries the same DNA, but each one uses only some of its genes at a time. When a gene is in use, the cell copies it into a messenger molecule (mRNA), and measuring mRNA shows how active the gene is at that moment. Immune cells in the blood turn genes up and down in response to hormones, infection and stress, so they are an accessible place to look for the body's response to a mental practice. None of this involves the DNA sequence itself, which doesn't change.
 
@@ -39,7 +39,7 @@ The team, from the Benson-Henry Institute for Mind Body Medicine at Massachusett
 The study had three sets of measurements from two groups of healthy adults, recruited through newspaper, online and posted advertisements in the Boston area:
 
 - **Novices (26 people).** They had no prior experience of practices that elicit the relaxation response, and were tested once before training.
-- **The same novices after 8 weeks of training.** They had eight weekly one-to-one sessions with an experienced clinician, who guided them through a sequence of diaphragmatic breathing, a :term[body scan]{id="body_scan"}, repeating a mantra and :term{id="mindfulness" case="lower"} meditation, "while passively ignoring intrusive thoughts." They also listened to a 20-minute recording of the same sequence at home once a day.
+- **The same novices after 8 weeks of training.** They had eight weekly one-to-one sessions with an experienced clinician, who guided them through a sequence of :term{id="diaphragmatic_breathing" case="lower"}, a :term[body scan]{id="body_scan"}, repeating a :term{id="mantra" case="lower"} and :term{id="mindfulness" case="lower"} meditation, "while passively ignoring intrusive thoughts." They also listened to a 20-minute recording of the same sequence at home once a day.
 - **Long-term practitioners (26 people).** They had practiced regularly for 4 to 20 years, using various kinds of meditation, yoga or repetitive prayer, and had no training as part of the study.
 
 Each lab session took place in the morning. After 15 minutes of rest, participants listened to a 20-minute recording and then rested for 15 more minutes. Blood was drawn just before the recording, right after it, and 15 minutes later. The long-term practitioners, and the novices after training, heard a recording that guided them through the relaxation sequence. At their first visit, before training, the novices heard a 20-minute health-education recording instead, which served as the control condition:
@@ -48,7 +48,7 @@ Each lab session took place in the morning. After 15 minutes of rest, participan
 
 ![Design of the lab sessions. Novices (N1) heard a health-education recording at their first visit; after 8 weeks of training (N2), they heard a relaxation-response (RR) recording, as did the long-term practitioners (M). Blood drawn at T0, T1 and T2 was used to measure gene activity. Adapted from Bhasin et al., 2013, Figure S1 (CC BY 4.0).](/assets/article_images/relaxation-response-gene-expression/study-design.jpg)
 
-From each blood sample, the team isolated peripheral blood mononuclear cells, white blood cells with a single round nucleus (mainly lymphocytes and monocytes), and measured the activity of more than 22,000 gene transcripts on microarrays, chips that measure thousands of mRNAs at once. They also measured the nitric oxide in each person's breath at the same three times. Nitric oxide widens blood vessels and can affect immune responses, and an earlier study by the group had found preliminary evidence that it rises with relaxation practice.
+From each blood sample, the team isolated peripheral blood mononuclear cells, white blood cells with a single round nucleus (mainly lymphocytes and :term{id="monocyte" case="lower" plural}), and measured the activity of more than 22,000 gene transcripts on microarrays, chips that measure thousands of mRNAs at once. They also measured the nitric oxide in each person's breath at the same three times. Nitric oxide widens blood vessels and can affect immune responses, and an earlier study by the group had found preliminary evidence that it rises with relaxation practice.
 
 The analysis came in several layers:
 
@@ -101,7 +101,7 @@ The long-term practitioners are compared with the novices at a single point in t
 
 The amount of nitric oxide in the breath rose from before to right after the recording in both the long-term practitioners (by an average of 1.93, p < 0.01) and the trained novices (by 3.24, p < 0.001). In the novices at their first visit, it rose by 1.52, which wasn't significant. Fifteen minutes later, it stayed up in the long-term practitioners but dropped back significantly in both novice measurements.
 
-In some groups and time windows, larger rises in nitric oxide went with larger falls in a few inflammation-related pathways, including RELA, TNF R2 and IL-7. The authors read these negative correlations as support for the biological relevance of the pathways they identified. They are associations between two measures taken in the same people, drawn from 10 selected pathways, and don't show that one caused the other.
+In some groups and time windows, larger rises in nitric oxide went with larger falls in a few inflammation-related pathways, including RELA, TNF R2 and IL-7. The authors read these negative :term{id="correlation" case="lower" plural} as support for the biological relevance of the pathways they identified. They are associations between two measures taken in the same people, drawn from 10 selected pathways, and don't show that one caused the other.
 
 ### A Corrected Conflict-of-Interest Statement
 

@@ -36,11 +36,11 @@ Sleep gets around that problem. A sleeping brain isn't following instructions or
 
 ## What They Did
 
-The researchers recruited 29 right-handed long-term meditators and 29 people with no meditation experience, matched for age and sex. Every meditator had practiced daily for at least three years and attended at least three week-long retreats. On average they had practiced for nearly 16 years, and their estimated lifetime practice ranged from about 1,500 to more than 32,000 hours. Most trained in the Theravada Buddhist tradition, combining focused-attention practices such as breath awareness, open-monitoring practices such as :term{id="vipassana"}, and loving-kindness meditation.
+The researchers recruited 29 right-handed long-term meditators and 29 people with no meditation experience, matched for age and sex. Every meditator had practiced daily for at least three years and attended at least three week-long retreats. On average they had practiced for nearly 16 years, and their estimated lifetime practice ranged from about 1,500 to more than 32,000 hours. Most trained in the :term{id="theravada"} Buddhist tradition, combining :term[focused-attention]{id="focused_attention"} practices such as breath awareness, :term[open-monitoring]{id="open_monitoring"} practices such as :term{id="vipassana"}, and :term{id="loving_kindness" case="lower"}.
 
 Everyone spent one night in a sleep lab, wired for full :term{id="polysomnography" case="lower"} plus a high-density :term{id="eeg"} cap with 256 electrodes, which shows where on the scalp activity is concentrated. Screening that night found sleep disorders in three meditators, so they and their matched partners were dropped, leaving 26 people in each group. The technician who scored the sleep recordings didn't know who was in which group.
 
-The team split each person's brain activity into six frequency bands, from slow delta waves to fast gamma (25–40 Hz), and compared the groups across the scalp during :term[NREM sleep]{id="nrem_sleep"} (non-rapid eye movement sleep) and :term[REM sleep]{id="rem_sleep"}.
+The team split each person's brain activity into six frequency bands, from slow :term[delta waves]{id="delta"} to fast gamma (25–40 Hz), and compared the groups across the scalp during :term[NREM sleep]{id="nrem_sleep"} (non-rapid eye movement sleep) and :term[REM sleep]{id="rem_sleep"}.
 
 ## One Big Result: Meditators Had About 35% More Gamma Activity at the Back of the Head During Non-REM Sleep
 
@@ -56,7 +56,7 @@ Fast activity on an EEG can come from muscle tension or eye movements rather tha
 
 ### Daily Practice, Not Retreat Time, Tracked the Difference
 
-Among the meditators, those with more hours of daily practice had more gamma during non-REM sleep (a moderate correlation, rho = 0.48). Time spent on retreats showed no relationship at all. The authors found this striking:
+Among the meditators, those with more hours of daily practice had more gamma during non-REM sleep (a moderate :term{id="correlation" case="lower"}, rho = 0.48). Time spent on retreats showed no relationship at all. The authors found this striking:
 
 > The differential effect of the amount of daily practice and of retreat time on localized NREM gamma activity is to our knowledge the first indication of a specific effect of constant meditation daily practice, but not of intensive retreat practice, on brain neuroplasticity.
 

@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-Craving sits at the center of most accounts of addiction. In the learning model the authors lay out, smoking relieves unpleasant states such as withdrawal, stress or sadness, a form of :term{id="negative_reinforcement" case="lower"}. Over time, both outside cues (a coffee, a work break) and inner feelings come to trigger craving, craving leads to a cigarette, and each cigarette strengthens the loop. Studies of smokers consistently find that people who crave more smoke more, and rising craving predicts lapses after a quit attempt.
+:term{id="craving"} sits at the center of most accounts of addiction. In the learning model the authors lay out, smoking relieves unpleasant states such as withdrawal, stress or sadness, a form of :term{id="negative_reinforcement" case="lower"}. Over time, both outside cues (a coffee, a work break) and inner feelings come to trigger craving, craving leads to a cigarette, and each cigarette strengthens the loop. Studies of smokers consistently find that people who crave more smoke more, and rising craving predicts lapses after a quit attempt.
 
 Many standard quit-smoking programs work around craving: avoid your triggers, distract yourself, swap in another activity, or relax. :term{id="mindfulness" case="lower"} training takes a different approach. It teaches people to notice a craving, with curiosity and without judgment, and to let it pass without acting on it. The authors put the hypothesis like this:
 
@@ -71,7 +71,7 @@ All four measures of home practice predicted smoking at the end of training, eve
 
 ### The Moderation Result Is Weaker Than It Sounds
 
-The paper's headline claim is that informal practice "predicts a decoupling" of craving and smoking. Only one of the four practice measures, days a week of informal practice, significantly moderated the craving–smoking link (p = 0.03). The other three did not, and the paper reports no correction for running four tests. The large :term{id="effect_size" case="lower"} quoted alongside this result (f² = 1.17) belongs to the whole regression model, which is driven mostly by practice predicting less smoking, not to the moderation itself.
+The paper's headline claim is that informal practice "predicts a decoupling" of craving and smoking. Only one of the four practice measures, days a week of informal practice, significantly moderated the craving–smoking link (p = 0.03). The other three did not, and the paper reports no correction for running four tests. The large :term{id="effect_size" case="lower"} quoted alongside this result (f² = 1.17) belongs to the whole regression model, which is driven mostly by practice predicting less smoking, not to the :term{id="moderation" case="lower"} itself.
 
 ### Why the Link Might Have Shrunk
 

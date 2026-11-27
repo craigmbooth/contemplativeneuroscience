@@ -31,7 +31,7 @@ The authors describe what is reported this way:
 
 > During cessation, consciousness is momentarily absent (as reported by the meditator), and there may also be subsequent awareness of this absence having occurred. However, unlike sleep, there is almost no awareness of time having passed.
 
-In the Theravada Buddhist tradition, cessations come at the end of a sequence of meditative "stages of insight," at a final stage called fruition. Teachers describe them as lasting only seconds, and say meditators come out of them with a sudden sense of mental clarity.
+In the :term{id="theravada"} Buddhist tradition, cessations come at the end of a sequence of meditative "stages of insight," at a final stage called fruition. Teachers describe them as lasting only seconds, and say meditators come out of them with a sudden sense of mental clarity.
 
 For neuroscience, this is an unusual opportunity. Scientists usually study the loss of consciousness through general anesthesia or sleep. A drug-free loss of consciousness that a person can steer toward from within, and that starts and ends abruptly, might reveal which brain activity consciousness depends on. But cessations are hard to study. Few people report them, they can't be produced on cue, and capturing one means recording the brain continuously while relying on the meditator to say when it happened. Before this study, the authors found only one neuroimaging study of cessation: two meditators, with three cessations each.
 
@@ -67,7 +67,7 @@ Alpha waves are thought to reflect top-down processing: the brain using its expe
 
 ### Theta Changed Only a Little
 
-:term[Theta waves]{id="theta"}, often linked to relaxed alertness in meditation, were slightly higher than control in the window just before a cessation, mostly over the right side toward the back of the head. Just after the cessation, theta was lower in a small area at the top of the head. The regional analysis told a somewhat different story: theta rose over the 40 seconds before the event in three regions until it was close to the control level. These theta results were modest, exploratory and not fully consistent between the two analyses. Delta and :term{id="beta" case="lower"} power didn't differ around cessations.
+:term[Theta waves]{id="theta"}, often linked to relaxed alertness in meditation, were slightly higher than control in the window just before a cessation, mostly over the right side toward the back of the head. Just after the cessation, theta was lower in a small area at the top of the head. The regional analysis told a somewhat different story: theta rose over the 40 seconds before the event in three regions until it was close to the control level. These theta results were modest, exploratory and not fully consistent between the two analyses. :term{id="delta"} and :term{id="beta" case="lower"} power didn't differ around cessations.
 
 ### Unlike Anesthesia, and Unlike Most Meditation
 

@@ -37,7 +37,7 @@ Fynn-Mathis Trautwein and colleagues, working in Freiburg, Germany, reasoned tha
 
 The team recruited 12 meditators from local meditation centers and 12 people with no meditation experience, matched for age, sex, handedness and education. To qualify, meditators needed at least two years of meditating at least once a week, including at least three months of weekly loving-kindness practice that wished well to themselves and to specific other people.
 
-The EEG of one meditator was too noisy to use, so the researchers dropped that person and their matched partner, leaving 11 in each group (six women and five men each, aged 26 to 61, average about 42). Of the meditators, six practiced in Tibetan Buddhist traditions, three in Theravada and two in no particular tradition. They had practiced for about 11½ years on average (from 2 to 31 years) and loving-kindness for about 9 years, though with wide variation. They estimated about 2,400 hours of sitting meditation on average, and in the eight weeks before the study they averaged 2.5 hours of loving-kindness practice a week. That is experienced, but well short of the 10,000 to 50,000 hours of the Buddhist practitioners in [Lutz et al. 2004](/high-amplitude-gamma-synchrony/).
+The EEG of one meditator was too noisy to use, so the researchers dropped that person and their matched partner, leaving 11 in each group (six women and five men each, aged 26 to 61, average about 42). Of the meditators, six practiced in Tibetan Buddhist traditions, three in :term{id="theravada"} and two in no particular tradition. They had practiced for about 11½ years on average (from 2 to 31 years) and loving-kindness for about 9 years, though with wide variation. They estimated about 2,400 hours of sitting meditation on average, and in the eight weeks before the study they averaged 2.5 hours of loving-kindness practice a week. That is experienced, but well short of the 10,000 to 50,000 hours of the Buddhist practitioners in [Lutz et al. 2004](/high-amplitude-gamma-synchrony/).
 
 Before the session, everyone handed in a photo of their own face and one of a close other: someone of the same sex with whom they had a close, positive relationship, such as a good friend, but not a family member. Meditators were asked to pick someone toward whom they could easily direct loving-kindness. The photos were converted to gray scale, cropped and matched for brightness.
 
@@ -69,7 +69,7 @@ Could meditators simply be paying attention differently overall? The groups didn
 
 ### More Practice Went With a Smaller Self-Bias
 
-Among the 11 meditators, those who had meditated for more months had a smaller self-bias at Pz, after accounting for age (r = −0.70), as did those with more months of loving-kindness practice (r = −0.58), with similar results over the pooled electrodes around Pz. These are strong correlations, but they come with caveats. With 11 people, a correlation can swing a lot from one sample to the next, and small samples tend to inflate effects, as the authors themselves note. Pz was chosen because it was where the group difference looked largest, and the correlations were tested one-tailed, in the expected direction only. Across the study, the paper reports results as significant at p ≤ 0.05 without describing any adjustment for the number of tests (:term{id="multiple_comparisons" case="lower"}).
+Among the 11 meditators, those who had meditated for more months had a smaller self-bias at Pz, after accounting for age (r = −0.70), as did those with more months of loving-kindness practice (r = −0.58), with similar results over the pooled electrodes around Pz. These are strong :term{id="correlation" case="lower" plural}, but they come with caveats. With 11 people, a correlation can swing a lot from one sample to the next, and small samples tend to inflate effects, as the authors themselves note. Pz was chosen because it was where the group difference looked largest, and the correlations were tested one-tailed, in the expected direction only. Across the study, the paper reports results as significant at p ≤ 0.05 without describing any adjustment for the number of tests (:term{id="multiple_comparisons" case="lower"}).
 
 ### Meditators Reported More Compassion for Strangers and Themselves, but Not for Their Friend
 
@@ -85,7 +85,7 @@ Two other measures did shift, though they don't tell a single story. People occa
 
 ### Loving-Kindness Wasn't the Only Practice
 
-Every meditator also did other practices, such as mindfulness meditation. Mindfulness has been linked to quieter self-focused thinking, for example in the brain's :term{id="dmn"} ([Garrison et al., 2015](/reduced-dmn-active-task/)), so the authors acknowledge that part of the group difference may come from it rather than from loving-kindness specifically.
+Every meditator also did other practices, such as :term{id="mindfulness" case="lower"} meditation. Mindfulness has been linked to quieter self-focused thinking, for example in the brain's :term{id="dmn"} ([Garrison et al., 2015](/reduced-dmn-active-task/)), so the authors acknowledge that part of the group difference may come from it rather than from loving-kindness specifically.
 
 ## Final Reflection
 

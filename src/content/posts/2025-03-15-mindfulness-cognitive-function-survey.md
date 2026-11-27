@@ -34,7 +34,7 @@ Despite extensive research on :term{id="mindfulness" case="lower"} meditation, s
 Cognitive functioning is typically assessed through a variety of standardized tests designed to measure specific domains of mental performance. In this meta-analysis, the authors examined multiple types of cognitive assessments to evaluate mindfulness's effects. These included behavioral cognitive tasks, which measure response accuracy and reaction time, and self-reported subjective cognitive assessments, where individuals evaluate their own cognitive abilities. Some of the key cognitive functions measured in these studies include:
 
 - **Executive Attention:** The ability to focus on relevant information while ignoring distractions.
-- **Working Memory:** The capacity to hold and manipulate information over short periods.
+- **:term{id="working_memory"}:** The capacity to hold and manipulate information over short periods.
 - **Cognitive Flexibility (Shifting):** The ability to switch between tasks or mental frameworks.
 - **Inhibition Control:** The skill of suppressing automatic or habitual responses.
 - **Processing Speed:** How quickly one can perceive, process, and respond to information.
@@ -50,7 +50,7 @@ To ensure the rigor of their analysis, the authors used several criteria for eva
 
 - **Randomization of Participants:** Ensuring that individuals were assigned to mindfulness or control groups randomly to reduce bias.
 - **Treatment Fidelity Checks:** Evaluating whether studies reported adherence to mindfulness training protocols.
-- **Study Design and Control Groups:** Comparing MBIs to both waitlist/no-treatment controls and active control groups (such as cognitive training or psychoeducation).
+- **Study Design and Control Groups:** Comparing MBIs to both waitlist/no-treatment controls and :term{id="active_control_group" case="lower" plural} (such as cognitive training or psychoeducation).
 - **Use of Objective vs. Subjective Measures:** Determining whether cognitive improvements were observed across different types of assessments.
 - **Handling of Missing Data:** Studies were assessed for how they accounted for missing participant data, which can impact the reliability of findings.
 
@@ -64,13 +64,13 @@ Overall, to summarize:
 
 > "Mindfulness practices promote present-moment awareness and effective goal attainment over efficiency."
 
-These improvements were particularly significant in executive attention, working memory accuracy, inhibition accuracy, cognitive flexibility, sustained attention, and subjective cognitive functioning. Notably, mindfulness interventions did not significantly improve processing speed or verbal fluency, reinforcing the idea that mindfulness enhances deliberate and controlled cognitive processes rather than rapid response times.
+These improvements were particularly significant in executive attention, working memory accuracy, inhibition accuracy, cognitive flexibility, :term{id="sustained_attention" case="lower"}, and subjective cognitive functioning. Notably, mindfulness interventions did not significantly improve processing speed or verbal fluency, reinforcing the idea that mindfulness enhances deliberate and controlled cognitive processes rather than rapid response times.
 
 Mindfulness was found to primarily enhance cognitive accuracy rather than speed, suggesting benefits for deliberate, careful cognitive processing. This has significant implications for activities requiring sustained attention and precision, such as learning, problem-solving, and professional decision-making. Instead of rushing through tasks, mindfulness may help individuals engage more deeply and accurately with the material at hand.
 
 > "Results suggest that MBIs primarily impacted cognitive processing effectiveness (captured by accuracy) more than efficiency (measured by latency)."
 
-These attentional improvements may explain findings from [McVay, Kane, & Kwapil (2009)](/mind-wandering-contexts/) showing that awareness of mind-wandering correlates with improved task performance. These results align with work by [Shields et al. (2020)](/deconstructing-concentration-interference-control/) demonstrating that intensive meditation practice specifically enhances controlled attention processes rather than automatic attentional capture.
+These attentional improvements may explain findings from [McVay, Kane, & Kwapil (2009)](/mind-wandering-contexts/) showing that awareness of :term[mind-wandering]{id="mind_wandering"} correlates with improved task performance. These results align with work by [Shields et al. (2020)](/deconstructing-concentration-interference-control/) demonstrating that intensive meditation practice specifically enhances controlled attention processes rather than automatic attentional capture.
 
 ## Miscellaneous Interesting Takeaways
 

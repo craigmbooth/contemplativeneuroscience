@@ -28,7 +28,7 @@ study:
 
 :term[Low back pain]{id="low_back_pain"} is one of the leading causes of disability in the United States. The authors point out that despite many treatment options and greatly increased spending on it, the functional status of Americans with back pain has actually worsened. This trial focused on "non-specific" back pain, which has no specific diagnosis to explain it.
 
-Psychological factors shape how much pain bothers people and how much it limits their lives, and half of the non-drug treatments recommended for persistent back pain at the time had a "mind-body" component. One of these, :term[cognitive behavioral therapy]{id="cbt"} (CBT), which teaches people to change unhelpful thoughts and behaviors around pain, has proven effective for various chronic pain conditions and is widely recommended for chronic low back pain, but access to it is limited. :term[Mindfulness-Based Stress Reduction (MBSR)]{id="mbsr"} was becoming widely available, and it takes a different route: rather than changing thoughts about pain, it trains people to notice and accept moment-to-moment experience, including physical discomfort and difficult emotions.
+Psychological factors shape how much pain bothers people and how much it limits their lives, and half of the non-drug treatments recommended for persistent back pain at the time had a "mind-body" component. One of these, :term[cognitive behavioral therapy]{id="cbt"} (CBT), which teaches people to change unhelpful thoughts and behaviors around pain, has proven effective for various :term{id="chronic_pain" case="lower"} conditions and is widely recommended for chronic low back pain, but access to it is limited. :term[Mindfulness-Based Stress Reduction (MBSR)]{id="mbsr"} was becoming widely available, and it takes a different route: rather than changing thoughts about pain, it trains people to notice and accept moment-to-moment experience, including physical discomfort and difficult emotions.
 
 Only one large trial had tested MBSR for chronic low back pain, and it was limited to adults aged 65 and over. This trial, the Mind-Body Approaches to Pain (MAP) trial, tested it in younger and middle-aged adults and compared it directly with CBT. The researchers expected MBSR to beat usual care, and also to beat CBT, because MBSR includes yoga, which had been found to help chronic low back pain.
 
@@ -43,21 +43,21 @@ The participants averaged 49 years old, 66% were women, and 59% were college gra
 In this :term[randomized controlled trial]{id="randomized_controlled_trial"}, 116 people were assigned to MBSR, 113 to CBT and 113 to usual care. People were told they would get one of "two different widely-used pain self-management programs" or usual care plus $50, and those in a program didn't learn which one until their first session.
 
 - **MBSR** met for 2 hours a week for 8 weeks, with an optional 6-hour retreat. It followed the original program closely, with a :term{id="body_scan" case="lower"}, yoga, sitting meditation with awareness of breathing, and walking meditation. It was taught by 8 instructors with 5 to 29 years of MBSR experience.
-- **CBT** had the same format and was led by 4 psychologists experienced in CBT for chronic pain. It covered education about chronic pain and how thoughts affect emotional and physical reactions, along with practice in challenging unhelpful thoughts, setting behavioral goals, relaxation techniques (abdominal breathing, progressive muscle relaxation and guided imagery), pacing activities and coping with pain.
+- **CBT** had the same format and was led by 4 psychologists experienced in CBT for chronic pain. It covered education about chronic pain and how thoughts affect emotional and physical reactions, along with practice in challenging unhelpful thoughts, setting behavioral goals, relaxation techniques (abdominal breathing, :term{id="progressive_muscle_relaxation" case="lower"} and guided imagery), pacing activities and coping with pain.
 - **Usual care** meant whatever medical care people would normally get. They were free to seek any treatment they liked, but got no program from the study.
 
 As the authors note, MBSR is a general program rather than one built for back pain:
 
 > The MBSR program does not focus specifically on a particular condition such as pain.
 
-Both programs came with workbooks, audio CDs and home practice. To keep the two programs distinct, mindfulness, meditation and yoga were banned from CBT, and challenging unhelpful thoughts was banned from MBSR. Sessions were recorded and checked against the protocols.
+Both programs came with workbooks, audio CDs and home practice. To keep the two programs distinct, :term{id="mindfulness" case="lower"}, meditation and yoga were banned from CBT, and challenging unhelpful thoughts was banned from MBSR. Sessions were recorded and checked against the protocols.
 
 Interviewers who didn't know people's groups phoned them at 4, 8, 26 and 52 weeks. The trial had two co-primary outcomes, both judged at 26 weeks:
 
 - **Functional limitations:** a modified version of the Roland Disability Questionnaire, 23 questions about how back pain had limited daily activities in the past week. Scores run from 0 to 23, higher meaning more limited, and participants started at 11.4 on average.
 - **Pain bothersomeness:** how bothersome back pain had been in the past week, from 0 (not at all) to 10 (extremely).
 
-For each, the main question was what share of people improved by at least 30% from where they started, a threshold for a clinically meaningful change.
+For each, the main question was what share of people improved by at least 30% from where they started, a threshold for a :term[clinically meaningful change]{id="minimal_clinically_important_difference"}.
 
 All participants were analyzed in the group they were assigned to, however many sessions they attended (an :term{id="intention_to_treat" case="lower"} analysis). Follow-up was lower than planned, and lower in the two program groups than in usual care, so the main analysis filled in missing answers with a statistical method designed for people whose reasons for dropping out might be related to how they were doing.
 

@@ -26,15 +26,15 @@ study:
 ---
 ## Background Information
 
-Insomnia is one of the most prevalent sleep disorders, affecting up to 20% of adults and placing a heavy burden on both individual well-being and public health systems. Pharmacological treatments—though widely used—carry risks like dependency, side effects, and diminished daytime functioning. Behavioral therapies like Cognitive Behavioral Therapy for Insomnia (CBTI) show strong results, but only a minority of patients achieve full remission. Amid this treatment gap, interest in meditation as a complementary therapy has grown.
+Insomnia is one of the most prevalent sleep disorders, affecting up to 20% of adults and placing a heavy burden on both individual well-being and public health systems. Pharmacological treatments—though widely used—carry risks like dependency, side effects, and diminished daytime functioning. Behavioral therapies like :term[Cognitive Behavioral Therapy for Insomnia]{id="cbt_i"} (CBTI) show strong results, but only a minority of patients achieve full remission. Amid this treatment gap, interest in meditation as a complementary therapy has grown.
 
-Mindfulness meditation aims to reduce stress and promote present-moment awareness without judgment. Mindfulness-Based Stress Reduction (:term{id="mbsr"}), a popular structured program, has shown promise across a range of stress-related conditions, including insomnia. In this study, the authors introduce and evaluate a new program, Mindfulness-Based Therapy for Insomnia (MBTI), which integrates mindfulness techniques with behavioral strategies like sleep restriction and stimulus control.
+:term{id="mindfulness"} meditation aims to reduce stress and promote present-moment awareness without judgment. Mindfulness-Based Stress Reduction (:term{id="mbsr"}), a popular structured program, has shown promise across a range of stress-related conditions, including insomnia. In this study, the authors introduce and evaluate a new program, Mindfulness-Based Therapy for Insomnia (MBTI), which integrates mindfulness techniques with behavioral strategies like sleep restriction and stimulus control.
 
 ## What They Did
 
 This :term{id="randomized_controlled_trial"} enrolled 54 adults diagnosed with chronic insomnia and compared three groups: (1) a standard 8-week MBSR program, (2) an 8-week MBTI program that adds insomnia-specific behavioral techniques, and (3) a self-monitoring (SM) control group that tracked their sleep but received no treatment during the initial 8 weeks.
 
-Participants reported their sleep in daily diaries and completed standard measures including the Insomnia Severity Index (ISI) and the Pre-Sleep Arousal Scale (PSAS). Objective sleep data were gathered using polysomnography and actigraphy. Follow-ups occurred immediately after the 8-week program and again at 3 and 6 months.
+Participants reported their sleep in daily diaries and completed standard measures including the Insomnia Severity Index (ISI) and the Pre-Sleep Arousal Scale (PSAS). Objective sleep data were gathered using :term{id="polysomnography" case="lower"} and :term{id="actigraphy" case="lower"}. Follow-ups occurred immediately after the 8-week program and again at 3 and 6 months.
 
 ## One Big Result: About 44 Fewer Minutes Awake Each Night
 

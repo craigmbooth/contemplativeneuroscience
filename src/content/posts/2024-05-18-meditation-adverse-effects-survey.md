@@ -32,7 +32,7 @@ The authors - an interdisciplinary team of psychologists, neuroscientists, and r
 
 ## What They Did
 
-The researchers conducted in-depth interviews with 60 experienced Western Buddhist practitioners, spanning the Theravāda, Zen, and Tibetan traditions. All participants reported having experienced meditation-related challenges that were unexpected, distressing, or functionally impairing. The team also interviewed 32 meditation teachers and clinicians to gather second-person accounts and expert interpretations.
+The researchers conducted in-depth interviews with 60 experienced Western Buddhist practitioners, spanning the :term[Theravāda]{id="theravada"}, :term{id="zen"}, and Tibetan traditions. All participants reported having experienced meditation-related challenges that were unexpected, distressing, or functionally impairing. The team also interviewed 32 meditation teachers and clinicians to gather second-person accounts and expert interpretations.
 
 Using qualitative coding and thematic analysis, they categorized 59 distinct types of meditation-related difficulties across seven domains: cognitive, perceptual, affective, somatic, conative, sense of self, and social. In addition, they identified 26 factors that influenced how practitioners experienced, interpreted, and coped with these challenges.
 
@@ -47,7 +47,7 @@ These included:
 3. **Affective**: Emotional lability, fear, anxiety, panic, depression, suicidality
 4. **Somatic**: Body pain, pressure, temperature dysregulation, sleep changes
 5. **Conative**: Changes in motivation, dysregulated arousal
-6. **Sense of Self**: Self-disturbance, dissociation, :term{id="depersonalization"}
+6. **Sense of Self**: Self-disturbance, :term{id="dissociation" case="lower"}, :term{id="depersonalization"}
 7. **Social**: Relationship disruptions, difficulty functioning in jobs/roles
 
 Importantly, these effects weren't limited to novices or those with pre-existing conditions. Even experienced meditators reported adverse effects, sometimes occurring after years of problem-free practice.

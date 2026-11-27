@@ -34,7 +34,7 @@ There was also a biological reason to look. Earlier work by members of this team
 
 ## What They Did
 
-In this :term[randomized controlled trial]{id="randomized_controlled_trial"}, run in Los Angeles from October 2007 to January 2008, the team recruited 40 healthy adults aged 55 to 85 (average age 65) through newspaper ads. They were mostly women, and all had said they were interested in learning mindfulness meditation. Nobody could already be practicing meditation, yoga or another mind–body therapy more than once a week, smoke, or take medications affecting the immune, cardiovascular, hormonal or psychiatric systems. Participants also did brain-scanning tasks that are described in a separate report.
+In this :term[randomized controlled trial]{id="randomized_controlled_trial"}, run in Los Angeles from October 2007 to January 2008, the team recruited 40 healthy adults aged 55 to 85 (average age 65) through newspaper ads. They were mostly women, and all had said they were interested in learning :term{id="mindfulness" case="lower"} meditation. Nobody could already be practicing meditation, yoga or another mind–body therapy more than once a week, smoke, or take medications affecting the immune, cardiovascular, hormonal or psychiatric systems. Participants also did brain-scanning tasks that are described in a separate report.
 
 After baseline questionnaires and a blood sample, a computerized number generator assigned each person to the 8-week MBSR course or to a :term[wait-list control group]{id="wait_list_control"}, which received the course once the study was over. MBSR, taught by one of three trained instructors over three groups, involved eight weekly 2-hour classes of guided meditation, mindful yoga and stretching, and group discussion, plus a day-long retreat late in the course. Participants were asked to practice at home for 30 minutes a day, six days a week. Wait-listed people were asked not to start any new health programs.
 
@@ -42,7 +42,7 @@ Everyone was measured before and after the 8 weeks, with the second blood sample
 
 - **Loneliness**, on the 20-item revised UCLA Loneliness Scale (sample item: "I lack companionship"), where scores run from 20 to 80 and higher means lonelier.
 - **Mindfulness skills**, on a 39-item questionnaire, to check that the course taught what it was meant to.
-- **Gene activity** across the whole genome in white blood cells from a 10 ml blood sample. The analyses took account of sex, age, race/ethnicity, body mass index and the mix of white-cell types in each sample.
+- **Gene activity** across the whole genome in white blood cells from a 10 ml blood sample. The analyses took account of sex, age, race/ethnicity, :term[body mass index]{id="bmi"} and the mix of white-cell types in each sample.
 - **CRP and IL-6**, two inflammatory proteins in the blood.
 
 The loneliness analysis followed :term[intent-to-treat principles]{id="intention_to_treat"}, keeping everyone who was randomized in their assigned group.

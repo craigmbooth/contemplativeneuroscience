@@ -28,7 +28,7 @@ study:
 
 Many studies have found that meditation can take the edge off emotional reactions, mostly using pictures. After eight weeks of mindful-attention training, for example, the [amygdala reacted less to emotional photos](/mindful-attention-compassion-amygdala/). Words are a different kind of emotional material: their feeling comes through their meaning, which the authors call a higher-level representation. Larissa Lusnig, Markus Hofmann and colleagues at the University of Wuppertal in Germany found no earlier study of whether meditation changes how people process emotional words.
 
-They chose :term{id="zen"} meditation, which the authors group with mindfulness as :term[open monitoring]{id="open_monitoring"} practice. In the Japanese Soto Zen tradition, practitioners sit facing a wall with their eyes half open, alternating seated meditation (zazen) with short periods of walking meditation (kinhin). The authors describe a central part of the practice:
+They chose :term{id="zen"} meditation, which the authors group with :term{id="mindfulness" case="lower"} as :term[open monitoring]{id="open_monitoring"} practice. In the Japanese Soto Zen tradition, practitioners sit facing a wall with their eyes half open, alternating seated meditation (zazen) with short periods of walking meditation (kinhin). The authors describe a central part of the practice:
 
 > Thoughts, which naturally cross the mind during Zen meditation, are not judged as “good” or “bad” by the meditator.
 
@@ -52,7 +52,7 @@ After the Zen session, the meditators rated the emotional words as less emotiona
 
 In statistical terms, the change from before to after differed between the groups for all three kinds of emotional word (p ≤ .003 for each). Within the Zen group, the shift toward neutral was significant for each kind of word (p < .001), while none of the comparison group's changes came close to significance. The paper reports these results as regression estimates rather than average ratings, so the size of the shift is best seen in the figure. Leaving out the personality scores, or adding two others on which the groups differed slightly, didn't change which results were significant.
 
-The authors' explanation is emotion regulation: Zen practice trains people not to judge thoughts as positive or negative, and after a session the meditators judged words less strongly. But the implicit measure told a different story:
+The authors' explanation is :term{id="emotion_regulation" case="lower"}: Zen practice trains people not to judge thoughts as positive or negative, and after a session the meditators judged words less strongly. But the implicit measure told a different story:
 
 > Even though the explicit evaluation of words was affected by meditation, we found no effects of meditation in the lexical decision task, where affective evaluation was not explicitly required.
 
@@ -70,7 +70,7 @@ In their chart of response times, the meditators look slower than the comparison
 
 ### Calm Negative Words Slowed Everyone Down
 
-Both groups recognized calm negative words more slowly than neutral ones, before and after the sessions, repeating the result of Hofmann's earlier study. The other two earlier findings, faster recognition of positive and highly arousing negative words, didn't appear in either group. The authors argue that the gap isn't just a matter of the small sample, since the test statistics didn't even lean that way, and suggest that the earlier study's setup (participants were having EEG electrodes attached, which may be mildly stressful) might have strengthened those effects.
+Both groups recognized calm negative words more slowly than neutral ones, before and after the sessions, repeating the result of Hofmann's earlier study. The other two earlier findings, faster recognition of positive and highly arousing negative words, didn't appear in either group. The authors argue that the gap isn't just a matter of the small sample, since the test statistics didn't even lean that way, and suggest that the earlier study's setup (participants were having :term{id="eeg"} electrodes attached, which may be mildly stressful) might have strengthened those effects.
 
 ### Why Would Meditation Change One Measure but Not the Other?
 
@@ -78,7 +78,7 @@ The authors' answer is time. In the rating task, people could take as long as th
 
 ### Zen Meditators and Words, Another Look
 
-This isn't the only study of Zen practitioners judging letter strings. In an earlier fMRI study, Zen meditators doing a lexical decision task while focusing on their breath showed a [shorter-lived response to word meanings](/zen-meditation-default-mode-words/) in parts of the default mode network than non-meditators did, a finding the authors cite when suggesting that less mind-wandering may have sped up their meditators. A different kind of evidence comes from students taking a meditation course, who came to [recall more positive words](/meditation-course-positive-word-recall/) than students in other courses.
+This isn't the only study of Zen practitioners judging letter strings. In an earlier :term{id="fmri"} study, Zen meditators doing a lexical decision task while focusing on their breath showed a [shorter-lived response to word meanings](/zen-meditation-default-mode-words/) in parts of the :term[default mode network]{id="dmn"} than non-meditators did, a finding the authors cite when suggesting that less :term[mind-wandering]{id="mind_wandering"} may have sped up their meditators. A different kind of evidence comes from students taking a meditation course, who came to [recall more positive words](/meditation-course-positive-word-recall/) than students in other courses.
 
 ### Some Questions the Design Leaves Open
 

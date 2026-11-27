@@ -26,15 +26,15 @@ study:
 ---
 ## Background Information
 
-As people age, sleep problems become increasingly common. Nearly half of adults over 55 report some form of sleep disturbance, often struggling with falling or staying asleep. These issues don't just affect nighttime rest—they also impact mood, cognitive function, and overall quality of life during the day. Yet despite their prevalence, moderate sleep issues in older adults are frequently left untreated. While medications and cognitive behavioral therapies are available for more severe cases like insomnia, there's a growing need for accessible, low-cost, and non-pharmacological approaches that can help prevent sleep issues from worsening.
+As people age, sleep problems become increasingly common. Nearly half of adults over 55 report some form of sleep disturbance, often struggling with falling or staying asleep. These issues don't just affect nighttime rest—they also impact mood, cognitive function, and overall quality of life during the day. Yet despite their prevalence, moderate sleep issues in older adults are frequently left untreated. While medications and :term[cognitive behavioral]{id="cbt"} therapies are available for more severe cases like insomnia, there's a growing need for accessible, low-cost, and non-pharmacological approaches that can help prevent sleep issues from worsening.
 
-Mindfulness meditation, a practice rooted in cultivating non-judgmental present-moment awareness, has been gaining traction as one such option. Previous research suggested it might help with sleep, but studies often used mixed-age groups or targeted populations already suffering from severe insomnia or other illnesses. This study set out to explore something more targeted: Can a structured mindfulness meditation program help older adults with moderate—but not yet clinically severe—sleep disturbances?
+:term{id="mindfulness"} meditation, a practice rooted in cultivating non-judgmental present-moment awareness, has been gaining traction as one such option. Previous research suggested it might help with sleep, but studies often used mixed-age groups or targeted populations already suffering from severe insomnia or other illnesses. This study set out to explore something more targeted: Can a structured mindfulness meditation program help older adults with moderate—but not yet clinically severe—sleep disturbances?
 
 ## What They Did
 
-In a randomized clinical trial, 49 older adults (average age 66) with moderate sleep issues were assigned to one of two six-week programs. One group received mindfulness training through a standardized "Mindful Awareness Practices" (MAPs) course, which included techniques like sitting meditation, mindful walking, and loving-kindness practice. The other group participated in an :term[active control]{id="active_control_group"} condition: a sleep hygiene education (SHE) course designed to match the meditation program in time, attention, and group support.
+In a randomized clinical trial, 49 older adults (average age 66) with moderate sleep issues were assigned to one of two six-week programs. One group received mindfulness training through a standardized "Mindful Awareness Practices" (MAPs) course, which included techniques like sitting meditation, mindful walking, and loving-kindness practice. The other group participated in an :term[active control]{id="active_control_group"} condition: a :term{id="sleep_hygiene" case="lower"} education (SHE) course designed to match the meditation program in time, attention, and group support.
 
-Participants in both groups attended weekly two-hour classes for six weeks and were assigned daily homework. Outcomes were assessed both before and after the intervention, focusing on sleep quality (via the Pittsburgh Sleep Quality Index), as well as other measures like depression, fatigue, anxiety, and :term[inflammatory]{id="inflammation"} markers (specifically NF-κB, a signaling molecule linked to inflammation and sleep disruption).
+Participants in both groups attended weekly two-hour classes for six weeks and were assigned daily homework. Outcomes were assessed both before and after the intervention, focusing on sleep quality (via the :term[Pittsburgh Sleep Quality Index]{id="psqi"}), as well as other measures like depression, fatigue, anxiety, and :term[inflammatory]{id="inflammation"} markers (specifically :term{id="nf_kb"}, a signaling molecule linked to inflammation and sleep disruption).
 
 ## One Big Result: Mindfulness Improved Sleep Quality More Than Sleep Hygiene
 
@@ -60,7 +60,7 @@ Participants in the mindfulness group also saw improvements in related daytime i
 
 ### Mindfulness Improved—And It Mattered
 
-Only the MAPs group showed significant increases in mindfulness as measured by the Five Facet Mindfulness Questionnaire. In this group, improvements in sleep were correlated with increases in mindfulness, particularly the ability to remain non-reactive to inner experiences.
+Only the MAPs group showed significant increases in mindfulness as measured by the :term[Five Facet Mindfulness Questionnaire]{id="ffmq"}. In this group, improvements in sleep were correlated with increases in mindfulness, particularly the ability to remain non-reactive to inner experiences.
 
 ### Inflammation Declined, But Equally in Both Groups
 

@@ -38,7 +38,7 @@ Participants were recruited through an email advertisement sent by a third-party
 
 In this :term[randomized controlled trial]{id="randomized_controlled_trial"}, eligible volunteers were assigned by computer to one of two programs, both delivered through the Headspace app:
 
-- **Meditation:** the app's introductory course "Take 10," 10 sessions of about 10 minutes each, guided by Andy Puddicombe, a former Buddhist monk, that teach techniques such as breath awareness and the body scan.
+- **Meditation:** the app's introductory course "Take 10," 10 sessions of about 10 minutes each, guided by Andy Puddicombe, a former Buddhist monk, that teach techniques such as breath awareness and the :term{id="body_scan" case="lower"}.
 - **Audiobook:** 10 excerpts of the same length from Puddicombe's book *The Headspace Guide to Meditation and Mindfulness*, narrated by him. They explained the background and ideas of mindfulness and his experiences training as a Buddhist monk, with any guided exercises cut out.
 
 Both groups saw the same screens and heard the same voice; only the content of the sessions differed. The app encourages one session a day, but this wasn't enforced: people had up to a month to finish, received no reminders from the researchers, and in practice took about 16 days on average.

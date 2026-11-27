@@ -34,7 +34,7 @@ One explanation, the resource model, holds that keeping attention on a task draw
 
 > Shamatha practitioners learn to stabilize their attention on a chosen stimulus, such as the tactile sensation of breathing, and enhance the perceived detail of that stimulus in order to cultivate non-task-specific skill in regulating and controlling voluntary attention
 
-Practitioners also learn to notice when their attention has drifted (:term[mind wandering]{id="mind_wandering"}) and bring it back. Traditional accounts say this training improves attention and perception in daily life. Earlier studies had found that long-term meditators did better on sustained-attention tasks than non-meditators, but that kind of one-time comparison can't show that meditation caused the difference. This study set out to test it by following people through training.
+Practitioners also learn to notice when their attention has drifted (:term[mind wandering]{id="mind_wandering"}) and bring it back. Traditional accounts say this training improves attention and perception in daily life. Earlier studies had found that long-term meditators did better on :term[sustained-attention]{id="sustained_attention"} tasks than non-meditators, but that kind of one-time comparison can't show that meditation caused the difference. This study set out to test it by following people through training.
 
 ## What They Did
 
@@ -91,7 +91,7 @@ So the abstract's "improved vigilance" is real but specific: it appeared when th
 
 ### More Daily Practice After the Retreat Went With Sharper Discrimination
 
-Combining both retreats, the researchers looked at 54 people who reported how much they meditated each day after going home (on average 129 minutes a day for the first group and 112 for the second). Those who meditated more had lower thresholds at the five-month follow-up (r = −.36). The authors take this as a sign that keeping up regular, less intensive practice helps the gains last. Because it is a correlation measured once, it could also reflect other differences between people who keep meditating and people who don't. Interestingly, how much people meditated during the retreat itself (about 6 hours a day on average) didn't predict their results at the end of it.
+Combining both retreats, the researchers looked at 54 people who reported how much they meditated each day after going home (on average 129 minutes a day for the first group and 112 for the second). Those who meditated more had lower thresholds at the five-month follow-up (r = −.36). The authors take this as a sign that keeping up regular, less intensive practice helps the gains last. Because it is a :term{id="correlation" case="lower"} measured once, it could also reflect other differences between people who keep meditating and people who don't. Interestingly, how much people meditated during the retreat itself (about 6 hours a day on average) didn't predict their results at the end of it.
 
 ### What the Design Can't Rule Out
 
@@ -105,6 +105,6 @@ The participants were also experienced meditators willing to commit three months
 
 This study randomly assigned meditators to intensive training or a wait-list and followed both groups through a retreat, and its main finding is solid within those limits: three months of concentration practice sharpened a basic visual skill, the effect was replicated when the wait-list group did its own retreat, and it was still there five months later.
 
-The finding on sustained attention is subtler than the title suggests. Attention held up better only when the task stayed fixed while perception improved, which the authors read as perception freeing up resources rather than attention itself growing stronger. That fits a pattern in other retreat studies on this site. A [three-month Vipassana retreat](/meditation-retreat-attentional-blink/) shrank the attentional blink, which was also explained by the brain spending fewer resources on the first target, and a later analysis of the Shamatha Project found that the retreat strengthened [deliberate, controlled attention](/deconstructing-concentration-interference-control/) without reducing the automatic pull of distractions.
+The finding on sustained attention is subtler than the title suggests. Attention held up better only when the task stayed fixed while perception improved, which the authors read as perception freeing up resources rather than attention itself growing stronger. That fits a pattern in other retreat studies on this site. A [three-month Vipassana retreat](/meditation-retreat-attentional-blink/) shrank the :term{id="attentional_blink" case="lower"}, which was also explained by the brain spending fewer resources on the first target, and a later analysis of the Shamatha Project found that the retreat strengthened [deliberate, controlled attention](/deconstructing-concentration-interference-control/) without reducing the automatic pull of distractions.
 
 Whether these gains come from meditation itself, rather than from three months of retreat life with a dedicated teacher, still needs studies with an active comparison group doing something equally demanding in the same setting.

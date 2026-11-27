@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-Some meditation traditions have long held that practice can cut the need for sleep, with stories of yogis who sleep only a couple of hours a night. The authors of this 2010 paper, researchers at the University of Kentucky, noted that EEG studies of meditation had rarely touched the question:
+Some meditation traditions have long held that practice can cut the need for sleep, with stories of yogis who sleep only a couple of hours a night. The authors of this 2010 paper, researchers at the University of Kentucky, noted that :term{id="eeg"} studies of meditation had rarely touched the question:
 
 > Surprisingly, given the number of EEG studies on meditation, essentially no one has addressed whether meditation might provide a restorative function similar to non-REM sleep despite centuries of anecdotal claims by certain practitioners and followers that meditation does reduce the need for sleep…
 

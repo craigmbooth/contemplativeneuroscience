@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-The :term[jhanas]{id="jhana"} are a sequence of eight states of deep concentrative absorption from the Theravada Buddhist tradition. The first four, the "form" jhanas, move from joy and bliss toward ease and equanimity. The last four, the "formless" jhanas, are harder to describe: attention becomes expansive, spontaneous thought falls away and awareness of the body fades.
+The :term[jhanas]{id="jhana"} are a sequence of eight states of deep concentrative absorption from the :term{id="theravada"} Buddhist tradition. The first four, the "form" jhanas, move from joy and bliss toward ease and equanimity. The last four, the "formless" jhanas, are harder to describe: attention becomes expansive, spontaneous thought falls away and awareness of the body fades.
 
 This site has already covered two brain-imaging studies of jhana, each with a single meditator. A [2013 study](/ecstatic-meditation-reward-system/) found the brain's reward system active during the jhanas. A [2025 study](/jhana-brain-networks/) from Matthew Sacchet's lab at Harvard found that the brain's large-scale networks became less compartmentalized and more interconnected during jhana, especially in the formless states.
 
@@ -40,11 +40,11 @@ In each run, the meditator began in "access concentration," moved through the ei
 
 Because an expert may slip into meditation during ordinary rest, the comparison was two tasks meant to keep his mind busy: silently recalling the events of the past two weeks, and counting backward from 10,000 by fives. Each was run twice, for eight minutes each time, and the four runs were combined.
 
-The team tracked :term{id="fmri"} activity in 49 brain networks and regions: 33 cortical networks, 10 regions below the cortex, 5 in the brainstem, and the cerebellum. They measured how strongly each pair rose and fell together within sliding windows of 16 scans (46.4 seconds), then used a clustering algorithm to sort all the windows, from jhana and control runs alike, into a handful of recurring patterns, or "brain states." For each run they counted how much time the brain spent in each state, how long each visit lasted and how often it switched between states.
+The team tracked :term{id="fmri"} activity in 49 brain networks and regions: 33 cortical networks, 10 regions below the cortex, 5 in the brainstem, and the :term{id="cerebellum" case="lower"}. They measured how strongly each pair rose and fell together within sliding windows of 16 scans (46.4 seconds), then used a clustering algorithm to sort all the windows, from jhana and control runs alike, into a handful of recurring patterns, or "brain states." For each run they counted how much time the brain spent in each state, how long each visit lasted and how often it switched between states.
 
 The algorithm found five states. Two were dropped because they appeared only in the 27th jhana run, which contained nothing else, and looked like noise. That left 26 runs and three states:
 
-- **State 1, "DMN-anticorrelated."** Activity in the left-hemisphere core of the :term{id="dmn"}, around the :term{id="mpfc"}, ran *opposite* to much of the rest of the brain, as did two right-hemisphere control and salience networks. Regions below the cortex were mostly quiet, apart from the :term{id="amygdala" case="lower"} and the periaqueductal gray, a midbrain area.
+- **State 1, "DMN-anticorrelated."** Activity in the left-hemisphere core of the :term{id="dmn"}, around the :term{id="mpfc"}, ran *opposite* to much of the rest of the brain, as did two right-hemisphere control and :term{id="salience_network" case="lower" plural}. Regions below the cortex were mostly quiet, apart from the :term{id="amygdala" case="lower"} and the :term[periaqueductal gray]{id="periaqueductal_gray"}, a midbrain area.
 - **State 2, "hyperconnected."** Connectivity was high almost everywhere, especially between the DMN, the attention networks, the somatomotor network (which handles body sensation and movement) and the rest of the brain. The :term{id="thalamus" case="lower"} and reward-related regions such as the nucleus accumbens were in step with the cortex, and the cerebellum with the :term{id="dorsal_attention_network" case="lower"}.
 - **State 3, "sparsely connected."** Few strong connections at all.
 
@@ -58,7 +58,7 @@ Within the jhanas, the two main states moved in opposite directions. The odds of
 
 The rise wasn't smooth. As the figure shows, State 1 dipped in the fourth jhana before jumping in the fifth, and State 2 rebounded somewhat in J6–8. It also wasn't the pattern in every run. When the team grouped runs by their sequence of states, only 11 of the 26 showed State 1 building through the jhanas. The other 15 were dominated by the sparsely connected state throughout, with State 1 low and unchanging.
 
-What might State 1 mean? Earlier studies have linked the DMN running opposite to other networks with focused attention and less mind-wandering. Because the anticorrelation here involved the left frontal part of the DMN, an area involved in language and thinking about others, the authors lean toward a more specific reading:
+What might State 1 mean? Earlier studies have linked the DMN running opposite to other networks with focused attention and less :term[mind-wandering]{id="mind_wandering"}. Because the anticorrelation here involved the left frontal part of the DMN, an area involved in language and thinking about others, the authors lean toward a more specific reading:
 
 > This suggests that the frontal DMN characteristics of this brain state may reflect suppression of linguistic thought more than "focused attention" per se.
 
@@ -76,7 +76,7 @@ Meditators describe the jhanas as increasingly still and stable, and the authors
 
 ### The Hyperconnected State May Track Attention to the Body
 
-The meditator said he used the breath and bodily sensations to enter the form jhanas, and that sensory objects fade in the formless ones. The hyperconnected state, with its strong somatomotor, thalamus and cerebellum connections, faded in step. Runs where he rated his attention as wider had less of it (r = −0.43). And in the formless jhanas, longer visits to this state went with stronger ratings of physical sensations (r = 0.60). The authors read State 2 as a sign of sensory processing and narrow, object-focused attention, while noting that hyperconnected brain states have also been reported with :term[psychedelic drugs]{id="psychedelic_drug"}. These correlations come from 26 runs and weren't corrected for :term{id="multiple_comparisons" case="lower"}, so they are best treated as leads.
+The meditator said he used the breath and bodily sensations to enter the form jhanas, and that sensory objects fade in the formless ones. The hyperconnected state, with its strong somatomotor, thalamus and cerebellum connections, faded in step. Runs where he rated his attention as wider had less of it (r = −0.43). And in the formless jhanas, longer visits to this state went with stronger ratings of physical sensations (r = 0.60). The authors read State 2 as a sign of sensory processing and narrow, object-focused attention, while noting that hyperconnected brain states have also been reported with :term[psychedelic drugs]{id="psychedelic_drug"}. These :term{id="correlation" case="lower" plural} come from 26 runs and weren't corrected for :term{id="multiple_comparisons" case="lower"}, so they are best treated as leads.
 
 ### No Brain State for Bliss
 

@@ -72,7 +72,7 @@ The finding depended on how the brain response was modeled. Standard fMRI analys
 
 ### The Difference Wasn't About Difficulty
 
-Nonwords took longer to judge than words, so the words-minus-nonwords difference could, in principle, reflect how hard the items were rather than their meaning. The authors checked: across participants, the brain difference in each region was unrelated to the difference in response times (median correlation r = 0.04, none significant).
+Nonwords took longer to judge than words, so the words-minus-nonwords difference could, in principle, reflect how hard the items were rather than their meaning. The authors checked: across participants, the brain difference in each region was unrelated to the difference in response times (median :term{id="correlation" case="lower"} r = 0.04, none significant).
 
 ### Every Interruption Quieted These Regions
 
@@ -94,6 +94,6 @@ They add that the study had no behavioral measure of what people were thinking a
 
 The paper's title captures its approach: rather than ask meditators to stop thinking, the researchers planted a thought and watched how long its trace lasted. In 12 Zen meditators, the default mode network's response to a word's meaning ended sooner than in 12 people who had never meditated, while both groups judged the words equally well.
 
-The result fits with later work on this site showing [lower default mode activity in experienced meditators during meditation than during an active task](/reduced-dmn-active-task/), and with EEG studies of meditators [aiming for a mind empty of thought](/emptiness-meditation-eeg/). It adds a twist: the difference here was not in how strongly the brain responded to a word, but in how quickly the response passed.
+The result fits with later work on this site showing [lower default mode activity in experienced meditators during meditation than during an active task](/reduced-dmn-active-task/), and with :term{id="eeg"} studies of meditators [aiming for a mind empty of thought](/emptiness-meditation-eeg/). It adds a twist: the difference here was not in how strongly the brain responded to a word, but in how quickly the response passed.
 
 Still, this was a small, one-time comparison, and the difference appeared only when the response was modeled in detail. It can't show that Zen practice caused the shorter response, and it didn't measure thoughts directly. It is best read as an early, inventive demonstration of a way to study letting go of thoughts in the brain, one that needed larger, longitudinal studies to confirm.

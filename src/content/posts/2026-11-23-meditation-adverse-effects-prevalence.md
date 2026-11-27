@@ -28,13 +28,13 @@ study:
 
 How often does meditation go wrong? Earlier posts on this site have looked at the kinds of difficult experiences practice can bring. These range from :term{id="depersonalization" case="lower"} (feeling detached from one's own thoughts, body or sense of self) to the 59 types of challenges that [Lindahl and colleagues](/meditation-adverse-effects-survey/) catalogued in interviews with practitioners and teachers. What those studies could not say is how common such experiences are.
 
-Estimates so far have varied widely. A 2020 systematic review put the overall rate of adverse events at 8.3%, but at 3.7% in experimental studies and 33.2% in observational ones. Part of the problem is how researchers ask. Many trials record only serious events, or none at all.
+Estimates so far have varied widely. A 2020 :term{id="systematic_review" case="lower"} put the overall rate of adverse events at 8.3%, but at 3.7% in experimental studies and 33.2% in observational ones. Part of the problem is how researchers ask. Many trials record only serious events, or none at all.
 
 Simon Goldberg and colleagues, including Willoughby Britton (a co-author of the Lindahl study) and Richard Davidson, set out to estimate how common :term[meditation-related adverse effects]{id="meditation_adverse_effects"} are among ordinary Americans who have tried meditation. The team defined adverse effects as side effects that feel unpleasant, from mild to severe.
 
 ## What They Did
 
-The researchers recruited adults through Prolific, an online research platform, using quotas for age, gender and race based on US Census data. Of 953 people who completed a screening survey, 470 said they had tried :term{id="mindfulness" case="lower"}, mantra or spiritual meditation at least once. Of those, 434 (92%) completed a longer follow-up questionnaire.
+The researchers recruited adults through Prolific, an online research platform, using quotas for age, gender and race based on US Census data. Of 953 people who completed a screening survey, 470 said they had tried :term{id="mindfulness" case="lower"}, :term{id="mantra" case="lower"} or spiritual meditation at least once. Of those, 434 (92%) completed a longer follow-up questionnaire.
 
 Participants answered two kinds of questions about adverse effects. The first was a single general question: had meditation ever led to challenging, difficult or distressing experiences? The second was a checklist of 10 specific effects, such as anxiety, trouble sleeping and feeling disconnected from everything, each with how long it had lasted. Participants also rated whether any effect had interfered with their daily functioning, and for how long.
 
@@ -58,7 +58,7 @@ The jump from 32% to 50% came from the same people answering different questions
 
 ### Childhood Adversity Was Linked to More Adverse Effects
 
-One of the team's four preregistered hypotheses was that people with more adverse childhood experiences would report more adverse effects. They did, though the link was modest (a correlation of r = .19, a small :term[effect size]{id="effect_size" case="lower"}, where 0 means no relationship and 1 a perfect one). Childhood adversity was also linked to impairment (r = .15).
+One of the team's four preregistered hypotheses was that people with more adverse childhood experiences would report more adverse effects. They did, though the link was modest (a :term{id="correlation" case="lower"} of r = .19, a small :term[effect size]{id="effect_size" case="lower"}, where 0 means no relationship and 1 a perfect one). Childhood adversity was also linked to impairment (r = .15).
 
 In exploratory analyses, current depression and anxiety, and more lifetime hours of practice, were also associated with more adverse effects. Practice hours were not linked to any impairment, and retreat attendance showed no reliable link. Because everything was measured at once, these associations can't show which came first.
 

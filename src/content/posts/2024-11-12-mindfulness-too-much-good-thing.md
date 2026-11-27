@@ -56,7 +56,7 @@ Directing attention to present-moment experience is central to mindfulness and h
 
 ### Body awareness and the insula
 
-Many psychological problems go with weak :term{id="interoception" case="lower"}, the sense of what is happening inside the body, and with low activity in the :term{id="insula" case="lower"}, a brain region that processes those signals. Mindfulness training is thought to help partly by strengthening both, and Britton cites evidence that it can: more body awareness after training went with greater wellbeing in chronic pain patients, and meditation training has been linked with a larger and more active insula.
+Many psychological problems go with weak :term{id="interoception" case="lower"}, the sense of what is happening inside the body, and with low activity in the :term{id="insula" case="lower"}, a brain region that processes those signals. Mindfulness training is thought to help partly by strengthening both, and Britton cites evidence that it can: more body awareness after training went with greater wellbeing in :term{id="chronic_pain" case="lower"} patients, and meditation training has been linked with a larger and more active insula.
 
 But fixing a deficit is not the same as "more is always better." High interoception or insula activity has been linked with heightened arousal and emotional intensity, depression, anxiety, panic, traumatic flashbacks and chronic pain conditions, and Britton points out that all of these have been reported during mindfulness training. She also cites [a recent trial](/compassion-perspective-training-cortisol-stress/) in which breath and :term{id="body_scan" case="lower"} training "produced the largest cortisol stress reactivity compared to other forms of meditation." Our summary of that trial gives its full :term{id="cortisol" case="lower"} results across the practices and an untrained group.
 
@@ -120,7 +120,7 @@ One of the annotated references is a US national survey of more than 100,000 adu
 
 ### How Strong Is the Evidence?
 
-The paper's strength is its framework, not proof. Many of the links Britton cites are correlations from questionnaires or brain scans, which can't show that mindfulness caused the harm. Several key steps, about attention to threat, acceptance and gratitude, come from research on other practices. And the clearest dose evidence, the 30-minute sleep inflection, comes from her own studies of people taking MBCT. The paper reads best as a strong case that the question deserves testing.
+The paper's strength is its framework, not proof. Many of the links Britton cites are :term{id="correlation" case="lower" plural} from questionnaires or brain scans, which can't show that mindfulness caused the harm. Several key steps, about attention to threat, acceptance and gratitude, come from research on other practices. And the clearest dose evidence, the 30-minute sleep inflection, comes from her own studies of people taking MBCT. The paper reads best as a strong case that the question deserves testing.
 
 ## Final Reflection
 

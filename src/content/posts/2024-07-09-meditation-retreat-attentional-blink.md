@@ -68,7 +68,7 @@ The most striking finding linked the brain and behavior. Across the 22 people in
 
 > Beyond this, the current study indicates that through mental training, people may gain some control (which need not be voluntary) over the amount of attentional resources devoted to the processing of the first item.
 
-The correlation pooled practitioners and novices, though, and the practitioners as a group changed more on both measures. The paper doesn't report whether the same link holds within the practitioners alone.
+The :term{id="correlation" case="lower"} pooled practitioners and novices, though, and the practitioners as a group changed more on both measures. The paper doesn't report whether the same link holds within the practitioners alone.
 
 ### Catching the Second Number Didn't Cost the First
 

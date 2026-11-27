@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-Dementia researchers have long looked for everyday habits that might lower risk. Trials of lifestyle programs have tried exercise, diet, brain training and heart-health advice. But depression, stress and anxiety, which are also linked to dementia, had not been targeted directly. Meditation, which trains attention and emotion regulation, seemed a natural candidate.
+Dementia researchers have long looked for everyday habits that might lower risk. Trials of lifestyle programs have tried exercise, diet, brain training and heart-health advice. But depression, stress and anxiety, which are also linked to dementia, had not been targeted directly. Meditation, which trains attention and :term{id="emotion_regulation" case="lower"}, seemed a natural candidate.
 
 The brain-imaging case for it was promising but thin. Studies in younger adults have tied meditation to changes in frontal and limbic areas, and a recent meta-analysis named the :term{id="insula" case="lower"} and the :term{id="anterior_cingulate_cortex" case="lower"} (ACC) as the regions most sensitive to meditation training. Both are also especially vulnerable to aging. Two :term[cross-sectional studies]{id="cross_sectional_study"} had found that older expert meditators had better-preserved brains in regions including these two than non-meditators, but one-time comparisons like these can't show that meditation caused the difference. Trials in older adults were scarce, as the authors put it:
 
@@ -74,7 +74,7 @@ Why no effect on volume, when these are supposedly the regions most responsive t
 
 > Meditation might alter volume in younger and more plastic brains but not halt the age- and disease-related brain volume decreases at older ages.
 
-They also offer a more sobering reading of the earlier cross-sectional findings. The bigger brains seen in older expert meditators (for example, a [shallower drop in gray matter across ages](/meditation-age-gray-matter-decline/) in one comparison) might reflect practice when they were younger, decades of intense practice, or other differences between the groups, such as lifestyle. And they note that the null result fits a large, rigorously controlled trial that found eight weeks of MBSR didn't change brain structure in adults aged 25 to 66 ([Kral et al., 2022](/mindfulness-brain-structure/)).
+They also offer a more sobering reading of the earlier cross-sectional findings. The bigger brains seen in older expert meditators (for example, a [shallower drop in gray matter across ages](/meditation-age-gray-matter-decline/) in one comparison) might reflect practice when they were younger, decades of intense practice, or other differences between the groups, such as lifestyle. And they note that the null result fits a large, rigorously controlled trial that found eight weeks of :term{id="mbsr"} didn't change brain structure in adults aged 25 to 66 ([Kral et al., 2022](/mindfulness-brain-structure/)).
 
 ### The Perfusion Near-Miss, Read With Care
 
@@ -82,7 +82,7 @@ The authors point out that the perfusion differences, though small (0.023 for th
 
 ### The Trial Was Probably Too Small for Subtle Effects
 
-The team sized the trial to detect an :term{id="effect_size" case="lower"} of 0.75, drawn from a 2014 meta-analysis of meditation and brain structure ([Fox et al., 2014](/meditation-brain-structure-meta-analysis/)). They now think that figure was probably inflated: the meta-analysis mixed before-and-after studies with one-time comparisons of long-term experts, and publication bias, weak methods in earlier studies and general biases in brain imaging all tend to exaggerate effect sizes. In their words, they "may have been underpowered to observe a smaller but still clinically significant effect." In other words, the trial may have lacked the :term{id="statistical_power" case="lower"} to detect a smaller effect. The sample was also unusually healthy and well educated, the authors note, which left little room for improvement.
+The team sized the trial to detect an :term{id="effect_size" case="lower"} of 0.75, drawn from a 2014 meta-analysis of meditation and brain structure ([Fox et al., 2014](/meditation-brain-structure-meta-analysis/)). They now think that figure was probably inflated: the meta-analysis mixed before-and-after studies with one-time comparisons of long-term experts, and :term{id="publication_bias" case="lower"}, weak methods in earlier studies and general biases in brain imaging all tend to exaggerate effect sizes. In their words, they "may have been underpowered to observe a smaller but still clinically significant effect." In other words, the trial may have lacked the :term{id="statistical_power" case="lower"} to detect a smaller effect. The sample was also unusually healthy and well educated, the authors note, which left little room for improvement.
 
 ### Meditators Reported Better Attention and Socioemotional Skills
 

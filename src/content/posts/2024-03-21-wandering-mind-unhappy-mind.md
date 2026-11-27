@@ -32,7 +32,7 @@ This study investigates how mind wandering affects our happiness. Historically t
 
 > The most reliable method for investigating real-world emotion is experience sampling, which involves contacting people as they engage in their everyday activities and asking them to report their thoughts, feelings, and actions at that moment.
 
-The authors performed experience sampling on a large number of people by using an iPhone app to ask people about their experiences at multiple, random times throughout the day.
+The authors performed :term[experience sampling]{id="ecological_momentary_assessment"} on a large number of people by using an iPhone app to ask people about their experiences at multiple, random times throughout the day.
 
 ## What They Did
 
@@ -56,9 +56,9 @@ Analysis revealed that people were generally less happy when their minds were wa
 
 The researchers also found that mind wandering accounted for a more significant portion of the differences in happiness levels than the actual task being done. Specifically, mind wandering explained 10.8% of the variance in happiness within individuals and 17.7% between individuals, while the specific activities people were engaged in explained a much smaller fraction of happiness variance.
 
-These findings collectively indicate that the tendency of the mind to wander, and the nature of the thoughts it wanders to, have a more profound impact on our moment-to-moment happiness than the activities we are performing. This highlights the cognitive and emotional cost of mind wandering, emphasizing the importance of mindfulness and present-moment awareness for enhancing personal well-being.
+These findings collectively indicate that the tendency of the mind to wander, and the nature of the thoughts it wanders to, have a more profound impact on our moment-to-moment happiness than the activities we are performing. This highlights the cognitive and emotional cost of mind wandering, emphasizing the importance of :term{id="mindfulness" case="lower"} and present-moment awareness for enhancing personal well-being.
 
-[McVay, Kane, & Kwapil (2009)](/mind-wandering-contexts/) previously demonstrated that mind-wandering represents a stable individual trait across contexts, suggesting these happiness effects may be consistent across situations. Research by [Garrison et al. (2015)](/reduced-dmn-active-task/) suggests meditation may specifically target the default mode network—a brain system associated with mind-wandering—offering a potential neural mechanism for cultivating present-moment awareness. Additionally, meta-analytic evidence from [Zainal & Newman (2023)](/mindfulness-cognitive-function-survey/) indicates mindfulness training enhances attentional processes, which may help reduce mind-wandering tendencies and potentially impact emotional well-being.
+[McVay, Kane, & Kwapil (2009)](/mind-wandering-contexts/) previously demonstrated that mind-wandering represents a stable individual trait across contexts, suggesting these happiness effects may be consistent across situations. Research by [Garrison et al. (2015)](/reduced-dmn-active-task/) suggests meditation may specifically target the :term[default mode network]{id="dmn"}—a brain system associated with mind-wandering—offering a potential neural mechanism for cultivating present-moment awareness. Additionally, meta-analytic evidence from [Zainal & Newman (2023)](/mindfulness-cognitive-function-survey/) indicates mindfulness training enhances attentional processes, which may help reduce mind-wandering tendencies and potentially impact emotional well-being.
 
 ## Miscellaneous Interesting Takeaways
 

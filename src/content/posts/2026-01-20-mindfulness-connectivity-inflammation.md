@@ -26,13 +26,13 @@ study:
 
 ## Background Information
 
-What happens in the brain when meditation seems to benefit the body? Earlier randomized trials had linked mindfulness training to lower markers of :term{id="inflammation" case="lower"} in stressed people. How that training might get "under the skin," though, was largely unknown. As the authors put it:
+What happens in the brain when meditation seems to benefit the body? Earlier randomized trials had linked :term{id="mindfulness" case="lower"} training to lower markers of :term{id="inflammation" case="lower"} in stressed people. How that training might get "under the skin," though, was largely unknown. As the authors put it:
 
 > Little is known about how behavioral interventions, such as mindfulness meditation training, can impact the brain and physical health.
 
-One candidate lies in how brain networks talk to each other at rest. The default mode network (:term{id="dmn"}) is a set of regions that is most active when attention drifts inward, toward thoughts about oneself, the past and the future, and it is closely tied to :term{id="mind_wandering" case="lower"}. A key hub of the DMN is the :term[posterior cingulate cortex (PCC)]{id="pcc"}, toward the back of the brain. Near the front sits the :term[dorsolateral prefrontal cortex (dlPFC)]{id="dlpfc"}, part of a network that supports top-down executive control, such as steering attention and regulating emotion.
+One candidate lies in how brain networks talk to each other at rest. The default mode network (:term{id="dmn"}) is a set of regions that is most active when attention drifts inward, toward thoughts about oneself, the past and the future, and it is closely tied to :term{id="mind_wandering" case="lower"}. A key hub of the DMN is the :term[posterior cingulate cortex (PCC)]{id="pcc"}, toward the back of the brain. Near the front sits the :term[dorsolateral prefrontal cortex (dlPFC)]{id="dlpfc"}, part of a network that supports top-down :term[executive control]{id="executive_function"}, such as steering attention and regulating emotion.
 
-An earlier cross-sectional study had found that experienced meditators showed stronger resting-state :term{id="functional_connectivity" case="lower"} between the PCC and executive control regions. Functional connectivity is the degree to which two regions' activity rises and falls together; "resting state" means it is measured while a person lies still and does no particular task. But comparing experts with novices can't show that meditation produced the difference.
+An earlier :term{id="cross_sectional_study" case="lower"} had found that experienced meditators showed stronger resting-state :term{id="functional_connectivity" case="lower"} between the PCC and executive control regions. Functional connectivity is the degree to which two regions' activity rises and falls together; "resting state" means it is measured while a person lies still and does no particular task. But comparing experts with novices can't show that meditation produced the difference.
 
 The body side of the story centers on :term[interleukin-6 (IL-6)]{id="il_6"}, a signaling protein released by immune cells. Circulating IL-6 tends to run higher in chronically stressed people and is associated with greater risk of cardiovascular disease and death. Unemployment, a well-known chronic stressor, is itself associated with elevated inflammation.
 
@@ -40,7 +40,7 @@ The body side of the story centers on :term[interleukin-6 (IL-6)]{id="il_6"}, a 
 
 In this :term[randomized controlled trial]{id="randomized_controlled_trial"}, the team recruited 35 right-handed adults who were unemployed, looking for work and reporting moderate to high job-search stress. Each first had a 5-minute resting-state :term{id="fmri"} scan, lying still while looking at a fixation cross, and gave a blood sample. They were then randomly assigned to one of two three-day residential retreats, held in separate wings of the same retreat center.
 
-The mindfulness program drew on Mindfulness-Based Stress Reduction (:term{id="mbsr"}): body scans, sitting and walking meditation, mindful eating, mindful stretching and group discussion. The comparison program matched its structure, with walking, stretching and teaching sessions, but invited participants to do these things restfully rather than mindfully. This :term[active control]{id="active_control_group"} was meant to hold constant things like expectations, group support, teacher attention and physical activity, so that any difference could more plausibly be traced to mindfulness itself.
+The mindfulness program drew on Mindfulness-Based Stress Reduction (:term{id="mbsr"}): :term{id="body_scan" case="lower" plural}, sitting and walking meditation, mindful eating, mindful stretching and group discussion. The comparison program matched its structure, with walking, stretching and teaching sessions, but invited participants to do these things restfully rather than mindfully. This :term[active control]{id="active_control_group"} was meant to hold constant things like expectations, group support, teacher attention and physical activity, so that any difference could more plausibly be traced to mindfulness itself.
 
 Participants were scanned again within two weeks of the retreat and gave a second blood sample four months later. The staff who ran the follow-up scans, processed the brain data and handled the blood samples did not know who had been in which group.
 
@@ -72,7 +72,7 @@ Getting a job could plausibly lower stress and inflammation, so the team checked
 
 ### Not Every Predicted Brain Change Appeared
 
-The team had also expected stronger coupling between the PCC and the dorsal anterior cingulate cortex (dACC), another region linked to attention and control, as seen in the earlier study of experienced meditators. That change did not appear, and connections within the DMN itself did not weaken either. The authors suggest the difference may come from method: in the earlier study, rest scans followed meditation periods, so some meditation-related activity may have carried over into them.
+The team had also expected stronger coupling between the PCC and the :term[dorsal anterior cingulate]{id="anterior_cingulate_cortex"} cortex (dACC), another region linked to attention and control, as seen in the earlier study of experienced meditators. That change did not appear, and connections within the DMN itself did not weaken either. The authors suggest the difference may come from method: in the earlier study, rest scans followed meditation periods, so some meditation-related activity may have carried over into them.
 
 ## Final Reflection
 

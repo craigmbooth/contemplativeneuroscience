@@ -26,7 +26,7 @@ study:
 ---
 ## Background Information
 
-Sleep quality declines with age, especially due to the reduction in slow wave sleep (SWS)—a deep, restorative phase of sleep—and rapid eye movement (:term[REM]{id="rem_sleep"}) sleep, which supports emotional regulation and memory consolidation. Prior research has shown that meditation may influence biological aging and sleep patterns, possibly by enhancing neuronal plasticity and cortical thickness. This study explores whether long-term practice of Vipassana meditation helps preserve healthy sleep architecture across different age groups.
+Sleep quality declines with age, especially due to the reduction in :term[slow wave sleep]{id="slow_wave_sleep"} (SWS)—a deep, restorative phase of sleep—and rapid eye movement (:term[REM]{id="rem_sleep"}) sleep, which supports emotional regulation and memory consolidation. Prior research has shown that meditation may influence biological aging and sleep patterns, possibly by enhancing neuronal plasticity and :term{id="cortical_thickness" case="lower"}. This study explores whether long-term practice of Vipassana meditation helps preserve healthy sleep architecture across different age groups.
 
 :term{id="vipassana"} meditation emphasizes mindful observation of bodily sensations and mental states, cultivating equanimity and non-reactivity. The study aimed to test whether this form of meditation supports better sleep across the lifespan, by comparing the sleep profiles of long-term meditators and non-meditators across three age groups.
 
@@ -34,7 +34,7 @@ Sleep quality declines with age, especially due to the reduction in slow wave sl
 
 Researchers recruited 91 healthy male participants aged 30–60, including 45 senior Vipassana meditators (practicing more than 3 years, 2–4 hours daily) and 46 non-meditating controls. Participants were stratified into three age categories: younger (30–39), middle-aged (40–49), and older (50–60).
 
-All participants underwent two nights of whole-night :term{id="eeg"}, with the second night’s data used for analysis. Only participants with a sleep efficiency index above 85% were included, ensuring high-quality sleep data. Researchers compared various sleep metrics, including slow wave sleep, REM sleep, REM onset latency, and number of sleep cycles.
+All participants underwent two nights of whole-night :term{id="eeg"}, with the second night’s data used for analysis. Only participants with a :term{id="sleep_efficiency" case="lower"} index above 85% were included, ensuring high-quality sleep data. Researchers compared various sleep metrics, including slow wave sleep, REM sleep, REM onset latency, and number of sleep cycles.
 
 ## One Big Result: More Deep and REM Sleep at Every Age
 

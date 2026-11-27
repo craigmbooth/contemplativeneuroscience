@@ -28,7 +28,7 @@ study:
 
 Psychological stress, the kind that comes from feeling judged, out of control or socially threatened, is one of the main health burdens of modern life. When it becomes chronic, it is thought to do much of its damage through two systems: the :term{id="hpa_axis"}, which ends in the release of the hormone :term{id="cortisol" case="lower"}, and the sympathetic nervous system, which drives the fast "fight or flight" response.
 
-Meditation programs such as :term{id="mbsr"} and :term{id="mbct"} are often taught as a way to handle stress. But when this study was published, the evidence that they change the body's stress response, rather than just how stressed people say they feel, was mixed. Earlier studies had found changes in self-reported stress, heart and nervous-system measures and immune markers, but cortisol results were inconsistent. One lab had reported a smaller cortisol response to acute stress after [integrative body–mind training](/five-days-meditation-attention-stress/), but other studies found no change, and one found a larger cortisol response after a 3-day mindfulness training.
+Meditation programs such as :term{id="mbsr"} and :term{id="mbct"} are often taught as a way to handle stress. But when this study was published, the evidence that they change the body's stress response, rather than just how stressed people say they feel, was mixed. Earlier studies had found changes in self-reported stress, heart and nervous-system measures and immune markers, but cortisol results were inconsistent. One lab had reported a smaller cortisol response to acute stress after [integrative body–mind training](/five-days-meditation-attention-stress/), but other studies found no change, and one found a larger cortisol response after a 3-day :term{id="mindfulness" case="lower"} training.
 
 Part of the problem, the authors argue, is that mindfulness programs mix many practices, so it is hard to tell which ingredient does what. Veronika Engert, Tania Singer and colleagues at the Max Planck Institute in Leipzig instead compared three kinds of training head to head. They predicted that practices aimed at relating to other people, through compassion or by understanding others' minds, would protect against social stress better than practices focused on attention and body awareness. Their reasoning was that a social threat may lose some of its sting when it is met with a sense of shared humanity rather than ego-involvement.
 
@@ -56,7 +56,7 @@ All sessions ran between noon and 6 p.m., because cortisol follows a daily rhyth
 
 - **Saliva** six times, for cortisol (the HPA axis) and :term[alpha-amylase]{id="salivary_alpha_amylase"} (a marker of sympathetic activity)
 - **Heart recordings**, for heart rate and :term{id="heart_rate_variability" case="lower"} (a marker of the calming parasympathetic system)
-- **Blood** three times, for the inflammation markers :term[IL-6]{id="il_6"} and :term[high-sensitivity CRP]{id="c_reactive_protein"}
+- **Blood** three times, for the :term{id="inflammation" case="lower"} markers :term[IL-6]{id="il_6"} and :term[high-sensitivity CRP]{id="c_reactive_protein"}
 - **Self-reported stress** five times, on the :term[state anxiety scale]{id="stai"} of the State-Trait Anxiety Inventory
 
 The test worked: 75% of the untrained participants had a cortisol rise above the threshold usually taken to mark a real physiological stress response.

@@ -26,28 +26,28 @@ study:
 
 ## Background Information
 
-Many people take up meditation to cope with stress, and doctors need to know what the evidence says to advise them. Earlier reviews had concluded that both mindfulness and mantra meditation reduce anxiety, depression and stress to a small or moderate degree. But those reviews mixed in uncontrolled studies and trials that compared meditation with a :term[wait-list]{id="wait_list_control"} or usual care.
+Many people take up meditation to cope with stress, and doctors need to know what the evidence says to advise them. Earlier reviews had concluded that both :term{id="mindfulness" case="lower"} and :term{id="mantra" case="lower"} meditation reduce anxiety, depression and stress to a small or moderate degree. But those reviews mixed in uncontrolled studies and trials that compared meditation with a :term[wait-list]{id="wait_list_control"} or usual care.
 
 That matters because people who sign up for meditation tend to believe it will help (a form of :term{id="self_selection_bias" case="lower"}), and many outcomes are questionnaires that those beliefs can sway. Any program that offers weekly classes, an attentive teacher and a group can make people feel better. The review's authors, a team at the Johns Hopkins Evidence-based Practice Center funded by the US Agency for Healthcare Research and Quality, framed the question this way:
 
 > Clinicians need to know whether there are beneficial effects of meditation training beyond self-selection biases and the non-specific effects of time, attention, and expectations for improvement.
 
-Their answer was to treat a well-matched comparison program the way a drug trial treats a placebo pill, and to include only trials that had one.
+Their answer was to treat a well-matched comparison program the way a drug trial treats a :term{id="placebo" case="lower"} pill, and to include only trials that had one.
 
 ## What They Did
 
 Madhav Goyal and colleagues searched eight research databases and checked reference lists for :term{id="randomized_controlled_trial" case="lower" plural} of meditation in adults. Out of thousands of citations, 47 trials with 3,320 participants met their criteria. To qualify, a trial had to:
 
-- teach a structured meditation program with at least 4 hours of training and instructions to practice at home. Yoga, tai chi, qi gong, breathing exercises, relaxation therapy and programs delivered only by audio or video were excluded, as were therapies in which meditation is only one part, such as DBT and ACT;
+- teach a structured meditation program with at least 4 hours of training and instructions to practice at home. Yoga, tai chi, qi gong, breathing exercises, relaxation therapy and programs delivered only by audio or video were excluded, as were therapies in which meditation is only one part, such as DBT and :term[ACT]{id="act"};
 - enroll adults with a medical or psychiatric condition, defined broadly enough to include stressed people without a diagnosis;
 - compare meditation with an :term[active control group]{id="active_control_group"} matched in time and attention. Trials with only a wait-list or usual-care comparison were left out.
 
-The programs fell into two families. Most were mindfulness programs: mindfulness-based stress reduction (:term{id="mbsr"}), mindfulness-based cognitive therapy (:term{id="mbct"}) and other mindfulness courses. MBSR typically gave 20–27.5 hours of training over 8 weeks, and the other mindfulness programs about half that. The rest were mantra programs, mostly :term{id="transcendental_meditation"} (TM), which gave 16–39 hours over 3–12 months. Fifteen trials studied psychiatric conditions such as anxiety, depression, chronic worry and insomnia; five studied smokers or people with alcohol problems; five studied chronic pain; and 16 studied other medical conditions, including heart disease, breast cancer, diabetes and HIV.
+The programs fell into two families. Most were mindfulness programs: mindfulness-based stress reduction (:term{id="mbsr"}), mindfulness-based cognitive therapy (:term{id="mbct"}) and other mindfulness courses. MBSR typically gave 20–27.5 hours of training over 8 weeks, and the other mindfulness programs about half that. The rest were mantra programs, mostly :term{id="transcendental_meditation"} (TM), which gave 16–39 hours over 3–12 months. Fifteen trials studied psychiatric conditions such as anxiety, depression, chronic worry and insomnia; five studied smokers or people with alcohol problems; five studied :term{id="chronic_pain" case="lower"}; and 16 studied other medical conditions, including heart disease, breast cancer, diabetes and HIV.
 
 The team split the trials by the kind of comparison:
 
 - **Nonspecific active controls**, such as health education, match the time, attention and expectations of a meditation program without being a known treatment. Beating one suggests meditation has an effect of its own, like a drug beating a placebo.
-- **Specific active controls** are established treatments, such as exercise, progressive muscle relaxation, cognitive behavioral therapy or medication. These comparisons ask whether meditation works better than something else that works.
+- **Specific active controls** are established treatments, such as exercise, :term{id="progressive_muscle_relaxation" case="lower"}, :term[cognitive behavioral therapy]{id="cbt"} or medication. These comparisons ask whether meditation works better than something else that works.
 
 For each outcome they did two things. First, where trials reported enough data, they pooled them in a :term{id="meta_analysis" case="lower"}, expressing results as a standardized :term{id="effect_size" case="lower"} with a 95% :term{id="confidence_interval" case="lower"}. Second, because many trials didn't report enough to be pooled, they also compared how much each group improved from its starting point, counting a relative difference of 5% or more as potentially meaningful. Two reviewers then graded the strength of the evidence for each outcome, weighing the trials' risk of bias, precision, consistency and directness:
 

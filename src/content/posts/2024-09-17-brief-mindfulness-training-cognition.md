@@ -26,9 +26,9 @@ study:
 
 ## Background Information
 
-By 2010, studies of experienced meditators and of people on long retreats had linked mindfulness practice to better attention, and 8-week programs such as :term[Mindfulness-Based Stress Reduction (MBSR)]{id="mbsr"} to better mood. But those programs take a lot of time, and most people will never sit a three-month retreat. The authors wanted to know whether a much briefer dose could produce some of the same benefits in complete beginners.
+By 2010, studies of experienced meditators and of people on long retreats had linked :term{id="mindfulness" case="lower"} practice to better attention, and 8-week programs such as :term[Mindfulness-Based Stress Reduction (MBSR)]{id="mbsr"} to better mood. But those programs take a lot of time, and most people will never sit a three-month retreat. The authors wanted to know whether a much briefer dose could produce some of the same benefits in complete beginners.
 
-Earlier work had hinted that it might. In a [randomized trial by Tang and colleagues](/five-days-meditation-attention-stress/), five days of 20-minute integrative body–mind training improved attention and mood in Chinese undergraduates. That method mixes several techniques, though, including mindfulness, imagery and music, so it was hard to tell which one did the work. This team had also found that three days of mindfulness training reduced pain ratings and anxiety. Here they set out to test plain breath-focused mindfulness against cognitive tasks that make different demands on :term[working memory]{id="working_memory"}, sustained attention and verbal skills.
+Earlier work had hinted that it might. In a [randomized trial by Tang and colleagues](/five-days-meditation-attention-stress/), five days of 20-minute integrative body–mind training improved attention and mood in Chinese undergraduates. That method mixes several techniques, though, including mindfulness, imagery and music, so it was hard to tell which one did the work. This team had also found that three days of mindfulness training reduced pain ratings and anxiety. Here they set out to test plain breath-focused mindfulness against cognitive tasks that make different demands on :term[working memory]{id="working_memory"}, :term{id="sustained_attention" case="lower"} and verbal skills.
 
 ## What They Did
 
@@ -45,7 +45,7 @@ Before the first session and after the fourth, everyone took four kinds of cogni
 - **Digit span:** repeat back strings of digits, forwards and then backwards.
 - **An adaptive :term[2-back task]{id="n_back"}:** watch a stream of letters and say whether each one matches the letter two before it. The program speeds up or slows down to hold each person's accuracy at a set level, then records how fast they could go and the "extended hit rate," a count of runs of correct answers.
 
-Alternate versions were used the second time for every test except the symbol-coding one. Everyone also filled in questionnaires on mindfulness (the Freiburg Mindfulness Inventory), mood (the :term[Profile of Mood States]{id="poms"}) and depression (the CES-D) at the start and end, and rated their anxiety on the :term[State Anxiety Inventory]{id="stai"} before and after every session.
+Alternate versions were used the second time for every test except the symbol-coding one. Everyone also filled in questionnaires on mindfulness (the Freiburg Mindfulness Inventory), mood (the :term[Profile of Mood States]{id="poms"}) and depression (the :term{id="ces_d"}) at the start and end, and rated their anxiety on the :term[State Anxiety Inventory]{id="stai"} before and after every session.
 
 ## One Big Result: Meditators Improved More on Three of the Six Cognitive Scores
 

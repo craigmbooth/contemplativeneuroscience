@@ -71,7 +71,7 @@ The two groups scored exactly the same on the Emotion Recognition Index (both av
 
 That conclusion comes with caveats. Emotion recognition was measured only after training, and after the seat test, so there is no before-and-after change to compare. A test of labeling emotions in photos and recordings is also a narrow slice of empathy, and a study of 56 people can't rule out a small difference. The paper didn't test whether individuals' scores related to whether they helped. The authors themselves note that longer training might change empathic abilities; their point is only that such a change isn't needed for mindfulness to make people more helpful.
 
-What might explain it instead? The authors suggest, without testing, that mindfulness could increase attention to everything in one's surroundings (citing the [three-month retreat study](/shamatha-retreat-perception-vigilance/) that found sharper perception and sustained attention), or reduce emotional biases toward oneself. They speculate that compassion meditation may work differently, through empathy and caring emotions.
+What might explain it instead? The authors suggest, without testing, that mindfulness could increase attention to everything in one's surroundings (citing the [three-month retreat study](/shamatha-retreat-perception-vigilance/) that found sharper perception and :term{id="sustained_attention" case="lower"}), or reduce emotional biases toward oneself. They speculate that compassion meditation may work differently, through empathy and caring emotions.
 
 ### Mindfulness With No Mention of Kindness
 

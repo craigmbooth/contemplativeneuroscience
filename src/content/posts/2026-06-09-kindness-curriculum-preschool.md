@@ -40,7 +40,7 @@ Seven preschool classrooms in six public elementary schools in a medium-sized Mi
 
 Randomization was by classroom, not by child, which makes this a :term[cluster-randomized trial]{id="cluster_randomized_trial"}. Three classrooms (30 children) got the Kindness Curriculum, and four classrooms (38 children) formed a :term[wait-list control group]{id="wait_list_control"}.
 
-The curriculum was built on mindfulness practice for attention and emotion regulation, combined with kindness practices such as empathy, gratitude and sharing, taught through children's books, music and movement. Experienced mindfulness instructors taught it, in a secular way, to the whole class during the regular school day: two lessons of 20 to 30 minutes a week for 12 weeks, about 10 hours in all.
+The curriculum was built on mindfulness practice for attention and :term{id="emotion_regulation" case="lower"}, combined with kindness practices such as empathy, gratitude and sharing, taught through children's books, music and movement. Experienced mindfulness instructors taught it, in a secular way, to the whole class during the regular school day: two lessons of 20 to 30 minutes a week for 12 weeks, about 10 hours in all.
 
 Before and after the 12 weeks, the researchers measured:
 

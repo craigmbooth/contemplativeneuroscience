@@ -25,13 +25,13 @@ study:
 
 ## Background Information
 
-What happens in the brain when a meditator moves through the deepest states of concentration? In the Theravada Buddhist tradition, these states are called the :term[jhanas]{id="jhana"}: a sequence of eight absorptions reached through sustained, focused attention.
+What happens in the brain when a meditator moves through the deepest states of concentration? In the :term{id="theravada"} Buddhist tradition, these states are called the :term[jhanas]{id="jhana"}: a sequence of eight absorptions reached through sustained, focused attention.
 
 The first four, the "form" jhanas, are traditionally described as moving from bliss toward contentment and then equanimity. The last four, the "formless" jhanas, leave sensory objects behind, and experience takes on qualities such as boundless space, with a growing sense of the self falling away.
 
 Neuroscience has barely looked at these states. The authors count only three earlier neuroimaging studies of jhana, including a [2013 study of a single meditator](/ecstatic-meditation-reward-system/) already covered on this site. Part of the challenge is that reports of inner experience can be unreliable. So the team used :term{id="neurophenomenology" case="lower"}, an approach that pairs careful first-person descriptions of experience with brain measurements and uses each to help interpret the other.
 
-The study tested a specific idea. Some current theories picture the brain as a hierarchy: high-level networks such as the default mode network (:term{id="dmn"}), active during self-referential thought and mind-wandering, and the frontoparietal network, involved in cognitive control, send predictions down to sensory areas. Focused-attention meditation is thought to loosen this top-down control. If so, jhana might show up as a flattening of that hierarchy.
+The study tested a specific idea. Some current theories picture the brain as a hierarchy: high-level networks such as the default mode network (:term{id="dmn"}), active during self-referential thought and :term[mind-wandering]{id="mind_wandering"}, and the frontoparietal network, involved in cognitive control, send predictions down to sensory areas. Focused-attention meditation is thought to loosen this top-down control. If so, jhana might show up as a flattening of that hierarchy.
 
 ## What They Did
 
@@ -51,13 +51,13 @@ Because an expert may drift into meditation during ordinary rest, the team built
 
 The team looked at two fMRI measures. *Modularity* describes how much a network splits into tight clusters that mostly talk among themselves, a sign of hierarchical organization. *Global functional connectivity* describes how closely a region's activity rises and falls with the rest of the brain (see :term[functional connectivity]{id="functional_connectivity"}).
 
-Compared with the two control tasks combined, modularity was lower during jhana in four of seven large-scale networks: the DMN, frontoparietal, visual and salience networks. Global connectivity was higher in six of the seven (all but the affective network) and across the brain as a whole. The changes were strongest in the formless jhanas, and the DMN in particular became more connected with other networks. The authors read this as support for the hierarchy idea:
+Compared with the two control tasks combined, modularity was lower during jhana in four of seven large-scale networks: the DMN, frontoparietal, visual and :term{id="salience_network" case="lower" plural}. Global connectivity was higher in six of the seven (all but the affective network) and across the brain as a whole. The changes were strongest in the formless jhanas, and the DMN in particular became more connected with other networks. The authors read this as support for the hierarchy idea:
 
 > Our results show that advanced meditation practices markedly dysregulate high-level brain systems via practices of enhanced attention to sensations, corroborating recent neurocognitive theories of meditation as the deconstruction of the brain's cortical hierarchy.
 
 ![Modularity (A) and global functional connectivity (B) in each brain network for the control tasks (black box, left of each panel) and each jhana (blue). Jhana showed lower modularity in the DMN, frontoparietal (FPN), visual (VN) and salience (SN) networks, and higher connectivity in most networks, especially in the formless jhanas. Asterisks mark significant differences. Reproduced from Chowdhury et al., 2025 (CC BY-NC-ND 4.0).](/assets/article_images/jhana-brain-networks/modularity-connectivity.jpg)
 
-The EEG recordings told a compatible story. During jhana, rhythmic electrical activity was weaker across much of the scalp, most clearly in the slower delta, theta and :term{id="alpha" case="lower"} frequency bands. At the same time, brain signals became more varied, as measured by :term{id="lempel_ziv_complexity"}, a count of how many distinct patterns a signal contains.
+The EEG recordings told a compatible story. During jhana, rhythmic electrical activity was weaker across much of the scalp, most clearly in the slower :term{id="delta" case="lower"}, :term{id="theta" case="lower"} and :term{id="alpha" case="lower"} frequency bands. At the same time, brain signals became more varied, as measured by :term{id="lempel_ziv_complexity"}, a count of how many distinct patterns a signal contains.
 
 ## Miscellaneous Interesting Takeaways
 

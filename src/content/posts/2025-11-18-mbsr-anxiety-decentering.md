@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-Mindfulness courses have been found to ease anxiety and stress in many groups of patients. A [meta-analysis of 142 trials](/mindfulness-psychiatric-disorders-meta-analysis/) found that, for anxiety, mindfulness-based treatments beat no treatment and did about as well as other therapies. The harder question is *how* they work. What changes in a person over eight weeks of meditation that then makes them less anxious?
+:term{id="mindfulness"} courses have been found to ease anxiety and stress in many groups of patients. A [meta-analysis of 142 trials](/mindfulness-psychiatric-disorders-meta-analysis/) found that, for anxiety, mindfulness-based treatments beat no treatment and did about as well as other therapies. The harder question is *how* they work. What changes in a person over eight weeks of meditation that then makes them less anxious?
 
 The obvious candidate is mindfulness itself, as measured by questionnaires about how attentive and non-judgmental people are toward their experience. Another is :term{id="decentering" case="lower"}. The authors, a team at Massachusetts General Hospital led by Elizabeth Hoge, define it as a "metacognitive capacity" to observe what arises in the mind (thoughts, feelings, memories) "as mere psychological events." They add that it means seeing those events as temporary, rather than as part of who you are:
 
@@ -42,17 +42,17 @@ They chose to test this in :term[generalized anxiety disorder]{id="generalized_a
 
 The data came from an earlier :term{id="randomized_controlled_trial" case="lower"} by the same group, in which adults diagnosed with GAD through a structured clinical interview were randomly assigned to one of two 8-week group courses:
 
-- **:term[Mindfulness-Based Stress Reduction (MBSR)]{id="mbsr"}**: breath awareness, body scans and gentle hatha yoga, with daily home practice guided by recordings. It was slightly shortened for this clinical group: the usual all-day retreat became 4 hours, and home practice was cut from 40 to 20 minutes a day.
+- **:term[Mindfulness-Based Stress Reduction (MBSR)]{id="mbsr"}**: breath awareness, :term{id="body_scan" case="lower" plural} and gentle hatha yoga, with daily home practice guided by recordings. It was slightly shortened for this clinical group: the usual all-day retreat became 4 hours, and home practice was cut from 40 to 20 minutes a day.
 - **Stress Management Education (SME)**: an :term{id="active_control_group" case="lower"} with no meditation or other mind-body practice. It taught healthy living through education about diet, exercise, sleep, time management and resilience, and had its own half-day session with a stability-ball exercise class and a dietitian's lecture. Its purpose was to match MBSR on group support, instructor attention and expectations of benefit.
 
 The decentering questionnaire was added after the trial had started, so only part of the trial's sample completed it. This paper analyzes that subgroup: 38 people, 19 in each course, with an average age of 37.6. The authors report that they did not differ from the full trial sample in demographics.
 
 Everyone filled in four questionnaires before and after the course:
 
-- **Anxiety**: the 21-item Beck Anxiety Inventory (BAI), scored 0 to 63.
+- **Anxiety**: the 21-item :term[Beck Anxiety Inventory]{id="beck_anxiety_inventory"} (BAI), scored 0 to 63.
 - **Worry**: the 15-item Penn State Worry Questionnaire–Past Week (PSWQ-PW).
 - **Decentering**: the 11-item decentering subscale of the Experiences Questionnaire, scored 11 to 55, with higher scores meaning more decentering. The paper doesn't list its items.
-- **Mindfulness**: the 39-item Five Facet Mindfulness Questionnaire (FFMQ), which also yields scores for five facets: observing, describing, acting with awareness, non-judging and non-reactivity to inner experience.
+- **Mindfulness**: the 39-item :term[Five Facet Mindfulness Questionnaire]{id="ffmq"} (FFMQ), which also yields scores for five facets: observing, describing, acting with awareness, non-judging and non-reactivity to inner experience.
 
 The key analysis was a :term{id="mediation_analysis" case="lower"}. It asks whether the difference between the courses in how much anxiety fell can be traced, statistically, through how much each course changed decentering or mindfulness. The authors used :term{id="bootstrapping" case="lower"}, resampling their data 4,000 times to build a :term{id="confidence_interval" case="lower"} around each indirect effect. An indirect effect counted as significant if its 95% confidence interval did not include zero. They tested each mediator on its own and then both together, to see which one still carried the effect when the other was accounted for.
 
@@ -101,7 +101,7 @@ Every measure was also a self-report questionnaire, so a general shift in how pe
 
 ### Who Ran the Study
 
-The work was funded mainly by a U.S. National Institutes of Health grant. One author listed consulting and research grants, and spousal equity in several companies. The others declared no conflicts of interest. One co-author, David Fresco, led the paper that validated the decentering questionnaire used here, and co-authored the papers on emotion regulation therapy, which the discussion offers as an example of a treatment designed to build decentering. That doesn't undermine the analysis, but it is useful context.
+The work was funded mainly by a U.S. National Institutes of Health grant. One author listed consulting and research grants, and spousal equity in several companies. The others declared no conflicts of interest. One co-author, David Fresco, led the paper that validated the decentering questionnaire used here, and co-authored the papers on :term{id="emotion_regulation" case="lower"} therapy, which the discussion offers as an example of a treatment designed to build decentering. That doesn't undermine the analysis, but it is useful context.
 
 ## Final Reflection
 

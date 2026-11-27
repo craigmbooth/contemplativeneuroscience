@@ -26,13 +26,13 @@ study:
 
 ## Background Information
 
-Most evidence that mindfulness programs help health rests on what people say about themselves: less stress, less pain, better sleep. Self-reports are useful, but they can be biased, and they don't show whether anything has changed in the body. The immune system is an obvious place to look. Chronic :term{id="inflammation" case="lower"} and weakened immune defenses have been implicated in illnesses from asthma and rheumatoid arthritis to metabolic disorders, some cancers and depression, and chronic stress can weaken immune defenses.
+Most evidence that :term{id="mindfulness" case="lower"} programs help health rests on what people say about themselves: less stress, less pain, better sleep. Self-reports are useful, but they can be biased, and they don't show whether anything has changed in the body. The immune system is an obvious place to look. Chronic :term{id="inflammation" case="lower"} and weakened immune defenses have been implicated in illnesses from asthma and rheumatoid arthritis to metabolic disorders, some cancers and depression, and chronic stress can weaken immune defenses.
 
 By 2015, a scattering of randomized trials had measured immune markers before and after mindfulness training, but nobody had pulled them together. David Black and George Slavich set out to do that. They limited themselves to :term[randomized controlled trials]{id="randomized_controlled_trial"}, where people are assigned to mindfulness or a comparison group by chance, so that differences afterwards are more likely to come from the training itself.
 
 ## What They Did
 
-This is a :term{id="systematic_review" case="lower"}: the authors searched for every trial that met rules set in advance, then described what each one found. It is not a :term{id="meta_analysis" case="lower"}. They didn't combine the results statistically into an overall effect size; they tallied, marker by marker, how many trials found a change.
+This is a :term{id="systematic_review" case="lower"}: the authors searched for every trial that met rules set in advance, then described what each one found. It is not a :term{id="meta_analysis" case="lower"}. They didn't combine the results statistically into an overall :term{id="effect_size" case="lower"}; they tallied, marker by marker, how many trials found a change.
 
 The search covered papers from January 1966 to July 2015 in the American Mindfulness Research Association's database, which collects mindfulness studies from PubMed, PsycINFO, Web of Science and other sources, using terms such as immune, inflammation, cytokine and telomere. The authors also checked bibliographies, journal contents pages and suggestions from other researchers. A trial counted if it was randomized, made mindfulness meditation the main part of the program, measured an immune marker objectively and was published in English. Six non-randomized studies were set aside.
 
@@ -58,12 +58,12 @@ The authors set a bar for calling an effect replicated: at least three trials fi
 
 Looking at each of the four more closely shows how tentative the support is:
 
-- **NF-κB.** All three trials that measured it found lower activity after training. Two compared mindfulness with a wait-list group: one in breast cancer patients, the other in lonely older adults. In the third, a [sleep trial in older adults](/meditation-sleep-older-adults/) led by Black himself, NF-κB also fell significantly in the sleep hygiene comparison group.
+- **NF-κB.** All three trials that measured it found lower activity after training. Two compared mindfulness with a :term[wait-list group]{id="wait_list_control"}: one in breast cancer patients, the other in lonely older adults. In the third, a [sleep trial in older adults](/meditation-sleep-older-adults/) led by Black himself, NF-κB also fell significantly in the :term{id="sleep_hygiene" case="lower"} comparison group.
 - **CRP.** Six trials measured it and three found reductions. One of those was only in ulcerative colitis patients whose illness hadn't flared, and the other two were trends that fell short of significance. The other three trials found no change.
 - **CD4+ T cells.** Four trials counted T cells in blood, and all found more of them, more activated ones, or a smaller decline than in the comparison group. Three of the four were in people with HIV, for whom CD4+ T-cell counts are a standard measure of how far the disease has progressed.
 - **Telomerase.** All three trials that measured it found higher activity, at least at the trend level. They were a three-month retreat ([Jacobs et al., 2011](/immune-telemorase-psychological-mediators/)), a trial in women with overweight or obesity, and a trial in breast cancer patients. In the overweight trial, the rise was a trend seen only among the women who stuck most closely to the program.
 
-Everything else, the authors write, either showed no effect or wasn't replicated. That covers IL-6, IL-8, IL-10, TNF-α, interferon, antibodies and most cell counts. Not every single result pointed toward less inflammation. One trial found relatively *higher* IL-8, an inflammatory signal, in nasal fluid from older adults with acute respiratory infections after mindfulness training than after exercise.
+Everything else, the authors write, either showed no effect or wasn't replicated. That covers IL-6, :term{id="il_8"}, IL-10, TNF-α, interferon, antibodies and most cell counts. Not every single result pointed toward less inflammation. One trial found relatively *higher* IL-8, an inflammatory signal, in nasal fluid from older adults with acute respiratory infections after mindfulness training than after exercise.
 
 The authors' own summary is cautious:
 

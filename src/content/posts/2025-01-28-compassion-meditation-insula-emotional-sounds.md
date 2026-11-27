@@ -86,7 +86,7 @@ The discussion opens by saying that "All participants exhibited stronger neural 
 
 ## Final Reflection
 
-This was an early look at what the brain does when compassion is deliberately cultivated rather than spontaneously felt. While highly experienced practitioners generated compassion, the sound of a distressed person drew a stronger response in their insula, a region tied to feeling emotions in the body, than it did in novices. Regions tied to understanding others' minds, such as the right TPJ, also responded much more. The authors point out that EEG data from "the same group of long-term meditators during the same meditation" had shown the [unusually strong gamma waves](/high-amplitude-gamma-synchrony/) reported in 2004.
+This was an early look at what the brain does when compassion is deliberately cultivated rather than spontaneously felt. While highly experienced practitioners generated compassion, the sound of a distressed person drew a stronger response in their insula, a region tied to feeling emotions in the body, than it did in novices. Regions tied to understanding others' minds, such as the right TPJ, also responded much more. The authors point out that :term{id="eeg"} data from "the same group of long-term meditators during the same meditation" had shown the [unusually strong gamma waves](/high-amplitude-gamma-synchrony/) reported in 2004.
 
 The study's limits are the ones that come with comparing experts to beginners at a single point in time. The authors say so plainly:
 

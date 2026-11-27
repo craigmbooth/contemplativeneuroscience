@@ -25,7 +25,7 @@ study:
 
 ## Background Information
 
-Stress shows up in the blood. When people are put through a stressful task in the lab, their levels of stress hormones such as :term{id="cortisol" case="lower"} and :term[adrenocorticotropic hormone (ACTH)]{id="acth"} rise, and so do inflammation markers such as :term{id="il_6"} and :term{id="tnf_alpha"}. The authors, a team at Massachusetts General Hospital led by Elizabeth Hoge, point out that chronic or repeated stress has been tied to abnormal levels of these hormones and markers, and that those abnormalities have in turn been tied to heart disease and metabolic syndrome.
+Stress shows up in the blood. When people are put through a stressful task in the lab, their levels of stress hormones such as :term{id="cortisol" case="lower"} and :term[adrenocorticotropic hormone (ACTH)]{id="acth"} rise, and so do :term{id="inflammation" case="lower"} markers such as :term{id="il_6"} and :term{id="tnf_alpha"}. The authors, a team at Massachusetts General Hospital led by Elizabeth Hoge, point out that chronic or repeated stress has been tied to abnormal levels of these hormones and markers, and that those abnormalities have in turn been tied to heart disease and metabolic syndrome.
 
 People with :term{id="generalized_anxiety_disorder"} live with persistent, hard-to-control worry, and their bodies may overreact to stress too:
 
@@ -81,7 +81,7 @@ The abstract puts it more simply, saying "the MBSR group had a greater reduction
 
 ### Why Measure the Body at All?
 
-The authors argue that biology can catch what questionnaires miss. People's ratings of their own anxiety can be biased, they write, especially in GAD, where some patients may find it hard to notice or describe what is going on inside them. They cite a review finding that only about 25% of TSST studies found a correlation between stress hormone levels and how stressed people said they felt. In the clinical results of the same trial, the authors note, participants' ratings of their stress had fallen more after MBSR than after SME. This paper adds a blood measure that moved the same way, although it doesn't report whether the people whose ACTH fell most were the ones who felt better.
+The authors argue that biology can catch what questionnaires miss. People's ratings of their own anxiety can be biased, they write, especially in GAD, where some patients may find it hard to notice or describe what is going on inside them. They cite a review finding that only about 25% of TSST studies found a :term{id="correlation" case="lower"} between stress hormone levels and how stressed people said they felt. In the clinical results of the same trial, the authors note, participants' ratings of their stress had fallen more after MBSR than after SME. This paper adds a blood measure that moved the same way, although it doesn't report whether the people whose ACTH fell most were the ones who felt better.
 
 ### A Possible Link to Physical Health, Not Tested Here
 
@@ -97,7 +97,7 @@ The trial was registered at ClinicalTrials.gov (NCT01033851) and funded mainly b
 
 ## Final Reflection
 
-This trial tested whether mindfulness changes the body's stress response in people with an anxiety disorder, against a class that offered a group setting and attention without meditation. After MBSR, the stress hormone ACTH rose less during a public-speaking test than it had before the course, while after the class it rose more, and two inflammation markers showed the same opposite movement. The authors conclude:
+This trial tested whether :term{id="mindfulness" case="lower"} changes the body's stress response in people with an anxiety disorder, against a class that offered a group setting and attention without meditation. After MBSR, the stress hormone ACTH rose less during a public-speaking test than it had before the course, while after the class it rose more, and two inflammation markers showed the same opposite movement. The authors conclude:
 
 > these findings suggest that mindfulness meditation training, a relatively inexpensive and low-stigma treatment approach, may be a helpful strategy to decrease biological stress reactivity and improve resilience to stressors in patients with GAD.
 

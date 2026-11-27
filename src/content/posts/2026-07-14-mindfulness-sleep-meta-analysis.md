@@ -32,24 +32,24 @@ Poor sleep is common and costly. The authors cite estimates that sleep disturban
 
 :term{id="mindfulness"} offers another possible route. Often described as paying attention on purpose, in the present moment, and without judgment, it has been shown to reduce rumination (repetitive, stuck thinking) and emotional reactivity, both of which can feed sleeplessness.
 
-Earlier :term[meta-analyses]{id="meta_analysis"}, studies that statistically combine the results of many trials, disagreed, with findings ranging from no effect to a moderate benefit. Some included non-randomized studies. Others lumped waitlist groups together with active comparison programs, which made it hard to separate meditation's own contribution from the general boost of attention, support, and expectation that comes with joining any program.
+Earlier :term[meta-analyses]{id="meta_analysis"}, studies that statistically combine the results of many trials, disagreed, with findings ranging from no effect to a moderate benefit. Some included non-randomized studies. Others lumped :term[waitlist groups]{id="wait_list_control"} together with active comparison programs, which made it hard to separate meditation's own contribution from the general boost of attention, support, and expectation that comes with joining any program.
 
 ## What They Did
 
 The team, based at the U.S. National Institutes of Health, searched four research databases for studies published through May 2018. From 3,303 records, they kept 18 :term{id="randomized_controlled_trial" case="lower" plural} published between 2010 and 2018, with 1,654 adult participants in total. Every trial enrolled people with clinically significant sleep problems and taught an in-person, multi-session mindfulness program. One of them was the older-adults trial covered here in [Black et al., 2015](/meditation-sleep-older-adults/).
 
-Half the programs were :term{id="mbsr"} (9 trials), followed by mindfulness-based cognitive therapy (MBCT, which blends mindfulness with cognitive therapy; 3 trials) and mind–body bridging (3 trials). Weekly classes ran 1–2.5 hours for 2–16 weeks, and all trials encouraged home practice.
+Half the programs were :term{id="mbsr"} (9 trials), followed by :term[mindfulness-based cognitive therapy]{id="mbct"} (MBCT, which blends mindfulness with cognitive therapy; 3 trials) and mind–body bridging (3 trials). Weekly classes ran 1–2.5 hours for 2–16 weeks, and all trials encouraged home practice.
 
 The key design choice was to leave out waitlist and usual-care comparisons, keeping only trials with an :term[active control group]{id="active_control_group"}, and to split those by what the comparison group did:
 
-- **Established sleep treatments** (7 trials): treatments already known to help sleep, such as CBT-I, sleep medication, exercise, or progressive muscle relaxation.
-- **Matched programs** (11 trials): classes matched for time and attention but not built to treat sleep, such as health education or sleep hygiene classes.
+- **Established sleep treatments** (7 trials): treatments already known to help sleep, such as CBT-I, sleep medication, exercise, or :term{id="progressive_muscle_relaxation" case="lower"}.
+- **Matched programs** (11 trials): classes matched for time and attention but not built to treat sleep, such as health education or :term{id="sleep_hygiene" case="lower"} classes.
 
 Because trials used different questionnaires, mainly the :term[Pittsburgh Sleep Quality Index]{id="psqi"} (PSQI), the team converted results to a standardized :term{id="effect_size" case="lower"} (Hedges' *g*), which expresses the difference between groups in standard-deviation units. They also graded how much confidence the evidence deserved.
 
 ## One Big Result: Mindfulness Outperformed Matched Programs, and the Gap Held at Follow-Up
 
-Across the 11 trials with time- and attention-matched comparison programs, mindfulness improved sleep quality more than the comparison did. Right after the programs ended, the effect size was 0.33 (95% confidence interval 0.17 to 0.48), conventionally considered small. Put another way, the mindfulness groups improved by about a third of a standard deviation more than the comparison groups.
+Across the 11 trials with time- and attention-matched comparison programs, mindfulness improved sleep quality more than the comparison did. Right after the programs ended, the effect size was 0.33 (95% :term{id="confidence_interval" case="lower"} 0.17 to 0.48), conventionally considered small. Put another way, the mindfulness groups improved by about a third of a standard deviation more than the comparison groups.
 
 Three of these trials also checked in 5–12 months later. There the effect size was 0.54 (95% confidence interval 0.24 to 0.84), in the medium range. The trials largely agreed with one another, and the team rated this body of evidence as moderate in strength.
 

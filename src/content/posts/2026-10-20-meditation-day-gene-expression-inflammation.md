@@ -35,11 +35,11 @@ One layer of control over gene activity is :term{id="epigenetics" case="lower"}:
 
 ## What They Did
 
-The researchers compared two groups. The 19 meditators had practiced daily for at least three years, at least 30 minutes a day, and had attended at least three retreats of five days or more. They averaged about 6,240 hours of lifetime practice (from 1,440 to 14,730), in :term{id="vipassana"}, concentration and compassion (metta) practices from the Theravada and Tibetan Buddhist traditions. The 21 controls had never meditated; they had answered an advertisement for a study of a well-being program. The two groups had a similar spread of age, gender, race and body-mass index, and the paper lists exclusions for immune, inflammatory and mental disorders, ongoing medical problems and regular medication.
+The researchers compared two groups. The 19 meditators had practiced daily for at least three years, at least 30 minutes a day, and had attended at least three retreats of five days or more. They averaged about 6,240 hours of lifetime practice (from 1,440 to 14,730), in :term{id="vipassana"}, concentration and compassion (metta) practices from the :term{id="theravada"} and Tibetan Buddhist traditions. The 21 controls had never meditated; they had answered an advertisement for a study of a well-being program. The two groups had a similar spread of age, gender, race and :term[body-mass index]{id="bmi"}, and the paper lists exclusions for immune, inflammatory and mental disorders, ongoing medical problems and regular medication.
 
 Everyone spent one day, from 8 am to 4 pm, at the university's Center for Investigating Healthy Minds, in small groups of four that included both meditators and controls. The meditators followed a program modeled on the all-day session of an :term[MBSR]{id="mbsr"} course, built around recorded teachings by the Vipassana teacher Joseph Goldstein: talks, guided and unguided sitting meditation, walking meditation and a mindful lunch. The controls read, watched documentaries, played computer games and went for walks, with no phones or internet. The two programs were matched for physical activity, the rooms were balanced across groups, everyone ate the same food, and participants didn't interact with one another.
 
-Blood was drawn at 8 am and 4 pm. From each sample, the team isolated peripheral blood mononuclear cells, the white blood cells with a single round nucleus (mainly lymphocytes and monocytes), and measured the activity of 23 genes in three sets:
+Blood was drawn at 8 am and 4 pm. From each sample, the team isolated peripheral blood mononuclear cells, the white blood cells with a single round nucleus (mainly lymphocytes and :term{id="monocyte" case="lower" plural}), and measured the activity of 23 genes in three sets:
 
 - **7 body-clock genes**, to check whether a day of sitting with eyes closed disturbed the cells' daily rhythm;
 - **10 genes for chromatin-modifying enzymes**, including five HDACs and enzymes that add or remove other histone and DNA marks;
@@ -69,7 +69,7 @@ The numbers are each group's average mRNA level for the gene, measured relative 
 
 The other 18 genes didn't differ between the groups by 4 pm. They included the seven body-clock genes, two other HDACs (HDAC1 and HDAC5), the related enzyme SIRT1, four enzymes that add or remove other histone and DNA marks, and four inflammation-related genes: IL-6, TNF-α and two genes for receptors that guide immune cells (CCR7 and CXCR1). The authors note that CCR7, CXCR1 and TNF-α tended to be lower in the meditators after the day, but none of the differences reached significance. So the anti-inflammatory pattern the authors describe rests on two genes, not on the classic inflammatory signals that most studies measure in blood.
 
-The two inflammation-related genes tracked the HDAC genes. Across all 40 participants, those whose RIPK2 activity was lower also had lower HDAC2, HDAC3 and HDAC9 activity (partial correlations above 0.64, after accounting for group). That fits the authors' idea that lower HDAC activity could quiet inflammatory genes, but it is a correlation between genes measured in the same blood, not evidence that one caused the other.
+The two inflammation-related genes tracked the HDAC genes. Across all 40 participants, those whose RIPK2 activity was lower also had lower HDAC2, HDAC3 and HDAC9 activity (partial :term{id="correlation" case="lower" plural} above 0.64, after accounting for group). That fits the authors' idea that lower HDAC activity could quiet inflammatory genes, but it is a correlation between genes measured in the same blood, not evidence that one caused the other.
 
 ## Miscellaneous Interesting Takeaways
 
@@ -91,7 +91,7 @@ Several details make this result hard to interpret. The two groups' second stres
 
 ### Twenty-Three Genes, Five Differences
 
-With 23 genes tested, some differences could turn up by chance alone, the problem of :term[multiple comparisons]{id="multiple_comparisons"}. The authors re-estimated each result by bootstrapping (resampling their data 1,000 times) and describe this as controlling for multiple comparisons. Bootstrapping checks how stable each estimate is, but it doesn't raise the bar for significance to account for the number of tests. A strict Bonferroni correction for 23 genes would require p below about 0.002. Only HDAC9 (p < 0.001) and RIPK2 (p = 0.001) meet it; HDAC3 (p = 0.003), COX2 (p = 0.007) and HDAC2 (p = 0.022) don't. With 19 and 21 people, the study also had little power to detect smaller differences in the genes that didn't change.
+With 23 genes tested, some differences could turn up by chance alone, the problem of :term[multiple comparisons]{id="multiple_comparisons"}. The authors re-estimated each result by :term{id="bootstrapping" case="lower"} (resampling their data 1,000 times) and describe this as controlling for multiple comparisons. Bootstrapping checks how stable each estimate is, but it doesn't raise the bar for significance to account for the number of tests. A strict Bonferroni correction for 23 genes would require p below about 0.002. Only HDAC9 (p < 0.001) and RIPK2 (p = 0.001) meet it; HDAC3 (p = 0.003), COX2 (p = 0.007) and HDAC2 (p = 0.022) don't. With 19 and 21 people, the study also had little power to detect smaller differences in the genes that didn't change.
 
 ### The Body Clock Kept Time
 
@@ -99,7 +99,7 @@ Gene activity in blood cells rises and falls over the day, which is why comparin
 
 ### What It Might Mean for Health, According to the Authors
 
-The authors point out that HDAC inhibitors and COX2 inhibitors are both used or studied as anti-inflammatory drugs, and suggest that meditation may act on similar pathways. They connect this to earlier evidence that meditation eases pain, and to other studies in which meditation programs were followed by lower activity of the inflammatory NF-κB pathway in blood cells. These are hypotheses for later studies, not findings of this one: the participants were healthy, inflammation in the body (such as inflammatory proteins in the blood) wasn't measured, and gene activity was tracked for only eight hours, so it's unknown whether the differences lasted.
+The authors point out that HDAC inhibitors and COX2 inhibitors are both used or studied as anti-inflammatory drugs, and suggest that meditation may act on similar pathways. They connect this to earlier evidence that meditation eases pain, and to other studies in which meditation programs were followed by lower activity of the inflammatory :term{id="nf_kb"} pathway in blood cells. These are hypotheses for later studies, not findings of this one: the participants were healthy, inflammation in the body (such as inflammatory proteins in the blood) wasn't measured, and gene activity was tracked for only eight hours, so it's unknown whether the differences lasted.
 
 ## Final Reflection
 

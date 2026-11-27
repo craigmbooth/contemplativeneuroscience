@@ -29,7 +29,7 @@ study:
 
 Compassion, one of the four :term{id="brahmaviharas"} or “divine abodes” in Buddhist practice, has long been regarded as a vital quality for both personal well-being and social harmony. Traditionally, it is cultivated alongside loving-kindness, empathetic joy, and equanimity, forming a cornerstone of contemplative life. Yet beyond its spiritual significance, compassion (generally described as the emotional response of caring for and wishing to alleviate others' suffering) also plays a big role in fostering cooperation and altruism within societies.
 
-While contemplative traditions have long claimed that compassion can be enhanced through meditation, modern scientific evidence examining the direct impact of such training on behavior and brain function remains sparse.  This study explored whether compassion training could systematically increase altruistic behavior and, crucially, whether this behavioral shift would be reflected in changes in brain activity related to emotion regulation and social cognition.
+While contemplative traditions have long claimed that compassion can be enhanced through meditation, modern scientific evidence examining the direct impact of such training on behavior and brain function remains sparse.  This study explored whether compassion training could systematically increase altruistic behavior and, crucially, whether this behavioral shift would be reflected in changes in brain activity related to :term{id="emotion_regulation" case="lower"} and social cognition.
 
 ## What They Did
 
@@ -51,7 +51,7 @@ The key finding was that participants in the compassion training group exhibited
 
 > Compassion trainees spent 1.84 times more money than reappraisal trainees ($1.14 vs. $0.62, respectively) and increased the distribution between the dictator and the victim by 57%.
 
-This increase in altruistic behavior was linked to changes in specific brain regions involved in empathy, emotional regulation, and reward processing. Notably, greater activity in the inferior parietal cortex and dorsolateral prefrontal cortex (DLPFC) was associated with increased generosity in the compassion group. In addition, stronger connections between the DLPFC and the nucleus accumbens (a brain region associated with reward) were also tied to greater altruism.
+This increase in altruistic behavior was linked to changes in specific brain regions involved in empathy, emotional regulation, and reward processing. Notably, greater activity in the inferior parietal cortex and :term[dorsolateral prefrontal cortex]{id="dlpfc"} (DLPFC) was associated with increased generosity in the compassion group. In addition, stronger connections between the DLPFC and the nucleus accumbens (a brain region associated with reward) were also tied to greater altruism.
 
 These neural shifts suggest that compassion training enhances both the capacity to recognize others' suffering and the willingness to take action to alleviate it.
 

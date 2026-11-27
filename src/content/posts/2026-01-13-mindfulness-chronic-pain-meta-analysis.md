@@ -28,13 +28,13 @@ study:
 
 :term[Chronic pain]{id="chronic_pain"}, usually defined as pain lasting more than three months or past the normal time for tissues to heal, is one of medicine's most stubborn problems. The paper cites an Institute of Medicine estimate that pain costs the United States at least $560–635 billion a year in health care and lost productivity. Chronic pain often comes with depression and with dependence on pain medication, which has pushed interest toward treatments that can be used alongside drugs or instead of them.
 
-Mindfulness meditation is one of those treatments, most often taught through 8-week courses such as mindfulness-based stress reduction (:term{id="mbsr"}). Earlier reviews had found encouraging results, but their authors kept running into the same problem: many trials were small or poorly run, and they concluded that better research was needed before mindfulness could be recommended for chronic pain.
+:term{id="mindfulness"} meditation is one of those treatments, most often taught through 8-week courses such as mindfulness-based stress reduction (:term{id="mbsr"}). Earlier reviews had found encouraging results, but their authors kept running into the same problem: many trials were small or poorly run, and they concluded that better research was needed before mindfulness could be recommended for chronic pain.
 
 Lara Hilton and colleagues at the RAND Corporation, in a review funded by the US Department of Defense, set out to bring the evidence together with a registered protocol and a formal rating of how much it could be trusted.
 
 ## What They Did
 
-The team searched four research databases for English-language :term[randomized controlled trials]{id="randomized_controlled_trial"} published up to June 2016. To qualify, a trial had to enroll adults with chronic pain, test a program that involved formal mindfulness meditation, and report pain or the use of pain medication. Programs such as yoga, tai chi and transcendental meditation were excluded unless they referred to mindfulness, and so was :term[acceptance and commitment therapy]{id="act"}, which teaches mindfulness skills without requiring formal meditation. Two reviewers independently screened the studies and extracted the data, and each trial's quality was rated good, fair or poor.
+The team searched four research databases for English-language :term[randomized controlled trials]{id="randomized_controlled_trial"} published up to June 2016. To qualify, a trial had to enroll adults with chronic pain, test a program that involved formal mindfulness meditation, and report pain or the use of pain medication. Programs such as yoga, tai chi and :term{id="transcendental_meditation" case="lower"} were excluded unless they referred to mindfulness, and so was :term[acceptance and commitment therapy]{id="act"}, which teaches mindfulness skills without requiring formal meditation. Two reviewers independently screened the studies and extracted the data, and each trial's quality was rated good, fair or poor.
 
 From 755 records, 38 trials met the criteria. Together they randomized 3,536 people, with trials ranging from 19 to 342 participants. The most common conditions were :term{id="fibromyalgia" case="lower"} and back pain (eight trials each), followed by headache or migraine, arthritis, irritable bowel syndrome and cancer. Twenty-one trials tested MBSR, six tested mindfulness-based cognitive therapy (:term{id="mbct"}), and eleven tested other mindfulness programs. Most programs lasted 8 weeks.
 
@@ -85,11 +85,11 @@ An earlier review by [Goyal and colleagues](/meditation-stress-meta-analysis/) d
 
 Only four trials reported on the use of pain medication, and the results were mixed. One trial of MBSR for pain after failed back surgery found that participants cut their use of painkillers more than the control group did, while two back-pain trials found no difference. The fourth was an early trial of Mindfulness-Oriented Recovery Enhancement (:term{id="more"}) in people with chronic pain who were misusing prescribed opioids. Right after treatment, MORE participants were more likely to no longer meet criteria for :term{id="opioid_use_disorder" case="lower"}, but the difference had faded three months later. A [later, larger trial of MORE](/more-opioid-misuse-chronic-pain/) followed people for nine months.
 
-Side effects were barely measured. Four trials said no adverse events occurred. In one, two participants felt temporary strong anger toward their pain condition and two felt more anxious, and two others recorded mild side effects from yoga and progressive muscle relaxation. The authors are blunt about what this does and doesn't show:
+:term[Side effects]{id="meditation_adverse_effects"} were barely measured. Four trials said no adverse events occurred. In one, two participants felt temporary strong anger toward their pain condition and two felt more anxious, and two others recorded mild side effects from yoga and :term{id="progressive_muscle_relaxation" case="lower"}. The authors are blunt about what this does and doesn't show:
 
 > However, only 7 of the 38 included RCTs mentioned whether adverse events were monitored and collected. Thus quality of evidence for adverse events reported in RCTs is inadequate for a comprehensive assessment.
 
-They note published reports of adverse events during meditation, including psychosis, and they ask future trials to collect this information actively.
+They note published reports of adverse events during meditation, including :term{id="psychosis" case="lower"}, and they ask future trials to collect this information actively.
 
 ### The Trials Had Many Weaknesses
 

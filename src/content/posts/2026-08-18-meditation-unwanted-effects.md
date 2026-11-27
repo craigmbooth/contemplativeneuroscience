@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-By the 2010s, many studies had documented benefits from meditation and mindfulness courses, but their harms had barely been counted. What the literature held was mostly case reports of severe reactions, such as psychosis, and trials that seldom reported unwanted effects at all. Ausiàs Cebolla of the University of Valencia and colleagues in Spain and Brazil argued that the spread of mindfulness in the West had come with "a gentle, positive vision of the technique, without the necessary balance related to the negative consequences of any practice."
+By the 2010s, many studies had documented benefits from meditation and :term{id="mindfulness" case="lower"} courses, but their harms had barely been counted. What the literature held was mostly case reports of severe reactions, such as :term{id="psychosis" case="lower"}, and trials that seldom reported unwanted effects at all. Ausiàs Cebolla of the University of Valencia and colleagues in Spain and Brazil argued that the spread of mindfulness in the West had come with "a gentle, positive vision of the technique, without the necessary balance related to the negative consequences of any practice."
 
 Their aim was to estimate how often meditators experience what they called unwanted effects, a broad term for :term[meditation-related adverse effects]{id="meditation_adverse_effects"}, and to see whether the type, frequency or years of practice made a difference. They went in with three predictions: unwanted effects would be few, mild and temporary; they would be more frequent with more practice; and some types of meditation would be more prone to them than others.
 
@@ -34,11 +34,11 @@ The same year, [Lindahl and colleagues](/meditation-adverse-effects-survey/) pub
 
 ## What They Did
 
-The team built an online survey and shared it from April 2013 to July 2015 through Spanish-, English- and Portuguese-language research websites on mindfulness and meditation, local and national mindfulness associations, Zen monasteries and the websites of meditation groups (sanghas). The invitation said the research was to "study the occurrence of certain unexpected (not normally expected) and/or unwanted effects during the practice of meditation or mindfulness".
+The team built an online survey and shared it from April 2013 to July 2015 through Spanish-, English- and Portuguese-language research websites on mindfulness and meditation, local and national mindfulness associations, :term{id="zen"} monasteries and the websites of meditation groups (sanghas). The invitation said the research was to "study the occurrence of certain unexpected (not normally expected) and/or unwanted effects during the practice of meditation or mindfulness".
 
 Of 914 people who opened the link, most of them Spanish speakers, 908 agreed to take part. The team then excluded 509 who did not complete the survey or answer it correctly, and 57 with less than two months of meditation experience, the minimum the authors judged necessary to learn to meditate. That left 342 participants. Their mean age was 39.7, and 68.4% were women. 42.9% were from Spain, about a third from Latin America (including 6.5% from Brazil), 7.3% from the US and Canada and 5.8% from the UK. Most (87.7%) had a university degree. At the time of the survey, 16.6% said they were experiencing depressive symptoms and 23.4% anxiety symptoms.
 
-Participants described how often they did six kinds of practice: focused attention (keeping attention on one object, such as the breath), open monitoring (open awareness of whatever arises), body awareness, compassion, imagination, and informal practice (bringing mindfulness into daily activities). Informal practice was the most common daily practice (46.8% did it every day), followed by focused attention (30%). Compassion was the least practiced: 57.3% never did it.
+Participants described how often they did six kinds of practice: :term{id="focused_attention" case="lower"} (keeping attention on one object, such as the breath), :term{id="open_monitoring" case="lower"} (open awareness of whatever arises), body awareness, compassion, imagination, and informal practice (bringing mindfulness into daily activities). Informal practice was the most common daily practice (46.8% did it every day), followed by focused attention (30%). Compassion was the least practiced: 57.3% never did it.
 
 The key measure was a single question with a yes or no answer:
 
@@ -80,7 +80,7 @@ The paper says the severity of the effects "varies considerably," but the survey
 The abstract reports that unwanted effects were more often linked to practicing alone, to focused attention meditation and to sessions of more than 20 minutes. These figures come only from the people who reported an effect and said where or how it happened:
 
 - **Setting:** of 57 who said, 36 were practicing alone, 12 were on retreat and 9 were in a group.
-- **Practice:** of 40 who named one, 15 were doing focused attention, 8 open monitoring, 7 a body scan, 7 mantra meditation, 2 yogic breathing (pranayama) and 1 awareness of emotions.
+- **Practice:** of 40 who named one, 15 were doing focused attention, 8 open monitoring, 7 a :term{id="body_scan" case="lower"}, 7 :term{id="mantra" case="lower"} meditation, 2 yogic breathing (pranayama) and 1 awareness of emotions.
 - **Session length:** of 23 who gave one, 9 were meditating for more than 40 minutes, 9 for 21–40 minutes, 1 for 16–20 minutes and 4 for 5–15 minutes.
 
 Without knowing how much of their practice time people spent in each setting or style, these counts can't show that any of them is riskier. Focused attention, for instance, was the most widely practiced formal style in the sample: 81% did it at least once a month, against 43% for compassion. It would come up most often even if it were no riskier than the others. The authors make this point about practice settings and session length:
@@ -89,7 +89,7 @@ Without knowing how much of their practice time people spent in each setting or 
 
 ### Few Predictors Held Up
 
-The formal tests found little. Whether someone said yes was not related to current anxiety or depressive symptoms, to years of practice, to how they had learned to meditate (self-taught, from a religious teacher, in therapy, or on a secular course) or to their cultural background. For how often people did each of the six kinds of practice, only one link was significant: people who practiced body awareness more often reported *fewer* unwanted effects. The paper gives no group percentages or effect size for this, and it was one of at least a dozen tests (frequency and years for each of six practices) with no correction for :term[multiple comparisons]{id="multiple_comparisons" case="lower"}, so it could be a chance finding.
+The formal tests found little. Whether someone said yes was not related to current anxiety or depressive symptoms, to years of practice, to how they had learned to meditate (self-taught, from a religious teacher, in therapy, or on a secular course) or to their cultural background. For how often people did each of the six kinds of practice, only one link was significant: people who practiced body awareness more often reported *fewer* unwanted effects. The paper gives no group percentages or :term{id="effect_size" case="lower"} for this, and it was one of at least a dozen tests (frequency and years for each of six practices) with no correction for :term[multiple comparisons]{id="multiple_comparisons" case="lower"}, so it could be a chance finding.
 
 That leaves the second prediction, more practice bringing more unwanted effects, without support from the tests. The discussion nonetheless says the study "confirmed our second hypothesis that a higher frequency of practice may generate more UEs, especially in terms of the duration of the session," which rests on the session-length counts above rather than on a comparison. Similarly, the discussion says focused attention went with higher checklist scores for "greater self-criticism" and "feeling that the time not spent meditating is wasted," but the results section reports no such analysis.
 

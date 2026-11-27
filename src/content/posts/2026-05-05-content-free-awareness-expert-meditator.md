@@ -57,7 +57,7 @@ Based on that account, the team treated the last five minutes of the meditation 
 
 ![Timeline of the session. Five minutes of rest were followed by three 3-minute focus runs (sound, memory, body; not analyzed) and 30 minutes of meditation. The analysis compared rest, five minutes from the middle of the meditation ("content-related meditation") and the last five minutes ("content-free awareness"), which were chosen from the meditator's interview afterward. Drawn from the procedure described in Winter et al., 2020.](/assets/article_images/content-free-awareness-expert-meditator/protocol-timeline.jpg)
 
-From the EEG, they measured two rhythms often linked to meditation: :term{id="theta" case="lower"} (4–8 Hz) and :term{id="alpha" case="lower"} (8–12 Hz). From the fMRI, they measured :term{id="functional_connectivity" case="lower"} between the hubs of two networks: the default mode network (:term{id="dmn"}), tied to self-related thought and mind wandering, and the :term{id="dorsal_attention_network" case="lower"}, which steers attention toward chosen targets, especially outside the body. They also measured connectivity between the attention network and the primary auditory cortex, the first stop for sound in the brain, to see whether hearing had been "switched off."
+From the EEG, they measured two rhythms often linked to meditation: :term{id="theta" case="lower"} (4–8 Hz) and :term{id="alpha" case="lower"} (8–12 Hz). From the fMRI, they measured :term{id="functional_connectivity" case="lower"} between the hubs of two networks: the default mode network (:term{id="dmn"}), tied to self-related thought and :term{id="mind_wandering" case="lower"}, and the :term{id="dorsal_attention_network" case="lower"}, which steers attention toward chosen targets, especially outside the body. They also measured connectivity between the attention network and the primary auditory cortex, the first stop for sound in the brain, to see whether hearing had been "switched off."
 
 ## One Big Result: The Final Minutes Showed More Theta and Weaker Links in the Back of the Default Mode Network
 
@@ -71,7 +71,7 @@ Minute by minute across the rest period and the meditation, the more right-front
 
 > Taken together, the disconnections inside the posterior part of the DMN, which we found to be negatively correlated with the increase in frontal theta power may be the main neural correlate of the cessation of internal mentation, as well as the dissolution of self-consciousness, and may also contribute to the experienced state of space- and timelessness.
 
-They point out that the interplay between the PCC and the parietal lobules has been linked before to meditative experiences of non-dual awareness and of [selflessness](/mindfulness-induced-selflessness/), and that psychedelic experiences in which self, space and time dissolve also involve reduced activity and connectivity in the back of the DMN. In another single-expert study on this site, beta rhythms faded mostly in right-side parietal areas as a meditator [dissolved the boundary between self and world](/self-boundaries-beta-waves/), though that study used a different technique and measure.
+They point out that the interplay between the PCC and the parietal lobules has been linked before to meditative experiences of :term[non-dual awareness]{id="nondual_awareness"} and of [selflessness](/mindfulness-induced-selflessness/), and that psychedelic experiences in which self, space and time dissolve also involve reduced activity and connectivity in the back of the DMN. In another single-expert study on this site, :term{id="beta" case="lower"} rhythms faded mostly in right-side parietal areas as a meditator [dissolved the boundary between self and world](/self-boundaries-beta-waves/), though that study used a different technique and measure.
 
 Other changes separated the final minutes from rest but were already partly under way during the earlier meditation:
 
@@ -79,7 +79,7 @@ Other changes separated the final minutes from rest but were already partly unde
 - **The attention network became more tightly connected** within itself compared with rest, including links between its parietal and frontal hubs.
 - **The attention network decoupled from auditory cortex.** Its links with auditory cortex, mostly on the left, were weaker than at rest, and its links with auditory cortex on both sides were weaker than during the earlier meditation. That fits his report of not hearing the scanner, and these links also weakened as frontal theta rose.
 
-The authors read the pattern as a deliberate, top-down attentional state that shuts out both incoming senses and inner thinking, a kind of "disconnected consciousness." They argue that falling alpha has been linked to the mind's disconnection from the senses in REM sleep and ketamine anesthesia, and that, unlike in those states, content-free awareness lacks inner mental activity too.
+The authors read the pattern as a deliberate, top-down attentional state that shuts out both incoming senses and inner thinking, a kind of "disconnected consciousness." They argue that falling alpha has been linked to the mind's disconnection from the senses in :term[REM sleep]{id="rem_sleep"} and ketamine anesthesia, and that, unlike in those states, content-free awareness lacks inner mental activity too.
 
 ## Miscellaneous Interesting Takeaways
 

@@ -26,9 +26,9 @@ study:
 
 ## Background Information
 
-Depression often comes back. For people who have had several episodes, staying well once they recover is a major challenge, and the usual way to protect them is to keep taking antidepressants for the long term. Willem Kuyken and colleagues call relapse prevention in recurrent depression a significant public health problem, and note that finding a non-drug treatment as effective as antidepressants would be an important development.
+Depression often comes back. For people who have had several episodes, staying well once they recover is a major challenge, and the usual way to protect them is to keep taking antidepressants for the long term. Willem Kuyken and colleagues call :term{id="relapse_prevention" case="lower"} in recurrent depression a significant public health problem, and note that finding a non-drug treatment as effective as antidepressants would be an important development.
 
-:term[Mindfulness-based cognitive therapy (MBCT)]{id="mbct"} was designed for exactly this situation. It teaches people who are currently well but at high risk of relapse to combine systematic :term{id="mindfulness" case="lower"} training with elements of cognitive therapy, targeting thinking patterns implicated in relapse. An earlier :term{id="meta_analysis" case="lower"} of 6 randomized trials with 593 patients (Piet and Hougaard, 2011) had found that MBCT reduced the risk of relapse by about a third compared with usual care or placebo.
+:term[Mindfulness-based cognitive therapy (MBCT)]{id="mbct"} was designed for exactly this situation. It teaches people who are currently well but at high risk of relapse to combine systematic :term{id="mindfulness" case="lower"} training with elements of cognitive therapy, targeting thinking patterns implicated in relapse. An earlier :term{id="meta_analysis" case="lower"} of 6 randomized trials with 593 patients (Piet and Hougaard, 2011) had found that MBCT reduced the risk of relapse by about a third compared with usual care or :term{id="placebo" case="lower"}.
 
 That left two open questions. Does MBCT hold up against an active treatment, especially antidepressants? And does it work better for some people than for others? The second question is hard to answer from published results, because each trial reports only group averages. So the team, made up mostly of investigators from the original trials, went back to the raw data:
 
@@ -54,7 +54,7 @@ Because people relapsed at different times and were followed for different lengt
 
 ## One Big Result: MBCT Cut the Relapse Rate by About 30%, and Held Up Against Antidepressants
 
-Of the 596 people who took MBCT, 229 (38%) relapsed within 60 weeks, compared with 327 of the 662 (49%) who didn't. Allowing for the timing of relapses and the differences between trials, the pooled hazard ratio was **0.69** (95% confidence interval 0.58–0.82): at any given point in follow-up, the MBCT groups were relapsing about 31% less often.
+Of the 596 people who took MBCT, 229 (38%) relapsed within 60 weeks, compared with 327 of the 662 (49%) who didn't. Allowing for the timing of relapses and the differences between trials, the pooled hazard ratio was **0.69** (95% :term{id="confidence_interval" case="lower"} 0.58–0.82): at any given point in follow-up, the MBCT groups were relapsing about 31% less often.
 
 The comparisons with active treatments were smaller but pointed the same way:
 
@@ -91,7 +91,7 @@ Using a standard checklist for trial quality (the Cochrane risk of bias tool), t
 
 Other caveats are less easy to resolve:
 
-- **Possible missing trials.** A funnel plot, a check for :term{id="publication_bias" case="lower"}, showed some asymmetry: there were no small trials in which MBCT came out worse. That pattern can mean unfavorable trials went unpublished. A statistical test didn't confirm it (P = .18), but with only nine trials such tests have little power, as the authors acknowledge.
+- **Possible missing trials.** A :term{id="funnel_plot" case="lower"}, a check for :term{id="publication_bias" case="lower"}, showed some asymmetry: there were no small trials in which MBCT came out worse. That pattern can mean unfavorable trials went unpublished. A statistical test didn't confirm it (P = .18), but with only nine trials such tests have little power, as the authors acknowledge.
 - **A missing tenth trial.** The data from one eligible trial weren't shared, which the authors call "an impediment to IPD, transparency, and external scrutiny."
 - **Researcher allegiance.** The authors note that the trials were largely run by proponents of MBCT, and that researchers' allegiance to a therapy can influence results in psychotherapy trials. All the authors except an independent statistician and an independent reviewer had been investigators on at least one of the pooled trials, several founded or direct mindfulness centers, and some receive royalties from MBCT books or fees for MBCT training.
 

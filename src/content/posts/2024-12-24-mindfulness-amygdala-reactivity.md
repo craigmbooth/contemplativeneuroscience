@@ -27,7 +27,7 @@ study:
 
 The :term{id="amygdala" case="lower"}, a pair of almond-shaped structures deep in the brain, is central to how emotions are generated and regulated. One region that seems to help keep it in check is the ventromedial prefrontal cortex (:term{id="vmpfc"}), on the underside of the frontal lobes. The vmPFC is involved in *automatic* :term[emotion regulation]{id="emotion_regulation"}: the adjustments the brain makes to an emotional reaction without any deliberate effort, as when a feared thing stops seeming dangerous through :term{id="extinction" case="lower"} learning.
 
-Mindfulness meditation trains people to notice thoughts and feelings as they arise and let them pass, without clinging to the pleasant or pushing away the unpleasant. Courses such as :term{id="mbsr"} have been shown to improve mood and emotional recovery, but the brain changes behind those benefits were less clear. Earlier imaging work was small, and few studies compared mindfulness with an :term[active control]{id="active_control_group"} (a comparison course that is equally engaging but doesn't teach meditation).
+:term{id="mindfulness"} meditation trains people to notice thoughts and feelings as they arise and let them pass, without clinging to the pleasant or pushing away the unpleasant. Courses such as :term{id="mbsr"} have been shown to improve mood and emotional recovery, but the brain changes behind those benefits were less clear. Earlier imaging work was small, and few studies compared mindfulness with an :term[active control]{id="active_control_group"} (a comparison course that is equally engaging but doesn't teach meditation).
 
 Tammi Kral, Richard Davidson and colleagues at the University of Wisconsin–Madison asked two questions. Do people with years of mindfulness practice show a calmer amygdala response to emotional pictures, and a stronger link between the amygdala and the vmPFC? And does an eight-week MBSR course produce the same pattern, compared with a well-matched control course?
 
@@ -78,7 +78,7 @@ The long-term meditators did *not* show this pattern. Their amygdala–vmPFC cou
 
 Among the long-term meditators, more lifetime hours of retreat practice went with a smaller amygdala response to negative pictures (p = 0.05), adjusting for age. In a post hoc follow-up, hours of open-monitoring (Vipassana) retreat practice, the style closest to MBSR, showed a stronger link (p = 0.02, partial r = −0.47). Lifetime hours of daily practice showed no link (p = 0.64), and no practice measure was related to the response to positive pictures. In the trial, minutes of MBSR practice weren't related to the amygdala response either.
 
-The authors take this to mean that changing the response to negative emotion may take more intensive practice than an eight-week course provides. Two cautions apply: practice hours were self-reported, and a correlation among fewer than 30 meditators can't show that retreats caused the difference.
+The authors take this to mean that changing the response to negative emotion may take more intensive practice than an eight-week course provides. Two cautions apply: practice hours were self-reported, and a :term{id="correlation" case="lower"} among fewer than 30 meditators can't show that retreats caused the difference.
 
 ### Meditators Reported Being Less Reactive, but the Course Didn't Change Self-Reports
 

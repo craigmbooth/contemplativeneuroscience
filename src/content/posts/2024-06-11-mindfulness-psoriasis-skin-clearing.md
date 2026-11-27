@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-:term{id="psoriasis"} is a common skin disease in which skin cells multiply too quickly and pile up into raised, red, scaly patches. The paper puts its prevalence at 1% to 3% of the world's population, and in moderate to severe cases the patches can be itchy, uncomfortable and disfiguring. Stress has long been suspected of making it worse: the authors cite studies linking psychological distress to the severity of psoriasis in 32% to 70% of patients, and case reports of improvement with hypnosis, biofeedback and meditation.
+:term{id="psoriasis"} is a common skin disease in which skin cells multiply too quickly and pile up into raised, red, scaly patches. The paper puts its prevalence at 1% to 3% of the world's population, and in moderate to severe cases the patches can be itchy, uncomfortable and disfiguring. Stress has long been suspected of making it worse: the authors cite studies linking psychological distress to the severity of psoriasis in 32% to 70% of patients, and case reports of improvement with hypnosis, :term{id="biofeedback" case="lower"} and meditation.
 
 People with widespread psoriasis are often treated with ultraviolet :term{id="phototherapy" case="lower"}. Three times a week, they stand naked in a light booth while ultraviolet light slows the overgrowth of skin cells. UVB treatment uses ultraviolet B light alone; PUVA adds a light-sensitizing drug, psoralen, to ultraviolet A light and is usually kept for severe cases or those that haven't responded to UVB. Both treatments control the disease rather than cure it, and the doses climb from session to session.
 
@@ -59,7 +59,7 @@ Not everyone stayed. Of the 37, 19 reached clearing, 4 finished treatment withou
 
 The main analysis (a Cox proportional hazards model) compared how quickly the two groups reached each milestone, adjusting for how many years each patient had had psoriasis and for their level of distress at the start, and with UVB and PUVA analyzed together. The result is a :term{id="hazard_ratio"}: the rate at which tape patients reached a milestone divided by the rate for no-tape patients, counting at each point only those who hadn't reached it yet.
 
-- **Halfway point:** hazard ratio 3.88 (95% confidence interval 1.34 to 11.25, p = .013).
+- **Halfway point:** hazard ratio 3.88 (95% :term{id="confidence_interval" case="lower"} 1.34 to 11.25, p = .013).
 - **Clearing point:** hazard ratio 3.75 (95% confidence interval 1.11 to 12.65, p = .033).
 
 In plain words, at any stage of treatment, tape patients who hadn't yet cleared were reaching clearing at nearly four times the rate of comparable no-tape patients. The wide confidence intervals matter, though: with so few patients, the data are consistent with anything from a slight speed-up to a twelvefold one.
@@ -88,7 +88,7 @@ Because the no-tape group got nothing in place of the tapes, the comparison can'
 
 > Until further studies are performed to control for additional variables, we cannot rule out the possibility that expectancy effects (ie, enthusiasm and/or disappointment about tape group assignment) may have played a role in the observed differences, inasmuch as the control group did not make use of placebo instructional or music audiotapes.
 
-A related point: patients were told the tapes were meant to make treatment more pleasant, but the tapes themselves asked them to picture the light slowing the growth of their skin cells. So the intervention was mindfulness plus healing imagery, and the study can't say which part, if either, mattered. An :term[active control]{id="active_control_group"}, such as a relaxation or music tape, would have helped; the authors suggest "pseudo-meditation" instructions and placebo wavelengths of light for future studies.
+A related point: patients were told the tapes were meant to make treatment more pleasant, but the tapes themselves asked them to picture the light slowing the growth of their skin cells. So the intervention was mindfulness plus healing imagery, and the study can't say which part, if either, mattered. An :term[active control]{id="active_control_group"}, such as a relaxation or music tape, would have helped; the authors suggest "pseudo-meditation" instructions and :term{id="placebo" case="lower"} wavelengths of light for future studies.
 
 ### Four Milestones, Two Significant
 

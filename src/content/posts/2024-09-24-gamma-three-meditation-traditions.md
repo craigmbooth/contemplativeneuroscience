@@ -26,15 +26,15 @@ study:
 
 ## Background Information
 
-When long-term Tibetan Buddhist practitioners were recorded during compassion meditation, their brains produced [unusually strong gamma waves](/high-amplitude-gamma-synchrony/). :term{id="gamma"} waves are the fastest of the brain's electrical rhythms, and they have been linked to attention, perception and conscious awareness, though the authors of this paper note that their role "remains controversial." Other studies have since found more gamma in meditators practicing Vipassana and mindfulness, and even in [meditators' sleep](/meditators-sleep-gamma/).
+When long-term Tibetan Buddhist practitioners were recorded during compassion meditation, their brains produced [unusually strong gamma waves](/high-amplitude-gamma-synchrony/). :term{id="gamma"} waves are the fastest of the brain's electrical rhythms, and they have been linked to attention, perception and conscious awareness, though the authors of this paper note that their role "remains controversial." Other studies have since found more gamma in meditators practicing Vipassana and :term{id="mindfulness" case="lower"}, and even in [meditators' sleep](/meditators-sleep-gamma/).
 
 Most of those studies looked at a single style of practice. Meditation comes in many forms, which researchers often place along a line running from :term{id="focused_attention" case="lower"} on a single object to :term{id="open_monitoring" case="lower"}, where nothing in particular is held. If gamma shows up only in some styles, it may reflect what those practices ask of attention. If it shows up across very different styles, it may point to something they share.
 
 This study recorded :term{id="eeg"} from practitioners of three traditions placed at different points on that line:
 
-- **Himalayan Yoga Tradition**: silently repeating a mantra, with or without awareness of the breath, a focused practice.
+- **Himalayan Yoga Tradition**: silently repeating a :term{id="mantra" case="lower"}, with or without awareness of the breath, a focused practice.
 - **:term{id="vipassana"}** as taught by S. N. Goenka: scanning attention through the body from head to toe and back, observing sensations with equanimity. The authors describe it as a mix of focused attention and open monitoring.
-- **Isha Shoonya**: a practice of conscious "non-doing" in which the meditator does not respond to any inner or outer stimulus, with no specific object of focus. The authors compare it to Zen *shikantaza*; both names translate as variations on "nothingness" or "doing nothing."
+- **Isha Shoonya**: a practice of conscious "non-doing" in which the meditator does not respond to any inner or outer stimulus, with no specific object of focus. The authors compare it to :term{id="zen"} *shikantaza*; both names translate as variations on "nothingness" or "doing nothing."
 
 ## What They Did
 
@@ -87,7 +87,7 @@ All three meditator groups said their thoughts were less crowded after meditatin
 
 ## Final Reflection
 
-What makes this study stand out is the comparison. Rather than asking whether one kind of meditation changes the brain, it set a mantra practice, a body-scanning practice and an objectless "non-doing" practice side by side, with the same equipment, protocol and comparison group. The common thread was more high-frequency gamma over the back of the head. The authors offer a tentative interpretation:
+What makes this study stand out is the comparison. Rather than asking whether one kind of meditation changes the brain, it set a mantra practice, a :term[body-scanning]{id="body_scan"} practice and an objectless "non-doing" practice side by side, with the same equipment, protocol and comparison group. The common thread was more high-frequency gamma over the back of the head. The authors offer a tentative interpretation:
 
 > In the light of this literature, we suggest that the trait parieto-occipital increase in high gamma we observe in meditators is a marker of an overall attentive state, the parietal cortex being associated with the focus of attention on a given object.
 

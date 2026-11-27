@@ -37,7 +37,7 @@ The trials were small and varied:
 
 - **Programs:** four used :term[mindfulness-based stress reduction]{id="mbsr"} (MBSR), one used :term[mindfulness-based cognitive therapy]{id="mbct"} (MBCT) and one a mindfulness meditation course. They lasted six to eight weeks.
 - **Participants:** four trials enrolled people with chronic or primary insomnia or sleep disturbances (one of them adults aged 75 and over), one enrolled antidepressant users with sleep complaints, and one people with insomnia alongside cancer.
-- **Comparisons:** three trials compared mindfulness with a :term[wait-list]{id="wait_list_control"}, one with a sleep hygiene education course (an "attention control"), and two with an active treatment: sleep medication in one trial (Gross et al., 2011), CBT-I in the other (Garland et al., 2014).
+- **Comparisons:** three trials compared mindfulness with a :term[wait-list]{id="wait_list_control"}, one with a :term{id="sleep_hygiene" case="lower"} education course (an ":term[attention control]{id="active_control_group"}"), and two with an active treatment: sleep medication in one trial (Gross et al., 2011), CBT-I in the other (Garland et al., 2014).
 
 The team pooled every sleep measure that at least two trials had reported, right after the programs ended. They described these as the measures recorded in sleep diaries and questionnaires: time to fall asleep, total sleep time, time awake after first falling asleep, :term[sleep efficiency]{id="sleep_efficiency"} (the share of time in bed spent asleep), a sleep quality rating, total time awake, the Insomnia Severity Index (ISI), the :term[Pittsburgh Sleep Quality Index]{id="psqi"} (PSQI) and a scale of unhelpful beliefs about sleep (DBAS). Measures reported by only one trial, such as :term[slow-wave sleep]{id="slow_wave_sleep"} from sleep-lab recordings, were left out, and the paper doesn't say whether any pooled number came from the sleep-lab or wrist-monitor recordings some trials also made.
 
@@ -47,7 +47,7 @@ Results were expressed as a standardized mean difference (SMD), a kind of :term{
 
 Pooling all six trials, mindfulness beat the comparison groups on two of the nine measures:
 
-- **Sleep quality ratings:** an effect size of 0.68 in mindfulness's favor (95% confidence interval 0.24 to 1.13; p = 0.003), from 2 trials with 83 people.
+- **Sleep quality ratings:** an effect size of 0.68 in mindfulness's favor (95% :term{id="confidence_interval" case="lower"} 0.24 to 1.13; p = 0.003), from 2 trials with 83 people.
 - **Total time awake at night:** 0.44 in mindfulness's favor (0.04 to 0.83; p = 0.03), from 3 trials with 102 people.
 
 The other seven, including time to fall asleep, total sleep time, sleep efficiency, the ISI and the PSQI, showed no significant difference. Several of these estimates came with very wide confidence intervals (for the ISI, an effect size anywhere from about 1.4 in mindfulness's favor to 1.8 against), a sign of how much the trials disagreed.

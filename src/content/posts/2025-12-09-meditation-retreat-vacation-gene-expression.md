@@ -34,7 +34,7 @@ They also wanted a broad view of the body's response. Rather than measure a hand
 
 The researchers recruited healthy women aged 30 to 60, mostly from the San Diego and San Francisco areas, who had little or no experience of meditation. They had no chronic illnesses and weren't taking antidepressants or hormone therapy. In this :term[randomized controlled trial]{id="randomized_controlled_trial"}, each was assigned by chance to spend six days at the same resort in Carlsbad, California, in one of two ways:
 
-- **Novice meditators** joined a large meditation retreat run by the Chopra Center for Wellbeing, led by Deepak Chopra and colleagues. Over four days, it added up to 12 hours of primordial sound meditation, which the paper describes as similar to mantra meditation, up to 9 hours of yoga, and lectures and self-reflection exercises each day.
+- **Novice meditators** joined a large meditation retreat run by the Chopra Center for Wellbeing, led by Deepak Chopra and colleagues. Over four days, it added up to 12 hours of primordial sound meditation, which the paper describes as similar to :term{id="mantra" case="lower"} meditation, up to 9 hours of yoga, and lectures and self-reflection exercises each day.
 - **The vacation group**, an :term[active control]{id="active_control_group"}, stayed at the same resort without taking part in the retreat. They had a 1.5-hour afternoon lecture on health behaviors each day and an optional morning activity, such as a leisurely walk.
 
 Both groups had similar rooms and ate the same ayurvedic meals in the same dining room, and everyone was asked not to exercise more than usual. The randomized women didn't pay for their stay.
@@ -43,7 +43,7 @@ A third group wasn't randomized. **Regular meditators** were women in the same a
 
 Of 102 women enrolled, 94 began the study: 31 in the vacation group, 33 novice meditators and 30 regular meditators. Two more dropped out once the retreat had started. Nobody was blinded: the participants and the study staff knew who was in which group, although the retreat teachers didn't know which of their several hundred students were in the study.
 
-Fasting blood was drawn at the same time of day on day 1 and day 5. The team sequenced the mRNA in it to measure the activity of genes across the genome, and measured telomerase in immune cells, amyloid beta and TNF-α in plasma, and counts of each type of white blood cell. Before the stay, on day 5 and a month later, the women filled in questionnaires on depressive symptoms (the :term{id="ces_d"}), stress (the :term{id="perceived_stress_scale"}), everyday mindfulness and vitality. Ten months later, 83% of them answered the depression and stress questionnaires again.
+Fasting blood was drawn at the same time of day on day 1 and day 5. The team sequenced the mRNA in it to measure the activity of genes across the genome, and measured telomerase in immune cells, amyloid beta and TNF-α in plasma, and counts of each type of white blood cell. Before the stay, on day 5 and a month later, the women filled in questionnaires on depressive symptoms (the :term{id="ces_d"}), stress (the :term{id="perceived_stress_scale"}), everyday :term{id="mindfulness" case="lower"} and vitality. Ten months later, 83% of them answered the depression and stress questionnaires again.
 
 ## One Big Result: Vacation and Retreat Shifted Gene Activity in the Same Way
 

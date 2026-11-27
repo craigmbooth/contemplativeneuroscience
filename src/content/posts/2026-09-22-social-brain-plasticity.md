@@ -32,7 +32,7 @@ Earlier studies of meditation and brain structure had real limits. Most were :te
 
 > Notably, samples in these studies were relatively small, and studies often lacked active control groups; furthermore, testing intervals were short, providing neither generalizable and robust estimates of brain change nor information about the effects of different types of mental practices on plasticity
 
-Social neuroscience also suggests there are at least two routes to understanding others. The socio-affective route covers empathy (sharing another person's feelings) and compassion (concern for their suffering plus a wish to help). It leans on regions such as the :term[insula]{id="insula"} and the anterior cingulate cortex. The socio-cognitive route is :term{id="theory_of_mind" case="lower"}: working out what someone else thinks, believes or intends. It relies more on the medial prefrontal cortex, the temporoparietal junction (TPJ) and parts of the temporal lobe.
+Social neuroscience also suggests there are at least two routes to understanding others. The socio-affective route covers empathy (sharing another person's feelings) and compassion (concern for their suffering plus a wish to help). It leans on regions such as the :term[insula]{id="insula"} and the :term{id="anterior_cingulate_cortex" case="lower"}. The socio-cognitive route is :term{id="theory_of_mind" case="lower"}: working out what someone else thinks, believes or intends. It relies more on the :term[medial prefrontal cortex]{id="mpfc"}, the :term[temporoparietal junction]{id="tpj"} (TPJ) and parts of the temporal lobe.
 
 Sofie Valk, Tania Singer and colleagues at the Max Planck Institute in Leipzig asked whether training each route separately would leave different marks on :term{id="cortical_thickness" case="lower"}, the depth of the brain's outer layer of :term[gray matter]{id="gray_matter"}.
 
@@ -40,7 +40,7 @@ Sofie Valk, Tania Singer and colleagues at the Max Planck Institute in Leipzig a
 
 The study was part of the ReSource Project, a secular nine-month training program. It had three 13-week modules. Each opened with a 3-day retreat, followed by eight weeks of weekly 2-hour group sessions with teachers, then five weeks of consolidation, with daily practice supported by a smartphone app throughout.
 
-- **Presence** built attention and body awareness through breathing meditation and body scans, much like familiar programs such as :term{id="mbsr"}.
+- **Presence** built attention and body awareness through breathing meditation and :term{id="body_scan" case="lower" plural}, much like familiar programs such as :term{id="mbsr"}.
 - **Affect** used :term[loving-kindness meditation]{id="brahmaviharas"} and a daily 10-minute partner exercise. One partner described a situation from the past day that felt difficult and one they felt grateful for, while the other listened without responding.
 - **Perspective** used a meditation on observing thoughts as passing events, plus a partner exercise. The speaker described their day from the viewpoint of one of their "inner parts" (recurring patterns of thought and feeling), and the listener tried to work out which part was speaking.
 
@@ -53,7 +53,7 @@ Two training cohorts both began with Presence and then did Affect and Perspectiv
 When each module was compared with the average of the other two, the three kinds of training were associated with thickening in largely separate regions:
 
 - **Presence** (attention and body awareness): the right prefrontal cortex extending into the anterior cingulate, along with regions at the back of the brain (occipital and inferior temporal cortex).
-- **Affect** (compassion and difficult emotions): a cluster running from the right supramarginal gyrus into the insula and the dorsolateral prefrontal cortex, regions tied to empathy and emotion regulation, plus parts of the cingulate.
+- **Affect** (compassion and difficult emotions): a cluster running from the right supramarginal gyrus into the insula and the :term[dorsolateral prefrontal cortex]{id="dlpfc"}, regions tied to empathy and :term{id="emotion_regulation" case="lower"}, plus parts of the cingulate.
 - **Perspective** (theory of mind): the left ventrolateral prefrontal cortex and the right middle temporal gyrus, a region reliably linked to understanding others' minds.
 
 These patterns held in both training cohorts and at both sites. The untrained retest group, by contrast, showed only thinning in lateral frontal regions over the nine months, which fits with normal age-related change.
@@ -68,7 +68,7 @@ The changes were small. Averaged over the regions that changed, they amount to a
 
 ### Brain Changes Tracked Individual Gains in Skill
 
-The people who improved most also tended to show the most thickening. After Affect training, larger gains in compassion ratings went with more thickening in the right insula, extending toward the temporal pole. This held in all three cohorts that did Affect (correlations of r = 0.28 to 0.37). After Perspective, gains in theory-of-mind accuracy tracked thickening in the TPJ and left parietal cortex (r = 0.24 to 0.44).
+The people who improved most also tended to show the most thickening. After Affect training, larger gains in compassion ratings went with more thickening in the right insula, extending toward the temporal pole. This held in all three cohorts that did Affect (:term{id="correlation" case="lower" plural} of r = 0.28 to 0.37). After Perspective, gains in theory-of-mind accuracy tracked thickening in the TPJ and left parietal cortex (r = 0.24 to 0.44).
 
 These are moderate correlations. They show that brain and behavior changed together, not that one caused the other.
 

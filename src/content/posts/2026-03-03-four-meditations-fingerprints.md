@@ -33,7 +33,7 @@ Bethany Kok and Tania Singer, at the Max Planck Institute for Human Cognitive an
 - **Breathing meditation**: resting attention on the breath, noticing when the mind wanders and bringing it back.
 - **Body scan**: moving attention through the body one part at a time, typically starting at the head, and observing the sensations in each part.
 - **Loving-kindness meditation**: calling up warmth and care by picturing a loved person, then extending those feelings in turn to oneself, a close person, a neutral person, a difficult person and finally strangers and all human beings.
-- **Observing thoughts**: learning to watch thoughts without getting caught up in them. Participants first practiced labeling each thought as it came up, with labels such as "past" or "future," "positive" or "negative," and "self" or "other." Then they practiced simply watching thoughts come and go without reacting. The authors describe the aim as "decentering," a kind of :term{id="meta_awareness" case="lower"}.
+- **Observing thoughts**: learning to watch thoughts without getting caught up in them. Participants first practiced labeling each thought as it came up, with labels such as "past" or "future," "positive" or "negative," and "self" or "other." Then they practiced simply watching thoughts come and go without reacting. The authors describe the aim as “:term{id="decentering" case="lower"},” a kind of :term{id="meta_awareness" case="lower"}.
 
 The authors expected each practice to leave its own signature. Breath and body practices should most increase presence and body awareness, loving-kindness should most increase warmth and positive thoughts about others, and observing thoughts should most increase awareness of thinking itself, without necessarily reducing how much people think.
 
@@ -45,7 +45,7 @@ Participants were recruited in two German cities and screened out if they had pr
 
 The program had three 13-week modules, each opening with a 3-day retreat and followed by weekly 2-hour sessions with teachers:
 
-- **Presence**: breathing meditation (10-minute guided recordings) and body scan (20-minute recordings), each to be practiced at least 5 days a week.
+- **Presence**: breathing meditation (10-minute guided recordings) and :term{id="body_scan" case="lower"} (20-minute recordings), each to be practiced at least 5 days a week.
 - **Affect**: :term[loving-kindness meditation]{id="loving_kindness"}, at least 5 days a week.
 - **Perspective**: observing-thoughts meditation, at least 5 days a week.
 
@@ -93,7 +93,7 @@ The network analysis looked at which changes tended to rise and fall together. D
 
 During breathing meditation and body scan, the picture was different. A cluster tied thoughts about other people and the future to fewer thoughts about oneself, which the authors interpret as :term{id="mind_wandering" case="lower"}: attention drifting away from oneself and the breath or body, toward other people and what might happen.
 
-These patterns come from correlations among the changes and were exploratory. They fit loosely with [Trautwein et al. 2016](/loving-kindness-self-bias/), in which long-term loving-kindness practitioners showed hints of a smaller brain bias toward their own face over a friend's, but neither study shows that the practice changes how the self is represented over the long term.
+These patterns come from :term{id="correlation" case="lower" plural} among the changes and were exploratory. They fit loosely with [Trautwein et al. 2016](/loving-kindness-self-bias/), in which long-term loving-kindness practitioners showed hints of a smaller brain bias toward their own face over a friend's, but neither study shows that the practice changes how the self is represented over the long term.
 
 ### Observing Thoughts Separated Noticing Thoughts From Being Caught by Them
 

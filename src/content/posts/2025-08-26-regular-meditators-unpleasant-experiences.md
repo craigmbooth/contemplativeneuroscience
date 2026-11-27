@@ -47,9 +47,9 @@ Participants also filled in three questionnaires. One measured :term[repetitive 
 
 They also listed which kinds of meditation they practiced. The team sorted these into three families, following a scheme proposed by Cortland Dahl, Antoine Lutz and Richard Davidson:
 
-- **Attentional** practices train steady attention, for example mindfulness of breathing, breath counting, samatha, mantra recitation and the mindfulness taught in :term{id="mbsr"} courses.
+- **Attentional** practices train steady attention, for example mindfulness of breathing, breath counting, samatha, :term{id="mantra" case="lower"} recitation and the mindfulness taught in :term{id="mbsr"} courses.
 - **Constructive** practices cultivate helpful emotional patterns, here loving-kindness and compassion meditation.
-- **Deconstructive** practices investigate experience to loosen fixed beliefs about the self and the world. The survey counted :term{id="vipassana"} (insight meditation), Mahamudra, Dzogchen, Shikantaza ("just sitting"), self-inquiry and koan practice (the Zen practice of working with a paradoxical question).
+- **Deconstructive** practices investigate experience to loosen fixed beliefs about the self and the world. The survey counted :term{id="vipassana"} (insight meditation), :term[Mahamudra]{id="mahamudra"}, Dzogchen, Shikantaza ("just sitting"), self-inquiry and koan practice (the :term{id="zen"} practice of working with a paradoxical question).
 
 For one analysis, the team compared 176 people who practiced *only* deconstructive types with 557 who practiced *only* attentional and/or constructive types. The rest, who mixed both kinds, were left out of that comparison, because the authors judged a mixed group too broad to be meaningful.
 
@@ -57,7 +57,7 @@ The statistics were simple. Each possible predictor (age, sex, education, religi
 
 ## One Big Result: One in Four Said Yes, and Retreat-Goers and Deconstructive Practitioners Said Yes More Often
 
-Of the 1,232 meditators, 315, or **25.6%** (95% confidence interval 23.1% to 28.0%), said they had had a particularly unpleasant experience that they thought meditation may have caused. That is close to the 25.4% in Cebolla's survey.
+Of the 1,232 meditators, 315, or **25.6%** (95% :term{id="confidence_interval" case="lower"} 23.1% to 28.0%), said they had had a particularly unpleasant experience that they thought meditation may have caused. That is close to the 25.4% in Cebolla's survey.
 
 Four characteristics went with a higher or lower chance of saying yes. The team reported each as an :term{id="odds_ratio" case="lower"}, which compares the odds of saying yes in one group with the odds in another (1 means no difference).
 

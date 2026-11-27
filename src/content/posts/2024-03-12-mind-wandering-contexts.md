@@ -40,7 +40,7 @@ In the aggregate, asking somebody if they are experiencing TUTs reveals that on 
 
 ## What They Did
 
-The authors took 72 college undergraduates, who underwent a sustained attention to response test (SART) in the laboratory, followed some time later by a week-long experience sampling protocol
+The authors took 72 college undergraduates, who underwent a :term{id="sustained_attention" case="lower"} to response test (SART) in the laboratory, followed some time later by a week-long :term[experience sampling]{id="ecological_momentary_assessment"} protocol
 
 * **Laboratory SART**: The SART is a go/no-go task that presented 1810 words for go/no-go responses based on a perceptual (letter case) or semantic (animals vs. foods) discrimination. Subjects were required to press a key for nontarget "go" stimuli (e.g., lowercase words) and withhold responses to infrequent (11%) target "no-go" stimuli (e.g., uppercase words), with thought-probe screens following 60% of the no-go targets to assess the subject's current thoughts.
 * **Home Experience Sampling**: The home experience sampling involved subjects carrying PDAs (Personal Digital Assistants) for a week, during which they were signaled eight times daily to report immediately whether their thoughts were off task. When signaled, subjects answered questions about whether their current thoughts had wandered from their activity, the content of those thoughts if they had wandered, and their mental and environmental context, using a questionnaire presented on the PDA. This methodology allowed for the collection of data on mind wandering in the subjects' everyday life activities, providing insights into the frequency and nature of off-task thoughts outside the controlled environment of a laboratory.
@@ -49,7 +49,7 @@ The relationships between task performance, and mind wandering both in and out o
 
 ## One Big Result: Mind Wandering in the Lab Predicts Mind Wandering in Daily Life
 
-The first result is that the rate of TUTs in the lab predicts the rate of TUTs outside of the lab.  The positive correlation in this graph tells us that if your mind wandered more during the lab test, you likely also have more mind wandering in general.  Explained by the authors as:
+The first result is that the rate of TUTs in the lab predicts the rate of TUTs outside of the lab.  The positive :term{id="correlation" case="lower"} in this graph tells us that if your mind wandered more during the lab test, you likely also have more mind wandering in general.  Explained by the authors as:
 
 >  the propensity to mind wander is a stable cognitive characteristic, representing an individual difference that is reliable across time, activities, and contexts
 
@@ -75,4 +75,4 @@ This study shows that mind wandering is a stable characteristic of a person, and
 
 There is good evidence that mind wandering is related to activity in the default mode network (:term{id="dmn"}), and also that meditation can cause a reduction in the activity of the DMN. These observations taken together are suggestive that -- through its effect on the DMN -- meditation could be used to reduce mind wandering and improve task performance.
 
-Later research by [Garrison et al. (2015)](/reduced-dmn-active-task/) demonstrated that experienced meditators show greater reductions in default mode network activity—a neural system associated with mind-wandering—during meditation compared to active cognitive tasks. These findings on the prevalence and stability of mind-wandering complement work by [Killingsworth & Gilbert (2010)](/wandering-mind-unhappy-mind/), which revealed the negative emotional consequences of a wandering mind in daily life. Additionally, meta-analytic work by [Zainal & Newman (2023)](/mindfulness-cognitive-function-survey/) suggests mindfulness training may specifically enhance attention control, which could potentially reduce the frequency or impact of mind-wandering episodes.
+Later research by [Garrison et al. (2015)](/reduced-dmn-active-task/) demonstrated that experienced meditators show greater reductions in default mode network activity—a neural system associated with mind-wandering—during meditation compared to active cognitive tasks. These findings on the prevalence and stability of mind-wandering complement work by [Killingsworth & Gilbert (2010)](/wandering-mind-unhappy-mind/), which revealed the negative emotional consequences of a wandering mind in daily life. Additionally, meta-analytic work by [Zainal & Newman (2023)](/mindfulness-cognitive-function-survey/) suggests :term{id="mindfulness" case="lower"} training may specifically enhance attention control, which could potentially reduce the frequency or impact of mind-wandering episodes.

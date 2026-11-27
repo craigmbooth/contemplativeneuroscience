@@ -26,7 +26,7 @@ study:
 
 ## Background Information
 
-Most diets work for a while and then fade. One reason, the authors argue, is that diet and exercise programs mostly ask people to track and restrict what they eat, without touching the habit that keeps pulling them back: eating because of a craving. Overweight and obese people report more frequent and more intense cravings for very tasty food than people of normal weight, and craving-related eating is a commonly reported reason for falling off an eating plan.
+Most diets work for a while and then fade. One reason, the authors argue, is that diet and exercise programs mostly ask people to track and restrict what they eat, without touching the habit that keeps pulling them back: eating because of a :term{id="craving" case="lower"}. Overweight and obese people report more frequent and more intense cravings for very tasty food than people of normal weight, and craving-related eating is a commonly reported reason for falling off an eating plan.
 
 The authors frame this habit in terms of :term[operant conditioning]{id="operant_conditioning"}. Eating something sweet or rich feels good, or brings relief from stress or boredom, and that reward teaches the brain to reach for food the next time the same cue appears, whether or not the body needs it. Over time, sights, places and moods can set off eating almost automatically.
 
@@ -72,7 +72,7 @@ Three-quarters of the women who enrolled (78 of 104) finished all 28 lessons wit
 
 ### Less Craving Went With More Weight Loss, Modestly
 
-Women whose trait food craving fell more tended to lose more weight. The correlation was r = .33 (p = .010) among those who finished within 3 months, and r = .23 among everyone who finished, which just missed statistical significance (p = .052). The abstract reports slightly different figures for the same tests (r = .30 and r = .22), so the exact values are uncertain, but the pattern is the same. The drop in craving-related eating measured by text message was not linked to weight change. The authors suggest this is partly a measurement problem: each woman's yes-or-no answers were boiled down to a single before-and-after difference.
+Women whose trait food craving fell more tended to lose more weight. The :term{id="correlation" case="lower"} was r = .33 (p = .010) among those who finished within 3 months, and r = .23 among everyone who finished, which just missed statistical significance (p = .052). The abstract reports slightly different figures for the same tests (r = .30 and r = .22), so the exact values are uncertain, but the pattern is the same. The drop in craving-related eating measured by text message was not linked to weight change. The authors suggest this is partly a measurement problem: each woman's yes-or-no answers were boiled down to a single before-and-after difference.
 
 ### What a Single-Arm Trial Can't Tell Us
 
@@ -82,7 +82,7 @@ Without a control group, there is no way to know how much of the change the app 
 
 Apart from weight, every outcome was self-reported by women who knew the study was about food cravings, which leaves room for :term[demand characteristics]{id="demand_characteristics"}. The analyses also covered only the women who finished; the 26 who didn't were left out, rather than counted as in an :term[intention-to-treat analysis]{id="intention_to_treat"}.
 
-The authors are careful about weight, which they say "should be interpreted with caution" because participants weren't weighed at a set time of day, and they say the next step is a trial with an active control group and more consistent measurements.
+The authors are careful about weight, which they say "should be interpreted with caution" because participants weren't weighed at a set time of day, and they say the next step is a trial with an :term{id="active_control_group" case="lower"} and more consistent measurements.
 
 ### Who Took Part, and Who Made the App
 

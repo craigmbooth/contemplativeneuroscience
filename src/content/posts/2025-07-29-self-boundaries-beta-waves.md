@@ -28,13 +28,13 @@ study:
 
 Most of the time we don't notice it, but our experience is split in two: there is "me," here, and there is the world, out there. Philosophers and neuroscientists call the processes that draw this line "self-specific." They are different from thinking *about* yourself (your personality, your appearance, your plans), which much brain research has linked to the :term[default mode network]{id="dmn"}. Self-specific processes are more basic. They make an experience feel like *yours* in the first place, happening to a body that is located somewhere and acting in the world.
 
-These processes are hard to study because they rarely change. Brain researchers have mostly disturbed them from the outside, with tasks and illusions that alter people's sense of agency, of owning their body, or of where they are located. According to the authors, no brain-imaging study had yet looked at someone deliberately turning these processes down. Some contemplative traditions, though, aim to loosen the sense of self from the inside, and experienced meditators describe states in which the line between self and world softens or disappears.
+These processes are hard to study because they rarely change. Brain researchers have mostly disturbed them from the outside, with tasks and illusions that alter people's :term{id="sense_of_agency" case="lower"}, of owning their body, or of where they are located. According to the authors, no brain-imaging study had yet looked at someone deliberately turning these processes down. Some contemplative traditions, though, aim to loosen the sense of self from the inside, and experienced meditators describe states in which the line between self and world softens or disappears.
 
 This study, from a team in Israel, took those descriptions seriously as data. It uses an approach called :term{id="neurophenomenology" case="lower"}: careful first-person reports guide how brain recordings are designed and analyzed. The question was whether the sense of boundaries is all-or-nothing or can be dialed down in steps, and what happens in the brain as it is.
 
 ## What They Did
 
-The main participant, called S in the paper, was a 64-year-old man who had practiced :term{id="mindfulness" case="lower"} in the Satipatthana and Theravada :term{id="vipassana"} traditions for about 40 years, with over 20,000 hours of practice. He had worked with neuroscientists for a decade and had shown in five earlier interviews that he could produce unusual states on demand and describe them in detail. He is also the paper's third author, though the authors note that he took no part in forming the hypotheses, analyzing the data or interpreting the results.
+The main participant, called S in the paper, was a 64-year-old man who had practiced :term{id="mindfulness" case="lower"} in the Satipatthana and :term{id="theravada"} :term{id="vipassana"} traditions for about 40 years, with over 20,000 hours of practice. He had worked with neuroscientists for a decade and had shown in five earlier interviews that he could produce unusual states on demand and describe them in detail. He is also the paper's third author, though the authors note that he took no part in forming the hypotheses, analyzing the data or interpreting the results.
 
 Before any recording, S was interviewed in depth, lying in the :term{id="meg"} scanner with his eyes closed, about three states he could produce on cue:
 
@@ -52,8 +52,8 @@ To see whether what they found in S held up in other people, the team reanalyzed
 
 In S's recordings, only one kind of brain rhythm tracked the three states: :term{id="beta" case="lower"} waves, peaking at 27 Hz. Their power fell step by step from SB1 to SB2 to SB3. No frequency band grew stronger as the boundaries dissolved. When the team traced where the falling beta activity came from, they found a large cluster over the parietal lobes, more extensive on the right side of the brain. It had two main parts:
 
-- On the outer surface, the :term[temporoparietal junction]{id="tpj"}, a region that combines signals from the body and senses into a sense of where the self is. Damage or stimulation here, especially on the right, can produce out-of-body experiences.
-- On the inner surface, the :term{id="precuneus" case="lower"} and the middle and posterior cingulate cortex, part of the brain's core self-related network.
+- On the outer surface, the :term[temporoparietal junction]{id="tpj"}, a region that combines signals from the body and senses into a sense of where the self is. Damage or stimulation here, especially on the right, can produce :term{id="out_of_body_experience" case="lower" plural}.
+- On the inner surface, the :term{id="precuneus" case="lower"} and the middle and :term[posterior cingulate cortex]{id="pcc"}, part of the brain's core self-related network.
 
 The effect also reached sensory and motor areas and the :term{id="insula" case="lower"}.
 

@@ -26,15 +26,15 @@ study:
 
 ## Background Information
 
-By the late 2010s, more than two dozen MRI studies had reported that meditators' brains differ in structure from other people's: more :term[gray matter]{id="gray_matter"} here, a thicker cortex there. A [2014 meta-analysis by Fox and colleagues](/meditation-brain-structure-meta-analysis/) found that the differences recurred in a handful of regions, including the :term{id="insula" case="lower"}, the :term{id="anterior_cingulate_cortex" case="lower"} and the hippocampus, but judged their average size modest and probably inflated by unpublished null results.
+By the late 2010s, more than two dozen MRI studies had reported that meditators' brains differ in structure from other people's: more :term[gray matter]{id="gray_matter"} here, a thicker cortex there. A [2014 meta-analysis by Fox and colleagues](/meditation-brain-structure-meta-analysis/) found that the differences recurred in a handful of regions, including the :term{id="insula" case="lower"}, the :term{id="anterior_cingulate_cortex" case="lower"} and the :term{id="hippocampus" case="lower"}, but judged their average size modest and probably inflated by unpublished null results.
 
 Cyril Pernet and Alison Zammit at the University of Edinburgh, with Nikolai Belov (Otto von Guericke University Magdeburg) and Arnaud Delorme (Paul Sabatier University, Toulouse, and the University of California San Diego), took another look with studies published up to 2018. They asked two questions: how strong are the reported links between meditation and gray matter, and is there anywhere in the brain where they consistently show up?
 
 Their review differs from Fox's in a few ways that matter for reading it:
 
-- **A narrower definition of meditation.** They counted only "the practice of focused attention or awareness with the aim of cultivating a calm and stable mental state," which they equate with mindfulness. They left out any program that adds movement such as yoga, because the movement could itself affect the brain and confound the results. That excluded :term{id="mbsr"}, which includes yoga, and with it the eight-week MBSR training studies, such as [Hölzel et al. (2011)](/mindfulness-gray-matter-density/), that Fox and colleagues had included.
+- **A narrower definition of meditation.** They counted only "the practice of focused attention or awareness with the aim of cultivating a calm and stable mental state," which they equate with :term{id="mindfulness" case="lower"}. They left out any program that adds movement such as yoga, because the movement could itself affect the brain and confound the results. That excluded :term{id="mbsr"}, which includes yoga, and with it the eight-week MBSR training studies, such as [Hölzel et al. (2011)](/mindfulness-gray-matter-density/), that Fox and colleagues had included.
 - **Mindfulness questionnaires counted too.** Unlike Fox's review, this one included studies that related gray matter to people's scores on a mindfulness questionnaire rather than to meditation practice, among them the two largest samples in the review (247 and 155 people).
-- **Gray matter only.** White matter and cortical folding were left out.
+- **Gray matter only.** :term[White matter]{id="white_matter"} and cortical folding were left out.
 - **The strongest result from each study.** For effect sizes, they took each study's single largest reported effect, wherever in the brain it was.
 
 What it shares with Fox's review is the kind of evidence underneath. It does not pool training studies. Most of the 25 studies compared people who already meditated with people who didn't, at a single point in time.
@@ -43,7 +43,7 @@ What it shares with Fox's review is the kind of evidence underneath. It does not
 
 The team searched five databases (MEDLINE, Embase, PsycINFO, AMED and Global Health) on October 10, 2018, for MRI studies of meditation or mindfulness that measured gray matter volume, density or :term{id="cortical_thickness" case="lower"}. Of 698 unique records, 143 were read in full and 25 qualified. Together they included 1,646 participants, or 1,406 once people who appeared in more than one study were counted once. Studies ranged from 19 to 247 people (56 on average), and participants from 12 to 87 years old.
 
-Most compared meditators from various traditions, from Zen and loving-kindness meditation to Sahaja Yoga Meditation, with non-meditators at a single point in time. A few related gray matter to years of practice or to mindfulness questionnaire scores. One looked at 19 patients receiving meditation as part of their treatment for opioid dependence (Fahmy et al., 2018). The authors describe the majority as :term[cross-sectional]{id="cross_sectional_study"} and observational, and only two as longitudinal. Some studies included people with pain disorders or other illnesses, or adolescents.
+Most compared meditators from various traditions, from :term{id="zen"} and :term{id="loving_kindness" case="lower"} to Sahaja Yoga Meditation, with non-meditators at a single point in time. A few related gray matter to years of practice or to mindfulness questionnaire scores. One looked at 19 patients receiving meditation as part of their treatment for opioid dependence (Fahmy et al., 2018). The authors describe the majority as :term[cross-sectional]{id="cross_sectional_study"} and observational, and only two as longitudinal. Some studies included people with pain disorders or other illnesses, or adolescents.
 
 The team combined the studies in three ways:
 
