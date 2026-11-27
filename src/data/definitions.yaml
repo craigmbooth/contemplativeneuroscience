@@ -1118,3 +1118,12 @@
   title: Statistical Power
   def: "Statistical power is the chance that a study will detect an effect of a given size if that effect is real. It rises with the number of participants and with the size of the effect: a small study may have good power to detect a large effect but little power to detect a modest one. A study with low power can miss a real effect, so a non-significant result from it is weak evidence that no effect exists."
   wiki: Power_(statistics)
+- term: psilocybin
+  title: Psilocybin
+  def: "Psilocybin is the main psychoactive compound in \"magic mushrooms,\" a classic psychedelic drug. In the body it is converted to psilocin, which acts mainly on the brain's serotonin 2A receptors. At high doses it can profoundly alter perception, mood and the sense of self for about six hours, and in research settings it often brings experiences people describe as mystical or deeply meaningful. It is being studied in carefully screened, supervised settings as a possible treatment for depression and addiction, and is a controlled substance in most countries."
+  wiki: Psilocybin
+- term: blinded_experiment
+  title: Double-Blind
+  name: "Double-Blind Study"
+  def: "In a double-blind study, neither the participants nor the researchers who deal with them know who is getting which treatment, for example the real drug or a placebo. This keeps expectations, on either side, from shaping the results. Blinding is hard to keep when a treatment has obvious effects, as high doses of psychedelic drugs do, so researchers sometimes compare against a very low dose or an active drug rather than an inert pill."
+  wiki: Blinded_experiment
