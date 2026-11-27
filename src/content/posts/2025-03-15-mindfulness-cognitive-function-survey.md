@@ -1,7 +1,8 @@
 ---
-title: "Across 111 Trials, Mindfulness Modestly Improved Attention and Memory"
+title: "Across 111 Trials, Mindfulness Training Made People Slightly More Accurate on Thinking Tests, but Not Faster"
 paper_title: "Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials"
-seo_title: "Mindfulness Improves Cognition: Meta-Analysis of 111 RCTs"
+seo_title: "Mindfulness and Cognition: A Meta-Analysis of 111 Trials"
+last_modified_at: 2026-11-27
 date:   2025-03-15
 theme: mind-wandering
 doi: 10.1080/17437199.2023.2248222
@@ -12,70 +13,116 @@ paper:  # the summarized paper, for structured data; must agree with citation
   volume: "18"
   issue: "2"
   pages: "369–395"
-meta_description: "Meta-analysis of 111 RCTs (9,500+ people): mindfulness training brings small-to-moderate gains in attention, memory, and cognitive flexibility."
-snippet: "Does mindfulness training help you think better? This meta-analysis pooled 111 randomized trials with more than 9,500 participants. Mindfulness produced small-to-moderate improvements in overall cognition and in areas such as executive attention, working memory and inhibition, mostly in accuracy rather than speed. It did not improve processing speed or verbal fluency."
-citation: "Zainal, N. H., & Newman, M. G. (2023). Mindfulness enhances cognitive functioning: a meta-analysis of 111 randomized controlled trials. In Health Psychology Review (Vol. 18, Issue 2, pp. 369–395). Informa UK Limited. [10.1080/17437199.2023.2248222](https://doi.org/10.1080/17437199.2023.2248222)
-  "
-
+meta_description: "A meta-analysis of 111 randomized trials found mindfulness training brought small gains in attention and accuracy on thinking tests, but not in speed."
+snippet: "Does mindfulness training sharpen thinking? This meta-analysis pooled 111 randomized trials with 9,538 participants. Compared with active control activities, mindfulness brought small-to-moderate gains (effect sizes 0.19–0.39) in overall cognition, executive and sustained attention, accuracy on working memory, inhibition and task-switching tests, and self-rated cognition. It did not make people faster, or improve memory for events or verbal fluency. Most gains were small, and several varied widely between trials."
+citation: "Zainal, N. H., & Newman, M. G. (2023). Mindfulness enhances cognitive functioning: A meta-analysis of 111 randomized controlled trials. *Health Psychology Review*, 18(2), 369–395. [10.1080/17437199.2023.2248222](https://doi.org/10.1080/17437199.2023.2248222)"
 study:
   type: "Meta-analysis"
-  design: "Meta-analysis"
-  participants: "111 randomized controlled trials with more than 9,500 participants"
-  method: "Pooled results of mindfulness-based interventions across 15 cognitive subdomains"
-  measures: "Global cognition and subdomains such as executive attention, working memory, inhibition and cognitive flexibility"
-  limitations: "Effects were small to moderate, and mindfulness did not improve processing speed or verbal fluency."
+  design: "Registered systematic review and meta-analysis of randomized controlled trials, analyzed with robust variance estimation and controlling for whether each trial reported treatment fidelity checks"
+  participants: "9,538 people new to meditation in 111 trials from 22 countries (46 trials in the US); mean age 34 (range about 4 to 81), 58% female; healthy people and people with elevated psychiatric symptoms or medical illness"
+  method: "Mindfulness-based interventions of at least two sessions with home practice (MBSR, MBCT and other programs, led face to face or self-guided), compared with no treatment or a wait-list, or with active controls such as CBT, cognitive training, psychoeducation or treatment as usual"
+  measures: "Change from before to after training in global cognition and 15 subdomains, measured with behavioral tests (accuracy and speed) and self-report questionnaires; global cognition also at follow-up"
+  limitations: "Effects over active controls were small; no clear benefit for speed, orienting, episodic memory, verbal fluency or errors; several outcomes varied widely between trials; moderator results differed between control types; ethnicity unreported in most trials; single techniques could not be separated."
 ---
 ## Background Information
 
-Despite extensive research on :term{id="mindfulness" case="lower"} meditation, specific cognitive benefits remain an area of ongoing research. In this study, the authors aim to address this gap through a comprehensive meta-analysis, offering insights into how mindfulness-based interventions (MBIs) specifically enhance cognitive performance, and to avoid burying the lede:
+:term{id="mindfulness"} is often promoted as a way to think more clearly, but which thinking skills does it actually change? Nur Hani Zainal and Michelle Newman set out to answer this across the whole literature of randomized trials.
 
-> "MBIs consistently yielded small-to-moderate yet practically meaningful :term[effect sizes]{id="effect_size" case="lower"}  on global cognition and six cognitive subdomains."
+Their introduction lays out why mindfulness might help. Mindfulness-based interventions (MBIs) teach :term{id="focused_attention" case="lower"}, holding attention on one object and returning to it after distractions, and :term{id="open_monitoring" case="lower"}, a non-judgmental awareness of whatever arises. In theory, practicing these could strengthen :term{id="executive_function" case="lower" plural} such as :term{id="working_memory" case="lower"}, switching between tasks and holding back automatic responses, as well as several kinds of attention. Others have proposed that mindfulness could improve verbal fluency, processing speed, memory and how well people rate their own thinking.
 
-Cognitive functioning is typically assessed through a variety of standardized tests designed to measure specific domains of mental performance. In this meta-analysis, the authors examined multiple types of cognitive assessments to evaluate mindfulness's effects. These included behavioral cognitive tasks, which measure response accuracy and reaction time, and self-reported subjective cognitive assessments, where individuals evaluate their own cognitive abilities. Some of the key cognitive functions measured in these studies include:
+Earlier reviews disagreed. The authors count six previous :term[meta-analyses]{id="meta_analysis"} limited to :term{id="randomized_controlled_trial" case="lower" plural}. One, of 13 trials in adults, found moderate effects on working memory and inhibition but almost none on switching. One of nine studies in adults aged 60 and over found no notable effect on attention, executive function, memory or global cognition. The most recent, of 56 studies, found mindfulness beat no treatment for global cognition, executive function and working memory, but did not beat active comparison activities.
 
-- **Executive Attention:** The ability to focus on relevant information while ignoring distractions.
-- **:term{id="working_memory"}:** The capacity to hold and manipulate information over short periods.
-- **Cognitive Flexibility (Shifting):** The ability to switch between tasks or mental frameworks.
-- **Inhibition Control:** The skill of suppressing automatic or habitual responses.
-- **Processing Speed:** How quickly one can perceive, process, and respond to information.
-- **Verbal Fluency:** The ability to retrieve and produce words efficiently.
-
-By systematically analyzing the results across these domains, the study aimed to determine which aspects of cognition benefit the most from :term{id="mindfulness" case="lower"} training.
+The authors saw gaps they wanted to fill. Few reviews had split attention into its parts, looked at self-rated thinking or processing speed, or asked whether self-guided programs work as well as teacher-led ones. Their review also included far more trials, 55 more than the most recent one.
 
 ## What They Did
 
-The authors systematically reviewed 111 :term{id="randomized_controlled_trial" plural} (RCT), encompassing over 9,500 participants, to analyze the effects of mindfulness training across 15 cognitive subdomains. These subdomains included executive attention, working memory, inhibition, cognitive flexibility, and subjective cognitive functioning. The researchers carefully examined the influence of moderators such as treatment duration, instructor presence, and participant characteristics.
+The authors registered their plan in advance and searched five databases for studies from January 1989 to December 2022. To reduce publication bias (the "file drawer" problem), they also included master's theses, doctoral dissertations and preprints. A trial qualified if:
 
-To ensure the rigor of their analysis, the authors used several criteria for evaluating study quality, including:
+- its participants were new to meditation;
+- they were randomly assigned to a mindfulness program or to no treatment, a :term[wait-list]{id="wait_list_control" case="lower"} or an :term{id="active_control_group" case="lower"};
+- at least one cognitive test or questionnaire about thinking was given before and after training;
+- the program's main aim was teaching mindfulness, with psychoeducation, focused attention and/or open monitoring practice, home practice and at least two sessions.
 
-- **Randomization of Participants:** Ensuring that individuals were assigned to mindfulness or control groups randomly to reduce bias.
-- **Treatment Fidelity Checks:** Evaluating whether studies reported adherence to mindfulness training protocols.
-- **Study Design and Control Groups:** Comparing MBIs to both waitlist/no-treatment controls and :term{id="active_control_group" case="lower" plural} (such as cognitive training or psychoeducation).
-- **Use of Objective vs. Subjective Measures:** Determining whether cognitive improvements were observed across different types of assessments.
-- **Handling of Missing Data:** Studies were assessed for how they accounted for missing participant data, which can impact the reliability of findings.
+Trials of related but different programs were left out. These included acceptance and commitment therapy, dialectical behavior therapy, integrative mind-body training, loving-kindness meditation, mantra meditation, yoga and self-compassion training. So were trials whose control condition contained any mindfulness. Active controls included cognitive-behavioral therapy, cognitive training, psychoeducation alone and treatment as usual that involved some intervention.
 
-## One Big Result: Mindfulness Improved Accuracy More Than Speed
+The outcomes were global cognition (an overall score) and 15 subdomains, each measured with standard tasks:
 
-The most striking finding was that MBIs effectively enhanced multiple cognitive functions, particularly those related to accuracy rather than speed.  This is demonstrated in the following graph, which shows the aggregated results from all 111 studies.
+- **Attention:** *executive attention*, settling conflicts between competing responses, as on the :term{id="attention_network_test"}; *orienting*, directing attention to a cued location; *sustained attention accuracy*, staying accurate on long, repetitive tasks such as pressing a key only for a target number; and the *intra-individual coefficient of variation*, how steady people's response times were on those tasks.
+- **Executive function:** working memory (for example the :term{id="n_back"}), inhibition (for example the Stroop color-word test) and shifting between rules (for example the Wisconsin Card Sorting Test). Each was scored separately for accuracy and for speed.
+- **Other:** processing speed (a letter–digit substitution task), :term[verbal fluency]{id="verbal_fluency_test" case="lower"} (naming as many words as possible from a cue in a minute), :term{id="episodic_memory" case="lower"} (recalling a word list), cognitive errors, and *subjective cognitive functioning*, people's own ratings of how well they can focus and think.
 
-![Forest plot showing effect sizes of mindfulness interventions across 15 cognitive subdomains. The x-axis shows standardized mean difference (Cohen's d), with positive values to the right indicating improvement. Each cognitive subdomain is listed on the y-axis with a horizontal line showing the 95% confidence interval and a square marking the mean effect size. The top eight domains show statistically significant improvements (confidence intervals not crossing zero), with largest effects in executive attention, working memory accuracy, and inhibition accuracy. The plot visually demonstrates that mindfulness primarily improves accuracy-based cognitive functions rather than speed-based measures.](/assets/article_images/mindfulness-cognitive-function-survey/meditation-cognition-effect-size.png)
+The authors pooled each study's change from before to after training as an :term{id="effect_size" case="lower"} (Hedges' *g*). Because the correlation between before and after scores wasn't available, they assumed a value of 0.50. Their method allowed for trials contributing several outcomes, and every analysis controlled for whether a trial reported checking that the program was delivered as intended. Such checks were reported in about two-thirds of trials. Comparisons against no treatment or a wait-list were analyzed separately from comparisons against active controls. Six outlying results were removed, and the authors report a similar pattern with them left in.
 
-Overall, to summarize:
+The 111 trials included 9,538 participants, with an average age of 34 (range about 4 to 81) and 58% female. Trials ranged from 14 to 424 participants (average 84) and from 2 to 90 sessions, and came from 22 countries, 46 of them in the US. Only 41 trials reported ethnicity; in those, 61% of participants were White.
 
-> "Mindfulness practices promote present-moment awareness and effective goal attainment over efficiency."
+## One Big Result: Mindfulness Improved Accuracy, Not Speed
 
-These improvements were particularly significant in executive attention, working memory accuracy, inhibition accuracy, cognitive flexibility, :term{id="sustained_attention" case="lower"}, and subjective cognitive functioning. Notably, mindfulness interventions did not significantly improve processing speed or verbal fluency, reinforcing the idea that mindfulness enhances deliberate and controlled cognitive processes rather than rapid response times.
+The authors focus on the comparison with active controls, because it gives "a more accurate and precise answer" to whether mindfulness improves cognition compared with other treatments. Against active controls, mindfulness training produced small-to-moderate, statistically significant gains in global cognition (*g* = 0.21, across 72 trials and 5,847 participants) and in seven of the subdomains:
 
-Mindfulness was found to primarily enhance cognitive accuracy rather than speed, suggesting benefits for deliberate, careful cognitive processing. This has significant implications for activities requiring sustained attention and precision, such as learning, problem-solving, and professional decision-making. Instead of rushing through tasks, mindfulness may help individuals engage more deeply and accurately with the material at hand.
+- executive attention, 0.19;
+- working memory accuracy, 0.30;
+- inhibition accuracy, 0.19;
+- shifting accuracy, 0.20;
+- sustained attention accuracy, 0.21;
+- steadiness of response times on sustained attention tasks, 0.34;
+- self-rated cognitive functioning, 0.39.
 
-> "Results suggest that MBIs primarily impacted cognitive processing effectiveness (captured by accuracy) more than efficiency (measured by latency)."
+There was no clear difference from active controls in the speed of working memory, inhibition or shifting, or in processing speed, orienting, verbal fluency, episodic memory or cognitive errors. For several of these, few trials contributed and the :term[confidence intervals]{id="confidence_interval" case="lower"} were very wide.
 
-These attentional improvements may explain findings from [McVay, Kane, & Kwapil (2009)](/mind-wandering-contexts/) showing that awareness of :term[mind-wandering]{id="mind_wandering"} correlates with improved task performance. These results align with work by [Shields et al. (2020)](/deconstructing-concentration-interference-control/) demonstrating that intensive meditation practice specifically enhances controlled attention processes rather than automatic attentional capture.
+![Effects of mindfulness training compared with active control activities, for overall cognition and 15 subdomains, with 95% confidence intervals and the number of trials. Mindfulness did better on overall cognition (0.21), executive attention (0.19), working memory accuracy (0.30), inhibition accuracy (0.19), task-switching accuracy (0.20), sustained attention accuracy (0.21), response consistency (0.34) and self-rated cognition (0.39). The intervals for orienting (0.30), working memory speed (0.11), inhibition speed (0.02), task-switching speed (−0.03), processing speed (0.38), verbal fluency (0.12), episodic memory (0.07) and cognitive errors (0.09) include zero; those for processing speed, verbal fluency and cognitive errors extend beyond the chart. Drawn from the values in Table 2 of Zainal and Newman, 2023.](/assets/article_images/mindfulness-cognitive-function-survey/effects-vs-active-controls.jpg)
+
+Against no treatment or a wait-list, the gains were larger: 0.58 for global cognition, 0.30 for executive attention, 0.33 for working memory accuracy, 0.64 for inhibition accuracy, 0.27 for shifting accuracy, 0.37 for sustained attention accuracy and 0.26 for self-rated cognition. The authors summarize:
+
+> MBIs consistently yielded small-to-moderate yet practically meaningful effect sizes on global cognition and six cognitive subdomains that captured accuracy vs. latency-based indices of EF and sustained accuracy.
+
+(Here EF is executive functioning, and the six subdomains count the two sustained attention measures as one.)
+
+The pattern across tests is the paper's main message. Where a task was scored both ways, mindfulness improved how many answers people got right but not how quickly they gave them:
+
+> Overall, results suggest that MBIs primarily impacted cognitive processing effectiveness (captured by accuracy) more than efficiency (measured by latency)…
+
+The authors suggest that the lack of a speed benefit may reflect "the calming and non-pressured nature of mindfulness practices."
+
+Two points keep this in proportion. First, the gains over active controls were small, and the largest, for self-rated cognition, came from questionnaires rather than tests. That outcome also varied the most between trials. Second, the authors stress that a nonsignificant result is not proof of no effect, but also that researchers and clinicians should be cautious about claiming benefits in those domains.
 
 ## Miscellaneous Interesting Takeaways
 
-### Short Mindfulness Practices Are Beneficial
-One of the more surprising findings was that the length of mindfulness training was not a strong predictor of cognitive benefits. This means that even short mindfulness sessions, when practiced consistently, can be effective. This is particularly relevant for those who struggle to incorporate long meditation sessions into their routine. A few minutes of structured mindfulness practice each day may be enough to yield noticeable cognitive improvements over time.
+### Attention Improved, but No More Than Other Skills
 
-### Instructor-Led Programs Have Advantages
-While self-guided mindfulness apps and online courses offer accessibility, the study found that face-to-face mindfulness programs produced stronger cognitive benefits. Having an instructor present may enhance engagement, provide accountability, and offer real-time feedback, all of which can deepen the learning experience. This suggests that individuals looking for maximum cognitive benefits from mindfulness should consider instructor-led programs whenever possible.
+Mindfulness improved executive attention and sustained attention, but there was no clear effect on orienting. The authors found this surprising, since some practices, such as body scans, train people to direct attention. They note that only six trials compared orienting with active controls, that studies of orienting covered only ages 8 to 50, and that an effect may exist but need long-term practice.
+
+Attention did not stand out from the other skills. Within each comparison, the significant effects did not differ significantly from one another. The authors write that "treatment effect sizes did not substantially differ between measures of attentional control and EF vs. other cognitive subdomains." Against active controls, executive attention (0.19) was among the smallest of the significant effects.
+
+### Longer Programs Didn't Do Better
+
+Neither the number of sessions nor the total hours of training changed the size of the effects, against either type of control. The authors call this encouraging for brief programs, which may be easier to fit into a busy life. Every program in the review, though, had at least two sessions and home practice.
+
+### Face-to-Face vs Self-Guided Depended on the Comparison
+
+Against active controls, programs led face to face did better than self-guided apps or online programs for global cognition (0.23 vs 0.12), sustained attention accuracy (0.12 vs about 0) and self-rated cognition (0.41 vs 0.31). The authors suggest a teacher adds accountability and motivation. Against no treatment or a wait-list, self-guided programs had a slightly larger effect on global cognition (0.59 vs 0.58), a difference the authors call too small to matter in practice.
+
+### Moderator Results Often Pointed Different Ways
+
+People with elevated psychiatric symptoms gained the most against no treatment or a wait-list (global cognition 0.82, against 0.62 for medical samples and 0.35 for healthy people). Other moderators flipped between the two comparisons. Against no treatment, standard MBSR or MBCT programs beat other mindfulness programs for global cognition (0.80 vs 0.47). Against active controls, the non-standard programs, often tailored to groups such as military personnel, did better (0.23 vs 0.17).
+
+The abstract reports only one direction. It says effects were stronger with "face-to-face (vs. self-guided) delivery, and use of non-standard mindfulness-based stress reduction or mindfulness-based cognitive therapy (vs. standard MBI)". Some of the significant moderator differences were also tiny, such as 0.207 vs 0.211 for global cognition by type of analysis. The authors themselves conclude that "few significant moderator results emerged."
+
+### Did the Benefits Last?
+
+Only global cognition had enough studies to test at follow-up. The effect held, at 0.81 against no treatment or a wait-list and 0.23 against active controls. The paper doesn't say how long the follow-up periods were.
+
+### How Trustworthy Are the Trials?
+
+By the Cochrane risk-of-bias tool, no trial was at high risk of bias from its randomization. Missing data raised some concerns in 22–25% of trials, which didn't report how much data was missing or how they handled it. The authors found no sign of :term{id="publication_bias" case="lower"} by the p-uniform test or by inspecting funnel plots. :term[Heterogeneity]{id="study_heterogeneity" case="lower"} was moderate to large for several outcomes, including global cognition, sustained attention accuracy and self-rated cognition against active controls.
+
+Against no treatment, trials that analyzed only completers found larger effects on global cognition than :term[intention-to-treat]{id="intention_to_treat" case="lower"} trials (0.62 vs 0.48). The authors note that complete-case analyses "likely inflate effect sizes". They also note that the programs varied in structure and content, and that too few trials compared single techniques to say which part of mindfulness training matters. Most trials didn't report ethnicity, and none reported sexual orientation or gender identity.
+
+## Final Reflection
+
+This meta-analysis gives a measured answer to a common claim. Across 111 randomized trials, mindfulness training made people slightly better at a range of thinking tasks. They got better at resolving conflicting cues, and more accurate at holding information in mind, holding back automatic responses, switching rules and staying on task, and they rated their own thinking more highly. They were not faster, and they did not remember word lists better or come up with more words. Against other active activities, the effect sizes were about 0.2 to 0.4.
+
+The authors are direct about the limits:
+
+> More importantly, the limitations of MBIs (i.e., what our research has shown it may not impact) should be explicitly communicated when delivering these interventions to improve cognitive functioning.
+
+For single trials on this site that tested some of these skills, see [five days of integrative body–mind training and conflict resolution on an attention test](/five-days-meditation-attention-stress/) (a kind of program this review excluded), [two weeks of mindfulness training and working memory](/mindfulness-gre-working-memory/), and [a three-month concentration retreat and controlled attention](/deconstructing-concentration-interference-control/). The paper didn't measure :term[mind wandering]{id="mind_wandering" case="lower"}. The authors only suggest that the skills it found improved might partly explain earlier findings that mindfulness reduces it.
