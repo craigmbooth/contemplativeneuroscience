@@ -1091,10 +1091,6 @@
   title: Delay of Gratification
   def: "Delay of gratification is the ability to resist a smaller reward now in order to get a larger one later. It is often tested in young children by offering a choice, such as one treat now or two later, and counting how often they choose to wait. Walter Mischel's \"marshmallow\" studies from the late 1960s onward found that preschoolers who waited longer tended to do better years later, though the strength of that link has been debated."
   wiki: Delayed_gratification
-- term: cluster_randomized_trial
-  title: Cluster-Randomized Trial
-  def: "A cluster-randomized trial assigns whole groups of people, such as classrooms, schools or clinics, to a treatment or a control condition, rather than assigning each person separately. It is often the only practical design for programs delivered to a group. Because people in the same group tend to resemble each other, the effective sample size is smaller than the number of people, and studies with only a few clusters cannot fully separate the program's effect from differences between the groups."
-  wiki: Cluster_randomised_controlled_trial
 - term: intraclass_correlation
   title: ICC
   name: "Intraclass Correlation (ICC)"
