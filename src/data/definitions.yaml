@@ -1135,3 +1135,20 @@
   title: Free Recall
   def: "Free recall is a memory test in which people study a list of items, such as words, and then report as many as they can remember, in any order, with no hints. It measures what people can bring back to mind on their own. Because it captures only the end result, it can't by itself show whether a difference comes from what people noticed, how they stored the items or how they retrieved them."
   wiki: Free_recall
+- term: gyrification
+  title: Gyrification
+  name: "Gyrification (Cortical Folding)"
+  def: "Gyrification is the folding of the brain's outer layer, the cerebral cortex, into ridges (gyri) and grooves (sulci). Folding lets a large sheet of cortex fit inside the skull. The basic pattern forms before birth and is strongly influenced by genes, but the degree of folding keeps changing through childhood and adolescence. Researchers estimate it from MRI scans by measuring how sharply the brain's surface curves at each point."
+  wiki: Gyrification
+- term: precentral_gyrus
+  title: Precentral Gyrus
+  def: "The precentral gyrus is a ridge of cortex running across the top and side of each frontal lobe, just in front of the central sulcus. It houses the primary motor cortex, which sends the signals that move the body; the other side of the brain controls each side of the body."
+  wiki: Precentral_gyrus
+- term: fusiform_gyrus
+  title: Fusiform Gyrus
+  def: "The fusiform gyrus is a long ridge on the underside of each temporal lobe. It is part of the brain's visual system that identifies what we are looking at, and it is especially involved in recognizing faces, objects and written words."
+  wiki: Fusiform_gyrus
+- term: cuneus
+  title: Cuneus
+  def: "The cuneus is a wedge-shaped area on the inner surface of each occipital lobe, at the back of the brain. It takes part in basic visual processing and has been linked to directing and holding visual attention."
+  wiki: Cuneus
