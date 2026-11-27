@@ -1358,3 +1358,7 @@
   title: DNA Methylation
   def: "DNA methylation is the attachment of a small chemical tag, a methyl group, to DNA, usually at a cytosine that is followed by a guanine (a CpG site). It doesn't change the DNA sequence, but heavy methylation of a gene's promoter, the stretch of DNA that controls when the gene is read, tends to keep the gene switched off. It is one of the main epigenetic marks, and its level can be measured site by site."
   wiki: DNA_methylation
+- term: habituation
+  title: Habituation
+  def: "Habituation is the gradual weakening of a response to something that is repeated and turns out to be harmless. In brain-imaging studies it is often measured as activity in a region declining across repeated trials; the opposite, a response that grows with repetition, is called sensitization."
+  wiki: Habituation
