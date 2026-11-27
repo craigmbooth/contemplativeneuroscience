@@ -1026,3 +1026,14 @@
   title: Coronary Heart Disease
   def: "Coronary heart disease (also called coronary artery disease) is a narrowing of the arteries that supply the heart muscle with blood, usually by fatty plaques that build up in the artery walls. It can cause chest pain (angina) and heart attacks, and it is a leading cause of death worldwide. The narrowing is usually confirmed by angiography, an X-ray of the arteries taken after injecting a dye."
   wiki: Coronary_artery_disease
+- term: fail_safe_n
+  title: Fail-Safe N
+  def: "The fail-safe N is an early check for publication bias in meta-analysis, proposed by the psychologist Robert Rosenthal. It estimates how many unpublished studies with an average effect of zero would have to exist to make a pooled result no longer statistically significant. A large number suggests the result can't be explained away by studies left in file drawers, though it doesn't show whether missing studies have inflated the size of the effect."
+- term: funnel_plot
+  title: Funnel Plot
+  def: "A funnel plot is a scatter graph used in meta-analysis to look for publication bias. Each study's effect size is plotted against its precision, which depends mostly on its sample size. Without bias, small, imprecise studies scatter widely on both sides of the average and larger ones cluster near it, forming a symmetrical funnel. A gap on one side, typically where small studies with weak results would fall, suggests some studies are missing; the trim-and-fill method estimates how many and recalculates the average as if they had been included."
+  wiki: Funnel_plot
+- term: jadad_scale
+  title: Jadad Scale
+  def: "The Jadad scale is a short checklist, published by Alejandro Jadad and colleagues in 1996, for rating the quality of reports of clinical trials. It awards up to 5 points: for describing the study as randomized and randomizing properly, for describing it as double-blind and blinding properly, and for accounting for dropouts and withdrawals. Trials of therapies such as meditation, where participants know which treatment they receive, rarely earn the blinding points."
+  wiki: Jadad_scale
