@@ -1299,3 +1299,11 @@
   name: "Theravada Buddhism"
   def: "Theravada (Pali for \"teaching of the elders\") is the oldest surviving school of Buddhism and the main religion of Sri Lanka, Thailand, Myanmar, Cambodia and Laos. It takes the Pali Canon as its scripture and emphasizes meditation and insight into impermanence, suffering and not-self. The Insight (vipassana) meditation movement and the jhana practices studied in some meditation research come from this tradition."
   wiki: Theravada
+- term: epworth_sleepiness_scale
+  title: Epworth Sleepiness Scale
+  def: "The Epworth Sleepiness Scale is a short questionnaire that measures daytime sleepiness. People rate how likely they would be to doze off in eight everyday situations, such as reading, watching TV or sitting in a stopped car in traffic, from 0 (would never doze) to 3 (high chance of dozing). The total runs from 0 to 24, with higher scores meaning sleepier days."
+  wiki: Epworth_Sleepiness_Scale
+- term: sleep_diary
+  title: Sleep Diary
+  def: "A sleep diary is a daily log, usually filled in each morning, of when a person went to bed, how long it took to fall asleep, how often they woke in the night, when they got up and how well they felt they slept. It is a standard way to track sleep over weeks, but because it relies on people's own estimates it can differ from sleep measured with recording devices such as polysomnography or wrist-worn activity monitors."
+  wiki: Sleep_diary
