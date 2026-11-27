@@ -1219,3 +1219,15 @@
   name: "Area Under the Curve (AUC)"
   def: "The area under the curve (AUC) sums up a series of measurements taken over time as a single number: plot the level of, say, a hormone at each sample, join the points, and measure the area beneath the line. Stress researchers often use a version calculated with respect to increase, which counts only the rise above the first sample, so it reflects how strongly and for how long a level rose during a stressful task."
   wiki: Area_under_the_curve_(pharmacokinetics)
+- term: inverted_u
+  title: Inverted-U Relationship
+  def: "An inverted-U relationship is one in which more of something helps up to a point and then starts to hurt, so a graph of the outcome against the amount rises, peaks and falls, like an upside-down U. The classic example is the Yerkes–Dodson law, from 1908, usually summarized as performance improving with arousal up to an optimal level and then declining as arousal climbs further. Psychologists also call this a non-monotonic relationship or the too-much-of-a-good-thing effect."
+  wiki: Yerkes–Dodson_law
+- term: experiential_avoidance
+  title: Experiential Avoidance
+  def: "Experiential avoidance is the attempt to avoid, suppress or escape unwanted inner experiences, such as painful thoughts, feelings, memories or bodily sensations, even when doing so backfires in the long run. High levels are linked with many forms of anxiety, depression and substance use, and loosening it is a central aim of acceptance-based therapies."
+  wiki: Experiential_avoidance
+- term: exposure_therapy
+  title: Exposure Therapy
+  def: "Exposure therapy is a psychological treatment in which a person deliberately and repeatedly faces what they fear or avoid, such as objects, situations, memories or bodily sensations, in a safe setting, so that the fear response gradually fades. It is a standard treatment for phobias and other anxiety disorders, obsessive-compulsive disorder and PTSD."
+  wiki: Exposure_therapy
