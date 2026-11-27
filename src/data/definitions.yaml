@@ -1083,3 +1083,20 @@
   title: Within-Subject Design
   def: "In a within-subject (or repeated-measures) design, every participant takes part in all of a study's conditions, and their results under one condition are compared with their own results under the others. Because each person serves as their own comparison, it needs fewer participants than comparing separate groups. But the order of conditions can matter, through practice, fatigue or carry-over, so researchers vary the order across participants, and people may guess what is being compared."
   wiki: Repeated_measures_design
+- term: executive_function
+  title: Executive Function
+  def: "Executive functions are the mental skills used to control and direct thinking and behavior toward a goal. The three core ones are usually given as inhibitory control (holding back an automatic response or ignoring a distraction), working memory (keeping information in mind and using it) and cognitive flexibility (switching between rules, tasks or points of view). They develop rapidly in early childhood, rely heavily on the prefrontal cortex, and predict how well children do at school."
+  wiki: Executive_functions
+- term: delay_of_gratification
+  title: Delay of Gratification
+  def: "Delay of gratification is the ability to resist a smaller reward now in order to get a larger one later. It is often tested in young children by offering a choice, such as one treat now or two later, and counting how often they choose to wait. Walter Mischel's \"marshmallow\" studies from the late 1960s onward found that preschoolers who waited longer tended to do better years later, though the strength of that link has been debated."
+  wiki: Delayed_gratification
+- term: cluster_randomized_trial
+  title: Cluster-Randomized Trial
+  def: "A cluster-randomized trial assigns whole groups of people, such as classrooms, schools or clinics, to a treatment or a control condition, rather than assigning each person separately. It is often the only practical design for programs delivered to a group. Because people in the same group tend to resemble each other, the effective sample size is smaller than the number of people, and studies with only a few clusters cannot fully separate the program's effect from differences between the groups."
+  wiki: Cluster_randomised_controlled_trial
+- term: intraclass_correlation
+  title: ICC
+  name: "Intraclass Correlation (ICC)"
+  def: "The intraclass correlation coefficient (ICC) measures how much people within the same group, such as children in one classroom, resemble each other compared with people in other groups. It runs from 0 to 1: an ICC of 0 means the group someone belongs to tells you nothing about their score, while larger values mean a sizeable share of the differences between people lies between groups. It is also used to measure how consistently a test gives the same score twice."
+  wiki: Intraclass_correlation
