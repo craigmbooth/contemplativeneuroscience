@@ -42,7 +42,7 @@ Before any recording, S was interviewed in depth, lying in the :term{id="meg"} s
 - **SB2:** a state in which the sense of boundaries began to dissolve
 - **SB3:** a state in which it disappeared
 
-The interviews, analyzed in a companion paper (Ataria et al., 2015), identified nine aspects of experience that weakened from one state to the next, such as the sense of time, of location, of agency and of being at the center of experience.
+The interviews, analyzed in a companion paper ([Ataria et al., 2015](/sense-of-boundaries-case-study/)), identified nine aspects of experience that weakened as the boundaries dissolved, such as the sense of time, of location, of agency and of being at the center of experience.
 
 During MEG recording, a recorded voice cued S through the three states, one minute each, in four blocks with a minute's rest between blocks. Because shifting between such states at random would have been very hard, the order was always the same: SB1, then SB2, then SB3. The team then looked for brain rhythms whose strength rose or fell in step across the three states.
 
