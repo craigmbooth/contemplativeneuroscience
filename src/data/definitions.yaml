@@ -1231,3 +1231,11 @@
   title: Exposure Therapy
   def: "Exposure therapy is a psychological treatment in which a person deliberately and repeatedly faces what they fear or avoid, such as objects, situations, memories or bodily sensations, in a safe setting, so that the fear response gradually fades. It is a standard treatment for phobias and other anxiety disorders, obsessive-compulsive disorder and PTSD."
   wiki: Exposure_therapy
+- term: confounding
+  title: Confounding
+  def: "Confounding happens when a third factor influences both of the things a study compares, creating or hiding a link between them. If people who exercise also tend to eat better, for example, a link between exercise and health may partly reflect diet. Researchers measure likely confounders and adjust for them statistically, but they can't adjust for factors they didn't measure; random assignment is the surest way to rule confounding out. In confounding by indication, the reason someone takes up a treatment, such as feeling stressed, is itself linked to the outcome being studied."
+  wiki: Confounding
+- term: cohort_study
+  title: Cohort Study
+  def: "A cohort study follows a defined group of people, the cohort, over time, measuring their characteristics and habits and recording what happens to them. Because the researchers don't assign anything, it can show which things go together and which come first, but not on its own that one causes the other. Large population cohorts often invite everyone above a certain age in a district and re-examine them every few years."
+  wiki: Cohort_study
