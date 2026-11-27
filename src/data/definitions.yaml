@@ -1164,3 +1164,30 @@
 - term: reliable_change
   title: Reliable Change
   def: "Reliable change is a way of judging whether one person's score on a questionnaire has changed by more than measurement error alone would explain. The threshold depends on how widely scores vary and how consistent the questionnaire is, so a smaller change could just be noise. Researchers often pair it with clinical significance, asking whether a score also crossed into or out of the range typical of people with a disorder. A reliable change shows that something changed, not what caused it."
+- term: hamilton_depression_scale
+  title: HAM-D
+  name: "Hamilton Depression Rating Scale (HAM-D)"
+  def: "The Hamilton Depression Rating Scale (HAM-D or HRSD) is a questionnaire that a clinician fills in after interviewing a patient, rating the severity of depressive symptoms such as low mood, guilt, poor sleep, loss of interest, anxiety and physical complaints. It was introduced by Max Hamilton in 1960 and comes in several lengths, most often 17 or 24 items; higher scores mean more severe depression. It is one of the most widely used outcome measures in depression trials, which often count a fall of 50% or more as a response to treatment."
+  wiki: Hamilton_Rating_Scale_for_Depression
+- term: mmse
+  title: MMSE
+  name: "Mini-Mental State Examination (MMSE)"
+  def: "The Mini-Mental State Examination (MMSE) is a brief pencil-and-paper test of overall thinking ability, scored out of 30. It asks about orientation (the date and place), memory for a few words, attention and arithmetic, language and copying a drawing, and takes about ten minutes. It is widely used to screen for dementia, with scores below about 24 suggesting impairment. Healthy adults usually score near the top, so it is not designed to pick up small changes in people without impairment."
+  wiki: Mini–Mental_State_Examination
+- term: trail_making_test
+  title: Trail Making Test
+  def: "The Trail Making Test is a timed pencil-and-paper test of attention and mental flexibility. In Part A, a person draws a line connecting numbered circles in order (1, 2, 3...) as fast as possible; in Part B, they alternate between numbers and letters (1, A, 2, B...). Part A mainly measures processing speed, while Part B adds the need to switch between two sequences and is used as a measure of executive function. Scores are the seconds taken, so lower is better."
+  wiki: Trail_Making_Test
+- term: sf_36
+  title: SF-36
+  name: "SF-36 Health Survey"
+  def: "The SF-36 (Short Form 36) is a widely used 36-item questionnaire in which people rate their own health and how it affects daily life. Its eight scales cover physical functioning, pain, general health, energy, social functioning, emotional well-being and how much physical or emotional problems limit everyday roles. These combine into two summary scores, one for physical and one for mental health (the mental component summary, or MCS); higher scores mean better health."
+  wiki: SF-36
+- term: one_tailed_test
+  title: One-Tailed Test
+  def: "A one-tailed (or one-sided) test checks for a difference in only one direction, for example whether a treatment group improved more than a control group, and ignores the possibility that it did worse. When the result goes in the predicted direction, its p-value is typically half that of the usual two-tailed test, which looks for a difference in either direction, so a result is easier to call significant. It is appropriate only when a difference in the other direction is ruled out or of no interest in advance, and many journals and reviewers prefer two-tailed tests."
+  wiki: One-_and_two-tailed_tests
+- term: kundalini_yoga
+  title: Kundalini Yoga
+  def: "Kundalini yoga is a style of yoga that combines breathing exercises, postures, chanting of mantras, hand positions (mudras) and meditation. It draws on older Hindu and Sikh traditions and was popularized in the West from the late 1960s by Yogi Bhajan. Its practices include Kirtan Kriya, a short meditation that pairs chanting the sounds \"Saa, Taa, Naa, Maa\" with repeated finger movements."
+  wiki: Kundalini_yoga
