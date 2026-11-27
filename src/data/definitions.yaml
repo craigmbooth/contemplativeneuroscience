@@ -1059,3 +1059,17 @@
   title: CD4+ T Cells
   def: "CD4+ T cells, also called helper T cells, are white blood cells that coordinate the immune response by signaling to other immune cells. HIV infects and destroys them, so the number of CD4+ T cells in a sample of blood is a standard measure of how far HIV infection has progressed and how well the immune system is holding up."
   wiki: T_helper_cell
+- term: crp
+  title: CRP
+  name: "C-Reactive Protein (CRP)"
+  def: "C-reactive protein (CRP) is a protein the liver releases into the blood in response to inflammation; its level climbs within hours of an infection or injury. Measured with a high-sensitivity test, modestly raised levels that persist serve as a marker of low-grade, chronic inflammation and are associated with a higher risk of cardiovascular disease. Because it changes more slowly than signaling proteins such as IL-6, it gives a steadier picture of inflammation over the preceding days."
+  wiki: C-reactive_protein
+- term: nf_kb
+  title: NF-κB
+  name: "Nuclear Factor Kappa B (NF-κB)"
+  def: "NF-κB is a transcription factor, a protein that switches genes on, and one of the main controllers of inflammation. When a cell senses infection, injury or stress signals, NF-κB moves into the cell's nucleus and binds to particular DNA sequences, turning on genes for cytokines and other inflammatory molecules. Researchers can estimate how active it has been by checking whether the genes that became more active carry its binding sites."
+  wiki: NF-κB
+- term: monocyte
+  title: Monocyte
+  def: "Monocytes are white blood cells, made in the bone marrow, that circulate in the blood and can move into tissues, where they become macrophages that engulf microbes and debris. They are part of the innate immune system, the body's fast, first-line defense, and are a major source of the signaling proteins (cytokines) that drive inflammation."
+  wiki: Monocyte
