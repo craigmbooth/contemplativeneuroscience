@@ -1,8 +1,9 @@
 ---
-title: "Mind Wandering Is a Stable Trait, in the Lab and in Daily Life"
+title: "People Whose Minds Wandered More in a Lab Task Also Wandered More in Daily Life"
 paper_title: "Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts"
 seo_title: "Mind Wandering in the Lab and in Everyday Life"
 date:   2024-03-12
+last_modified_at: 2026-11-27
 theme: mind-wandering
 doi: 10.3758/PBR.16.5.857
 paper:  # the summarized paper, for structured data; must agree with citation
@@ -12,67 +13,88 @@ paper:  # the summarized paper, for structured data; must agree with citation
   volume: "16"
   issue: "5"
   pages: "857–863"
-meta_description: "Experience sampling in the lab and in daily life shows mind wandering is a stable individual trait, consistent with a failure of executive control."
-snippet: "Is mind wandering a habit you carry everywhere, or does it depend on what you're doing? Researchers measured off-task thoughts in 72 undergraduates, first on a lab attention task and then eight times a day for a week. People whose minds wandered more in the lab also wandered more in daily life, suggesting a stable trait. Context mattered too: minds wandered more during boring or stressful activities and less during enjoyable or important ones."
-citation: "McVay, J. C., Kane, M. J., & Kwapil, T. R. (2009). Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts. In *Psychonomic Bulletin &amp; Review* (Vol. 16, Issue 5, pp. 857–863). Springer Science and Business Media LLC. [10.3758/pbr.16.5.857](https://doi.org/10.3758/pbr.16.5.857)"
+meta_description: "72 students reported their thoughts in a lab task, then 8 times a day for a week. Those whose minds wandered more in the lab did so more in daily life."
+snippet: "Is mind wandering a habit you carry everywhere? After a lab attention task with thought probes, 72 undergraduates carried handheld computers for a week that beeped eight times a day. Their minds were off task at 30% of beeps, and those who had wandered more in the lab also wandered more in daily life. Everything outside the lab was self-reported, including how well people felt they were performing, and the study was correlational."
+citation: "McVay, J. C., Kane, M. J., & Kwapil, T. R. (2009). Tracking the train of thought from the laboratory into everyday life: An experience-sampling study of mind wandering across controlled and ecological contexts. *Psychonomic Bulletin &amp; Review*, 16(5), 857–863. [10.3758/PBR.16.5.857](https://doi.org/10.3758/PBR.16.5.857)"
 study:
   type: "Observational study"
-  design: "Observational study: a lab task plus a week of experience sampling"
-  participants: "72 college undergraduates"
-  method: "A lab attention task (SART) with thought probes, then a week of reporting thoughts eight times a day on a handheld device"
-  measures: "Off-task thoughts in the lab and in daily life, task performance, and the context of each report"
-  limitations: "Undergraduates only, and mind wandering is self-reported. The study is correlational and does not test meditation itself."
+  design: "Observational study: a lab attention task with thought probes, followed by a week of experience sampling"
+  participants: "72 undergraduates aged 18–35, out of 244 who had done the lab task"
+  method: "The Sustained Attention to Response Task (SART), with thought probes after 60% of the rare no-go words; then, 1 to 63 days later (16 on average), 7 days of questionnaires on a handheld computer at 8 random times a day between noon and midnight"
+  measures: "Lab mind-wandering rate, accuracy and response-time variability; in daily life, whether thoughts were off task, what they were about and how aware people were of it, 18 ratings of mood and activity, and self-rated performance"
+  limitations: "One small sample of undergraduates who chose to take part; correlational; everything outside the lab, including performance, was self-reported. The lab task's accuracy and response-time variability did not predict daily-life mind wandering. No meditation and no brain measures."
 ---
 
 ## Background Information
 
-The connection between focusing our attention on a task and the random thoughts that pop up when we're supposed to be concentrating is of great interest, especially in practices like meditation. Specifically, within Buddhism, there's a strong belief that being able to better control where we focus our attention and being more aware of the tiny shifts in our thoughts can help us recognize and eventually free ourselves from negative thinking patterns. This enhanced mental control and awareness are seen as crucial steps in breaking free from harmful habits of the mind.
+The paper opens with an experience most readers will know. In its words:
 
-That said, :term{id="mind_wandering" case="lower"} is ubiquitous in every day life.  We have all experienced
+> the commonplace experience of moving one's eyes across a page without comprehending a thing suggests the startling conclusion that we are sometimes unaware of our own conscious experience
 
-> moving one's eyes across a page without comprehending a thing
+Most research on :term{id="mind_wandering" case="lower"} happens in the laboratory. People do a task that is interrupted now and then by a question about what they were just thinking, and their answers are sorted into on-task thoughts and task-unrelated thoughts (TUTs). The authors cite evidence that these reports are meaningful: they shift with the demands of the task, they have a reliable neural signature, task errors can be 25% higher during TUTs than during on-task thoughts, and a person's TUT rate is fairly consistent across tasks and over time.
 
-which is suggestive that -- for periods of time -- our minds can actually wander to the point that we become unaware of our own conscious experience.
+Mind wandering is also common in everyday life. Studies that page people at random moments during their day find TUTs at 30–40% of the pages, more often in lectures than in discussions, and less often during enjoyable activities and happy moods.
 
-One quantitative way to measure mind wandering is through thought probes, which are questions that are asked to subjects during a task to see if their mind is on task or occupied with thought unrelated tasks (TUTs). It has been shown in the laboratory that the presence of TUTs has a distinct neuronal signature, and that TUTs increase errors on tasks by 20%.  It has also been shown that TUTs predict performance in more realistic situations like the classroom or everyday life.
-
-In the aggregate, asking somebody if they are experiencing TUTs reveals that on average they'll answer "yes" 30-40% of the time.  The goal of this work is to act as a bridge between laboratory studies and the real world by measuring TUTs for a set of people in both contexts to discover whether mind wandering is a stable characteristic of a person, and whether the context of the activity influences the rate of mind wandering.
+This study set out to connect the two approaches. The authors had argued in earlier work that unwanted mind wandering partly reflects lapses of :term[executive control]{id="executive_function"}, the ability to keep one's current goal in mind. If that is right, and if executive control works the same way across situations, then people who mind-wander more during a demanding lab task should also mind-wander more in daily life. A second aim was to see whether mind wandering goes with worse performance outside the lab, as it does inside it.
 
 ## What They Did
 
-The authors took 72 college undergraduates, who underwent a :term{id="sustained_attention" case="lower"} to response test (SART) in the laboratory, followed some time later by a week-long :term[experience sampling]{id="ecological_momentary_assessment"} protocol
+Undergraduates first did a test of :term{id="sustained_attention" case="lower"} in the lab, the Sustained Attention to Response Task (SART). Words appeared on screen one at a time, 1,810 in all, and people pressed a key for each one unless it was a rare target (11% of words). Targets were defined either by letter case (for example, a capitalized word among lowercase ones) or by meaning (animals vs. foods). After 60% of those targets, the task stopped and asked, "What were you just thinking about?" Five of the seven answers (everyday things, one's current state, personal worries, daydreams and "other") counted as TUTs. The SART results for all 244 students were reported in an earlier paper by two of the authors.
 
-* **Laboratory SART**: The SART is a go/no-go task that presented 1810 words for go/no-go responses based on a perceptual (letter case) or semantic (animals vs. foods) discrimination. Subjects were required to press a key for nontarget "go" stimuli (e.g., lowercase words) and withhold responses to infrequent (11%) target "no-go" stimuli (e.g., uppercase words), with thought-probe screens following 60% of the no-go targets to assess the subject's current thoughts.
-* **Home Experience Sampling**: The home experience sampling involved subjects carrying PDAs (Personal Digital Assistants) for a week, during which they were signaled eight times daily to report immediately whether their thoughts were off task. When signaled, subjects answered questions about whether their current thoughts had wandered from their activity, the content of those thoughts if they had wandered, and their mental and environmental context, using a questionnaire presented on the PDA. This methodology allowed for the collection of data on mind wandering in the subjects' everyday life activities, providing insights into the frequency and nature of off-task thoughts outside the controlled environment of a laboratory.
+Of those 244 students, aged 18 to 35, 72 went on to the daily-life part of the study. Their lab results looked like the full group's: on average both groups reported TUTs at 55% of the lab probes, and their accuracy and response-time variability were similar. They began the daily-life part between 1 and 63 days after the lab session (16 days on average), depending on when they were available.
 
-The relationships between task performance, and mind wandering both in and out of the lab were then analyzed
+After an hour's training, each student carried a Palm Pilot handheld computer for 7 full days. Eight times a day between noon and midnight, once at a random moment in each 90-minute block, it beeped. This method is called :term[experience sampling]{id="ecological_momentary_assessment"}. Students were told to take stock of their thoughts at the moment of the beep and report only those. The first question was whether their thoughts had wandered from what they were doing. If so, five more questions asked about those thoughts, including how aware they had been that their mind was wandering. Everyone then rated 18 statements about their mood and activity on a 1–7 scale, such as "What I'm doing right now is boring" and "I was doing this activity successfully." Students who answered at least 70% of the questionnaires were entered in a lottery for a gift card.
 
-## One Big Result: Mind Wandering in the Lab Predicts Mind Wandering in Daily Life
+Because each student answered many questionnaires, the authors analyzed the data with a :term[multilevel model]{id="mixed_model"}, which separates moment-to-moment variation within each person from differences between people. They tested three lab measures as predictors of daily-life mind wandering: the lab TUT rate, accuracy on the SART and how variable response times were. On average the students completed 45.6 usable questionnaires (range 20 to 65), and the number completed was unrelated to their TUT rates in the lab or in daily life.
 
-The first result is that the rate of TUTs in the lab predicts the rate of TUTs outside of the lab.  The positive :term{id="correlation" case="lower"} in this graph tells us that if your mind wandered more during the lab test, you likely also have more mind wandering in general.  Explained by the authors as:
+## One Big Result: People Whose Minds Wandered More in the Lab Also Wandered More in Daily Life
 
->  the propensity to mind wander is a stable cognitive characteristic, representing an individual difference that is reliable across time, activities, and contexts
+In daily life, the students reported mind wandering at 30% of beeps on average, with large differences between people (from 6% to 75%).
 
-![Graph showing the rate of TUTs in the lab test (x-axis) against the percentage of time the subject reported TUTs in the field (y-axis).  There exists a significant positive correlation between these two quantities, indicating that mind-wandering is a stable characteristic of a person, and that people who mind-wander more (less) in one context likely also mind-wander more (less) in others.](/assets/article_images/mind-wandering-contexts/lab_vs_life.png)
+The study's main question was whether the lab predicted daily life, and it did. Students with higher TUT rates in the lab reported more TUTs during their week, even after accounting for what they were doing and how they felt at each beep (b = 1.29, SE = 0.61, t(68) = 2.12). The result was statistically significant by the paper's .05 standard. The authors concluded:
 
-In every-day life, the authors also show that the propensity to mind wander is dependent on the context of the activity.  For example, mind wandering is more likely to occur when the activity is boring, stressful, or when there is a lot going on around the subject.  On the other hand, mind wandering is less likely to occur when the subject is good at the activity, likes the activity, or when the activity is important.
+> We found that the propensity to mind-wander is a stable cognitive characteristic, representing an individual difference that is reliable across time, activities, and contexts.
+
+They also note that the link held across virtually all of the daily-life contexts. In an earlier study, :term{id="working_memory" case="lower"} capacity had predicted daily-life mind wandering only in demanding situations, such as when people were trying to concentrate.
+
+Two details limit the executive-control reading. The other two lab measures, accuracy and response-time variability on the same task, did not significantly predict daily-life mind wandering. And although working memory capacity was measured in these students, the authors say the sample was too small to test its effect on daily-life mind wandering. The paper itself leaves open what drives the link. It says that whatever besides working memory capacity raises mind wandering in the lab (its examples are "personality, emotion, psychopathology, goals, recent life events") has a broad influence across people's everyday lives.
+
+On timing, the Discussion says daily-life TUTs were measured "several weeks after" the lab session. The Methods give a gap of 1 to 63 days, 16 days on average.
 
 ## Miscellaneous Interesting Takeaways
 
-### Mind Wandering Never Helps
+### What People Were Doing Mattered Too
 
-In the field, subjects were asked to rate their performance on tasks whenever they were asked about mind-wandering.  Consistent with other studies,  subjects' performance ratings were lower while mind wandering than while mentally on task.  Asking subjects about their level of awareness of their mind wandering also revealed that mind-wandering awareness predicted perceived performance. When subjects were aware that they had been mind wandering, they believed they had been performing better than when they had been mind wandering without awareness
+Each student's mind wandered more at some moments than others, and the 18 ratings showed when. Mind wandering was more likely when an activity was boring or stressful, when people would rather be doing something else, when they felt anxious or tired, and when a lot was going on around them. It was less likely when people were trying to concentrate, felt they were doing the activity successfully, liked it, were trying hard, felt happy, felt good at it, thought it was important or found it mentally effortful. Whether people were with others, doing schoolwork, or doing something unusual or mentally challenging made no significant difference.
 
-![The relationship between the self-assessed level of awareness of the mind-wandering against the self-assessed performance of the task at hand.  There is a positive correlation between these two characteristics, indicating that more meta-awareness leads to higher performance at tasks.  The red line shows the self-assessed performance of the subjects when their minds were on-task.  No matter how aware of mind wandering people were, the presence of mind-wandering led to worse perceived task outcomes.](/assets/article_images/mind-wandering-contexts/awareness.png)
+![How each of 14 moment-to-moment ratings (on a 1–7 scale) related to whether students' minds were wandering when beeped during a week of daily life. Pink bars went with more mind wandering, blue bars with less; the four ratings that made no significant difference are not shown. Larger values mean a stronger link. Drawn from the values in Table 2 of McVay et al., 2009.](/assets/article_images/mind-wandering-contexts/daily-life-context-predictors.jpg)
 
-The authors noted that
+Most of this matched an earlier experience-sampling study (Kane and colleagues, 2007). The differences were that here, mind wandering dropped during more important and more effortful activities and did not rise during schoolwork. For effort, the authors point out that they had changed the question to ask specifically about *mental* effort. These are associations within each person's week, so they don't show which came first, for instance whether things went well because the mind stayed on task or the other way round.
 
-> As far as we know, our study is the first to demonstrate a relation between metaconsciousness and human performance in real life.
+When their minds had wandered, students rated their thoughts as more about personal concerns or things they needed to do (4.29 on the 1–7 scale) than daydreams (3.81), and more daydreams than worries (3.37).
 
-### Mind wandering and the default mode network
+### Happiness Narrowed the Gap, and Lab Wanderers Worried More
 
-This study shows that mind wandering is a stable characteristic of a person, and also that the performance of a person at a task is related to the rate of mind wandering.
+An unexpected result: at moments when students felt happier than usual, the difference in daily-life mind wandering between those with high and low lab TUT rates shrank (b = −0.65, t(68) = −3.26). The authors say they "will not make too much of this unanticipated result."
 
-There is good evidence that mind wandering is related to activity in the default mode network (:term{id="dmn"}), and also that meditation can cause a reduction in the activity of the DMN. These observations taken together are suggestive that -- through its effect on the DMN -- meditation could be used to reduce mind wandering and improve task performance.
+In a more exploratory analysis, students who had mind-wandered more in the lab reported more worrying when their minds wandered in daily life (b = 1.49, t(68) = 2.84). The lab TUT rate did not predict any other quality of their daily-life mind wandering. The authors suggest future studies draw on clinical research on rumination and worry and their links with depression and anxiety.
 
-Later research by [Garrison et al. (2015)](/reduced-dmn-active-task/) demonstrated that experienced meditators show greater reductions in default mode network activity—a neural system associated with mind-wandering—during meditation compared to active cognitive tasks. These findings on the prevalence and stability of mind-wandering complement work by [Killingsworth & Gilbert (2010)](/wandering-mind-unhappy-mind/), which revealed the negative emotional consequences of a wandering mind in daily life. Additionally, meta-analytic work by [Zainal & Newman (2023)](/mindfulness-cognitive-function-survey/) suggests :term{id="mindfulness" case="lower"} training may specifically enhance attention control, which could potentially reduce the frequency or impact of mind-wandering episodes.
+### People Rated Their Performance Lower When Their Minds Wandered
+
+At each beep, students also rated how successfully they were doing their current activity. Ratings were lower when their minds were wandering than when they were on task (b = −1.15 on the 1–7 scale, t(71) = −11.69). How aware they had been of their mind wandering mattered too: when they had noticed it before the beep, a kind of :term{id="meta_awareness" case="lower"}, they rated their performance higher than when they hadn't (b = .094, t(71) = 2.34). Worry and daydream content went with lower ratings; mind wandering on purpose and thinking about personal concerns did not.
+
+The authors write that, as far as they know, this is the first study "to demonstrate a relation between meta-consciousness and human performance outside the laboratory". But awareness did not erase the cost:
+
+> even the highest levels of meta-awareness during mind wandering predicted considerably lower performance ratings than did on-task thoughts; thus, awareness of off-task thought does not necessarily trigger enough (or timely enough) conscious focus to prevent errors.
+
+These are self-ratings, which the authors acknowledge: "we could not measure subjects' performance objectively outside the laboratory." They argue the ratings are still meaningful because they varied systematically with context, awareness and thought content. The abstract's statement that mind wandering "seems to predict performance difficulties in daily life" rests on these self-ratings. In a footnote, the authors also allow that although mind wandering often hurts the task at hand, it may help people keep their broader life goals in mind.
+
+### What the Study Can't Show
+
+This was one group of 72 undergraduates, the subset of a larger lab sample who went on to the week of sampling. Their lab results resembled the full sample's, but they chose to take part. The study is :term[correlational]{id="correlation"}: it shows that lab and daily-life mind wandering go together, not why. All the daily-life measures were the students' own answers. There was no meditation in the study and no brain imaging; the paper mentions the :term[default mode network]{id="dmn"} only in passing, as one of the theories that research on mind wandering is beginning to inform.
+
+## Final Reflection
+
+This is not a meditation study, but it matters for meditation research because so much of that research measures mind wandering in the lab. Its main lesson is that a lab measure of mind wandering tells you something about a person's daily life: students whose minds drifted more during a dull attention task also drifted more across a week of ordinary activities, and they worried more when they did. The link rests on one small, self-reporting sample, and the task's other measures of attention did not predict daily life, so the study shows a consistent tendency more clearly than it explains its source.
+
+The finding that noticing your mind has wandered goes with better, though still worse than on-task, self-rated performance is close to what many meditation practices train. The study did not test whether training that noticing changes anything. For a much larger experience-sampling study of mind wandering and mood, see [Killingsworth and Gilbert](/wandering-mind-unhappy-mind/); for a randomized trial of two weeks of :term{id="mindfulness" case="lower"} classes that measured mind wandering with similar thought probes, see [Mrazek and colleagues](/mindfulness-gre-working-memory/).
