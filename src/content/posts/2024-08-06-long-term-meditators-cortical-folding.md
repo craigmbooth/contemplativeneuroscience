@@ -92,9 +92,9 @@ The authors offer two ideas, both drawn from other research rather than tested h
 
 For the other areas, they suggest that the motor-cortex difference might relate to attending to the body, and that the cuneus and fusiform differences fit with earlier reports linking meditation to better visual perception. The study didn't measure attention, body awareness, mind-wandering or visual perception, so none of these links can be checked against its data. The authors say as much: the idea that folding reflects traits like introspection or compassion "remains to be tested with actual behavioral data."
 
-### The Same Meditators as a Later Study on This Site
+### A Later Study on This Site With Matching Numbers
 
-The meditators and comparison group here match, number for number, the sample in a later study by the same team, which describes itself as a re-analysis: [Luders et al., 2015](/meditation-age-gray-matter-decline/), which found that gray matter was lower at older ages in both groups but less so in the meditators. Both papers give 50 people per group, 28 men and 22 women in each, average ages of 51.4 and 50.4, and 4 to 46 years of practice (average 19.8), though this paper gives the upper end of the age range as 71 and the later one as 77. This paper doesn't say whether its meditators include the 22 from the [2009 study](/long-term-meditators-hippocampus-gray-matter/).
+The meditators and comparison group here match, number for number, the sample in a later study by the same team, which describes itself as re-analyzing a sample of 100 people, though neither paper says outright that the two samples are the same: [Luders et al., 2015](/meditation-age-gray-matter-decline/), which found that gray matter was lower at older ages in both groups but less so in the meditators. Both papers give 50 people per group, 28 men and 22 women in each, average ages of 51.4 and 50.4, and 4 to 46 years of practice (average 19.8), though this paper gives the upper end of the age range as 71 and the later one as 77. This paper doesn't say whether its meditators include the 22 from the [2009 study](/long-term-meditators-hippocampus-gray-matter/).
 
 ### What the Measure Can't Tell
 
