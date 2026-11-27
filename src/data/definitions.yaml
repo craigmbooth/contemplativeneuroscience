@@ -1191,3 +1191,21 @@
   title: Kundalini Yoga
   def: "Kundalini yoga is a style of yoga that combines breathing exercises, postures, chanting of mantras, hand positions (mudras) and meditation. It draws on older Hindu and Sikh traditions and was popularized in the West from the late 1960s by Yogi Bhajan. Its practices include Kirtan Kriya, a short meditation that pairs chanting the sounds \"Saa, Taa, Naa, Maa\" with repeated finger movements."
   wiki: Kundalini_yoga
+- term: psychomotor_vigilance_task
+  title: PVT
+  name: "Psychomotor Vigilance Task (PVT)"
+  def: "The psychomotor vigilance task (PVT) is a simple reaction-time test of sustained alertness. For about ten minutes, a person watches a small display and presses a button as fast as possible whenever a counter starts, at random intervals. Well-rested people respond in roughly 200–300 milliseconds and rarely miss; with sleep loss, responses slow and lapses become more common, which makes the PVT a standard measure of the effects of sleep deprivation."
+  wiki: Psychomotor_vigilance_task
+- term: actigraphy
+  title: Actigraphy
+  def: "Actigraphy estimates sleep and wake from movement, recorded by a small device worn on the wrist like a watch for days or weeks. Because people move much less when asleep, the record gives an objective estimate of when and how long someone sleeps in everyday life. It is less detailed than a sleep-lab recording with polysomnography, and can mistake lying still while awake for sleep."
+  wiki: Actigraphy
+- term: sleep_inertia
+  title: Sleep Inertia
+  def: "Sleep inertia is the grogginess and slowed thinking that follow waking up. Reaction times, memory and decision-making are worse for a while after waking, usually from a few minutes to about half an hour, and the effect is stronger when someone wakes from deep slow-wave sleep or after sleep deprivation. It is why a long nap can leave people feeling worse at first."
+  wiki: Sleep_inertia
+- term: multiple_sleep_latency_test
+  title: MSLT
+  name: "Multiple Sleep Latency Test (MSLT)"
+  def: "The Multiple Sleep Latency Test (MSLT) measures daytime sleepiness. Over one day, a person is given four or five chances, about two hours apart, to nap in a quiet, dark room, and the time it takes to fall asleep (the sleep latency) is recorded with EEG. Falling asleep within a few minutes on average points to excessive sleepiness or sleep debt, while taking much longer suggests normal alertness."
+  wiki: Multiple_Sleep_Latency_Test
