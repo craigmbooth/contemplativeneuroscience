@@ -1161,3 +1161,6 @@
   name: "Multivoxel Pattern Analysis (MVPA)"
   def: "Multivoxel pattern analysis (MVPA) is a family of brain-imaging methods that look at the pattern of activity across many small points (voxels) at once, rather than at how strongly one region responds. Often with machine learning, researchers train a pattern on one set of scans to recognize a mental state, such as physical pain, then test it on new people. A pattern that works reliably is sometimes called a brain \"signature\" of that state."
   wiki: Multivoxel_pattern_analysis
+- term: reliable_change
+  title: Reliable Change
+  def: "Reliable change is a way of judging whether one person's score on a questionnaire has changed by more than measurement error alone would explain. The threshold depends on how widely scores vary and how consistent the questionnaire is, so a smaller change could just be noise. Researchers often pair it with clinical significance, asking whether a score also crossed into or out of the range typical of people with a disorder. A reliable change shows that something changed, not what caused it."
