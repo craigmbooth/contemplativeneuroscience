@@ -951,3 +951,11 @@
   title: Emotion Regulation
   def: "Emotion regulation is the set of ways people influence which emotions they have, when they have them, and how they experience and express them. Psychologist James Gross's process model groups the strategies into five families: choosing situations, changing situations, shifting attention (attentional deployment), changing how one thinks about a situation (reappraisal), and changing one's response, such as suppressing an expression."
   wiki: Emotional_self-regulation
+- term: cluster_randomized_trial
+  title: Cluster Randomized Trial
+  def: "A cluster randomized trial randomly assigns whole groups, such as schools, classes, clinics or villages, rather than individual people, to receive a program or to serve as the comparison. It suits programs delivered to a group at once, and it keeps people in the comparison group from picking up the program from those who get it. Because people in the same group tend to resemble each other, these trials need more participants than ordinary ones, and the analysis has to account for the grouping."
+  wiki: Cluster_randomised_controlled_trial
+- term: social_emotional_learning
+  title: Social-Emotional Learning (SEL)
+  def: "Social-emotional learning (SEL) is teaching in schools that aims to build the skills young people need to manage their emotions, get on with others, make responsible decisions and look after their mental and physical health. It is usually offered to every student as part of the regular curriculum, covering topics such as relationships and health education, rather than only to those with problems."
+  wiki: Social-emotional_learning
