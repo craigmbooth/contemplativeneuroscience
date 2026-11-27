@@ -1342,3 +1342,7 @@
   title: Salience Network
   def: "The salience network is a set of brain regions, centered on the front of the insula and the anterior cingulate cortex, whose activity tends to rise and fall together. It is thought to pick out what matters most at a given moment, whether from inside the body or from the outside world, and to help the brain switch between inward-focused thought and outward-focused tasks. It is closely tied to awareness of the body's internal state."
   wiki: Salience_network
+- term: frontal_alpha_asymmetry
+  title: Frontal Alpha Asymmetry
+  def: "Frontal alpha asymmetry compares the strength of alpha waves, recorded with EEG, over the left and right sides of the front of the head. Alpha is thought to be weaker where the cortex is more active, so relatively less alpha on the left is read as relatively more left-sided activity. That pattern has been linked with approach motivation, the pull toward things, and with positive emotion (and also with anger), while relatively more right-sided activity has been linked with withdrawal, emotions such as sadness and fear, and risk of depression. It is an indirect marker, and studies of it have often disagreed."
+  wiki: Frontal_EEG_asymmetry
