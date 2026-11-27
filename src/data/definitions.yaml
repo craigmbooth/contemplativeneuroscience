@@ -884,3 +884,16 @@
   title: Grounded Theory
   def: "Grounded theory is a qualitative research method in which researchers build categories and explanations from the material itself, such as interview transcripts, rather than testing hypotheses fixed in advance. They read and code the material repeatedly, comparing passages and refining the categories until a coherent picture emerges. It was developed by the sociologists Barney Glaser and Anselm Strauss in the 1960s."
   wiki: Grounded_theory
+- term: placebo
+  title: Placebo
+  def: "A placebo is an inactive treatment, such as a sugar pill or a cream with no drug in it, made to look like a real one. The placebo effect is the improvement people feel after receiving it, driven by their expectations, by learning from past experiences of real treatment, and by the setting of care. Pain is especially responsive: placebo pain relief is well documented in the lab and has been linked to prefrontal brain areas and the brain's own opioids."
+  wiki: Placebo
+- term: periaqueductal_gray
+  title: PAG
+  name: "Periaqueductal Gray (PAG)"
+  def: "The periaqueductal gray (PAG) is a small column of gray matter in the midbrain, surrounding the narrow canal that carries cerebrospinal fluid through the brainstem. It is a key part of the body's built-in pain control system: signals from the PAG travel down to the spinal cord and can dampen incoming pain signals, partly through the brain's own opioids. It is also involved in defensive responses to threat."
+  wiki: Periaqueductal_gray
+- term: relaxation_response
+  title: Relaxation Response
+  def: "The relaxation response is a term coined by the cardiologist Herbert Benson in the 1970s for a state of physical rest, the opposite of the stress response, that can be brought on by sitting quietly, breathing slowly and repeating a word or phrase. It is marked by slower breathing and heart rate and lower oxygen use. Researchers sometimes ask whether meditation's benefits come from this general calming rather than from anything specific to the practice."
+  wiki: Relaxation_response
