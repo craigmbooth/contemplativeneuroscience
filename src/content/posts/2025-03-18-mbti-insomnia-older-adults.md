@@ -3,7 +3,7 @@ title: "Mindfulness Therapy Eased Older Adults' Insomnia More Than an Active Sle
 paper_title: "Mindfulness-based therapy for insomnia for older adults with sleep difficulties: a randomized clinical trial"
 seo_title: "Mindfulness Therapy for Insomnia in Older Adults: An RCT"
 date: 2025-03-18
-theme: [sleep, aging]
+theme: [sleep]
 doi: 10.1017/S0033291721002476
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Perini, F.", "Wong, K. F.", "Lin, J.", "Hassirim, Z.", "Ong, J. L.", "Lo, J.", "Ong, J. C.", "Doshi, K.", "Lim, J."]
