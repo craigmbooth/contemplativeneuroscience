@@ -1022,3 +1022,7 @@
   title: White Coat Hypertension
   def: "White coat hypertension is blood pressure that is raised when measured in a clinic or by a health professional but normal in everyday life, likely because of the alertness or anxiety the setting brings. It is usually detected by comparing clinic readings with readings taken at home or with a 24-hour ambulatory monitor."
   wiki: White_coat_hypertension
+- term: coronary_heart_disease
+  title: Coronary Heart Disease
+  def: "Coronary heart disease (also called coronary artery disease) is a narrowing of the arteries that supply the heart muscle with blood, usually by fatty plaques that build up in the artery walls. It can cause chest pain (angina) and heart attacks, and it is a leading cause of death worldwide. The narrowing is usually confirmed by angiography, an X-ray of the arteries taken after injecting a dye."
+  wiki: Coronary_artery_disease
