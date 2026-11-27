@@ -1152,3 +1152,12 @@
   title: Cuneus
   def: "The cuneus is a wedge-shaped area on the inner surface of each occipital lobe, at the back of the brain. It takes part in basic visual processing and has been linked to directing and holding visual attention."
   wiki: Cuneus
+- term: cognitive_reappraisal
+  title: Cognitive Reappraisal
+  def: "Cognitive reappraisal is a way of regulating emotions by changing how you think about a situation so that it affects you differently, for example by reminding yourself that a frightening film scene is staged, or seeing a setback as a chance to learn. It is one of the most studied emotion regulation strategies and a core skill in cognitive behavioral therapy. Brain-imaging studies link it to prefrontal regions involved in deliberate, effortful control."
+  wiki: Cognitive_reappraisal
+- term: multivoxel_pattern_analysis
+  title: MVPA
+  name: "Multivoxel Pattern Analysis (MVPA)"
+  def: "Multivoxel pattern analysis (MVPA) is a family of brain-imaging methods that look at the pattern of activity across many small points (voxels) at once, rather than at how strongly one region responds. Often with machine learning, researchers train a pattern on one set of scans to recognize a mental state, such as physical pain, then test it on new people. A pattern that works reliably is sometimes called a brain \"signature\" of that state."
+  wiki: Multivoxel_pattern_analysis
