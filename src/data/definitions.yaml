@@ -1367,3 +1367,7 @@
   name: "Beck Depression Inventory-II (BDI-II)"
   def: "The Beck Depression Inventory-II (BDI-II) is a 21-item questionnaire on which people rate how much they have experienced common symptoms of depression over the past two weeks, such as sadness, loss of pleasure, guilt, tiredness and changes in sleep or appetite. Each item is scored from 0 to 3, for a total of 0 to 63, where higher means more severe symptoms. It measures symptoms rather than diagnosing depression."
   wiki: Beck_Depression_Inventory
+- term: responsive_neurostimulation
+  title: Responsive Neurostimulation
+  def: "Responsive neurostimulation (RNS) is a treatment for epilepsy that doesn't respond to medication. A small device implanted in the skull is wired to electrodes placed where seizures are thought to begin; it continuously monitors the brain's electrical activity and delivers brief pulses of stimulation when it detects patterns that can lead to a seizure. Because the electrodes stay in place long-term, researchers can also record activity from deep brain structures, with patients' consent, while they go about ordinary activities."
+  wiki: Responsive_neurostimulation_device
