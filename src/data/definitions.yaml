@@ -1286,3 +1286,11 @@
   title: Sleep Hygiene
   def: "Sleep hygiene is a set of everyday habits and conditions thought to support good sleep, such as keeping regular sleep and wake times, limiting caffeine, alcohol and screens before bed, and keeping the bedroom dark, quiet and cool. Sleep hygiene advice is a common part of insomnia treatment, but on its own it usually helps less than structured therapies such as CBT-I."
   wiki: Sleep_hygiene
+- term: psychosis
+  title: Psychosis
+  def: "Psychosis is a state in which a person loses touch with reality in important ways, most often through hallucinations (perceiving things that aren't there, such as hearing voices) and delusions (fixed false beliefs, such as being persecuted). It is a feature of several conditions, including schizophrenia, bipolar disorder and severe depression, and can also be brought on by drugs, extreme sleep loss or physical illness. It is usually treated with antipsychotic medication and psychological support."
+  wiki: Psychosis
+- term: case_series
+  title: Case Series
+  def: "A case series describes a small group of patients who share an exposure or an illness, such as people who became unwell after a particular practice, usually drawn from clinicians' own work. It can flag a possible link and suggest ideas to test, but with no comparison group and no count of how many people had the same exposure without becoming ill, it can't show cause or how common the outcome is."
+  wiki: Case_series
