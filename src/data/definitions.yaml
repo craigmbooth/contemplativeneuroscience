@@ -918,3 +918,7 @@
   title: Hemodynamic Response
   def: "The hemodynamic response is the change in blood flow and oxygen in a brain area after its neurons become active, and it is what fMRI actually measures (as the BOLD, or blood-oxygen-level-dependent, signal). It is slow: after a brief event the signal rises over a few seconds, peaks and takes several more seconds to settle. Researchers often model it with a standard curve, which can miss responses that last longer than usual."
   wiki: Haemodynamic_response
+- term: inferior_temporal_gyrus
+  title: Inferior Temporal Gyrus
+  def: "The inferior temporal gyrus is the lowest of the ridges (gyri) along the outer side of each temporal lobe, the part of the brain behind the temples. It is part of the brain's visual pathway for recognizing objects, faces and other complex shapes."
+  wiki: Inferior_temporal_gyrus
