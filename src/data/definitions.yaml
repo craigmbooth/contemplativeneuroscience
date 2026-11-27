@@ -1239,3 +1239,19 @@
   title: Cohort Study
   def: "A cohort study follows a defined group of people, the cohort, over time, measuring their characteristics and habits and recording what happens to them. Because the researchers don't assign anything, it can show which things go together and which come first, but not on its own that one causes the other. Large population cohorts often invite everyone above a certain age in a district and re-examine them every few years."
   wiki: Cohort_study
+- term: death_anxiety
+  title: Death Anxiety
+  def: "Death anxiety is fear or unease about death: one's own dying and death, the process of dying, or the deaths of others. Researchers usually measure it with questionnaires that separate these fears, since someone may dread a painful dying more than being dead. In terror management theory, a largely unconscious anxiety about death is held to drive many everyday attitudes and behaviors."
+  wiki: Death_anxiety
+- term: karma
+  title: Karma
+  def: "In Buddhism, karma is intentional action and the consequences it carries forward. Wholesome and unwholesome actions leave traces that shape a person's later experience, in this life and, on the traditional view, in future lives, so that one life gives rise to the next in an unbroken chain of cause and effect called rebirth. Buddhist teaching holds that this cycle is marked by suffering, and that liberation (nirvana) means leaving it."
+  wiki: Karma_in_Buddhism
+- term: four_noble_truths
+  title: Four Noble Truths
+  def: "The Four Noble Truths are the core of the Buddha's teaching: life involves suffering and dissatisfaction (including birth, aging, illness and death); suffering has a cause, craving and clinging, above all to a lasting self; suffering can end (nirvana); and there is a path to its end, the Noble Eightfold Path, whose eight factors include right mindfulness and right concentration."
+  wiki: Four_Noble_Truths
+- term: yogacara
+  title: Yogācāra
+  def: "Yogācāra (\"practice of yoga\") is a school of Mahayana Buddhist philosophy, founded in India in the 4th century and influential in China, Tibet and Japan. It holds that what we experience as a self and an outside world are constructions of the mind. It describes eight kinds of consciousness: the five senses, ordinary thinking, a self-grasping mind (manas) that mistakes the flow of experience for a lasting self, and a \"storehouse\" consciousness (ālaya-vijñāna) that holds the seeds of past actions and carries them forward."
+  wiki: Yogachara
