@@ -42,7 +42,7 @@ The programs were similar. All but three were :term{id="mbsr"} or a course built
 
 The authors grouped the results into five kinds of marker:
 
-- **Inflammatory proteins**, such as :term[C-reactive protein (CRP)]{id="crp"}, :term{id="il_6"} and :term{id="tnf_alpha"}.
+- **Inflammatory proteins**, such as :term[C-reactive protein (CRP)]{id="c_reactive_protein"}, :term{id="il_6"} and :term{id="tnf_alpha"}.
 - **Transcription factors**, switches inside immune cells that turn inflammatory genes on, chiefly :term{id="nf_kb"}.
 - **Immune cell counts**, such as :term[CD4+ T cells]{id="cd4_t_cells"}.
 - **Immune cell aging**: the length of :term{id="telomeres" case="lower"}, the protective caps on chromosomes, and the activity of :term{id="telomerase" case="lower"}, the enzyme that maintains them.

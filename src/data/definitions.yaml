@@ -1055,16 +1055,6 @@
   title: Systematic Review
   def: "A systematic review gathers all the studies on a question using a search method and inclusion rules set out in advance, so that readers can see how the studies were found and why each was kept or left out. It may or may not go on to combine the results statistically; a review that does is also a meta-analysis, while one that doesn't describes and tallies the findings instead."
   wiki: Systematic_review
-- term: crp
-  title: CRP
-  name: "C-Reactive Protein (CRP)"
-  def: "C-reactive protein (CRP) is a protein made by the liver that rises in the blood when the body is inflamed, for example after infection or injury. Because it is cheap and simple to measure, it is one of the most widely used blood markers of inflammation. Persistently raised levels, even when only mildly above normal, are associated with a higher risk of cardiovascular disease."
-  wiki: C-reactive_protein
-- term: nf_kb
-  title: NF-κB
-  name: "Nuclear Factor Kappa B (NF-κB)"
-  def: "NF-κB (nuclear factor kappa B) is a protein inside cells that acts as a switch for inflammation. When it is activated, for instance by infection or stress signals, it moves into the cell's nucleus and turns on genes that make inflammatory signaling proteins such as IL-6 and TNF-α. Researchers measure its activity in white blood cells as an early, upstream sign of inflammatory signaling."
-  wiki: NF-κB
 - term: cd4_t_cells
   title: CD4+ T Cells
   def: "CD4+ T cells, also called helper T cells, are white blood cells that coordinate the immune response by signaling to other immune cells. HIV infects and destroys them, so the number of CD4+ T cells in a sample of blood is a standard measure of how far HIV infection has progressed and how well the immune system is holding up."
