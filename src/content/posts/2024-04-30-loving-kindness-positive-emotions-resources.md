@@ -3,7 +3,7 @@ title: "Loving-Kindness Meditation Slowly Raised Everyday Positive Emotions, and
 paper_title: "Open Hearts Build Lives: Positive Emotions, Induced Through Loving-Kindness Meditation, Build Consequential Personal Resources"
 seo_title: "Loving-Kindness Meditation, Positive Emotions and Resources"
 date: 2024-04-30
-theme: [compassion, mental-health]
+theme: [compassion, mental-health, emotion]
 doi: 10.1037/a0013262
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Fredrickson, B. L.", "Cohn, M. A.", "Coffey, K. A.", "Pek, J.", "Finkel, S. M."]

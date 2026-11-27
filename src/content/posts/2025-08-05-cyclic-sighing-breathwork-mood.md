@@ -3,7 +3,7 @@ title: "Five Minutes a Day of Cyclic Sighing Lifted Positive Mood More Than Mind
 paper_title: "Brief structured respiration practices enhance mood and reduce physiological arousal"
 seo_title: "Cyclic Sighing vs Mindfulness: 5 Minutes a Day for a Month"
 date: 2025-08-05
-theme: [biological-health, mental-health]
+theme: [biological-health, mental-health, emotion]
 doi: 10.1016/j.xcrm.2022.100895
 paper:
   authors: ["Balban, M. Y.", "Neri, E.", "Kogon, M. M.", "Weed, L.", "Nouriani, B.", "Jo, B.", "Holl, G.", "Zeitzer, J. M.", "Spiegel, D.", "Huberman, A. D."]

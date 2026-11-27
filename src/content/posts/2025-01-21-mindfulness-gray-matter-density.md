@@ -3,7 +3,7 @@ title: "In a Small Early Study, Eight Weeks of Mindfulness Training Was Linked t
 paper_title: "Mindfulness practice leads to increases in regional brain gray matter density"
 seo_title: "MBSR and Gray Matter Density: An Influential Early Study"
 date: 2025-01-21
-theme: neurological-correlates
+theme: [brain-structure]
 doi: 10.1016/j.pscychresns.2010.08.006
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Hölzel, B. K.", "Carmody, J.", "Vangel, M.", "Congleton, C.", "Yerramsetti, S. M.", "Gard, T.", "Lazar, S. W."]

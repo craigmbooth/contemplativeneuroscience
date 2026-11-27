@@ -3,7 +3,7 @@ title: "In a Small Study, Long-Term Loving-Kindness Meditators Had More Gray Mat
 paper_title: "Increased gray matter volume in the right angular and posterior parahippocampal gyri in loving-kindness meditators"
 seo_title: "Loving-Kindness Meditators and Gray Matter Volume"
 date: 2024-08-20
-theme: [compassion, neurological-correlates]
+theme: [compassion, brain-structure]
 doi: 10.1093/scan/nss076
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Leung, M.-K.", "Chan, C. C. H.", "Yin, J.", "Lee, C.-F.", "So, K.-F.", "Lee, T. M. C."]

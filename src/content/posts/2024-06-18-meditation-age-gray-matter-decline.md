@@ -3,7 +3,7 @@ title: "Gray Matter Dropped Less Steeply Across Ages in Long-Term Meditators, in
 paper_title: "Forever Young(er): potential age-defying effects of long-term meditation on gray matter atrophy"
 seo_title: "Less Age-Related Gray Matter Loss in Long-Term Meditators"
 date: 2024-06-18
-theme: [neurological-correlates, aging]
+theme: [brain-structure, aging]
 doi: 10.3389/fpsyg.2014.01551
 paper:
   authors: ["Luders, E.", "Cherbuin, N.", "Kurth, F."]

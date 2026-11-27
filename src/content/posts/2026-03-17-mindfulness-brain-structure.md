@@ -3,7 +3,7 @@ title: "Eight Weeks of Mindfulness Training Produced No Measurable Changes in Br
 paper_title: "Absence of structural brain changes from mindfulness-based stress reduction: Two combined randomized controlled trials"
 seo_title: "No Brain Structure Changes After Eight Weeks of MBSR"
 date: 2026-03-17
-theme: neurological-correlates
+theme: [brain-structure]
 doi: 10.1126/sciadv.abk3316
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Kral, T. R. A.", "Davis, K.", "Korponay, C.", "Hirshberg, M. J.", "Hoel, R.", "Tello, L. Y.", "Goldman, R. I.", "Rosenkranz, M. A.", "Lutz, A.", "Davidson, R. J."]

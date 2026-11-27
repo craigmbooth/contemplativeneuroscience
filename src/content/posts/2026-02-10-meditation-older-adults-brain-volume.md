@@ -3,7 +3,7 @@ title: "Eighteen Months of Meditation Didn't Significantly Slow Shrinkage or Blo
 paper_title: "Effect of an 18-Month Meditation Training on Regional Brain Volume and Perfusion in Older Adults: The Age-Well Randomized Clinical Trial"
 seo_title: "Meditation and the Aging Brain: The 18-Month Age-Well Trial"
 date: 2026-02-10
-theme: [aging, neurological-correlates]
+theme: [aging, brain-structure]
 doi: 10.1001/jamaneurol.2022.3185
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Chételat, G.", "Lutz, A.", "Klimecki, O.", "Frison, E.", "Asselineau, J.", "Schlosser, M.", "Arenaza-Urquijo, E. M.", "Mézenge, F.", "Kuhn, E.", "Moulinet, I.", "Touron, E.", "Dautricourt, S.", "André, C.", "Palix, C.", "Ourry, V.", "Felisatti, F.", "Gonneaud, J.", "Landeau, B.", "Rauchs, G.", "Chocat, A.", "Quillard, A.", "Ferrand Devouge, E.", "Vuilleumier, P.", "de La Sayette, V.", "Vivien, D.", "Collette, F.", "Poisnel, G.", "Marchant, N. L."]

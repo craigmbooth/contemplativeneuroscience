@@ -3,7 +3,7 @@ title: "After a Mindfulness Course, Bigger Drops in Stress Went With Less Dense 
 paper_title: "Stress reduction correlates with structural changes in the amygdala"
 seo_title: "Stress Reduction and Amygdala Gray Matter After MBSR"
 date: 2024-11-05
-theme: [mental-health, neurological-correlates]
+theme: [mental-health, brain-structure, emotion]
 doi: 10.1093/scan/nsp034
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Hölzel, B. K.", "Carmody, J.", "Evans, K. C.", "Hoge, E. A.", "Dusek, J. A.", "Morgan, L.", "Pitman, R. K.", "Lazar, S. W."]

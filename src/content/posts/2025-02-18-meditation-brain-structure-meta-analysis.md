@@ -3,7 +3,7 @@ title: "Across 21 Studies, Meditators' Brains Differed Modestly in a Handful of 
 paper_title: "Is meditation associated with altered brain structure? A systematic review and meta-analysis of morphometric neuroimaging in meditation practitioners"
 seo_title: "Does Meditation Change Brain Structure? A 21-Study Review"
 date: 2025-02-18
-theme: neurological-correlates
+theme: [brain-structure]
 doi: 10.1016/j.neubiorev.2014.03.016
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Fox, K. C. R.", "Nijeboer, S.", "Dixon, M. L.", "Floman, J. L.", "Ellamil, M.", "Rumak, S. P.", "Sedlmeier, P.", "Christoff, K."]

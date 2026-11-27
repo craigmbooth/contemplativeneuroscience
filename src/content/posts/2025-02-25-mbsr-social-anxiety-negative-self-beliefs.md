@@ -3,7 +3,7 @@ title: "After a Mindfulness Course, People With Social Anxiety Felt Less Upset W
 paper_title: "Effects of mindfulness-based stress reduction (MBSR) on emotion regulation in social anxiety disorder"
 seo_title: "MBSR for Social Anxiety: Breath Focus and the Brain"
 date: 2025-02-25
-theme: [mental-health, neurological-correlates]
+theme: [mental-health, neurological-correlates, emotion]
 doi: 10.1037/a0018441
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Goldin, P. R.", "Gross, J. J."]

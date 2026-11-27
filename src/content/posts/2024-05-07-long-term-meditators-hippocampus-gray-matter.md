@@ -3,7 +3,7 @@ title: "Long-Term Meditators Had More Gray Matter in One Frontal Region and a La
 paper_title: "The underlying anatomical correlates of long-term meditation: Larger hippocampal and frontal volumes of gray matter"
 seo_title: "Long-Term Meditators Had a Larger Right Hippocampus"
 date: 2024-05-07
-theme: [neurological-correlates]
+theme: [brain-structure]
 doi: 10.1016/j.neuroimage.2008.12.061
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Luders, E.", "Toga, A. W.", "Lepore, N.", "Gaser, C."]
