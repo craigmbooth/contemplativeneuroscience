@@ -1346,3 +1346,11 @@
   title: Frontal Alpha Asymmetry
   def: "Frontal alpha asymmetry compares the strength of alpha waves, recorded with EEG, over the left and right sides of the front of the head. Alpha is thought to be weaker where the cortex is more active, so relatively less alpha on the left is read as relatively more left-sided activity. That pattern has been linked with approach motivation, the pull toward things, and with positive emotion (and also with anger), while relatively more right-sided activity has been linked with withdrawal, emotions such as sadness and fear, and risk of depression. It is an indirect marker, and studies of it have often disagreed."
   wiki: Frontal_EEG_asymmetry
+- term: trail_making_test
+  title: Trail Making Test
+  def: "The Trail Making Test is a quick paper-and-pencil test in two parts. In Part A, people draw a line connecting numbered circles in order as fast as they can; in Part B, they alternate between numbers and letters (1, A, 2, B and so on). Part B takes longer because it demands switching between two sequences, so the time it takes, or the ratio of Part B to Part A time, which adjusts for basic speed, is used as a measure of mental flexibility and executive function."
+  wiki: Trail_Making_Test
+- term: socioemotional_selectivity_theory
+  title: Socioemotional Selectivity Theory
+  def: "Socioemotional selectivity theory, developed by the psychologist Laura Carstensen, holds that as people come to see their time as limited, as typically happens with age, their goals shift from gathering information and new experiences toward emotionally meaningful ones. It helps explain why older adults often report emotional well-being as good as or better than younger adults', and why they tend to favor a smaller circle of close relationships."
+  wiki: Socioemotional_selectivity_theory
