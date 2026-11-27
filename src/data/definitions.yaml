@@ -1037,3 +1037,17 @@
   title: Jadad Scale
   def: "The Jadad scale is a short checklist, published by Alejandro Jadad and colleagues in 1996, for rating the quality of reports of clinical trials. It awards up to 5 points: for describing the study as randomized and randomizing properly, for describing it as double-blind and blinding properly, and for accounting for dropouts and withdrawals. Trials of therapies such as meditation, where participants know which treatment they receive, rarely earn the blinding points."
   wiki: Jadad_scale
+- term: nf_kb
+  title: NF-κB
+  name: "Nuclear Factor Kappa B (NF-κB)"
+  def: "NF-κB is a family of proteins that act as a master switch for inflammation inside cells. When a cell senses infection, injury or stress signals, NF-κB moves into the nucleus and turns on genes for inflammatory messengers such as IL-6 and TNF-α. Psychological stress has been linked to more NF-κB activity in immune cells, so researchers studying stress and meditation often look at the genes it controls."
+  wiki: "NF-κB"
+- term: gene_set_enrichment_analysis
+  title: GSEA
+  name: "Gene Set Enrichment Analysis (GSEA)"
+  def: "Gene set enrichment analysis (GSEA) is a way of analyzing gene activity data in which, instead of testing thousands of genes one at a time, researchers test predefined sets of genes that work together, such as all the genes in one biological pathway. It asks whether the genes in a set tend to shift in the same direction between two conditions, so it can pick up small, coordinated changes that single-gene tests would miss. Results are usually judged with a false discovery rate."
+  wiki: Gene_set_enrichment_analysis
+- term: mitochondrion
+  title: Mitochondria
+  def: "Mitochondria are tiny structures inside most cells that turn nutrients and oxygen into ATP, the molecule cells use for energy. Their final steps, a chain of proteins called the electron transport chain that powers an enzyme called ATP synthase, also produce reactive oxygen species, by-products that can damage cells when they build up (oxidative stress)."
+  wiki: Mitochondrion
