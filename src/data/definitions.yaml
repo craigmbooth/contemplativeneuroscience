@@ -1071,3 +1071,15 @@
   title: Openness to Experience
   def: "Openness to experience is one of the five broad personality traits in the widely used Big Five model. People high in openness tend to be imaginative, curious, attentive to their inner feelings, drawn to variety and new ideas, and sensitive to art and beauty. It is measured with personality questionnaires such as the NEO Five-Factor Inventory."
   wiki: Openness_to_experience
+- term: divergent_thinking
+  title: Divergent Thinking
+  def: "Divergent thinking is the side of creativity that produces many different ideas for an open-ended problem with no single right answer, as in brainstorming. It is often measured with the Alternate Uses Task, in which people list as many uses as they can for an everyday object such as a brick; answers are scored for how many there are, how many different categories they span and how unusual they are. The psychologist J. P. Guilford contrasted it with convergent thinking."
+  wiki: Divergent_thinking
+- term: convergent_thinking
+  title: Convergent Thinking
+  def: "Convergent thinking is the side of creativity that homes in on the single best answer to a well-defined problem. It is often measured with the Remote Associates Test, in which people find one word that links three others (for example, \"long\" for time, hair and stretch). The psychologist J. P. Guilford contrasted it with divergent thinking, which generates many possible answers."
+  wiki: Convergent_thinking
+- term: within_subject_design
+  title: Within-Subject Design
+  def: "In a within-subject (or repeated-measures) design, every participant takes part in all of a study's conditions, and their results under one condition are compared with their own results under the others. Because each person serves as their own comparison, it needs fewer participants than comparing separate groups. But the order of conditions can matter, through practice, fatigue or carry-over, so researchers vary the order across participants, and people may guess what is being compared."
+  wiki: Repeated_measures_design
