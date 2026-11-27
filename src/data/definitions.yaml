@@ -1109,3 +1109,12 @@
   title: Gene Co-expression Network
   def: "A gene co-expression network is a map of which genes tend to become more or less active together across many samples. Researchers group tightly linked genes into modules and then look at what the genes in each module do, such as fighting infection or building proteins. This turns thousands of individual gene measurements into a smaller number of biological themes, though genes rising and falling together doesn't by itself show that one controls another."
   wiki: Gene_co-expression_network
+- term: pet
+  title: PET
+  name: "Positron Emission Tomography (PET)"
+  def: "Positron emission tomography (PET) is a brain-imaging method that tracks a small amount of a weakly radioactive tracer injected into the blood. Depending on the tracer, PET can map how much sugar brain tissue uses, how much blood reaches it, or where particular molecules, such as the amyloid deposits seen in Alzheimer disease, have built up. It shows slow, steady processes rather than moment-to-moment activity."
+  wiki: Positron_emission_tomography
+- term: statistical_power
+  title: Statistical Power
+  def: "Statistical power is the chance that a study will detect an effect of a given size if that effect is real. It rises with the number of participants and with the size of the effect: a small study may have good power to detect a large effect but little power to detect a modest one. A study with low power can miss a real effect, so a non-significant result from it is weak evidence that no effect exists."
+  wiki: Power_(statistics)
