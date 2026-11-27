@@ -1333,3 +1333,12 @@
   name: "Receiver Operating Characteristic (ROC) Curve"
   def: "A receiver operating characteristic (ROC) curve shows how well a test or prediction model separates people who have an outcome from people who don't. The area under it (AUC) sums this up as one number: 0.5 means the model does no better than a coin toss, and 1.0 means it sorts everyone correctly. An AUC of 0.7 means that if you pick one person with the outcome and one without, the model ranks the first as higher risk 70% of the time. Values around 0.7 to 0.8 are usually called acceptable, not strong."
   wiki: Receiver_operating_characteristic
+- term: fdg_pet
+  title: FDG-PET
+  name: "Fluorodeoxyglucose PET (FDG-PET)"
+  def: "FDG-PET is a kind of PET scan whose tracer, fluorodeoxyglucose (FDG), is a weakly radioactive form of glucose. Brain cells take it up much as they take up ordinary sugar, so the scan maps how much energy each region is using, a measure usually called glucose metabolism. Glucose metabolism in parts of the brain tends to fall with age, and lower metabolism in particular regions is one of the signs used in diagnosing Alzheimer's disease."
+  wiki: Fludeoxyglucose_(18F)
+- term: salience_network
+  title: Salience Network
+  def: "The salience network is a set of brain regions, centered on the front of the insula and the anterior cingulate cortex, whose activity tends to rise and fall together. It is thought to pick out what matters most at a given moment, whether from inside the body or from the outside world, and to help the brain switch between inward-focused thought and outward-focused tasks. It is closely tied to awareness of the body's internal state."
+  wiki: Salience_network
