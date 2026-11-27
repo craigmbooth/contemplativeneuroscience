@@ -1273,3 +1273,16 @@
   name: "Emotional Arousal"
   def: "In emotion research, arousal is how stirring or calming something is, from quiet and low-energy to excited or alarmed, whatever its valence. Words like \"panic\" and \"sadness\" are both negative, for example, but panic is high in arousal and sadness low. Along with valence, it is one of the two main dimensions used to describe emotions and emotional words, pictures and sounds."
   wiki: Arousal
+- term: sleep_onset_latency
+  title: Sleep Onset Latency
+  def: "Sleep onset latency is how long it takes to fall asleep, counted from lights out or the start of trying to sleep. It can be reported by the sleeper, estimated from movement with a wrist-worn device, or measured from brain activity in a sleep recording. Regularly taking more than about 30 minutes to fall asleep is a common sign of insomnia."
+  wiki: Sleep_onset_latency
+- term: wake_after_sleep_onset
+  title: WASO
+  name: "Wake After Sleep Onset (WASO)"
+  def: "Wake after sleep onset (WASO) is the total time spent awake during the night after first falling asleep, added up across all the awakenings until the final one in the morning. It is a standard measure of how broken a night's sleep is, and can be estimated from sleep diaries, wrist-worn devices or a full sleep recording. Lying awake for more than about 30 minutes a night is a common sign of insomnia."
+  wiki: Wake_after_sleep_onset
+- term: sleep_hygiene
+  title: Sleep Hygiene
+  def: "Sleep hygiene is a set of everyday habits and conditions thought to support good sleep, such as keeping regular sleep and wake times, limiting caffeine, alcohol and screens before bed, and keeping the bedroom dark, quiet and cool. Sleep hygiene advice is a common part of insomnia treatment, but on its own it usually helps less than structured therapies such as CBT-I."
+  wiki: Sleep_hygiene
