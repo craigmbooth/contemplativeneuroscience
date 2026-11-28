@@ -8,6 +8,8 @@ An [Astro](https://astro.build) static site (migrated from Jekyll in November 20
 
 The code can serve more than one site. Everything specific to a site lives in its own folder, `sites/<name>/`: its settings (`site.ts`: title, URL, author, brand colours, wording, analytics and MailerLite ids), posts, themes, glossary, About page and `public/` files. All the code in `src/` is shared. A build picks a site with the `SITE` environment variable, which defaults to `contemplative` (`src/lib/active-site.js`). Anything that names a site's subject belongs in its `site.ts` (`copy`), not in `src/`.
 
+Sites: `contemplative` (live) and `training` (Training Evidence, trainingevidence.com: exercise, strength, endurance and supplements; a skeleton with draft themes and placeholder art, not deployed yet). CI builds every site on each push, so a change to shared code must keep both building. A site without `analyticsId` or `newsletter.mailerlite` simply leaves those out; empty `startHere` hides Start Here.
+
 ## Commands
 
 Requires Node >= 22.23.4 (see `.nvmrc` / `package.json` engines).

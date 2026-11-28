@@ -30,20 +30,24 @@ const themes = await themesInOrder();
         <form class="not-found-search" action="/all-papers/" method="get" role="search">
           <label for="not-found-q">Search the summaries</label>
           <div class="not-found-search-row">
-            <input id="not-found-q" type="search" name="q" placeholder="For example: sleep, gamma, telomeres">
+            <input id="not-found-q" type="search" name="q" placeholder={site.copy.notFoundSearchPlaceholder}>
             <button type="submit">Search</button>
           </div>
         </form>
 
-        <h2>Good Places to Start</h2>
-        <ul class="not-found-list">
-          {startHere.map((post) => (
-            <li>
-              <PaperMeta post={post} />
-              <a href={postUrl(post)}>{post.data.title}</a>
-            </li>
-          ))}
-        </ul>
+        {startHere.length > 0 && (
+          <>
+            <h2>Good Places to Start</h2>
+            <ul class="not-found-list">
+              {startHere.map((post) => (
+                <li>
+                  <PaperMeta post={post} />
+                  <a href={postUrl(post)}>{post.data.title}</a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
 
         <h2>Explore by Question</h2>
         <ul class="not-found-list">

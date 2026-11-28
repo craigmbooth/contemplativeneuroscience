@@ -17,7 +17,7 @@ const DEFINITIONS_PATH = sitePath('definitions.yaml');
  * @returns {Definition[]} definitions in file order
  */
 export function loadDefinitions() {
-  const definitions = /** @type {Definition[]} */ (parseYaml(readFileSync(DEFINITIONS_PATH, 'utf8')));
+  const definitions = /** @type {Definition[]} */ (parseYaml(readFileSync(DEFINITIONS_PATH, 'utf8')) ?? []);
   // Each term gets its own page, so two terms must never share a URL.
   const seen = new Map();
   for (const d of definitions) {

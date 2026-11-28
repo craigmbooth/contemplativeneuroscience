@@ -1,0 +1,72 @@
+# Glossary terms (see CLAUDE.md, Glossary). Started with the research-method and physiology terms
+# shared with Contemplative Neuroscience; add exercise terms as summaries need them.
+- term: randomized_controlled_trial
+  title: Randomized Controlled Trial
+  def: A Randomized Controlled Trial is a scientific study design that randomly assigns participants to either an experimental group receiving an intervention or a control group, allowing researchers to measure the true effect of the intervention while minimizing bias.
+  wiki: Randomized_controlled_trial
+
+- term: meta_analysis
+  title: Meta-Analysis
+  def: "A meta-analysis statistically combines the results of many earlier studies on the same question. Pooling the data can estimate an overall effect more precisely than any single study and show whether results agree across studies. Its conclusions are only as good as the studies it includes and how similar they are."
+  wiki: Meta-analysis
+
+- term: systematic_review
+  title: Systematic Review
+  def: "A systematic review gathers all the studies on a question using a search method and inclusion rules set out in advance, so that readers can see how the studies were found and why each was kept or left out. It may or may not go on to combine the results statistically; a review that does is also a meta-analysis, while one that doesn't describes and tallies the findings instead."
+  wiki: Systematic_review
+
+- term: confidence_interval
+  title: Confidence Interval
+  def: "A confidence interval is the range of values that a study's data are consistent with, given the uncertainty that comes from measuring a limited sample. A 95% confidence interval for an effect of 0.30 running from 0.00 to 0.59, for example, means the true effect could plausibly be anywhere from nothing to moderate. Narrower intervals mean more precise estimates; an interval that includes zero means the study can't rule out no effect."
+  wiki: Confidence_interval
+
+- term: placebo
+  title: Placebo
+  def: "A placebo is an inactive treatment, such as a sugar pill or a cream with no drug in it, made to look like a real one. The placebo effect is the improvement people feel after receiving it, driven by their expectations, by learning from past experiences of real treatment, and by the setting of care. Pain is especially responsive: placebo pain relief is well documented in the lab and has been linked to prefrontal brain areas and the brain's own opioids."
+  wiki: Placebo
+
+- term: cross_sectional_study
+  title: Cross-Sectional Study
+  def: "A cross-sectional study measures a group of people at a single point in time. It can show which things tend to go together, but not which came first or whether one causes the other."
+  wiki: Cross-sectional_study
+
+- term: cohort_study
+  title: Cohort Study
+  def: "A cohort study follows a defined group of people, the cohort, over time, measuring their characteristics and habits and recording what happens to them. Because the researchers don't assign anything, it can show which things go together and which come first, but not on its own that one causes the other. Large population cohorts often invite everyone above a certain age in a district and re-examine them every few years."
+  wiki: Cohort_study
+
+- term: correlation
+  title: Correlation
+  name: "Correlation (Pearson's r)"
+  def: "A correlation measures how closely two things rise and fall together across people or over time. Pearson's r runs from −1 to +1: values near +1 mean that people high on one measure tend to be high on the other, values near −1 mean the reverse, and values near 0 mean no straight-line relationship. A correlation alone can't show that one thing causes the other."
+  wiki: Pearson_correlation_coefficient
+
+- term: intention_to_treat
+  title: Intention-to-Treat Analysis
+  def: "An intention-to-treat analysis counts every randomized participant in the group they were assigned to, whether or not they completed or even started the treatment. It keeps the benefit of randomization, since dropping people who didn't follow their plan can leave groups that differ in other ways, and it estimates what happens when a treatment is offered in practice rather than when it is taken exactly as intended."
+  wiki: Intention-to-treat_analysis
+
+- term: publication_bias
+  title: Publication Bias
+  def: "Publication bias arises when studies with positive or striking results are more likely to be published than studies that find nothing. A meta-analysis that pools only published studies can then overestimate how well a treatment works. Researchers check for it with tools such as funnel plots and Egger's test, which need a reasonable number of studies to be informative."
+
+- term: heart_rate_variability
+  title: Heart Rate Variability
+  def: "Heart rate variability (HRV) is the natural variation in time between one heartbeat and the next, calculated from an ECG or a pulse sensor. Higher HRV at rest usually reflects a stronger parasympathetic (\"rest and digest\") influence on the heart and is generally linked to relaxation, better health and more flexible responses to stress."
+  wiki: Heart_rate_variability
+
+- term: cortisol
+  title: Cortisol
+  def: "Cortisol is a hormone released by the adrenal glands, especially in response to stress. It mobilizes energy and helps regulate the immune system. Because it can be measured in saliva, researchers often use it to gauge how strongly someone reacts to a stressful task, such as timed mental arithmetic. Levels also follow a daily rhythm, so studies try to test everyone at the same time of day."
+  wiki: Cortisol
+
+- term: inflammation
+  title: Inflammation
+  def: "Inflammation is a biological response of the immune system to injury, infection, or stress, characterized by the release of signaling molecules called cytokines. Chronic inflammation is linked to impaired cognitive function, increased risk of disease, and accelerated aging."
+  wiki: Inflammation
+
+- term: bmi
+  title: BMI
+  name: "Body Mass Index (BMI)"
+  def: "Body mass index (BMI) is a person's weight in kilograms divided by the square of their height in meters. Adults with a BMI of 25 to 29.9 are classed as overweight and 30 or more as obese. It is a quick screening measure that does not distinguish fat from muscle."
+  wiki: Body_mass_index

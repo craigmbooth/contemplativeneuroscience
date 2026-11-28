@@ -15,10 +15,14 @@ export interface Props {
 }
 const { heading = 'Get new summaries by email', level = 2 } = Astro.props;
 const Heading = `h${level}` as 'h2' | 'h3';
-const { account, formId, formKey } = site.newsletter.mailerlite;
+// No MailerLite form configured (a new site): no sign-up box.
+const mailerlite = site.newsletter.mailerlite;
+const { account, formId, formKey } = mailerlite ?? { account: '', formId: '', formKey: '' };
 const formUrl = `https://assets.mailerlite.com/jsonp/${account}/forms/${formKey}`;
 const action = `${formUrl}/subscribe`;
 ---
+{mailerlite && (
+<>
 <section class="subscribe-box" aria-labelledby="subscribe-heading">
   <div id={`mlb2-${formId}`} class={`ml-subscribe-form ml-subscribe-form-${formId}`}>
     <div class="row-form">
@@ -66,3 +70,5 @@ const action = `${formUrl}/subscribe`;
 <script is:inline defer src="https://groot.mailerlite.com/js/w/webforms.min.js?v2d8fb22bb5b3677f161552cd9e774127"></script>
 {/* MailerLite's count of form views (part of their embed code). */}
 <script is:inline set:html={`fetch('${formUrl}/takel');`} />
+</>
+)}

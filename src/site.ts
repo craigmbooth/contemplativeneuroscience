@@ -2,9 +2,10 @@
 import type { SiteConfig } from './site-config';
 import { SITE } from './lib/active-site.js';
 import contemplative from '../sites/contemplative/site';
+import training from '../sites/training/site';
 
 /** Every site, by its folder name under sites/. Add new sites here. */
-const SITES: Record<string, SiteConfig> = { contemplative };
+const SITES: Record<string, SiteConfig> = { contemplative, training };
 
 const config = SITES[SITE];
 if (!config) throw new Error(`sites/${SITE}/site.ts is not registered in src/site.ts.`);

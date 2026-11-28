@@ -24,6 +24,7 @@ const imagePath = share.image ?? site.logo;
 const image = absoluteUrl(imagePath);
 const imageSize = share.imageSize ?? publicImageSize(imagePath, path);
 const imageAlt = share.imageAlt && truncate(share.imageAlt, 420);
+const mailerlite = site.newsletter.mailerlite;
 const article = share.article;
 const shareTitle = share.title ?? title;
 ---
@@ -78,8 +79,8 @@ const shareTitle = share.title ?? title;
   <!-- Preconnect to external domains to improve performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://assets.mailerlite.com" crossorigin>
-  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+  {mailerlite && <link rel="preconnect" href="https://assets.mailerlite.com" crossorigin>}
+  {site.analyticsId && <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>}
 
   {/* Only the styles the CSS uses: Jost 400–700 (body, with italics for captions and quotes),
       Merriweather 400 and 700 (headings). */}
@@ -95,13 +96,17 @@ const shareTitle = share.title ?? title;
   <!-- JSON-LD Structured Data -->
   {schemas.map((schema) => <script is:inline type="application/ld+json" set:html={jsonLd(schema)} />)}
 
-  <!-- MailerLite Universal -->
-  <script is:inline>
+  {mailerlite && (
+    <>
+      <!-- MailerLite Universal -->
+      <script is:inline set:html={`
     (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
     .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
     n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
     (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '864413');
-  </script>
-  <!-- End MailerLite Universal -->
+    ml('account', '${mailerlite.account}');
+  `} />
+      <!-- End MailerLite Universal -->
+    </>
+  )}
 </head>

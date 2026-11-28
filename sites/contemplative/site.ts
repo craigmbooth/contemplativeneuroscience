@@ -62,6 +62,8 @@ export default {
       'Five questions about meditation, on the brain, focus, the body, sleep and safety, each with a short answer from the research and the papers behind it.',
     themesIntro:
       'The summaries on this site are grouped around five questions people ask about meditation. Below each question is the short answer from the papers covered so far. Each theme page goes further: what the research says, where the evidence is strong or thin, and every paper behind it. Some papers bear on more than one question, so they appear under each.',
+    allPapersSearchPlaceholder: 'For example: sleep, gamma, Davidson, EEG',
+    notFoundSearchPlaceholder: 'For example: sleep, gamma, telomeres',
     glossaryDescription:
       'Plain-language definitions of the technical terms in meditation and brain research, each linking to the paper summaries that use it.',
     glossaryTermTitleSuffix: 'in Meditation Research',

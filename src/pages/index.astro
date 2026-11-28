@@ -25,6 +25,7 @@ const themes = await Promise.all(
 // Study type and themes for each listed paper.
 const meta = async (post: Post) => ({ post, type: post.data.study?.type, themes: await themesForPost(post) });
 const startCards = await Promise.all(startHere.map(meta));
+const countWord = (n: number) => ['two', 'three', 'four', 'five', 'six'][n - 2] ?? String(n);
 const recentItems = await Promise.all(recent.map(meta));
 
 const description = site.copy.homeDescription;
@@ -46,19 +47,21 @@ const description = site.copy.homeDescription;
       </p>
     </section>
 
-    <section class="start-here" aria-labelledby="start-here-heading">
-      <h2 id="start-here-heading">Start Here</h2>
-      <p class="section-intro">New to the site? These four summaries are a good place to begin.</p>
-      <ul class="paper-cards">
-        {startCards.map(({ post, type, themes }) => (
-          <li class="paper-card">
-            {type && <span class="study-type">{type}</span>}
-            <h3><a href={postUrl(post)}>{post.data.title}</a></h3>
-            <p class="paper-meta">{themes.map((t) => t.data.short_title).join(' · ')}</p>
-          </li>
-        ))}
-      </ul>
-    </section>
+    {startCards.length > 0 && (
+      <section class="start-here" aria-labelledby="start-here-heading">
+        <h2 id="start-here-heading">Start Here</h2>
+        <p class="section-intro">New to the site? These {countWord(startCards.length)} summaries are a good place to begin.</p>
+        <ul class="paper-cards">
+          {startCards.map(({ post, type, themes }) => (
+            <li class="paper-card">
+              {type && <span class="study-type">{type}</span>}
+              <h3><a href={postUrl(post)}>{post.data.title}</a></h3>
+              <p class="paper-meta">{themes.map((t) => t.data.short_title).join(' · ')}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
 
     <section class="theme-questions" aria-labelledby="questions-heading">
       <h2 id="questions-heading">Explore by Question</h2>

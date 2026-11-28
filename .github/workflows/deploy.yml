@@ -58,6 +58,28 @@ jobs:
         with:
           path: dist
 
+  # The sister sites share the code, so check they still build. Not deployed yet,
+  # and separate from the deploy so a failure here never blocks it.
+  build-other-sites:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        site: [training]
+    env:
+      SITE: ${{ matrix.site }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+        env:
+          TZ: UTC
+
   deploy:
     if: github.event_name != 'pull_request'
     needs: build

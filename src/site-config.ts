@@ -20,18 +20,21 @@ export interface SiteConfig {
   authorBio: string;
   /** Topics the author writes about (schema.org knowsAbout). */
   authorKnowsAbout: readonly string[];
-  /** "Start here" papers on the home page (post slugs); an unknown slug fails the build. */
+  /** "Start here" papers on the home and 404 pages (post slugs; about four); an unknown slug fails the build. Empty hides them. */
   startHere: readonly string[];
   /** Theme keys in reading order (home page, Research Themes, 404 page). */
   themeOrder: readonly string[];
-  /** Google Analytics measurement ID (gtag.js). */
-  analyticsId: string;
+  /** Google Analytics measurement ID (gtag.js); without one the pages carry no analytics. */
+  analyticsId?: string;
   /** Email list (MailerLite). */
   newsletter: {
     /** Appears beside every sign-up form. */
     promise: string;
-    /** From MailerLite's embed code: the account number, the form's numeric id and its long key. */
-    mailerlite: { account: string; formId: string; formKey: string };
+    /**
+     * From MailerLite's embed code: the account number, the form's numeric id and its long key.
+     * Without it the sign-up boxes are left out (the /subscribe/ page and its links stay).
+     */
+    mailerlite?: { account: string; formId: string; formKey: string };
   };
   menuItems: readonly { title: string; url: string }[];
   /**
@@ -68,6 +71,9 @@ export interface SiteConfig {
     themesDescription: string;
     /** Opening paragraph of Research Themes. */
     themesIntro: string;
+    /** Search box placeholders: All Papers and the 404 page. */
+    allPapersSearchPlaceholder: string;
+    notFoundSearchPlaceholder: string;
     glossaryDescription: string;
     /** Appended to a glossary term's name for its <title>, e.g. "in Meditation Research". */
     glossaryTermTitleSuffix: string;
