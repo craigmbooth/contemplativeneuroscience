@@ -3,7 +3,7 @@ title: "During Compassion Meditation, Expert Meditators' Brains Responded More S
 paper_title: "Regulation of the Neural Circuitry of Emotion by Compassion Meditation: Effects of Meditative Expertise"
 seo_title: "Compassion Meditation and the Brain's Response to Distress"
 date: 2025-01-28
-theme: [compassion, neurological-correlates, emotion]
+theme: [compassion, brain-responses, emotion]
 doi: 10.1371/journal.pone.0001897
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Lutz, A.", "Brefczynski-Lewis, J.", "Johnstone, T.", "Davidson, R. J."]

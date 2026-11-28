@@ -20,7 +20,7 @@ export async function getThemes(): Promise<Theme[]> {
 
 /** A group of themes (site.themeGroups), resolved: a heading, or a parent theme with its page. */
 export interface ThemeGroup {
-  /** The heading: the group's title, or its parent theme's title. */
+  /** The heading: the group's title, else its parent theme's title. */
   title: string;
   /** The parent theme, when the group has its own page. */
   parent?: Theme;
@@ -46,7 +46,7 @@ export function themeGroups(): Promise<ThemeGroup[]> {
     };
     const groups = site.themeGroups.map((g) => {
       const parent = g.parent ? find(g.parent) : undefined;
-      const title = parent?.data.title ?? g.title;
+      const title = g.title ?? parent?.data.title;
       if (!title) throw new Error('Each entry in site.themeGroups needs a title or a parent.');
       return { title, parent, themes: g.themes.map(find) };
     });

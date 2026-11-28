@@ -3,7 +3,7 @@ title: "A Three-Month Meditation Retreat Shrank the 'Attentional Blink'"
 paper_title: "Mental training affects distribution of limited brain resources"
 seo_title: "A Meditation Retreat Shrank the Attentional Blink"
 date: 2024-07-09
-theme: [mind-wandering, neurological-correlates]
+theme: [mind-wandering, brain-waves]
 doi: 10.1371/journal.pbio.0050138
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Slagter, H. A.", "Lutz, A.", "Greischar, L. L.", "Francis, A. D.", "Nieuwenhuis, S.", "Davis, J. M.", "Davidson, R. J."]

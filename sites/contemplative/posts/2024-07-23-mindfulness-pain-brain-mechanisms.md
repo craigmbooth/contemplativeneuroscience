@@ -3,7 +3,7 @@ title: "After Four Days of Mindfulness Training, Meditating Made Painful Heat Fe
 paper_title: "Brain Mechanisms Supporting the Modulation of Pain by Mindfulness Meditation"
 seo_title: "Four Days of Mindfulness Training and Pain in the Brain"
 date: 2024-07-23
-theme: [pain, neurological-correlates]
+theme: [pain, brain-responses]
 doi: 10.1523/JNEUROSCI.5791-10.2011
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Zeidan, F.", "Martucci, K. T.", "Kraft, R. A.", "Gordon, N. S.", "McHaffie, J. G.", "Coghill, R. C."]

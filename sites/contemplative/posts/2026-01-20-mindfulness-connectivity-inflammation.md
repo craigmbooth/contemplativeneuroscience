@@ -3,7 +3,7 @@ title: "Mindfulness Training Strengthened a Brain Connection Linked to Lower Inf
 paper_title: "Alterations in resting-state functional connectivity link mindfulness meditation with reduced interleukin-6: A randomized controlled trial"
 seo_title: "Mindfulness, Brain Connectivity, and Lower Inflammation"
 date: 2026-01-20
-theme: [immunity, neurological-correlates]
+theme: [immunity, brain-networks]
 doi: 10.1016/j.biopsych.2016.01.008
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Creswell, J. D.", "Taren, A. A.", "Lindsay, E. K.", "Greco, C. M.", "Gianaros, P. J.", "Fairgrieve, A.", "Marsland, A. L.", "Brown, K. W.", "Way, B. M.", "Rosen, R. K.", "Ferris, J. L."]

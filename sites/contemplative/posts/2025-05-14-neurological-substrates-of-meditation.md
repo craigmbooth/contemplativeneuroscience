@@ -4,7 +4,7 @@ paper_title: "Intracranial substrates of meditation-induced neuromodulation in t
 seo_title: "Loving-Kindness Meditation and Gamma in the Amygdala"
 date:   2025-05-14
 last_modified_at: 2026-11-27
-theme: [neurological-correlates, compassion]
+theme: [brain-waves, compassion]
 doi: 10.1073/pnas.2409423122
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Maher, C.", "Tortolero, L.", "Jun, S.", "Cummins, D. D.", "Saad, A.", "Young, J.", "Nunez Martinez, L.", "Schulman, Z.", "Marcuse, L.", "Waters, A.", "Mayberg, H. S.", "Davidson, R. J.", "Panov, F.", "Saez, I."]

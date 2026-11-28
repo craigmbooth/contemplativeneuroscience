@@ -3,7 +3,7 @@ title: "Mindfully Attending to Smoking Pictures Slightly Eased Smokers' Craving 
 paper_title: "Mindful attention reduces neural and self-reported cue-induced craving in smokers"
 seo_title: "Mindful Attention to Smoking Cues: Craving and the Brain"
 date: 2026-09-29
-theme: [craving, neurological-correlates]
+theme: [craving, brain-responses]
 doi: 10.1093/scan/nsr076
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Westbrook, C.", "Creswell, J. D.", "Tabibnia, G.", "Julson, E.", "Kober, H.", "Tindle, H. A."]

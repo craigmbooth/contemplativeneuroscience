@@ -3,7 +3,7 @@ title: "Four Short Mindfulness Lessons Cut Heat Pain by a Third, and the Most Re
 paper_title: "Disentangling self from pain: mindfulness meditation-induced pain relief is driven by thalamic-default mode network decoupling"
 seo_title: "Mindfulness, Pain Relief and the Thalamus–Precuneus Link"
 date: 2026-09-15
-theme: [pain, self, neurological-correlates]
+theme: [pain, self, brain-networks]
 doi: 10.1097/j.pain.0000000000002731
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Riegner, G.", "Posey, G.", "Oliva, V.", "Jung, Y.", "Mobley, W.", "Zeidan, F."]

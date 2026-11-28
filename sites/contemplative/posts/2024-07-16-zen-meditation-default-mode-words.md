@@ -3,7 +3,7 @@ title: "In Zen Meditators, the Default Mode Network's Response to a Word's Meani
 paper_title: "“Thinking about Not-Thinking”: Neural Correlates of Conceptual Processing during Zen Meditation"
 seo_title: "Zen Meditators' Brain Response to Words Faded Sooner"
 date: 2024-07-16
-theme: [neurological-correlates, mind-wandering]
+theme: [brain-networks, mind-wandering]
 doi: 10.1371/journal.pone.0003083
 paper:
   authors: ["Pagnoni, G.", "Cekic, M.", "Guo, Y."]

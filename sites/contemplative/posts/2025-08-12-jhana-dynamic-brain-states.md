@@ -3,7 +3,7 @@ title: "As One Expert Meditator Went Deeper Into Jhana, His Brain Spent More Tim
 paper_title: "Dynamic brain states underlying advanced concentrative absorption meditation: A 7-T fMRI-intensive case study"
 seo_title: "Jhana and Moment-to-Moment Brain States: A 7T fMRI Case"
 date: 2025-08-12
-theme: [deep-states, neurological-correlates]
+theme: [deep-states, brain-networks]
 doi: 10.1162/netn_a_00432
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Treves, I. N.", "Yang, W. F. Z.", "Sparby, T.", "Sacchet, M. D."]

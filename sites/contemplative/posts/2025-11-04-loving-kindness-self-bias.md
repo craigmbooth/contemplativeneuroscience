@@ -3,7 +3,7 @@ title: "Loving-Kindness Meditators Showed Hints of a Smaller Brain Bias Toward T
 paper_title: "Decentering the Self? Reduced Bias in Self- vs. Other-Related Processing in Long-Term Practitioners of Loving-Kindness Meditation"
 seo_title: "Loving-Kindness Meditation and the Brain's Self-Bias"
 date: 2025-11-04
-theme: [self, neurological-correlates, compassion]
+theme: [self, brain-waves, compassion]
 doi: 10.3389/fpsyg.2016.01785
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Trautwein, F.-M.", "Naranjo, J. R.", "Schmidt, S."]

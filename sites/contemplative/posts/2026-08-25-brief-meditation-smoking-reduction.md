@@ -3,7 +3,7 @@ title: "In a Small Trial, Two Weeks of Meditation Training Cut Smoking in Studen
 paper_title: "Brief meditation training induces smoking reduction"
 seo_title: "Two Weeks of Meditation Cut Smoking in a Small Trial"
 date: 2026-08-25
-theme: [craving, neurological-correlates]
+theme: [craving, brain-responses]
 doi: 10.1073/pnas.1311887110
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Tang, Y.-Y.", "Tang, R.", "Posner, M. I."]

@@ -3,7 +3,7 @@ title: "In One Advanced Meditator, Alpha Brain Waves Faded in the 40 Seconds Bef
 paper_title: "Investigation of advanced mindfulness meditation “cessation” experiences using EEG spectral analysis in an intensively sampled case study"
 seo_title: "Meditation Cessations and Alpha Waves: An EEG Case Study"
 date: 2025-12-30
-theme: [deep-states, neurological-correlates]
+theme: [deep-states, brain-waves]
 doi: 10.1016/j.neuropsychologia.2023.108694
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Chowdhury, A.", "van Lutterveld, R.", "Laukkonen, R. E.", "Slagter, H. A.", "Ingram, D. M.", "Sacchet, M. D."]

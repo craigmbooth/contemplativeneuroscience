@@ -3,7 +3,7 @@ title: "In One Expert Meditator, Reported Awareness Without Thoughts or Self Cam
 paper_title: "Content-Free Awareness: EEG-fcMRI Correlates of Consciousness as Such in an Expert Meditator"
 seo_title: "Content-Free Awareness in an Expert Meditator: EEG and fMRI"
 date: 2026-05-05
-theme: [self, neurological-correlates, deep-states]
+theme: [self, brain-networks, deep-states]
 doi: 10.3389/fpsyg.2019.03064
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Winter, U.", "LeVan, P.", "Borghardt, T. L.", "Akin, B.", "Wittmann, M.", "Leyens, Y.", "Schmidt, S."]

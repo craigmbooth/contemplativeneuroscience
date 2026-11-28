@@ -20,9 +20,9 @@ export default {
     'meditation-sleep-older-adults',
     'brain-and-immune-function',
   ],
-  /** Headings only (no group pages): the brain, mind and emotion, the self, the body, then risks. */
+  /** The brain (a parent theme with four topics), then headings: mind and emotion, the self, the body, then risks. */
   themeGroups: [
-    { title: 'The Brain', themes: ['neurological-correlates', 'brain-structure'] },
+    { title: 'The Brain', parent: 'neurological-correlates', themes: ['brain-waves', 'brain-networks', 'brain-responses', 'brain-structure'] },
     { title: 'Mind and Emotion', themes: ['mind-wandering', 'mental-health', 'emotion', 'craving', 'compassion'] },
     { title: 'Self and Consciousness', themes: ['self', 'deep-states', 'death'] },
     { title: 'Body and Health', themes: ['biological-health', 'immunity', 'aging', 'pain', 'sleep'] },

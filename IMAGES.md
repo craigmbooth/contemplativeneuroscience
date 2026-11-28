@@ -70,10 +70,15 @@ Photorealism; glossy 3D or digital-art rendering; neon, cyberpunk or sci-fi glow
 | Immunity (`immunity`) | A soft-focus cluster of glowing spheres, some coral-red, some teal | Near-black, coral and teal | Cells, defence |
 | Mental health (`mental-health`) | Coral-pink light breaking through dark blue storm cloud and mist | Navy and grey-blue, rose light | Light returning after a storm |
 | Focus and mind wandering (`mind-wandering`) | A single vertical shaft of golden light falling through darkness, gold dust drifting and scattering at its base | Umber-black, amber gold | Attention held, and drifting away |
-| Brain (`neurological-correlates`) | A dark, scratched ground with a pale gold-green haze, gold particles glittering through it | Charcoal, pale gold | Signals and activity in the dark |
+| Brain (`neurological-correlates`), parent of the four brain topics | A dark, scratched ground with a pale gold-green haze, gold particles glittering through it | Charcoal, pale gold | Signals and activity in the dark |
+| Brain waves (`brain-waves`), under Brain | A calm sea at dusk seen from low down, rows of silver-white crests catching a faint pink light near a misty horizon | Navy to slate blue, silver, a touch of rose | Rhythm: regular waves, made visible |
+| Brain networks (`brain-networks`), under Brain | A starling murmuration: a scatter of tiny dark specks swirling out of a soft rose-pink glow, on a smooth gradient from near-black navy to pale periwinkle | Navy, periwinkle, rose | Many parts moving as one |
+| Brain responses (`brain-responses`), under Brain | A burst of pale blue-white light and spray sweeping up from a low dark horizon, with a small amber-gold glow at its base | Dark teal-navy, ice blue, amber | A reaction rising from one point |
 | Pain (`pain`) | A sharp red flare, like a crack of lightning, meeting billowing blue-white spray in the dark | Charcoal and steel blue, one red accent | A sudden sharp signal against calm |
 | Self (`self`) | A soft cloud of blue-white light, like a nebula, centred in deep navy darkness | Navy, silver-blue | A self without hard edges |
 | Sleep (`sleep`) | A swirling galaxy of blue and gold, heavily textured, scattered stars | Night blue, teal, warm gold (the most saturated) | Night, drifting off |
+
+The three brain topics (2026) are smoother than the earlier paintings, with soft gradients and thick paint only at the focal point; that's a good model for new paintings too.
 
 When adding a theme, choose a natural phenomenon not already used above, and a palette that sits beside its neighbours in its group on the home page (`site.themeGroups`) without repeating them.
 

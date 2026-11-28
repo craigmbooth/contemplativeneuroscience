@@ -3,7 +3,7 @@ title: "Mindfulness Training Quieted the Amygdala's Response to Positive Picture
 paper_title: "Impact of short- and long-term mindfulness meditation training on amygdala reactivity to emotional stimuli"
 seo_title: "Mindfulness Training and the Amygdala's Emotional Response"
 date: 2024-12-24
-theme: [neurological-correlates, mental-health, emotion]
+theme: [brain-responses, mental-health, emotion]
 doi: 10.1016/j.neuroimage.2018.07.013
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Kral, T. R. A.", "Schuyler, B. S.", "Mumford, J. A.", "Rosenkranz, M. A.", "Lutz, A.", "Davidson, R. J."]

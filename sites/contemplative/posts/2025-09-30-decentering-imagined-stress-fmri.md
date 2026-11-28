@@ -3,7 +3,7 @@ title: "Seeing Stressful Thoughts as Passing Mental Events Engaged Control Areas
 paper_title: "A shift in perspective: Decentering through mindful attention to imagined stressful events"
 seo_title: "Decentering From Imagined Stress: A Brain Imaging Study"
 date: 2025-09-30
-theme: [self, neurological-correlates]
+theme: [self, brain-responses]
 doi: 10.1016/j.neuropsychologia.2015.05.030
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Lebois, L. A. M.", "Papies, E. K.", "Gopinath, K.", "Cabanban, R.", "Quigley, K. S.", "Krishnamurthy, V.", "Barrett, L. F.", "Barsalou, L. W."]

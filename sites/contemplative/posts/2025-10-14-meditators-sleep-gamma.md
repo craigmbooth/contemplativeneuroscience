@@ -3,7 +3,7 @@ title: "Long-Term Meditators Had More Gamma Brain Activity During Non-REM Sleep"
 paper_title: "Experienced mindfulness meditators exhibit higher parietal-occipital EEG gamma activity during NREM sleep"
 seo_title: "Meditators Show More Gamma Brain Waves During Sleep"
 date: 2025-10-14
-theme: [sleep, neurological-correlates]
+theme: [sleep, brain-waves]
 doi: 10.1371/journal.pone.0073417
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Ferrarelli, F.", "Smith, R.", "Dentico, D.", "Riedner, B. A.", "Zennig, C.", "Benca, R. M.", "Lutz, A.", "Davidson, R. J.", "Tononi, G."]

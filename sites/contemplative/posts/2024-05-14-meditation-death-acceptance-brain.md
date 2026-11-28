@@ -3,7 +3,7 @@ title: "Death Words Didn't Mute Meditators' Brain Response to Their Own Face, as
 paper_title: "Training the embodied self in its impermanence: meditators evidence neurophysiological markers of death acceptance"
 seo_title: "Meditation and Death Acceptance in the Brain: MEG Study"
 date: 2024-05-14
-theme: [death, self, neurological-correlates]
+theme: [death, self, brain-waves]
 doi: 10.1093/nc/niaf002
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Dor-Ziderman, Y.", "Schweitzer, Y.", "Nave, O.", "Trautwein, F.-M.", "Fulder, S.", "Lutz, A.", "Goldstein, A.", "Berkovich-Ohana, A."]

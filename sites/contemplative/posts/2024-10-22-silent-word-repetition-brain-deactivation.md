@@ -3,7 +3,7 @@ title: "Silently Repeating the Word \"One\" Quieted Wide Areas of Non-Meditators
 paper_title: "Repetitive speech elicits widespread deactivation in the human cortex: the \"Mantra\" effect?"
 seo_title: "Silent Word Repetition Quiets the Default Mode Network"
 date: 2024-10-22
-theme: [neurological-correlates, mind-wandering]
+theme: [brain-networks, mind-wandering]
 doi: 10.1002/brb3.346
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Berkovich-Ohana, A.", "Wilf, M.", "Kahana, R.", "Arieli, A.", "Malach, R."]

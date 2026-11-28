@@ -3,7 +3,7 @@ title: "When Meditators Tried to Step Outside Time and Space, Theta Activity Ros
 paper_title: "Alterations in the sense of time, space, and body in the mindfulness-trained brain: a neurophenomenologically-guided MEG study"
 seo_title: "Meditating Outside Time and Space: Theta in Body Areas"
 date: 2024-12-31
-theme: [deep-states, neurological-correlates]
+theme: [deep-states, brain-waves]
 doi: 10.3389/fpsyg.2013.00912
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Berkovich-Ohana, A.", "Dor-Ziderman, Y.", "Glicksohn, J.", "Goldstein, A."]

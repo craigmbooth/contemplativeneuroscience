@@ -3,7 +3,7 @@ title: "Aiming for a Mind Empty of Thought, Experienced Meditators Showed Quiete
 paper_title: "Decreased electrophysiological activity represents the conscious state of emptiness in meditation"
 seo_title: "Thoughtless Emptiness Meditation and Quieter Brain Waves"
 date: 2025-03-04
-theme: [deep-states, neurological-correlates]
+theme: [deep-states, brain-waves]
 doi: 10.3389/fpsyg.2014.00099
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Hinterberger, T.", "Schmidt, S.", "Kamei, T.", "Walach, H."]

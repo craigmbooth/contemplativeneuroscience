@@ -6,7 +6,7 @@
  * sub-themes and every paper in them, and the sub-themes' breadcrumbs pass through it.
  */
 export interface ThemeGroup {
-  /** Heading for a group without a parent theme, e.g. "Body and health". */
+  /** The group's heading, e.g. "Body and Health". Optional with a parent, whose title is the default. */
   title?: string;
   /** theme_key of the parent theme (a file in themes/), whose page heads the group. */
   parent?: string;

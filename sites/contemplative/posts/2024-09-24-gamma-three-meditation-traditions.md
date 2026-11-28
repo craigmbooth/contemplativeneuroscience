@@ -3,7 +3,7 @@ title: "Meditators From Three Different Traditions All Had More Fast Gamma Brain
 paper_title: "Increased gamma brainwave amplitude compared to control in three different meditation traditions"
 seo_title: "Three Meditation Traditions Shared More Gamma Brain Activity"
 date: 2024-09-24
-theme: [neurological-correlates, deep-states]
+theme: [brain-waves, deep-states]
 doi: 10.1371/journal.pone.0170647
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Braboszcz, C.", "Cahn, B. R.", "Levy, J.", "Fernandez, M.", "Delorme, A."]

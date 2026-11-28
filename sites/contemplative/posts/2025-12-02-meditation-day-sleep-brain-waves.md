@@ -3,7 +3,7 @@ title: "After a Day of Intensive Meditation, Experienced Meditators Had More Slo
 paper_title: "Short Meditation Trainings Enhance Non-REM Sleep Low-Frequency Oscillations"
 seo_title: "Intensive Meditation Day and Slow Brain Waves in Sleep"
 date: 2025-12-02
-theme: [sleep, neurological-correlates]
+theme: [sleep, brain-waves]
 doi: 10.1371/journal.pone.0148961
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Dentico, D.", "Ferrarelli, F.", "Riedner, B. A.", "Smith, R.", "Zennig, C.", "Lutz, A.", "Tononi, G.", "Davidson, R. J."]

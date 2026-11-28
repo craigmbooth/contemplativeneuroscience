@@ -3,7 +3,7 @@ title: "After a Mindfulness Course, Thinking About Oneself and Sensing the Prese
 paper_title: "Attending to the present: mindfulness meditation reveals distinct neural modes of self-reference"
 seo_title: "Narrative vs. Present-Moment Self-Focus After MBSR"
 date: 2026-11-10
-theme: [self, neurological-correlates]
+theme: [self, brain-networks]
 doi: 10.1093/scan/nsm030
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Farb, N. A. S.", "Segal, Z. V.", "Mayberg, H.", "Bean, J.", "McKeon, D.", "Fatima, Z.", "Anderson, A. K."]

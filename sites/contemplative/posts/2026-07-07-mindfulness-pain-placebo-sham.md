@@ -3,7 +3,7 @@ title: "Mindfulness Eased Heat Pain More Than Sham Meditation or a Placebo Cream
 paper_title: "Mindfulness Meditation-Based Pain Relief Employs Different Neural Mechanisms Than Placebo and Sham Mindfulness Meditation-Induced Analgesia"
 seo_title: "Mindfulness vs Placebo and Sham Meditation for Pain"
 date: 2026-07-07
-theme: [pain, neurological-correlates]
+theme: [pain, brain-responses]
 doi: 10.1523/JNEUROSCI.2542-15.2015
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Zeidan, F.", "Emerson, N. M.", "Farris, S. R.", "Ray, J. N.", "Jung, Y.", "McHaffie, J. G.", "Coghill, R. C."]

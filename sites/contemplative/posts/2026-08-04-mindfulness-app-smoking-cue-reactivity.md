@@ -3,7 +3,7 @@ title: "Smokers Using a Mindfulness App Cut Down More if Their Brain's Reaction 
 paper_title: "Quitting starts in the brain: a randomized controlled trial of app-based mindfulness shows decreases in neural responses to smoking cues that predict reductions in smoking"
 seo_title: "A Mindfulness App, Smoking Cues and the Brain"
 date: 2026-08-04
-theme: [craving, neurological-correlates]
+theme: [craving, brain-responses]
 doi: 10.1038/s41386-019-0403-y
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Janes, A. C.", "Datko, M.", "Roy, A.", "Barton, B.", "Druker, S.", "Neal, C.", "Ohashi, K.", "Benoit, H.", "van Lutterveld, R.", "Brewer, J. A."]

@@ -3,7 +3,7 @@ title: "After Eight Weeks of Mindful-Attention Training, the Amygdala Reacted Le
 paper_title: "Effects of mindful-attention and compassion meditation training on amygdala response to emotional stimuli in an ordinary, non-meditative state"
 seo_title: "Meditation Training and the Amygdala, Outside Meditation"
 date: 2024-11-26
-theme: [neurological-correlates, compassion, mental-health, emotion]
+theme: [brain-responses, compassion, mental-health, emotion]
 doi: 10.3389/fnhum.2012.00292
 paper:  # the summarized paper, for structured data; must agree with citation
   authors: ["Desbordes, G.", "Negi, L. T.", "Pace, T. W. W.", "Wallace, B. A.", "Raison, C. L.", "Schwartz, E. L."]
