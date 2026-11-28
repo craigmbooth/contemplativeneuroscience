@@ -42,7 +42,8 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12)
     transform: translateY(-2px)
 
-  h3
+  // Start Here cards use h3; question cards sit under a group heading, so h4.
+  h3, h4
     margin: 0
     font-size: 1.1em
     line-height: 1.35
@@ -52,7 +53,7 @@
     color: $color-text-secondary
 
   // Nested so it outranks main.sass's `.content a`.
-  h3 a
+  h3 a, h4 a
     color: $color-text-primary
     text-decoration: none
 
@@ -69,7 +70,7 @@
         outline: 2px solid $color-primary-text
         outline-offset: 2px
 
-  &:hover h3 a
+  &:hover h3 a, &:hover h4 a
     color: $color-primary-text
 
 @media (prefers-reduced-motion: reduce)
@@ -96,13 +97,26 @@
   h3
     flex-grow: 1
 
+// A heading over each group of themes (site.themeGroups); a parent theme's heading links to its page.
+.home .question-group
+  margin: $spacing-xl 0 $spacing-md
+  font-size: 1.2em
+
+  a
+    color: $color-text-primary
+    text-decoration: none
+
+    &:hover, &:focus-visible
+      color: $color-primary-text
+      text-decoration: underline
+
 .question-grid
   list-style: none
   padding: 0
-  margin: $spacing-lg 0 0
+  margin: 0
   display: grid
-  // Four across, so the twelve themes sit in three full rows of four.
-  grid-template-columns: repeat(4, 1fr)
+  // Five across, so every group (at most five themes) fits on one row.
+  grid-template-columns: repeat(5, 1fr)
   gap: $spacing-md
 
 .question-card
@@ -117,8 +131,8 @@
   div
     padding: $spacing-md
 
-  h3
-    font-size: 1em
+  h4
+    font-size: 0.95em
     margin-bottom: $spacing-xs
 
 .recent-papers
@@ -145,7 +159,7 @@
     p.paper-meta
       color: $color-text-muted
 
-// Too narrow for four across: two columns of rows, thumbnail beside the text
+// Too narrow for five across: two columns of rows, thumbnail beside the text
 // (the phone layout below, side by side).
 @media (max-width: $breakpoint-desktop)
   .question-grid

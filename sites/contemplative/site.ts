@@ -20,8 +20,14 @@ export default {
     'meditation-sleep-older-adults',
     'brain-and-immune-function',
   ],
-  /** Brain and mind first, then mental health, the self, deep states and death, compassion, body, pain and sleep, then risks. */
-  themeOrder: ['neurological-correlates', 'brain-structure', 'mind-wandering', 'mental-health', 'emotion', 'craving', 'self', 'deep-states', 'death', 'compassion', 'biological-health', 'immunity', 'aging', 'pain', 'sleep', 'adverse-effects'],
+  /** Headings only (no group pages): the brain, mind and emotion, the self, the body, then risks. */
+  themeGroups: [
+    { title: 'The Brain', themes: ['neurological-correlates', 'brain-structure'] },
+    { title: 'Mind and Emotion', themes: ['mind-wandering', 'mental-health', 'emotion', 'craving', 'compassion'] },
+    { title: 'Self and Consciousness', themes: ['self', 'deep-states', 'death'] },
+    { title: 'Body and Health', themes: ['biological-health', 'immunity', 'aging', 'pain', 'sleep'] },
+    { title: 'Safety', themes: ['adverse-effects'] },
+  ],
   analyticsId: 'G-XV8N5DDQYP',
   newsletter: {
     promise: 'One or two new paper summaries every couple of weeks, sent to your inbox when they go up.',

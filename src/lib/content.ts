@@ -18,11 +18,58 @@ export async function getThemes(): Promise<Theme[]> {
   return themes.sort((a, b) => a.id.localeCompare(b.id));
 }
 
-/** Themes in the order the home page asks them as questions (site.themeOrder). */
+/** A group of themes (site.themeGroups), resolved: a heading, or a parent theme with its page. */
+export interface ThemeGroup {
+  /** The heading: the group's title, or its parent theme's title. */
+  title: string;
+  /** The parent theme, when the group has its own page. */
+  parent?: Theme;
+  /** The group's themes (the parent's sub-themes), in reading order. */
+  themes: Theme[];
+}
+
+let groupsCache: Promise<ThemeGroup[]> | undefined;
+/**
+ * site.themeGroups with each key resolved to its theme. Fails the build on an
+ * unknown key, a theme listed twice or left out, or a group with neither a title nor a parent.
+ */
+export function themeGroups(): Promise<ThemeGroup[]> {
+  groupsCache ??= (async () => {
+    const themes = await getThemes();
+    const seen = new Set<string>();
+    const find = (key: string) => {
+      const theme = themes.find((t) => t.data.theme_key === key);
+      if (!theme) throw new Error(`site.themeGroups names unknown theme "${key}".`);
+      if (seen.has(key)) throw new Error(`site.themeGroups lists theme "${key}" more than once.`);
+      seen.add(key);
+      return theme;
+    };
+    const groups = site.themeGroups.map((g) => {
+      const parent = g.parent ? find(g.parent) : undefined;
+      const title = parent?.data.title ?? g.title;
+      if (!title) throw new Error('Each entry in site.themeGroups needs a title or a parent.');
+      return { title, parent, themes: g.themes.map(find) };
+    });
+    const missing = themes.filter((t) => !seen.has(t.data.theme_key)).map((t) => t.data.theme_key);
+    if (missing.length > 0) throw new Error(`Themes missing from site.themeGroups: ${missing.join(', ')}.`);
+    return groups;
+  })();
+  return groupsCache;
+}
+
+/** Every theme in reading order: each group's parent, then its themes. */
 export async function themesInOrder(): Promise<Theme[]> {
-  const order: readonly string[] = site.themeOrder;
-  const rank = (key: string) => order.indexOf(key) + 1 || order.length + 1;
-  return [...(await getThemes())].sort((a, b) => rank(a.data.theme_key) - rank(b.data.theme_key));
+  return (await themeGroups()).flatMap((g) => (g.parent ? [g.parent, ...g.themes] : g.themes));
+}
+
+/** The parent theme a theme sits under, if it has one. */
+export async function parentTheme(theme: Theme): Promise<Theme | undefined> {
+  return (await themeGroups()).find((g) => g.parent && g.themes.some((t) => t.id === theme.id))?.parent;
+}
+
+/** A parent theme's sub-themes (empty for any other theme). */
+export async function subThemes(theme: Theme): Promise<Theme[]> {
+  return (await themeGroups()).find((g) => g.parent?.id === theme.id)?.themes ?? [];
 }
 
 export const postUrl = (post: Post) => `/${post.id}/`;
@@ -73,21 +120,30 @@ export async function themesForPost(post: Post): Promise<Theme[]> {
   });
 }
 
-/** Posts in a theme, newest first. */
+/** Posts in a theme, newest first. A parent theme also has every post in its sub-themes. */
 export async function postsForTheme(theme: Theme): Promise<Post[]> {
+  const keys = [theme, ...(await subThemes(theme))].map((t) => t.data.theme_key);
   const posts = await getPosts();
-  return posts.filter((p) => p.data.theme.includes(theme.data.theme_key));
+  return posts.filter((p) => p.data.theme.some((key) => keys.includes(key)));
 }
 
 /**
  * Other themes that share papers with this one, most shared papers first
- * (site.themeOrder breaks ties), for the "Related Themes" list on theme pages.
+ * (reading order breaks ties), for the "Related Themes" list on theme pages.
+ * A theme's parent and sub-themes are left out: the page links them already.
  */
 export async function relatedThemes(theme: Theme, limit = 4): Promise<{ theme: Theme; shared: number }[]> {
   const posts = await postsForTheme(theme);
-  return (await themesInOrder())
-    .filter((t) => t.id !== theme.id)
-    .map((t) => ({ theme: t, shared: posts.filter((p) => p.data.theme.includes(t.data.theme_key)).length }))
+  const parent = await parentTheme(theme);
+  const family = new Set([theme, parent, ...(await subThemes(theme))].filter((t) => t).map((t) => t!.id));
+  const candidates = (await themesInOrder()).filter((t) => !family.has(t.id));
+  const shared = await Promise.all(
+    candidates.map(async (t) => {
+      const ids = new Set((await postsForTheme(t)).map((p) => p.id));
+      return { theme: t, shared: posts.filter((p) => ids.has(p.id)).length };
+    }),
+  );
+  return shared
     .filter(({ shared }) => shared > 0)
     .sort((a, b) => b.shared - a.shared)
     .slice(0, limit);

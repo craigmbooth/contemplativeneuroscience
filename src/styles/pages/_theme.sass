@@ -54,16 +54,23 @@
     margin: 0
     line-height: 1.35
 
+  // margin 0: main.sass centres post images with auto margins, which in this flex row
+  // would push a thumbnail right whenever its question is short.
   img
     flex: 0 0 64px
     width: 64px
     height: 64px
+    margin: 0
     border-radius: 5px
 
   .paper-meta
     margin: 2px 0 0
     font-size: 14px
     color: $color-text-secondary
+
+// A parent theme's sub-themes, above its papers: same cards as Related Themes.
+.post .post-content .related-themes.sub-themes
+  margin: $spacing-xl 0
 
 @media (max-width: $breakpoint-mobile)
   .post .post-content .related-themes ul

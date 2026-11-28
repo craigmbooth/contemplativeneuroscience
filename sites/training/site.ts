@@ -17,8 +17,12 @@ export default {
   authorKnowsAbout: ['Exercise science', 'Strength training', 'Endurance training', 'Sports supplements'],
   // Add about four post slugs once there are summaries; empty hides Start Here.
   startHere: [],
-  /** Lifting first, then cardio, then what supports training. */
-  themeOrder: ['strength', 'muscle', 'endurance', 'supplements', 'recovery'],
+  /** Parent themes, each with its own page; the sub-themes are placeholders to rename or replace. */
+  themeGroups: [
+    { parent: 'strength', themes: ['muscle'] },
+    { parent: 'cardio', themes: ['intervals'] },
+    { parent: 'supplements', themes: ['creatine'] },
+  ],
   // No analyticsId or MailerLite form yet: set them up for this site and add them here.
   newsletter: {
     promise: 'One or two new paper summaries every couple of weeks, sent to your inbox when they go up.',
@@ -47,14 +51,14 @@ export default {
   },
   copy: {
     homeDescription:
-      'Accessible summaries of peer-reviewed research on exercise: strength training, muscle growth, cardio and endurance, supplements and recovery.',
+      'Accessible summaries of peer-reviewed research on exercise: strength training, muscle growth, cardio and endurance, and supplements.',
     homeLede:
       'Plain-English summaries of peer-reviewed studies on exercise, strength, endurance and supplements. Each one explains what the researchers did, what they found, and how much weight the result can bear.',
     homeAuthor: 'who has a background in science.',
     allPapersDescription:
-      'Browse, search, and sort every research summary on the site: peer-reviewed studies on strength, muscle, endurance, supplements and recovery.',
+      'Browse, search, and sort every research summary on the site: peer-reviewed studies on strength, muscle, cardio and supplements.',
     themesDescription:
-      'Questions about training, from strength and muscle to cardio, supplements and recovery, each with a short answer from the research and the papers behind it.',
+      'Questions about training, from strength and muscle to cardio and supplements, each with a short answer from the research and the papers behind it.',
     themesIntro:
       'The summaries on this site are grouped around questions people ask about training. Below each question is the short answer from the papers covered so far. Each theme page goes further: what the research says, where the evidence is strong or thin, and every paper behind it. Some papers bear on more than one question, so they appear under each.',
     allPapersSearchPlaceholder: 'For example: creatine, hypertrophy, VO2 max',

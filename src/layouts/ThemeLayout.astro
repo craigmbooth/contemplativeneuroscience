@@ -1,5 +1,6 @@
 ---
-// A research theme: description plus the papers in it.
+// A research theme: description plus the papers in it. A parent theme also lists
+// its sub-themes (and its papers include theirs); a sub-theme's breadcrumbs pass through its parent.
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Footer from '../components/Footer.astro';
@@ -7,7 +8,19 @@ import PaperMeta from '../components/PaperMeta.astro';
 import { breadcrumbSchema, collectionPageSchema, htmlToText, metaDescription, pageTitle } from '../lib/seo';
 import { publicImageSize } from '../lib/images.js';
 import { CARD_HEIGHT, CARD_WIDTH } from '../lib/share-card';
-import { markdownify, postsForTheme, postUrl, relatedThemes, themeCard, themeImage, themeThumb, themeUrl, type Theme } from '../lib/content';
+import {
+  markdownify,
+  parentTheme,
+  postsForTheme,
+  postUrl,
+  relatedThemes,
+  subThemes,
+  themeCard,
+  themeImage,
+  themeThumb,
+  themeUrl,
+  type Theme,
+} from '../lib/content';
 
 export interface Props {
   theme: Theme;
@@ -17,6 +30,11 @@ const { data } = theme;
 const path = themeUrl(theme);
 const posts = await postsForTheme(theme);
 const related = await relatedThemes(theme);
+const parent = await parentTheme(theme);
+const parents = parent ? [{ name: parent.data.title, path: themeUrl(parent) }] : [];
+const topics = await Promise.all(
+  (await subThemes(theme)).map(async (t) => ({ theme: t, count: (await postsForTheme(t)).length })),
+);
 const image = { src: themeImage(theme), ...publicImageSize(themeImage(theme), path) };
 const descriptionHtml = await markdownify(data.theme_description);
 const summaryHtml = await markdownify(data.research_summary);
@@ -32,6 +50,7 @@ const schemas = [
   }),
   breadcrumbSchema([
     { name: 'Research Themes', path: '/themes/' },
+    ...parents,
     { name: data.title, path },
   ]),
 ];
@@ -51,7 +70,7 @@ const schemas = [
           <h1 class="post-title">{data.title}</h1>
         </div>
       </div>
-      <Breadcrumbs kind="theme" title={data.title} />
+      <Breadcrumbs kind="theme" title={data.title} parents={parents} />
 
       <section class="post-content">
         <div class="theme-header">
@@ -69,6 +88,23 @@ const schemas = [
             <h2 id="research-summary-heading">What the Research Says</h2>
             <Fragment set:html={summaryHtml} />
           </section>
+        )}
+
+        {topics.length > 0 && (
+          <nav class="related-themes sub-themes" aria-labelledby="sub-themes-heading">
+            <h2 id="sub-themes-heading">Topics in this Theme</h2>
+            <ul>
+              {topics.map(({ theme: t, count }) => (
+                <li>
+                  <img src={themeThumb(t)} alt="" width="240" height="240" loading="lazy" decoding="async" />
+                  <div>
+                    <a href={themeUrl(t)}>{t.data.question}</a>
+                    <p class="paper-meta">{t.data.short_title} · {count} paper{count === 1 ? '' : 's'}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </nav>
         )}
 
         <h2>Papers in this Theme</h2>

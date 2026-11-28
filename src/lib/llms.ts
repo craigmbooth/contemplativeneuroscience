@@ -2,7 +2,7 @@
 // and /llms-full.txt (every summary as plain Markdown in one file).
 import { site, absoluteUrl } from '../site';
 import { loadDefinitions } from './definitions.js';
-import { getPosts, getThemes, postUrl, themesForPost, themeUrl, type Post } from './content';
+import { getPosts, getThemes, postsForTheme, postUrl, themeGroups, themesForPost, themeUrl, type Post, type Theme } from './content';
 
 const definitions = new Map(loadDefinitions().map((d) => [d.term, d]));
 const isoDate = (d: Date) => d.toISOString().slice(0, 10);
@@ -37,9 +37,21 @@ const doiUrl = (doi: string) => `https://doi.org/${doi}`;
 export async function llmsTxt(): Promise<string> {
   const withWikipedia = [...definitions.values()].filter((d) => d.wiki).length;
   const posts = await getPosts();
-  const themes = await getThemes();
-  const counts = new Map(themes.map((t) => [t.data.theme_key, 0]));
-  for (const p of posts) for (const key of p.data.theme) counts.set(key, (counts.get(key) ?? 0) + 1);
+  const groups = await themeGroups();
+  const themeLine = async (t: Theme, indent = '') =>
+    `${indent}- [${t.data.title}](${absoluteUrl(themeUrl(t))}): ${oneLine(t.data.meta_description ?? '')} (${(await postsForTheme(t)).length} papers)`;
+  const themeList = (
+    await Promise.all(
+      groups.map(async (g) =>
+        [
+          `### ${g.title}`,
+          '',
+          ...(g.parent ? [await themeLine(g.parent)] : []),
+          ...(await Promise.all(g.themes.map((t) => themeLine(t, g.parent ? '  ' : '')))),
+        ].join('\n'),
+      ),
+    )
+  ).join('\n\n');
 
   const paper = (p: Post) =>
     `- [${oneLine(p.data.title)}](${absoluteUrl(postUrl(p))}): ${oneLine(p.data.meta_description ?? p.data.snippet ?? '')}` +
@@ -59,12 +71,7 @@ ${posts.map(paper).join('\n')}
 
 ## Research themes
 
-${themes
-  .map(
-    (t) =>
-      `- [${t.data.title}](${absoluteUrl(themeUrl(t))}): ${oneLine(t.data.meta_description ?? '')} (${counts.get(t.data.theme_key)} papers)`,
-  )
-  .join('\n')}
+${themeList}
 
 ## Reference
 

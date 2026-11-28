@@ -37,7 +37,7 @@ After each deploy, the workflow submits the pages whose HTML changed (plus any r
 
 ```
 sites/<name>/          One folder per site (see Project Overview)
-  site.ts             Settings: title, URL, author, startHere, themeOrder, colors, copy, analytics, MailerLite
+  site.ts             Settings: title, URL, author, startHere, themeGroups, colors, copy, analytics, MailerLite
   posts/              Paper summaries: YYYY-MM-DD-slug.md -> /slug/ (files starting with _ are ignored)
   themes/             Research themes -> /themes/<theme_key>/
   definitions.yaml    Glossary terms (tooltips, /glossary/ index and a page per term)
@@ -124,9 +124,10 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Posts and pages use the narrower reading column (`.content.reading`, `$content-reading-width`); the home page keeps the full width.
 - Listings show a `PaperMeta` line (date, study type, theme links).
 - All Papers (`pages/all-papers.astro`, `scripts/all-papers.js`) lists newest summaries first. Search matches every word typed across the headline, snippet, citation, themes and the glossary terms the summary links to (including the term's Wikipedia name, so "default mode network" finds DMN), highlights matches, and names a matched term that isn't visible ("Covers: DMN"). Sort and study type are selects; all three controls are mirrored in the URL (`?q=`, `?type=`, `?sort=`).
+- Theme groups (`site.themeGroups`, resolved by `themeGroups()` in `lib/content.ts`): every theme sits in exactly one group, in reading order; a missing, unknown or repeated key fails the build. A group is either a heading (`title`, as on Contemplative Neuroscience: The Brain, Mind and Emotion, ...) or a parent theme (`parent`, as on Training Evidence: Strength, Cardio, Supplements). A parent is an ordinary theme file whose page lists its sub-themes ("Topics in this Theme") and every paper in them (`postsForTheme()` includes sub-themes' papers); sub-themes' breadcrumbs pass through the parent. Posts are tagged with the narrowest theme that fits. Theme URLs stay `/themes/<theme_key>/` for parents and sub-themes alike. Keep groups to five themes or fewer: the home page shows five across.
 - Research Themes (`pages/themes/index.astro`) shows each theme as its question, with its short answer (the bold opening sentence of `research_summary`, via `themeShortAnswer()`; keep it there) and its papers.
-- The home page has a hand-picked "Start Here" set (`site.startHere` in `sites/<name>/site.ts`; an unknown slug fails the build), the themes as questions (order set by `site.themeOrder`, shared with Research Themes and the 404 page; thumbnails in `sites/<name>/public/assets/images/themes/thumbs/`, 240px WebP), and the 5 newest papers with date, study type and theme; every post ends with up to 4 Related Papers (`relatedPosts()`: papers sharing a theme, nearest in date first, so links spread across the archive) plus links to its theme pages.
-- The 404 page (`pages/404.astro`, noindex) offers a search that opens All Papers with `?q=`, which All Papers applies on load, plus the Start Here papers and the theme questions (`site.themeOrder`, shared with the home page).
+- The home page has a hand-picked "Start Here" set (`site.startHere` in `sites/<name>/site.ts`; an unknown slug fails the build), the themes as questions under their group headings (`site.themeGroups`, shared with Research Themes and the 404 page; thumbnails in `sites/<name>/public/assets/images/themes/thumbs/`, 240px WebP), and the 5 newest papers with date, study type and theme; every post ends with up to 4 Related Papers (`relatedPosts()`: papers sharing a theme, nearest in date first, so links spread across the archive) plus links to its theme pages.
+- The 404 page (`pages/404.astro`, noindex) offers a search that opens All Papers with `?q=`, which All Papers applies on load, plus the Start Here papers and the theme questions (`site.themeGroups`, shared with the home page).
 - `<title>` gets the " | Contemplative Neuroscience" suffix only when the result is ≤ 60 characters.
 
 ## Email Sign-up

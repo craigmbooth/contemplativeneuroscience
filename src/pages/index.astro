@@ -9,8 +9,8 @@ import {
   postsBySlug,
   postsForTheme,
   postUrl,
+  themeGroups,
   themesForPost,
-  themesInOrder,
   themeThumb,
   themeUrl,
   type Post,
@@ -19,8 +19,17 @@ import {
 const posts = await getPosts();
 const recent = posts.slice(0, 5);
 const startHere = await postsBySlug(site.startHere);
-const themes = await Promise.all(
-  (await themesInOrder()).map(async (theme) => ({ theme, count: (await postsForTheme(theme)).length })),
+// Each group's questions: a parent theme's card first, then its sub-themes.
+const groups = await Promise.all(
+  (await themeGroups()).map(async (group) => ({
+    group,
+    cards: await Promise.all(
+      [...(group.parent ? [group.parent] : []), ...group.themes].map(async (theme) => ({
+        theme,
+        count: (await postsForTheme(theme)).length,
+      })),
+    ),
+  })),
 );
 // Study type and themes for each listed paper.
 const meta = async (post: Post) => ({ post, type: post.data.study?.type, themes: await themesForPost(post) });
@@ -65,17 +74,24 @@ const description = site.copy.homeDescription;
 
     <section class="theme-questions" aria-labelledby="questions-heading">
       <h2 id="questions-heading">Explore by Question</h2>
-      <ul class="question-grid">
-        {themes.map(({ theme, count }) => (
-          <li class="question-card">
-            <img src={themeThumb(theme)} alt="" width="240" height="240" loading="lazy" decoding="async" />
-            <div>
-              <h3><a href={themeUrl(theme)}>{theme.data.question}</a></h3>
-              <p class="paper-meta">{theme.data.short_title} · {count} paper{count === 1 ? '' : 's'}</p>
-            </div>
-          </li>
-        ))}
-      </ul>
+      {groups.map(({ group, cards }) => (
+        <>
+          <h3 class="question-group">
+            {group.parent ? <a href={themeUrl(group.parent)}>{group.title}</a> : group.title}
+          </h3>
+          <ul class="question-grid">
+            {cards.map(({ theme, count }) => (
+              <li class="question-card">
+                <img src={themeThumb(theme)} alt="" width="240" height="240" loading="lazy" decoding="async" />
+                <div>
+                  <h4><a href={themeUrl(theme)}>{theme.data.question}</a></h4>
+                  <p class="paper-meta">{theme.data.short_title} · {count} paper{count === 1 ? '' : 's'}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </>
+      ))}
     </section>
 
     <section class="recent-papers" aria-labelledby="recent-papers-heading">

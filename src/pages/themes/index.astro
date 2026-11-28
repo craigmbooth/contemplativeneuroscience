@@ -1,14 +1,31 @@
 ---
-// The research themes as questions, each with its short answer (the bold
-// opening of the theme's research_summary) and the papers behind it.
+// The research themes as questions, grouped (site.themeGroups), each with its short
+// answer (the bold opening of the theme's research_summary) and the papers behind it.
 import PageLayout from '../../layouts/PageLayout.astro';
-import { postsForTheme, postUrl, themeShortAnswer, themesInOrder, themeThumb, themeUrl } from '../../lib/content';
+import { postsForTheme, postUrl, themeGroups, themeShortAnswer, themesInOrder, themeThumb, themeUrl } from '../../lib/content';
 import { collectionPageSchema } from '../../lib/seo';
 import { site } from '../../site';
 
 const themes = await themesInOrder();
-const entries = await Promise.all(
-  themes.map(async (theme) => ({ theme, posts: await postsForTheme(theme), answer: themeShortAnswer(theme) })),
+const groups = await Promise.all(
+  (await themeGroups()).map(async (group) => ({
+    group,
+    entries: await Promise.all(
+      [...(group.parent ? [group.parent] : []), ...group.themes].map(async (theme) => {
+        const posts = await postsForTheme(theme);
+        const isParent = theme.id === group.parent?.id;
+        // A parent's entry lists only papers in none of its sub-themes; the rest appear under them.
+        const subKeys = isParent ? group.themes.map((t) => t.data.theme_key) : [];
+        return {
+          theme,
+          count: posts.length,
+          posts: posts.filter((p) => !p.data.theme.some((key) => subKeys.includes(key))),
+          answer: themeShortAnswer(theme),
+          sub: !!group.parent && !isParent,
+        };
+      }),
+    ),
+  })),
 );
 const title = 'Research Themes';
 const description = site.copy.themesDescription;
@@ -24,30 +41,37 @@ const schema = collectionPageSchema({
     {site.copy.themesIntro}
   </p>
 
-  <ol class="theme-index">
-    {entries.map(({ theme, posts, answer }) => (
-      <li class="theme-entry">
-        {/* Decorative: the question below links to the same page. */}
-        <img class="theme-entry-image" src={themeThumb(theme)} alt="" width="240" height="240" loading="lazy" decoding="async" />
-        <div class="theme-entry-body">
-          <p class="paper-meta">{theme.data.short_title} · {posts.length} paper{posts.length === 1 ? '' : 's'}</p>
-          <h2><a href={themeUrl(theme)}>{theme.data.question}</a></h2>
-          {answer && <p class="theme-answer">{answer}</p>}
-          {posts.length > 0 && (
-            <ul class="theme-papers">
-              {posts.map((post) => (
-                <li>
-                  <a href={postUrl(post)}>{post.data.title}</a>
-                  {post.data.study && <span class="study-type">{post.data.study.type}</span>}
-                </li>
-              ))}
-            </ul>
-          )}
-          <p class="theme-more">
-            <a href={themeUrl(theme)}>{theme.data.title}: what the research says</a>
-          </p>
-        </div>
-      </li>
-    ))}
-  </ol>
+  {groups.map(({ group, entries }) => (
+    <section class="theme-group">
+      <h2 class="theme-group-heading">
+        {group.parent ? <a href={themeUrl(group.parent)}>{group.title}</a> : group.title}
+      </h2>
+      <ol class="theme-index">
+        {entries.map(({ theme, count, posts, answer, sub }) => (
+          <li class:list={['theme-entry', { 'theme-entry-sub': sub }]}>
+            {/* Decorative: the question below links to the same page. */}
+            <img class="theme-entry-image" src={themeThumb(theme)} alt="" width="240" height="240" loading="lazy" decoding="async" />
+            <div class="theme-entry-body">
+              <p class="paper-meta">{theme.data.short_title} · {count} paper{count === 1 ? '' : 's'}</p>
+              <h3><a href={themeUrl(theme)}>{theme.data.question}</a></h3>
+              {answer && <p class="theme-answer">{answer}</p>}
+              {posts.length > 0 && (
+                <ul class="theme-papers">
+                  {posts.map((post) => (
+                    <li>
+                      <a href={postUrl(post)}>{post.data.title}</a>
+                      {post.data.study && <span class="study-type">{post.data.study.type}</span>}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              <p class="theme-more">
+                <a href={themeUrl(theme)}>{theme.data.title}: what the research says</a>
+              </p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+  ))}
 </PageLayout>

@@ -1,5 +1,19 @@
 // The settings every site defines in sites/<name>/site.ts (formerly Jekyll's _config.yml).
 
+/**
+ * A group of research themes. Either a heading over related themes (give it a `title`),
+ * or a parent theme with its own page (give it a `parent`): the parent's page lists its
+ * sub-themes and every paper in them, and the sub-themes' breadcrumbs pass through it.
+ */
+export interface ThemeGroup {
+  /** Heading for a group without a parent theme, e.g. "Body and health". */
+  title?: string;
+  /** theme_key of the parent theme (a file in themes/), whose page heads the group. */
+  parent?: string;
+  /** theme_keys of the group's themes (sub-themes, for a parent), in reading order. */
+  themes: readonly string[];
+}
+
 export interface SiteConfig {
   title: string;
   /** Tagline: the home page banner, the feed and the WebSite structured data. */
@@ -22,8 +36,11 @@ export interface SiteConfig {
   authorKnowsAbout: readonly string[];
   /** "Start here" papers on the home and 404 pages (post slugs; about four); an unknown slug fails the build. Empty hides them. */
   startHere: readonly string[];
-  /** Theme keys in reading order (home page, Research Themes, 404 page). */
-  themeOrder: readonly string[];
+  /**
+   * Every theme, grouped, in reading order (home page, Research Themes, 404 page). Each theme
+   * appears exactly once, as a parent or in a group's `themes`; anything else fails the build.
+   */
+  themeGroups: readonly ThemeGroup[];
   /** Google Analytics measurement ID (gtag.js); without one the pages carry no analytics. */
   analyticsId?: string;
   /** Email list (MailerLite). */

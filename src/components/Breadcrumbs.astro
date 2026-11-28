@@ -11,7 +11,7 @@ export interface Props {
   title: string;
   /** Post themes (post pages only). */
   themes?: Theme[];
-  /** Pages between Home and this one (page kind only), e.g. the Glossary for a term page. */
+  /** Pages between Home and this one, e.g. the Glossary for a term page, or a sub-theme's parent theme. */
   parents?: { name: string; path: string }[];
 }
 const { kind, title, themes = [], parents = [] } = Astro.props;
@@ -33,6 +33,7 @@ const current = truncate(title, 75);
       </>
     )}
     {kind === 'theme' && <li><a href="/themes/">Research Themes</a></li>}
+    {kind === 'theme' && parents.map((p) => <li><a href={p.path}>{p.name}</a></li>)}
     {kind === 'page' && parents.map((p) => <li><a href={p.path}>{p.name}</a></li>)}
     <li aria-current="page">{current}</li>
   </ol>

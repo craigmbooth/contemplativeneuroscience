@@ -8,8 +8,9 @@
 //     mainEntityOfPage = the post's URL) that isBasedOn a ScholarlyArticle whose
 //     @id is the paper's DOI URL, with a name, authors and a publication date;
 //   - a BreadcrumbList starting at Home and ending at the post.
-// Every theme page must have a CollectionPage listing all of the theme's posts,
-// and a BreadcrumbList ending at the theme.
+// Every theme page must have a CollectionPage listing all of the theme's posts (for a
+// parent theme, its sub-themes' posts too), and a BreadcrumbList ending at the theme
+// (passing through the parent, for a sub-theme).
 // The glossary index must be a DefinedTermSet of every term, and every term page a
 // DefinedTerm (@id = the page) with a BreadcrumbList Home > Glossary > term.
 // Every indexable page must have at least one JSON-LD block, and every block must
@@ -17,7 +18,14 @@
 // Checks the site picked by the SITE environment variable (src/lib/active-site.js).
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { PUBLIC_DIR, sitePath } from '../src/lib/active-site.js';
+
+// The site's settings, for its theme groups (Node runs the TypeScript directly).
+const { default: siteConfig } = await import(pathToFileURL(sitePath('site.ts')).href);
+const groups = siteConfig.themeGroups.filter((g) => g.parent);
+const subThemesOf = (key) => groups.find((g) => g.parent === key)?.themes ?? [];
+const parentOf = (key) => groups.find((g) => g.themes.includes(key))?.parent;
 
 const DIST = 'dist';
 const origin = `https://${readFileSync(join(PUBLIC_DIR, 'CNAME'), 'utf8').trim()}`;
@@ -146,10 +154,16 @@ for (const f of readdirSync(themesDir).filter((f) => f.endsWith('.md'))) {
     fail(page, `expected 1 CollectionPage, found ${pages.length}`);
   } else {
     const listed = pages[0].mainEntity?.itemListElement ?? [];
-    const expected = posts.filter((p) => themesOf(p.fm).includes(key)).length;
+    const keys = [key, ...subThemesOf(key)];
+    const expected = posts.filter((p) => themesOf(p.fm).some((t) => keys.includes(t))).length;
     if (listed.length !== expected) fail(page, `CollectionPage lists ${listed.length} papers, theme has ${expected}`);
   }
   checkBreadcrumbs(page, items, url);
+  const parent = parentOf(key);
+  if (parent) {
+    const crumbs = (ofType(items, 'BreadcrumbList')[0]?.itemListElement ?? []).map((el) => el.item);
+    if (crumbs.at(-2) !== `${origin}/themes/${parent}/`) fail(page, `BreadcrumbList does not pass through its parent theme /themes/${parent}/`);
+  }
 }
 
 // Glossary: the index is a DefinedTermSet holding every term; each term page has a

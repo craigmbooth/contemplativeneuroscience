@@ -1,7 +1,7 @@
 ---
-title: Cardio and Endurance
-theme_key: endurance
-short_title: "Endurance"
+title: Cardio
+theme_key: cardio
+short_title: "Cardio"
 question: "What's the best way to build cardio fitness?"
 image_format: webp
 meta_description: "Research on cardio and endurance training: intervals versus steady work, VO2 max, training intensity and how fitness relates to health."
