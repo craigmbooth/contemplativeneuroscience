@@ -1,10 +1,10 @@
 // Glossary definitions, shared by the remark plugin (build-time markdown
 // rendering) and the glossary pages. Plain JS + fs so it works in both contexts.
 import { readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
 import { load as parseYaml } from 'js-yaml';
+import { sitePath } from './active-site.js';
 
-const DEFINITIONS_PATH = resolve(process.cwd(), 'src/data/definitions.yaml');
+const DEFINITIONS_PATH = sitePath('definitions.yaml');
 
 /**
  * A glossary term.

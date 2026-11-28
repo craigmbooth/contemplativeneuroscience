@@ -4,16 +4,16 @@ import PageLayout from '../layouts/PageLayout.astro';
 import PaperMeta from '../components/PaperMeta.astro';
 import Subscribe from '../components/Subscribe.astro';
 import { getPosts, postUrl } from '../lib/content';
+import { site } from '../site';
 
 const recent = (await getPosts()).slice(0, 3);
 ---
 <PageLayout
   title="Get New Summaries by Email"
-  meta_description="Get an email when new summaries of meditation and brain research go up: one or two peer-reviewed papers every couple of weeks."
+  meta_description={site.copy.subscribeDescription}
 >
   <p>
-    Plain-English summaries of peer-reviewed research on meditation and the brain. Each one explains what the
-    researchers did, what they found, and how much weight the result can bear.
+    {site.copy.subscribeLede}
   </p>
 
   <Subscribe heading="Sign up" />

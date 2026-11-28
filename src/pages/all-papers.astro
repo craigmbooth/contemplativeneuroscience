@@ -6,6 +6,7 @@ import PaperMeta from '../components/PaperMeta.astro';
 import { STUDY_TYPES } from '../content.config';
 import { getPosts, markdownify, postUrl, themesForPost } from '../lib/content';
 import { collectionPageSchema, postGlossaryTerms } from '../lib/seo';
+import { site } from '../site';
 
 const posts = await getPosts();
 const termAlias = (wiki: string) => wiki.replace(/_/g, ' ').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -36,8 +37,7 @@ const typeCounts = STUDY_TYPES.map((type) => ({
 })).filter((t) => t.count > 0);
 
 const title = 'All Papers';
-const description =
-  'Browse, search, and sort every research summary on the site: peer-reviewed studies on meditation, mindfulness, and the brain.';
+const description = site.copy.allPapersDescription;
 const schema = collectionPageSchema({
   path: '/all-papers/',
   name: title,

@@ -7,19 +7,21 @@
 //                                       INDEXNOW_ALL=true prints every page instead.
 //   node scripts/indexnow.mjs submit    Submit the JSON URL list in INDEXNOW_URLS.
 //
-// The key is public by design: public/<key>.txt lets search engines verify that
-// submissions come from the site owner. The host comes from public/CNAME.
+// Works on the site picked by the SITE environment variable (src/lib/active-site.js).
+// The key is public by design: sites/<name>/public/<key>.txt lets search engines verify
+// that submissions come from the site owner. The host comes from sites/<name>/public/CNAME.
 // Run `changed` after building and before deploying, so "live" is the old site.
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
+import { PUBLIC_DIR, SITE } from '../src/lib/active-site.js';
 
-const host = readFileSync('public/CNAME', 'utf8').trim();
+const host = readFileSync(join(PUBLIC_DIR, 'CNAME'), 'utf8').trim();
 const origin = `https://${host}`;
-const keyFile = readdirSync('public').find((f) => /^[0-9a-f]{32}\.txt$/.test(f));
-if (!keyFile) throw new Error('No IndexNow key file (public/<32 hex chars>.txt) found.');
+const keyFile = readdirSync(PUBLIC_DIR).find((f) => /^[0-9a-f]{32}\.txt$/.test(f));
+if (!keyFile) throw new Error(`No IndexNow key file (sites/${SITE}/public/<32 hex chars>.txt) found.`);
 const key = keyFile.slice(0, -4);
-if (readFileSync(join('public', keyFile), 'utf8').trim() !== key) {
-  throw new Error(`public/${keyFile} must contain its own name (the key).`);
+if (readFileSync(join(PUBLIC_DIR, keyFile), 'utf8').trim() !== key) {
+  throw new Error(`sites/${SITE}/public/${keyFile} must contain its own name (the key).`);
 }
 
 const sitemapUrls = (xml) => [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
@@ -28,7 +30,7 @@ async function fetchLive(url) {
   // A unique query string skips the CDN cache, so this sees what is deployed now.
   const res = await fetch(`${url}${url.includes('?') ? '&' : '?'}indexnow=${Date.now()}`, {
     redirect: 'manual',
-    headers: { 'User-Agent': 'contemplativeneuroscience-indexnow' },
+    headers: { 'User-Agent': `${host.split('.')[0]}-indexnow` },
   });
   return { status: res.status, body: Buffer.from(await res.arrayBuffer()) };
 }

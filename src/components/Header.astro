@@ -14,14 +14,14 @@ const navClass = (url: string) => (url === '/subscribe/' ? 'nav-subscribe' : und
 <!-- header start -->
 
 <!-- Google tag (gtag.js) -->
-<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XV8N5DDQYP"></script>
-<script is:inline>
+<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${site.analyticsId}`}></script>
+<script is:inline set:html={`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-XV8N5DDQYP');
-</script>
+  gtag('config', '${site.analyticsId}');
+`} />
 
 {isHome ? (
   <>

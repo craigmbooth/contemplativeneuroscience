@@ -60,7 +60,7 @@ export function authorSchema() {
     url: absoluteUrl('/about/'),
     sameAs: [...site.authorProfiles],
     description: site.authorBio,
-    knowsAbout: ['Meditation', 'Mindfulness', 'Contemplative neuroscience'],
+    knowsAbout: [...site.authorKnowsAbout],
   };
 }
 

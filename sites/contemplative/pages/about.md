@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/PageLayout.astro
+layout: ../../../src/layouts/PageLayout.astro
 title: What is This Site?
 profile_page: true
 subscribe: true

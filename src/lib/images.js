@@ -1,7 +1,8 @@
-// Pixel dimensions of images served from public/, read at build time.
+// Pixel dimensions of images served from the site's public/ folder, read at build time.
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { imageSize } from 'image-size';
+import { PUBLIC_DIR, SITE } from './active-site.js';
 
 /** @type {Map<string, { width: number, height: number }>} */
 const cache = new Map();
@@ -19,12 +20,12 @@ export function publicImageSize(src, from = 'site') {
   if (!size) {
     let bytes;
     try {
-      bytes = readFileSync(join(process.cwd(), 'public', path));
+      bytes = readFileSync(join(PUBLIC_DIR, path));
     } catch {
-      throw new Error(`Image "${src}" (referenced in ${from}) not found at public${path}.`);
+      throw new Error(`Image "${src}" (referenced in ${from}) not found at sites/${SITE}/public${path}.`);
     }
     const { width, height } = imageSize(bytes);
-    if (!width || !height) throw new Error(`Cannot read the dimensions of public${path}.`);
+    if (!width || !height) throw new Error(`Cannot read the dimensions of sites/${SITE}/public${path}.`);
     size = { width, height };
     cache.set(path, size);
   }

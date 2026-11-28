@@ -1,0 +1,80 @@
+// The settings every site defines in sites/<name>/site.ts (formerly Jekyll's _config.yml).
+
+export interface SiteConfig {
+  title: string;
+  /** Tagline: the home page banner, the feed and the WebSite structured data. */
+  description: string;
+  /** Canonical origin, no trailing slash, e.g. 'https://contemplativeneuroscience.com'. */
+  url: string;
+  /** Logo (in the site's public/), used in structured data, share cards and as the compact social card. */
+  logo: string;
+  /** The home page banner image. */
+  cover: string;
+  /** The year the site started, for the footer's copyright line. */
+  since: number;
+  author: string;
+  authorImage: string;
+  /** The author's other profiles (schema.org sameAs). */
+  authorProfiles: readonly string[];
+  /** One-line author bio for structured data (matches the About page). */
+  authorBio: string;
+  /** Topics the author writes about (schema.org knowsAbout). */
+  authorKnowsAbout: readonly string[];
+  /** "Start here" papers on the home page (post slugs); an unknown slug fails the build. */
+  startHere: readonly string[];
+  /** Theme keys in reading order (home page, Research Themes, 404 page). */
+  themeOrder: readonly string[];
+  /** Google Analytics measurement ID (gtag.js). */
+  analyticsId: string;
+  /** Email list (MailerLite). */
+  newsletter: {
+    /** Appears beside every sign-up form. */
+    promise: string;
+    /** From MailerLite's embed code: the account number, the form's numeric id and its long key. */
+    mailerlite: { account: string; formId: string; formKey: string };
+  };
+  menuItems: readonly { title: string; url: string }[];
+  /**
+   * Brand colours, compiled into the stylesheets as $color-<key> (src/styles/_variables.sass)
+   * and used on the share cards. Text colours must meet WCAG AA (4.5:1) on white.
+   */
+  colors: {
+    /** Borders, backgrounds and buttons. */
+    primary: string;
+    /** `primary` darkened for text. */
+    'primary-text': string;
+    'primary-dark': string;
+    /** Card and hover backgrounds. */
+    'primary-light': string;
+    'primary-lighter': string;
+    'primary-border': string;
+    /** Hover border on glossary entries. */
+    'primary-border-hover': string;
+    accent: string;
+    /** Glossary tooltip background. */
+    'tooltip-bg': string;
+    /** The slim bar at the top of every page but the home page. */
+    'site-bar-bg': string;
+  };
+  /** Wording that names the site's subject, page by page. */
+  copy: {
+    /** Home page meta description. */
+    homeDescription: string;
+    /** Home page opening paragraph. */
+    homeLede: string;
+    /** Follows "Written by <author>, " on the home page. */
+    homeAuthor: string;
+    allPapersDescription: string;
+    themesDescription: string;
+    /** Opening paragraph of Research Themes. */
+    themesIntro: string;
+    glossaryDescription: string;
+    /** Appended to a glossary term's name for its <title>, e.g. "in Meditation Research". */
+    glossaryTermTitleSuffix: string;
+    subscribeDescription: string;
+    /** Opening paragraph of the /subscribe/ page. */
+    subscribeLede: string;
+    /** The summary line under the title in /llms.txt. */
+    llmsSummary: string;
+  };
+}

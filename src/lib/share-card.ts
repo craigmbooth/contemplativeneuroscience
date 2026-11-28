@@ -1,5 +1,5 @@
 // 1200×630 share-card images (og:image / twitter:image), rendered at build time:
-// the theme painting on the left, a pink rule, then a small label, the headline
+// the theme painting on the left, a rule in the brand colour, then a small label, the headline
 // and the site name. Satori lays the card out as SVG; sharp rasterizes it to JPEG.
 import { readFileSync } from 'node:fs';
 import { createRequire } from 'node:module';
@@ -7,6 +7,7 @@ import { join } from 'node:path';
 import satori from 'satori';
 import sharp from 'sharp';
 import { site } from '../site';
+import { PUBLIC_DIR } from './active-site.js';
 
 export const CARD_WIDTH = 1200;
 export const CARD_HEIGHT = 630;
@@ -20,7 +21,7 @@ const fonts = [
   { name: 'Jost', data: fontFile('jost', 'jost-latin-600-normal.woff'), weight: 600 as const },
 ];
 
-const publicFile = (src: string) => join(process.cwd(), 'public', decodeURI(src));
+const publicFile = (src: string) => join(PUBLIC_DIR, decodeURI(src));
 const dataUri = (mime: string, bytes: Buffer) => `data:${mime};base64,${bytes.toString('base64')}`;
 const logo = dataUri('image/png', await sharp(publicFile(site.logo)).resize(88, 88).png().toBuffer());
 
@@ -55,9 +56,9 @@ export async function renderShareCard({ label, headline, painting }: { label: st
     h('img', { width: PAINTING_WIDTH, height: CARD_HEIGHT }, undefined, { src: dataUri('image/jpeg', picture), width: PAINTING_WIDTH, height: CARD_HEIGHT }),
     h(
       'div',
-      { display: 'flex', flexDirection: 'column', flex: 1, padding: '56px 60px 48px 56px', borderLeft: '8px solid #f62681' },
+      { display: 'flex', flexDirection: 'column', flex: 1, padding: '56px 60px 48px 56px', borderLeft: `8px solid ${site.colors.primary}` },
       [
-        h('div', { fontFamily: 'Jost', fontWeight: 600, fontSize: 22, letterSpacing: 1.8, textTransform: 'uppercase', color: '#ca085d' }, label),
+        h('div', { fontFamily: 'Jost', fontWeight: 600, fontSize: 22, letterSpacing: 1.8, textTransform: 'uppercase', color: site.colors['primary-text'] }, label),
         h(
           'div',
           { fontFamily: 'Merriweather', fontWeight: 700, fontSize: headlineSize(headline), lineHeight: 1.22, color: '#333332', marginTop: 26 },

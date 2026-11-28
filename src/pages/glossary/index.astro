@@ -6,6 +6,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import { getPosts } from '../../lib/content';
 import { firstSentence, sortedDefinitions, termHeading, termIdsInMarkdown, termPath } from '../../lib/glossary';
 import { glossarySchema } from '../../lib/seo';
+import { site } from '../../site';
 
 const definitions = sortedDefinitions();
 const posts = await getPosts();
@@ -28,7 +29,7 @@ const schema = glossarySchema(definitions);
 ---
 <PageLayout
   title="Glossary of Technical Terms"
-  meta_description="Plain-language definitions of the technical terms in meditation and brain research, each linking to the paper summaries that use it."
+  meta_description={site.copy.glossaryDescription}
   schemas={[schema]}
 >
   <p>

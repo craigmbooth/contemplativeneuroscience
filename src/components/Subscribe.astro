@@ -1,8 +1,8 @@
 ---
-// Email sign-up box (MailerLite form 13082872). Use at most once per page.
+// Email sign-up box (the site's MailerLite form: site.newsletter.mailerlite). Use at most once per page.
 //
 // MailerLite's webforms.min.js does the submitting. It finds the form by these hooks,
-// so keep them: the container's id "mlb2-13082872" and classes ml-subscribe-form(-13082872),
+// so keep them: the container's id "mlb2-<formId>" and classes ml-subscribe-form(-<formId>),
 // .row-form / .row-success, form.ml-block-form, the .ml-validate-* field group,
 // input name="fields[email]", button.primary / button.loading and .ml-server-error.
 // It never adds styles of its own; ours are in components/_subscribe.sass.
@@ -15,10 +15,12 @@ export interface Props {
 }
 const { heading = 'Get new summaries by email', level = 2 } = Astro.props;
 const Heading = `h${level}` as 'h2' | 'h3';
-const action = 'https://assets.mailerlite.com/jsonp/864413/forms/115466837896987758/subscribe';
+const { account, formId, formKey } = site.newsletter.mailerlite;
+const formUrl = `https://assets.mailerlite.com/jsonp/${account}/forms/${formKey}`;
+const action = `${formUrl}/subscribe`;
 ---
 <section class="subscribe-box" aria-labelledby="subscribe-heading">
-  <div id="mlb2-13082872" class="ml-subscribe-form ml-subscribe-form-13082872">
+  <div id={`mlb2-${formId}`} class={`ml-subscribe-form ml-subscribe-form-${formId}`}>
     <div class="row-form">
       <Heading id="subscribe-heading" class="subscribe-heading">{heading}</Heading>
       <p class="subscribe-promise">{site.newsletter.promise}</p>
@@ -50,17 +52,17 @@ const action = 'https://assets.mailerlite.com/jsonp/864413/forms/115466837896987
   </div>
 </section>
 
-<script is:inline>
+<script is:inline set:html={`
   // Called by MailerLite's script after a successful sign-up.
-  function ml_webform_success_13082872() {
-    document.querySelectorAll('.ml-subscribe-form-13082872').forEach(function (box) {
+  function ml_webform_success_${formId}() {
+    document.querySelectorAll('.ml-subscribe-form-${formId}').forEach(function (box) {
       box.querySelector('.row-form').style.display = 'none';
       var done = box.querySelector('.row-success');
       done.style.display = 'block';
       done.querySelector('[tabindex]').focus();
     });
   }
-</script>
+`} />
 <script is:inline defer src="https://groot.mailerlite.com/js/w/webforms.min.js?v2d8fb22bb5b3677f161552cd9e774127"></script>
 {/* MailerLite's count of form views (part of their embed code). */}
-<script is:inline>fetch('https://assets.mailerlite.com/jsonp/864413/forms/115466837896987758/takel');</script>
+<script is:inline set:html={`fetch('${formUrl}/takel');`} />

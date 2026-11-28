@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import { SITE } from './lib/active-site.js';
 
 // Front matter keys may be present but empty (e.g. `doi:`), as Jekyll allowed.
 const optionalString = z.string().nullish().transform((v) => v || undefined);
@@ -31,7 +32,7 @@ export const STUDY_TYPES = [
 const posts = defineCollection({
   loader: glob({
     pattern: '[^_]*.md',
-    base: './src/content/posts',
+    base: `./sites/${SITE}/posts`,
     generateId: ({ entry }) => entry.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, ''),
   }),
   schema: z.object({
@@ -44,7 +45,7 @@ const posts = defineCollection({
     date: z.coerce.date(),
     /** Date of the last substantive revision; used for dateModified and sitemap lastmod. */
     last_modified_at: optionalDate,
-    /** One theme key or a list of them (see src/content/themes/). */
+    /** One theme key or a list of them (see sites/<name>/themes/). */
     theme: z
       .union([z.string(), z.array(z.string())])
       .nullish()
@@ -100,7 +101,7 @@ function checkPaperMatchesCitation(
 
 // Research themes, served at /themes/<theme_key>/.
 const themes = defineCollection({
-  loader: glob({ pattern: '*.md', base: './src/content/themes' }),
+  loader: glob({ pattern: '*.md', base: `./sites/${SITE}/themes` }),
   schema: z.object({
     title: z.string(),
     theme_key: z.string(),

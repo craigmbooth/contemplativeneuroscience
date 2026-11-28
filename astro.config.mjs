@@ -5,9 +5,15 @@ import remarkDirective from 'remark-directive';
 import remarkGlossaryTerms, { SMARTYPANTS_OPTIONS } from './src/lib/remark-glossary-terms.js';
 import rehypeImageDimensions from './src/lib/rehype-image-dimensions.js';
 import rehypeFigures from './src/lib/rehype-figures.js';
+import { SITE, PUBLIC_DIR } from './src/lib/active-site.js';
+import { site } from './src/site.ts';
 
 export default defineConfig({
-  site: 'https://contemplativeneuroscience.com',
+  site: site.url,
+  // The active site's own public files (SITE env var; see src/lib/active-site.js).
+  publicDir: PUBLIC_DIR,
+  // A cache per site, so rendered markdown from one site never turns up in another's build.
+  cacheDir: `./node_modules/.astro/${SITE}`,
   // Every page is served as /slug/ (directory index), matching the Jekyll permalinks.
   trailingSlash: 'always',
   build: { format: 'directory' },

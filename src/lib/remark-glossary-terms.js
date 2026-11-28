@@ -9,6 +9,7 @@
 import { visit } from 'unist-util-visit';
 import remarkSmartypants from 'remark-smartypants';
 import { loadDefinitions, termPath } from './definitions.js';
+import { SITE } from './active-site.js';
 
 /**
  * Smart-typography settings shared with astro.config.mjs (kramdown-style dashes).
@@ -47,7 +48,7 @@ export default function remarkGlossaryTerms() {
       const attrs = node.attributes ?? {};
       const position = definitions.findIndex((d) => d.term === attrs.id);
       if (position === -1) {
-        throw new Error(`Unknown glossary term "${attrs.id}" at ${where}. Add it to src/data/definitions.yaml.`);
+        throw new Error(`Unknown glossary term "${attrs.id}" at ${where}. Add it to sites/${SITE}/definitions.yaml.`);
       }
       const definition = definitions[position];
 

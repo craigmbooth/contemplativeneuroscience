@@ -6,6 +6,8 @@ This document contains important context for AI assistants working on this websi
 
 An [Astro](https://astro.build) static site (migrated from Jekyll in November 2026) that collects accessible summaries of peer-reviewed research at the intersection of meditation and brain science. It is deployed to GitHub Pages at https://contemplativeneuroscience.com.
 
+The code can serve more than one site. Everything specific to a site lives in its own folder, `sites/<name>/`: its settings (`site.ts`: title, URL, author, brand colours, wording, analytics and MailerLite ids), posts, themes, glossary, About page and `public/` files. All the code in `src/` is shared. A build picks a site with the `SITE` environment variable, which defaults to `contemplative` (`src/lib/active-site.js`). Anything that names a site's subject belongs in its `site.ts` (`copy`), not in `src/`.
+
 ## Commands
 
 Requires Node >= 22.23.4 (see `.nvmrc` / `package.json` engines).
@@ -16,7 +18,10 @@ npm run dev      # dev server (Astro 7 runs it in the background; stop with `npx
 npm run build    # static build into dist/, then checks its structured data (fails on gaps)
 npm run preview  # serve dist/
 npm run check    # type-check .astro/.ts files
+SITE=<name> npm run build   # any command, for another site under sites/
 ```
+
+To add a site: copy `sites/contemplative/` to `sites/<name>/`, edit its `site.ts` and content, and register it in `src/site.ts`.
 
 Always run `npm run check` and `npm run build` before committing.
 
@@ -24,16 +29,22 @@ Always run `npm run check` and `npm run build` before committing.
 
 `.github/workflows/deploy.yml` builds and deploys on every push to `master` (GitHub Pages source: "GitHub Actions"). Nothing generated is committed: CSS and minified JS are produced by the build.
 
-After each deploy, the workflow submits the pages whose HTML changed (plus any removed pages) to IndexNow (`scripts/indexnow.mjs`), which notifies Bing and other participating search engines. It finds them by comparing the new build with the live site before deploying. The key file `public/92733d5f979cf4080a9a770b5046e59f.txt` must stay published (the key is public by design). To resubmit every page, run the workflow manually with "Submit every page" ticked.
+After each deploy, the workflow submits the pages whose HTML changed (plus any removed pages) to IndexNow (`scripts/indexnow.mjs`), which notifies Bing and other participating search engines. It finds them by comparing the new build with the live site before deploying. The key file `sites/contemplative/public/92733d5f979cf4080a9a770b5046e59f.txt` must stay published (the key is public by design). To resubmit every page, run the workflow manually with "Submit every page" ticked.
 
 ## Layout
 
 ```
+sites/<name>/          One folder per site (see Project Overview)
+  site.ts             Settings: title, URL, author, startHere, themeOrder, colors, copy, analytics, MailerLite
+  posts/              Paper summaries: YYYY-MM-DD-slug.md -> /slug/ (files starting with _ are ignored)
+  themes/             Research themes -> /themes/<theme_key>/
+  definitions.yaml    Glossary terms (tooltips, /glossary/ index and a page per term)
+  pages/about.md      The About page (served by src/pages/about.astro)
+  public/             Copied verbatim: images, favicons, CNAME, robots.txt, IndexNow key
 src/
-  content/posts/      Paper summaries: YYYY-MM-DD-slug.md -> /slug/ (files starting with _ are ignored)
-  content/themes/     Research themes -> /themes/<theme_key>/
+  site.ts             The active site's settings (register each site here); site-config.ts is their type
+  lib/active-site.js  SITE env var -> sites/<name>/ paths (used by the config, build and scripts/)
   content.config.ts   Front-matter schemas for posts and themes
-  data/definitions.yaml  Glossary terms (tooltips, /glossary/ index and a page per term)
   layouts/            BaseLayout (document shell), DefaultLayout, PageLayout, PostLayout, ThemeLayout
   components/         Head, Header, Footer, Breadcrumbs, PaperMeta, Subscribe (email sign-up box)
   lib/content.ts      Collection helpers (sorting, URLs, theme lookups, markdownify)
@@ -41,20 +52,19 @@ src/
   lib/remark-glossary-terms.js  Renders :term{...} directives as glossary tooltips
   lib/rehype-image-dimensions.js  Adds width/height (+ lazy loading) to markdown images
   lib/rehype-figures.js  Wraps images with alt text in <figure> with the alt as <figcaption>
-  lib/images.js       publicImageSize(): pixel size of a file in public/
+  lib/images.js       publicImageSize(): pixel size of a file in the site's public/
   pages/              Routes; [slug].astro = posts, themes/[theme].astro = themes, glossary/[term].astro = glossary terms
-  pages/css/[name].css.ts       Compiles src/styles/<name>.sass -> /css/<name>.css
+  pages/css/[name].css.ts       Compiles src/styles/<name>.sass -> /css/<name>.css; serves styles/static/ (normalize, print) as is
   pages/assets/js/[name].js.ts  Serves src/scripts/<name>.js -> /assets/js/<name>.js and <name>.min.js
   pages/feed.xml.ts, sitemap.xml.ts
   styles/             Sass (indented syntax), incl. vendored Bourbon
   scripts/            Browser JS (plain scripts, not modules)
   pages/llms.txt.ts, llms-full.txt.ts  AI-facing index and full text of every summary (lib/llms.ts)
-public/               Copied verbatim: images, favicons, CNAME, robots.txt, print/normalize CSS
 ```
 
 ## Writing Posts
 
-Copy `src/content/posts/_template_post.md`. Glossary tooltips use markdown directives:
+Copy `sites/contemplative/posts/_template_post.md`. Glossary tooltips use markdown directives:
 
 ```md
 :term{id="eeg"}                          EEG
@@ -63,7 +73,7 @@ Copy `src/content/posts/_template_post.md`. Glossary tooltips use markdown direc
 :term[inflammatory]{id="inflammation"}   custom link text
 ```
 
-An unknown term id fails the build, and so does an unknown theme key or an image path that is not in `public/`. An image alone in its paragraph becomes a figure whose caption is its alt text (built into the HTML); on posts, `scripts/figures.js` adds "Enlarge figure" to figures shown smaller than their real size, opening a full-screen viewer. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
+An unknown term id fails the build, and so does an unknown theme key or an image path that is not in the site's `public/`. An image alone in its paragraph becomes a figure whose caption is its alt text (built into the HTML); on posts, `scripts/figures.js` adds "Enlarge figure" to figures shown smaller than their real size, opening a full-screen viewer. Link to other posts by URL, e.g. `[Lutz et al. 2004](/high-amplitude-gamma-synchrony/)`.
 
 Front matter: `title` (a plain-language headline stating the finding, not the paper's title), `paper_title` (the paper's own title; used in structured data and All Papers search), `date`, `theme` (one key or a list), `doi`, `paper` (the paper field by field: `authors` as APA "Surname, I. I." strings, `journal`, `year`, optional `volume`, `issue`, `pages`; the build fails if these don't all appear in `citation`), `meta_description` (≤ 155 chars; over 160 fails the build), `snippet`, `citation` (markdown), optional `seo_title` (≤ 60 chars; used for `<title>` when the title is long), `last_modified_at` (drives `dateModified` and sitemap `lastmod`), `schema_image`.
 
@@ -86,7 +96,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 ## Styles
 
 - Sass indented syntax (`.sass`), entry points `main`, `tooltip`, `pages`, `components` in `src/styles/`; partials in `src/styles/{components,pages,mixins}`.
-- Semantic variables live in `src/styles/_variables.sass` — check there before adding colors or dimensions.
+- Semantic variables live in `src/styles/_variables.sass` — check there before adding colors or dimensions. Brand colours (pinks, tooltip, slim bar) come from `colors` in the site's `site.ts`, which the stylesheet build turns into `$color-<key>` (the `skin` import); the share cards use them too. Everything else in the styles is shared.
 - Text must meet WCAG AA contrast (4.5:1). Use `$color-primary-text` (not `$color-primary`) for pink text and `$color-text-muted` (#767676) as the lightest grey for text; `$color-primary` is for borders and backgrounds.
 - Dart Sass deprecation warnings (`@import`, Bourbon's old syntax) are silenced in `pages/css/[name].css.ts`; Dart Sass 3 will require migrating to `@use` and dropping Bourbon.
 - Fonts: Google Fonts loads only Jost 400–700 (with italics) and Merriweather 400/700 (`Head.astro`). Using another weight or Merriweather italic means adding it to that URL, or the browser fakes it.
@@ -97,7 +107,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 ## Gotchas
 
 - Astro's HTML compression removes whitespace between elements. Where inline elements need a gap (nav links, "Themes:" label), emit `{' '}` explicitly.
-- Image width/height come from the file at render time and are cached with the rendered markdown (`.astro/data-store.json` for dev, `node_modules/.astro/data-store.json` for builds). If you replace an image without editing its post, delete both files (and restart `npm run dev`) to pick up the new size. CI builds start clean.
+- Image width/height come from the file at render time and are cached with the rendered markdown (`.astro/data-store.json` for dev, `node_modules/.astro/<site>/data-store.json` for builds). If you replace an image without editing its post, delete both files (and restart `npm run dev`) to pick up the new size. CI builds start clean.
 - Smart typography matches kramdown: `--` → en dash, `---` → em dash (`SMARTYPANTS_OPTIONS`).
 - Header: the home page keeps the full starfield banner; every other page gets the slim `.site-bar` (`Header.astro`, `styles/components/_site-bar.sass`) so content starts near the top. Both share the `.menu-toggle` / `.custom-links` hooks used by `scripts/bundle.js`.
 - Social cards (og:title) use the headline (`title`); the browser/search `<title>` uses `seo_title` when set.
@@ -111,7 +121,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 - Listings show a `PaperMeta` line (date, study type, theme links).
 - All Papers (`pages/all-papers.astro`, `scripts/all-papers.js`) lists newest summaries first. Search matches every word typed across the headline, snippet, citation, themes and the glossary terms the summary links to (including the term's Wikipedia name, so "default mode network" finds DMN), highlights matches, and names a matched term that isn't visible ("Covers: DMN"). Sort and study type are selects; all three controls are mirrored in the URL (`?q=`, `?type=`, `?sort=`).
 - Research Themes (`pages/themes/index.astro`) shows each theme as its question, with its short answer (the bold opening sentence of `research_summary`, via `themeShortAnswer()`; keep it there) and its papers.
-- The home page has a hand-picked "Start Here" set (`site.startHere` in `src/site.ts`; an unknown slug fails the build), the themes as questions (order set by `site.themeOrder`, shared with Research Themes and the 404 page; thumbnails in `public/assets/images/themes/thumbs/`, 240px WebP), and the 5 newest papers with date, study type and theme; every post ends with up to 4 Related Papers (`relatedPosts()`: papers sharing a theme, nearest in date first, so links spread across the archive) plus links to its theme pages.
+- The home page has a hand-picked "Start Here" set (`site.startHere` in `sites/<name>/site.ts`; an unknown slug fails the build), the themes as questions (order set by `site.themeOrder`, shared with Research Themes and the 404 page; thumbnails in `sites/<name>/public/assets/images/themes/thumbs/`, 240px WebP), and the 5 newest papers with date, study type and theme; every post ends with up to 4 Related Papers (`relatedPosts()`: papers sharing a theme, nearest in date first, so links spread across the archive) plus links to its theme pages.
 - The 404 page (`pages/404.astro`, noindex) offers a search that opens All Papers with `?q=`, which All Papers applies on load, plus the Start Here papers and the theme questions (`site.themeOrder`, shared with the home page).
 - `<title>` gets the " | Contemplative Neuroscience" suffix only when the result is ≤ 60 characters.
 

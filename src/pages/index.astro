@@ -27,8 +27,7 @@ const meta = async (post: Post) => ({ post, type: post.data.study?.type, themes:
 const startCards = await Promise.all(startHere.map(meta));
 const recentItems = await Promise.all(recent.map(meta));
 
-const description =
-  'Accessible summaries of peer-reviewed research on meditation and the brain, from jhana and gamma waves to sleep, immune function, and mind wandering.';
+const description = site.copy.homeDescription;
 ---
 <DefaultLayout
   title="Home"
@@ -39,11 +38,10 @@ const description =
 
     <section class="home-intro">
       <p class="home-lede">
-        Plain-English summaries of peer-reviewed studies on meditation and the brain. Each one explains what the
-        researchers did, what they found, and how much weight the result can bear.
+        {site.copy.homeLede}
       </p>
       <p class="home-author">
-        Written by {site.author}, a meditator with a background in science.{' '}
+        Written by {site.author}, {site.copy.homeAuthor}{' '}
         <a href="/about/">About me and this site</a>
       </p>
     </section>

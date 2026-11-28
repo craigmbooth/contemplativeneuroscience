@@ -25,10 +25,10 @@ study:  # "Study at a glance" box; only facts stated in the post
   limitations: ""  # shown as "Keep in mind": what the design can and cannot show
 ---
 <!--
-Copy to src/content/posts/YYYY-MM-DD-slug.md; the page is served at /slug/.
+Copy to sites/<name>/posts/YYYY-MM-DD-slug.md; the page is served at /slug/.
 Files starting with "_" are ignored by the build.
 
-Glossary tooltips (terms live in src/data/definitions.yaml):
+Glossary tooltips (terms live in sites/<name>/definitions.yaml):
   :term{id="eeg"}                          -> EEG
   :term{id="mindfulness" case="lower"}     -> mindfulness
   :term{id="eeg" plural}                   -> EEGs (title + "s")

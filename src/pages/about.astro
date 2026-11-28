@@ -1,0 +1,10 @@
+---
+// The About page: the active site's sites/<name>/pages/about.md (its front matter sets the layout).
+import { SITE } from '../lib/active-site.js';
+
+const pages = import.meta.glob<{ Content: (props: Record<string, never>) => unknown }>('/sites/*/pages/about.md', { eager: true });
+const page = pages[`/sites/${SITE}/pages/about.md`];
+if (!page) throw new Error(`sites/${SITE}/pages/about.md is missing.`);
+const { Content } = page;
+---
+<Content />

@@ -47,7 +47,7 @@ export async function llmsTxt(): Promise<string> {
 
   return `# ${site.title}
 
-> Accessible summaries of peer-reviewed research on meditation and the brain, written by ${site.author}, a lay meditation practitioner with a background in science.
+> ${site.copy.llmsSummary}
 
 Each summary explains one published paper: the background, what the researchers did, the main result, other takeaways, and the full citation with its DOI. The summaries describe research findings; they are not medical advice.
 

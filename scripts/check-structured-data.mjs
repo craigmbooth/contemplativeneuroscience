@@ -14,11 +14,13 @@
 // DefinedTerm (@id = the page) with a BreadcrumbList Home > Glossary > term.
 // Every indexable page must have at least one JSON-LD block, and every block must
 // parse and carry @context https://schema.org and an @type.
+// Checks the site picked by the SITE environment variable (src/lib/active-site.js).
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
+import { PUBLIC_DIR, sitePath } from '../src/lib/active-site.js';
 
 const DIST = 'dist';
-const origin = `https://${readFileSync('public/CNAME', 'utf8').trim()}`;
+const origin = `https://${readFileSync(join(PUBLIC_DIR, 'CNAME'), 'utf8').trim()}`;
 const errors = [];
 const checked = new Set(); // pages already checked in full
 const fail = (page, msg) => errors.push(`${page}: ${msg}`);
@@ -76,7 +78,7 @@ function checkCanonical(page, html, url) {
 const read = (path) => (existsSync(path) ? readFileSync(path, 'utf8') : null);
 
 // Posts
-const postsDir = 'src/content/posts';
+const postsDir = sitePath('posts');
 const posts = readdirSync(postsDir)
   .filter((f) => /^\d{4}-\d{2}-\d{2}-.+\.md$/.test(f))
   .map((f) => ({ file: f, slug: f.slice(11, -3), fm: frontMatter(join(postsDir, f)) }));
@@ -126,7 +128,7 @@ for (const { file, slug, fm } of posts) {
 }
 
 // Theme pages
-const themesDir = 'src/content/themes';
+const themesDir = sitePath('themes');
 for (const f of readdirSync(themesDir).filter((f) => f.endsWith('.md'))) {
   const key = field(frontMatter(join(themesDir, f)), 'theme_key');
   const page = `/themes/${key}/`;
@@ -152,7 +154,7 @@ for (const f of readdirSync(themesDir).filter((f) => f.endsWith('.md'))) {
 
 // Glossary: the index is a DefinedTermSet holding every term; each term page has a
 // DefinedTerm whose @id is the page, inside that set, and a BreadcrumbList via the Glossary.
-const termCount = (readFileSync('src/data/definitions.yaml', 'utf8').match(/^- term: /gm) ?? []).length;
+const termCount = (readFileSync(sitePath('definitions.yaml'), 'utf8').match(/^- term: /gm) ?? []).length;
 {
   const page = '/glossary/';
   checked.add(page);
