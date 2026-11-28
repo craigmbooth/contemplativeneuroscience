@@ -66,6 +66,8 @@ src/
 
 ## Writing Posts
 
+**Read `STYLE.md` before writing or editing a summary or a theme's research summary.** It is the style guide for both sites: voice, what goes in each section and in the front matter, numbers and statistics, causal language and caveats, conflicts of interest, quotes, figure captions, glossary use, and checking against the full text. This section covers the mechanics.
+
 Copy `sites/contemplative/posts/_template_post.md`. Glossary tooltips use markdown directives:
 
 ```md
@@ -136,7 +138,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 
 - Each post opens with a byline (author, published/updated dates), an "In brief" box showing its `snippet`, and a "Study at a glance" box from the `study` front matter (design, participants, method, measures, limitations). Keep snippets self-contained (60–75 words: the question, what the researchers did, the finding with its numbers, and the main caveat when the design is weak), and keep `study` to facts stated in the post.
 - Theme pages show a "What the Research Says" synthesis from the theme's `research_summary` (markdown); update it when a paper is added to the theme.
-- Post template headings: Background Information, What They Did, `One Big Result: <the finding>`, Miscellaneous Interesting Takeaways. The One Big Result heading should state the result.
+- Post template headings: Background Information, What They Did, `One Big Result: <the finding>`, Miscellaneous Interesting Takeaways, Final Reflection. The One Big Result heading should state the result (see `STYLE.md`).
 - `/llms.txt` and `/llms-full.txt` are generated from the collections at build time; don't hand-edit them.
 - Each post's Article says it `isBasedOn` the paper: a ScholarlyArticle identified by its DOI URL, with authors, journal, volume, issue and pages from the `paper` front matter (`paperSchema()`).
 - Theme pages, All Papers and Research Themes are `CollectionPage`s whose `mainEntity` is an `ItemList` of the pages they list; a theme's `abstract` is its "What the Research Says" text. The home page's WebSite has a `SearchAction` pointing at `/all-papers/?q=`.
