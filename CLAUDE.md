@@ -149,6 +149,7 @@ Every URL from the Jekyll site is preserved (pages, `/css/*.css`, `/assets/js/*.
 
 ## Share Cards and Images
 
+- **Read `IMAGES.md` before writing a Midjourney (or other image-generator) prompt, or adding artwork.** It describes each site's visual style (Contemplative Neuroscience's textured oil paintings; Training Evidence's mid-century modern prints), the sizes and crops the art must survive, and a prompt recipe with examples.
 - Every post and theme page shares a generated 1200×630 card (`lib/share-card.ts`): the theme painting on the left (a post's first theme), then the study type and theme, the headline (a theme's `question`) and the site name. Satori lays it out with the Jost and Merriweather files from `@fontsource`, and sharp writes a progressive JPEG. The build serves them at `/assets/cards/<slug>.jpg` and `/assets/cards/themes/<theme_key>.jpg` (`pages/assets/cards/`), so they're never committed and update whenever a headline changes. The headline size steps down with length (`headlineSize()`); check the card of any headline over ~165 characters.
 - Posts use `og:type` article. A post's Article JSON-LD lists its card first, then its own image (`postImage()`: `schema_image`, else the first figure; never the logo). `twitterCard()` picks `summary_large_image` for landscape images at least 600×315, so the cards get large cards; pages without a card (home, About, glossary) share the logo as a compact card.
 - Keep images light: theme images are 800×800 WebP (q80), the header JPEG is progressive q78, the logo is 400×400.
